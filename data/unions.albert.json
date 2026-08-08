@@ -272,5 +272,20 @@
   "notes": [
    "אב הילדה לא תועד."
   ]
+ },
+ {
+  "id": "u-natalie-children",
+  "branch": "albert",
+  "spouses": [
+   "p-natalie"
+  ],
+  "children": [
+   "p-ili-albert",
+   "p-noya-albert"
+  ],
+  "marriage": {},
+  "notes": [
+   "אב הילדים לא תועד."
+  ]
  }
 ]

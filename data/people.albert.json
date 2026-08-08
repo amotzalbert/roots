@@ -1536,5 +1536,53 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-ili-albert",
+  "branch": "albert",
+  "names": {
+   "he": "אילי",
+   "latin": "Ili",
+   "given": "Ili",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בנה של נטלי אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-noya-albert",
+  "branch": "albert",
+  "names": {
+   "he": "נויה",
+   "latin": "Noya",
+   "given": "Noya",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של נטלי אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]

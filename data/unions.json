@@ -284,6 +284,21 @@
   ]
  },
  {
+  "id": "u-natalie-children",
+  "branch": "albert",
+  "spouses": [
+   "p-natalie"
+  ],
+  "children": [
+   "p-ili-albert",
+   "p-noya-albert"
+  ],
+  "marriage": {},
+  "notes": [
+   "אב הילדים לא תועד."
+  ]
+ },
+ {
   "id": "u-m-bukszpan",
   "branch": "moskal",
   "spouses": [
@@ -666,6 +681,52 @@
   },
   "notes": [
    "★ נקודת המפגש בין שני ענפי המחקר: דוד אלברט (צד אבא) ⚭ דבורה מוסקל (צד אמא)."
+  ]
+ },
+ {
+  "id": "u-aya-children",
+  "branch": "both",
+  "spouses": [
+   "p-aya-albert"
+  ],
+  "children": [
+   "p-neta-albert",
+   "p-maayan-albert",
+   "p-moran-albert"
+  ],
+  "marriage": {},
+  "notes": [
+   "בן/בת הזוג לא תועד."
+  ]
+ },
+ {
+  "id": "u-michal-children",
+  "branch": "both",
+  "spouses": [
+   "p-michal-albert"
+  ],
+  "children": [
+   "p-nitzan-albert",
+   "p-rotem-albert",
+   "p-aviv-albert"
+  ],
+  "marriage": {},
+  "notes": [
+   "בן/בת הזוג לא תועד."
+  ]
+ },
+ {
+  "id": "u-boaz-children",
+  "branch": "both",
+  "spouses": [
+   "p-boaz-albert"
+  ],
+  "children": [
+   "p-tamar-albert"
+  ],
+  "marriage": {},
+  "notes": [
+   "בן/בת הזוג לא תועד."
   ]
  }
 ]

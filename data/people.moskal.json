@@ -1417,5 +1417,173 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-neta-albert",
+  "branch": "both",
+  "names": {
+   "he": "נטע",
+   "latin": "Neta",
+   "given": "Neta",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בנה של איה אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-maayan-albert",
+  "branch": "both",
+  "names": {
+   "he": "מעיין",
+   "latin": "Maayan",
+   "given": "Maayan",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בנה של איה אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-moran-albert",
+  "branch": "both",
+  "names": {
+   "he": "מורן",
+   "latin": "Moran",
+   "given": "Moran",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בנה של איה אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-nitzan-albert",
+  "branch": "both",
+  "names": {
+   "he": "ניצן",
+   "latin": "Nitzan",
+   "given": "Nitzan",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של מיכל אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rotem-albert",
+  "branch": "both",
+  "names": {
+   "he": "רותם",
+   "latin": "Rotem",
+   "given": "Rotem",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של מיכל אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aviv-albert",
+  "branch": "both",
+  "names": {
+   "he": "אביב",
+   "latin": "Aviv",
+   "given": "Aviv",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של מיכל אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tamar-albert",
+  "branch": "both",
+  "names": {
+   "he": "תמר",
+   "latin": "Tamar",
+   "given": "Tamar",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתו של בעז אלברט."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]

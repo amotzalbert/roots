@@ -368,6 +368,22 @@
   "terms": "נטלי אלברט Natalie Albert נטלי אלברט"
  },
  {
+  "id": "p-ili-albert",
+  "type": "person",
+  "branch": "albert",
+  "label": "אילי",
+  "sub": "Ili",
+  "terms": "אילי Ili אילי"
+ },
+ {
+  "id": "p-noya-albert",
+  "type": "person",
+  "branch": "albert",
+  "label": "נויה",
+  "sub": "Noya",
+  "terms": "נויה Noya נויה"
+ },
+ {
   "id": "p-aron-bukszpan",
   "type": "person",
   "branch": "moskal",
@@ -678,6 +694,62 @@
   "label": "איה אלברט",
   "sub": "Aya Albert",
   "terms": "איה אלברט Aya Albert איה אלברט"
+ },
+ {
+  "id": "p-neta-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "נטע",
+  "sub": "Neta",
+  "terms": "נטע Neta נטע"
+ },
+ {
+  "id": "p-maayan-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "מעיין",
+  "sub": "Maayan",
+  "terms": "מעיין Maayan מעיין"
+ },
+ {
+  "id": "p-moran-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "מורן",
+  "sub": "Moran",
+  "terms": "מורן Moran מורן"
+ },
+ {
+  "id": "p-nitzan-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "ניצן",
+  "sub": "Nitzan",
+  "terms": "ניצן Nitzan ניצן"
+ },
+ {
+  "id": "p-rotem-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "רותם",
+  "sub": "Rotem",
+  "terms": "רותם Rotem רותם"
+ },
+ {
+  "id": "p-aviv-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "אביב",
+  "sub": "Aviv",
+  "terms": "אביב Aviv אביב"
+ },
+ {
+  "id": "p-tamar-albert",
+  "type": "person",
+  "branch": "both",
+  "label": "תמר",
+  "sub": "Tamar",
+  "terms": "תמר Tamar תמר"
  },
  {
   "id": "pl-wojslawice",
