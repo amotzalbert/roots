@@ -782,13 +782,25 @@
    "place": "ua-volodymyr",
    "grade": "probable"
   },
-  "death": null,
+  "death": {
+   "date": "1942",
+   "place": "pl-chelm",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 54. דף עד 572892, שמילאה בתה מלכה מוסקל.",
+    "לא נמלטה מזרחה עם ילדיה."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
   "grade": "probable",
   "notes": [
    "בתם של שלום ליבן וחיה, מוולודימיר־ווהלינסק."
   ],
   "sources": [
-   "s-m-liben-1865"
+   "s-m-liben-1865",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [],
@@ -1264,16 +1276,25 @@
   },
   "death": {
    "date": "1942",
+   "place": "pl-chelm",
    "grade": "probable",
    "notes": [
-    "נספתה בשואה — לפי עץ המשפחה בג'ני."
+    "נרצחה בגטו חלם ב-1942. דפי עד 774797 ו-5584483, שמילאה כלתה מלכה מוסקל.",
+    "⚠ שני המילויים נותנים שני גילאים: 59 ו-65. גיל 65 (נ' ~1877) עקבי יותר עם גיל בתה לאה (45); אקט 18/1903 נותן ~1885. לא הוכרע.",
+    "⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot",
+    "s-m-yizkor-necrology"
    ]
   },
   "grade": "documented",
   "occupation": "",
   "notes": [],
   "sources": [
-   "s-m-act-1903-18"
+   "s-m-act-1903-18",
+   "s-m-yizkor-necrology",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [
@@ -1582,6 +1603,314 @@
    "בתו של בעז אלברט."
   ],
   "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tova-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "טובה מוסקל",
+   "latin": "Tova Moskal",
+   "given": "Tova",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1922",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 20 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 20. דפי עד 774800 ו-5584482."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; רווקה. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע.",
+   "ככל הנראה «טובל'ה» שבנקרולוגיית ספר הזיכרון, עמ' 507. מופיעה גם כ«טאובה»."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-sara-soche-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "שרה־סוחה מוסקל",
+   "latin": "Sara Soche Moskal",
+   "given": "Sara",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1918",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 24 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 24. דפי עד 844243 ו-5584484."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; רווקה. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע.",
+   "ככל הנראה «סיצ'ה» שבנקרולוגיית ספר הזיכרון, עמ' 507."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-lea-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "לאה לבית מוסקל",
+   "latin": "Lea née Moskal",
+   "given": "Lea",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1897",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 45 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה ב-1942, בגיל 45. דף עד 5584485."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; נשואה, שם בעלה לא נרשם. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-etel-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "אטל בלנדר לבית מוסקל",
+   "latin": "Etel Blander née Moskal",
+   "given": "Etel",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "⚠ שני המילויים נותנים שני גילאים: 30 ו-40. לא הוכרע."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942. דפי עד 318626 ו-5584486."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל. נשואה למשה בלנדר. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-shmuel-schafir-brother",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "שמואל שאפיר",
+   "latin": "Shmuel Schafir",
+   "given": "Shmuel",
+   "surname": "Schafir",
+   "variants": [
+    "Shafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1921",
+   "grade": "inference",
+   "notes": [
+    "נגזר מגיל 21 בעת מותו."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1 JAN 1942",
+   "place": "Kostroma, USSR",
+   "grade": "probable",
+   "notes": [
+    "נפל בקרב בקוסטרומה שבברית המועצות, 1 בינואר 1942, בגיל 21. לפי דף עד שמילאה אחותו מלכה מוסקל."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "occupation": "נגר",
+  "grade": "probable",
+  "notes": [
+   "אחיה של מלכה מוסקל לבית שאפיר; בנם של מנחם מנדל שאפיר ופרל («פנינה») לבית ליבן."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-shalom-schafir-brother",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "שלום שאפיר",
+   "latin": "Shalom Schafir",
+   "given": "Shalom",
+   "surname": "Schafir",
+   "variants": [
+    "Shafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1912",
+   "grade": "inference",
+   "notes": [
+    "נגזר מגיל 30 בעת מותו."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "place": "Kostroma, USSR",
+   "grade": "probable",
+   "notes": [
+    "נפל בקרב בקוסטרומה שבברית המועצות, 1942, בגיל 30. לפי דף עד שמילאה אחותו מלכה מוסקל."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ]
+  },
+  "occupation": "",
+  "grade": "probable",
+  "notes": [
+   "אחיה של מלכה מוסקל לבית שאפיר; בנם של מנחם מנדל שאפיר ופרל («פנינה») לבית ליבן. נשוי לרבקה לבית איידלמן."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-rivka-eidelman",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "רבקה שאפיר לבית איידלמן",
+   "latin": "Rivka Schafir née Eidelman",
+   "given": "Rivka",
+   "surname": "Eidelman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "grade": "probable",
+  "notes": [
+   "אשתו של שלום שאפיר, לפי דף העד שמילאה מלכה מוסקל. גורלה לא ידוע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null

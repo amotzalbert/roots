@@ -214,7 +214,9 @@
    "p-perl-liben"
   ],
   "children": [
-   "p-malka-schafir"
+   "p-malka-schafir",
+   "p-shmuel-schafir-brother",
+   "p-shalom-schafir-brother"
   ],
   "marriage": {
    "grade": "probable"
@@ -334,7 +336,10 @@
    "sources": [
     "s-m-act-1903-18"
    ]
-  }
+  },
+  "notes": [
+   "⚠ דפי העד שמילאה מלכה מוסקל מוסיפים לזוג הזה ארבע בנות — טובה, שרה־סוחה, לאה ואטל — אך נוקבים באב כ«שמואל» ולא «יודקה־לייבה». הבנות נרשמו כאנשים נפרדים ולא חוברו לזוג, עד שהסתירה תוכרע."
+  ]
  },
  {
   "id": "u-cross-branch-david-dvora",
@@ -400,6 +405,21 @@
   "marriage": {},
   "notes": [
    "בן/בת הזוג לא תועד."
+  ]
+ },
+ {
+  "id": "u-shalom-rivka",
+  "branch": "moskal",
+  "spouses": [
+   "p-shalom-schafir-brother",
+   "p-rivka-eidelman"
+  ],
+  "children": [],
+  "marriage": {
+   "grade": "probable"
+  },
+  "notes": [
+   "לפי דף עד שמילאה מלכה מוסקל."
   ]
  }
 ]

@@ -752,6 +752,62 @@
   "terms": "תמר Tamar תמר"
  },
  {
+  "id": "p-tova-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "טובה מוסקל",
+  "sub": "Tova Moskal",
+  "terms": "טובה מוסקל Tova Moskal טובה מוסקל"
+ },
+ {
+  "id": "p-sara-soche-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שרה־סוחה מוסקל",
+  "sub": "Sara Soche Moskal",
+  "terms": "שרה־סוחה מוסקל Sara Soche Moskal שרהסוחה מוסקל"
+ },
+ {
+  "id": "p-lea-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "לאה לבית מוסקל",
+  "sub": "Lea née Moskal",
+  "terms": "לאה לבית מוסקל Lea née Moskal לאה לבית מוסקל"
+ },
+ {
+  "id": "p-etel-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אטל בלנדר לבית מוסקל",
+  "sub": "Etel Blander née Moskal",
+  "terms": "אטל בלנדר לבית מוסקל Etel Blander née Moskal אטל בלנדר לבית מוסקל"
+ },
+ {
+  "id": "p-shmuel-schafir-brother",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמואל שאפיר",
+  "sub": "Shmuel Schafir",
+  "terms": "שמואל שאפיר Shmuel Schafir Shafir שמואל שאפיר"
+ },
+ {
+  "id": "p-shalom-schafir-brother",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שלום שאפיר",
+  "sub": "Shalom Schafir",
+  "terms": "שלום שאפיר Shalom Schafir Shafir שלום שאפיר"
+ },
+ {
+  "id": "p-rivka-eidelman",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רבקה שאפיר לבית איידלמן",
+  "sub": "Rivka Schafir née Eidelman",
+  "terms": "רבקה שאפיר לבית איידלמן Rivka Schafir née Eidelman רבקה שאפיר לבית איידלמן"
+ },
+ {
   "id": "pl-wojslawice",
   "type": "place",
   "branch": "moskal",

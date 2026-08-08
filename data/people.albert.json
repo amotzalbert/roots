@@ -1088,7 +1088,14 @@
     "** EXACT DATE, from the family's 2015 Polish citizenship application: 18 / 06 / 1917. **\nPreviously \"about 1918\" from family knowledge. The surviving register unit is\n24/44/0/-/56, births 1917-1920, which is beyond the JRI index's 1917 cutoff - so the act\nitself still needs the archive. With an exact date the request becomes trivial to answer.\nHer full name in the Opatow municipal index is CHANA-SARA, matching her Holon gravestone."
    ]
   },
-  "death": null,
+  "death": {
+   "date": "13 AUG 2005",
+   "place": "Holon, Israel",
+   "grade": "documented",
+   "notes": [
+    "ראו albert/findings/028-german-compensation-files.md."
+   ]
+  },
   "occupation": "",
   "notes": [
    "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp."
@@ -1124,11 +1131,12 @@
    "place": "Skarzysko-Kamienna camp, Poland",
    "notes": [
     "Shot. Chana's younger sister - it was Amotz's memory of this murdered sister that\nopened the whole Opatow line.\nCONFLICT, RESOLVED IN THE FAMILY'S FAVOUR: the 1988 Opatow memorial list places her\nat Treblinka on 23 October 1942 with her parents. But a contemporaneous German camp\ndocument - the lists of Skarzysko-Kamienna inmates designated \"sick\", November 1942\nto February 1943 - carries a FAJGA RYWENBAJRYCH, i.e. alive and in the camp AFTER\nthat date. A record made at the time outweighs a list compiled by survivors in 1988,\nwhose compilers evidently assumed the whole household died in the October deportation.\nAt Skarzysko the \"sick\" designation was in practice a selection list.\nThe family's account was right."
-   ]
+   ],
+   "grade": "documented"
   },
   "occupation": "",
   "notes": [],
-  "grade": null,
+  "grade": "documented",
   "sources": [
    "s-s12",
    "s-s40",
@@ -1375,8 +1383,9 @@
   "death": {
    "date": "12 SEP 1976",
    "place": "Holon, Israel",
+   "grade": "documented",
    "notes": [
-    "CONFLICT, left open at Amotz's direction: a burial index record gives 17 Elul 5736 =\n12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.\nGrave and cemetery lines are parked - the grave is known and photographed."
+    "י\"ז באלול תשל\"ו. הוכרע ב-7.8.2026 מול קריאה חלופית של המצבה (י\"ז אדר א' תשל\"ז = 7.3.1977). ראו albert/findings/029-death-certificate-to-BEG-chain.md."
    ]
   },
   "occupation": "czapnik (cap-maker)",

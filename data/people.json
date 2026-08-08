@@ -1392,7 +1392,15 @@
    ],
    "dateHe": "18 ביוני 1917"
   },
-  "death": null,
+  "death": {
+   "date": "13 AUG 2005",
+   "place": "pl-holon",
+   "grade": "documented",
+   "notes": [
+    "ראו albert/findings/028-german-compensation-files.md."
+   ],
+   "dateHe": "13 באוגוסט 2005"
+  },
   "occupation": "",
   "notes": [
    "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp."
@@ -1441,11 +1449,12 @@
    "notes": [
     "Shot. Chana's younger sister - it was Amotz's memory of this murdered sister that\nopened the whole Opatow line.\nCONFLICT, RESOLVED IN THE FAMILY'S FAVOUR: the 1988 Opatow memorial list places her\nat Treblinka on 23 October 1942 with her parents. But a contemporaneous German camp\ndocument - the lists of Skarzysko-Kamienna inmates designated \"sick\", November 1942\nto February 1943 - carries a FAJGA RYWENBAJRYCH, i.e. alive and in the camp AFTER\nthat date. A record made at the time outweighs a list compiled by survivors in 1988,\nwhose compilers evidently assumed the whole household died in the October deportation.\nAt Skarzysko the \"sick\" designation was in practice a selection list.\nThe family's account was right."
    ],
+   "grade": "documented",
    "dateHe": null
   },
   "occupation": "",
   "notes": [],
-  "grade": null,
+  "grade": "documented",
   "sources": [
    "s-s12",
    "s-s40",
@@ -1782,8 +1791,9 @@
   "death": {
    "date": "12 SEP 1976",
    "place": "pl-holon",
+   "grade": "documented",
    "notes": [
-    "CONFLICT, left open at Amotz's direction: a burial index record gives 17 Elul 5736 =\n12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.\nGrave and cemetery lines are parked - the grave is known and photographed."
+    "י\"ז באלול תשל\"ו. הוכרע ב-7.8.2026 מול קריאה חלופית של המצבה (י\"ז אדר א' תשל\"ז = 7.3.1977). ראו albert/findings/029-death-certificate-to-BEG-chain.md."
    ],
    "dateHe": "12 בספטמבר 1976"
   },
@@ -3063,7 +3073,9 @@
    "p-perl-liben"
   ],
   "children": [
-   "p-malka-schafir"
+   "p-malka-schafir",
+   "p-shmuel-schafir-brother",
+   "p-shalom-schafir-brother"
   ]
  },
  {
@@ -3085,13 +3097,26 @@
    "grade": "probable",
    "dateHe": "בערך 1888"
   },
-  "death": null,
+  "death": {
+   "date": "1942",
+   "place": "pl-chelm",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 54. דף עד 572892, שמילאה בתה מלכה מוסקל.",
+    "לא נמלטה מזרחה עם ילדיה."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "dateHe": "1942"
+  },
   "grade": "probable",
   "notes": [
    "בתם של שלום ליבן וחיה, מוולודימיר־ווהלינסק."
   ],
   "sources": [
-   "s-m-liben-1865"
+   "s-m-liben-1865",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [],
@@ -3106,7 +3131,9 @@
    "p-mendel-schafir"
   ],
   "children": [
-   "p-malka-schafir"
+   "p-malka-schafir",
+   "p-shmuel-schafir-brother",
+   "p-shalom-schafir-brother"
   ]
  },
  {
@@ -3731,18 +3758,26 @@
   },
   "death": {
    "date": "1942",
+   "place": "pl-chelm",
    "grade": "probable",
    "notes": [
-    "נספתה בשואה — לפי עץ המשפחה בג'ני."
+    "נרצחה בגטו חלם ב-1942. דפי עד 774797 ו-5584483, שמילאה כלתה מלכה מוסקל.",
+    "⚠ שני המילויים נותנים שני גילאים: 59 ו-65. גיל 65 (נ' ~1877) עקבי יותר עם גיל בתה לאה (45); אקט 18/1903 נותן ~1885. לא הוכרע.",
+    "⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
    ],
-   "place": null,
+   "sources": [
+    "s-m-yad-vashem-pot",
+    "s-m-yizkor-necrology"
+   ],
    "dateHe": "1942"
   },
   "grade": "documented",
   "occupation": "",
   "notes": [],
   "sources": [
-   "s-m-act-1903-18"
+   "s-m-act-1903-18",
+   "s-m-yizkor-necrology",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [
@@ -4166,6 +4201,370 @@
    "p-boaz-albert"
   ],
   "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-tova-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "טובה מוסקל",
+   "latin": "Tova Moskal",
+   "given": "Tova",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1922",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 20 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": "בערך 1922"
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 20. דפי עד 774800 ו-5584482."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm",
+   "dateHe": "1942"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; רווקה. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע.",
+   "ככל הנראה «טובל'ה» שבנקרולוגיית ספר הזיכרון, עמ' 507. מופיעה גם כ«טאובה»."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-sara-soche-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "שרה־סוחה מוסקל",
+   "latin": "Sara Soche Moskal",
+   "given": "Sara",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1918",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 24 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": "בערך 1918"
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942, בגיל 24. דפי עד 844243 ו-5584484."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm",
+   "dateHe": "1942"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; רווקה. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע.",
+   "ככל הנראה «סיצ'ה» שבנקרולוגיית ספר הזיכרון, עמ' 507."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-lea-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "לאה לבית מוסקל",
+   "latin": "Lea née Moskal",
+   "given": "Lea",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1897",
+   "grade": "inference",
+   "notes": [
+    "נגזר מהגיל שנמסר בדף העד: 45 ב-1942."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": "בערך 1897"
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה ב-1942, בגיל 45. דף עד 5584485."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm",
+   "dateHe": "1942"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל; נשואה, שם בעלה לא נרשם. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-etel-moskal",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "אטל בלנדר לבית מוסקל",
+   "latin": "Etel Blander née Moskal",
+   "given": "Etel",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "⚠ שני המילויים נותנים שני גילאים: 30 ו-40. לא הוכרע."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נרצחה בגטו חלם ב-1942. דפי עד 318626 ו-5584486."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": "pl-chelm",
+   "dateHe": "1942"
+  },
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד־שלמה(?) ודבורה מוסקל. נשואה למשה בלנדר. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-shmuel-schafir-brother",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "שמואל שאפיר",
+   "latin": "Shmuel Schafir",
+   "given": "Shmuel",
+   "surname": "Schafir",
+   "variants": [
+    "Shafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1921",
+   "grade": "inference",
+   "notes": [
+    "נגזר מגיל 21 בעת מותו."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": "בערך 1921"
+  },
+  "death": {
+   "date": "1 JAN 1942",
+   "place": "Kostroma, USSR",
+   "grade": "probable",
+   "notes": [
+    "נפל בקרב בקוסטרומה שבברית המועצות, 1 בינואר 1942, בגיל 21. לפי דף עד שמילאה אחותו מלכה מוסקל."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "dateHe": "1 בינואר 1942"
+  },
+  "occupation": "נגר",
+  "grade": "probable",
+  "notes": [
+   "אחיה של מלכה מוסקל לבית שאפיר; בנם של מנחם מנדל שאפיר ופרל («פנינה») לבית ליבן."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [
+   "p-mendel-schafir",
+   "p-perl-liben"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-shalom-schafir-brother",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "שלום שאפיר",
+   "latin": "Shalom Schafir",
+   "given": "Shalom",
+   "surname": "Schafir",
+   "variants": [
+    "Shafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1912",
+   "grade": "inference",
+   "notes": [
+    "נגזר מגיל 30 בעת מותו."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "place": null,
+   "dateHe": "בערך 1912"
+  },
+  "death": {
+   "date": "1942",
+   "place": "Kostroma, USSR",
+   "grade": "probable",
+   "notes": [
+    "נפל בקרב בקוסטרומה שבברית המועצות, 1942, בגיל 30. לפי דף עד שמילאה אחותו מלכה מוסקל."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "dateHe": "1942"
+  },
+  "occupation": "",
+  "grade": "probable",
+  "notes": [
+   "אחיה של מלכה מוסקל לבית שאפיר; בנם של מנחם מנדל שאפיר ופרל («פנינה») לבית ליבן. נשוי לרבקה לבית איידלמן."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/churban",
+  "gedcomId": null,
+  "parents": [
+   "p-mendel-schafir",
+   "p-perl-liben"
+  ],
+  "spouses": [
+   "p-rivka-eidelman"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-rivka-eidelman",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "רבקה שאפיר לבית איידלמן",
+   "latin": "Rivka Schafir née Eidelman",
+   "given": "Rivka",
+   "surname": "Eidelman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "grade": "probable",
+  "notes": [
+   "אשתו של שלום שאפיר, לפי דף העד שמילאה מלכה מוסקל. גורלה לא ידוע."
+  ],
+  "sources": [
+   "s-m-yad-vashem-pot"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-shalom-schafir-brother"
+  ],
   "children": []
  }
 ]
