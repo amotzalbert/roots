@@ -808,6 +808,54 @@
   "terms": "רבקה שאפיר לבית איידלמן Rivka Schafir née Eidelman רבקה שאפיר לבית איידלמן"
  },
  {
+  "id": "p-estera-malka-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אסתרה־מלכה שאפיר",
+  "sub": "Estera Malka Szaufer",
+  "terms": "אסתרה־מלכה שאפיר Estera Malka Szaufer Schafir Szajfer אסתרהמלכה שאפיר"
+ },
+ {
+  "id": "p-gersz-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "גרש (הרשל) שאפיר",
+  "sub": "Gersz Szaufer",
+  "terms": "גרש (הרשל) שאפיר Gersz Szaufer Schafir Szajfer גרש (הרשל) שאפיר"
+ },
+ {
+  "id": "p-josef-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "יוסף שאפיר",
+  "sub": "Josef Szajfer",
+  "terms": "יוסף שאפיר Josef Szajfer Schafir Szajfer יוסף שאפיר"
+ },
+ {
+  "id": "p-dwojra-laia-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דבורה־לאיה שאפיר",
+  "sub": "Dwojra Laia Szaufer",
+  "terms": "דבורה־לאיה שאפיר Dwojra Laia Szaufer Schafir Szajfer דבורהלאיה שאפיר"
+ },
+ {
+  "id": "p-srul-lejb-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שרול־לייב שאפיר",
+  "sub": "Srul Lejb Szaufer",
+  "terms": "שרול־לייב שאפיר Srul Lejb Szaufer Schafir Szajfer שרוללייב שאפיר"
+ },
+ {
+  "id": "p-dawid-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דוד שאפיר",
+  "sub": "Dawid Szaufer",
+  "terms": "דוד שאפיר Dawid Szaufer Schafir Szajfer דוד שאפיר"
+ },
+ {
   "id": "pl-wojslawice",
   "type": "place",
   "branch": "moskal",

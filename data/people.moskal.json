@@ -1914,5 +1914,241 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-estera-malka-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "אסתרה־מלכה שאפיר",
+   "latin": "Estera Malka Szaufer",
+   "given": "Estera",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1873",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 23/1873."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של שמואל שאפיר ופסיה־רוחלה. נישאה לישראל סטן — אקט נישואין 1/1890, וויסלביצה. ייתכן שנקראה על שם אסתרה־דבורה, אחות אמה שמתה במאי 1872 — לא הוכרע."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-gersz-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "גרש (הרשל) שאפיר",
+   "latin": "Gersz Szaufer",
+   "given": "Gersz",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1878",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 30/1878."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בנם של שמואל שאפיר ופסיה־רוחלה. ככל הנראה «הרשל», אחיו הבכור של מנדל, שלפי הזיכרונות השתתף בהגנה העצמית של 1905 ונישא ברייביץ."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-josef-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "יוסף שאפיר",
+   "latin": "Josef Szajfer",
+   "given": "Josef",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1881",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 3/1881."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בנם של שמואל שאפיר ופסיה־רוחלה. ⚠ אין לבלבל עם יוסף, אחיה של מלכה, שהוא דור מאוחר יותר."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-dwojra-laia-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "דבורה־לאיה שאפיר",
+   "latin": "Dwojra Laia Szaufer",
+   "given": "Dwojra",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1883",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 11/1883."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בתם של שמואל שאפיר ופסיה־רוחלה."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-srul-lejb-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "שרול־לייב שאפיר",
+   "latin": "Srul Lejb Szaufer",
+   "given": "Srul",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 4/1890 (רישום מאוחר). שנת הלידה בפועל לא נרשמה."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בנם של שמואל שאפיר ופסיה־רוחלה. נרשם ב-1890 יחד עם אחיו מנדל ודוד — רישום מאוחר קלאסי; שנת הלידה בפועל לא ידועה."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-dawid-szaufer",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "דוד שאפיר",
+   "latin": "Dawid Szaufer",
+   "given": "Dawid",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szajfer"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "אינדקס הלידות של וויסלביצה, אקט לידה 5/1890 (רישום מאוחר). שנת הלידה בפועל לא נרשמה."
+   ],
+   "sources": [
+    "s-m-jri-index"
+   ]
+  },
+  "death": null,
+  "grade": "probable",
+  "occupation": "",
+  "notes": [
+   "בנם של שמואל שאפיר ופסיה־רוחלה. נרשם ב-1890 יחד עם אחיו מנדל ושרול־לייב — רישום מאוחר."
+  ],
+  "sources": [
+   "s-m-jri-index"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
  }
 ]
