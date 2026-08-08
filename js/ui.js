@@ -2,7 +2,7 @@
 (function(){
   const root=document.documentElement, LS=window.localStorage;
   const saved=LS.getItem('roots-theme');
-  if(saved) root.setAttribute('data-theme',saved);
+  root.setAttribute('data-theme', saved || 'light');
   if(LS.getItem('roots-bigfont')==='1') document.body.classList.add('font-lg');
 
   addEventListener('DOMContentLoaded',()=>{

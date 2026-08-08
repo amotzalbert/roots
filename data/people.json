@@ -1974,10 +1974,10 @@
   "id": "p-natalie",
   "branch": "albert",
   "names": {
-   "he": "נטלי",
-   "latin": "Natalie",
+   "he": "נטלי אלברט",
+   "latin": "Natalie Albert",
    "given": "Natalie",
-   "surname": "",
+   "surname": "Albert",
    "variants": []
   },
   "sex": "F",
@@ -1992,7 +1992,7 @@
   "grade": "documented",
   "occupation": "",
   "notes": [
-   "בתה של בלה אלברט. שם משפחה טרם תועד."
+   "בתה של בלה אלברט."
   ],
   "sources": [],
   "photos": [],
