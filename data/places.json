@@ -1,0 +1,63 @@
+[
+ {"id": "pl-wojslawice", "he": "וויסלביצה", "latin": "Wojsławice", "yiddish": "װאָיסלאַװיץ", "country": "פולין", "region": "מחוז חלם, לובלין", "lat": 50.9139, "lon": 23.5539,
+  "branch": "moskal", "research": "research/wojslawice.md",
+  "note": "עיירת האם של צד אמא. קהילה יהודית מהמאה ה-16; עלילת דם ב-1761; הקהילה חוסלה בגירוש לסוביבור באוקטובר 1942."},
+
+ {"id": "pl-dorohusk", "he": "דורוהוסק", "latin": "Dorohusk", "country": "פולין", "region": "על נהר הבוג, מחוז חלם", "lat": 51.1500, "lon": 23.8333,
+  "branch": "moskal", "research": "research/swierze-dorohusk.md",
+  "note": "כפרם של אהרן ופרלה בוקשפן ושל בתם דוורה — האבות הקדומים ביותר בעץ."},
+
+ {"id": "pl-swierze", "he": "שוייז'ה", "latin": "Świerże", "country": "פולין", "region": "על נהר הבוג, מחוז חלם", "lat": 51.1167, "lon": 23.7000,
+  "branch": "moskal", "research": "research/swierze-dorohusk.md",
+  "note": "אזור הרישום היהודי (okręg bożniczy) של כפרי הבוג. כאן נרשמו נישואי 1832 ופטירת 1833, וכאן נולד משקו־הרש שיפמן."},
+
+ {"id": "pl-chelm", "he": "חלם", "latin": "Chełm", "yiddish": "כעלם", "country": "פולין", "region": "לובלין", "lat": 51.1431, "lon": 23.4716,
+  "branch": "moskal", "research": "research/chelm.md",
+  "note": "עיר המחוז. מרכז הכובד של משפחת בוקשפן (177 רשומות) וענף אלספקטור."},
+
+ {"id": "pl-dubienka", "he": "דוביינקה", "latin": "Dubienka", "country": "פולין", "region": "מחוז חלם", "lat": 50.9833, "lon": 23.9167,
+  "branch": "moskal", "note": "עיירתה של שרה שרויד, אשתו הראשונה של שמואל שאפיר."},
+
+ {"id": "ua-rawa-ruska", "he": "ראווה רוסקה", "latin": "Rawa Ruska", "ukrainian": "Рава-Руська", "country": "אוקראינה", "region": "אז: גליציה המזרחית, האימפריה האוסטרית", "lat": 50.2333, "lon": 23.6167,
+  "branch": "moskal", "research": "research/rawa-ruska.md",
+  "note": "מקום לידתו של חיים שאפיר (~1804) ומקומם של הוריו שמול ואסתרה. משם היגרה המשפחה לקונגרס-פולין לפני 1838."},
+
+ {"id": "ua-belz", "he": "בלז", "latin": "Bełz", "country": "אוקראינה", "region": "גליציה", "lat": 50.3833, "lon": 24.0167,
+  "branch": "moskal", "research": "research/belz.md",
+  "note": "חצר החסידות של ר' שלום רוקח, כ-25 ק\"מ מראווה רוסקה. לפי זיכרונות מנדל שאפיר עלה שמואל'קה לרבי."},
+
+ {"id": "ua-volodymyr", "he": "וולודימיר־ווהלינסק", "latin": "Włodzimierz Wołyński", "ukrainian": "Володимир", "country": "אוקראינה", "region": "ווהלין", "lat": 50.8483, "lon": 24.3267,
+  "branch": "moskal", "research": "research/volodymyr.md",
+  "note": "עירם של שלום וחיה ליבן, הוריה של פרל אשת מנדל שאפיר."},
+
+ {"id": "pl-sobibor", "he": "סוביבור", "latin": "Sobibór", "country": "פולין", "lat": 51.4472, "lon": 23.5936,
+  "branch": "moskal", "research": "research/sobibor.md",
+  "note": "מחנה ההשמדה שאליו גורשה קהילת וויסלביצה באוקטובר 1942."},
+
+ {"id": "pl-warszawa", "he": "ורשה", "latin": "Warszawa", "yiddish": "װאַרשע", "country": "פולין", "lat": 52.2297, "lon": 21.0122,
+  "branch": "albert", "research": "research/warszawa.md",
+  "note": "עירם של האלפרטים. אקט הנישואין 75/1894 נרשם בציקרול V; חיים אלברט גר ברחוב לשנו 36 בספטמבר 1939."},
+
+ {"id": "pl-opatow", "he": "אופטוב", "latin": "Opatów", "yiddish": "אַפּטאַ", "country": "פולין", "region": "אז: גוברניית רדום", "lat": 50.8022, "lon": 21.4256,
+  "branch": "albert", "research": "research/opatow.md",
+  "note": "עירם של הריבנבייריכים והווייסבלומים. מקום לידתה של חנה (1917). קהילה חסידית חשובה — מושבו של ר' אברהם יהושע השל, «אוהב ישראל»."},
+
+ {"id": "pl-iwaniska", "he": "איווניסקה", "latin": "Iwaniska", "country": "פולין", "region": "נפת אופטוב", "lat": 50.7500, "lon": 21.2500,
+  "branch": "albert", "research": "research/iwaniska-klimontow.md",
+  "note": "מקום לידתו של טוביה ריבנבייריך (1888). ⚠ לא שרדו פנקסים יהודיים מהעיירה."},
+
+ {"id": "pl-klimontow", "he": "קלימונטוב", "latin": "Klimontów", "country": "פולין", "region": "נפת סנדומייז'", "lat": 50.6942, "lon": 21.4022,
+  "branch": "albert", "research": "research/iwaniska-klimontow.md",
+  "note": "עיירת דורות ריבנבייריך המוקדמים — לידות, נישואין ופטירות 1834–1867."},
+
+ {"id": "pl-piatek", "he": "פיונטק", "latin": "Piątek", "country": "פולין", "region": "אז: גוברניית קאליש", "lat": 52.0703, "lon": 19.4906,
+  "branch": "albert", "research": "research/piatek.md",
+  "note": "עיירתה של רודלה בוטקובסקה ושל ענף בוטקובסקי, לאחור עד נישואי 1833."},
+
+ {"id": "pl-lodz", "he": "לודז'", "latin": "Łódź", "country": "פולין", "lat": 51.7592, "lon": 19.4560,
+  "branch": "albert", "research": "research/lodz.md",
+  "note": "נסרקה במלואה לחיפוש נישואי חיים 1921–1933 — התוצאה שלילית. ברשימת הניצולים של 1945 מופיעים ארבעה אלברטים."},
+
+ {"id": "pl-holon", "he": "חולון", "latin": "Holon", "country": "ישראל", "lat": 32.0117, "lon": 34.7742,
+  "branch": "albert", "note": "מקום קבורתו של חיים אלברט, נפטר 12 בספטמבר 1976."}
+]

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>חיפוש · שורשים</title>
+<link rel="stylesheet" href="css/main.css">
+<style>
+.searchbox{position:relative;max-width:34rem;margin:0 0 2rem}
+.searchbox input{width:100%;font-size:1.1rem;padding:.75rem 1rem}
+#results{display:flex;flex-direction:column;gap:.5rem}
+.result{display:flex;align-items:center;gap:.8rem;padding:.7rem 1rem;border:1px solid var(--rule);
+  border-radius:.5rem;text-decoration:none;color:inherit;background:var(--paper-2)}
+.result:hover{border-color:var(--rule-2)}
+.result .badge{font-family:var(--sans);font-size:.72rem;padding:.15rem .5rem;border-radius:1rem;
+  white-space:nowrap}
+.badge.moskal{background:color-mix(in srgb,var(--moskal) 18%,transparent);color:var(--moskal)}
+.badge.albert{background:color-mix(in srgb,var(--albert) 18%,transparent);color:var(--albert)}
+.badge.place{background:var(--paper-3);color:var(--ink-3)}
+.result .main{flex:1}
+.result .lat{color:var(--ink-3);font-size:.85rem;direction:ltr;text-align:right;margin-inline-start:.4rem}
+.empty{color:var(--ink-3);padding:2rem 0;text-align:center;font-family:var(--sans)}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">שורשים</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">מוסקל–שאפיר</a>
+    <a class="tab albert" href="albert-rywenbajrych/">אלברט–ריבנבייריך</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">אילן</a>
+    <a href="map.html">מפה</a>
+    <a href="documents.html">מסמכים</a>
+    <a href="sources.html">מקורות</a>
+    <a href="search.html" aria-current="page">חיפוש</a>
+    <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
+    <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">חיפוש</p>
+  <h1>מי, איפה, מתי</h1>
+  <p class="lede narrow">חיפוש מיידי בכל שמות המשפחה — עברית, לטינית, וכל כתיב ארכיוני
+     שנמצא (שיפמן/SZYFMAN, שאפיר/SZAUFER, בוקשפן/BUKSZPAN ועוד).</p>
+
+  <div class="searchbox">
+    <input type="search" id="q" placeholder="חפשו שם, מקום, או כתיב…" autofocus>
+  </div>
+  <div id="results"></div>
+</main>
+
+<footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
+
+<script src="js/ui.js"></script>
+<script>
+let INDEX = [];
+fetch('data/index.json').then(r=>r.json()).then(d=>INDEX=d);
+
+const BADGE = {moskal:'מוסקל–שאפיר', albert:'אלברט–ריבנבייריך', both:'שני הענפים', '':''};
+function render(list){
+  const box = document.getElementById('results');
+  if(!list.length){ box.innerHTML = '<p class="empty">אין תוצאות</p>'; return; }
+  box.innerHTML = list.slice(0,30).map(r=>{
+    const href = r.type==='person' ? `tree.html?p=${encodeURIComponent(r.id)}` : `map.html`;
+    const badgeCls = r.type==='place' ? 'place' : (r.branch||'');
+    const badgeTxt = r.type==='place' ? 'מקום' : (BADGE[r.branch]||'');
+    return `<a class="result" href="${href}">
+      <span class="badge ${badgeCls}">${badgeTxt}</span>
+      <span class="main">${r.label}</span>
+      <span class="lat">${r.sub||''}</span>
+    </a>`;
+  }).join('');
+}
+document.getElementById('q').addEventListener('input', e=>{
+  const q = e.target.value.trim().toLowerCase();
+  if(q.length<2){ document.getElementById('results').innerHTML=''; return; }
+  render(INDEX.filter(r => r.terms.toLowerCase().includes(q)));
+});
+</script>
+</body>
+</html>

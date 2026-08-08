@@ -1,0 +1,276 @@
+[
+ {
+  "id": "u-f1",
+  "branch": "albert",
+  "gedcomId": "F1",
+  "spouses": [
+   "p-rywen-rywenbajrych",
+   "p-laca"
+  ],
+  "children": [
+   "p-izrael-rywenbajrych",
+   "p-hercyk-rywenbajrych-i6"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f52",
+  "branch": "albert",
+  "gedcomId": "F52",
+  "spouses": [
+   "p-hercyk-rywenbajrych",
+   "p-laja"
+  ],
+  "children": [
+   "p-jeremiasz-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f50",
+  "branch": "albert",
+  "gedcomId": "F50",
+  "spouses": [
+   "p-jeremiasz-rywenbajrych",
+   "p-haja-zalzberg"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "26 AUG 1834",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "At seven in the evening. Officiating rabbi: JAKOB JOEL SPIRO, rabbi of Klimontow.\nBanns read at the Klimontow synagogue on 2, 9 and 16 August 1834.\nWitnesses: Lewek Nachmanowicz Kanar, 46, and Jokel Bursztyn, 52 - both szkolnicy\n(synagogue beadles) of Klimontow. Both parents present gave oral consent."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f51",
+  "branch": "albert",
+  "gedcomId": "F51",
+  "spouses": [
+   "p-zalzberg",
+   "p-tauba-zalzberg"
+  ],
+  "children": [
+   "p-haja-zalzberg"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f2",
+  "branch": "albert",
+  "gedcomId": "F2",
+  "spouses": [
+   "p-izrael-rywenbajrych",
+   "p-chaja-rayzla"
+  ],
+  "children": [
+   "p-hercyk-rywenbajrych-i5"
+  ],
+  "marriage": {
+   "date": "BEF 1838",
+   "notes": [
+    "Not found in the Klimontow marriage index (covered 1826-77). Likely registered in the\nbride's town, which is unidentified."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f3",
+  "branch": "albert",
+  "gedcomId": "F3",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i5",
+   "p-tauba-cyrla-rywenbajrych"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f4",
+  "branch": "albert",
+  "gedcomId": "F4",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "children": [
+   "p-malka-blima-rywenbajrych",
+   "p-chaja-laja-rywenbajrych",
+   "p-chaim-rywenbajrych",
+   "p-fajga-perla-rywenbajrych",
+   "p-dawid-herszl-rywenbajrych",
+   "p-szymcha-rywenbajrych",
+   "p-haskiel-rywenbajrych",
+   "p-necha-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": [
+   "Seven children documented from birth acts read in the original: Malka Blima 1845,\nChaja Laja 1847, Chaim 1854, Fajga Perla 1856, Dawid Jakob 1858, Dawid Herszl 1861,\nSzymcha 1863, Haskiel 1865, Necha 1867. Of these the register also records the deaths\nof Fajga Perla (28/1857, aged one), Dawid Hersz (30/1862, aged one and a half),\nSzymcha (11/1864, aged one), Chaskiel (52/1865, aged six months) and Necha (19/1869).\nThe household was destroyed in 1867: both parents died that year, and the baby Necha\nfollowed in 1869."
+  ]
+ },
+ {
+  "id": "u-f5",
+  "branch": "albert",
+  "gedcomId": "F5",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i17",
+   "p-ryfka"
+  ],
+  "children": [
+   "p-szaydla-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f10",
+  "branch": "albert",
+  "gedcomId": "F10",
+  "spouses": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
+  ],
+  "children": [
+   "p-tobiasz-wajsblum",
+   "p-tobiasz-wajsblum-i23",
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "marriage": {
+   "date": "1884",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Marriage act 24/1884. ** The single highest-value document still to be obtained: a\nmarriage act names the parents of both spouses, i.e. two further generations at once. **"
+   ]
+  },
+  "notes": [
+   "(probable) The children below are assigned to this couple on the strength of the\nsequence - marriage 1884, births 1885, 1889, 1892, all Wajsblum, all Opatow - not on\na stated parentage. The acts are unread because Opatow is unscanned."
+  ]
+ },
+ {
+  "id": "u-f11",
+  "branch": "albert",
+  "gedcomId": "F11",
+  "spouses": [
+   "p-tuvia-rywenbajrych",
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "children": [
+   "p-chana-rywenbajrych",
+   "p-fajga-rachla-rywenbajrych"
+  ],
+  "marriage": {
+   "date": "BEF 1917",
+   "notes": [
+    "NOT FOUND. Absent from the Opatow marriage index (covered 1899-1917) and from the\nKlimontow marriage index. The one promising row - Klimontow 3/1912, bride Szajndla\nWajcblum - turned out to have Lejbus Penczyna as groom, not a Rywenbajrych. So either\nthey married in a third town, or after 1917, beyond the indexed range."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f30",
+  "branch": "albert",
+  "gedcomId": "F30",
+  "spouses": [
+   "p-abram-alpert",
+   "p-estera-gitla-cuker"
+  ],
+  "children": [
+   "p-dawid-alpert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f31",
+  "branch": "albert",
+  "gedcomId": "F31",
+  "spouses": [
+   "p-abram-buzowski",
+   "p-ruchla-i43"
+  ],
+  "children": [
+   "p-rudla-buzowska"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f20",
+  "branch": "albert",
+  "gedcomId": "F20",
+  "spouses": [
+   "p-dawid-alpert",
+   "p-rudla-buzowska"
+  ],
+  "children": [
+   "p-izrail-mojsze-alpert",
+   "p-chaim-albert"
+  ],
+  "marriage": {
+   "date": "18 FEB 1894",
+   "place": "Warsaw, Poland",
+   "notes": [
+    "Marriage act 75/1894, cyrkul V. Reference 72/200/0/-/89, Archiwum Panstwowe w\nWarszawie; scan 38 of 189 in szukajwarchiwach unit 12482469.\n** READ IN FULL 6 Aug 2026. ** Not through szukajwarchiwach, whose free 800px derivative\nis illegible for a two-page spread, but through metryki.genealodzy.pl (Skanoteka),\nwhich serves the same register at 3116x1694, free and without the Frankfurt exit node:\ncollection 0200d = fond 72/200/0, unit 1894c \"M-1894\", file 074-075.jpg (38 of 189).\nPage number equals act number in this book. See findings/016 for the method and the\nfull transcription.\nDated 6/18 February 1894; sealed by the Justice of the Peace of the 2nd district,\nWarsaw. Witnesses: Szamaj Wajnberg, about 57, of ul. Ostrowska, and Abram Renkal(?),\n29, of ul. Smocza - both streets in the Jewish quarter. David signed in his own hand,\nwith a signature in Hebrew beside it."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f12",
+  "branch": "albert",
+  "gedcomId": "F12",
+  "spouses": [
+   "p-chaim-albert",
+   "p-chana-rywenbajrych"
+  ],
+  "children": [
+   "p-bella-albert",
+   "p-david-albert"
+  ],
+  "marriage": {
+   "date": "AFT 1945",
+   "place": "Poland",
+   "notes": [
+    "They met in a camp, by family account."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-abe-lejb-fajga-rechil",
+  "branch": "albert",
+  "spouses": [
+   "p-abe-lejb-rywenbajrych",
+   "p-fajga-rechil-rywenbajrych"
+  ],
+  "children": [
+   "p-tuvia-rywenbajrych"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "הוריו של טוביה ריבנבייריך, לפי מרשם התושבים הלא-קבועים של אופטוב 1921 (findings/022)."
+  ]
+ },
+ {
+  "id": "u-bella-natalie",
+  "branch": "albert",
+  "spouses": [
+   "p-bella-albert"
+  ],
+  "children": [
+   "p-natalie"
+  ],
+  "marriage": {},
+  "notes": [
+   "אב הילדה לא תועד."
+  ]
+ }
+]

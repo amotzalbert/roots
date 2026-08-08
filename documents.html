@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>מסמכים · שורשים</title>
+<link rel="stylesheet" href="css/main.css">
+<style>
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1rem;margin-top:1.6rem}
+.dcard{border:1px solid var(--rule);border-radius:.6rem;overflow:hidden;background:var(--paper-2)}
+.dcard .ph{aspect-ratio:4/3;background:var(--paper-3);display:flex;align-items:center;
+  justify-content:center;color:var(--ink-3);font-family:var(--sans);font-size:.8rem}
+.dcard .body{padding:.8rem 1rem}
+.dcard h3{margin:0 0 .2rem;font-size:.96rem}
+.dcard p{margin:0;font-size:.83rem;color:var(--ink-3)}
+.notice{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;
+  padding:1.2rem 1.5rem;margin:1.4rem 0;font-size:.92rem;color:var(--ink-2)}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">שורשים</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">מוסקל–שאפיר</a>
+    <a class="tab albert" href="albert-rywenbajrych/">אלברט–ריבנבייריך</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">אילן</a>
+    <a href="map.html">מפה</a>
+    <a href="documents.html" aria-current="page">מסמכים</a>
+    <a href="sources.html">מקורות</a>
+    <a href="search.html">חיפוש</a>
+    <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
+    <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">גלריה</p>
+  <h1>המסמכים</h1>
+  <p class="lede narrow">סריקות הארכיון שעליהן נשען כל עמוד באתר הזה.</p>
+
+  <div class="notice">
+    הגלריה עם צופה הזום נמצאת בבנייה. בינתיים, כל מסמך מקושר מכרטיס האדם שלו
+    באילן, וכל אקט מצוטט במלואו — תרגום עברי לצד המקור — בנספח
+    <a href="sources.html">המקורות</a>.
+  </div>
+
+  <div class="dgrid" id="grid"></div>
+</main>
+
+<footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
+<script src="js/ui.js"></script>
+<script>
+Promise.all([
+  fetch('data/sources.json').then(r=>r.json()),
+]).then(([sources])=>{
+  const withCite = sources.filter(s=>s.repository || s.citation);
+  document.getElementById('grid').innerHTML = withCite.map(s=>`
+    <div class="dcard">
+      <div class="ph">📜 סריקת ארכיון</div>
+      <div class="body">
+        <h3>${esc(s.title)}</h3>
+        <p>${esc(s.repository)}${s.citation?' · '+esc(s.citation):''}</p>
+      </div>
+    </div>`).join('');
+});
+const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+</script>
+</body>
+</html>

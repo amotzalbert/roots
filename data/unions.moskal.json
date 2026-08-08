@@ -1,0 +1,359 @@
+[
+ {
+  "id": "u-m-bukszpan",
+  "branch": "moskal",
+  "spouses": [
+   "p-aron-bukszpan",
+   "p-perla-bukszpan"
+  ],
+  "children": [
+   "p-dwera-bukszpan"
+  ],
+  "marriage": {
+   "place": "pl-dorohusk",
+   "grade": "inference",
+   "notes": [
+    "לפני 1826 — לפני תחילת רישום המצב האזרחי היהודי בקונגרס-פולין. אקט נישואין שלהם לא קיים."
+   ]
+  },
+  "notes": [
+   "הזוג הקדום ביותר בעץ. מאושר מאקט פטירת בתם."
+  ]
+ },
+ {
+  "id": "u-m-szyfman-bukszpan",
+  "branch": "moskal",
+  "spouses": [
+   "p-josek-szyfman",
+   "p-dwera-bukszpan"
+  ],
+  "children": [
+   "p-moszek-szyfman",
+   "p-moszko-hersz-szyfman"
+  ],
+  "marriage": {
+   "date": "BEF 1812",
+   "grade": "inference"
+  },
+  "notes": [
+   "חיו בכפר דורוהוסק. שני הבנים מאושרים כאחים משני אקטים נפרדים הנוקבים באותם הורים."
+  ]
+ },
+ {
+  "id": "u-m-moszek-rane",
+  "branch": "moskal",
+  "spouses": [
+   "p-moszek-szyfman",
+   "p-rane-katz"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1832",
+   "place": "pl-swierze",
+   "grade": "documented",
+   "notes": [
+    "אקט נישואין 1/1832, שוייז'ה. הוא בן 20, היא בת 17."
+   ],
+   "sources": [
+    "s-m-act-1832-1"
+   ]
+  }
+ },
+ {
+  "id": "u-m-kac",
+  "branch": "moskal",
+  "spouses": [
+   "p-szmul-kac",
+   "p-estera-kac"
+  ],
+  "children": [
+   "p-dwojra-itta-kac"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "מאושרים מאקט פטירת בתם, 6/1874."
+  ]
+ },
+ {
+  "id": "u-m-szyfman-kac",
+  "branch": "moskal",
+  "spouses": [
+   "p-moszko-hersz-szyfman",
+   "p-dwojra-itta-kac"
+  ],
+  "children": [
+   "p-estera-dwojra-szyfman",
+   "p-pesia-szyfman"
+  ],
+  "marriage": {
+   "date": "BEF 1850",
+   "place": "pl-wojslawice",
+   "grade": "inference"
+  },
+  "notes": [
+   "הוא נולד בשוייז'ה ועבר לוויסלביצה; היא ילידת וויסלביצה."
+  ]
+ },
+ {
+  "id": "u-m-szaufer-elder",
+  "branch": "moskal",
+  "spouses": [
+   "p-szmul-szaufer-elder",
+   "p-estera-szaufer-elder"
+  ],
+  "children": [
+   "p-chaim-szaufer"
+  ],
+  "marriage": {
+   "place": "ua-rawa-ruska",
+   "grade": "inference"
+  },
+  "notes": [
+   "בגליציה האוסטרית. מאושרים מאקט פטירת בנם, 9/1866."
+  ]
+ },
+ {
+  "id": "u-m-chaim-liba",
+  "branch": "moskal",
+  "spouses": [
+   "p-chaim-szaufer",
+   "p-liba-kielner"
+  ],
+  "children": [
+   "p-szmul-szaufer"
+  ],
+  "marriage": {
+   "date": "BEF 1836",
+   "grade": "inference"
+  },
+  "notes": [
+   "⚠ שם נעוריה של ליבה שנוי במחלוקת — ראו הערת הסתירה בכרטיסה."
+  ]
+ },
+ {
+  "id": "u-m-szmul-sura",
+  "branch": "moskal",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-sura-szrojd"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "20 AUG 1859",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט 14/1859. נישואיו הראשונים; הוא בן 26 ורווק."
+   ],
+   "sources": [
+    "s-m-act-1859-14"
+   ]
+  }
+ },
+ {
+  "id": "u-m-szmul-estera-dwojra",
+  "branch": "moskal",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-estera-dwojra-szyfman"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "BET 1866 AND 1871",
+   "place": "pl-wojslawice",
+   "grade": "inference",
+   "notes": [
+    "אקט הנישואין טרם אותר — חזית מחקר פתוחה."
+   ]
+  }
+ },
+ {
+  "id": "u-m-szmul-pesia",
+  "branch": "moskal",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-pesia-szyfman"
+  ],
+  "children": [
+   "p-mendel-schafir"
+  ],
+  "marriage": {
+   "date": "21 JAN 1873",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט 1/1873. הוא בן 36 ואלמן; היא בת 17."
+   ],
+   "sources": [
+    "s-m-act-1873-1"
+   ]
+  }
+ },
+ {
+  "id": "u-m-liben",
+  "branch": "moskal",
+  "spouses": [
+   "p-shalom-liben",
+   "p-khaia-liben"
+  ],
+  "children": [
+   "p-perl-liben"
+  ],
+  "marriage": {
+   "place": "ua-volodymyr",
+   "grade": "inference"
+  }
+ },
+ {
+  "id": "u-m-mendel-perl",
+  "branch": "moskal",
+  "spouses": [
+   "p-mendel-schafir",
+   "p-perl-liben"
+  ],
+  "children": [
+   "p-malka-schafir"
+  ],
+  "marriage": {
+   "grade": "probable"
+  },
+  "notes": [
+   "ילדיהם הידועים: מלכה, שמואל, יוסף, ששה, פנינה, דבורה, נחמה."
+  ]
+ },
+ {
+  "id": "u-m-moskal-schafir",
+  "branch": "moskal",
+  "spouses": [
+   "p-david-moskal",
+   "p-malka-schafir"
+  ],
+  "children": [
+   "p-dvora-albert"
+  ],
+  "marriage": {
+   "date": "BEF 1950",
+   "grade": "probable",
+   "notes": [
+    "נישאו לפני העלייה לישראל."
+   ]
+  }
+ },
+ {
+  "id": "u-m-lejba-brandlya",
+  "branch": "moskal",
+  "spouses": [
+   "p-lejba-moskal",
+   "p-brandlya-eil"
+  ],
+  "children": [
+   "p-dawid-szloma-moskal"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "שניהם כבר מתים בינואר 1878 — נקובים באקט נישואי בנם 1/1878."
+  ]
+ },
+ {
+  "id": "u-m-dawid-szloma-hinda",
+  "branch": "moskal",
+  "spouses": [
+   "p-dawid-szloma-moskal",
+   "p-hinda-rajs"
+  ],
+  "children": [
+   "p-judka-lejba-moskal"
+  ],
+  "marriage": {
+   "date": "2 JAN 1878",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט נישואין 1/1878, וויסלביצה."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  }
+ },
+ {
+  "id": "u-m-gershon-dvoyra",
+  "branch": "moskal",
+  "spouses": [
+   "p-gershon-rajs",
+   "p-dvoyra-sztajn"
+  ],
+  "children": [
+   "p-hinda-rajs"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "מתועדים כהוריה של הינדה רייס באקט 1/1878."
+  ]
+ },
+ {
+  "id": "u-m-hersh-khaya",
+  "branch": "moskal",
+  "spouses": [
+   "p-hersh-alspektor",
+   "p-khaya-rajs"
+  ],
+  "children": [
+   "p-dvora-alspektor"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "מתועדים כהוריה של צביה־דבורה אלספקטור באקט 18/1903."
+  ]
+ },
+ {
+  "id": "u-m-judka-dvora",
+  "branch": "moskal",
+  "spouses": [
+   "p-judka-lejba-moskal",
+   "p-dvora-alspektor"
+  ],
+  "children": [
+   "p-david-moskal"
+  ],
+  "marriage": {
+   "date": "11 AUG 1903",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט נישואין 18/1903, וויסלביצה."
+   ],
+   "sources": [
+    "s-m-act-1903-18"
+   ]
+  }
+ },
+ {
+  "id": "u-cross-branch-david-dvora",
+  "branch": "both",
+  "spouses": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-michal-albert",
+   "p-aya-albert"
+  ],
+  "marriage": {
+   "grade": "probable"
+  },
+  "notes": [
+   "★ נקודת המפגש בין שני ענפי המחקר: דוד אלברט (צד אבא) ⚭ דבורה מוסקל (צד אמא)."
+  ]
+ }
+]

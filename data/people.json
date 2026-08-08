@@ -1,0 +1,3890 @@
+[
+ {
+  "id": "p-rywen-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I1",
+  "names": {
+   "he": "ריוון ריבנבייריך",
+   "latin": "Rywen Rywenbajrych",
+   "given": "Rywen",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1790",
+   "place": "Poland",
+   "dateHe": "בערך 1790"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as father of Izrael in Klimontow death act 40/1867:\n\"syn Rywena i Lacy\". No act of his own located. Birth year estimated from his son's age.\nThe surname Rywen-bajrych is built on this given name.",
+   "** MY OWN ERROR, MADE AND CORRECTED 5 Aug 2026 - LEFT VISIBLE. ** I read Klimontow\nmarriage act 4/1834 as making Jeremiasz \"urodzonym tu w Klimontowie z RYWENA y Laji\" and\non that basis upgraded this couple to documented, gave them the trade of bakalarstwo, and\nentered Jeremiasz as Izrael's brother. Then I read the ALEGAT to the same act - an Akt\nZnania sworn before the mayor of Klimontow eight days earlier - which states at length\nand unambiguously that Jeremiasz's father is HERCYK Rywenbayrych, bakalarz. At maximum\nmagnification the register word is NOT securely legible to me either way. A purpose-built\nidentity document outweighs my uncertain reading of a register line, so Jeremiasz is\nentered under Hercyk the bakalarz (@I54@) and THIS COUPLE REVERTS TO PROBABLE, resting\non the 1867 act alone as before.",
+   "ראובן — השם הפרטי שממנו נבנה שם המשפחה ריוון־בייריך"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-laca"
+  ],
+  "children": [
+   "p-izrael-rywenbajrych",
+   "p-hercyk-rywenbajrych-i6"
+  ]
+ },
+ {
+  "id": "p-laca",
+  "branch": "albert",
+  "gedcomId": "I2",
+  "names": {
+   "he": "לאצה",
+   "latin": "Laca",
+   "given": "Laca",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1792",
+   "place": null,
+   "dateHe": "בערך 1792"
+  },
+  "death": {
+   "date": "1835",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "inference",
+   "notes": [
+    "(inference, not confirmed) Klimontow death act 53/1835, \"Laja Rywenbayrych\" - act not read."
+   ],
+   "dateHe": "1835"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as mother of Izrael in Klimontow death act 40/1867.\nPolish \"Laca\" - probably Lea or Laja.\nNOTE A COINCIDENCE WORTH WATCHING: marriage act 4/1834 gives Jeremiasz's mother as \"Laji\",\nand Jeremiasz's father is Hercyk, not Rywen. So either there were two couples in this town\nwith a wife called Laja/Laca, or the two men are more closely tangled than I can yet see.\nDo not merge them on the strength of the shared given name."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-rywen-rywenbajrych"
+  ],
+  "children": [
+   "p-izrael-rywenbajrych",
+   "p-hercyk-rywenbajrych-i6"
+  ]
+ },
+ {
+  "id": "p-jeremiasz-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I50",
+  "names": {
+   "he": "ירמיאש ריבנבייריך",
+   "latin": "Jeremiasz Rywenbajrych",
+   "given": "Jeremiasz",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "\"urodzonym tu w Klimontowie\", and aged fourteen in August 1834. I could not read the age\nword in the register, but the Akt Znania spells it out - \"lat czternascie\".\nNO BIRTH RECORD EXISTS: the Akt Znania was drawn up precisely because he could not\nproduce one, \"z powodu nie utrzymywania dawniey Ksiag Metrykalnych\" - the Klimontow\nJewish registers do not reach back before about 1826."
+   ],
+   "dateHe": "בערך 1820"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Son of HERCYK Rywenbayrych the bakalarz, per the Akt Znania sworn before the\nmayor of Klimontow on 18 August 1834. NOT a son of Rywen - that was my misreading of the\nregister line; see @I1@.\nHe was FOURTEEN when he married: the witnesses swore he \"lat czternascie skonczonych\nliczyc powinien\". His bride was also fourteen."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50",
+   "s-s51"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych",
+   "p-laja"
+  ],
+  "spouses": [
+   "p-haja-zalzberg"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-hercyk-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I54",
+  "names": {
+   "he": "הרציק ריבנבייריך",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1795",
+   "notes": [
+    "Estimated: he had a daughter marrying in 1829 and a son aged fourteen in 1834."
+   ],
+   "place": null,
+   "dateHe": "בערך 1795"
+  },
+  "death": null,
+  "occupation": "bakalarz (teacher / melamed)",
+  "notes": [
+   "(documented) ** The earliest Rywenbajrych to appear in a document in his own person. **\nNamed in Klimontow marriage act 4/1834 and, at length, in its Akt Znania of 18 Aug 1834.\nVery probably the \"Hercko Rywenbayrych\" whose daughter Matla-Haia married Jakob Zlotnik\nin 1829 (marriage act 1) and whose son Mortka was born in 1830 (birth act 15); and\npossibly the Hercyk Rywenbayrych of death act 16/1836 - none of those three acts read yet.\nHow he relates to Rywen (@I1@) is UNKNOWN: brother, or the generation above, or the same\nman under a name I have misread. Not merged, on purpose."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50",
+   "s-s51"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-laja"
+  ],
+  "children": [
+   "p-jeremiasz-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-laja",
+  "branch": "albert",
+  "gedcomId": "I55",
+  "names": {
+   "he": "לאיה",
+   "latin": "Laja",
+   "given": "Laja",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as Jeremiasz's mother, \"Laji\", in Klimontow marriage act\n4/1834. The alegat does not name her - only the father swore it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-hercyk-rywenbajrych"
+  ],
+  "children": [
+   "p-jeremiasz-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-haja-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I51",
+  "names": {
+   "he": "חיה ריבנבייריך לבית זלצברג",
+   "latin": "Haja Zalzberg",
+   "given": "Haja",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "notes": [
+    "\"panna lat czternascie maiaca\" in the alegat - she was fourteen."
+   ],
+   "place": null,
+   "dateHe": "בערך 1820"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named in Klimontow marriage act 4/1834 as a spinster, until then living\nwith her mother. Her mother consented in person."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-zalzberg",
+   "p-tauba-zalzberg"
+  ],
+  "spouses": [
+   "p-jeremiasz-rywenbajrych"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I52",
+  "names": {
+   "he": "זלצברג",
+   "latin": "Zalzberg",
+   "given": "",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 26 AUG 1834",
+   "notes": [
+    "Described in the 1834 act as \"niezyjacego\" - already dead."
+   ],
+   "place": null,
+   "dateHe": "לפני 26 באוגוסט 1834"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Father of the bride in Klimontow marriage act 4/1834."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-tauba-zalzberg"
+  ],
+  "children": [
+   "p-haja-zalzberg"
+  ]
+ },
+ {
+  "id": "p-tauba-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I53",
+  "names": {
+   "he": "טאובה זלצברג",
+   "latin": "Tauba Zalzberg",
+   "given": "Tauba",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Mother of the bride in Klimontow marriage act 4/1834; consented in person.\nNote for the open Zalcberg question: this puts a ZALZBERG household in Klimontow in\n1834, marrying into the Rywenbajrych family - which makes \"Chaja Rajza nee Zalcberg\"\nin the 1903 act a plausible local name. It does not prove it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-zalzberg"
+  ],
+  "children": [
+   "p-haja-zalzberg"
+  ]
+ },
+ {
+  "id": "p-izrael-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I3",
+  "names": {
+   "he": "ישראל ריבנבייריך",
+   "latin": "Izrael Rywenbajrych",
+   "given": "Izrael",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Conflict: birth act 27/1838 gives his age as 23 (b. ~1815); death act 40/1867 gives\nhis age at death as 48 (b. ~1819). Both are register-stated ages, both approximate."
+   ],
+   "dateHe": "בערך 1817"
+  },
+  "death": {
+   "date": "3 SEP 1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "22 Aug OS / 3 Sep NS, at twelve noon. Age given as 48. One of four Rywenbajrych deaths\nregistered in Klimontow in 1867 - an epidemic year (cholera in Russian Poland)."
+   ],
+   "dateHe": "3 בספטמבר 1867"
+  },
+  "occupation": "handlarz (trader/merchant)",
+  "notes": [
+   "(documented) Death act 40/1867, Klimontow, read in the original. Witnesses: Moszek Agater,\nsynagogue beadle, 52; Abram Sandomierski, oil merchant, 55. He is named as \"son of Rywen\nand Laca\", leaving a widow."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1",
+   "s-s2"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-rywen-rywenbajrych",
+   "p-laca"
+  ],
+  "spouses": [
+   "p-chaja-rayzla"
+  ],
+  "children": [
+   "p-hercyk-rywenbajrych-i5"
+  ]
+ },
+ {
+  "id": "p-chaja-rayzla",
+  "branch": "albert",
+  "gedcomId": "I4",
+  "names": {
+   "he": "חיה־רייזלה",
+   "latin": "Chaja Rayzla",
+   "given": "Chaja Rayzla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1818",
+   "place": null,
+   "dateHe": "בערך 1818"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, name) Wife of Izrael. Given name conflict across three acts:\nbirth 27/1838 (her husband informant) = \"Chaja Rayzla\"; death 40/1867 (neighbours\ninformants) = \"Maja Rayzla\"; death 37/1903 of her son = \"Chaja Rajza\". Two of three\nread Chaja, and M/Ch are near-identical in this clerk's hand - Chaja adopted.",
+   "UNRESOLVED - maiden name. Birth act 27/1838 appears to read \"z Maszklow\" (my palaeography\nthere is not certain); death act 37/1903 of her son gives \"nee Zalcberg\". The 1838 act is\ncontemporaneous with her husband as informant and should outweigh a record made 65 years\nlater - but only if my reading is right. To settle: read any further birth act of this\ncouple (Klimontow births 46/1845, 12/1847, 19/1852, 20/1856, 25/1858, 19/1863, 52/1865,\n42/1867), each of which states the mother's maiden name. Do not treat as settled."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s2",
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-izrael-rywenbajrych"
+  ],
+  "children": [
+   "p-hercyk-rywenbajrych-i5"
+  ]
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i5",
+  "branch": "albert",
+  "gedcomId": "I5",
+  "names": {
+   "he": "הרציק ריבנבייריך",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "17 SEP 1838",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 25 September 1838 at two in the afternoon; the father presented the child\nhimself and signed, in Latin script and in Hebrew. Named at the circumcision."
+   ],
+   "dateHe": "17 בספטמבר 1838"
+  },
+  "death": {
+   "date": "1903",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Death act 37/1903, age given as 65. 1838 + 65 = 1903: the birth act and the death act\nlock onto each other - same name, same parents' names, consistent age."
+   ],
+   "dateHe": "1903"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Birth act 27/1838 and death act 37/1903, both read in the original.\nWitnesses at the birth: Josek Bursztyn, beadle, 58; Jakob Frocht, baker, 57."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s2",
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-izrael-rywenbajrych",
+   "p-chaja-rayzla"
+  ],
+  "spouses": [
+   "p-tauba-cyrla-rywenbajrych"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-tauba-cyrla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I7",
+  "names": {
+   "he": "טאובה־צירלה ריבנבייריך",
+   "latin": "Tauba Cyrla Rywenbajrych",
+   "given": "Tauba Cyrla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named as Hercyk's widow in Klimontow death act 37/1903. Maiden name unknown."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-hercyk-rywenbajrych-i5"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i6",
+  "branch": "albert",
+  "gedcomId": "I6",
+  "names": {
+   "he": "הרציק ריבנבייריך",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1814",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Register ages: 33 in 1845, 37 in 1847, 42 in 1854, 42 again in 1861. The first three\nagree on ~1812; the 1861 repetition of 42 is clerical carelessness."
+   ],
+   "dateHe": "בערך 1814"
+  },
+  "death": {
+   "date": "1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Klimontow death act 34/1867 - not yet read. Same epidemic year as Izrael."
+   ],
+   "dateHe": "1867"
+  },
+  "occupation": "handlarz Oleja (oil trader)",
+  "notes": [
+   "(documented as a person; his parentage is inference) Appears as the informant father in\nKlimontow birth acts 27/1854 and 12/1861, both read in the original. That he was\nIzrael's brother, i.e. a son of Rywen and Laca, is (inference) only: two merchants of\nthe same surname, same generation, same small town. No document states it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s4",
+   "s-s5"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-rywen-rywenbajrych",
+   "p-laca"
+  ],
+  "spouses": [
+   "p-ruchla"
+  ],
+  "children": [
+   "p-malka-blima-rywenbajrych",
+   "p-chaja-laja-rywenbajrych",
+   "p-chaim-rywenbajrych",
+   "p-fajga-perla-rywenbajrych",
+   "p-dawid-herszl-rywenbajrych",
+   "p-szymcha-rywenbajrych",
+   "p-haskiel-rywenbajrych",
+   "p-necha-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-ruchla",
+  "branch": "albert",
+  "gedcomId": "I8",
+  "names": {
+   "he": "רוחלה",
+   "latin": "Ruchla",
+   "given": "Ruchla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1822",
+   "notes": [
+    "Stated ages: 24 (1845), 30 (1847), 32 (1856), 36 (1858), 35 (1865), 38 (1863),\n42 (1867). Internally inconsistent; ~1822 is the rough centre."
+   ],
+   "place": null,
+   "dateHe": "בערך 1822"
+  },
+  "death": {
+   "date": "1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Klimontow death act 53/1867 - not yet read. She had given birth in April\nof that year."
+   ],
+   "dateHe": "1867"
+  },
+  "occupation": "",
+  "notes": [
+   "MAIDEN NAME UNRESOLVED, and I am recording this as a limit of my own reading rather\nthan pretending to a conclusion. Across seven birth acts read in the original, the\nmaiden-name formula reads: 46/1845 \"z Leml(ow)\"; 12/1847 illegible; 27/1854\n\"z Lemkowiczow\"; 20/1856 \"z Kimetow\"; 25/1858 no maiden name given; 12/1861\n\"z Komkowiczow\"; 19/1863 \"z Lemkowiczow\" (the clearest of them); 52/1865 \"z Lemelow\";\n42/1867 \"z Lemkowiczow\". Two live candidates: LEMKOWICZ / LEMEL (five readings, and\nthe clearest single one), or KIMET - and the 1856 act is witnessed by Ejzyk Kimet, the\nsynagogue beadle, which is what a bride's kinsman would be doing there. A Kimet/Kimel\nfamily is demonstrably present in Klimontow and witnesses these acts repeatedly.\nI twice adopted a reading here and twice had to reverse it. It stays open."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s4",
+   "s-s5",
+   "s-s6",
+   "s-s8"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-hercyk-rywenbajrych-i6"
+  ],
+  "children": [
+   "p-malka-blima-rywenbajrych",
+   "p-chaja-laja-rywenbajrych",
+   "p-chaim-rywenbajrych",
+   "p-fajga-perla-rywenbajrych",
+   "p-dawid-herszl-rywenbajrych",
+   "p-szymcha-rywenbajrych",
+   "p-haskiel-rywenbajrych",
+   "p-necha-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-fajga-perla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I13",
+  "names": {
+   "he": "פייגה־פרלה ריבנבייריך",
+   "latin": "Fajga Perla Rywenbajrych",
+   "given": "Fajga Perla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "4 JUL 1856",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 13 July. Witnesses: Kalman Goldhamer, 66; Ejzyk Kimet, beadle, 42."
+   ],
+   "dateHe": "4 ביולי 1856"
+  },
+  "death": {
+   "date": "1857",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 28/1857, age given as one."
+   ],
+   "dateHe": "1857"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 20/1856, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s8"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-szymcha-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I14",
+  "names": {
+   "he": "שמחה ריבנבייריך",
+   "latin": "Szymcha Rywenbajrych",
+   "given": "Szymcha",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "13 JUN 1863",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 28 June. Witnesses: Moszek Agater, beadle, 48; Abram Sandomierski, 51."
+   ],
+   "dateHe": "13 ביוני 1863"
+  },
+  "death": {
+   "date": "1864",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 11/1864, age given as one."
+   ],
+   "dateHe": "1864"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 19/1863, read in the original - and the clearest of\nall the acts for the mother's maiden-name formula."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-haskiel-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I15",
+  "names": {
+   "he": "חסקיל ריבנבייריך",
+   "latin": "Haskiel Rywenbajrych",
+   "given": "Haskiel",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "12 MAR 1865",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 7 April. The father signed in Hebrew."
+   ],
+   "dateHe": "12 במרץ 1865"
+  },
+  "death": {
+   "date": "1865",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 52/1865, age given as six months."
+   ],
+   "dateHe": "1865"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 52/1865, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s13"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-necha-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I16",
+  "names": {
+   "he": "נחה ריבנבייריך",
+   "latin": "Necha Rywenbajrych",
+   "given": "Necha",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "22 APR 1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 10 April OS / 22 April NS. Born four months before both her parents died."
+   ],
+   "dateHe": "22 באפריל 1867"
+  },
+  "death": {
+   "date": "1869",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 19/1869."
+   ],
+   "dateHe": "1869"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 42/1867, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s14"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i17",
+  "branch": "albert",
+  "gedcomId": "I17",
+  "names": {
+   "he": "הרציק ריבנבייריך",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1812",
+   "place": null,
+   "dateHe": "בערך 1812"
+  },
+  "death": null,
+  "occupation": "handlarz (trader)",
+  "notes": [
+   "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of\nhouse no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854\neither side of it give the same man's wife as Ruchla, so this cannot be a remarriage.\nEither there were two contemporaries both called Hercyk (making three Hercyks in the\ntown at once, counting our own b. 1838), or the clerk wrote the wrong given name.\nEntered separately rather than merged, so the problem stays visible."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-ryfka"
+  ],
+  "children": [
+   "p-szaydla-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-ryfka",
+  "branch": "albert",
+  "gedcomId": "I18",
+  "names": {
+   "he": "ריפקה",
+   "latin": "Ryfka",
+   "given": "Ryfka",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817",
+   "place": null,
+   "dateHe": "בערך 1817"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Maiden name reads \"z Lewkow\" - same caveat as for Ruchla; I do not trust my reading of\nthis formula."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-hercyk-rywenbajrych-i17"
+  ],
+  "children": [
+   "p-szaydla-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-szaydla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I19",
+  "names": {
+   "he": "שיידלה ריבנבייריך",
+   "latin": "Szaydla Rywenbajrych",
+   "given": "Szaydla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "16 APR 1852",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 23 April. Witnesses: Szachna Grynberg, 30, and Chaskel Salzberg, 23, both\ntraders of Klimontow."
+   ],
+   "dateHe": "16 באפריל 1852"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 19/1852, read in the original. Note the witness\nCHASKEL SALZBERG: a Salzberg / Zalcberg family is present in Klimontow in this period,\nwhich makes \"Chaja Rajza nee Zalcberg\" in the 1903 death act (@I4@) a plausible local\nsurname and weakens my competing reading of \"z Maszklow\" in the 1838 act."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i17",
+   "p-ryfka"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-malka-blima-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I11",
+  "names": {
+   "he": "מלכה־בלימה ריבנבייריך",
+   "latin": "Malka Blima Rywenbajrych",
+   "given": "Malka Blima",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "6 JUL 1845",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "24 Jun OS / 6 Jul NS, at seven in the evening; registered 14 July. Named at prayer.\nWitnesses: Lejbus Sandomierski, oil trader, 38; Zelik Mintz, labourer, 25."
+   ],
+   "dateHe": "6 ביולי 1845"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 46/1845, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-chaja-laja-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I12",
+  "names": {
+   "he": "חיה־לאיה ריבנבייריך",
+   "latin": "Chaja Laja Rywenbajrych",
+   "given": "Chaja Laja",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "16 FEB 1847",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "4 Feb OS / 16 Feb NS, at eleven at night; registered 23 February. Witnesses: Lejbus\nSandomierski, oil trader, 41; Zajnwel Grynberg, trader, 25."
+   ],
+   "dateHe": "16 בפברואר 1847"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 12/1847, read in the original.\n(inference) Her name may honour her grandmother Laca (@I2@): a \"Laja Rywenbayrych\" death\nis indexed at Klimontow in 1835, and Ashkenazi practice names for the recently dead.\nIf so it supports - without proving - the reading that the elder Hercyk was Rywen and\nLaca's son."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-chaim-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I9",
+  "names": {
+   "he": "חיים ריבנבייריך",
+   "latin": "Chaim Rywenbajrych",
+   "given": "Chaim",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "24 JUN 1854",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 30 June 1854. Witnesses: Kalman Goldhamer, 64; Maior Kop, 30, both traders."
+   ],
+   "dateHe": "24 ביוני 1854"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 27/1854, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s4"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-dawid-herszl-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I10",
+  "names": {
+   "he": "דוד־הרשל ריבנבייריך",
+   "latin": "Dawid Herszl Rywenbajrych",
+   "given": "Dawid Herszl",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "27 MAR 1861",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 5 April 1861. Witnesses: Moszek Agater, beadle, 46; Ezyk Kimel, beadle, 47."
+   ],
+   "dateHe": "27 במרץ 1861"
+  },
+  "death": {
+   "date": "1862",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 30/1862, age given as one and a half."
+   ],
+   "dateHe": "1862"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 12/1861, read in the original; death indexed 30/1862."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s5"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-moszek-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I20",
+  "names": {
+   "he": "מושק ווייסבלום",
+   "latin": "Moszek Wajsblum",
+   "given": "Moszek",
+   "surname": "Wajsblum",
+   "variants": [
+    "Waisblum",
+    "Wajcblum",
+    "Weissblum"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "place": "Opatow, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Murdered in the Shoah. The Opatow yizkor book necrology (pp. 407-441) lists\nthe household \"Moshe Weissblum and Geleh nee Ginzburg\" among the town's dead."
+   ],
+   "dateHe": null
+  },
+  "occupation": "",
+  "notes": [
+   "(probable) Named in Opatow marriage act 24/1884, from the JRI-Poland index. Opatow has\nno scans, so the act itself has not been read - only the index row. Independently\ncorroborated by the yizkor necrology, a different kind of source entirely."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-s10",
+   "s-s11"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-gella-ginsburg"
+  ],
+  "children": [
+   "p-tobiasz-wajsblum",
+   "p-tobiasz-wajsblum-i23",
+   "p-bajla-szajndla-wajsblum"
+  ]
+ },
+ {
+  "id": "p-gella-ginsburg",
+  "branch": "albert",
+  "gedcomId": "I21",
+  "names": {
+   "he": "גלה ווייסבלום לבית גינסבורג",
+   "latin": "Gella Ginsburg",
+   "given": "Gella",
+   "surname": "Ginsburg",
+   "variants": [
+    "Ginzburg",
+    "Ginsberg"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "place": "Opatow, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Murdered in the Shoah - yizkor necrology, as above."
+   ],
+   "dateHe": null
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s10",
+   "s-s11"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-moszek-wajsblum"
+  ],
+  "children": [
+   "p-tobiasz-wajsblum",
+   "p-tobiasz-wajsblum-i23",
+   "p-bajla-szajndla-wajsblum"
+  ]
+ },
+ {
+  "id": "p-tobiasz-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I22",
+  "names": {
+   "he": "טוביאש ווייסבלום",
+   "latin": "Tobiasz Wajsblum",
+   "given": "Tobiasz",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1885",
+   "place": "Opatow, Poland",
+   "grade": "inference",
+   "notes": [
+    "Birth act 2/1885. Presumably named for the Tobiasz Wajsblum whose death is indexed at\nOpatow 50/1881. (inference) This child died young: the name was given again in 1889,\nwhich in Ashkenazi practice normally means the first bearer had died."
+   ],
+   "dateHe": "1885"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s10"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-tobiasz-wajsblum-i23",
+  "branch": "albert",
+  "gedcomId": "I23",
+  "names": {
+   "he": "טוביאש ווייסבלום",
+   "latin": "Tobiasz Wajsblum",
+   "given": "Tobiasz",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1889",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Birth act 88/1889."
+   ],
+   "dateHe": "1889"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. He is\ntherefore entered here as Bajla-Szajndla's brother. See findings/008 for the full\nargument, including the unexplained fact that Opatow's 9,135 indexed records contain\nnot one Rywenbajrych."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s10"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-bajla-szajndla-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I24",
+  "names": {
+   "he": "ביילה־שיינדלה ריבנבייריך לבית ווייסבלום",
+   "latin": "Bajla Szajndla Wajsblum",
+   "given": "Bajla Szajndla",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1892",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Birth act 8/1892. The Page of Testimony gives 1891/92 - a one-year spread, normal for\na form filled in decades later."
+   ],
+   "dateHe": "1892"
+  },
+  "death": {
+   "date": "23 OCT 1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Recorded as \"Bajla Szajndla Rywenbajrych, b. 1891, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the same 1988 memorial list - which names\nher under her MARRIED surname, independently confirming the marriage."
+   ],
+   "dateHe": "23 באוקטובר 1942"
+  },
+  "occupation": "",
+  "notes": [
+   "(probable) Identified from Opatow birth act 8/1892 (JRI index; act unread, Opatow is\nunscanned) together with Yad Vashem Pages of Testimony 5584477/5584479. The Pages were\nfilled in by Amotz's sister Aya - a granddaughter, writing decades after - so their\ndetail is second-hand throughout."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-s10",
+   "s-s12"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
+  ],
+  "spouses": [
+   "p-tuvia-rywenbajrych"
+  ],
+  "children": [
+   "p-chana-rywenbajrych",
+   "p-fajga-rachla-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-tuvia-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I25",
+  "names": {
+   "he": "טוביה ריבנבייריך",
+   "latin": "Tuvia Rywenbajrych",
+   "given": "Tuvia",
+   "surname": "Rywenbajrych",
+   "variants": [
+    "Tobjasz",
+    "Rubinbajrach",
+    "Tomasz"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1888",
+   "place": "Poland",
+   "notes": [
+    "PLACE UNLOCATED, and this is the principal open question on this side. Two documented\nnegatives: (1) he was not born in Klimontow between 1826 and 1892 - the JRI index covers\nbirths 1826-87 and I read the complete birth indexes for 1888, 1889, 1890, 1891 and 1892\noff the film, 183 entries in all, each list closed by its own protocol, with nothing in\nthe R section; (2) Opatow's 9,135 indexed records, covering births, marriages and deaths\nto 1917, contain not one Rywenbajrych. Two further negatives since: Arolsen returns\nnothing on the surname in any spelling (control Kestenbaum = 587), and FamilySearch's\nindexed records contain no Rywenbajrych at all worldwide on an exact search (control\nWajsblum = 56) - though FamilySearch holds no Polish vital registers, so that zero is\nweak. LEAD CLOSED: Yad Vashem 4631872/4631873 \"Rywenbeirech, Tobiasch, b. 20.07.1888,\nLodz\" is a DIFFERENT MAN - a permanent resident of Lodz, Steinmetzgasse 25 apt. 18, from\nthe \"Lodz Names\" volume. Ours is a permanent resident of Opatow. Same name and year;\nprobably kin, but not him. Do not chase Lodz for Tuvia's birthplace. See findings/011."
+   ],
+   "dateHe": "בערך 1888"
+  },
+  "death": {
+   "date": "23 OCT 1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Murdered. Recorded as \"Tomasz Rywenbajrich, b. 1888, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the list of murdered Jews from\n\"The Jews of Opatow\", Tel Aviv 1988 - the town's own memorial volume, compiled by its\nsurvivors. The date matches the town's history: the Opatow ghetto was cleared on\n20-22 October 1942 and its people deported to Treblinka."
+   ],
+   "dateHe": "23 באוקטובר 1942"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s40"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abe-lejb-rywenbajrych",
+   "p-fajga-rechil-rywenbajrych"
+  ],
+  "spouses": [
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "children": [
+   "p-chana-rywenbajrych",
+   "p-fajga-rachla-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-chana-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I26",
+  "names": {
+   "he": "חנה אלברט לבית ריבנבייריך",
+   "latin": "Chana Rywenbajrych",
+   "given": "Chana",
+   "surname": "Rywenbajrych",
+   "variants": [
+    "Chana Sura"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "18 JUN 1917",
+   "place": "Opatow, Poland",
+   "notes": [
+    "** EXACT DATE, from the family's 2015 Polish citizenship application: 18 / 06 / 1917. **\nPreviously \"about 1918\" from family knowledge. The surviving register unit is\n24/44/0/-/56, births 1917-1920, which is beyond the JRI index's 1917 cutoff - so the act\nitself still needs the archive. With an exact date the request becomes trivial to answer.\nHer full name in the Opatow municipal index is CHANA-SARA, matching her Holon gravestone."
+   ],
+   "dateHe": "18 ביוני 1917"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s41",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-tuvia-rywenbajrych",
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "spouses": [
+   "p-chaim-albert"
+  ],
+  "children": [
+   "p-bella-albert",
+   "p-david-albert"
+  ]
+ },
+ {
+  "id": "p-fajga-rachla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I27",
+  "names": {
+   "he": "פייגה־רחל ריבנבייריך",
+   "latin": "Fajga Rachla Rywenbajrych",
+   "given": "Fajga Rachla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1920",
+   "place": "Opatow, Poland",
+   "dateHe": "בערך 1920"
+  },
+  "death": {
+   "place": "Skarzysko-Kamienna camp, Poland",
+   "notes": [
+    "Shot. Chana's younger sister - it was Amotz's memory of this murdered sister that\nopened the whole Opatow line.\nCONFLICT, RESOLVED IN THE FAMILY'S FAVOUR: the 1988 Opatow memorial list places her\nat Treblinka on 23 October 1942 with her parents. But a contemporaneous German camp\ndocument - the lists of Skarzysko-Kamienna inmates designated \"sick\", November 1942\nto February 1943 - carries a FAJGA RYWENBAJRYCH, i.e. alive and in the camp AFTER\nthat date. A record made at the time outweighs a list compiled by survivors in 1988,\nwhose compilers evidently assumed the whole household died in the October deportation.\nAt Skarzysko the \"sick\" designation was in practice a selection list.\nThe family's account was right."
+   ],
+   "dateHe": null
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s40",
+   "s-s41"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-tuvia-rywenbajrych",
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-abram-alpert",
+  "branch": "albert",
+  "gedcomId": "I40",
+  "names": {
+   "he": "אברם אלפרט",
+   "latin": "Abram Alpert",
+   "given": "Abram",
+   "surname": "Alpert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1845",
+   "place": "Poland",
+   "notes": [
+    "Estimated only, from his son's marriage in 1894."
+   ],
+   "dateHe": "בערך 1845"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the groom's father in Warsaw marriage act 75/1894.\n** ALIVE IN 1894. ** The act was read in full on 6 Aug 2026 (findings/016). It names him\nplainly as \"Абрама\", WITHOUT the prefix \"покойнаго\" (\"the late\") that the Russian\nformula requires for a dead parent - and which this same register does use elsewhere.\nSo there is no point searching for his death before February 1894."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-estera-gitla-cuker"
+  ],
+  "children": [
+   "p-dawid-alpert"
+  ]
+ },
+ {
+  "id": "p-estera-gitla-cuker",
+  "branch": "albert",
+  "gedcomId": "I41",
+  "names": {
+   "he": "אסתרה־גיטלה אלפרט לבית צוקר",
+   "latin": "Estera Gitla Cuker",
+   "given": "Estera Gitla",
+   "surname": "Cuker",
+   "variants": [
+    "Cuker",
+    "Zuker"
+   ]
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the groom's mother, with her maiden surname, in Warsaw\nmarriage act 75/1894: \"Эстеры-Гитли урожденной Цукеръ\".\n** ALIVE IN 1894 ** - like her husband she is named without \"покойной\" (\"the late\").\nRead from the act itself, 6 Aug 2026; see findings/016."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-abram-alpert"
+  ],
+  "children": [
+   "p-dawid-alpert"
+  ]
+ },
+ {
+  "id": "p-abram-buzowski",
+  "branch": "albert",
+  "gedcomId": "I42",
+  "names": {
+   "he": "אברם בוטקובסקי",
+   "latin": "Abram Buzowski",
+   "given": "Abram",
+   "surname": "Buzowski",
+   "variants": [
+    "Butkowski",
+    "Budkowski",
+    "Bukowski",
+    "Buzowski"
+   ]
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski.",
+   "⚠ הכתיב Buzowski נבע מקריאה שגויה שתוקנה: האות השלישית באקט 75/1894 היא т ולא ж"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-ruchla-i43"
+  ],
+  "children": [
+   "p-rudla-buzowska"
+  ]
+ },
+ {
+  "id": "p-ruchla-i43",
+  "branch": "albert",
+  "gedcomId": "I43",
+  "names": {
+   "he": "רוחלה בוטקובסקה",
+   "latin": "Ruchla",
+   "given": "Ruchla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-abram-buzowski"
+  ],
+  "children": [
+   "p-rudla-buzowska"
+  ]
+ },
+ {
+  "id": "p-dawid-alpert",
+  "branch": "albert",
+  "gedcomId": "I30",
+  "names": {
+   "he": "דוד אלפרט",
+   "latin": "Dawid Alpert",
+   "given": "Dawid",
+   "surname": "Alpert",
+   "variants": [
+    "Albert"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1869",
+   "notes": [
+    "From his stated age of twenty-five in Warsaw marriage act 75/1894, read from the act\nitself on 6 Aug 2026."
+   ],
+   "place": null,
+   "dateHe": "בערך 1869"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named as Chaim's father on CKZP registration slip 12344, and independently\non Chaim's gravestone in Holon, which reads \"ben David\" and \"born Warsaw\".\n** Identified in Warsaw marriage act 75/1894 (18 February 1894, cyrkul V), which names\nhis parents. ** See findings/010.\n** ACT READ IN FULL 6 Aug 2026 via metryki.genealodzy.pl (Skanoteka), which serves the\nsame register at 3116x1694 instead of szukajwarchiwach's 800px derivative. See\nfindings/016. The act calls him \"Давидъ Альпертъ, сынъ Абрама и Эстеры-Гитли\nурожденной Цукеръ, двадцати [пяти] лѣтъ, житель города Варшавы\". **\n** NAME: the SAME act writes him АЛЬПЕРТЪ at the head and АЛЬБЕРТА in the closing\nparagraph. Alpert and Albert were already interchangeable in Warsaw in 1894 - the\nIsraeli \"Albert\" continues a form the family already used, it did not invent it. **",
+   "באותו אקט משנת 1894 כתב הפקיד גם «Альпертъ» וגם «Альберта»"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s20",
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-alpert",
+   "p-estera-gitla-cuker"
+  ],
+  "spouses": [
+   "p-rudla-buzowska"
+  ],
+  "children": [
+   "p-izrail-mojsze-alpert",
+   "p-chaim-albert"
+  ]
+ },
+ {
+  "id": "p-rudla-buzowska",
+  "branch": "albert",
+  "gedcomId": "I31",
+  "names": {
+   "he": "רודלה אלפרט לבית בוטקובסקה",
+   "latin": "Rudla Buzowska",
+   "given": "Rudla",
+   "surname": "Buzowska",
+   "variants": [
+    "Butkowska",
+    "Bukowska",
+    "Buzowska",
+    "Gutkowska"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1873",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
+   ],
+   "dateHe": "בערך 1873"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s20",
+   "s-s30",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-i43"
+  ],
+  "spouses": [
+   "p-dawid-alpert"
+  ],
+  "children": [
+   "p-izrail-mojsze-alpert",
+   "p-chaim-albert"
+  ]
+ },
+ {
+  "id": "p-izrail-mojsze-alpert",
+  "branch": "albert",
+  "gedcomId": "I44",
+  "names": {
+   "he": "ישראל־משה אלפרט",
+   "latin": "Izrail Mojsze Alpert",
+   "given": "Izrail Mojsze",
+   "surname": "Alpert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "10 MAR 1909",
+   "place": "Warsaw, Poland",
+   "notes": [
+    "Death act 130/1909, page V 99. Named as the son of Dawid and Rudla nee Bukowska."
+   ],
+   "dateHe": "10 במרץ 1909"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) A brother of Chaim who died as a child - the family did not know of him.\nThis record is also what confirms that the 1894 couple went on living and having\nchildren in Warsaw, i.e. that the marriage act is not a coincidental namesake pair."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s31"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-dawid-alpert",
+   "p-rudla-buzowska"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-chaim-albert",
+  "branch": "albert",
+  "gedcomId": "I32",
+  "names": {
+   "he": "חיים אלברט",
+   "latin": "Chaim Albert",
+   "given": "Chaim",
+   "surname": "Albert",
+   "variants": [
+    "Albert",
+    "Alpert",
+    "Albirt",
+    "Elbert"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "11 JUL 1907",
+   "place": "Warsaw, Poland",
+   "notes": [
+    "** OVERSTATED, CORRECTED WITHIN THE HOUR — read this whole note. ** I first wrote that the\n2015 application \"resolves\" the date. It does not, and I should not have said so. The date\n11.07.1907 already existed on a CKZP registration card in our own hands; the 1913 came from\nCKZP slip 12344. Both are POST-WAR SELF-DECLARATIONS of the same class. The 2015 filing\nsimply repeats one of the two - so it tells us **which date the family committed to**, and\nis NOT an independent source for the year. The conflict is therefore NOT resolved by\nevidence; it is resolved only as a matter of which the family used.\n** 1907 is adopted here** because it is the date the family put before a state authority,\nand because it is a specific day-month-year rather than a bare year - but it stays ONE\npost-war declaration against another.",
+    "The family's\nown official Polish citizenship application of 2015 (12-page WNIOSEK to the Wojewoda\nMazowiecki) gives him, in a structured field, as born **11 / 07 / 1907**.\nThe competing \"1913\" came from CKZP slip 12344 (\"ur. 1913 W-wa\"); a second CKZP card had\nalready given 11.07.1907 and I had left the conflict open. The 2015 filing settles it in\nfavour of 1907 - a date the family committed to in a state document.\n** CONSEQUENCE: my whole Warsaw birth-register search ran on the wrong year. ** I read the\n1913 alphabetical index of cyrkul VI (unit 72/200/0/-/110, scans 110-114, sections А and\nЭ) and found no Alpert/Albert/Elbert. That negative stands but is irrelevant - it is for\na year that is not his. So I redid it on 1907 - and:\n** NO 1907 WARSAW JEWISH BIRTH REGISTER SURVIVES IN FOND 72/200/0 AT ALL. ** For 1907 the\nfond holds only marriages (cyrkul IV = -/66, 151 scans; cyrkul V = -/98, 152 scans) and two\nunscanned marriage-annex units (-/251, -/252). There are combined birth/marriage/death\nunits for 1906, 1908 and 1909, but none for 1907.\n** And JRI's Warsaw birth index has no Alpert/Albert/Elbert birth with a mother RUDLA, and\nnone named Chaim in 1907. ** Indexed Warsaw Alpert/Albert births run 1871-1905 with nothing\nafter Jakow Josif 1905.\n** CONCLUSION: on both candidate years the register is gone. Chaim's Warsaw birth act very\nprobably does not survive. ** What remains: another Warsaw fond or duplicate series\n(unchecked), and asking Daniela Regev what document 11.07.1907 was taken from.\nThe gravestone says only \"born Warsaw\", which is consistent with either year."
+   ],
+   "dateHe": "11 ביולי 1907"
+  },
+  "death": {
+   "date": "12 SEP 1976",
+   "place": "pl-holon",
+   "notes": [
+    "CONFLICT, left open at Amotz's direction: a burial index record gives 17 Elul 5736 =\n12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.\nGrave and cemetery lines are parked - the grave is known and photographed."
+   ],
+   "dateHe": "12 בספטמבר 1976"
+  },
+  "occupation": "czapnik (cap-maker)",
+  "notes": [
+   "(documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;\n1942 at Skarzysko; arrived from Czestochowa; then Targowa 7.\nBefore marrying Chana he had a first wife and a child, both murdered in the Shoah -\nthat line was dropped at Amotz's direction after nine Yad Vashem candidates were\nexcluded."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s20",
+   "s-s21",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-dawid-alpert",
+   "p-rudla-buzowska"
+  ],
+  "spouses": [
+   "p-chana-rywenbajrych"
+  ],
+  "children": [
+   "p-bella-albert",
+   "p-david-albert"
+  ]
+ },
+ {
+  "id": "p-bella-albert",
+  "branch": "albert",
+  "gedcomId": "I33",
+  "names": {
+   "he": "בלה אלברט",
+   "latin": "Bella Albert",
+   "given": "Bella",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - details withheld. Born Lodz, 1946. The Lodz USC birth record is under 100 years\nold and concerns a living person, so it must be requested by Amotz himself."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-chaim-albert",
+   "p-chana-rywenbajrych"
+  ],
+  "spouses": [],
+  "children": [
+   "p-natalie"
+  ]
+ },
+ {
+  "id": "p-david-albert",
+  "branch": "albert",
+  "gedcomId": "I34",
+  "names": {
+   "he": "דוד אלברט",
+   "latin": "David Albert",
+   "given": "David",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Amotz's father. Born **20 June 1951 in Lodz**, per the family's 2015 Polish\ncitizenship application. Came to Israel at about age five, with his sister and both\nparents. He held Polish citizenship at Amotz's birth, and it is through him that Amotz's\ncitizenship was confirmed. His marriage and a name change were registered in Poland in\n2015, so Polish civil-registry records exist for him. Further details withheld."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-chaim-albert",
+   "p-chana-rywenbajrych"
+  ],
+  "spouses": [
+   "p-dvora-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-michal-albert",
+   "p-aya-albert"
+  ]
+ },
+ {
+  "id": "p-abe-lejb-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": null,
+  "names": {
+   "he": "אַבֶּה־לייב ריבנבייריך",
+   "latin": "Abe-Lejb Rywenbajrych",
+   "given": "Abe-Lejb",
+   "surname": "Rywenbajrych",
+   "variants": [
+    "Abram",
+    "Abraham"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "grade": "documented",
+   "notes": [
+    "נקוב כאבי טוביה במרשם התושבים הלא-קבועים של אופטוב, 1921 (סריקה 193)."
+   ],
+   "place": null,
+   "dateHe": "בערך 1860"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הכתיב «Abe» כמעט ודאי קיצור של אברם/אברהם — לא הוכרע איזה. שם נעוריה של פייגה־רחל לא נרשם."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "albert-rywenbajrych/opatow",
+  "parents": [],
+  "spouses": [
+   "p-fajga-rechil-rywenbajrych"
+  ],
+  "children": [
+   "p-tuvia-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-fajga-rechil-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": null,
+  "names": {
+   "he": "פייגה־רחל ריבנבייריך",
+   "latin": "Fajga-Rechil Rywenbajrych",
+   "given": "Fajga-Rechil",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1862",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "בערך 1862"
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "מתה לפני 1920 — בתה של טוביה נקראה על שמה (מנהג אשכנזי), לולאת שמות החוצה שלושה מקורות."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "albert-rywenbajrych/opatow",
+  "parents": [],
+  "spouses": [
+   "p-abe-lejb-rywenbajrych"
+  ],
+  "children": [
+   "p-tuvia-rywenbajrych"
+  ]
+ },
+ {
+  "id": "p-natalie",
+  "branch": "albert",
+  "names": {
+   "he": "נטלי",
+   "latin": "Natalie",
+   "given": "Natalie",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "8 DEC 1992",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "8 בדצמבר 1992"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של בלה אלברט. שם משפחה טרם תועד."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-bella-albert"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-aron-bukszpan",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "אהרן בוקשפן",
+   "latin": "Aron Bukszpan",
+   "given": "Aron",
+   "surname": "Bukszpan",
+   "variants": [
+    "Bukszpan",
+    "Bugszpan",
+    "Bogszpan",
+    "Buchszpan"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1760",
+   "place": "pl-dorohusk",
+   "grade": "inference",
+   "notes": [
+    "שנת הלידה נגזרת מגיל בתו דבורה (45 ב-1833)."
+   ],
+   "dateHe": "בערך 1760"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "האב הקדום ביותר המתועד בכל המחקר. נקוב באקט פטירת בתו כ«ארון… מלז'ונקוב בוקשפנוב מדורוהוסק»."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-perla-bukszpan"
+  ],
+  "children": [
+   "p-dwera-bukszpan"
+  ]
+ },
+ {
+  "id": "p-perla-bukszpan",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "פרלה בוקשפן",
+   "latin": "Perla Bukszpan",
+   "given": "Perla",
+   "surname": "Bukszpan",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1765",
+   "place": "pl-dorohusk",
+   "grade": "inference",
+   "dateHe": "בערך 1765"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "האם הקדומה ביותר המתועדת. נקובה באקט פטירת בתה דבורה, 1833."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-aron-bukszpan"
+  ],
+  "children": [
+   "p-dwera-bukszpan"
+  ]
+ },
+ {
+  "id": "p-josek-szyfman",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "יוסק שיפמן",
+   "latin": "Josek Szyfman",
+   "given": "Josek",
+   "surname": "Szyfman",
+   "variants": [
+    "Josio",
+    "Jos",
+    "Josia"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "אין כל תיעוד לשנת לידה או למקום לידה — לא מוזכר באף אקט שאותר."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "היה בחיים באוקטובר 1833 — נקוב באקט פטירת אשתו כבעל שנותר אלמן."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "notes": [
+   "חי בכפר דורוהוסק. נקוב בשני אקטים: פטירת אשתו (1833/6) ופטירת בנו (1869/4)."
+  ],
+  "sources": [
+   "s-m-act-1833-6",
+   "s-m-act-1869-4"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6",
+   "d-m-1869-4"
+  ],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-dwera-bukszpan"
+  ],
+  "children": [
+   "p-moszek-szyfman",
+   "p-moszko-hersz-szyfman"
+  ]
+ },
+ {
+  "id": "p-dwera-bukszpan",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "דבורה שיפמן לבית בוקשפן",
+   "latin": "Dwera Szyfman née Bukszpan",
+   "given": "Dwera",
+   "surname": "Bukszpan",
+   "variants": [
+    "Dwojra"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1788",
+   "place": "pl-dorohusk",
+   "grade": "documented",
+   "notes": [
+    "בת 45 במותה (אקט 6/1833)."
+   ],
+   "sources": [
+    "s-m-act-1833-6"
+   ],
+   "dateHe": "בערך 1788"
+  },
+  "death": {
+   "date": "9 OCT 1833",
+   "place": "pl-dorohusk",
+   "grade": "documented",
+   "notes": [
+    "נפטרה בשעה שלוש אחר הצהריים; האקט נרשם בשוייז'ה ב-13.10.1833."
+   ],
+   "sources": [
+    "s-m-act-1833-6"
+   ],
+   "dateHe": "9 באוקטובר 1833"
+  },
+  "grade": "documented",
+  "notes": [
+   "«אשת איש, תושבת הכפר דורוהוסק». המצהירים: לייב ושמול גורמן."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-aron-bukszpan",
+   "p-perla-bukszpan"
+  ],
+  "spouses": [
+   "p-josek-szyfman"
+  ],
+  "children": [
+   "p-moszek-szyfman",
+   "p-moszko-hersz-szyfman"
+  ]
+ },
+ {
+  "id": "p-moszek-szyfman",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "משק שיפמן",
+   "latin": "Moszek Szyfman",
+   "given": "Moszek",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1812",
+   "grade": "documented",
+   "notes": [
+    "בן 20 בנישואיו ב-1832."
+   ],
+   "sources": [
+    "s-m-act-1832-1"
+   ],
+   "place": null,
+   "dateHe": "בערך 1812"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "אחיו הבכור של משקו-הרש. חי ב«דורוהוסק / כפר ז'מודז'». התגלה 8.8.2026 — לא היה בעץ קודם."
+  ],
+  "sources": [
+   "s-m-act-1832-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-josek-szyfman",
+   "p-dwera-bukszpan"
+  ],
+  "spouses": [
+   "p-rane-katz"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-rane-katz",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "רנה קץ",
+   "latin": "Rane Katz",
+   "given": "Rane",
+   "surname": "Katz",
+   "variants": [
+    "Kac"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1815",
+   "grade": "documented",
+   "notes": [
+    "בת 17 בנישואיה ב-1832."
+   ],
+   "sources": [
+    "s-m-act-1832-1"
+   ],
+   "place": null,
+   "dateHe": "בערך 1815"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "בת שלמה קץ וסוסיה לבית לברפרב; אביה כבר מת ב-1832. ⚠ אין לבלבל עם דבורה-איטה קץ, אשת אחיו של בעלה."
+  ],
+  "sources": [
+   "s-m-act-1832-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-moszek-szyfman"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-szmul-kac",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "שמול קץ",
+   "latin": "Szmul Kac",
+   "given": "Szmul",
+   "surname": "Kac",
+   "variants": [
+    "Katz"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1790",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1790"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "נקוב באקט פטירת בתו דבורה-איטה (1874/6) — דור תשיעי בספירת המחקר."
+  ],
+  "sources": [
+   "s-m-act-1874-6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/szyfman-kac",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-estera-kac"
+  ],
+  "children": [
+   "p-dwojra-itta-kac"
+  ]
+ },
+ {
+  "id": "p-estera-kac",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "אסתרה קץ",
+   "latin": "Estera Kac",
+   "given": "Estera",
+   "surname": "Kac",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1795",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1795"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "נקובה באקט פטירת בתה דבורה-איטה (1874/6)."
+  ],
+  "sources": [
+   "s-m-act-1874-6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/szyfman-kac",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-szmul-kac"
+  ],
+  "children": [
+   "p-dwojra-itta-kac"
+  ]
+ },
+ {
+  "id": "p-moszko-hersz-szyfman",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "משקו־הרש שיפמן",
+   "latin": "Moszko Hersz Szyfman",
+   "given": "Moszko Hersz",
+   "surname": "Szyfman",
+   "variants": [
+    "Gersz",
+    "Berek(?)"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1822",
+   "place": "pl-swierze",
+   "grade": "documented",
+   "notes": [
+    "בן 47 במותו (אקט 4/1869), «יליד הכפר שוייז'ה»."
+   ],
+   "sources": [
+    "s-m-act-1869-4"
+   ],
+   "dateHe": "בערך 1822"
+  },
+  "death": {
+   "date": "20 MAR 1869",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1869-4"
+   ],
+   "dateHe": "20 במרץ 1869"
+  },
+  "occupation": "работникъ — פועל",
+  "grade": "documented",
+  "notes": [
+   "⚠ סתירת שם: אקט הנישואין 1/1873 של בתו נקרא «Berek(?) Szyfman» בסימן שאלה, ואילו אקט הפטירה 4/1869 נוקב במפורש «Гершъ Шифманъ / Moszko Szyfman». כנראה אותו אדם; הקריאה של 1873 הייתה מסופקת."
+  ],
+  "sources": [
+   "s-m-act-1869-4",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1869-4"
+  ],
+  "bioChapter": "moskal-szafir/szyfman-kac",
+  "gedcomId": null,
+  "parents": [
+   "p-josek-szyfman",
+   "p-dwera-bukszpan"
+  ],
+  "spouses": [
+   "p-dwojra-itta-kac"
+  ],
+  "children": [
+   "p-estera-dwojra-szyfman",
+   "p-pesia-szyfman"
+  ]
+ },
+ {
+  "id": "p-dwojra-itta-kac",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "דבורה־איטה שיפמן לבית קץ",
+   "latin": "Dwojra Itta Szyfman née Kac",
+   "given": "Dwojra Itta",
+   "surname": "Kac",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1819",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 55 במותה (אקט 6/1874)."
+   ],
+   "sources": [
+    "s-m-act-1874-6"
+   ],
+   "dateHe": "בערך 1819"
+  },
+  "death": {
+   "date": "23 MAR 1874",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אלמנה. המצהיר היה חתנה, שמואל שאופר — אישוש זהות מהחזק שאפשר."
+   ],
+   "sources": [
+    "s-m-act-1874-6"
+   ],
+   "dateHe": "23 במרץ 1874"
+  },
+  "grade": "documented",
+  "notes": [
+   "הייתה בחיים בחתונת בתה בינואר 1873 ונתנה את הסכמתה."
+  ],
+  "sources": [
+   "s-m-act-1874-6",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1874-6"
+  ],
+  "bioChapter": "moskal-szafir/szyfman-kac",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-szmul-kac",
+   "p-estera-kac"
+  ],
+  "spouses": [
+   "p-moszko-hersz-szyfman"
+  ],
+  "children": [
+   "p-estera-dwojra-szyfman",
+   "p-pesia-szyfman"
+  ]
+ },
+ {
+  "id": "p-szmul-szaufer-elder",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "שמול שאפיר",
+   "latin": "Szmul Szaufer",
+   "given": "Szmul",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1775",
+   "place": "ua-rawa-ruska",
+   "grade": "inference",
+   "dateHe": "בערך 1775"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מת לפני יולי 1866 — נקוב באקט פטירת בנו כ«niegdy» (המנוח)."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "notes": [
+   "מראווה רוסקה שבגליציה האוסטרית. הדור השביעי בספירת המחקר."
+  ],
+  "sources": [
+   "s-m-act-1866-9"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-estera-szaufer-elder"
+  ],
+  "children": [
+   "p-chaim-szaufer"
+  ]
+ },
+ {
+  "id": "p-estera-szaufer-elder",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "אסתרה שאפיר",
+   "latin": "Estera Szaufer",
+   "given": "Estera",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1780",
+   "place": "ua-rawa-ruska",
+   "grade": "inference",
+   "dateHe": "בערך 1780"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני יולי 1866."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "sources": [
+   "s-m-act-1866-9"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia",
+  "gedcomId": null,
+  "occupation": "",
+  "notes": [],
+  "parents": [],
+  "spouses": [
+   "p-szmul-szaufer-elder"
+  ],
+  "children": [
+   "p-chaim-szaufer"
+  ]
+ },
+ {
+  "id": "p-chaim-szaufer",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "חיים שאפיר",
+   "latin": "Chaim Szaufer",
+   "given": "Chaim",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1804",
+   "place": "ua-rawa-ruska",
+   "grade": "documented",
+   "notes": [
+    "בן 62 במותו. האקט אומר «בעיר ראווה שבגליציה האוסטרית»; הזיהוי עם ראווה רוסקה — ◐ סביר (קיימת גם ראווה מזובייצקה, אך היא בפולין הרוסית והפקיד ציין גליציה במפורש)."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ],
+   "dateHe": "בערך 1804"
+  },
+  "death": {
+   "date": "3 JUL 1866",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1866-9"
+   ],
+   "dateHe": "3 ביולי 1866"
+  },
+  "occupation": "בעל בית בוויסלביצה",
+  "grade": "documented",
+  "notes": [
+   "היגר מגליציה האוסטרית לקונגרס-פולין לפני 1838. היה בעל בית בוויסלביצה — סטטוס גבוה מכפי שהניחו קודם."
+  ],
+  "sources": [
+   "s-m-act-1866-9",
+   "s-m-act-1838-15"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia",
+  "gedcomId": null,
+  "parents": [
+   "p-szmul-szaufer-elder",
+   "p-estera-szaufer-elder"
+  ],
+  "spouses": [
+   "p-liba-kielner"
+  ],
+  "children": [
+   "p-szmul-szaufer"
+  ]
+ },
+ {
+  "id": "p-liba-kielner",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "ליבה שאפיר לבית קילנר",
+   "latin": "Liba Szaufer née Kielner",
+   "given": "Liba",
+   "surname": "Kielner",
+   "variants": [
+    "Glezer(?)"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1810",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1810"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "הייתה בחיים ב-3.7.1866 ומתה לפני ינואר 1873."
+   ],
+   "sources": [
+    "s-m-act-1866-9",
+    "s-m-act-1873-1"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "conflict": "⚠ שם נעורים: אקטי 1866 ו-1873 נוקבים ב-KIELNER. עץ ג'ני מציג את אשת חיים כבת הרשקו ומאשה GLEZER. הסתירה לא הוכרעה — האקטים גוברים עד שיימצא מקור נוסף.",
+  "sources": [
+   "s-m-act-1866-9",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/galicia",
+  "gedcomId": null,
+  "occupation": "",
+  "notes": [],
+  "parents": [],
+  "spouses": [
+   "p-chaim-szaufer"
+  ],
+  "children": [
+   "p-szmul-szaufer"
+  ]
+ },
+ {
+  "id": "p-szmul-szaufer",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "שמואל («שמואל'קה») שאפיר",
+   "latin": "Szmul Szaufer",
+   "given": "Szmul",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1836",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "שש הצהרות גיל נפרדות מצביעות עקבית על 1836/37."
+   ],
+   "sources": [
+    "s-m-act-1873-1",
+    "s-m-act-1874-6",
+    "s-m-act-1859-14"
+   ],
+   "dateHe": "בערך 1836"
+  },
+  "death": null,
+  "occupation": "krowielszczik — רַעֲפָן (מכסה גגות)",
+  "grade": "documented",
+  "notes": [
+   "נשא שלוש נשים: שרה שרויד מדוביינקה (1859), אסתרה-דבורה שיפמן (~1866–71, האקט טרם נמצא), ופסיה-רוחלה שיפמן (1873). המקצוע חוזר בכל מסמך שבו הוא מופיע.",
+   "מסורת משפחתית (מזיכרונות מנדל שאפיר, אושרה לפרסום): עלה לרבי מבלז."
+  ],
+  "sources": [
+   "s-m-act-1859-14",
+   "s-m-act-1873-1",
+   "s-m-act-1874-6",
+   "s-m-memoir"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir",
+  "gedcomId": null,
+  "parents": [
+   "p-chaim-szaufer",
+   "p-liba-kielner"
+  ],
+  "spouses": [
+   "p-sura-szrojd",
+   "p-estera-dwojra-szyfman",
+   "p-pesia-szyfman"
+  ],
+  "children": [
+   "p-mendel-schafir"
+  ]
+ },
+ {
+  "id": "p-sura-szrojd",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "שרה שרויד",
+   "latin": "Sura Szrojd",
+   "given": "Sura",
+   "surname": "Szrojd",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1841",
+   "place": "pl-dubienka",
+   "grade": "documented",
+   "notes": [
+    "בת 18 בנישואיה ב-1859."
+   ],
+   "sources": [
+    "s-m-act-1859-14"
+   ],
+   "dateHe": "בערך 1841"
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "מתה לפני ~1866."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "notes": [
+   "אשתו הראשונה של שמואל. בת זיסקיל שרויד וזלדה, מדוביינקה."
+  ],
+  "sources": [
+   "s-m-act-1859-14"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-szmul-szaufer"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-estera-dwojra-szyfman",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "אסתרה־דבורה שיפמן",
+   "latin": "Estera Dwojra Szyfman",
+   "given": "Estera Dwojra",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1850",
+   "grade": "documented",
+   "notes": [
+    "בת 22 במותה."
+   ],
+   "sources": [
+    "s-m-act-1872-7"
+   ],
+   "place": null,
+   "dateHe": "בערך 1850"
+  },
+  "death": {
+   "date": "30 MAY 1872",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1872-7"
+   ],
+   "dateHe": "30 במאי 1872"
+  },
+  "grade": "documented",
+  "notes": [
+   "אשתו השנייה של שמואל ואחותה הבכורה של פסיה. אקט הנישואין שלהם (~1866–1871) טרם אותר."
+  ],
+  "sources": [
+   "s-m-act-1872-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-moszko-hersz-szyfman",
+   "p-dwojra-itta-kac"
+  ],
+  "spouses": [
+   "p-szmul-szaufer"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-pesia-szyfman",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "פסיה־רוחלה שאפיר לבית שיפמן",
+   "latin": "Pesia Ruchla Szyfman",
+   "given": "Pesia Ruchla",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 17 בנישואיה, 21.1.1873."
+   ],
+   "sources": [
+    "s-m-act-1873-1"
+   ],
+   "dateHe": "בערך 1856"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "אמו של מנדל. נישאה בהסכמת אמה דבורה-איטה, שהייתה נוכחת בחתונה."
+  ],
+  "sources": [
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1873-1"
+  ],
+  "bioChapter": "moskal-szafir/memoir",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-moszko-hersz-szyfman",
+   "p-dwojra-itta-kac"
+  ],
+  "spouses": [
+   "p-szmul-szaufer"
+  ],
+  "children": [
+   "p-mendel-schafir"
+  ]
+ },
+ {
+  "id": "p-mendel-schafir",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "מנחם מנדל שאפיר",
+   "latin": "Menachem Mendel Schafir",
+   "given": "Menachem Mendel",
+   "surname": "Schafir",
+   "variants": [
+    "Szaufer",
+    "Szafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "3 JAN 1887",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-birth-mendel"
+   ],
+   "dateHe": "3 בינואר 1887"
+  },
+  "death": null,
+  "grade": "documented",
+  "conflict": "⚠ שנת לידה: אקט הלידה נותן 3.1.1887, אך כותרת זיכרונותיו — «שישים שנות חיי בוויסלביצה 1879–1939» — מרמזת על לידה ב-1879. הסתירה לא הוכרעה.",
+  "notes": [
+   "כתב את «שישים שנות חיי בוויסלביצה», שפורסם בספר היזכור של וויסלביצה (תל אביב 1970) — מקור העוגן של כל הענף הזה."
+  ],
+  "sources": [
+   "s-m-birth-mendel",
+   "s-m-memoir"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-szmul-szaufer",
+   "p-pesia-szyfman"
+  ],
+  "spouses": [
+   "p-perl-liben"
+  ],
+  "children": [
+   "p-malka-schafir"
+  ]
+ },
+ {
+  "id": "p-perl-liben",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "פרל שאפיר לבית ליבן",
+   "latin": "Perl Schafir née Liben",
+   "given": "Perl",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1888",
+   "place": "ua-volodymyr",
+   "grade": "probable",
+   "dateHe": "בערך 1888"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "בתם של שלום ליבן וחיה, מוולודימיר־ווהלינסק."
+  ],
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-shalom-liben",
+   "p-khaia-liben"
+  ],
+  "spouses": [
+   "p-mendel-schafir"
+  ],
+  "children": [
+   "p-malka-schafir"
+  ]
+ },
+ {
+  "id": "p-shalom-liben",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "שלום ליבן",
+   "latin": "Shalom Liben",
+   "given": "Shalom",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "inference",
+  "notes": [
+   "ידוע משמו בלבד, ממקורות משפחתיים ומדפי עד."
+  ],
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [],
+  "spouses": [
+   "p-khaia-liben"
+  ],
+  "children": [
+   "p-perl-liben"
+  ]
+ },
+ {
+  "id": "p-khaia-liben",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "חיה ליבן",
+   "latin": "Khaia Liben",
+   "given": "Khaia",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "inference",
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia",
+  "gedcomId": null,
+  "occupation": "",
+  "notes": [],
+  "parents": [],
+  "spouses": [
+   "p-shalom-liben"
+  ],
+  "children": [
+   "p-perl-liben"
+  ]
+ },
+ {
+  "id": "p-malka-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "מלכה מוסקל לבית שאפיר",
+   "latin": "Malka Moskal née Schafir",
+   "given": "Malka",
+   "surname": "Schafir",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1914",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "dateHe": "1914"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "אחיה ואחיותיה: שמואל, יוסף, ששה, פנינה (פרל), דבורה, ונחמה (נחמה איצקוביץ, נפ' 16.1.1997, קבורה בירקון)."
+  ],
+  "sources": [
+   "s-m-family-2019"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-mendel-schafir",
+   "p-perl-liben"
+  ],
+  "spouses": [
+   "p-david-moskal"
+  ],
+  "children": [
+   "p-dvora-albert"
+  ]
+ },
+ {
+  "id": "p-david-moskal",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "דוד מוסקל",
+   "latin": "David Moskal",
+   "given": "David",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1910",
+   "place": "pl-wojslawice",
+   "grade": "probable",
+   "dateHe": "1910"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "למשפחתו הייתה חנות בעיירה, ובית בירה שזוהה בעדויות בעל-פה של תושבי המקום."
+  ],
+  "sources": [
+   "s-m-family-2019",
+   "s-m-teatrnn",
+   "s-m-directory-1929"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "occupation": "",
+  "parents": [
+   "p-judka-lejba-moskal",
+   "p-dvora-alspektor"
+  ],
+  "spouses": [
+   "p-malka-schafir"
+  ],
+  "children": [
+   "p-dvora-albert"
+  ]
+ },
+ {
+  "id": "p-lejba-moskal",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "לייבה מוסקל",
+   "latin": "Lejba Moskal",
+   "given": "Lejba",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1817"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מת לפני ינואר 1878 — נקוב באקט נישואי בנו כ«המנוח»."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הדור הקדום ביותר בענף מוסקל. נקוב באקט נישואי בנו דוד־שלמה."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-brandlya-eil"
+  ],
+  "children": [
+   "p-dawid-szloma-moskal"
+  ]
+ },
+ {
+  "id": "p-brandlya-eil",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "ברנדלה מוסקל לבית אייל",
+   "latin": "Brandlya Moskal née Eil",
+   "given": "Brandlya",
+   "surname": "Eil",
+   "variants": [
+    "Ejl",
+    "Braina"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1820"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני ינואר 1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-lejba-moskal"
+  ],
+  "children": [
+   "p-dawid-szloma-moskal"
+  ]
+ },
+ {
+  "id": "p-gershon-rajs",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "גרשון רייס",
+   "latin": "Gershon Rajs",
+   "given": "Gershon",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1823",
+   "place": "pl-wojslawice",
+   "grade": "inference",
+   "dateHe": "בערך 1823"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "מוויסלביצה. היה בחיים בינואר 1878 — האקט נוקב בו בלי «המנוח», בניגוד לאשתו."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-dvoyra-sztajn"
+  ],
+  "children": [
+   "p-hinda-rajs"
+  ]
+ },
+ {
+  "id": "p-dvoyra-sztajn",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "דבוירה רייס לבית שטיין",
+   "latin": "Dvoyra Rajs née Sztajn",
+   "given": "Dvoyra",
+   "surname": "Sztajn",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1828",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1828"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני ינואר 1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "דבורה, אמו של אמוץ, נקראה כנראה על שמה."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-gershon-rajs"
+  ],
+  "children": [
+   "p-hinda-rajs"
+  ]
+ },
+ {
+  "id": "p-dawid-szloma-moskal",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "דוד־שלמה מוסקל",
+   "latin": "Dawid Szloma Moskal",
+   "given": "Dawid Szloma",
+   "surname": "Moskal",
+   "variants": [
+    "Duvid"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1855",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "בן 23 בנישואיו, 2.1.1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ],
+   "dateHe": "בערך 1855"
+  },
+  "death": {
+   "date": "BEF 1910",
+   "grade": "probable",
+   "place": null,
+   "dateHe": "לפני 1910"
+  },
+  "grade": "documented",
+  "occupation": "חייט",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1878-1"
+  ],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [
+   "p-lejba-moskal",
+   "p-brandlya-eil"
+  ],
+  "spouses": [
+   "p-hinda-rajs"
+  ],
+  "children": [
+   "p-judka-lejba-moskal"
+  ]
+ },
+ {
+  "id": "p-hinda-rajs",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "הינדה מוסקל לבית רייס",
+   "latin": "Hinda Moskal née Rajs",
+   "given": "Hinda",
+   "surname": "Rajs",
+   "variants": [
+    "Inda"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 18 בנישואיה, 2.1.1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ],
+   "dateHe": "בערך 1860"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1878-1"
+  ],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [
+   "p-gershon-rajs",
+   "p-dvoyra-sztajn"
+  ],
+  "spouses": [
+   "p-dawid-szloma-moskal"
+  ],
+  "children": [
+   "p-judka-lejba-moskal"
+  ]
+ },
+ {
+  "id": "p-hersh-alspektor",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "הרש אלספקטור",
+   "latin": "Hersh Alspektor",
+   "given": "Hersh",
+   "surname": "Alspektor",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1855",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1855"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-khaya-rajs"
+  ],
+  "children": [
+   "p-dvora-alspektor"
+  ]
+ },
+ {
+  "id": "p-khaya-rajs",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "חיה אלספקטור לבית רייס",
+   "latin": "Khaya Alspektor née Rajs",
+   "given": "Khaya",
+   "surname": "Rajs",
+   "variants": [
+    "Faia",
+    "Fane"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "grade": "inference",
+   "place": null,
+   "dateHe": "בערך 1860"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "⚠ זיכרון המשפחה קרא לה «פייה/פאנה»; אקט 18/1903 נוקב במפורש «חיה», ונותן את שם נעוריה — רייס."
+  ],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-hersh-alspektor"
+  ],
+  "children": [
+   "p-dvora-alspektor"
+  ]
+ },
+ {
+  "id": "p-judka-lejba-moskal",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "יודקה־לייבה מוסקל",
+   "latin": "Judka Lejba Moskal",
+   "given": "Judka Lejba",
+   "surname": "Moskal",
+   "variants": [
+    "Lejb"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1878",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "בן 25 בנישואיו, 11.8.1903."
+   ],
+   "sources": [
+    "s-m-act-1903-18"
+   ],
+   "dateHe": "בערך 1878"
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נספה בשואה — לפי עץ המשפחה בג'ני."
+   ],
+   "place": null,
+   "dateHe": "1942"
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "נקרא על שם סבו לייבה, שמת לפני 1878."
+  ],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1903-18"
+  ],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [
+   "p-dawid-szloma-moskal",
+   "p-hinda-rajs"
+  ],
+  "spouses": [
+   "p-dvora-alspektor"
+  ],
+  "children": [
+   "p-david-moskal"
+  ]
+ },
+ {
+  "id": "p-dvora-alspektor",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "צביה־דבורה מוסקל לבית אלספקטור",
+   "latin": "Tsivya Dvoyra Moskal née Alspektor",
+   "given": "Tsivya Dvoyra",
+   "surname": "Alspektor",
+   "variants": [
+    "Cywia Dwora"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1885",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1903-18"
+   ],
+   "place": null,
+   "dateHe": "בערך 1885"
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נספתה בשואה — לפי עץ המשפחה בג'ני."
+   ],
+   "place": null,
+   "dateHe": "1942"
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1903-18"
+  ],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [
+   "p-hersh-alspektor",
+   "p-khaya-rajs"
+  ],
+  "spouses": [
+   "p-judka-lejba-moskal"
+  ],
+  "children": [
+   "p-david-moskal"
+  ]
+ },
+ {
+  "id": "p-dvora-albert",
+  "branch": "moskal",
+  "gen": 2,
+  "names": {
+   "he": "דבורה אלברט לבית מוסקל",
+   "latin": "Dvora Albert née Moskal",
+   "given": "Dvora",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד מוסקל ומלכה שאפיר; אמו של אמוץ. נקראה כנראה על שם צביה־דבורה אלספקטור ו/או דבוירה שטיין."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [
+   "p-david-moskal",
+   "p-malka-schafir"
+  ],
+  "spouses": [
+   "p-david-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-michal-albert",
+   "p-aya-albert"
+  ]
+ },
+ {
+  "id": "p-amotz-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "אמוץ אלברט",
+   "latin": "Amotz Albert",
+   "given": "Amotz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": {
+   "date": "ABT 1974",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "בערך 1974"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הנקודה שבה שני הענפים נפגשים: בנם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-boaz-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "בעז אלברט",
+   "latin": "Boaz Albert",
+   "given": "Boaz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": {
+   "date": "10 FEB 1978",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "10 בפברואר 1978"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחיו של אמוץ אלברט. בנם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-michal-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "מיכל אלברט",
+   "latin": "Michal Albert",
+   "given": "Michal",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "6 SEP 1981",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "6 בספטמבר 1981"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחותו של אמוץ אלברט. בתם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-aya-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "איה אלברט",
+   "latin": "Aya Albert",
+   "given": "Aya",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "26 JAN 1984",
+   "grade": "documented",
+   "place": null,
+   "dateHe": "26 בינואר 1984"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחותו של אמוץ אלברט. בתם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "gedcomId": null,
+  "parents": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "spouses": [],
+  "children": []
+ }
+]

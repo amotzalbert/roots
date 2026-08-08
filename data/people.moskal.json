@@ -1,0 +1,1421 @@
+[
+ {
+  "id": "p-aron-bukszpan",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "אהרן בוקשפן",
+   "latin": "Aron Bukszpan",
+   "given": "Aron",
+   "surname": "Bukszpan",
+   "variants": [
+    "Bukszpan",
+    "Bugszpan",
+    "Bogszpan",
+    "Buchszpan"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1760",
+   "place": "pl-dorohusk",
+   "grade": "inference",
+   "notes": [
+    "שנת הלידה נגזרת מגיל בתו דבורה (45 ב-1833)."
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "האב הקדום ביותר המתועד בכל המחקר. נקוב באקט פטירת בתו כ«ארון… מלז'ונקוב בוקשפנוב מדורוהוסק»."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-perla-bukszpan",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "פרלה בוקשפן",
+   "latin": "Perla Bukszpan",
+   "given": "Perla",
+   "surname": "Bukszpan",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1765",
+   "place": "pl-dorohusk",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "האם הקדומה ביותר המתועדת. נקובה באקט פטירת בתה דבורה, 1833."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-josek-szyfman",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "יוסק שיפמן",
+   "latin": "Josek Szyfman",
+   "given": "Josek",
+   "surname": "Szyfman",
+   "variants": [
+    "Josio",
+    "Jos",
+    "Josia"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "אין כל תיעוד לשנת לידה או למקום לידה — לא מוזכר באף אקט שאותר."
+   ]
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "היה בחיים באוקטובר 1833 — נקוב באקט פטירת אשתו כבעל שנותר אלמן."
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "חי בכפר דורוהוסק. נקוב בשני אקטים: פטירת אשתו (1833/6) ופטירת בנו (1869/4)."
+  ],
+  "sources": [
+   "s-m-act-1833-6",
+   "s-m-act-1869-4"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6",
+   "d-m-1869-4"
+  ],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-dwera-bukszpan",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "דבורה שיפמן לבית בוקשפן",
+   "latin": "Dwera Szyfman née Bukszpan",
+   "given": "Dwera",
+   "surname": "Bukszpan",
+   "variants": [
+    "Dwojra"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1788",
+   "place": "pl-dorohusk",
+   "grade": "documented",
+   "notes": [
+    "בת 45 במותה (אקט 6/1833)."
+   ],
+   "sources": [
+    "s-m-act-1833-6"
+   ]
+  },
+  "death": {
+   "date": "9 OCT 1833",
+   "place": "pl-dorohusk",
+   "grade": "documented",
+   "notes": [
+    "נפטרה בשעה שלוש אחר הצהריים; האקט נרשם בשוייז'ה ב-13.10.1833."
+   ],
+   "sources": [
+    "s-m-act-1833-6"
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "«אשת איש, תושבת הכפר דורוהוסק». המצהירים: לייב ושמול גורמן."
+  ],
+  "sources": [
+   "s-m-act-1833-6"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1833-6"
+  ],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-moszek-szyfman",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "משק שיפמן",
+   "latin": "Moszek Szyfman",
+   "given": "Moszek",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1812",
+   "grade": "documented",
+   "notes": [
+    "בן 20 בנישואיו ב-1832."
+   ],
+   "sources": [
+    "s-m-act-1832-1"
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "אחיו הבכור של משקו-הרש. חי ב«דורוהוסק / כפר ז'מודז'». התגלה 8.8.2026 — לא היה בעץ קודם."
+  ],
+  "sources": [
+   "s-m-act-1832-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-rane-katz",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "רנה קץ",
+   "latin": "Rane Katz",
+   "given": "Rane",
+   "surname": "Katz",
+   "variants": [
+    "Kac"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1815",
+   "grade": "documented",
+   "notes": [
+    "בת 17 בנישואיה ב-1832."
+   ],
+   "sources": [
+    "s-m-act-1832-1"
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "בת שלמה קץ וסוסיה לבית לברפרב; אביה כבר מת ב-1832. ⚠ אין לבלבל עם דבורה-איטה קץ, אשת אחיו של בעלה."
+  ],
+  "sources": [
+   "s-m-act-1832-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/bug"
+ },
+ {
+  "id": "p-szmul-kac",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "שמול קץ",
+   "latin": "Szmul Kac",
+   "given": "Szmul",
+   "surname": "Kac",
+   "variants": [
+    "Katz"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1790",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "נקוב באקט פטירת בתו דבורה-איטה (1874/6) — דור תשיעי בספירת המחקר."
+  ],
+  "sources": [
+   "s-m-act-1874-6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/szyfman-kac"
+ },
+ {
+  "id": "p-estera-kac",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "אסתרה קץ",
+   "latin": "Estera Kac",
+   "given": "Estera",
+   "surname": "Kac",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1795",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "נקובה באקט פטירת בתה דבורה-איטה (1874/6)."
+  ],
+  "sources": [
+   "s-m-act-1874-6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/szyfman-kac"
+ },
+ {
+  "id": "p-moszko-hersz-szyfman",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "משקו־הרש שיפמן",
+   "latin": "Moszko Hersz Szyfman",
+   "given": "Moszko Hersz",
+   "surname": "Szyfman",
+   "variants": [
+    "Gersz",
+    "Berek(?)"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1822",
+   "place": "pl-swierze",
+   "grade": "documented",
+   "notes": [
+    "בן 47 במותו (אקט 4/1869), «יליד הכפר שוייז'ה»."
+   ],
+   "sources": [
+    "s-m-act-1869-4"
+   ]
+  },
+  "death": {
+   "date": "20 MAR 1869",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1869-4"
+   ]
+  },
+  "occupation": "работникъ — פועל",
+  "grade": "documented",
+  "notes": [
+   "⚠ סתירת שם: אקט הנישואין 1/1873 של בתו נקרא «Berek(?) Szyfman» בסימן שאלה, ואילו אקט הפטירה 4/1869 נוקב במפורש «Гершъ Шифманъ / Moszko Szyfman». כנראה אותו אדם; הקריאה של 1873 הייתה מסופקת."
+  ],
+  "sources": [
+   "s-m-act-1869-4",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1869-4"
+  ],
+  "bioChapter": "moskal-szafir/szyfman-kac"
+ },
+ {
+  "id": "p-dwojra-itta-kac",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "דבורה־איטה שיפמן לבית קץ",
+   "latin": "Dwojra Itta Szyfman née Kac",
+   "given": "Dwojra Itta",
+   "surname": "Kac",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1819",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 55 במותה (אקט 6/1874)."
+   ],
+   "sources": [
+    "s-m-act-1874-6"
+   ]
+  },
+  "death": {
+   "date": "23 MAR 1874",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אלמנה. המצהיר היה חתנה, שמואל שאופר — אישוש זהות מהחזק שאפשר."
+   ],
+   "sources": [
+    "s-m-act-1874-6"
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "הייתה בחיים בחתונת בתה בינואר 1873 ונתנה את הסכמתה."
+  ],
+  "sources": [
+   "s-m-act-1874-6",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1874-6"
+  ],
+  "bioChapter": "moskal-szafir/szyfman-kac"
+ },
+ {
+  "id": "p-szmul-szaufer-elder",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "שמול שאפיר",
+   "latin": "Szmul Szaufer",
+   "given": "Szmul",
+   "surname": "Szaufer",
+   "variants": [
+    "Schafir",
+    "Szafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1775",
+   "place": "ua-rawa-ruska",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מת לפני יולי 1866 — נקוב באקט פטירת בנו כ«niegdy» (המנוח)."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "מראווה רוסקה שבגליציה האוסטרית. הדור השביעי בספירת המחקר."
+  ],
+  "sources": [
+   "s-m-act-1866-9"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia"
+ },
+ {
+  "id": "p-estera-szaufer-elder",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "אסתרה שאפיר",
+   "latin": "Estera Szaufer",
+   "given": "Estera",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1780",
+   "place": "ua-rawa-ruska",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני יולי 1866."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ]
+  },
+  "grade": "documented",
+  "sources": [
+   "s-m-act-1866-9"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia"
+ },
+ {
+  "id": "p-chaim-szaufer",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "חיים שאפיר",
+   "latin": "Chaim Szaufer",
+   "given": "Chaim",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1804",
+   "place": "ua-rawa-ruska",
+   "grade": "documented",
+   "notes": [
+    "בן 62 במותו. האקט אומר «בעיר ראווה שבגליציה האוסטרית»; הזיהוי עם ראווה רוסקה — ◐ סביר (קיימת גם ראווה מזובייצקה, אך היא בפולין הרוסית והפקיד ציין גליציה במפורש)."
+   ],
+   "sources": [
+    "s-m-act-1866-9"
+   ]
+  },
+  "death": {
+   "date": "3 JUL 1866",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1866-9"
+   ]
+  },
+  "occupation": "בעל בית בוויסלביצה",
+  "grade": "documented",
+  "notes": [
+   "היגר מגליציה האוסטרית לקונגרס-פולין לפני 1838. היה בעל בית בוויסלביצה — סטטוס גבוה מכפי שהניחו קודם."
+  ],
+  "sources": [
+   "s-m-act-1866-9",
+   "s-m-act-1838-15"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1866-9"
+  ],
+  "bioChapter": "moskal-szafir/galicia"
+ },
+ {
+  "id": "p-liba-kielner",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "ליבה שאפיר לבית קילנר",
+   "latin": "Liba Szaufer née Kielner",
+   "given": "Liba",
+   "surname": "Kielner",
+   "variants": [
+    "Glezer(?)"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1810",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "הייתה בחיים ב-3.7.1866 ומתה לפני ינואר 1873."
+   ],
+   "sources": [
+    "s-m-act-1866-9",
+    "s-m-act-1873-1"
+   ]
+  },
+  "grade": "documented",
+  "conflict": "⚠ שם נעורים: אקטי 1866 ו-1873 נוקבים ב-KIELNER. עץ ג'ני מציג את אשת חיים כבת הרשקו ומאשה GLEZER. הסתירה לא הוכרעה — האקטים גוברים עד שיימצא מקור נוסף.",
+  "sources": [
+   "s-m-act-1866-9",
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/galicia"
+ },
+ {
+  "id": "p-szmul-szaufer",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "שמואל («שמואל'קה») שאפיר",
+   "latin": "Szmul Szaufer",
+   "given": "Szmul",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1836",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "שש הצהרות גיל נפרדות מצביעות עקבית על 1836/37."
+   ],
+   "sources": [
+    "s-m-act-1873-1",
+    "s-m-act-1874-6",
+    "s-m-act-1859-14"
+   ]
+  },
+  "death": null,
+  "occupation": "krowielszczik — רַעֲפָן (מכסה גגות)",
+  "grade": "documented",
+  "notes": [
+   "נשא שלוש נשים: שרה שרויד מדוביינקה (1859), אסתרה-דבורה שיפמן (~1866–71, האקט טרם נמצא), ופסיה-רוחלה שיפמן (1873). המקצוע חוזר בכל מסמך שבו הוא מופיע.",
+   "מסורת משפחתית (מזיכרונות מנדל שאפיר, אושרה לפרסום): עלה לרבי מבלז."
+  ],
+  "sources": [
+   "s-m-act-1859-14",
+   "s-m-act-1873-1",
+   "s-m-act-1874-6",
+   "s-m-memoir"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-sura-szrojd",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "שרה שרויד",
+   "latin": "Sura Szrojd",
+   "given": "Sura",
+   "surname": "Szrojd",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1841",
+   "place": "pl-dubienka",
+   "grade": "documented",
+   "notes": [
+    "בת 18 בנישואיה ב-1859."
+   ],
+   "sources": [
+    "s-m-act-1859-14"
+   ]
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "מתה לפני ~1866."
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "אשתו הראשונה של שמואל. בת זיסקיל שרויד וזלדה, מדוביינקה."
+  ],
+  "sources": [
+   "s-m-act-1859-14"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-estera-dwojra-szyfman",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "אסתרה־דבורה שיפמן",
+   "latin": "Estera Dwojra Szyfman",
+   "given": "Estera Dwojra",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1850",
+   "grade": "documented",
+   "notes": [
+    "בת 22 במותה."
+   ],
+   "sources": [
+    "s-m-act-1872-7"
+   ]
+  },
+  "death": {
+   "date": "30 MAY 1872",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1872-7"
+   ]
+  },
+  "grade": "documented",
+  "notes": [
+   "אשתו השנייה של שמואל ואחותה הבכורה של פסיה. אקט הנישואין שלהם (~1866–1871) טרם אותר."
+  ],
+  "sources": [
+   "s-m-act-1872-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-pesia-szyfman",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "פסיה־רוחלה שאפיר לבית שיפמן",
+   "latin": "Pesia Ruchla Szyfman",
+   "given": "Pesia Ruchla",
+   "surname": "Szyfman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 17 בנישואיה, 21.1.1873."
+   ],
+   "sources": [
+    "s-m-act-1873-1"
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "notes": [
+   "אמו של מנדל. נישאה בהסכמת אמה דבורה-איטה, שהייתה נוכחת בחתונה."
+  ],
+  "sources": [
+   "s-m-act-1873-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1873-1"
+  ],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-mendel-schafir",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "מנחם מנדל שאפיר",
+   "latin": "Menachem Mendel Schafir",
+   "given": "Menachem Mendel",
+   "surname": "Schafir",
+   "variants": [
+    "Szaufer",
+    "Szafir"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "3 JAN 1887",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "sources": [
+    "s-m-birth-mendel"
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "conflict": "⚠ שנת לידה: אקט הלידה נותן 3.1.1887, אך כותרת זיכרונותיו — «שישים שנות חיי בוויסלביצה 1879–1939» — מרמזת על לידה ב-1879. הסתירה לא הוכרעה.",
+  "notes": [
+   "כתב את «שישים שנות חיי בוויסלביצה», שפורסם בספר היזכור של וויסלביצה (תל אביב 1970) — מקור העוגן של כל הענף הזה."
+  ],
+  "sources": [
+   "s-m-birth-mendel",
+   "s-m-memoir"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-perl-liben",
+  "branch": "moskal",
+  "gen": 4,
+  "names": {
+   "he": "פרל שאפיר לבית ליבן",
+   "latin": "Perl Schafir née Liben",
+   "given": "Perl",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1888",
+   "place": "ua-volodymyr",
+   "grade": "probable"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "בתם של שלום ליבן וחיה, מוולודימיר־ווהלינסק."
+  ],
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia"
+ },
+ {
+  "id": "p-shalom-liben",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "שלום ליבן",
+   "latin": "Shalom Liben",
+   "given": "Shalom",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "inference",
+  "notes": [
+   "ידוע משמו בלבד, ממקורות משפחתיים ומדפי עד."
+  ],
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia"
+ },
+ {
+  "id": "p-khaia-liben",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "חיה ליבן",
+   "latin": "Khaia Liben",
+   "given": "Khaia",
+   "surname": "Liben",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "inference",
+  "sources": [
+   "s-m-liben-1865"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/volhynia"
+ },
+ {
+  "id": "p-malka-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "מלכה מוסקל לבית שאפיר",
+   "latin": "Malka Moskal née Schafir",
+   "given": "Malka",
+   "surname": "Schafir",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1914",
+   "place": "pl-wojslawice",
+   "grade": "probable"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "אחיה ואחיותיה: שמואל, יוסף, ששה, פנינה (פרל), דבורה, ונחמה (נחמה איצקוביץ, נפ' 16.1.1997, קבורה בירקון)."
+  ],
+  "sources": [
+   "s-m-family-2019"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-david-moskal",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "דוד מוסקל",
+   "latin": "David Moskal",
+   "given": "David",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1910",
+   "place": "pl-wojslawice",
+   "grade": "probable"
+  },
+  "death": null,
+  "grade": "probable",
+  "notes": [
+   "למשפחתו הייתה חנות בעיירה, ובית בירה שזוהה בעדויות בעל-פה של תושבי המקום."
+  ],
+  "sources": [
+   "s-m-family-2019",
+   "s-m-teatrnn",
+   "s-m-directory-1929"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-lejba-moskal",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "לייבה מוסקל",
+   "latin": "Lejba Moskal",
+   "given": "Lejba",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מת לפני ינואר 1878 — נקוב באקט נישואי בנו כ«המנוח»."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הדור הקדום ביותר בענף מוסקל. נקוב באקט נישואי בנו דוד־שלמה."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-brandlya-eil",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "ברנדלה מוסקל לבית אייל",
+   "latin": "Brandlya Moskal née Eil",
+   "given": "Brandlya",
+   "surname": "Eil",
+   "variants": [
+    "Ejl",
+    "Braina"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני ינואר 1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-gershon-rajs",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "גרשון רייס",
+   "latin": "Gershon Rajs",
+   "given": "Gershon",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1823",
+   "place": "pl-wojslawice",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "מוויסלביצה. היה בחיים בינואר 1878 — האקט נוקב בו בלי «המנוח», בניגוד לאשתו."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-dvoyra-sztajn",
+  "branch": "moskal",
+  "gen": 7,
+  "names": {
+   "he": "דבוירה רייס לבית שטיין",
+   "latin": "Dvoyra Rajs née Sztajn",
+   "given": "Dvoyra",
+   "surname": "Sztajn",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1828",
+   "grade": "inference"
+  },
+  "death": {
+   "grade": "documented",
+   "notes": [
+    "מתה לפני ינואר 1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "דבורה, אמו של אמוץ, נקראה כנראה על שמה."
+  ],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-dawid-szloma-moskal",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "דוד־שלמה מוסקל",
+   "latin": "Dawid Szloma Moskal",
+   "given": "Dawid Szloma",
+   "surname": "Moskal",
+   "variants": [
+    "Duvid"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1855",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "בן 23 בנישואיו, 2.1.1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  },
+  "death": {
+   "date": "BEF 1910",
+   "grade": "probable"
+  },
+  "grade": "documented",
+  "occupation": "חייט",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1878-1"
+  ],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-hinda-rajs",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "הינדה מוסקל לבית רייס",
+   "latin": "Hinda Moskal née Rajs",
+   "given": "Hinda",
+   "surname": "Rajs",
+   "variants": [
+    "Inda"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 18 בנישואיה, 2.1.1878."
+   ],
+   "sources": [
+    "s-m-act-1878-1"
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1878-1"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1878-1"
+  ],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-hersh-alspektor",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "הרש אלספקטור",
+   "latin": "Hersh Alspektor",
+   "given": "Hersh",
+   "surname": "Alspektor",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1855",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-khaya-rajs",
+  "branch": "moskal",
+  "gen": 6,
+  "names": {
+   "he": "חיה אלספקטור לבית רייס",
+   "latin": "Khaya Alspektor née Rajs",
+   "given": "Khaya",
+   "surname": "Rajs",
+   "variants": [
+    "Faia",
+    "Fane"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "grade": "inference"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "⚠ זיכרון המשפחה קרא לה «פייה/פאנה»; אקט 18/1903 נוקב במפורש «חיה», ונותן את שם נעוריה — רייס."
+  ],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-judka-lejba-moskal",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "יודקה־לייבה מוסקל",
+   "latin": "Judka Lejba Moskal",
+   "given": "Judka Lejba",
+   "surname": "Moskal",
+   "variants": [
+    "Lejb"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1878",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "בן 25 בנישואיו, 11.8.1903."
+   ],
+   "sources": [
+    "s-m-act-1903-18"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נספה בשואה — לפי עץ המשפחה בג'ני."
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "נקרא על שם סבו לייבה, שמת לפני 1878."
+  ],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1903-18"
+  ],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-dvora-alspektor",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "צביה־דבורה מוסקל לבית אלספקטור",
+   "latin": "Tsivya Dvoyra Moskal née Alspektor",
+   "given": "Tsivya Dvoyra",
+   "surname": "Alspektor",
+   "variants": [
+    "Cywia Dwora"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1885",
+   "grade": "documented",
+   "sources": [
+    "s-m-act-1903-18"
+   ]
+  },
+  "death": {
+   "date": "1942",
+   "grade": "probable",
+   "notes": [
+    "נספתה בשואה — לפי עץ המשפחה בג'ני."
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [
+   "s-m-act-1903-18"
+  ],
+  "photos": [],
+  "docs": [
+   "d-m-1903-18"
+  ],
+  "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "id": "p-dvora-albert",
+  "branch": "moskal",
+  "gen": 2,
+  "names": {
+   "he": "דבורה אלברט לבית מוסקל",
+   "latin": "Dvora Albert née Moskal",
+   "given": "Dvora",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתם של דוד מוסקל ומלכה שאפיר; אמו של אמוץ. נקראה כנראה על שם צביה־דבורה אלספקטור ו/או דבוירה שטיין."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-amotz-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "אמוץ אלברט",
+   "latin": "Amotz Albert",
+   "given": "Amotz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": {
+   "date": "ABT 1974",
+   "grade": "documented"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הנקודה שבה שני הענפים נפגשים: בנם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-boaz-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "בעז אלברט",
+   "latin": "Boaz Albert",
+   "given": "Boaz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": {
+   "date": "10 FEB 1978",
+   "grade": "documented"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחיו של אמוץ אלברט. בנם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-michal-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "מיכל אלברט",
+   "latin": "Michal Albert",
+   "given": "Michal",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "6 SEP 1981",
+   "grade": "documented"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחותו של אמוץ אלברט. בתם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aya-albert",
+  "branch": "both",
+  "gen": 1,
+  "names": {
+   "he": "איה אלברט",
+   "latin": "Aya Albert",
+   "given": "Aya",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "26 JAN 1984",
+   "grade": "documented"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "אחותו של אמוץ אלברט. בתם של דוד אלברט ודבורה מוסקל."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ }
+]

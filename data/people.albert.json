@@ -1,0 +1,1540 @@
+[
+ {
+  "id": "p-rywen-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I1",
+  "names": {
+   "he": "",
+   "latin": "Rywen Rywenbajrych",
+   "given": "Rywen",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1790",
+   "place": "Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as father of Izrael in Klimontow death act 40/1867:\n\"syn Rywena i Lacy\". No act of his own located. Birth year estimated from his son's age.\nThe surname Rywen-bajrych is built on this given name.",
+   "** MY OWN ERROR, MADE AND CORRECTED 5 Aug 2026 - LEFT VISIBLE. ** I read Klimontow\nmarriage act 4/1834 as making Jeremiasz \"urodzonym tu w Klimontowie z RYWENA y Laji\" and\non that basis upgraded this couple to documented, gave them the trade of bakalarstwo, and\nentered Jeremiasz as Izrael's brother. Then I read the ALEGAT to the same act - an Akt\nZnania sworn before the mayor of Klimontow eight days earlier - which states at length\nand unambiguously that Jeremiasz's father is HERCYK Rywenbayrych, bakalarz. At maximum\nmagnification the register word is NOT securely legible to me either way. A purpose-built\nidentity document outweighs my uncertain reading of a register line, so Jeremiasz is\nentered under Hercyk the bakalarz (@I54@) and THIS COUPLE REVERTS TO PROBABLE, resting\non the 1867 act alone as before."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-laca",
+  "branch": "albert",
+  "gedcomId": "I2",
+  "names": {
+   "he": "",
+   "latin": "Laca",
+   "given": "Laca",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1792"
+  },
+  "death": {
+   "date": "1835",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "inference",
+   "notes": [
+    "(inference, not confirmed) Klimontow death act 53/1835, \"Laja Rywenbayrych\" - act not read."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as mother of Izrael in Klimontow death act 40/1867.\nPolish \"Laca\" - probably Lea or Laja.\nNOTE A COINCIDENCE WORTH WATCHING: marriage act 4/1834 gives Jeremiasz's mother as \"Laji\",\nand Jeremiasz's father is Hercyk, not Rywen. So either there were two couples in this town\nwith a wife called Laja/Laca, or the two men are more closely tangled than I can yet see.\nDo not merge them on the strength of the shared given name."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-jeremiasz-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I50",
+  "names": {
+   "he": "",
+   "latin": "Jeremiasz Rywenbajrych",
+   "given": "Jeremiasz",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "\"urodzonym tu w Klimontowie\", and aged fourteen in August 1834. I could not read the age\nword in the register, but the Akt Znania spells it out - \"lat czternascie\".\nNO BIRTH RECORD EXISTS: the Akt Znania was drawn up precisely because he could not\nproduce one, \"z powodu nie utrzymywania dawniey Ksiag Metrykalnych\" - the Klimontow\nJewish registers do not reach back before about 1826."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Son of HERCYK Rywenbayrych the bakalarz, per the Akt Znania sworn before the\nmayor of Klimontow on 18 August 1834. NOT a son of Rywen - that was my misreading of the\nregister line; see @I1@.\nHe was FOURTEEN when he married: the witnesses swore he \"lat czternascie skonczonych\nliczyc powinien\". His bride was also fourteen."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50",
+   "s-s51"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hercyk-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I54",
+  "names": {
+   "he": "",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1795",
+   "notes": [
+    "Estimated: he had a daughter marrying in 1829 and a son aged fourteen in 1834."
+   ]
+  },
+  "death": null,
+  "occupation": "bakalarz (teacher / melamed)",
+  "notes": [
+   "(documented) ** The earliest Rywenbajrych to appear in a document in his own person. **\nNamed in Klimontow marriage act 4/1834 and, at length, in its Akt Znania of 18 Aug 1834.\nVery probably the \"Hercko Rywenbayrych\" whose daughter Matla-Haia married Jakob Zlotnik\nin 1829 (marriage act 1) and whose son Mortka was born in 1830 (birth act 15); and\npossibly the Hercyk Rywenbayrych of death act 16/1836 - none of those three acts read yet.\nHow he relates to Rywen (@I1@) is UNKNOWN: brother, or the generation above, or the same\nman under a name I have misread. Not merged, on purpose."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50",
+   "s-s51"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-laja",
+  "branch": "albert",
+  "gedcomId": "I55",
+  "names": {
+   "he": "",
+   "latin": "Laja",
+   "given": "Laja",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as Jeremiasz's mother, \"Laji\", in Klimontow marriage act\n4/1834. The alegat does not name her - only the father swore it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-haja-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I51",
+  "names": {
+   "he": "",
+   "latin": "Haja Zalzberg",
+   "given": "Haja",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "notes": [
+    "\"panna lat czternascie maiaca\" in the alegat - she was fourteen."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named in Klimontow marriage act 4/1834 as a spinster, until then living\nwith her mother. Her mother consented in person."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I52",
+  "names": {
+   "he": "",
+   "latin": "Zalzberg",
+   "given": "",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 26 AUG 1834",
+   "notes": [
+    "Described in the 1834 act as \"niezyjacego\" - already dead."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Father of the bride in Klimontow marriage act 4/1834."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tauba-zalzberg",
+  "branch": "albert",
+  "gedcomId": "I53",
+  "names": {
+   "he": "",
+   "latin": "Tauba Zalzberg",
+   "given": "Tauba",
+   "surname": "Zalzberg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Mother of the bride in Klimontow marriage act 4/1834; consented in person.\nNote for the open Zalcberg question: this puts a ZALZBERG household in Klimontow in\n1834, marrying into the Rywenbajrych family - which makes \"Chaja Rajza nee Zalcberg\"\nin the 1903 act a plausible local name. It does not prove it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s50"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-izrael-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I3",
+  "names": {
+   "he": "",
+   "latin": "Izrael Rywenbajrych",
+   "given": "Izrael",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Conflict: birth act 27/1838 gives his age as 23 (b. ~1815); death act 40/1867 gives\nhis age at death as 48 (b. ~1819). Both are register-stated ages, both approximate."
+   ]
+  },
+  "death": {
+   "date": "3 SEP 1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "22 Aug OS / 3 Sep NS, at twelve noon. Age given as 48. One of four Rywenbajrych deaths\nregistered in Klimontow in 1867 - an epidemic year (cholera in Russian Poland)."
+   ]
+  },
+  "occupation": "handlarz (trader/merchant)",
+  "notes": [
+   "(documented) Death act 40/1867, Klimontow, read in the original. Witnesses: Moszek Agater,\nsynagogue beadle, 52; Abram Sandomierski, oil merchant, 55. He is named as \"son of Rywen\nand Laca\", leaving a widow."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1",
+   "s-s2"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaja-rayzla",
+  "branch": "albert",
+  "gedcomId": "I4",
+  "names": {
+   "he": "",
+   "latin": "Chaja Rayzla",
+   "given": "Chaja Rayzla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1818"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, name) Wife of Izrael. Given name conflict across three acts:\nbirth 27/1838 (her husband informant) = \"Chaja Rayzla\"; death 40/1867 (neighbours\ninformants) = \"Maja Rayzla\"; death 37/1903 of her son = \"Chaja Rajza\". Two of three\nread Chaja, and M/Ch are near-identical in this clerk's hand - Chaja adopted.",
+   "UNRESOLVED - maiden name. Birth act 27/1838 appears to read \"z Maszklow\" (my palaeography\nthere is not certain); death act 37/1903 of her son gives \"nee Zalcberg\". The 1838 act is\ncontemporaneous with her husband as informant and should outweigh a record made 65 years\nlater - but only if my reading is right. To settle: read any further birth act of this\ncouple (Klimontow births 46/1845, 12/1847, 19/1852, 20/1856, 25/1858, 19/1863, 52/1865,\n42/1867), each of which states the mother's maiden name. Do not treat as settled."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s2",
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i5",
+  "branch": "albert",
+  "gedcomId": "I5",
+  "names": {
+   "he": "",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "17 SEP 1838",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 25 September 1838 at two in the afternoon; the father presented the child\nhimself and signed, in Latin script and in Hebrew. Named at the circumcision."
+   ]
+  },
+  "death": {
+   "date": "1903",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Death act 37/1903, age given as 65. 1838 + 65 = 1903: the birth act and the death act\nlock onto each other - same name, same parents' names, consistent age."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Birth act 27/1838 and death act 37/1903, both read in the original.\nWitnesses at the birth: Josek Bursztyn, beadle, 58; Jakob Frocht, baker, 57."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s2",
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tauba-cyrla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I7",
+  "names": {
+   "he": "",
+   "latin": "Tauba Cyrla Rywenbajrych",
+   "given": "Tauba Cyrla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named as Hercyk's widow in Klimontow death act 37/1903. Maiden name unknown."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s3"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i6",
+  "branch": "albert",
+  "gedcomId": "I6",
+  "names": {
+   "he": "",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1814",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Register ages: 33 in 1845, 37 in 1847, 42 in 1854, 42 again in 1861. The first three\nagree on ~1812; the 1861 repetition of 42 is clerical carelessness."
+   ]
+  },
+  "death": {
+   "date": "1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Klimontow death act 34/1867 - not yet read. Same epidemic year as Izrael."
+   ]
+  },
+  "occupation": "handlarz Oleja (oil trader)",
+  "notes": [
+   "(documented as a person; his parentage is inference) Appears as the informant father in\nKlimontow birth acts 27/1854 and 12/1861, both read in the original. That he was\nIzrael's brother, i.e. a son of Rywen and Laca, is (inference) only: two merchants of\nthe same surname, same generation, same small town. No document states it."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s4",
+   "s-s5"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ruchla",
+  "branch": "albert",
+  "gedcomId": "I8",
+  "names": {
+   "he": "",
+   "latin": "Ruchla",
+   "given": "Ruchla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1822",
+   "notes": [
+    "Stated ages: 24 (1845), 30 (1847), 32 (1856), 36 (1858), 35 (1865), 38 (1863),\n42 (1867). Internally inconsistent; ~1822 is the rough centre."
+   ]
+  },
+  "death": {
+   "date": "1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Klimontow death act 53/1867 - not yet read. She had given birth in April\nof that year."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "MAIDEN NAME UNRESOLVED, and I am recording this as a limit of my own reading rather\nthan pretending to a conclusion. Across seven birth acts read in the original, the\nmaiden-name formula reads: 46/1845 \"z Leml(ow)\"; 12/1847 illegible; 27/1854\n\"z Lemkowiczow\"; 20/1856 \"z Kimetow\"; 25/1858 no maiden name given; 12/1861\n\"z Komkowiczow\"; 19/1863 \"z Lemkowiczow\" (the clearest of them); 52/1865 \"z Lemelow\";\n42/1867 \"z Lemkowiczow\". Two live candidates: LEMKOWICZ / LEMEL (five readings, and\nthe clearest single one), or KIMET - and the 1856 act is witnessed by Ejzyk Kimet, the\nsynagogue beadle, which is what a bride's kinsman would be doing there. A Kimet/Kimel\nfamily is demonstrably present in Klimontow and witnesses these acts repeatedly.\nI twice adopted a reading here and twice had to reverse it. It stays open."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s4",
+   "s-s5",
+   "s-s6",
+   "s-s8"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-fajga-perla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I13",
+  "names": {
+   "he": "",
+   "latin": "Fajga Perla Rywenbajrych",
+   "given": "Fajga Perla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "4 JUL 1856",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 13 July. Witnesses: Kalman Goldhamer, 66; Ejzyk Kimet, beadle, 42."
+   ]
+  },
+  "death": {
+   "date": "1857",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 28/1857, age given as one."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 20/1856, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s8"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szymcha-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I14",
+  "names": {
+   "he": "",
+   "latin": "Szymcha Rywenbajrych",
+   "given": "Szymcha",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "13 JUN 1863",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 28 June. Witnesses: Moszek Agater, beadle, 48; Abram Sandomierski, 51."
+   ]
+  },
+  "death": {
+   "date": "1864",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 11/1864, age given as one."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 19/1863, read in the original - and the clearest of\nall the acts for the mother's maiden-name formula."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-haskiel-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I15",
+  "names": {
+   "he": "",
+   "latin": "Haskiel Rywenbajrych",
+   "given": "Haskiel",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "12 MAR 1865",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 7 April. The father signed in Hebrew."
+   ]
+  },
+  "death": {
+   "date": "1865",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 52/1865, age given as six months."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 52/1865, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s13"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-necha-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I16",
+  "names": {
+   "he": "",
+   "latin": "Necha Rywenbajrych",
+   "given": "Necha",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "22 APR 1867",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 10 April OS / 22 April NS. Born four months before both her parents died."
+   ]
+  },
+  "death": {
+   "date": "1869",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 19/1869."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 42/1867, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s14"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hercyk-rywenbajrych-i17",
+  "branch": "albert",
+  "gedcomId": "I17",
+  "names": {
+   "he": "",
+   "latin": "Hercyk Rywenbajrych",
+   "given": "Hercyk",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1812"
+  },
+  "death": null,
+  "occupation": "handlarz (trader)",
+  "notes": [
+   "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of\nhouse no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854\neither side of it give the same man's wife as Ruchla, so this cannot be a remarriage.\nEither there were two contemporaries both called Hercyk (making three Hercyks in the\ntown at once, counting our own b. 1838), or the clerk wrote the wrong given name.\nEntered separately rather than merged, so the problem stays visible."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ryfka",
+  "branch": "albert",
+  "gedcomId": "I18",
+  "names": {
+   "he": "",
+   "latin": "Ryfka",
+   "given": "Ryfka",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1817"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Maiden name reads \"z Lewkow\" - same caveat as for Ruchla; I do not trust my reading of\nthis formula."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szaydla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I19",
+  "names": {
+   "he": "",
+   "latin": "Szaydla Rywenbajrych",
+   "given": "Szaydla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "16 APR 1852",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 23 April. Witnesses: Szachna Grynberg, 30, and Chaskel Salzberg, 23, both\ntraders of Klimontow."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 19/1852, read in the original. Note the witness\nCHASKEL SALZBERG: a Salzberg / Zalcberg family is present in Klimontow in this period,\nwhich makes \"Chaja Rajza nee Zalcberg\" in the 1903 death act (@I4@) a plausible local\nsurname and weakens my competing reading of \"z Maszklow\" in the 1838 act."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s15"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-malka-blima-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I11",
+  "names": {
+   "he": "",
+   "latin": "Malka Blima Rywenbajrych",
+   "given": "Malka Blima",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "6 JUL 1845",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "24 Jun OS / 6 Jul NS, at seven in the evening; registered 14 July. Named at prayer.\nWitnesses: Lejbus Sandomierski, oil trader, 38; Zelik Mintz, labourer, 25."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 46/1845, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s6"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaja-laja-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I12",
+  "names": {
+   "he": "",
+   "latin": "Chaja Laja Rywenbajrych",
+   "given": "Chaja Laja",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "16 FEB 1847",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "4 Feb OS / 16 Feb NS, at eleven at night; registered 23 February. Witnesses: Lejbus\nSandomierski, oil trader, 41; Zajnwel Grynberg, trader, 25."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 12/1847, read in the original.\n(inference) Her name may honour her grandmother Laca (@I2@): a \"Laja Rywenbayrych\" death\nis indexed at Klimontow in 1835, and Ashkenazi practice names for the recently dead.\nIf so it supports - without proving - the reading that the elder Hercyk was Rywen and\nLaca's son."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaim-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I9",
+  "names": {
+   "he": "",
+   "latin": "Chaim Rywenbajrych",
+   "given": "Chaim",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "24 JUN 1854",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 30 June 1854. Witnesses: Kalman Goldhamer, 64; Maior Kop, 30, both traders."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 27/1854, read in the original."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s4"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-dawid-herszl-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I10",
+  "names": {
+   "he": "",
+   "latin": "Dawid Herszl Rywenbajrych",
+   "given": "Dawid Herszl",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "27 MAR 1861",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Registered 5 April 1861. Witnesses: Moszek Agater, beadle, 46; Ezyk Kimel, beadle, 47."
+   ]
+  },
+  "death": {
+   "date": "1862",
+   "place": "Klimontow, Radom Gubernia, Poland",
+   "notes": [
+    "Klimontow death act 30/1862, age given as one and a half."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow birth act 12/1861, read in the original; death indexed 30/1862."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s5"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-moszek-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I20",
+  "names": {
+   "he": "",
+   "latin": "Moszek Wajsblum",
+   "given": "Moszek",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "place": "Opatow, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Murdered in the Shoah. The Opatow yizkor book necrology (pp. 407-441) lists\nthe household \"Moshe Weissblum and Geleh nee Ginzburg\" among the town's dead."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(probable) Named in Opatow marriage act 24/1884, from the JRI-Poland index. Opatow has\nno scans, so the act itself has not been read - only the index row. Independently\ncorroborated by the yizkor necrology, a different kind of source entirely."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-s10",
+   "s-s11"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-gella-ginsburg",
+  "branch": "albert",
+  "gedcomId": "I21",
+  "names": {
+   "he": "",
+   "latin": "Gella Ginsburg",
+   "given": "Gella",
+   "surname": "Ginsburg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "place": "Opatow, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Murdered in the Shoah - yizkor necrology, as above."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s10",
+   "s-s11"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tobiasz-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I22",
+  "names": {
+   "he": "",
+   "latin": "Tobiasz Wajsblum",
+   "given": "Tobiasz",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1885",
+   "place": "Opatow, Poland",
+   "grade": "inference",
+   "notes": [
+    "Birth act 2/1885. Presumably named for the Tobiasz Wajsblum whose death is indexed at\nOpatow 50/1881. (inference) This child died young: the name was given again in 1889,\nwhich in Ashkenazi practice normally means the first bearer had died."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s10"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tobiasz-wajsblum-i23",
+  "branch": "albert",
+  "gedcomId": "I23",
+  "names": {
+   "he": "",
+   "latin": "Tobiasz Wajsblum",
+   "given": "Tobiasz",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1889",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Birth act 88/1889."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. He is\ntherefore entered here as Bajla-Szajndla's brother. See findings/008 for the full\nargument, including the unexplained fact that Opatow's 9,135 indexed records contain\nnot one Rywenbajrych."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s10"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-bajla-szajndla-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I24",
+  "names": {
+   "he": "",
+   "latin": "Bajla Szajndla Wajsblum",
+   "given": "Bajla Szajndla",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1892",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Birth act 8/1892. The Page of Testimony gives 1891/92 - a one-year spread, normal for\na form filled in decades later."
+   ]
+  },
+  "death": {
+   "date": "23 OCT 1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Recorded as \"Bajla Szajndla Rywenbajrych, b. 1891, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the same 1988 memorial list - which names\nher under her MARRIED surname, independently confirming the marriage."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(probable) Identified from Opatow birth act 8/1892 (JRI index; act unread, Opatow is\nunscanned) together with Yad Vashem Pages of Testimony 5584477/5584479. The Pages were\nfilled in by Amotz's sister Aya - a granddaughter, writing decades after - so their\ndetail is second-hand throughout."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-s10",
+   "s-s12"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tuvia-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I25",
+  "names": {
+   "he": "",
+   "latin": "Tuvia Rywenbajrych",
+   "given": "Tuvia",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1888",
+   "place": "Poland",
+   "notes": [
+    "PLACE UNLOCATED, and this is the principal open question on this side. Two documented\nnegatives: (1) he was not born in Klimontow between 1826 and 1892 - the JRI index covers\nbirths 1826-87 and I read the complete birth indexes for 1888, 1889, 1890, 1891 and 1892\noff the film, 183 entries in all, each list closed by its own protocol, with nothing in\nthe R section; (2) Opatow's 9,135 indexed records, covering births, marriages and deaths\nto 1917, contain not one Rywenbajrych. Two further negatives since: Arolsen returns\nnothing on the surname in any spelling (control Kestenbaum = 587), and FamilySearch's\nindexed records contain no Rywenbajrych at all worldwide on an exact search (control\nWajsblum = 56) - though FamilySearch holds no Polish vital registers, so that zero is\nweak. LEAD CLOSED: Yad Vashem 4631872/4631873 \"Rywenbeirech, Tobiasch, b. 20.07.1888,\nLodz\" is a DIFFERENT MAN - a permanent resident of Lodz, Steinmetzgasse 25 apt. 18, from\nthe \"Lodz Names\" volume. Ours is a permanent resident of Opatow. Same name and year;\nprobably kin, but not him. Do not chase Lodz for Tuvia's birthplace. See findings/011."
+   ]
+  },
+  "death": {
+   "date": "23 OCT 1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Murdered. Recorded as \"Tomasz Rywenbajrich, b. 1888, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the list of murdered Jews from\n\"The Jews of Opatow\", Tel Aviv 1988 - the town's own memorial volume, compiled by its\nsurvivors. The date matches the town's history: the Opatow ghetto was cleared on\n20-22 October 1942 and its people deported to Treblinka."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s40"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chana-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I26",
+  "names": {
+   "he": "",
+   "latin": "Chana Rywenbajrych",
+   "given": "Chana",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "18 JUN 1917",
+   "place": "Opatow, Poland",
+   "notes": [
+    "** EXACT DATE, from the family's 2015 Polish citizenship application: 18 / 06 / 1917. **\nPreviously \"about 1918\" from family knowledge. The surviving register unit is\n24/44/0/-/56, births 1917-1920, which is beyond the JRI index's 1917 cutoff - so the act\nitself still needs the archive. With an exact date the request becomes trivial to answer.\nHer full name in the Opatow municipal index is CHANA-SARA, matching her Holon gravestone."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s41",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-fajga-rachla-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": "I27",
+  "names": {
+   "he": "",
+   "latin": "Fajga Rachla Rywenbajrych",
+   "given": "Fajga Rachla",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1920",
+   "place": "Opatow, Poland"
+  },
+  "death": {
+   "place": "Skarzysko-Kamienna camp, Poland",
+   "notes": [
+    "Shot. Chana's younger sister - it was Amotz's memory of this murdered sister that\nopened the whole Opatow line.\nCONFLICT, RESOLVED IN THE FAMILY'S FAVOUR: the 1988 Opatow memorial list places her\nat Treblinka on 23 October 1942 with her parents. But a contemporaneous German camp\ndocument - the lists of Skarzysko-Kamienna inmates designated \"sick\", November 1942\nto February 1943 - carries a FAJGA RYWENBAJRYCH, i.e. alive and in the camp AFTER\nthat date. A record made at the time outweighs a list compiled by survivors in 1988,\nwhose compilers evidently assumed the whole household died in the October deportation.\nAt Skarzysko the \"sick\" designation was in practice a selection list.\nThe family's account was right."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s12",
+   "s-s40",
+   "s-s41"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-abram-alpert",
+  "branch": "albert",
+  "gedcomId": "I40",
+  "names": {
+   "he": "",
+   "latin": "Abram Alpert",
+   "given": "Abram",
+   "surname": "Alpert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1845",
+   "place": "Poland",
+   "notes": [
+    "Estimated only, from his son's marriage in 1894."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the groom's father in Warsaw marriage act 75/1894.\n** ALIVE IN 1894. ** The act was read in full on 6 Aug 2026 (findings/016). It names him\nplainly as \"Абрама\", WITHOUT the prefix \"покойнаго\" (\"the late\") that the Russian\nformula requires for a dead parent - and which this same register does use elsewhere.\nSo there is no point searching for his death before February 1894."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-estera-gitla-cuker",
+  "branch": "albert",
+  "gedcomId": "I41",
+  "names": {
+   "he": "",
+   "latin": "Estera Gitla Cuker",
+   "given": "Estera Gitla",
+   "surname": "Cuker",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the groom's mother, with her maiden surname, in Warsaw\nmarriage act 75/1894: \"Эстеры-Гитли урожденной Цукеръ\".\n** ALIVE IN 1894 ** - like her husband she is named without \"покойной\" (\"the late\").\nRead from the act itself, 6 Aug 2026; see findings/016."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-abram-buzowski",
+  "branch": "albert",
+  "gedcomId": "I42",
+  "names": {
+   "he": "",
+   "latin": "Abram Buzowski",
+   "given": "Abram",
+   "surname": "Buzowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ruchla-i43",
+  "branch": "albert",
+  "gedcomId": "I43",
+  "names": {
+   "he": "",
+   "latin": "Ruchla",
+   "given": "Ruchla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-dawid-alpert",
+  "branch": "albert",
+  "gedcomId": "I30",
+  "names": {
+   "he": "",
+   "latin": "Dawid Alpert",
+   "given": "Dawid",
+   "surname": "Alpert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1869",
+   "notes": [
+    "From his stated age of twenty-five in Warsaw marriage act 75/1894, read from the act\nitself on 6 Aug 2026."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Named as Chaim's father on CKZP registration slip 12344, and independently\non Chaim's gravestone in Holon, which reads \"ben David\" and \"born Warsaw\".\n** Identified in Warsaw marriage act 75/1894 (18 February 1894, cyrkul V), which names\nhis parents. ** See findings/010.\n** ACT READ IN FULL 6 Aug 2026 via metryki.genealodzy.pl (Skanoteka), which serves the\nsame register at 3116x1694 instead of szukajwarchiwach's 800px derivative. See\nfindings/016. The act calls him \"Давидъ Альпертъ, сынъ Абрама и Эстеры-Гитли\nурожденной Цукеръ, двадцати [пяти] лѣтъ, житель города Варшавы\". **\n** NAME: the SAME act writes him АЛЬПЕРТЪ at the head and АЛЬБЕРТА in the closing\nparagraph. Alpert and Albert were already interchangeable in Warsaw in 1894 - the\nIsraeli \"Albert\" continues a form the family already used, it did not invent it. **"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s20",
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rudla-buzowska",
+  "branch": "albert",
+  "gedcomId": "I31",
+  "names": {
+   "he": "",
+   "latin": "Rudla Buzowska",
+   "given": "Rudla",
+   "surname": "Buzowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1873",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s20",
+   "s-s30",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-izrail-mojsze-alpert",
+  "branch": "albert",
+  "gedcomId": "I44",
+  "names": {
+   "he": "",
+   "latin": "Izrail Mojsze Alpert",
+   "given": "Izrail Mojsze",
+   "surname": "Alpert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "10 MAR 1909",
+   "place": "Warsaw, Poland",
+   "notes": [
+    "Death act 130/1909, page V 99. Named as the son of Dawid and Rudla nee Bukowska."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) A brother of Chaim who died as a child - the family did not know of him.\nThis record is also what confirms that the 1894 couple went on living and having\nchildren in Warsaw, i.e. that the marriage act is not a coincidental namesake pair."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s31"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaim-albert",
+  "branch": "albert",
+  "gedcomId": "I32",
+  "names": {
+   "he": "",
+   "latin": "Chaim Albert",
+   "given": "Chaim",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "11 JUL 1907",
+   "place": "Warsaw, Poland",
+   "notes": [
+    "** OVERSTATED, CORRECTED WITHIN THE HOUR — read this whole note. ** I first wrote that the\n2015 application \"resolves\" the date. It does not, and I should not have said so. The date\n11.07.1907 already existed on a CKZP registration card in our own hands; the 1913 came from\nCKZP slip 12344. Both are POST-WAR SELF-DECLARATIONS of the same class. The 2015 filing\nsimply repeats one of the two - so it tells us **which date the family committed to**, and\nis NOT an independent source for the year. The conflict is therefore NOT resolved by\nevidence; it is resolved only as a matter of which the family used.\n** 1907 is adopted here** because it is the date the family put before a state authority,\nand because it is a specific day-month-year rather than a bare year - but it stays ONE\npost-war declaration against another.",
+    "The family's\nown official Polish citizenship application of 2015 (12-page WNIOSEK to the Wojewoda\nMazowiecki) gives him, in a structured field, as born **11 / 07 / 1907**.\nThe competing \"1913\" came from CKZP slip 12344 (\"ur. 1913 W-wa\"); a second CKZP card had\nalready given 11.07.1907 and I had left the conflict open. The 2015 filing settles it in\nfavour of 1907 - a date the family committed to in a state document.\n** CONSEQUENCE: my whole Warsaw birth-register search ran on the wrong year. ** I read the\n1913 alphabetical index of cyrkul VI (unit 72/200/0/-/110, scans 110-114, sections А and\nЭ) and found no Alpert/Albert/Elbert. That negative stands but is irrelevant - it is for\na year that is not his. So I redid it on 1907 - and:\n** NO 1907 WARSAW JEWISH BIRTH REGISTER SURVIVES IN FOND 72/200/0 AT ALL. ** For 1907 the\nfond holds only marriages (cyrkul IV = -/66, 151 scans; cyrkul V = -/98, 152 scans) and two\nunscanned marriage-annex units (-/251, -/252). There are combined birth/marriage/death\nunits for 1906, 1908 and 1909, but none for 1907.\n** And JRI's Warsaw birth index has no Alpert/Albert/Elbert birth with a mother RUDLA, and\nnone named Chaim in 1907. ** Indexed Warsaw Alpert/Albert births run 1871-1905 with nothing\nafter Jakow Josif 1905.\n** CONCLUSION: on both candidate years the register is gone. Chaim's Warsaw birth act very\nprobably does not survive. ** What remains: another Warsaw fond or duplicate series\n(unchecked), and asking Daniela Regev what document 11.07.1907 was taken from.\nThe gravestone says only \"born Warsaw\", which is consistent with either year."
+   ]
+  },
+  "death": {
+   "date": "12 SEP 1976",
+   "place": "Holon, Israel",
+   "notes": [
+    "CONFLICT, left open at Amotz's direction: a burial index record gives 17 Elul 5736 =\n12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.\nGrave and cemetery lines are parked - the grave is known and photographed."
+   ]
+  },
+  "occupation": "czapnik (cap-maker)",
+  "notes": [
+   "(documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;\n1942 at Skarzysko; arrived from Czestochowa; then Targowa 7.\nBefore marrying Chana he had a first wife and a child, both murdered in the Shoah -\nthat line was dropped at Amotz's direction after nine Yad Vashem candidates were\nexcluded."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s20",
+   "s-s21",
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-bella-albert",
+  "branch": "albert",
+  "gedcomId": "I33",
+  "names": {
+   "he": "",
+   "latin": "Bella Albert",
+   "given": "Bella",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - details withheld. Born Lodz, 1946. The Lodz USC birth record is under 100 years\nold and concerns a living person, so it must be requested by Amotz himself."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-david-albert",
+  "branch": "albert",
+  "gedcomId": "I34",
+  "names": {
+   "he": "",
+   "latin": "David Albert",
+   "given": "David",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Amotz's father. Born **20 June 1951 in Lodz**, per the family's 2015 Polish\ncitizenship application. Came to Israel at about age five, with his sister and both\nparents. He held Polish citizenship at Amotz's birth, and it is through him that Amotz's\ncitizenship was confirmed. His marriage and a name change were registered in Poland in\n2015, so Polish civil-registry records exist for him. Further details withheld."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s60"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-abe-lejb-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": null,
+  "names": {
+   "he": "אַבֶּה־לייב ריבנבייריך",
+   "latin": "Abe-Lejb Rywenbajrych",
+   "given": "Abe-Lejb",
+   "surname": "Rywenbajrych",
+   "variants": [
+    "Abram",
+    "Abraham"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1860",
+   "grade": "documented",
+   "notes": [
+    "נקוב כאבי טוביה במרשם התושבים הלא-קבועים של אופטוב, 1921 (סריקה 193)."
+   ]
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "הכתיב «Abe» כמעט ודאי קיצור של אברם/אברהם — לא הוכרע איזה. שם נעוריה של פייגה־רחל לא נרשם."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "albert-rywenbajrych/opatow"
+ },
+ {
+  "id": "p-fajga-rechil-rywenbajrych",
+  "branch": "albert",
+  "gedcomId": null,
+  "names": {
+   "he": "פייגה־רחל ריבנבייריך",
+   "latin": "Fajga-Rechil Rywenbajrych",
+   "given": "Fajga-Rechil",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1862",
+   "grade": "documented"
+  },
+  "death": {
+   "grade": "inference",
+   "notes": [
+    "מתה לפני 1920 — בתה של טוביה נקראה על שמה (מנהג אשכנזי), לולאת שמות החוצה שלושה מקורות."
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "albert-rywenbajrych/opatow"
+ },
+ {
+  "id": "p-natalie",
+  "branch": "albert",
+  "names": {
+   "he": "נטלי",
+   "latin": "Natalie",
+   "given": "Natalie",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": {
+   "date": "8 DEC 1992",
+   "grade": "documented"
+  },
+  "death": null,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתה של בלה אלברט. שם משפחה טרם תועד."
+  ],
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ }
+]

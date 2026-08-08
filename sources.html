@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>נספח מקורות · שורשים</title>
+<link rel="stylesheet" href="css/main.css">
+<style>
+.stoolbar{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0 2rem}
+.slist{display:flex;flex-direction:column;gap:.9rem}
+.sitem{padding:1rem 1.2rem;border:1px solid var(--rule);border-radius:.5rem;background:var(--paper-2)}
+.sitem h3{margin:0 0 .3rem;font-size:1.02rem}
+.sitem .meta{font-family:var(--sans);font-size:.83rem;color:var(--ink-3);margin:.15rem 0}
+.sitem .cite{font-size:.85rem;color:var(--ink-2);font-family:var(--sans)}
+.sitem .notes{margin-top:.5rem;font-size:.88rem;color:var(--ink-2);white-space:pre-wrap;
+  border-inline-start:2px solid var(--rule);padding-inline-start:.7rem}
+.count{font-family:var(--sans);color:var(--ink-3);font-size:.88rem;margin-bottom:1rem}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">שורשים</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">מוסקל–שאפיר</a>
+    <a class="tab albert" href="albert-rywenbajrych/">אלברט–ריבנבייריך</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">אילן</a>
+    <a href="map.html">מפה</a>
+    <a href="documents.html">מסמכים</a>
+    <a href="sources.html" aria-current="page">מקורות</a>
+    <a href="search.html">חיפוש</a>
+    <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
+    <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">נספח</p>
+  <h1>המקורות</h1>
+  <p class="lede narrow">כל אקט, ספר, מאגר ומסמך משפחתי שצוטט באתר — עם ציטוט מלא
+     ומיקום ארכיוני, כדי שכל טענה תהיה ניתנת לבדיקה עצמאית.</p>
+
+  <div class="stoolbar">
+    <span class="seg" role="group" aria-label="סינון">
+      <button data-f="all" aria-pressed="true">הכול</button>
+      <button data-f="moskal" aria-pressed="false">מוסקל–שאפיר</button>
+      <button data-f="albert" aria-pressed="false">אלברט–ריבנבייריך</button>
+    </span>
+    <input type="search" id="q" placeholder="חיפוש במקורות…">
+  </div>
+  <p class="count" id="count"></p>
+  <div class="slist" id="list"></div>
+</main>
+
+<footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
+
+<script src="js/ui.js"></script>
+<script>
+let SOURCES = [];
+const branchOf = id => id.startsWith('s-m-') ? 'moskal' : 'albert';
+
+fetch('data/sources.json').then(r=>r.json()).then(d=>{
+  SOURCES = d.map(s=>({...s, branch: branchOf(s.id)}))
+             .sort((a,b)=> (a.publication||'').localeCompare(b.publication||''));
+  draw();
+});
+
+let filter='all', q='';
+function draw(){
+  let list = SOURCES;
+  if(filter!=='all') list = list.filter(s=>s.branch===filter);
+  if(q) list = list.filter(s => (s.title+s.author+s.publication+s.repository+(s.notes||[]).join(' ')).toLowerCase().includes(q));
+  document.getElementById('count').textContent = `${list.length} מקורות`;
+  document.getElementById('list').innerHTML = list.map(s=>`
+    <div class="sitem">
+      <h3>${esc(s.title)||'(ללא כותרת)'}</h3>
+      ${s.author?`<p class="meta">${esc(s.author)}</p>`:''}
+      <p class="meta">${[s.publication,s.repository,s.citation].filter(Boolean).map(esc).join(' · ')}</p>
+      ${(s.notes||[]).length?`<div class="notes">${s.notes.map(esc).join('<br><br>')}</div>`:''}
+    </div>`).join('') || '<p class="count">אין מקורות תואמים</p>';
+}
+const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+document.querySelectorAll('[data-f]').forEach(b=>b.addEventListener('click',()=>{
+  filter=b.dataset.f;
+  document.querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed', x===b));
+  draw();
+}));
+document.getElementById('q').addEventListener('input', e=>{ q=e.target.value.trim().toLowerCase(); draw(); });
+</script>
+</body>
+</html>

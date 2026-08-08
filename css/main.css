@@ -1,0 +1,132 @@
+/* ═══ «שורשים» — מערכת העיצוב ═══════════════════════════════════
+   אסתטיקה ארכיונית מאופקת: נייר, דיו, וקו אדום דק להדגשות.
+   RTL מלא. עובד בהיר וכהה.                                        */
+
+@font-face{font-family:'Frank Ruhl';src:local('Frank Ruhl Libre'),local('FrankRuhlLibre-Regular');font-weight:400;font-display:swap}
+@font-face{font-family:'Frank Ruhl';src:local('Frank Ruhl Libre Bold'),local('FrankRuhlLibre-Bold');font-weight:700;font-display:swap}
+
+:root{
+  --paper:#f7f4ed; --paper-2:#efeae0; --paper-3:#e5dfd2;
+  --ink:#231f1c; --ink-2:#4e463f; --ink-3:#7d736a;
+  --rule:#d6cec0; --rule-2:#c2b8a6;
+  --accent:#a8322a;          /* קו אדום ארכיוני */
+  --accent-soft:#a8322a1a;
+  --gold:#8a6d34;
+  --moskal:#b5601a;          /* כתום כהה לצד אמא */
+  --albert:#5a5478;          /* סגול־ורשה לצד אבא */
+  --ok:#4a6a5a;               /* ירוק — סימון "מתועד ●" בלבד, לא צבע ענף */
+  --shadow:0 1px 2px #231f1c14, 0 6px 18px #231f1c0f;
+  --maxw:74rem;
+  --fs:clamp(1rem,.55vw + .88rem,1.14rem);
+  --serif:'Frank Ruhl','Frank Ruhl Libre','David Libre','Times New Roman',serif;
+  --sans:'Heebo','Assistant','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#16140f;--paper-2:#1e1b16;--paper-3:#28241d;--ink:#ece5d8;--ink-2:#c3b9a8;
+        --ink-3:#8d8377;--rule:#3a352c;--rule-2:#4c463a;--accent:#d9695f;--accent-soft:#d9695f1f;
+        --gold:#c6a457;--moskal:#e08a45;--albert:#9c95c4;--ok:#7fae96;--shadow:0 1px 2px #0006,0 6px 20px #0004}
+}
+:root[data-theme=light]{--paper:#f7f4ed;--paper-2:#efeae0;--paper-3:#e5dfd2;--ink:#231f1c;--ink-2:#4e463f;
+  --ink-3:#7d736a;--rule:#d6cec0;--rule-2:#c2b8a6;--accent:#a8322a;--accent-soft:#a8322a1a;
+  --gold:#8a6d34;--moskal:#b5601a;--albert:#5a5478;--ok:#4a6a5a;--shadow:0 1px 2px #231f1c14,0 6px 18px #231f1c0f}
+:root[data-theme=dark]{--paper:#16140f;--paper-2:#1e1b16;--paper-3:#28241d;--ink:#ece5d8;--ink-2:#c3b9a8;
+  --ink-3:#8d8377;--rule:#3a352c;--rule-2:#4c463a;--accent:#d9695f;--accent-soft:#d9695f1f;
+  --gold:#c6a457;--moskal:#e08a45;--albert:#9c95c4;--ok:#7fae96;--shadow:0 1px 2px #0006,0 6px 20px #0004}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; direction:rtl; background:var(--paper); color:var(--ink);
+  font:var(--fs)/1.75 var(--serif); text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(#00000005 1px,transparent 1px);background-size:3px 3px;
+}
+body.font-lg{--fs:1.3rem}
+
+/* ── ניווט ─────────────────────────────────────────────────── */
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.topbar-in{max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:1.25rem;
+  padding:.6rem 1.25rem;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.22rem;letter-spacing:.02em;text-decoration:none;color:var(--ink);
+  display:flex;align-items:center;gap:.5rem;white-space:nowrap}
+.brand::before{content:"";width:.42rem;height:1.3rem;background:var(--accent);border-radius:1px}
+.tabs{display:flex;gap:.4rem;margin-inline-start:.5rem}
+.tab{padding:.36rem .85rem;border-radius:.45rem;text-decoration:none;color:var(--ink-2);
+  font-family:var(--sans);font-size:.93rem;border:1px solid transparent;transition:.15s}
+.tab:hover{background:var(--paper-2);color:var(--ink)}
+.tab.moskal.on{background:color-mix(in srgb,var(--moskal) 16%,transparent);color:var(--moskal);
+  border-color:color-mix(in srgb,var(--moskal) 35%,transparent);font-weight:700}
+.tab.albert.on{background:color-mix(in srgb,var(--albert) 16%,transparent);color:var(--albert);
+  border-color:color-mix(in srgb,var(--albert) 35%,transparent);font-weight:700}
+.navlinks{margin-inline-start:auto;display:flex;gap:.15rem;flex-wrap:wrap;align-items:center}
+.navlinks a{padding:.3rem .6rem;border-radius:.4rem;text-decoration:none;color:var(--ink-3);
+  font-family:var(--sans);font-size:.86rem}
+.navlinks a:hover{color:var(--ink);background:var(--paper-2)}
+.navlinks a[aria-current=page]{color:var(--ink);font-weight:700}
+.iconbtn{background:none;border:1px solid var(--rule);border-radius:.4rem;color:var(--ink-3);
+  cursor:pointer;padding:.25rem .5rem;font-size:.9rem;font-family:var(--sans)}
+.iconbtn:hover{color:var(--ink);border-color:var(--rule-2)}
+
+/* ── פריסה וטיפוגרפיה ──────────────────────────────────────── */
+main{max-width:var(--maxw);margin:auto;padding:2rem 1.25rem 5rem}
+.narrow{max-width:44rem}
+h1{font-size:clamp(1.9rem,3.2vw,2.7rem);line-height:1.22;margin:.2em 0 .35em;font-weight:700;
+  letter-spacing:-.01em}
+h2{font-size:clamp(1.35rem,2vw,1.72rem);margin:2.4em 0 .5em;line-height:1.3;
+  padding-bottom:.28em;border-bottom:1px solid var(--rule)}
+h3{font-size:1.16rem;margin:1.9em 0 .4em;color:var(--ink-2)}
+p{margin:0 0 1.05em}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
+.lede{font-size:1.16em;color:var(--ink-2);line-height:1.7}
+.kicker{font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 .3rem}
+blockquote{margin:1.6em 0;padding:.2em 1.15em;border-inline-start:3px solid var(--accent);
+  color:var(--ink-2);font-style:normal}
+blockquote .orig{display:block;font-size:.9em;color:var(--ink-3);margin-top:.5em;
+  direction:ltr;text-align:start;font-style:italic}
+blockquote cite{display:block;font-size:.82em;color:var(--ink-3);font-style:normal;margin-top:.55em;
+  font-family:var(--sans)}
+
+/* ── דירוג ודאות ───────────────────────────────────────────── */
+.g{font-size:.78em;vertical-align:.15em;cursor:help;font-family:var(--sans)}
+.g-documented{color:var(--ok)}  .g-documented::after{content:"●"}
+.g-probable  {color:var(--gold)}    .g-probable::after{content:"◐"}
+.g-inference {color:var(--ink-3)}   .g-inference::after{content:"○"}
+.conflict{display:block;margin:.9em 0;padding:.65em .9em;border:1px solid var(--rule-2);
+  border-inline-start:3px solid var(--gold);border-radius:.35rem;background:var(--paper-2);
+  font-size:.92em;color:var(--ink-2)}
+
+/* ── כרטיסים ורשתות ────────────────────────────────────────── */
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
+.card{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;padding:1rem 1.1rem;
+  text-decoration:none;color:inherit;display:block;transition:.16s;box-shadow:var(--shadow)}
+.card:hover{transform:translateY(-2px);border-color:var(--rule-2)}
+.card h3{margin:.1rem 0 .35rem;font-size:1.05rem;color:var(--ink)}
+.card p{margin:0;font-size:.9rem;color:var(--ink-3);line-height:1.55}
+.card.moskal{border-top:3px solid var(--moskal)}
+.card.albert{border-top:3px solid var(--albert)}
+
+table{border-collapse:collapse;width:100%;margin:1.4em 0;font-size:.94em}
+th,td{text-align:start;padding:.5em .7em;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--sans);font-size:.85em;color:var(--ink-3);font-weight:600;
+  border-bottom:1.5px solid var(--rule-2)}
+
+/* ── כלים ──────────────────────────────────────────────────── */
+.toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:1.1rem 0;
+  font-family:var(--sans);font-size:.9rem}
+.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:.5rem;overflow:hidden}
+.seg button{background:var(--paper-2);border:0;padding:.42rem .85rem;cursor:pointer;color:var(--ink-2);
+  font-family:var(--sans);font-size:.88rem;border-inline-start:1px solid var(--rule)}
+.seg button:first-child{border-inline-start:0}
+.seg button[aria-pressed=true]{background:var(--accent);color:#fff;font-weight:600}
+input[type=search],input[type=text],select{font:inherit;font-family:var(--sans);font-size:.92rem;
+  padding:.42rem .7rem;border:1px solid var(--rule-2);border-radius:.45rem;background:var(--paper);
+  color:var(--ink);min-width:12rem}
+input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+footer{border-top:1px solid var(--rule);margin-top:4rem;padding:1.6rem 1.25rem 3rem;
+  color:var(--ink-3);font-size:.86rem;font-family:var(--sans)}
+footer .in{max-width:var(--maxw);margin:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:640px){.navlinks{width:100%;margin:0}.topbar-in{gap:.6rem}}
