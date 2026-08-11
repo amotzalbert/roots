@@ -1554,9 +1554,9 @@
   "gedcomId": "I42",
   "names": {
    "he": "אברם בוטקובסקי",
-   "latin": "Abram Buzowski",
+   "latin": "Abram Butkowski",
    "given": "Abram",
-   "surname": "Buzowski",
+   "surname": "Butkowski",
    "variants": [
     "Butkowski",
     "Budkowski",
@@ -1565,27 +1565,49 @@
    ]
   },
   "sex": "M",
-  "living": true,
-  "birth": null,
+  "living": false,
+  "birth": {
+   "date": "1842",
+   "place": "Piatek, Poland",
+   "grade": "documented",
+   "notes": [
+    "אקט לידה 19/1842, פיונטק. גילו באקטים: 37 ב-1879, 40 ב-1883."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1842"
+  },
   "death": null,
-  "occupation": "",
+  "occupation": "работникъ (פועל) 1879 → портной (חייט) 1883",
   "notes": [
-   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski.",
+   "אביה של רודלה. ⚠ שם המשפחה נקרא תחילה בטעות «בוז'ובסקי» מאקט 75/1894; בקריאה חוזרת בהגדלה ×8 התברר שהאות היא т ולא ж — Бутковская = Butkowska.",
+   "היה בחיים ב-1891 — אין פטירת בוטקובסקי באינדקס פיונטק אחרי 1853.",
    "⚠ הכתיב Buzowski נבע מקריאה שגויה שתוקנה: האות השלישית באקט 75/1894 היא т ולא ж"
   ],
   "grade": "documented",
   "sources": [
+   "s-a-piatek",
    "s-s30"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": null,
-  "parents": [],
+  "parents": [
+   "p-berek-budkowski",
+   "p-rudel-szydlowicz"
+  ],
   "spouses": [
-   "p-ruchla-i43"
+   "p-ruchla-i43",
+   "p-ruchla-rochberger"
   ],
   "children": [
-   "p-rudla-buzowska"
+   "p-rudla-buzowska",
+   "p-sura-gaia-butkowska",
+   "p-maryia-butkowska",
+   "p-szyia-butkowski",
+   "p-szmul-butkowski",
+   "p-chaja-butkowska"
   ]
  },
  {
@@ -1677,9 +1699,9 @@
   "gedcomId": "I31",
   "names": {
    "he": "רודלה אלפרט לבית בוטקובסקה",
-   "latin": "Rudla Buzowska",
+   "latin": "Rudla Butkowska",
    "given": "Rudla",
-   "surname": "Buzowska",
+   "surname": "Butkowska",
    "variants": [
     "Butkowska",
     "Bukowska",
@@ -1690,17 +1712,25 @@
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "ABT 1873",
-   "place": "Piatek, Kalisz Gubernia, Poland",
+   "date": "1872",
+   "place": "Piatek, Poland",
+   "grade": "documented",
    "notes": [
-    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
+    "אקט לידה 22/1872, פיונטק. בת 21 בנישואיה בפברואר 1894 — מתיישב.",
+    "בעת נישואיה התגוררה בוורשה «זמנית» בלבד; קהילת האם שלה נותרה פיונטק."
    ],
-   "dateHe": "בערך 1873"
+   "sources": [
+    "s-a-piatek",
+    "s-s30"
+   ],
+   "dateHe": "1872"
   },
   "death": null,
   "occupation": "",
-  "notes": [],
-  "grade": null,
+  "notes": [
+   "נקראה על שם סבתה רוּדֶל שידלוביץ' — שם נדיר החוזר בדילוג דור אחד, ומאשש את השרשור לדור של 1833."
+  ],
+  "grade": "documented",
   "sources": [
    "s-s20",
    "s-s30",
@@ -1711,7 +1741,8 @@
   "bioChapter": null,
   "parents": [
    "p-abram-buzowski",
-   "p-ruchla-i43"
+   "p-ruchla-i43",
+   "p-ruchla-rochberger"
   ],
   "spouses": [
    "p-dawid-alpert"
@@ -2071,6 +2102,377 @@
   "bioChapter": null,
   "parents": [
    "p-natalie"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-ruchla-rochberger",
+  "branch": "albert",
+  "names": {
+   "he": "רוחלה בוטקובסקה לבית רוכברגר",
+   "latin": "Ruchla Rochberger",
+   "given": "Ruchla",
+   "surname": "Rochberger",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1844",
+   "place": "Piatek, Poland",
+   "grade": "documented",
+   "notes": [
+    "אקט לידה 36/1844, פיונטק. גילה באקטים: 35 ב-1879, 38 ב-1883."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1844"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "אמה של רודלה. שם נעוריה — רוכברגר — אינו רשום באקט הוורשאי מ-1894 אך מתועד היטב בפנקסי פיונטק.",
+   "○ אביה ייתכן ניסן/נוסין רוכברגר — השערה בלבד, תלויה בקריאת אקט 36/1844."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-abram-buzowski"
+  ],
+  "children": [
+   "p-sura-gaia-butkowska",
+   "p-rudla-buzowska",
+   "p-maryia-butkowska",
+   "p-szyia-butkowski",
+   "p-szmul-butkowski",
+   "p-chaja-butkowska"
+  ]
+ },
+ {
+  "id": "p-berek-budkowski",
+  "branch": "albert",
+  "names": {
+   "he": "ברק בודקובסקי",
+   "latin": "Berek Budkowski",
+   "given": "Berek",
+   "surname": "Budkowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "לא אותר אקט לידה."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "death": {
+   "date": "1852",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט פטירה 2/1852, פיונטק (אינדקס)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1852"
+  },
+  "occupation": "",
+  "notes": [
+   "◐ סבו של רודלה — הקישור מבוסס על רצף הלידות בפנקס פיונטק ועל חזרת השם רוּדֶל, לא על אקט.",
+   "נישא לרוּדֶל שידלוביץ' בפיונטק, 1833, אקט 6."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-buzowski"
+  ]
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "branch": "albert",
+  "names": {
+   "he": "רוּדֶל בודקובסקה לבית שידלוביץ'",
+   "latin": "Rudel Szydlowicz",
+   "given": "Rudel",
+   "surname": "Szydlowicz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "grade": "inference",
+   "notes": [
+    "לא אותר אקט לידה."
+   ],
+   "place": null,
+   "dateHe": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "◐ סבתה של רודלה, ששמה הנדיר חזר בנכדתה. נישאה לברק בודקובסקי בפיונטק, 1833, אקט 6."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-berek-budkowski"
+  ],
+  "children": [
+   "p-abram-buzowski"
+  ]
+ },
+ {
+  "id": "p-sura-gaia-butkowska",
+  "branch": "albert",
+  "names": {
+   "he": "שׂורה־גאיה בוטקובסקה",
+   "latin": "Sura Gaia Butkowska",
+   "given": "Sura",
+   "surname": "Butkowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1869",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט לידה 25/1869, פיונטק (אינדקס JRI)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1869"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "אחיה של רודלה בוטקובסקה. אקט לידה 25/1869, פיונטק."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-maryia-butkowska",
+  "branch": "albert",
+  "names": {
+   "he": "מריה בוטקובסקה",
+   "latin": "Maryia Butkowska",
+   "given": "Maryia",
+   "surname": "Butkowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1875",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט לידה 18/1875, פיונטק (אינדקס JRI)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1875"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "אחיה של רודלה בוטקובסקה. אקט לידה 18/1875, פיונטק."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-szyia-butkowski",
+  "branch": "albert",
+  "names": {
+   "he": "שייה בוטקובסקי",
+   "latin": "Szyia Butkowski",
+   "given": "Szyia",
+   "surname": "Butkowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1878",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט לידה 18/1878, פיונטק (אינדקס JRI)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1878"
+  },
+  "death": {
+   "date": "1878",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט פטירה 13/1878."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1878"
+  },
+  "occupation": "",
+  "notes": [
+   "אחיה של רודלה בוטקובסקה. אקט לידה 18/1878, פיונטק.",
+   "נפטר באותה שנה, אקט פטירה 13/1878 — תינוק."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-szmul-butkowski",
+  "branch": "albert",
+  "names": {
+   "he": "שולם (שמול) בוטקובסקי",
+   "latin": "Szmul Butkowski",
+   "given": "Szmul",
+   "surname": "Butkowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1879",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט לידה 46/1879, פיונטק (אינדקס JRI)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1879"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "אחיה של רודלה בוטקובסקה. אקט לידה 46/1879, פיונטק.",
+   "נולד 25 בנובמבר 1879. האקט נקרא בסריקה."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-chaja-butkowska",
+  "branch": "albert",
+  "names": {
+   "he": "חיה בוטקובסקה",
+   "latin": "Chaja Butkowska",
+   "given": "Chaja",
+   "surname": "Butkowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1883",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט לידה 19/1883, פיונטק (אינדקס JRI)."
+   ],
+   "sources": [
+    "s-a-piatek"
+   ],
+   "dateHe": "1883"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "אחיה של רודלה בוטקובסקה. אקט לידה 19/1883, פיונטק.",
+   "נולדה 4 באפריל 1883. האקט נקרא בסריקה, והפקיד כתב בו את שם המשפחה גם בלטינית: (Butkowski)."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-a-piatek"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
   ],
   "spouses": [],
   "children": []

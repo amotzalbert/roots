@@ -291,6 +291,21 @@
   ]
  },
  {
+  "id": "s-a-piatek",
+  "gedcomId": "",
+  "title": "פנקסי הקהילה היהודית פיונטק — לידות, נישואין ופטירות",
+  "author": "Akta stanu cywilnego wyznania mojżeszowego gminy wyznaniowej Piątek, powiat łęczycki",
+  "publication": "1814–1930",
+  "repository": "Archiwum Państwowe w Płocku, Oddział w Łęczycy, פונд 52/135/0",
+  "citation": "",
+  "notes": [
+   "אקטי 46/1879 ו-19/1883 נקראו ישירות בסריקה (יחידה /-/10, סריקות 13 ו-26, נגזרת _max 3500px). שאר האקטים — משורות אינדקס JRI-Poland, גוברניית קאליש.",
+   "⚠ חמשת האקטים המרכזיים (22/1872, 6/1864, 6/1833, 19/1842, 36/1844) שרדו פיזית אך אינם סרוקים. פנייה לארכיון טרם נשלחה.",
+   "⚠ מלכודת: חיפוש JRI לפי שם עיר מחזיר אפס לפיונטק. חייבים לחפש לפי שם משפחה בדלי גוברניית קאליש.",
+   "ראו albert/findings/032-piatek-buzowski.md"
+  ]
+ },
+ {
   "id": "s-m-act-1833-6",
   "title": "אקט פטירה 6/1833 — דוורה שיפמן לבית בוקשפן",
   "author": "Urząd Stanu Cywilnego Okręgu Bożniczego w Świerżach",

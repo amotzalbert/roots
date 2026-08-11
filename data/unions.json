@@ -299,6 +299,55 @@
   ]
  },
  {
+  "id": "u-abram-ruchla-butkowski",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-buzowski",
+   "p-ruchla-rochberger"
+  ],
+  "children": [
+   "p-sura-gaia-butkowska",
+   "p-rudla-buzowska",
+   "p-maryia-butkowska",
+   "p-szyia-butkowski",
+   "p-szmul-butkowski",
+   "p-chaja-butkowska"
+  ],
+  "marriage": {
+   "date": "1864",
+   "place": "Piatek, Poland",
+   "grade": "documented",
+   "notes": [
+    "אקט נישואין 6/1864, פיונטק (אינדקס JRI). האקט עצמו טרם נקרא — הוא ינקוב בהורי שני הצדדים."
+   ],
+   "dateHe": "1864"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-berek-rudel-budkowski",
+  "branch": "albert",
+  "spouses": [
+   "p-berek-budkowski",
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-buzowski"
+  ],
+  "marriage": {
+   "date": "1833",
+   "place": "Piatek, Poland",
+   "grade": "probable",
+   "notes": [
+    "אקט נישואין 6/1833, פיונטק (אינדקס JRI)."
+   ],
+   "dateHe": "1833"
+  },
+  "notes": [
+   "◐ הקישור לאברם מבוסס על רצף לידות ועל חזרת השם רוּדֶל, לא על אקט שנקרא."
+  ]
+ },
+ {
   "id": "u-m-bukszpan",
   "branch": "moskal",
   "spouses": [

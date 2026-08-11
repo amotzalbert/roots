@@ -284,8 +284,8 @@
   "type": "person",
   "branch": "albert",
   "label": "אברם בוטקובסקי",
-  "sub": "Abram Buzowski",
-  "terms": "אברם בוטקובסקי Abram Buzowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
+  "sub": "Abram Butkowski",
+  "terms": "אברם בוטקובסקי Abram Butkowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
  },
  {
   "id": "p-ruchla-i43",
@@ -308,8 +308,8 @@
   "type": "person",
   "branch": "albert",
   "label": "רודלה אלפרט לבית בוטקובסקה",
-  "sub": "Rudla Buzowska",
-  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Buzowska Butkowska Bukowska Buzowska Gutkowska רודלה אלפרט לבית בוטקובסקה"
+  "sub": "Rudla Butkowska",
+  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Butkowska Butkowska Bukowska Buzowska Gutkowska רודלה אלפרט לבית בוטקובסקה"
  },
  {
   "id": "p-izrail-mojsze-alpert",
@@ -382,6 +382,70 @@
   "label": "נויה",
   "sub": "Noya",
   "terms": "נויה Noya נויה"
+ },
+ {
+  "id": "p-ruchla-rochberger",
+  "type": "person",
+  "branch": "albert",
+  "label": "רוחלה בוטקובסקה לבית רוכברגר",
+  "sub": "Ruchla Rochberger",
+  "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger רוחלה בוטקובסקה לבית רוכברגר"
+ },
+ {
+  "id": "p-berek-budkowski",
+  "type": "person",
+  "branch": "albert",
+  "label": "ברק בודקובסקי",
+  "sub": "Berek Budkowski",
+  "terms": "ברק בודקובסקי Berek Budkowski ברק בודקובסקי"
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "type": "person",
+  "branch": "albert",
+  "label": "רוּדֶל בודקובסקה לבית שידלוביץ'",
+  "sub": "Rudel Szydlowicz",
+  "terms": "רוּדֶל בודקובסקה לבית שידלוביץ' Rudel Szydlowicz רודל בודקובסקה לבית שידלוביץ'"
+ },
+ {
+  "id": "p-sura-gaia-butkowska",
+  "type": "person",
+  "branch": "albert",
+  "label": "שׂורה־גאיה בוטקובסקה",
+  "sub": "Sura Gaia Butkowska",
+  "terms": "שׂורה־גאיה בוטקובסקה Sura Gaia Butkowska שורהגאיה בוטקובסקה"
+ },
+ {
+  "id": "p-maryia-butkowska",
+  "type": "person",
+  "branch": "albert",
+  "label": "מריה בוטקובסקה",
+  "sub": "Maryia Butkowska",
+  "terms": "מריה בוטקובסקה Maryia Butkowska מריה בוטקובסקה"
+ },
+ {
+  "id": "p-szyia-butkowski",
+  "type": "person",
+  "branch": "albert",
+  "label": "שייה בוטקובסקי",
+  "sub": "Szyia Butkowski",
+  "terms": "שייה בוטקובסקי Szyia Butkowski שייה בוטקובסקי"
+ },
+ {
+  "id": "p-szmul-butkowski",
+  "type": "person",
+  "branch": "albert",
+  "label": "שולם (שמול) בוטקובסקי",
+  "sub": "Szmul Butkowski",
+  "terms": "שולם (שמול) בוטקובסקי Szmul Butkowski שולם (שמול) בוטקובסקי"
+ },
+ {
+  "id": "p-chaja-butkowska",
+  "type": "person",
+  "branch": "albert",
+  "label": "חיה בוטקובסקה",
+  "sub": "Chaja Butkowska",
+  "terms": "חיה בוטקובסקה Chaja Butkowska חיה בוטקובסקה"
  },
  {
   "id": "p-aron-bukszpan",
