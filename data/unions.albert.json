@@ -187,20 +187,6 @@
   "notes": []
  },
  {
-  "id": "u-f31",
-  "branch": "albert",
-  "gedcomId": "F31",
-  "spouses": [
-   "p-abram-buzowski",
-   "p-ruchla-i43"
-  ],
-  "children": [
-   "p-rudla-buzowska"
-  ],
-  "marriage": null,
-  "notes": []
- },
- {
   "id": "u-f20",
   "branch": "albert",
   "gedcomId": "F20",
@@ -311,7 +297,8 @@
     "אקט נישואין 6/1864, פיונטק (אינדקס JRI). האקט עצמו טרם נקרא — הוא ינקוב בהורי שני הצדדים."
    ]
   },
-  "notes": []
+  "notes": [],
+  "gedcomId": "F31"
  },
  {
   "id": "u-berek-rudel-budkowski",

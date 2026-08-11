@@ -1249,33 +1249,6 @@
   "bioChapter": null
  },
  {
-  "id": "p-ruchla-i43",
-  "branch": "albert",
-  "gedcomId": "I43",
-  "names": {
-   "he": "",
-   "latin": "Ruchla",
-   "given": "Ruchla",
-   "surname": "",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
-  ],
-  "grade": "documented",
-  "sources": [
-   "s-s30"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
   "id": "p-dawid-alpert",
   "branch": "albert",
   "gedcomId": "I30",
@@ -1657,7 +1630,8 @@
   ],
   "photos": [],
   "docs": [],
-  "bioChapter": null
+  "bioChapter": null,
+  "gedcomId": "I43"
  },
  {
   "id": "p-berek-budkowski",

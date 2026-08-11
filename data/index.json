@@ -288,14 +288,6 @@
   "terms": "אברם בוטקובסקי Abram Butkowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
  },
  {
-  "id": "p-ruchla-i43",
-  "type": "person",
-  "branch": "albert",
-  "label": "רוחלה בוטקובסקה",
-  "sub": "Ruchla",
-  "terms": "רוחלה בוטקובסקה Ruchla רוחלה בוטקובסקה"
- },
- {
   "id": "p-dawid-alpert",
   "type": "person",
   "branch": "albert",
@@ -387,9 +379,9 @@
   "id": "p-ruchla-rochberger",
   "type": "person",
   "branch": "albert",
-  "label": "רוחלה בוטקובסקה לבית רוכברגר",
+  "label": "רוחלה בוטקובסקה",
   "sub": "Ruchla Rochberger",
-  "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger רוחלה בוטקובסקה לבית רוכברגר"
+  "terms": "רוחלה בוטקובסקה Ruchla Rochberger רוחלה בוטקובסקה"
  },
  {
   "id": "p-berek-budkowski",

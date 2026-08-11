@@ -1598,50 +1598,15 @@
    "p-rudel-szydlowicz"
   ],
   "spouses": [
-   "p-ruchla-i43",
    "p-ruchla-rochberger"
   ],
   "children": [
-   "p-rudla-buzowska",
    "p-sura-gaia-butkowska",
+   "p-rudla-buzowska",
    "p-maryia-butkowska",
    "p-szyia-butkowski",
    "p-szmul-butkowski",
    "p-chaja-butkowska"
-  ]
- },
- {
-  "id": "p-ruchla-i43",
-  "branch": "albert",
-  "gedcomId": "I43",
-  "names": {
-   "he": "רוחלה בוטקובסקה",
-   "latin": "Ruchla",
-   "given": "Ruchla",
-   "surname": "",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
-  ],
-  "grade": "documented",
-  "sources": [
-   "s-s30"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [],
-  "spouses": [
-   "p-abram-buzowski"
-  ],
-  "children": [
-   "p-rudla-buzowska"
   ]
  },
  {
@@ -1741,7 +1706,6 @@
   "bioChapter": null,
   "parents": [
    "p-abram-buzowski",
-   "p-ruchla-i43",
    "p-ruchla-rochberger"
   ],
   "spouses": [
@@ -2110,7 +2074,7 @@
   "id": "p-ruchla-rochberger",
   "branch": "albert",
   "names": {
-   "he": "רוחלה בוטקובסקה לבית רוכברגר",
+   "he": "רוחלה בוטקובסקה",
    "latin": "Ruchla Rochberger",
    "given": "Ruchla",
    "surname": "Rochberger",
@@ -2143,6 +2107,7 @@
   "photos": [],
   "docs": [],
   "bioChapter": null,
+  "gedcomId": "I43",
   "parents": [],
   "spouses": [
    "p-abram-buzowski"
