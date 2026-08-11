@@ -1263,18 +1263,20 @@
    ]
   },
   "death": {
-   "date": "1942",
+   "date": "BEF 1942",
    "grade": "probable",
    "notes": [
-    "נספה בשואה — לפי עץ המשפחה בג'ני."
+    "⚠ תוקן: לא נספה בשואה. מלכה רשמה את אשתו דבורה כ«אלמנה» ב-1942, ולא הוגש עליו דף עד — כלומר מת לפני המלחמה. יעד מחקר: אקט פטירה בפנקסי וויסלביצה/חלם שלפני 1939."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot"
    ]
   },
   "grade": "documented",
   "occupation": "",
   "notes": [
    "נקרא על שם סבו לייבה, שמת לפני 1878.",
-   "⚠ שמו בדפי העד של מלכה: «לייבּ» (1957) ו«שמואל» (2001). אקט הנישואין 18/1903 קובע «יודקה־לייבה», וזו הצורה שננקטת.",
-   "מת לפני 1942 — אשתו דבורה רשומה כאלמנה בדפי העד. לא נמצא לו דף עד, כלומר לא נספה בשואה."
+   "⚠ שמו בדפי העד של מלכה מופיע פעם כ«לייב» (1957) ופעם כ«שמואל» (2001) — ככל הנראה שם כפול שמואל־לייב, ואקט הנישואין 18/1903 נוקב ב«יודקה־לייבה»."
   ],
   "sources": [
    "s-m-act-1903-18"
@@ -1311,12 +1313,14 @@
    "date": "1942",
    "place": "pl-chelm",
    "grade": "documented",
-   "sources": [
-    "s-m-yad-vashem-pot"
-   ],
    "notes": [
-    "נרצחה בגטו חלם. דפי עד 774797 (1957) ו-5584483 (2001), הוגשו בידי כלתה מלכה מוסקל.",
-    "⚠ סתירת גיל לא מוכרעת: 59 בטופס 1957, 65 בטופס 2001, ואילו אקט הנישואין 18/1903 נותן גיל 18 (לידה ~1885, כלומר 57 ב-1942)."
+    "נרצחה בגטו חלם, 1942. דף עד שמילאה כלתה מלכה, פתח־תקווה 7.1.1957 (Item ID 774797): שם האב הרש, האם פייה, בת 59, ילידת וויסלביצה, אשת לייב.",
+    "⚠ מילוי שני מ-2001 (Item ID 5584483) נותן גיל 65 ואם בשם «מאיה». הגיל 65 עקבי יותר עם גיל בתה לאה (45).",
+    "רשומה גם בנקרולוגיית ספר הזיכרון (עמ' 507) כ«דבורה מוסקל»."
+   ],
+   "sources": [
+    "s-m-yad-vashem-pot",
+    "s-m-yizkor-necrology"
    ]
   },
   "grade": "documented",
@@ -1639,53 +1643,6 @@
   "bioChapter": null
  },
  {
-  "id": "p-tova-moskal",
-  "branch": "moskal",
-  "gen": 4,
-  "names": {
-   "he": "טובה מוסקל",
-   "latin": "Tova Moskal",
-   "given": "Tova",
-   "surname": "Moskal",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "ABT 1922",
-   "grade": "inference",
-   "notes": [
-    "נגזר מהגיל שנמסר בדף העד: 20 ב-1942."
-   ],
-   "sources": [
-    "s-m-yad-vashem-pot"
-   ]
-  },
-  "death": {
-   "date": "1942",
-   "grade": "probable",
-   "notes": [
-    "נרצחה בגטו חלם ב-1942, בגיל 20. דפי עד 774800 ו-5584482."
-   ],
-   "sources": [
-    "s-m-yad-vashem-pot"
-   ],
-   "place": "pl-chelm"
-  },
-  "grade": "probable",
-  "occupation": "",
-  "notes": [
-   "בתם של דוד־שלמה(?) ודבורה מוסקל; רווקה. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע.",
-   "ככל הנראה «טובל'ה» שבנקרולוגיית ספר הזיכרון, עמ' 507. מופיעה גם כ«טאובה»."
-  ],
-  "sources": [
-   "s-m-yad-vashem-pot"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": "moskal-szafir/churban"
- },
- {
   "id": "p-sara-soche-moskal",
   "branch": "moskal",
   "gen": 4,
@@ -1694,7 +1651,11 @@
    "latin": "Sara Soche Moskal",
    "given": "Sara",
    "surname": "Moskal",
-   "variants": []
+   "variants": [
+    "Sitshe",
+    "Siche",
+    "סיצ'ה"
+   ]
   },
   "sex": "F",
   "living": false,
@@ -1741,7 +1702,11 @@
    "latin": "Lea née Moskal",
    "given": "Lea",
    "surname": "Moskal",
-   "variants": []
+   "variants": [
+    "Lahtshe",
+    "לאהצ'ה",
+    "לאהצ'ה מוסקאל"
+   ]
   },
   "sex": "F",
   "living": false,
@@ -1769,55 +1734,13 @@
   "grade": "probable",
   "occupation": "",
   "notes": [
-   "בתם של דוד־שלמה(?) ודבורה מוסקל; נשואה, שם בעלה לא נרשם. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
+   "בתם של יודקה־לייבה מוסקל וצביה־דבורה; אחותו הבכורה של דוד מוסקל. נשואה, שם בעלה לא נרשם. בת ~45 במותה.",
+   "★ מייסדת שותפה של ספריית בורוכוב בוויסלביצה, 1922 — אחת משמונה צעירים שתרמו כסף לרכישת הספרים הראשונים. מתועד בספר הזיכרון (מהדורה עברית, עמ' 114), שם היא «לאהצ'ה מוסקאל». באותו ספר היא נזכרת גם בין «הנערות שבאו לספרייה ובלעו את הספרים» (עמ' 313).",
+   "⚠ שם האב: «לייב» (מילוי 1957) מול «שמואל» (מילוי 2001)."
   ],
   "sources": [
-   "s-m-yad-vashem-pot"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": "moskal-szafir/churban"
- },
- {
-  "id": "p-etel-moskal",
-  "branch": "moskal",
-  "gen": 4,
-  "names": {
-   "he": "אטל בלנדר לבית מוסקל",
-   "latin": "Etel Blander née Moskal",
-   "given": "Etel",
-   "surname": "Moskal",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "grade": "inference",
-   "notes": [
-    "⚠ שני המילויים נותנים שני גילאים: 30 ו-40. לא הוכרע."
-   ],
-   "sources": [
-    "s-m-yad-vashem-pot"
-   ]
-  },
-  "death": {
-   "date": "1942",
-   "grade": "probable",
-   "notes": [
-    "נרצחה בגטו חלם ב-1942. דפי עד 318626 ו-5584486."
-   ],
-   "sources": [
-    "s-m-yad-vashem-pot"
-   ],
-   "place": "pl-chelm"
-  },
-  "grade": "probable",
-  "occupation": "",
-  "notes": [
-   "בתם של דוד־שלמה(?) ודבורה מוסקל. נשואה למשה בלנדר. אחותו של דוד מוסקל. ⚠ שני מילויים של אותה מלכה נותנים לאב שני שמות — «לייב» (המנה המוקדמת) ו«שמואל» (המאוחרת). ככל הנראה שם כפול, שמואל־לייב; לא הוכרע."
-  ],
-  "sources": [
-   "s-m-yad-vashem-pot"
+   "s-m-yad-vashem-pot",
+   "s-m-yizkor-holocaust-ch"
   ],
   "photos": [],
   "docs": [],
@@ -2231,7 +2154,12 @@
    "latin": "Tauba Moskal",
    "given": "Tauba",
    "surname": "Moskal",
-   "variants": []
+   "variants": [
+    "Tova",
+    "Toibe",
+    "Tovale",
+    "טובהלה"
+   ]
   },
   "sex": "F",
   "living": false,
@@ -2254,14 +2182,137 @@
   "occupation": "",
   "notes": [
    "בתם של יודקה־לייבה מוסקל וצביה־דבורה; אחותו הצעירה של דוד מוסקל. רווקה, בת 20 במותה.",
-   "★ «טובהלה מוסקאל» — נלקחה לעבודת כפייה בסוביבור ושבה משם, לפי עדות ניצולה בספר הזיכרון (מהדורה עברית עמ' 258). נרצחה אחר כך, 1942.",
-   "מופיעה בנקרולוגיית ספר הזיכרון (עמ' 507). דפי עד 774800 ו-5584482, הוגשו בידי מלכה מוסקל."
+   "★ נלקחה בחטיפת עבודה לסוביבור, שרדה אותה וחזרה לוויסלביצה — ואז נרצחה ב-1942. מתועד בעדות ניצול בספר הזיכרון (מהדורה עברית, עמ' 258), שם היא «טובהלה מוסקאל».",
+   "⚠ שני מילויים של מלכה נותנים את שם האב אחרת: «לייב» (1957) ו«שמואל» (2001) — ככל הנראה שם כפול, שמואל־לייב."
   ],
   "sources": [
-   "s-m-yad-vashem-pot"
+   "s-m-yad-vashem-pot",
+   "s-m-yizkor-holocaust-ch"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": "moskal-szafir/churban"
+ },
+ {
+  "id": "p-dvora-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "דבורה (דורה) שאפיר",
+   "latin": "Dvora Schafir",
+   "given": "Dvora",
+   "surname": "Schafir",
+   "variants": [
+    "Szafir",
+    "Szaufer"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "בתם של מנחם מנדל שאפיר ופרל; אחותה של מלכה. שרדה.",
+   "★ ניהלה את שיעורי הערב ביידיש של פועלי ציון בוויסלביצה והשתתפה בחוג הדרמה של העיירה — מתועד בספר הזיכרון (מהדורה עברית, עמ' 118 ו-120), שם היא «דבורה שאפיר [גם שאפר]»; העורך עצמו רשם את שני הכתיבים."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-m-yizkor-holocaust-ch",
+   "s-m-memoir"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-chaike-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "חייקה וייסטופ לבית שאפיר",
+   "latin": "Chaike Weisstop Schafir",
+   "given": "Chaike",
+   "surname": "Schafir",
+   "variants": [
+    "Szafir",
+    "Szaufer"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "בתם של מנחם מנדל שאפיר ופרל; אחותה של מלכה. שרדה את המלחמה.",
+   "★ כתבה בעצמה פרק בספר הזיכרון של וויסלביצה — «לינת צדק», מהדורה עברית עמ' 141."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-m-yizkor-holocaust-ch"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-yosef-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "יוסף שאפיר",
+   "latin": "Yosef Schafir",
+   "given": "Yosef",
+   "surname": "Schafir",
+   "variants": [
+    "Szafir",
+    "Szaufer"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "בנם של מנחם מנדל שאפיר ופרל; אחיה של מלכה. שרד, עלה לישראל וחי בה עד מותו לפני שנים אחדות (אישור אמוץ אלברט, 30.7.2026).",
+   "⚠ אין לבלבל עם «יוסל'ה שאפר» מחפה הגגות שנורה מגג בידי גרמנים (ספר הזיכרון, עמ' 243) — הלה שייך למשק בית שאפיר אחר בעיירה, של יוסף ויוכבד. הסתירה נבדקה והוכרעה."
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-m-yizkor-holocaust-ch"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
+ },
+ {
+  "id": "p-shasha-schafir",
+  "branch": "moskal",
+  "gen": 3,
+  "names": {
+   "he": "ששה שאפיר",
+   "latin": "Shasha Schafir",
+   "given": "Shasha",
+   "surname": "Schafir",
+   "variants": [
+    "Szafir",
+    "Szaufer"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "בתם של מנחם מנדל שאפיר ופרל; אחותה של מלכה. ידועה משמה בלבד, מזיכרון המשפחה."
+  ],
+  "grade": "inference",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
  }
 ]

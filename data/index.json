@@ -808,20 +808,12 @@
   "terms": "תמר Tamar תמר"
  },
  {
-  "id": "p-tova-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "טובה מוסקל",
-  "sub": "Tova Moskal",
-  "terms": "טובה מוסקל Tova Moskal טובה מוסקל"
- },
- {
   "id": "p-sara-soche-moskal",
   "type": "person",
   "branch": "moskal",
   "label": "שרה־סוחה מוסקל",
   "sub": "Sara Soche Moskal",
-  "terms": "שרה־סוחה מוסקל Sara Soche Moskal שרהסוחה מוסקל"
+  "terms": "שרה־סוחה מוסקל Sara Soche Moskal Sitshe Siche סיצ'ה שרהסוחה מוסקל"
  },
  {
   "id": "p-lea-moskal",
@@ -829,15 +821,7 @@
   "branch": "moskal",
   "label": "לאה לבית מוסקל",
   "sub": "Lea née Moskal",
-  "terms": "לאה לבית מוסקל Lea née Moskal לאה לבית מוסקל"
- },
- {
-  "id": "p-etel-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אטל בלנדר לבית מוסקל",
-  "sub": "Etel Blander née Moskal",
-  "terms": "אטל בלנדר לבית מוסקל Etel Blander née Moskal אטל בלנדר לבית מוסקל"
+  "terms": "לאה לבית מוסקל Lea née Moskal Lahtshe לאהצ'ה לאהצ'ה מוסקאל לאה לבית מוסקל"
  },
  {
   "id": "p-shmuel-schafir-brother",
@@ -925,7 +909,39 @@
   "branch": "moskal",
   "label": "טאובה מוסקל",
   "sub": "Tauba Moskal",
-  "terms": "טאובה מוסקל Tauba Moskal טאובה מוסקל"
+  "terms": "טאובה מוסקל Tauba Moskal Tova Toibe Tovale טובהלה טאובה מוסקל"
+ },
+ {
+  "id": "p-dvora-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דבורה (דורה) שאפיר",
+  "sub": "Dvora Schafir",
+  "terms": "דבורה (דורה) שאפיר Dvora Schafir Szafir Szaufer דבורה (דורה) שאפיר"
+ },
+ {
+  "id": "p-chaike-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חייקה וייסטופ לבית שאפיר",
+  "sub": "Chaike Weisstop Schafir",
+  "terms": "חייקה וייסטופ לבית שאפיר Chaike Weisstop Schafir Szafir Szaufer חייקה וייסטופ לבית שאפיר"
+ },
+ {
+  "id": "p-yosef-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "יוסף שאפיר",
+  "sub": "Yosef Schafir",
+  "terms": "יוסף שאפיר Yosef Schafir Szafir Szaufer יוסף שאפיר"
+ },
+ {
+  "id": "p-shasha-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ששה שאפיר",
+  "sub": "Shasha Schafir",
+  "terms": "ששה שאפיר Shasha Schafir Szafir Szaufer ששה שאפיר"
  },
  {
   "id": "pl-wojslawice",
