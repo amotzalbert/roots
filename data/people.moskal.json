@@ -783,7 +783,13 @@
   "birth": {
    "date": "ABT 1888",
    "place": "ua-volodymyr",
-   "grade": "probable"
+   "grade": "documented",
+   "sources": [
+    "s-m-yad-vashem-pot"
+   ],
+   "notes": [
+    "נגזר מגילה (54) בדף העד; מקום הלידה נקוב שם במפורש."
+   ]
   },
   "death": {
    "date": "1942",
@@ -796,7 +802,7 @@
     "נרצחה בגטו חלם. בת 54. דף עד 572892, הוגש בידי בתה מלכה מוסקל, פתח תקווה, 7.1.1957."
    ]
   },
-  "grade": "probable",
+  "grade": "documented",
   "notes": [
    "בתם של שלום ליבן וחיה, מוולודימיר־ווהלינסק."
   ],
@@ -823,12 +829,13 @@
   "living": false,
   "birth": null,
   "death": null,
-  "grade": "inference",
+  "grade": "documented",
   "notes": [
-   "ידוע משמו בלבד, ממקורות משפחתיים ומדפי עד."
+   "נקוב בשמו בדף עד 572892 שמילאה נכדתו מלכה מוסקל על אמה פרל, פתח תקווה 7.1.1957. תאריכי לידה, נישואין ומוות — לא ידועים."
   ],
   "sources": [
-   "s-m-liben-1865"
+   "s-m-liben-1865",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [],
@@ -849,13 +856,18 @@
   "living": false,
   "birth": null,
   "death": null,
-  "grade": "inference",
+  "grade": "documented",
   "sources": [
-   "s-m-liben-1865"
+   "s-m-liben-1865",
+   "s-m-yad-vashem-pot"
   ],
   "photos": [],
   "docs": [],
-  "bioChapter": "moskal-szafir/volhynia"
+  "bioChapter": "moskal-szafir/volhynia",
+  "notes": [
+   "נקוב בשמו בדף עד 572892 שמילאה נכדתו מלכה מוסקל על אמה פרל, פתח תקווה 7.1.1957. תאריכי לידה, נישואין ומוות — לא ידועים.",
+   "שם נעוריה לא נרשם."
+  ]
  },
  {
   "id": "p-malka-schafir",
