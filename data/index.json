@@ -541,7 +541,7 @@
   "branch": "moskal",
   "label": "פרל שאפיר לבית ליבן",
   "sub": "Perl Schafir née Liben",
-  "terms": "פרל שאפיר לבית ליבן Perl Schafir née Liben פרל שאפיר לבית ליבן"
+  "terms": "פרל שאפיר לבית ליבן Perl Schafir née Liben Pnina פנינה פרל שאפיר לבית ליבן"
  },
  {
   "id": "p-shalom-liben",
@@ -854,6 +854,22 @@
   "label": "דוד שאפיר",
   "sub": "Dawid Szaufer",
   "terms": "דוד שאפיר Dawid Szaufer Schafir Szajfer דוד שאפיר"
+ },
+ {
+  "id": "p-etel-blander",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אטל בלנדר לבית מוסקל",
+  "sub": "Etel Blander",
+  "terms": "אטל בלנדר לבית מוסקל Etel Blander אטל בלנדר לבית מוסקל"
+ },
+ {
+  "id": "p-tauba-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "טאובה מוסקל",
+  "sub": "Tauba Moskal",
+  "terms": "טאובה מוסקל Tauba Moskal טאובה מוסקל"
  },
  {
   "id": "pl-wojslawice",
