@@ -43,6 +43,13 @@
       apply(ORDER[(ORDER.indexOf(current()) + 1) % ORDER.length]);
     });
 
+    // בחירת שפה מפורשת נשמרת — וה-ROOTS-LANG-BOOT שבכל עמוד שומר על עקביות
+    Array.prototype.forEach.call(document.querySelectorAll('.langsw a'), function (a) {
+      a.addEventListener('click', function () {
+        try { LS.setItem('roots-lang', this.getAttribute('hreflang')); } catch (e) {}
+      });
+    });
+
     // גופן גדול
     if (LS.getItem('roots-bigfont') === '1') document.body.classList.add('font-lg');
     var f = document.getElementById('bigfont');

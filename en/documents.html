@@ -13,7 +13,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/documents.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/documents.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/documents.html">
-<link rel="stylesheet" href="../css/main.css?v=20260815c">
+<link rel="stylesheet" href="../css/main.css?v=20260815d">
 <style>
 .filters{display:flex;gap:.5rem;margin-top:1.2rem;font-family:var(--sans)}
 .filters button{border:1px solid var(--rule);background:var(--paper-2);border-radius:2rem;
@@ -58,7 +58,23 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
     <a href="sources.html">Sources</a>
     <a href="search.html">Search</a>
   </nav>
+  <!-- ROOTS-LANGSW -->
+  <div class="ctrl" role="group" aria-label="Language and display">
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../documents.html" hreflang="he" lang="he" title="עברית" aria-label="עברית"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="1.6" width="21" height="1.9" fill="#0038b8"/><rect y="11.5" width="21" height="1.9" fill="#0038b8"/><path d="M10.5 4.6 12.9 8.75H8.1Z M10.5 10.4 8.1 6.25h4.8Z" fill="none" stroke="#0038b8" stroke-width=".75"/></svg></a>
+      <a href="../en/documents.html" hreflang="en" lang="en" title="English" aria-label="English" aria-current="true"><svg viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" stroke="#C8102E" stroke-width="2.4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg></a>
+      <a href="../pl/documents.html" hreflang="pl" lang="pl" title="Polski" aria-label="Polski"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="7.5" width="21" height="7.5" fill="#dc143c"/></svg></a>
+    </div>
+    <button class="iconbtn" id="theme" title="Colour theme">◐</button>
+    <button class="iconbtn" id="bigfont" title="Larger text">A+</button>
+  </div>
 </div></header>
+
+<script>/* ROOTS-LANG-BOOT: keep the visitor in their chosen language */
+(function(){try{var p=localStorage.getItem('roots-lang');
+var c=(document.documentElement.getAttribute('lang')||'he').slice(0,2);
+if(p&&p!==c){var a=document.querySelector('.langsw a[hreflang="'+p+'"]');
+if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>
 
 <main>
   <p class="kicker">Gallery</p>
@@ -85,7 +101,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 </div>
 
 <footer><div class="in">Roots · A history of the Moskal–Schafir and Albert–Rywenbajrych families</div></footer>
-<script src="../js/ui.js?v=20260815b"></script>
+<script src="../js/ui.js?v=20260815d"></script>
 <script>
 const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 let DOCS = [], shown = [], cur = -1;
@@ -96,8 +112,10 @@ function render(branch){
   shown = branch==='all' ? DOCS : DOCS.filter(x=>x.branch===branch);
   document.getElementById('grid').innerHTML = shown.map((d,i)=>`
     <div class="dcard" data-i="${i}">
-      <div class="th"><img loading="lazy" src="../${d.thumb}" alt="${esc(d.title)}"></div>
-      <div class="body"><h3 lang="he" dir="rtl">${esc(d.title)}</h3><p lang="he" dir="rtl">${esc(d.caption)}</p></div>
+      <div class="th"><img loading="lazy" src="../${d.thumb}" alt="${esc(d.title_en||d.title)}"></div>
+      <div class="body">${d.title_en
+        ? `<h3>${esc(d.title_en)}</h3><p>${esc(d.caption_en??d.caption)}</p>`
+        : `<h3 lang="he" dir="rtl">${esc(d.title)}</h3><p lang="he" dir="rtl">${esc(d.caption)}</p>`}</div>
     </div>`).join('');
 }
 
@@ -112,8 +130,8 @@ function show(i){
   if(i<0||i>=shown.length) return;
   cur=i; const d=shown[i];
   document.getElementById('lb-img').src='../'+d.image;
-  document.getElementById('lb-title').textContent=d.title;
-  document.getElementById('lb-cap').textContent=d.caption;
+  document.getElementById('lb-title').textContent=d.title_en||d.title;
+  document.getElementById('lb-cap').textContent=(d.caption_en??d.caption);
   lb.classList.add('open');
 }
 document.getElementById('grid').addEventListener('click',e=>{
@@ -132,15 +150,5 @@ document.addEventListener('keydown',e=>{
   if(e.key==='ArrowLeft') show(cur-1);
 });
 </script>
-<!-- ROOTS-LANGSW -->
-<div class="ctrl" role="group" aria-label="Language and display">
-  <div class="langsw" role="group" aria-label="Language">
-    <a href="../documents.html" hreflang="he" lang="he" title="עברית" aria-label="עברית"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="1.6" width="21" height="1.9" fill="#0038b8"/><rect y="11.5" width="21" height="1.9" fill="#0038b8"/><path d="M10.5 4.6 12.9 8.75H8.1Z M10.5 10.4 8.1 6.25h4.8Z" fill="none" stroke="#0038b8" stroke-width=".75"/></svg></a>
-    <a href="../en/documents.html" hreflang="en" lang="en" title="English" aria-label="English" aria-current="true"><svg viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" stroke="#C8102E" stroke-width="2.4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg></a>
-    <a href="../pl/documents.html" hreflang="pl" lang="pl" title="Polski" aria-label="Polski"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="7.5" width="21" height="7.5" fill="#dc143c"/></svg></a>
-  </div>
-  <button class="iconbtn" id="theme" title="Colour theme">◐</button>
-  <button class="iconbtn" id="bigfont" title="Larger text">A+</button>
-</div>
 </body>
 </html>

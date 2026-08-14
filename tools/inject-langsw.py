@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-מזריק את אשכול הפקדים הצף (בורר שפה בדגלים + ערכה + גופן) לפני </body>
-בכל עמוד באתר, בכל שלוש השפות, עם נתיבים יחסיים נכונים לפי עומק העמוד
-ולפי שפת העמוד.
+מזריק את אשכול הפקדים (בורר שפה בדגלים + ערכה + גופן) לקצה הפס העליון
+(לפני ‎</div></header>‎) בכל עמוד באתר, בכל שלוש השפות, עם נתיבים יחסיים
+נכונים לפי עומק העמוד ולפי שפת העמוד — ומוסיף אחרי ה-header את סקריפט
+ROOTS-LANG-BOOT ששומר על עקביות השפה (localStorage roots-lang; הכתיבה
+נעשית ב-ui.js בלחיצה על דגל).
 
-מאז 15.8.2026 הפקדים אינם יושבים ב-.navlinks אלא באשכול קבוע
-<div class="ctrl"> בפינת המסך (CSS: ‎.ctrl ב-main.css). בורר השפה מציג
-דגלים (ישראל/בריטניה/פולין) במקום אותיות. עמוד שכבר יש בו את הכפתורים
+מאז 15.8.2026 הפקדים יושבים באשכול <div class="ctrl"> בקצה ה-topbar
+הדביק — מקום קבוע ותמיד גלוי. בורר השפה מציג דגלים (ישראל/בריטניה/פולין). עמוד שכבר יש בו את הכפתורים
 בתוך ה-navlinks — יש להסירם ידנית או בעזרת הסקריפט ההיסטורי; הכלי הזה
 רק מוסיף אשכול חדש לעמוד שאין בו ROOTS-LANGSW.
 
@@ -41,6 +42,12 @@ GROUP_LABEL = {"he": "שפה ותצוגה", "en": "Language and display", "pl": 
 THEME_TITLE = {"he": "מצב תצוגה", "en": "Colour theme", "pl": "Motyw kolorów"}
 BIG_TITLE = {"he": "הגדלת גופן", "en": "Larger text", "pl": "Większy tekst"}
 BIG_LABEL = {"he": "א+", "en": "A+", "pl": "A+"}
+
+BOOT = ("<script>/* ROOTS-LANG-BOOT: keep the visitor in their chosen language */\n"
+        "(function(){try{var p=localStorage.getItem('roots-lang');\n"
+        "var c=(document.documentElement.getAttribute('lang')||'he').slice(0,2);\n"
+        "if(p&&p!==c){var a=document.querySelector('.langsw a[hreflang=\"'+p+'\"]');\n"
+        "if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>\n")
 
 
 def page_lang_and_key(rel: Path):
@@ -94,15 +101,18 @@ def main():
         lang, key = page_lang_and_key(rel)
         block = build(rel, lang, key)
 
-        if "</body>" not in html:
-            skipped.append((p, "no </body>"))
+        if "  </nav>\n</div></header>" not in html:
+            skipped.append((p, "no header anchor"))
             continue
         # אם נשארו כפתורי theme/bigfont ישנים בתוך ה-navlinks — לא נוגעים בהם,
         # רק מתריעים; העמוד יקבל את האשכול החדש והישנים יוסרו ידנית.
         if re.search(r'navlinks[\s\S]{0,600}id="theme"', html):
             skipped.append((p, "old buttons still in navlinks — remove them first"))
             continue
-        html = html.replace("</body>", block + "</body>", 1)
+        indented = "  " + block.replace("\n", "\n  ").rstrip()
+        html = html.replace(
+            "  </nav>\n</div></header>",
+            "  </nav>\n" + indented + "\n</div></header>\n\n" + BOOT.rstrip(), 1)
         p.write_text(html, encoding="utf-8")
         done += 1
 
