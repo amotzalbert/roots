@@ -58,12 +58,25 @@ function assignGenerations(){
       if(sp._gen === null || sp._gen < p._gen){ sp._gen = p._gen; queue.push(sp); }
       else if(sp._gen > p._gen){ p._gen = sp._gen; queue.push(p); }
     });
+    // אחים באותו דור — בלי זה, אח חסר־ילדים נשאר "עלה" בדור 0 ונופל
+    // לשורת האחיינים (כך אמוץ הוצג דור מתחת לאחיו). מיישרים כל קבוצת
+    // אחים כלפי מעלה אל הגבוה שבהם.
+    p.parents.forEach(id=>{
+      const par = P.get(id); if(!par) return;
+      par.children.forEach(cid=>{
+        const c = P.get(cid); if(!c || c === p) return;
+        if(c._gen === null || c._gen < p._gen){ c._gen = p._gen; queue.push(c); }
+      });
+    });
   }
   P.forEach(p=>{ if(p._gen === null) p._gen = 0; });
 }
 
 function defaultFocus(){
-  // ברירת מחדל: האדם הצעיר ביותר בעל הכי הרבה קשרים
+  // ברירת מחדל: אמוץ — נקודת המפגש של שני הענפים. (היוריסטיקת "הצעיר
+  // ביותר" הישנה נשענה על כך שהוא ישב בטעות בדור 0; אחרי תיקון יישור
+  // האחים היא הייתה בוחרת אחיין.)
+  if(S.people.has('p-amotz-albert')) return 'p-amotz-albert';
   return [...S.people.values()]
     .sort((a,b)=> a._gen - b._gen || (b.parents.length+b.children.length)-(a.parents.length+a.children.length))
     [0]?.id;
