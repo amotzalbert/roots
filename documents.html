@@ -6,15 +6,33 @@
 <title>מסמכים · שורשים</title>
 <link rel="stylesheet" href="css/main.css">
 <style>
+.filters{display:flex;gap:.5rem;margin-top:1.2rem;font-family:var(--sans)}
+.filters button{border:1px solid var(--rule);background:var(--paper-2);border-radius:2rem;
+  padding:.35rem 1rem;font-size:.88rem;cursor:pointer;color:var(--ink-2)}
+.filters button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1rem;margin-top:1.6rem}
-.dcard{border:1px solid var(--rule);border-radius:.6rem;overflow:hidden;background:var(--paper-2)}
-.dcard .ph{aspect-ratio:4/3;background:var(--paper-3);display:flex;align-items:center;
-  justify-content:center;color:var(--ink-3);font-family:var(--sans);font-size:.8rem}
+.dcard{border:1px solid var(--rule);border-radius:.6rem;overflow:hidden;background:var(--paper-2);
+  cursor:zoom-in;transition:box-shadow .15s}
+.dcard:hover{box-shadow:0 2px 12px rgba(0,0,0,.12)}
+.dcard .th{aspect-ratio:4/3;background:var(--paper-3);overflow:hidden}
+.dcard .th img{width:100%;height:100%;object-fit:cover;display:block}
 .dcard .body{padding:.8rem 1rem}
-.dcard h3{margin:0 0 .2rem;font-size:.96rem}
-.dcard p{margin:0;font-size:.83rem;color:var(--ink-3)}
-.notice{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;
-  padding:1.2rem 1.5rem;margin:1.4rem 0;font-size:.92rem;color:var(--ink-2)}
+.dcard h3{margin:0 0 .2rem;font-size:.93rem;line-height:1.5}
+.dcard p{margin:0;font-size:.8rem;color:var(--ink-3)}
+.lightbox{position:fixed;inset:0;background:rgba(20,16,12,.92);display:none;z-index:50;
+  flex-direction:column;align-items:center;justify-content:center;padding:2rem;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:96vw;max-height:82vh;object-fit:contain;border-radius:.3rem;
+  box-shadow:0 8px 40px rgba(0,0,0,.5);cursor:default}
+.lightbox .cap{color:#eee;font-family:var(--sans);font-size:.95rem;margin-top:1rem;
+  text-align:center;max-width:60rem}
+.lightbox .cap small{color:#bbb;display:block;margin-top:.25rem}
+.lightbox .nav{position:absolute;top:50%;transform:translateY(-50%);font-size:2.2rem;color:#eee;
+  background:none;border:none;cursor:pointer;padding:1rem;opacity:.7}
+.lightbox .nav:hover{opacity:1}
+.lightbox .prev{right:0}.lightbox .next{left:0}
+.lightbox .close{position:absolute;top:.8rem;left:1.2rem;font-size:1.6rem;color:#eee;
+  background:none;border:none;cursor:pointer}
 </style>
 </head>
 <body>
@@ -38,34 +56,74 @@
 <main>
   <p class="kicker">גלריה</p>
   <h1>המסמכים</h1>
-  <p class="lede narrow">סריקות הארכיון שעליהן נשען כל עמוד באתר הזה.</p>
+  <p class="lede narrow">סריקות הארכיון שעליהן נשען כל עמוד באתר הזה. לחיצה על
+     מסמך פותחת אותו בגודל מלא; הציטוט המלא של כל אקט — בנספח
+     <a href="sources.html">המקורות</a>.</p>
 
-  <div class="notice">
-    הגלריה עם צופה הזום נמצאת בבנייה. בינתיים, כל מסמך מקושר מכרטיס האדם שלו
-    באילן, וכל אקט מצוטט במלואו — תרגום עברי לצד המקור — בנספח
-    <a href="sources.html">המקורות</a>.
+  <div class="filters" id="filters">
+    <button data-b="all" class="on">הכול</button>
+    <button data-b="albert">אלברט–ריבנבייריך</button>
+    <button data-b="moskal">מוסקל–שאפיר</button>
   </div>
 
   <div class="dgrid" id="grid"></div>
 </main>
 
+<div class="lightbox" id="lb">
+  <button class="close" title="סגירה">✕</button>
+  <button class="nav prev" title="הקודם">‹</button>
+  <img id="lb-img" alt="">
+  <div class="cap"><span id="lb-title"></span><small id="lb-cap"></small></div>
+  <button class="nav next" title="הבא">›</button>
+</div>
+
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
 <script src="js/ui.js"></script>
 <script>
-Promise.all([
-  fetch('data/sources.json').then(r=>r.json()),
-]).then(([sources])=>{
-  const withCite = sources.filter(s=>s.repository || s.citation);
-  document.getElementById('grid').innerHTML = withCite.map(s=>`
-    <div class="dcard">
-      <div class="ph">📜 סריקת ארכיון</div>
-      <div class="body">
-        <h3>${esc(s.title)}</h3>
-        <p>${esc(s.repository)}${s.citation?' · '+esc(s.citation):''}</p>
-      </div>
-    </div>`).join('');
-});
 const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let DOCS = [], shown = [], cur = -1;
+
+fetch('data/documents.json').then(r=>r.json()).then(d=>{ DOCS=d; render('all'); });
+
+function render(branch){
+  shown = branch==='all' ? DOCS : DOCS.filter(x=>x.branch===branch);
+  document.getElementById('grid').innerHTML = shown.map((d,i)=>`
+    <div class="dcard" data-i="${i}">
+      <div class="th"><img loading="lazy" src="${d.thumb}" alt="${esc(d.title)}"></div>
+      <div class="body"><h3>${esc(d.title)}</h3><p>${esc(d.caption)}</p></div>
+    </div>`).join('');
+}
+
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('on',x===b));
+  render(b.dataset.b);
+});
+
+const lb=document.getElementById('lb');
+function show(i){
+  if(i<0||i>=shown.length) return;
+  cur=i; const d=shown[i];
+  document.getElementById('lb-img').src=d.image;
+  document.getElementById('lb-title').textContent=d.title;
+  document.getElementById('lb-cap').textContent=d.caption;
+  lb.classList.add('open');
+}
+document.getElementById('grid').addEventListener('click',e=>{
+  const c=e.target.closest('.dcard'); if(c) show(+c.dataset.i);
+});
+lb.addEventListener('click',e=>{
+  if(e.target.classList.contains('prev')) return show(cur+1);
+  if(e.target.classList.contains('next')) return show(cur-1);
+  if(e.target.id==='lb-img') return;
+  lb.classList.remove('open');
+});
+document.addEventListener('keydown',e=>{
+  if(!lb.classList.contains('open')) return;
+  if(e.key==='Escape') lb.classList.remove('open');
+  if(e.key==='ArrowRight') show(cur+1);
+  if(e.key==='ArrowLeft') show(cur-1);
+});
 </script>
 </body>
 </html>

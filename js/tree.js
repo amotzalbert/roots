@@ -70,6 +70,45 @@ function assignGenerations(){
     });
   }
   P.forEach(p=>{ if(p._gen === null) p._gen = 0; });
+  anchorComponentsByEra();
+}
+
+/** רכיבים מנותקים (למשל משפחת מושק וגלה, שאין לה עוד גשר מתועד לעץ)
+    צונחים לדור 0 כי כל בניהם חסרי-ילדים — ודמות ילידת 1905 מצטיירת
+    בשורת הנינים. העוגן: שנת לידה. לוקחים את הרכיב הגדול כמסגרת ייחוס
+    (שנה ≈ עוגן − 28·דור), ומזיזים כל רכיב אחר בשלם הדורות שממקם את
+    שנות הלידה שלו באותה מסגרת. רכיב בלי שנת לידה ידועה — נשאר במקומו. */
+function anchorComponentsByEra(){
+  const P = S.people, YEARS_PER_GEN = 28;
+  const year = p => { const m = /(\d{4})/.exec((p.birth||{}).date||''); return m ? +m[1] : null; };
+  // רכיבי קשירות על קשתות הורה/ילד/בן-זוג
+  const compOf = new Map(); let comps = [];
+  P.forEach((p,id)=>{
+    if(compOf.has(id)) return;
+    const members = [], q=[id]; compOf.set(id, comps.length);
+    while(q.length){
+      const x = q.pop(); members.push(x);
+      const px = P.get(x);
+      [...px.parents, ...px.children, ...px.spouses].forEach(n=>{
+        if(P.has(n) && !compOf.has(n)){ compOf.set(n, comps.length); q.push(n); }
+      });
+    }
+    comps.push(members);
+  });
+  if(comps.length < 2) return;
+  comps.sort((a,b)=>b.length-a.length);
+  const anchors = members => members
+    .map(id=>{ const p=P.get(id), y=year(p); return y===null ? null : y + YEARS_PER_GEN*p._gen; })
+    .filter(v=>v!==null).sort((a,b)=>a-b);
+  const mainA = anchors(comps[0]);
+  if(!mainA.length) return;
+  const mainAnchor = mainA[Math.floor(mainA.length/2)];
+  comps.slice(1).forEach(members=>{
+    const a = anchors(members);
+    if(!a.length) return;
+    const shift = Math.round((mainAnchor - a[Math.floor(a.length/2)]) / YEARS_PER_GEN);
+    if(shift) members.forEach(id=>{ P.get(id)._gen += shift; });
+  });
 }
 
 function defaultFocus(){
