@@ -281,5 +281,18 @@
    ]
   },
   "notes": []
+ },
+ {
+  "id": "u-f13",
+  "branch": "albert",
+  "gedcomId": "F13",
+  "spouses": [
+   "p-bella-albert"
+  ],
+  "children": [
+   "p-natali-albert"
+  ],
+  "marriage": null,
+  "notes": []
  }
 ]

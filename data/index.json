@@ -408,6 +408,14 @@
   "terms": "דוד אלברט David Albert דוד אלברט"
  },
  {
+  "id": "p-natali-albert",
+  "type": "person",
+  "branch": "albert",
+  "label": "נטלי אלברט",
+  "sub": "Natali Albert",
+  "terms": "נטלי אלברט Natali Albert נטלי אלברט"
+ },
+ {
   "id": "p-aron-bukszpan",
   "type": "person",
   "branch": "moskal",

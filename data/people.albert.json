@@ -1736,5 +1736,30 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-natali-albert",
+  "branch": "albert",
+  "gedcomId": "I35",
+  "names": {
+   "he": "",
+   "latin": "Natali Albert",
+   "given": "Natali",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Bella's daughter, Amotz's cousin. Name and surname confirmed by Amotz\n(5 Aug 2026, and again 14 Aug 2026 when he asked to add her here). Entered per the\nliving-persons policy: name only, no dates or places. Her father is not entered."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]
