@@ -66,7 +66,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 (function(){try{var p=localStorage.getItem('roots-lang');
 var c=(document.documentElement.getAttribute('lang')||'he').slice(0,2);
 if(p&&p!==c){var a=document.querySelector('.langsw a[hreflang="'+p+'"]');
-if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>
+if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}catch(e){}})();</script>
 
 <main>
   <p class="kicker">Map</p>
@@ -85,7 +85,7 @@ if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>
 
 <footer><div class="in">Roots · A history of the Moskal–Schafir and Albert–Rywenbajrych families</div></footer>
 
-<script src="../js/ui.js?v=20260815d"></script>
+<script src="../js/ui.js?v=20260815e"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
@@ -110,10 +110,10 @@ async function boot(){
       fillColor: COLORS[p.branch] || '#a8322a', fillOpacity: .92
     }).addTo(map);
     const researchLink = p.research
-      ? `<p><a href="../research.html?f=${p.research}" target="_blank">Read about ${p.latin} →</a></p>` : '';
+      ? `<p><a href="research.html?f=${p.research}" target="_blank">Read about ${p.latin} →</a></p>` : '';
     marker.bindPopup(
       `<div class="pop"><h4>${p.latin}</h4><p class="lat" lang="he" dir="rtl">${p.he}</p>
-       ${p.note ? `<p lang="he" dir="rtl">${p.note}</p>` : ''}${researchLink}
+       ${(p.note_en||p.note) ? (p.note_en ? `<p>${p.note_en}</p>` : `<p lang="he" dir="rtl">${p.note}</p>`) : ''}${researchLink}
        <p><a href="tree.html">Back to the tree →</a></p></div>`
     );
     marker.on('mouseover', ()=>marker.openPopup());

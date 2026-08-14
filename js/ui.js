@@ -43,10 +43,12 @@
       apply(ORDER[(ORDER.indexOf(current()) + 1) % ORDER.length]);
     });
 
-    // בחירת שפה מפורשת נשמרת — וה-ROOTS-LANG-BOOT שבכל עמוד שומר על עקביות
+    // בחירת שפה מפורשת נשמרת — וה-ROOTS-LANG-BOOT שבכל עמוד שומר על עקביות.
+    // המעבר מעביר גם את הפרמטרים (?f= של דוח, ?p= באילן) ואת העוגן.
     Array.prototype.forEach.call(document.querySelectorAll('.langsw a'), function (a) {
       a.addEventListener('click', function () {
         try { LS.setItem('roots-lang', this.getAttribute('hreflang')); } catch (e) {}
+        this.href = this.getAttribute('href') + location.search + location.hash;
       });
     });
 

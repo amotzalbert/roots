@@ -109,7 +109,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 (function(){try{var p=localStorage.getItem('roots-lang');
 var c=(document.documentElement.getAttribute('lang')||'he').slice(0,2);
 if(p&&p!==c){var a=document.querySelector('.langsw a[hreflang="'+p+'"]');
-if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>
+if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}catch(e){}})();</script>
 
 <main>
   <p class="kicker">אילן היוחסין</p>
@@ -150,7 +150,7 @@ if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>
 
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
 
-<script src="js/ui.js?v=20260815d"></script>
+<script src="js/ui.js?v=20260815e"></script>
 <script src="js/tree.js?v=20260815b"></script>
 </body>
 </html>

@@ -47,7 +47,7 @@ BOOT = ("<script>/* ROOTS-LANG-BOOT: keep the visitor in their chosen language *
         "(function(){try{var p=localStorage.getItem('roots-lang');\n"
         "var c=(document.documentElement.getAttribute('lang')||'he').slice(0,2);\n"
         "if(p&&p!==c){var a=document.querySelector('.langsw a[hreflang=\"'+p+'\"]');\n"
-        "if(a)location.replace(a.getAttribute('href'));}}catch(e){}})();</script>\n")
+        "if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}catch(e){}})();</script>\n")
 
 
 def page_lang_and_key(rel: Path):
