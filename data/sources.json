@@ -375,6 +375,30 @@
   ]
  },
  {
+  "id": "s-s84",
+  "gedcomId": "S84",
+  "title": "CRARG transcriptions - Radoszyce Jewish registers (BMD 1826-1884) and Kielce-area collections",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Seven surname reports sent by Daniel Kazez (CRARG) on 14 Aug 2026; held at\nalbert/sources/crarg/ with parsed TSVs and analysis notes (notes-first-sweep,\nnotes-agent-full-sweep). Transcriptions, not the acts; the register images are on\nGenBaza (metryki). CRARG data is members-only, one-family use. Radoszyce BMD coverage\n1826-1884, missing 1860-1865 (alegata partially fill it), 1874 and 1877. See\nfindings/082-083."
+  ]
+ },
+ {
+  "id": "s-s83",
+  "gedcomId": "S83",
+  "title": "JRI-Poland index to the Stopnica Jewish registers - marriage act 25/1909",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "legacy.jri-poland.org (hidecols=0), pulled 14 Aug 2026 in the Ginsburg Daitch-Mokotoff\nsweep (source page Ginsburg-DM-KI.html); rows held locally in albert/sources/jri/\njri-legacy-all.tsv. Index rows only - the act itself is unread. See findings/073."
+  ]
+ },
+ {
   "id": "s-m-act-1833-6",
   "title": "אקט פטירה 6/1833 — דוורה שיפמן לבית בוקשפן",
   "author": "Urząd Stanu Cywilnego Okręgu Bożniczego w Świerżach",

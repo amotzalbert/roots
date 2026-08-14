@@ -373,5 +373,29 @@
   "notes": [
    "Index rows read from the Ancestry mirrors (collections 2357 record 40542; 62366;\n63030 record 1483668), 14 Aug 2026. The 1945 Warsaw card is the indexed copy of the\nregistration already held as CKZP slip 12344 (@S20@) - corroboration and a precise\nfile citation, not an independent source. Scan of the Lodz F18 list page saved at\nalbert/sources/ancestry/63030-1483668-Lodz-surviving-jews-ChaimAlbert-b1913-Warsaw-0045_78785619_1.jpg. See findings/066."
   ]
+ },
+ {
+  "id": "s-s84",
+  "gedcomId": "S84",
+  "title": "CRARG transcriptions - Radoszyce Jewish registers (BMD 1826-1884) and Kielce-area collections",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Seven surname reports sent by Daniel Kazez (CRARG) on 14 Aug 2026; held at\nalbert/sources/crarg/ with parsed TSVs and analysis notes (notes-first-sweep,\nnotes-agent-full-sweep). Transcriptions, not the acts; the register images are on\nGenBaza (metryki). CRARG data is members-only, one-family use. Radoszyce BMD coverage\n1826-1884, missing 1860-1865 (alegata partially fill it), 1874 and 1877. See\nfindings/082-083."
+  ]
+ },
+ {
+  "id": "s-s83",
+  "gedcomId": "S83",
+  "title": "JRI-Poland index to the Stopnica Jewish registers - marriage act 25/1909",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "legacy.jri-poland.org (hidecols=0), pulled 14 Aug 2026 in the Ginsburg Daitch-Mokotoff\nsweep (source page Ginsburg-DM-KI.html); rows held locally in albert/sources/jri/\njri-legacy-all.tsv. Index rows only - the act itself is unread. See findings/073."
+  ]
  }
 ]

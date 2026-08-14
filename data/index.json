@@ -416,6 +416,62 @@
   "terms": "נטלי אלברט Natali Albert נטלי אלברט"
  },
  {
+  "id": "p-liba-rozenman",
+  "type": "person",
+  "branch": "albert",
+  "label": "ליבה רוזנמן",
+  "sub": "Liba Rozenman",
+  "terms": "ליבה רוזנמן Liba Rozenman ליבה רוזנמן"
+ },
+ {
+  "id": "p-kiwa-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "קיווה צוקר",
+  "sub": "Kiwa Cukier",
+  "terms": "קיווה צוקר Kiwa Cukier קיווה צוקר"
+ },
+ {
+  "id": "p-rywa-winogron",
+  "type": "person",
+  "branch": "albert",
+  "label": "ריווה וינוגרון",
+  "sub": "Rywa Winogron",
+  "terms": "ריווה וינוגרון Rywa Winogron ריווה וינוגרון"
+ },
+ {
+  "id": "p-aron-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "ארון צוקר",
+  "sub": "Aron Cukier",
+  "terms": "ארון צוקר Aron Cukier ארון צוקר"
+ },
+ {
+  "id": "p-tauba-moszkowicz",
+  "type": "person",
+  "branch": "albert",
+  "label": "טאובה מוסקוביץ'",
+  "sub": "Tauba Moszkowicz",
+  "terms": "טאובה מוסקוביץ' Tauba Moszkowicz טאובה מוסקוביץ'"
+ },
+ {
+  "id": "p-izrael-winogron",
+  "type": "person",
+  "branch": "albert",
+  "label": "ישראל וינוגרון",
+  "sub": "Izrael Winogron",
+  "terms": "ישראל וינוגרון Izrael Winogron ישראל וינוגרון"
+ },
+ {
+  "id": "p-gitla",
+  "type": "person",
+  "branch": "albert",
+  "label": "גיטלה",
+  "sub": "Gitla",
+  "terms": "גיטלה Gitla גיטלה"
+ },
+ {
   "id": "p-aron-bukszpan",
   "type": "person",
   "branch": "moskal",

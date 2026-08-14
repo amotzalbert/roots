@@ -978,11 +978,12 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. See\nfindings/008 for the full argument, including the unexplained fact that Opatow's\n9,135 indexed records contain not one Rywenbajrych.\n** SUPERSEDED IN PART, 14 Aug 2026: @I24@ is no longer held to be a child of this\nfamily (see @F60@), so this man is no longer entered as HER brother - he remains a\nson of Moszek and Gella by the birth-sequence argument alone. The 008 identification\nquestion above is unaffected: he is still not Chana's father. **"
+   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. See\nfindings/008 for the full argument, including the unexplained fact that Opatow's\n9,135 indexed records contain not one Rywenbajrych.\n** SUPERSEDED IN PART, 14 Aug 2026: @I24@ is no longer held to be a child of this\nfamily (see @F60@), so this man is no longer entered as HER brother - he remains a\nson of Moszek and Gella by the birth-sequence argument alone. The 008 identification\nquestion above is unaffected: he is still not Chana's father. **\n** 14 Aug 2026, later: his marriage is now on record - Stopnica, act 25/1909, to Liba\nRozenman (@F62@, @S83@). That index row names his parents outright, \"Moszek WAJSBLUM,\nGela GINSBURG\", so this man's place in @F10@ no longer rests on the birth-sequence\nargument alone; what remains inferred is only the equation of the 1909 groom (aged 20,\nb. Opatow) with birth act 88/1889 - a match of year, town and name. The row also adds\nweight against the 008 identification: a man who married a Rozenman in Stopnica in\n1909 is a poorer fit for Chana's father, though not an impossible one (remarriage). **"
   ],
   "grade": null,
   "sources": [
-   "s-s10"
+   "s-s10",
+   "s-s83"
   ],
   "photos": [],
   "docs": [],
@@ -1011,9 +1012,9 @@
   "death": {
    "date": "23 OCT 1942",
    "place": "Treblinka extermination camp, Poland",
-   "grade": "documented",
+   "grade": "probable",
    "notes": [
-    "(documented) Recorded as \"Bajla Szajndla Rywenbajrych, b. 1891, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the same 1988 memorial list - which names\nher under her MARRIED surname, independently confirming the marriage."
+    "(probable) Recorded as \"Bajla Szajndla Rywenbajrych, b. 1891, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the same 1988 memorial list - which names\nher under her MARRIED surname, independently confirming the marriage.\n** DOWNGRADED from documented-grade, 14 Aug 2026, Amotz's decision: the 1988 list assigns\n\"Treblinka, 23 October 1942\" wholesale to nearly everyone it names, and is counter-\nproven in at least one case - Zukiel Wajsblum, listed so, was in fact registered in\nBuchenwald in January 1945 (findings/075). The date remains the best reconstruction -\nthe Opatow ghetto was cleared 20-22 October 1942 - but it is the list's formula, not\na record of this individual. **"
    ]
   },
   "occupation": "",
@@ -1053,9 +1054,9 @@
   "death": {
    "date": "23 OCT 1942",
    "place": "Treblinka extermination camp, Poland",
-   "grade": "documented",
+   "grade": "probable",
    "notes": [
-    "(documented) Murdered. Recorded as \"Tomasz Rywenbajrich, b. 1888, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the list of murdered Jews from\n\"The Jews of Opatow\", Tel Aviv 1988 - the town's own memorial volume, compiled by its\nsurvivors. The date matches the town's history: the Opatow ghetto was cleared on\n20-22 October 1942 and its people deported to Treblinka."
+    "(probable) Murdered. Recorded as \"Tomasz Rywenbajrich, b. 1888, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the list of murdered Jews from\n\"The Jews of Opatow\", Tel Aviv 1988 - the town's own memorial volume, compiled by its\nsurvivors. The date matches the town's history: the Opatow ghetto was cleared on\n20-22 October 1942 and its people deported to Treblinka.\n** DOWNGRADED from documented-grade, 14 Aug 2026, Amotz's decision: the 1988 list assigns\n\"Treblinka, 23 October 1942\" wholesale to nearly everyone it names, and is counter-\nproven in at least one case - Zukiel Wajsblum, listed so, was in fact registered in\nBuchenwald in January 1945 (findings/075). The date remains the best reconstruction,\nbut it is the list's formula, not a record of this individual. **"
    ]
   },
   "occupation": "",
@@ -1469,8 +1470,15 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
-  "birth": null,
+  "living": false,
+  "birth": {
+   "date": "1851",
+   "place": "Zagdansk village, Radoszyce registry district, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) Birth act 40/1851 of the Radoszyce Jewish register: \"Ester Gitla Cukier,\nborn Zagdansk village, father Kiwa Cukier, 22, mother Ryfka, 21\" - CRARG transcription\n(@S84@); the same act is indexed by JRI (film 719334). The equation of this child with\nthe Estera Gitla Cuker of the 1894 Warsaw act rests on the exact full-name match -\nunique in the region's indexes - and the fitting age; no document joins the two.\nCAUTION: a near-namesake exists inside the same family - \"Sora Gitla Cukier\", b. 1847\nto Kiwa's brother Abram."
+   ]
+  },
   "death": null,
   "occupation": "",
   "notes": [
@@ -1478,7 +1486,8 @@
   ],
   "grade": "documented",
   "sources": [
-   "s-s30"
+   "s-s30",
+   "s-s84"
   ],
   "photos": [],
   "docs": [],
@@ -1758,6 +1767,208 @@
   ],
   "grade": null,
   "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-liba-rozenman",
+  "branch": "albert",
+  "gedcomId": "I68",
+  "names": {
+   "he": "",
+   "latin": "Liba Rozenman",
+   "given": "Liba",
+   "surname": "Rozenman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1888",
+   "notes": [
+    "Aged 21 at her marriage of 1 Nov 1909; the index row gives no birth place."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Daughter of Szulim Lejbus Rozenman and Chawa Dwojra Szydlowska, both named in the\nmarriage index row. Nothing further is known of her; her fate is untraced."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s83"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-kiwa-cukier",
+  "branch": "albert",
+  "gedcomId": "I69",
+  "names": {
+   "he": "",
+   "latin": "Kiwa Cukier",
+   "given": "Kiwa",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1827",
+   "place": "Ruda, gmina Promnik, Poland",
+   "notes": [
+    "Aged 22 at his 1849 marriage, of Ruda village near Promnik; by 1851 the household is\nat Zagdansk village, where it stays. His trades across the acts: farmer, potash maker\n(potazink - his father's trade), scribe, speculator, workman, trader."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rywa-winogron",
+  "branch": "albert",
+  "gedcomId": "I70",
+  "names": {
+   "he": "",
+   "latin": "Rywa Winogron",
+   "given": "Rywa",
+   "surname": "Winogron",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1826",
+   "place": "Wystepy, gmina Samsonow, Poland",
+   "notes": [
+    "Aged 23 at her 1849 marriage, of Wystepy village near Samsonow."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** THE OPEN \"TWO RYWKAS\" QUESTION. ** In the birth acts of 1850-1852 - including\nEster Gitla's - the mother is consistently \"Ryfka\". From 1855 the registers write\n\"Marya\", in 1865 \"Marya z Wajntraubow\", and a Kielce death of 1872 records \"Rywka\nMarjem, wife of Kiwa, daughter of SZMUL and Gitla\" - while the 1849 bride is daughter\nof IZRAEL and Gitla. Either one woman (Marya-Rywka) sloppily registered, or Kiwa\nremarried - possibly to a kinswoman: a Szmul Winogron lived in the same village of\nWystepy (his sons' births 1848, 1850 are transcribed). Ester Gitla's mother is the\n1849 bride either way; Rywa's own death is therefore NOT entered here. Deciding\ndocuments: the act images of 46/1865 and 14/1872. See findings/083 and the verbatim\nrow collection in sources/crarg/notes-agent-full-sweep.md."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aron-cukier",
+  "branch": "albert",
+  "gedcomId": "I71",
+  "names": {
+   "he": "",
+   "latin": "Aron Cukier",
+   "given": "Aron",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "potash maker",
+  "notes": [
+   "(documented, by name) Named as father of the groom in Kiwa's 1849 marriage act, and as\nfather in the marriage rows of his other children. See @F64@."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tauba-moszkowicz",
+  "branch": "albert",
+  "gedcomId": "I72",
+  "names": {
+   "he": "",
+   "latin": "Tauba Moszkowicz",
+   "given": "Tauba",
+   "surname": "Moszkowicz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-izrael-winogron",
+  "branch": "albert",
+  "gedcomId": "I73",
+  "names": {
+   "he": "",
+   "latin": "Izrael Winogron",
+   "given": "Izrael",
+   "surname": "Winogron",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as father of the bride in the 1849 marriage act. A Szmul\nWinogron also lived at Wystepy (births of his sons Izrael Kalman 1848 and Icek 1850\nare transcribed, mother \"Hana\" resp. \"Laia\") - relationship to Izrael unknown; he\nmatters to the \"two Rywkas\" question (see @I70@)."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-gitla",
+  "branch": "albert",
+  "gedcomId": "I74",
+  "names": {
+   "he": "",
+   "latin": "Gitla",
+   "given": "Gitla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as mother of the bride in the 1849 marriage act. No maiden\nsurname in the transcription."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null

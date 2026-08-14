@@ -149,7 +149,7 @@
    ]
   },
   "notes": [
-   "(probable) The two Tobiasz births are assigned to this couple on the strength of the\nsequence - marriage 1884, births 1885, 1889, all Wajsblum, all Opatow - not on a\nstated parentage. The acts are unread because Opatow is unscanned online at the free\ntier (GenBaza holds the register; scans blocked pending an account, findings/050).\n** 14 Aug 2026: Bajla-Szajndla (@I24@), formerly the third child here on the same\nsequence argument, is REMOVED - two independent Pages of Testimony name her father\nRafael, not Moszek (findings/053-058; see @F60@). With her goes the premise that\nbirth act 8/1892 belongs to this family. Reading that act is now the direct test:\nits parent names will either confirm Rafael and Fajga or reopen this question. **\nAlter (@I67@) is ADDED on the opposite grade: for him the parentage IS stated -\nhe declared himself \"Son\" of this couple in the 1966 necrology entries he supplied."
+   "(probable) The two Tobiasz births are assigned to this couple on the strength of the\nsequence - marriage 1884, births 1885, 1889, all Wajsblum, all Opatow - not on a\nstated parentage. The acts are unread because Opatow is unscanned online at the free\ntier (GenBaza holds the register; scans blocked pending an account, findings/050).\n** 14 Aug 2026: Bajla-Szajndla (@I24@), formerly the third child here on the same\nsequence argument, is REMOVED - two independent Pages of Testimony name her father\nRafael, not Moszek (findings/053-058; see @F60@). With her goes the premise that\nbirth act 8/1892 belongs to this family. Reading that act is now the direct test:\nits parent names will either confirm Rafael and Fajga or reopen this question. **\nAlter (@I67@) is ADDED on the opposite grade: for him the parentage IS stated -\nhe declared himself \"Son\" of this couple in the 1966 necrology entries he supplied.\n** 14 Aug 2026, later: the second Tobiasz (@I23@) also moves to the stated-parentage\ngrade - his 1909 Stopnica marriage row (act 25/1909, @S83@) names Moszek and Gela as\nhis parents. Only @I22@ now rests on the sequence argument alone. **"
   ]
  },
  {
@@ -291,6 +291,74 @@
   ],
   "children": [
    "p-natali-albert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f62",
+  "branch": "albert",
+  "gedcomId": "F62",
+  "spouses": [
+   "p-tobiasz-wajsblum-i23",
+   "p-liba-rozenman"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1 NOV 1909",
+   "place": "Stopnica, Poland",
+   "notes": [
+    "Marriage act 25/1909. The groom's row reads \"Tobjasz WAJSBLUM, M 20, b. Opatow,\nsingle, parents Moszek WAJSBLUM, Gela GINSBURG\" - the index itself states his\nparents; see the notes at @F10@ and @I23@ for what that upgrades. Stopnica is also\nthe town of the Kac family cluster (findings/063); no link between that cluster and\nthis marriage is asserted. Whether the couple had children is unknown - Stopnica\nbirths after 1909 have not been searched for them."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f63",
+  "branch": "albert",
+  "gedcomId": "F63",
+  "spouses": [
+   "p-kiwa-cukier",
+   "p-rywa-winogron"
+  ],
+  "children": [
+   "p-estera-gitla-cuker"
+  ],
+  "marriage": {
+   "date": "1849",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 20/1849, Radoszyce Jewish register - the CRARG transcription names both\nsets of parents, which is what carries the whole 5x-generation above this couple.\nKnown children (all Radoszyce-register births at Zagdansk unless noted): Kalma b. 1850\n(d. 1855), ESTER GITLA b. 1851 (@I41@), Laja b. 1852, Sora b. 1852 (d. at 4 months),\nSandal/Aleksander b. ~1856 (d. 1930 Kielce), Mortka Szlama b. 1858, Aron b. 1859\n(probably the Aron Cukier of Nowo-Zagnanska 7, Kielce, alive 1930), Brandla (d. 1862),\nHil b. 2 Jan 1862, Sora b. 1 Feb 1865. The mother-name shifts across these acts are\nthe \"two Rywkas\" question - see the note at @I70@. Only Ester Gitla is entered as an\nindividual; the siblings await the resolution of that question and Amotz's decision."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f64",
+  "branch": "albert",
+  "gedcomId": "F64",
+  "spouses": [
+   "p-aron-cukier",
+   "p-tauba-moszkowicz"
+  ],
+  "children": [
+   "p-kiwa-cukier"
+  ],
+  "marriage": null,
+  "notes": [
+   "The children of Aron and Tauba, of Ruda Strawczynska, from their marriage rows in the\nRadoszyce register: Abram b. ~1821 (m. Ester Cukier 16/1844), Mosiek b. ~1824 (m.\nRyfka Grynberg 9/1846), Mortka b. ~1826 (m. Blima Rozencwajg 17/1844), KIWA b. ~1827\n(@I69@), Laja b. ~1839 (m. Szulim Skornicki 13/1857). The sibling tie to Kiwa is\nstated outright in Laja's 1857 act: \"living with her brother Kiwa Cukier, Zagdansk\" -\nthe row that proves this family is one household. Only Kiwa is entered as an\nindividual; the siblings are recorded here pending a decision to expand."
+  ]
+ },
+ {
+  "id": "u-f65",
+  "branch": "albert",
+  "gedcomId": "F65",
+  "spouses": [
+   "p-izrael-winogron",
+   "p-gitla"
+  ],
+  "children": [
+   "p-rywa-winogron"
   ],
   "marriage": null,
   "notes": []
