@@ -1132,7 +1132,7 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-bajla-szajndla-wajsblum"
+   "p-alter-wajsblum"
   ]
  },
  {
@@ -1177,7 +1177,7 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-bajla-szajndla-wajsblum"
+   "p-alter-wajsblum"
   ]
  },
  {
@@ -1243,7 +1243,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. He is\ntherefore entered here as Bajla-Szajndla's brother. See findings/008 for the full\nargument, including the unexplained fact that Opatow's 9,135 indexed records contain\nnot one Rywenbajrych."
+   "CAUTION - competing identification. This man's name and birth year match the Page of\nTestimony's \"Tuvia, b. 1888\" for Chana's FATHER almost exactly, which raised the\npossibility that Chana's father was a Wajsblum and her mother a Rywenbajrych - the\nreverse of what the Pages say. Weighing against that: the Pages name the mother\n\"Bajla-Szajndla\", and that distinctive double name occurs exactly once in all 517\nWajsblum records of Radom Gubernia - the 1892 Opatow birth (@I24@). A common male given\nname matching is much weaker evidence than a rare double female name matching. See\nfindings/008 for the full argument, including the unexplained fact that Opatow's\n9,135 indexed records contain not one Rywenbajrych.\n** SUPERSEDED IN PART, 14 Aug 2026: @I24@ is no longer held to be a child of this\nfamily (see @F60@), so this man is no longer entered as HER brother - he remains a\nson of Moszek and Gella by the birth-sequence argument alone. The 008 identification\nquestion above is unaffected: he is still not Chana's father. **"
   ],
   "grade": null,
   "sources": [
@@ -1276,7 +1276,7 @@
    "date": "1892",
    "place": "Opatow, Poland",
    "notes": [
-    "Birth act 8/1892. The Page of Testimony gives 1891/92 - a one-year spread, normal for\na form filled in decades later."
+    "The year rests on the 1988 memorial list (1891) and the Pages of Testimony (1891/92);\nMoshe's own 1957 Page for her says 1890 - a three-year spread, normal for forms\nfilled in decades later. ** The attribution of birth act 8/1892 to her, asserted\nhere until 14 Aug 2026, is DOWNGRADED to an open question: it was premised on her\nbeing a child of the 1884 Moszek-Gella marriage, which is now rejected. Reading act\n8/1892 - first item in the Sandomierz letter - will either show parents Rafael and\nFajga (confirming both the act and @F60@) or show other parents (meaning her birth\nact is still unfound). **"
    ],
    "dateHe": "1892"
   },
@@ -1291,19 +1291,20 @@
   },
   "occupation": "",
   "notes": [
-   "(probable) Identified from Opatow birth act 8/1892 (JRI index; act unread, Opatow is\nunscanned) together with Yad Vashem Pages of Testimony 5584477/5584479. The Pages were\nfilled in by Amotz's sister Aya - a granddaughter, writing decades after - so their\ndetail is second-hand throughout."
+   "(documented) PARENTS: Rafael Wajsblum and Fajga/Cypojra - see @F60@ for the three-way\ncorroboration (her brother Moshe's 1957 Page for her sister; Shlomo's independent 1955\nPages; the 1921 Opatow town register). Until 14 Aug 2026 she was carried as a child\nof Moszek and Gella (@F10@) on a birth-sequence argument; findings/053-058 overturned\nthat. Her own Page of Testimony (881379, by Moshe, \"Brother\") and the Pages\n5584477/5584479 by Amotz's sister Aya - a granddaughter writing decades after -\nremain the identification of the woman herself."
   ],
-  "grade": "probable",
+  "grade": "documented",
   "sources": [
    "s-s10",
-   "s-s12"
+   "s-s12",
+   "s-s70"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": null,
   "parents": [
-   "p-moszek-wajsblum",
-   "p-gella-ginsburg"
+   "p-rafael-wajsblum",
+   "p-fajga"
   ],
   "spouses": [
    "p-tuvia-rywenbajrych"
@@ -1357,10 +1358,7 @@
   "photos": [],
   "docs": [],
   "bioChapter": null,
-  "parents": [
-   "p-abe-lejb-rywenbajrych",
-   "p-fajga-rechil-rywenbajrych"
-  ],
+  "parents": [],
   "spouses": [
    "p-bajla-szajndla-wajsblum"
   ],
@@ -1392,24 +1390,18 @@
    ],
    "dateHe": "18 ביוני 1917"
   },
-  "death": {
-   "date": "13 AUG 2005",
-   "place": "pl-holon",
-   "grade": "documented",
-   "notes": [
-    "ראו albert/findings/028-german-compensation-files.md."
-   ],
-   "dateHe": "13 באוגוסט 2005"
-  },
+  "death": null,
   "occupation": "",
   "notes": [
-   "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp."
+   "** Survived the Shoah, and is now documented in a wartime record: CHANA RYWENBAJRYCH\nappears on the lists of Jewish inmates at Skarzysko-Kamienna designated \"sick\",\nNovember 1942 - February 1943. This is the first time she appears in a document made\nat the time rather than in testimony given afterwards. **\nIt also puts the family story on a documentary footing from both sides: Chaim is\nrecorded at Skarzysko in 1942 on CKZP slip 12344, and Chana is now recorded there too.\nThey said they met in a camp; the records place them both in the same camp.",
+   "(documented) The Arolsen tracing-file index of 1947 carries her as \"Chana Albert\n[Sara], maiden name Rywenbeirich, b. 18 Jun 1917\" - case 705604, consecutive with\nher husband's 705603, i.e. one joint request (findings/066). This corroborates the\n18.06.1917 birth date of the 2015 citizenship application from a record made\nsixty-eight years earlier, and carries the same \"Sara\" that stands on her Holon\ngravestone and in the Opatow municipal index (\"Chana-Sara\")."
   ],
-  "grade": null,
+  "grade": "documented",
   "sources": [
    "s-s12",
    "s-s41",
-   "s-s60"
+   "s-s60",
+   "s-s80"
   ],
   "photos": [],
   "docs": [],
@@ -1449,16 +1441,18 @@
    "notes": [
     "Shot. Chana's younger sister - it was Amotz's memory of this murdered sister that\nopened the whole Opatow line.\nCONFLICT, RESOLVED IN THE FAMILY'S FAVOUR: the 1988 Opatow memorial list places her\nat Treblinka on 23 October 1942 with her parents. But a contemporaneous German camp\ndocument - the lists of Skarzysko-Kamienna inmates designated \"sick\", November 1942\nto February 1943 - carries a FAJGA RYWENBAJRYCH, i.e. alive and in the camp AFTER\nthat date. A record made at the time outweighs a list compiled by survivors in 1988,\nwhose compilers evidently assumed the whole household died in the October deportation.\nAt Skarzysko the \"sick\" designation was in practice a selection list.\nThe family's account was right."
    ],
-   "grade": "documented",
    "dateHe": null
   },
   "occupation": "",
-  "notes": [],
+  "notes": [
+   "(documented) A fifth Page of Testimony for her surfaced 14 Aug 2026: item 394902,\nfilled in by her great-uncle MOSHE Wajsblum on 26 June 1957 as sheet 13146-1 - the\nFIRST sheet of the same envelope as his Pages for Bejla, Reizel and the two husbands.\nHe wrote her as \"Feiga BEIRACH\", his usual shorthand for Rywenbajrych, father Tuvia,\nmother Bila, born Opatow, single; field 11 reads only \"extermination\" (hashmada) -\nno place, no date - and fields for birth year and children are blank. The only Page\nfor her by someone of her parents' generation. It adds no date and does not disturb\nthe Skarzysko resolution above."
+  ],
   "grade": "documented",
   "sources": [
    "s-s12",
    "s-s40",
-   "s-s41"
+   "s-s41",
+   "s-s70"
   ],
   "photos": [],
   "docs": [],
@@ -1466,6 +1460,377 @@
   "parents": [
    "p-tuvia-rywenbajrych",
    "p-bajla-szajndla-wajsblum"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-rafael-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I60",
+  "names": {
+   "he": "רפאל ווייסבלום",
+   "latin": "Rafael Wajsblum",
+   "given": "Rafael",
+   "surname": "Wajsblum",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) Named as father on two Pages of Testimony filed\nindependently: by his son-in-law's brother-in-law - properly, by his daughter\nReizel's brother-in-law's... - by MOSHE Wajsblum, his son, for Reizel (954251,\nTel Aviv 1957, \"father: Rafael, mother: Feiga\"), and by SHLOMO Wajsblum of Ramat\nGan, nephew of his son-in-law Yehoshua, for Szoszana (485661, 1955, \"father:\nRafael, mother: Tzipora\"). Two informants, two envelopes, two years apart, same\nname. No act, no record of his own found anywhere: the full Yad Vashem database\nholds exactly two children of a Rafael tied to Opatow - Reizel/Szoszana (one\nwoman) and, via the register, Bejla - and no entry for Rafael himself\n(findings/056, searched by father-name field with known-positive controls).",
+   "(inference) Probably died before the war: his son Moshe filed Pages for three\nsiblings and two brothers-in-law but none for his parents. Absence of evidence,\ngraded accordingly. His origin is unknown; the two Rafael Wajsblums of Radomysl\nWielki in Yad Vashem are a different man (married to Shifcha, commemorated by the\nRadomysl survivors' association). The Tarnobrzeg Wajsblums connect to this family\nonly through Szoszana's HUSBAND, not through Rafael (findings/057 par. 5)."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s70",
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-fajga"
+  ],
+  "children": [
+   "p-bajla-szajndla-wajsblum",
+   "p-moshe-wajsblum",
+   "p-reizel-wajsblum"
+  ]
+ },
+ {
+  "id": "p-fajga",
+  "branch": "albert",
+  "gedcomId": "I61",
+  "names": {
+   "he": "פייגה ווייסבלום",
+   "latin": "Fajga",
+   "given": "Fajga",
+   "surname": "",
+   "variants": [
+    "Cypojra",
+    "Tzipora"
+   ]
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name only) \"Mother: Feiga\" on Reizel's Page by her son Moshe (1957);\n\"mother: Tzipora\" on Szoszana's Page by Shlomo (1955); mother of Bejla per the 1921\nOpatow town register reading of findings/022. Same person, three attestations.",
+   "(unresolved) Fate. Probably died before the war, same reasoning as Rafael. BUT the\n1966 Opatow necrology carries a \"Cypojra Wajsblum, b. 1872, murdered\" (Yad Vashem\n5076054) with no Page of Testimony behind her. If that entry is this woman, she was\nalive in 1942 and murdered at Treblinka with the town. Nothing in hand decides it;\nlogged, not smoothed. See findings/056 par. 2.1.",
+   "פייגה בייִדיש = צפורה בעברית; שני הטפסים נוקבים בשתי הצורות"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s70",
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-rafael-wajsblum"
+  ],
+  "children": [
+   "p-bajla-szajndla-wajsblum",
+   "p-moshe-wajsblum",
+   "p-reizel-wajsblum"
+  ]
+ },
+ {
+  "id": "p-moshe-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I62",
+  "names": {
+   "he": "משה ווייסבלום",
+   "latin": "Moshe Wajsblum",
+   "given": "Moshe",
+   "surname": "Wajsblum",
+   "variants": [
+    "Veisblum"
+   ]
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) The brother who remembered. Survived the war; on 26 June 1957, at the\nYad Vashem office, filled in five Pages of Testimony in one sitting - approval\nnumbers 13146-1 through 13146-5: his great-niece Fajga-Rachla (@I27@), his sister\nBejla (@I24@, \"Brother\"), his sister Reizel (@I63@, \"Brother\"), his brother-in-law\nTuvia (@I25@, \"Brother-in-law\") and his brother-in-law Yehoshua (@I64@,\n\"Brother-in-law\"). His self-declared relations are the backbone of family @F60@.\nHis address on the forms: Jaffa Street 6, apartment 3, Tel Aviv-Yafo (street read\nby Amotz; the signing line reads \"T.A., 5717\"). Birth and death dates unknown; not\nknown to be living, so entered without further personal data. Descendants, if any,\nare the most direct living line to this branch. Distinguish him from the OTHER\nMoshe Veisblum in Yad Vashem's submitter index, a Radom survivor who filed some\nforty Pages for Radom, Kielce and Suchedniow families (findings/057 par. 3).",
+   "האח שניצל ומילא את חמשת דפי העד, ת\"א 1957"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s70"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-rafael-wajsblum",
+   "p-fajga"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-reizel-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I63",
+  "names": {
+   "he": "רייזל־שושנה שנאוג לבית ווייסבלום",
+   "latin": "Reizel Wajsblum",
+   "given": "Reizel",
+   "surname": "Wajsblum",
+   "variants": [
+    "Szoszana",
+    "Rozana",
+    "Schoehnbak",
+    "Sheinbakh"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1900",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Szoszana's Page (by Shlomo) says born Opatow 1900, and her husband's Page gives her\nage 42 in 1942, agreeing. Her brother Moshe's Page says 1897. The 1900 figure is\npreferred as doubly attested within one envelope; the spread is logged."
+   ],
+   "dateHe": "1900"
+  },
+  "death": {
+   "date": "1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) \"Treblinka 1942\" written out in field 11 of Szoszana's Page (485661)\nand of her husband's (1651118). Moshe's Pages give only \"extermination\". Matches\nthe October 1942 clearing of the Opatow ghetto."
+   ],
+   "dateHe": "1942"
+  },
+  "occupation": "",
+  "notes": [
+   "(documented) Bejla's sister: Moshe filed for both as \"Brother\", one envelope, one\nday. Parents Rafael and Feiga/Tzipora per both informants - see @F60@.",
+   "רייזל (ייִדיש) · שושנה (עברית) · רוזנה (פולנית) — שם אחד: ורד"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s70",
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-rafael-wajsblum",
+   "p-fajga"
+  ],
+  "spouses": [
+   "p-yehoshua-szenaug"
+  ],
+  "children": [
+   "p-fejga-szenaug",
+   "p-cwi-szenaug"
+  ]
+ },
+ {
+  "id": "p-yehoshua-szenaug",
+  "branch": "albert",
+  "gedcomId": "I64",
+  "names": {
+   "he": "יהושע שנאוג",
+   "latin": "Yehoshua Szenaug",
+   "given": "Yehoshua",
+   "surname": "Szenaug",
+   "variants": [
+    "Schoehnhak",
+    "Sheinbakh",
+    "Szyju"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1890",
+   "place": "Tarnobrzeg, Poland",
+   "notes": [
+    "Per his own Page (1651118, by his nephew Shlomo), which also names his parents Tzvi\nand Bluma - not entered here; the Tarnobrzeg Szenaug/Wajsblum network they open is\nout of this file's scope, recorded in findings/057-058."
+   ],
+   "dateHe": "1890"
+  },
+  "death": {
+   "date": "1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Field 11 of his Page: \"Treblinka 1942\". Moshe's Page for him (954729,\nsheet 13146-5) gives only \"extermination\" and calls him a merchant; Shlomo's says\ngrocer - a shopkeeper either way. Lived Opatow; Moshe did not know his parents'\nnames (fields blank), Shlomo did - the two informants complement each other."
+   ],
+   "dateHe": "1942"
+  },
+  "occupation": "grocer",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s70",
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-reizel-wajsblum"
+  ],
+  "children": [
+   "p-fejga-szenaug",
+   "p-cwi-szenaug"
+  ]
+ },
+ {
+  "id": "p-fejga-szenaug",
+  "branch": "albert",
+  "gedcomId": "I65",
+  "names": {
+   "he": "פייגה שנאוג",
+   "latin": "Fejga Szenaug",
+   "given": "Fejga",
+   "surname": "Szenaug",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1933",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Age 9 in 1942 per field 14 of her father's Page - the ages are on the sheet only,\nnot in Yad Vashem's index. Named, like her cousin Fajga-Rachla (@I27@), for her\ngrandmother Fajga (@I61@) - two granddaughters carrying the same name is itself\nquiet corroboration that the grandmother was dead by the early 1930s."
+   ],
+   "dateHe": "בערך 1933"
+  },
+  "death": {
+   "date": "1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Field 14, her father's Page: \"Treblinka 1942\". Also indexed separately\nas Yad Vashem 8652609."
+   ],
+   "dateHe": "1942"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-yehoshua-szenaug",
+   "p-reizel-wajsblum"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-cwi-szenaug",
+  "branch": "albert",
+  "gedcomId": "I66",
+  "names": {
+   "he": "צבי שנאוג",
+   "latin": "Cwi Szenaug",
+   "given": "Cwi",
+   "surname": "Szenaug",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1936",
+   "place": "Opatow, Poland",
+   "notes": [
+    "Age 6 in 1942 per field 14 of his father's Page."
+   ],
+   "dateHe": "בערך 1936"
+  },
+  "death": {
+   "date": "1942",
+   "place": "Treblinka extermination camp, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) Field 14, his father's Page. Also indexed separately as Yad Vashem\n8652610."
+   ],
+   "dateHe": "1942"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s71"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-yehoshua-szenaug",
+   "p-reizel-wajsblum"
+  ],
+  "spouses": [],
+  "children": []
+ },
+ {
+  "id": "p-alter-wajsblum",
+  "branch": "albert",
+  "gedcomId": "I67",
+  "names": {
+   "he": "אלטר ווייסבלום",
+   "latin": "Alter Wajsblum",
+   "given": "Alter",
+   "surname": "Wajsblum",
+   "variants": [
+    "Weisblum",
+    "Veisblum"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "24 OCT 1905",
+   "place": "Opatow, Poland",
+   "grade": "probable",
+   "notes": [
+    "(probable) The exact date is from the Theresienstadt Memorial Book's \"Alter\nWeisblum, b. 24.10.1905 Opatow\" - the identification of that survivor with THIS\nAlter (same rare given name, same town, right generation, alive in Tel Aviv when\nthe 1966 necrology was compiled) is strong but not stated by any single source."
+   ],
+   "dateHe": "24 באוקטובר 1905"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Son of Moszek and Gella: he said so himself. The 1966 Opatow necrology\nentries for \"Moshe Veisblum\" and \"Gele Veisblum nee Ginzburg\" (Yad Vashem 12567734,\n12567735) each carry \"informant: Alter Veisblum, Son\". He supplied his parents'\nentries to the memorial book and filed no Pages of Testimony at all - the submitter\nindex holds exactly those two records for him, in every spelling (findings/056-057).\nThe necrology entry also confirms, from a second source, that Gella's father was\nKhanina - the JRI finding of 050 par. 5.",
+   "(probable) His war: Starachowice-Wierzbnik camp, then Buchenwald, then Theresienstadt,\nwhere he was liberated - per the Memorial Book record above, same identification\ncaveat. First survivor of this branch with an exact birth date. In Israel by 1966.",
+   "(documented) An Arolsen tracing-file index row of 1947 carries \"Alter Weisblum,\nb. 24 Oct 1905\" - case 381471 (findings/065). The birth date matches the\nTheresienstadt Memorial Book to the day, from an independent record group; someone\nwas traced by him, or he was traced, in 1947. The file itself has not been obtained.",
+   "בנם של מושק וגלה; ניצול טרזין"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s11",
+   "s-s72",
+   "s-s73",
+   "s-s81"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
   ],
   "spouses": [],
   "children": []
@@ -1554,9 +1919,9 @@
   "gedcomId": "I42",
   "names": {
    "he": "אברם בוטקובסקי",
-   "latin": "Abram Butkowski",
+   "latin": "Abram Buzowski",
    "given": "Abram",
-   "surname": "Butkowski",
+   "surname": "Buzowski",
    "variants": [
     "Butkowski",
     "Budkowski",
@@ -1565,48 +1930,61 @@
    ]
   },
   "sex": "M",
-  "living": false,
-  "birth": {
-   "date": "1842",
-   "place": "Piatek, Poland",
-   "grade": "documented",
-   "notes": [
-    "אקט לידה 19/1842, פיונטק. גילו באקטים: 37 ב-1879, 40 ב-1883."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1842"
-  },
+  "living": true,
+  "birth": null,
   "death": null,
-  "occupation": "работникъ (פועל) 1879 → портной (חייט) 1883",
+  "occupation": "",
   "notes": [
-   "אביה של רודלה. ⚠ שם המשפחה נקרא תחילה בטעות «בוז'ובסקי» מאקט 75/1894; בקריאה חוזרת בהגדלה ×8 התברר שהאות היא т ולא ж — Бутковская = Butkowska.",
-   "היה בחיים ב-1891 — אין פטירת בוטקובסקי באינדקס פיונטק אחרי 1853.",
+   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski.",
    "⚠ הכתיב Buzowski נבע מקריאה שגויה שתוקנה: האות השלישית באקט 75/1894 היא т ולא ж"
   ],
   "grade": "documented",
   "sources": [
-   "s-a-piatek",
    "s-s30"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": null,
-  "parents": [
-   "p-berek-budkowski",
-   "p-rudel-szydlowicz"
-  ],
+  "parents": [],
   "spouses": [
-   "p-ruchla-rochberger"
+   "p-ruchla-i43"
   ],
   "children": [
-   "p-sura-gaia-butkowska",
-   "p-rudla-buzowska",
-   "p-maryia-butkowska",
-   "p-szyia-butkowski",
-   "p-szmul-butkowski",
-   "p-chaja-butkowska"
+   "p-rudla-buzowska"
+  ]
+ },
+ {
+  "id": "p-ruchla-i43",
+  "branch": "albert",
+  "gedcomId": "I43",
+  "names": {
+   "he": "רוחלה בוטקובסקה",
+   "latin": "Ruchla",
+   "given": "Ruchla",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s30"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-abram-buzowski"
+  ],
+  "children": [
+   "p-rudla-buzowska"
   ]
  },
  {
@@ -1664,9 +2042,9 @@
   "gedcomId": "I31",
   "names": {
    "he": "רודלה אלפרט לבית בוטקובסקה",
-   "latin": "Rudla Butkowska",
+   "latin": "Rudla Buzowska",
    "given": "Rudla",
-   "surname": "Butkowska",
+   "surname": "Buzowska",
    "variants": [
     "Butkowska",
     "Bukowska",
@@ -1677,25 +2055,17 @@
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "1872",
-   "place": "Piatek, Poland",
-   "grade": "documented",
+   "date": "ABT 1873",
+   "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "אקט לידה 22/1872, פיונטק. בת 21 בנישואיה בפברואר 1894 — מתיישב.",
-    "בעת נישואיה התגוררה בוורשה «זמנית» בלבד; קהילת האם שלה נותרה פיונטק."
+    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
    ],
-   "sources": [
-    "s-a-piatek",
-    "s-s30"
-   ],
-   "dateHe": "1872"
+   "dateHe": "בערך 1873"
   },
   "death": null,
   "occupation": "",
-  "notes": [
-   "נקראה על שם סבתה רוּדֶל שידלוביץ' — שם נדיר החוזר בדילוג דור אחד, ומאשש את השרשור לדור של 1833."
-  ],
-  "grade": "documented",
+  "notes": [],
+  "grade": null,
   "sources": [
    "s-s20",
    "s-s30",
@@ -1706,7 +2076,7 @@
   "bioChapter": null,
   "parents": [
    "p-abram-buzowski",
-   "p-ruchla-rochberger"
+   "p-ruchla-i43"
   ],
   "spouses": [
    "p-dawid-alpert"
@@ -1777,30 +2147,35 @@
   "birth": {
    "date": "11 JUL 1907",
    "place": "Warsaw, Poland",
+   "grade": "documented",
    "notes": [
     "** OVERSTATED, CORRECTED WITHIN THE HOUR — read this whole note. ** I first wrote that the\n2015 application \"resolves\" the date. It does not, and I should not have said so. The date\n11.07.1907 already existed on a CKZP registration card in our own hands; the 1913 came from\nCKZP slip 12344. Both are POST-WAR SELF-DECLARATIONS of the same class. The 2015 filing\nsimply repeats one of the two - so it tells us **which date the family committed to**, and\nis NOT an independent source for the year. The conflict is therefore NOT resolved by\nevidence; it is resolved only as a matter of which the family used.\n** 1907 is adopted here** because it is the date the family put before a state authority,\nand because it is a specific day-month-year rather than a bare year - but it stays ONE\npost-war declaration against another.",
-    "The family's\nown official Polish citizenship application of 2015 (12-page WNIOSEK to the Wojewoda\nMazowiecki) gives him, in a structured field, as born **11 / 07 / 1907**.\nThe competing \"1913\" came from CKZP slip 12344 (\"ur. 1913 W-wa\"); a second CKZP card had\nalready given 11.07.1907 and I had left the conflict open. The 2015 filing settles it in\nfavour of 1907 - a date the family committed to in a state document.\n** CONSEQUENCE: my whole Warsaw birth-register search ran on the wrong year. ** I read the\n1913 alphabetical index of cyrkul VI (unit 72/200/0/-/110, scans 110-114, sections А and\nЭ) and found no Alpert/Albert/Elbert. That negative stands but is irrelevant - it is for\na year that is not his. So I redid it on 1907 - and:\n** NO 1907 WARSAW JEWISH BIRTH REGISTER SURVIVES IN FOND 72/200/0 AT ALL. ** For 1907 the\nfond holds only marriages (cyrkul IV = -/66, 151 scans; cyrkul V = -/98, 152 scans) and two\nunscanned marriage-annex units (-/251, -/252). There are combined birth/marriage/death\nunits for 1906, 1908 and 1909, but none for 1907.\n** And JRI's Warsaw birth index has no Alpert/Albert/Elbert birth with a mother RUDLA, and\nnone named Chaim in 1907. ** Indexed Warsaw Alpert/Albert births run 1871-1905 with nothing\nafter Jakow Josif 1905.\n** CONCLUSION: on both candidate years the register is gone. Chaim's Warsaw birth act very\nprobably does not survive. ** What remains: another Warsaw fond or duplicate series\n(unchecked), and asking Daniela Regev what document 11.07.1907 was taken from.\nThe gravestone says only \"born Warsaw\", which is consistent with either year."
+    "The family's\nown official Polish citizenship application of 2015 (12-page WNIOSEK to the Wojewoda\nMazowiecki) gives him, in a structured field, as born **11 / 07 / 1907**.\nThe competing \"1913\" came from CKZP slip 12344 (\"ur. 1913 W-wa\"); a second CKZP card had\nalready given 11.07.1907 and I had left the conflict open. The 2015 filing settles it in\nfavour of 1907 - a date the family committed to in a state document.\n** CONSEQUENCE: my whole Warsaw birth-register search ran on the wrong year. ** I read the\n1913 alphabetical index of cyrkul VI (unit 72/200/0/-/110, scans 110-114, sections А and\nЭ) and found no Alpert/Albert/Elbert. That negative stands but is irrelevant - it is for\na year that is not his. So I redid it on 1907 - and:\n** NO 1907 WARSAW JEWISH BIRTH REGISTER SURVIVES IN FOND 72/200/0 AT ALL. ** For 1907 the\nfond holds only marriages (cyrkul IV = -/66, 151 scans; cyrkul V = -/98, 152 scans) and two\nunscanned marriage-annex units (-/251, -/252). There are combined birth/marriage/death\nunits for 1906, 1908 and 1909, but none for 1907.\n** And JRI's Warsaw birth index has no Alpert/Albert/Elbert birth with a mother RUDLA, and\nnone named Chaim in 1907. ** Indexed Warsaw Alpert/Albert births run 1871-1905 with nothing\nafter Jakow Josif 1905.\n** CONCLUSION: on both candidate years the register is gone. Chaim's Warsaw birth act very\nprobably does not survive. ** What remains: another Warsaw fond or duplicate series\n(unchecked), and asking Daniela Regev what document 11.07.1907 was taken from.\nThe gravestone says only \"born Warsaw\", which is consistent with either year.",
+    "(documented) 13 Aug 2026 - the SECOND Warsaw fond has now been checked too, and it\ncloses the same door from the other side. On metryki.genealodzy.pl the Warsaw Jewish\nfond is 0200d (id683), 194 units, 1858-1937 - a different scanned body from the\nszukajwarchiwach fond 72/200/0 discussed above. Its only apparent birth coverage for\nour two candidate years is unit 1907a, catalogued \"U-1907-1913, Urodzenia\", 34 files.\n** All 11 of its 1907 and 1913 scans were downloaded and read. They are not Jewish. **\nEvery one of the 20 acts is signed by the \"Civil Status Officer of the BAPTIST\nconfession, 7th district\", and the father in act 2/1907 is Oskar Truderung, pastor of\nthe Warsaw Baptist congregation. The unit is the Warsaw Baptist birth register\n1907-1913, misfiled into the Jewish fond. ** So the apparent \"6 scans for 1907\" and\n\"5 for 1913\" are 0 and 0. ** The last possible hiding place, unit 1905a\n(UMZ-1905-1910), was checked as well: its years are 1905, 1908 and 1910 - not 1907.\nTen further units of fond 0200d were sampled and are genuinely Jewish; 1907a is the\nonly anomaly in 1905-1914. See findings/047. This is a statement about what is\nscanned and online, NOT proof the volumes are lost.\n** The live route is no longer Warsaw. ** See findings/048: AP Czestochowa fond 1\n(= USHMM RG-15.301), sygn. 13801, \"Registration of Jews arriving from other towns to\nCzestochowa, 1941 and 1942\", 143 leaves, whose inventory states the lists record name,\nDATE OF BIRTH, family members, occupation and town of origin. Chaim came to\nCzestochowa from Warsaw and was there in 1942, so that book should settle 1913 vs 1907.\nDrafts ready at letters/REQUEST-ap-czestochowa-13801.md and\nletters/REQUEST-ushmm-reference-RG-15.301.md. Not yet sent."
    ],
    "dateHe": "11 ביולי 1907"
   },
   "death": {
    "date": "12 SEP 1976",
    "place": "pl-holon",
-   "grade": "documented",
    "notes": [
-    "י\"ז באלול תשל\"ו. הוכרע ב-7.8.2026 מול קריאה חלופית של המצבה (י\"ז אדר א' תשל\"ז = 7.3.1977)."
+    "CONFLICT, left open at Amotz's direction: a burial index record gives 17 Elul 5736 =\n12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.\nGrave and cemetery lines are parked - the grave is known and photographed."
    ],
    "dateHe": "12 בספטמבר 1976"
   },
   "occupation": "czapnik (cap-maker)",
   "notes": [
-   "(documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;\n1942 at Skarzysko; arrived from Czestochowa; then Targowa 7."
+   "(documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;\n1942 at Skarzysko; arrived from Czestochowa; then Targowa 7.\n** (probable) \"Targowa\" appears as the war-time or post-war address on registration\ncards of unrelated survivors as well, which suggests a registration-office address\nin Praga rather than a residence - observation, not established (findings/066). **\nBefore marrying Chana he had a first wife and a child, both murdered in the Shoah -\nthat line was dropped at Amotz's direction after nine Yad Vashem candidates were\nexcluded.",
+   "(documented) ** JOINT TRACING FILE, 1947. ** The Arolsen Archives index of Tracing and\nDocumentation files carries \"Chaim Albert, b. 07 Nov 1907\", case 705603, and - the\nCONSECUTIVE case 705604 - \"Chana Albert [Sara], maiden name Rywenbeirich,\nb. 18 Jun 1917\": one joint tracing request filed by or for the couple in 1947,\ntheir first appearance together in a record outside the family's own documents.\nThe files themselves have not been obtained; a request draft is pending\n(findings/066). ** DATE OBSERVATION: 07.11.1907 here against 11.07.1907 in the 2015\ncitizenship application is a day/month swap - the two are probably one underlying\ndocument whose digits are 7, 11, 1907 in an order not yet established. The\n1907-vs-1913 conflict itself remains open, awaiting Czestochowa sygn. 13801. **",
+   "(documented) Post-war registrations, indexed 14 Aug 2026 from Ancestry mirrors of\nUSHMM and Arolsen holdings (findings/066): the Warsaw survivor-registration card of\n14 Aug 1945 (USHMM RG-15.147, file RG-15.147_a_page_0065 - the indexed copy of the\nCKZP registration, naming father Dawid and mother \"Rudla Gutkowska\", occupation\nczapnik, pre-war Leszno 36, post-war Skarzysko and Czestochowa); five CKZP\nregistration index rows (USHMM RG-15.186M), all \"b. 1913 Warszawa\"; and an Arolsen\nF18 \"List of Surviving Jews, Registered in Lodz\" carrying \"Chaim Albert, b. 1913\nWarsaw\" - the earliest record of him in Lodz, where the family later lived. Scan\nsaved at albert/sources/ancestry/. A namesake on the Hillersleben camp list was\nexamined and excluded - that man's contact was a Sephardi family in Bogota."
   ],
   "grade": "documented",
   "sources": [
    "s-s20",
    "s-s21",
-   "s-s60"
+   "s-s60",
+   "s-s80",
+   "s-s82"
   ],
   "photos": [],
   "docs": [],
@@ -1846,9 +2221,7 @@
    "p-chana-rywenbajrych"
   ],
   "spouses": [],
-  "children": [
-   "p-natalie"
-  ]
+  "children": []
  },
  {
   "id": "p-david-albert",
@@ -1889,558 +2262,6 @@
    "p-michal-albert",
    "p-aya-albert"
   ]
- },
- {
-  "id": "p-abe-lejb-rywenbajrych",
-  "branch": "albert",
-  "gedcomId": null,
-  "names": {
-   "he": "אַבֶּה־לייב ריבנבייריך",
-   "latin": "Abe-Lejb Rywenbajrych",
-   "given": "Abe-Lejb",
-   "surname": "Rywenbajrych",
-   "variants": [
-    "Abram",
-    "Abraham"
-   ]
-  },
-  "sex": "M",
-  "living": false,
-  "birth": {
-   "date": "ABT 1860",
-   "grade": "documented",
-   "notes": [
-    "נקוב כאבי טוביה במרשם התושבים הלא-קבועים של אופטוב, 1921 (סריקה 193)."
-   ],
-   "place": null,
-   "dateHe": "בערך 1860"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "הכתיב «Abe» כמעט ודאי קיצור של אברם/אברהם — לא הוכרע איזה. שם נעוריה של פייגה־רחל לא נרשם."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": "albert-rywenbajrych/opatow",
-  "parents": [],
-  "spouses": [
-   "p-fajga-rechil-rywenbajrych"
-  ],
-  "children": [
-   "p-tuvia-rywenbajrych"
-  ]
- },
- {
-  "id": "p-fajga-rechil-rywenbajrych",
-  "branch": "albert",
-  "gedcomId": null,
-  "names": {
-   "he": "פייגה־רחל ריבנבייריך",
-   "latin": "Fajga-Rechil Rywenbajrych",
-   "given": "Fajga-Rechil",
-   "surname": "Rywenbajrych",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "ABT 1862",
-   "grade": "documented",
-   "place": null,
-   "dateHe": "בערך 1862"
-  },
-  "death": {
-   "grade": "inference",
-   "notes": [
-    "מתה לפני 1920 — בתה של טוביה נקראה על שמה (מנהג אשכנזי), לולאת שמות החוצה שלושה מקורות."
-   ],
-   "place": null,
-   "dateHe": null
-  },
-  "grade": "documented",
-  "occupation": "",
-  "notes": [],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": "albert-rywenbajrych/opatow",
-  "parents": [],
-  "spouses": [
-   "p-abe-lejb-rywenbajrych"
-  ],
-  "children": [
-   "p-tuvia-rywenbajrych"
-  ]
- },
- {
-  "id": "p-natalie",
-  "branch": "albert",
-  "names": {
-   "he": "נטלי אלברט",
-   "latin": "Natalie Albert",
-   "given": "Natalie",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": {
-   "date": "8 DEC 1992",
-   "grade": "documented",
-   "place": null,
-   "dateHe": "8 בדצמבר 1992"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתה של בלה אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-bella-albert"
-  ],
-  "spouses": [],
-  "children": [
-   "p-ili-albert",
-   "p-noya-albert"
-  ]
- },
- {
-  "id": "p-ili-albert",
-  "branch": "albert",
-  "names": {
-   "he": "אילי",
-   "latin": "Ili",
-   "given": "Ili",
-   "surname": "",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בנה של נטלי אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-natalie"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-noya-albert",
-  "branch": "albert",
-  "names": {
-   "he": "נויה",
-   "latin": "Noya",
-   "given": "Noya",
-   "surname": "",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתה של נטלי אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-natalie"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-ruchla-rochberger",
-  "branch": "albert",
-  "names": {
-   "he": "רוחלה בוטקובסקה",
-   "latin": "Ruchla Rochberger",
-   "given": "Ruchla",
-   "surname": "Rochberger",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "1844",
-   "place": "Piatek, Poland",
-   "grade": "documented",
-   "notes": [
-    "אקט לידה 36/1844, פיונטק. גילה באקטים: 35 ב-1879, 38 ב-1883."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1844"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "אמה של רודלה. שם נעוריה — רוכברגר — אינו רשום באקט הוורשאי מ-1894 אך מתועד היטב בפנקסי פיונטק.",
-   "○ אביה ייתכן ניסן/נוסין רוכברגר — השערה בלבד, תלויה בקריאת אקט 36/1844."
-  ],
-  "grade": "documented",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "gedcomId": "I43",
-  "parents": [],
-  "spouses": [
-   "p-abram-buzowski"
-  ],
-  "children": [
-   "p-sura-gaia-butkowska",
-   "p-rudla-buzowska",
-   "p-maryia-butkowska",
-   "p-szyia-butkowski",
-   "p-szmul-butkowski",
-   "p-chaja-butkowska"
-  ]
- },
- {
-  "id": "p-berek-budkowski",
-  "branch": "albert",
-  "names": {
-   "he": "ברק בודקובסקי",
-   "latin": "Berek Budkowski",
-   "given": "Berek",
-   "surname": "Budkowski",
-   "variants": []
-  },
-  "sex": "M",
-  "living": false,
-  "birth": {
-   "grade": "inference",
-   "notes": [
-    "לא אותר אקט לידה."
-   ],
-   "place": null,
-   "dateHe": null
-  },
-  "death": {
-   "date": "1852",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט פטירה 2/1852, פיונטק (אינדקס)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1852"
-  },
-  "occupation": "",
-  "notes": [
-   "◐ סבו של רודלה — הקישור מבוסס על רצף הלידות בפנקס פיונטק ועל חזרת השם רוּדֶל, לא על אקט.",
-   "נישא לרוּדֶל שידלוביץ' בפיונטק, 1833, אקט 6."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [],
-  "spouses": [
-   "p-rudel-szydlowicz"
-  ],
-  "children": [
-   "p-abram-buzowski"
-  ]
- },
- {
-  "id": "p-rudel-szydlowicz",
-  "branch": "albert",
-  "names": {
-   "he": "רוּדֶל בודקובסקה לבית שידלוביץ'",
-   "latin": "Rudel Szydlowicz",
-   "given": "Rudel",
-   "surname": "Szydlowicz",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "grade": "inference",
-   "notes": [
-    "לא אותר אקט לידה."
-   ],
-   "place": null,
-   "dateHe": null
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "◐ סבתה של רודלה, ששמה הנדיר חזר בנכדתה. נישאה לברק בודקובסקי בפיונטק, 1833, אקט 6."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [],
-  "spouses": [
-   "p-berek-budkowski"
-  ],
-  "children": [
-   "p-abram-buzowski"
-  ]
- },
- {
-  "id": "p-sura-gaia-butkowska",
-  "branch": "albert",
-  "names": {
-   "he": "שׂורה־גאיה בוטקובסקה",
-   "latin": "Sura Gaia Butkowska",
-   "given": "Sura",
-   "surname": "Butkowska",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "1869",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט לידה 25/1869, פיונטק (אינדקס JRI)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1869"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "אחיה של רודלה בוטקובסקה. אקט לידה 25/1869, פיונטק."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-maryia-butkowska",
-  "branch": "albert",
-  "names": {
-   "he": "מריה בוטקובסקה",
-   "latin": "Maryia Butkowska",
-   "given": "Maryia",
-   "surname": "Butkowska",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "1875",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט לידה 18/1875, פיונטק (אינדקס JRI)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1875"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "אחיה של רודלה בוטקובסקה. אקט לידה 18/1875, פיונטק."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-szyia-butkowski",
-  "branch": "albert",
-  "names": {
-   "he": "שייה בוטקובסקי",
-   "latin": "Szyia Butkowski",
-   "given": "Szyia",
-   "surname": "Butkowski",
-   "variants": []
-  },
-  "sex": "M",
-  "living": false,
-  "birth": {
-   "date": "1878",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט לידה 18/1878, פיונטק (אינדקס JRI)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1878"
-  },
-  "death": {
-   "date": "1878",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט פטירה 13/1878."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1878"
-  },
-  "occupation": "",
-  "notes": [
-   "אחיה של רודלה בוטקובסקה. אקט לידה 18/1878, פיונטק.",
-   "נפטר באותה שנה, אקט פטירה 13/1878 — תינוק."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-szmul-butkowski",
-  "branch": "albert",
-  "names": {
-   "he": "שולם (שמול) בוטקובסקי",
-   "latin": "Szmul Butkowski",
-   "given": "Szmul",
-   "surname": "Butkowski",
-   "variants": []
-  },
-  "sex": "M",
-  "living": false,
-  "birth": {
-   "date": "1879",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט לידה 46/1879, פיונטק (אינדקס JRI)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1879"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "אחיה של רודלה בוטקובסקה. אקט לידה 46/1879, פיונטק.",
-   "נולד 25 בנובמבר 1879. האקט נקרא בסריקה."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "spouses": [],
-  "children": []
- },
- {
-  "id": "p-chaja-butkowska",
-  "branch": "albert",
-  "names": {
-   "he": "חיה בוטקובסקה",
-   "latin": "Chaja Butkowska",
-   "given": "Chaja",
-   "surname": "Butkowska",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "1883",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט לידה 19/1883, פיונטק (אינדקס JRI)."
-   ],
-   "sources": [
-    "s-a-piatek"
-   ],
-   "dateHe": "1883"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "אחיה של רודלה בוטקובסקה. אקט לידה 19/1883, פיונטק.",
-   "נולדה 4 באפריל 1883. האקט נקרא בסריקה, והפקיד כתב בו את שם המשפחה גם בלטינית: (Butkowski)."
-  ],
-  "grade": "probable",
-  "sources": [
-   "s-a-piatek"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "spouses": [],
-  "children": []
  },
  {
   "id": "p-aron-bukszpan",
@@ -3821,25 +3642,39 @@
   "sex": "M",
   "living": false,
   "birth": {
-   "date": "ABT 1823",
+   "date": "ABT 1829",
    "place": "pl-wojslawice",
-   "grade": "inference",
-   "dateHe": "בערך 1823"
+   "grade": "documented",
+   "notes": [
+    "בן 18 באקט נישואיו (7/1847) ובן 30 באקט הלידה של בתו (17/1859) — שני מסמכים בלתי תלויים שמסכימים על ~1829. תוקן מ«~1823», שנגזר מ«48» שבאקט המוות של אשתו (13/1871) — נתון שנמסר בידי שכנים, ושגה בכ-6 שנים גם לגביה."
+   ],
+   "sources": [
+    "s-m-act-1847-7",
+    "s-m-act-1859-17"
+   ],
+   "dateHe": "בערך 1829"
   },
   "death": null,
   "grade": "documented",
-  "occupation": "",
+  "occupation": "צַבָּע (מָלָאר 1859 · פַרְבְּיָאר 1878, 1883)",
   "notes": [
-   "מוויסלביצה. היה בחיים בינואר 1878 — האקט נוקב בו בלי «המנוח», בניגוד לאשתו."
+   "מוויסלביצה. היה בחיים בינואר 1878 — האקט נוקב בו בלי «המנוח», בניגוד לאשתו.",
+   "יליד ווישלביצה. באקט 1847 הוא ובני משפחתו «wyrobnicy» — פועלי יום; ב-1859 «מָלָאר»; ב-1878 וב-1883 «צַבָּע». המשפחה עלתה דרגה.",
+   "⚠ סתירה שנרשמת ולא מוחלקת: הוא חתם על אקט 1847, ואילו אקט 1859 אומר שאינו יודע לכתוב."
   ],
   "sources": [
-   "s-m-act-1878-1"
+   "s-m-act-1878-1",
+   "s-m-act-1847-7",
+   "s-m-act-1859-17"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": "moskal-szafir/moskal",
   "gedcomId": null,
-  "parents": [],
+  "parents": [
+   "p-wolf-rajs",
+   "p-lea-rajs"
+  ],
   "spouses": [
    "p-dvoyra-sztajn"
   ],
@@ -3852,44 +3687,61 @@
   "branch": "moskal",
   "gen": 7,
   "names": {
-   "he": "דבוירה רייס לבית שטיין",
-   "latin": "Dvoyra Rajs née Sztajn",
+   "he": "דוויירה רייס לבית שלַיים",
+   "latin": "Dvoyra Rajs née Szlaim",
    "given": "Dvoyra",
-   "surname": "Sztajn",
-   "variants": []
+   "surname": "Szlaim",
+   "variants": [
+    "Sztajn (וריאנט של פקיד)",
+    "Dwojra"
+   ]
   },
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "ABT 1828",
-   "grade": "inference",
-   "place": null,
-   "dateHe": "בערך 1828"
-  },
-  "death": {
+   "date": "ABT 1831",
+   "place": "pl-wojslawice",
    "grade": "documented",
    "notes": [
-    "מתה לפני ינואר 1878."
+    "בת 16 באקט נישואיה (7/1847) ובת 28 באקט הלידה של בתה (17/1859) — שניהם מצביעים על ~1831. תוקן מ«~1828/1825»."
    ],
    "sources": [
-    "s-m-act-1878-1"
+    "s-m-act-1847-7",
+    "s-m-act-1859-17"
    ],
-   "place": null,
-   "dateHe": null
+   "dateHe": "בערך 1831"
+  },
+  "death": {
+   "date": "6 NOV 1871",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "מתה ב-6 בנובמבר 1871 בחמש לפנות בוקר; נרשמה ב-8 בנובמבר (אקט 13/1871). האקט נוקב בה כ«מתגוררת עם בעלה הצַבָּע» ובאלמן «גרשון, בן 48» — מה שמזהה אותה מעל לכל ספק."
+   ],
+   "sources": [
+    "s-m-act-1871-13"
+   ],
+   "dateHe": "6 בנובמבר 1871"
   },
   "grade": "documented",
   "occupation": "",
   "notes": [
-   "דבורה, אמו של אמוץ, נקראה כנראה על שמה."
+   "דבורה, אמו של אמוץ, נקראה כנראה על שמה.",
+   "★ שם הנעורים נפתר 12.8.2026: שלַיים. אביה נכח בחופה ב-1847 ונרשם כ«שמואל שלַיים, אביה של דוויירה שלַיים» — וחתם בשמו. מכאן ש«שמיצ'ין/שמיגין» שבאקט המוות 1871 היה קריאה שגויה, ו«שטַיין» של 1859 ו-1878 היה נורמליזציה של פקיד לשם השכיח בעיירה."
   ],
   "sources": [
-   "s-m-act-1878-1"
+   "s-m-act-1878-1",
+   "s-m-act-1847-7",
+   "s-m-act-1859-17"
   ],
   "photos": [],
   "docs": [],
   "bioChapter": "moskal-szafir/moskal",
   "gedcomId": null,
-  "parents": [],
+  "parents": [
+   "p-szmul-szlaim",
+   "p-rypka-szlaim"
+  ],
   "spouses": [
    "p-gershon-rajs"
   ],
@@ -3969,23 +3821,25 @@
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "ABT 1860",
+   "date": "8 JUN 1859",
    "place": "pl-wojslawice",
    "grade": "documented",
    "notes": [
-    "בת 18 בנישואיה, 2.1.1878."
+    "נולדה ב-8 ביוני 1859 בארבע לפנות בוקר בווישלביצה; נרשמה ב-15 ביוני בידי אביה גרשון רייס, מָלָאר, בן 30. אמה: דוויירה, בת 28. תאריך מדויק — מחליף את ההערכה «~1860»."
    ],
    "sources": [
+    "s-m-act-1859-17",
     "s-m-act-1878-1"
    ],
-   "dateHe": "בערך 1860"
+   "dateHe": "8 ביוני 1859"
   },
   "death": null,
   "grade": "documented",
   "occupation": "",
   "notes": [],
   "sources": [
-   "s-m-act-1878-1"
+   "s-m-act-1878-1",
+   "s-m-act-1859-17"
   ],
   "photos": [],
   "docs": [
@@ -5445,5 +5299,179 @@
   ],
   "spouses": [],
   "children": []
+ },
+ {
+  "id": "p-wolf-rajs",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "וולף רייס",
+   "latin": "Wolf Rajs",
+   "given": "Wolf",
+   "surname": "Rajs",
+   "variants": [
+    "Wulf"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "פועל יום (1847), אחר כך קצב (1851)",
+  "notes": [
+   "★ דור חדש, נפתח 12.8.2026. אקט הנישואין 7/1847 של בנו גרשון נוקב בו כאב — «וולף, החי» — והוא נכח בחופה בעצמו וחתם: «וולף רייס, אביו של גרשון רייס».",
+   "היה בחיים ב-1851: פרוטוקול ביקורת הפנקס בסוף כרך 1851 מוצא ליקוי באקט לידה 2/1851 «אחרי המילים ‹וולף רייס הקצב› חסרות המילים של הגיל» — כלומר הוא הצהיר על לידה בווישלביצה באותה שנה, וכבר היה קצב. ואירוני: דווקא גילו הוא מה שהפקיד השמיט.",
+   "⚠ אקט הפטירה שלו לא נמצא. כל מפתחות הפטירה של ווישלביצה מ-1848 עד 1884 נסרקו (ראו findings/HUNT-wolf-rajs-death-act.md) — חמש פטירות רייס בסך הכול, ואף אחת אינה שלו. מכאן שנפטר אחרי 1884 או מחוץ לעיירה.",
+   "⚠ «וולף רייס בן 63» מצהיר על פטירה ב-31.12.1878. גיל 63 ⇒ לידה ~1815, ולא ייתכן שזהו אביו של איש שנולד 1829. או שיש שני וולף רייס בעיירה, או שהגיל שגוי. לא הוכרע."
+  ],
+  "sources": [
+   "s-m-act-1847-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-lea-rajs"
+  ],
+  "children": [
+   "p-gershon-rajs"
+  ]
+ },
+ {
+  "id": "p-lea-rajs",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "לאה רייס",
+   "latin": "Lea Rajs",
+   "given": "Lea",
+   "surname": "Rajs",
+   "variants": [
+    "Łea"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1847",
+   "grade": "documented",
+   "notes": [
+    "«כבר איננה בחיים» באקט הנישואין של בנה, 16 בדצמבר 1847."
+   ],
+   "sources": [
+    "s-m-act-1847-7"
+   ],
+   "place": null,
+   "dateHe": "לפני 1847"
+  },
+  "grade": "documented",
+  "occupation": "פועלת יום",
+  "notes": [
+   "★ דור חדש, נפתח 12.8.2026. אמו של גרשון רייס לפי אקט 7/1847.",
+   "⚠ שם נעוריה אינו נקוב באקט, וגם לא הוריה ולא שנת פטירתה. הם יבואו מאקט הנישואין שלה עצמה (~1825–1828, ווישלביצה) או מאקט הפטירה — שניהם טרם אותרו.",
+   "⚠ אין לבלבל בינה לבין «רייס לאה» שנפטרה ב-1868 (אקט 8/1868) — הלאה שלנו מתה לפני 1847."
+  ],
+  "sources": [
+   "s-m-act-1847-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-wolf-rajs"
+  ],
+  "children": [
+   "p-gershon-rajs"
+  ]
+ },
+ {
+  "id": "p-szmul-szlaim",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "שמואל שלַיים",
+   "latin": "Szmul Szlaim",
+   "given": "Szmul",
+   "surname": "Szlaim",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "grade": "documented",
+  "occupation": "פועל יום",
+  "notes": [
+   "★ דור חדש, נפתח 12.8.2026. אביה של דוויירה. נכח בחופת בתו ב-1847 וחתם: «שמואל שלַיים, אביה של דוויירה שלַיים» — וזו החתימה שקבעה את שם המשפחה.",
+   "נקוב שוב באקט הפטירה של בתו (13/1871), ושם אינו נקרא «המנוח» — כלומר ייתכן שהיה בחיים עוד בנובמבר 1871."
+  ],
+  "sources": [
+   "s-m-act-1847-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-rypka-szlaim"
+  ],
+  "children": [
+   "p-dvoyra-sztajn"
+  ]
+ },
+ {
+  "id": "p-rypka-szlaim",
+  "branch": "moskal",
+  "gen": 8,
+  "names": {
+   "he": "ריפקה שלַיים",
+   "latin": "Rypka Szlaim",
+   "given": "Rypka",
+   "surname": "Szlaim",
+   "variants": [
+    "Rifka-Rykla"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1847",
+   "grade": "documented",
+   "notes": [
+    "«המנוחה ריפקה» כבר באקט הנישואין של בתה, 16 בדצמבר 1847 — כלומר 24 שנה מוקדם יותר מהגבול הקודם («לפני 1871»)."
+   ],
+   "sources": [
+    "s-m-act-1847-7"
+   ],
+   "place": null,
+   "dateHe": "לפני 1847"
+  },
+  "grade": "documented",
+  "occupation": "פועלת יום",
+  "notes": [
+   "★ דור חדש, נפתח 12.8.2026. אמה של דוויירה, נקובה באקט הנישואין 7/1847 ושוב באקט הפטירה של בתה (13/1871, שם «ריפקה-ריקלה»)."
+  ],
+  "sources": [
+   "s-m-act-1847-7"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "gedcomId": null,
+  "parents": [],
+  "spouses": [
+   "p-szmul-szlaim"
+  ],
+  "children": [
+   "p-dvoyra-sztajn"
+  ]
  }
 ]

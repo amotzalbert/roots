@@ -139,17 +139,17 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-bajla-szajndla-wajsblum"
+   "p-alter-wajsblum"
   ],
   "marriage": {
    "date": "1884",
    "place": "Opatow, Poland",
    "notes": [
-    "Marriage act 24/1884. ** The single highest-value document still to be obtained: a\nmarriage act names the parents of both spouses, i.e. two further generations at once. **"
+    "Marriage act 24/1884. ** The single highest-value document still to be obtained: a\nmarriage act names the parents of both spouses, i.e. two further generations at once. **\n13 Aug 2026: the JRI index row for this act was re-pulled with the parent columns\nswitched on (legacy.jri-poland.org, hidecols=0) and ** it is empty of parents. ** In\nthe Opatow batch the parent columns exist for 1846-1884 acts but are blank from about\n1885 on, and 1884 already falls in the blank zone. So no index shortcut exists here:\nonly a copy of the act itself will name Gella's parents, and with them the bridge (if\nany) between this family and the documented GINSBERG-LUBLINER cluster of Opatow, which\nis deliberately NOT entered in this file. See findings/049."
    ]
   },
   "notes": [
-   "(probable) The children below are assigned to this couple on the strength of the\nsequence - marriage 1884, births 1885, 1889, 1892, all Wajsblum, all Opatow - not on\na stated parentage. The acts are unread because Opatow is unscanned."
+   "(probable) The two Tobiasz births are assigned to this couple on the strength of the\nsequence - marriage 1884, births 1885, 1889, all Wajsblum, all Opatow - not on a\nstated parentage. The acts are unread because Opatow is unscanned online at the free\ntier (GenBaza holds the register; scans blocked pending an account, findings/050).\n** 14 Aug 2026: Bajla-Szajndla (@I24@), formerly the third child here on the same\nsequence argument, is REMOVED - two independent Pages of Testimony name her father\nRafael, not Moszek (findings/053-058; see @F60@). With her goes the premise that\nbirth act 8/1892 belongs to this family. Reading that act is now the direct test:\nits parent names will either confirm Rafael and Fajga or reopen this question. **\nAlter (@I67@) is ADDED on the opposite grade: for him the parentage IS stated -\nhe declared himself \"Son\" of this couple in the 1966 necrology entries he supplied."
   ]
  },
  {
@@ -173,6 +173,46 @@
   "notes": []
  },
  {
+  "id": "u-f60",
+  "branch": "albert",
+  "gedcomId": "F60",
+  "spouses": [
+   "p-rafael-wajsblum",
+   "p-fajga"
+  ],
+  "children": [
+   "p-bajla-szajndla-wajsblum",
+   "p-moshe-wajsblum",
+   "p-reizel-wajsblum"
+  ],
+  "marriage": null,
+  "notes": [
+   "(documented) The family stands on three legs, each independent of the others:\n(1) the 1921 Opatow town register, read in findings/022, which put Bejla under\nRafael and Fajga; (2) Moshe's five Pages of one day in 1957 - he calls Bejla and\nReizel \"Brother\" and their husbands \"Brother-in-law\", making him their sibling and\nthe parents his own; (3) Shlomo's independent 1955 Pages naming Szoszana's parents\nRafael and Tzipora. Discovered in this order: 022 first raised Rafael; 053-054\nread Moshe's forms; 056-058 exhausted Yad Vashem, merged Reizel with Szoszana and\nclosed the sibling list. NO OTHER CHILDREN are attested anywhere searched; the\nlist is closed to current knowledge, not proven complete. Marriage: nothing found;\nOpatow marriage scans for the plausible years sit in the GenBaza gap (1845-1877)\nor behind its account wall.",
+   "** THE OUTSTANDING TEST: Opatow birth act 8/1892, first item in the Sandomierz\nletter. If its parents read Rafael and Fajga, this family gains its first\ncontemporaneous civil record; if not, Bejla's birth act is unfound and the year\n1891/92 rests on the memorial list and the Pages alone. **"
+  ]
+ },
+ {
+  "id": "u-f61",
+  "branch": "albert",
+  "gedcomId": "F61",
+  "spouses": [
+   "p-yehoshua-szenaug",
+   "p-reizel-wajsblum"
+  ],
+  "children": [
+   "p-fejga-szenaug",
+   "p-cwi-szenaug"
+  ],
+  "marriage": {
+   "date": "BEF 1933",
+   "place": "Poland",
+   "notes": [
+    "Inferred from the elder child's birth. Both spouses' Pages agree the family counted\ntwo children (\"2\" written independently by both informants). All four were murdered\nat Treblinka in 1942; the whole branch ended there."
+   ]
+  },
+  "notes": []
+ },
+ {
   "id": "u-f30",
   "branch": "albert",
   "gedcomId": "F30",
@@ -182,6 +222,20 @@
   ],
   "children": [
    "p-dawid-alpert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f31",
+  "branch": "albert",
+  "gedcomId": "F31",
+  "spouses": [
+   "p-abram-buzowski",
+   "p-ruchla-i43"
+  ],
+  "children": [
+   "p-rudla-buzowska"
   ],
   "marriage": null,
   "notes": []
@@ -227,99 +281,5 @@
    ]
   },
   "notes": []
- },
- {
-  "id": "u-abe-lejb-fajga-rechil",
-  "branch": "albert",
-  "spouses": [
-   "p-abe-lejb-rywenbajrych",
-   "p-fajga-rechil-rywenbajrych"
-  ],
-  "children": [
-   "p-tuvia-rywenbajrych"
-  ],
-  "marriage": {
-   "grade": "inference"
-  },
-  "notes": [
-   "הוריו של טוביה ריבנבייריך, לפי מרשם התושבים הלא-קבועים של אופטוב 1921 (findings/022)."
-  ]
- },
- {
-  "id": "u-bella-natalie",
-  "branch": "albert",
-  "spouses": [
-   "p-bella-albert"
-  ],
-  "children": [
-   "p-natalie"
-  ],
-  "marriage": {},
-  "notes": [
-   "אב הילדה לא תועד."
-  ]
- },
- {
-  "id": "u-natalie-children",
-  "branch": "albert",
-  "spouses": [
-   "p-natalie"
-  ],
-  "children": [
-   "p-ili-albert",
-   "p-noya-albert"
-  ],
-  "marriage": {},
-  "notes": [
-   "אב הילדים לא תועד."
-  ]
- },
- {
-  "id": "u-abram-ruchla-butkowski",
-  "branch": "albert",
-  "spouses": [
-   "p-abram-buzowski",
-   "p-ruchla-rochberger"
-  ],
-  "children": [
-   "p-sura-gaia-butkowska",
-   "p-rudla-buzowska",
-   "p-maryia-butkowska",
-   "p-szyia-butkowski",
-   "p-szmul-butkowski",
-   "p-chaja-butkowska"
-  ],
-  "marriage": {
-   "date": "1864",
-   "place": "Piatek, Poland",
-   "grade": "documented",
-   "notes": [
-    "אקט נישואין 6/1864, פיונטק (אינדקס JRI). האקט עצמו טרם נקרא — הוא ינקוב בהורי שני הצדדים."
-   ]
-  },
-  "notes": [],
-  "gedcomId": "F31"
- },
- {
-  "id": "u-berek-rudel-budkowski",
-  "branch": "albert",
-  "spouses": [
-   "p-berek-budkowski",
-   "p-rudel-szydlowicz"
-  ],
-  "children": [
-   "p-abram-buzowski"
-  ],
-  "marriage": {
-   "date": "1833",
-   "place": "Piatek, Poland",
-   "grade": "probable",
-   "notes": [
-    "אקט נישואין 6/1833, פיונטק (אינדקס JRI)."
-   ]
-  },
-  "notes": [
-   "◐ הקישור לאברם מבוסס על רצף לידות ועל חזרת השם רוּדֶל, לא על אקט שנקרא."
-  ]
  }
 ]

@@ -244,6 +244,54 @@
   ]
  },
  {
+  "id": "s-s70",
+  "gedcomId": "S70",
+  "title": "Yad Vashem Pages of Testimony filed by Moshe Wajsblum, Tel Aviv, 26 June 1957",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "FIRST-HAND, and the earliest testimony this family has. Written by Bejla's own\nbrother, a survivor, thirty years before the 1988 memorial list and forty-four\nyears before the Pages that Amotz's sister Aya filled in. Where Moshe's sheets and\nAya's disagree, Moshe was there. He signs from Jaffa Street 6 apt. 3, Tel Aviv-Yafo.\nField 11 on every sheet of his reads only \"extermination\" - he recorded no place\nand no date of death on any of the five. Scans and enlargements of the fields in\nalbert/sources/yadvashem/. Method and readings in findings/057-058."
+  ]
+ },
+ {
+  "id": "s-s71",
+  "gedcomId": "S71",
+  "title": "Yad Vashem Pages of Testimony filed by Shlomo Wajsblum, Ramat Gan, 22 October 1955",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "INDEPENDENT of Moshe's envelope: different informant, different town, two years\nearlier, and the two men were not related to each other - Shlomo's connection runs\nthrough Szoszana's husband. That is what makes his \"father: Rafael\" a genuine second\nattestation rather than an echo. He is himself a survivor of a camp and a ghetto,\nboth named in his hand at the foot of the forms (not yet read)."
+  ]
+ },
+ {
+  "id": "s-s72",
+  "gedcomId": "S72",
+  "title": "Yad Vashem submitter index",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Reached from the terminal with albert/sources/tools/yv.py, which also carries the\nfield names and known-positive controls. An unknown field name returns zero\nSILENTLY, so every negative here was validated against a control first. This index\nis what turned up Moshe's two unknown sheets and the whole of @F61@. findings/057."
+  ]
+ },
+ {
+  "id": "s-s73",
+  "gedcomId": "S73",
+  "title": "Terezinska Pametni Kniha (Theresienstadt Memorial Book), Prague 1995-2000",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "A camp-administration lineage of records, independent of all family testimony.\nIts identification with the Alter who informed the 1966 necrology is inferential -\nsee the note on @I67@."
+  ]
+ },
+ {
   "id": "s-s20",
   "gedcomId": "S20",
   "title": "CKZP registration slip 12344 - ALPERT Chaim",
@@ -291,18 +339,39 @@
   ]
  },
  {
-  "id": "s-a-piatek",
-  "gedcomId": "",
-  "title": "פנקסי הקהילה היהודית פיונטק — לידות, נישואין ופטירות",
-  "author": "Akta stanu cywilnego wyznania mojżeszowego gminy wyznaniowej Piątek, powiat łęczycki",
-  "publication": "1814–1930",
-  "repository": "Archiwum Państwowe w Płocku, Oddział w Łęczycy, פונд 52/135/0",
+  "id": "s-s80",
+  "gedcomId": "S80",
+  "title": "Arolsen tracing-file index, 1947 - joint cards of Chaim and Chana Albert",
+  "author": "",
+  "publication": "",
+  "repository": "",
   "citation": "",
   "notes": [
-   "אקטי 46/1879 ו-19/1883 נקראו ישירות בסריקה (יחידה /-/10, סריקות 13 ו-26, נגזרת _max 3500px). שאר האקטים — משורות אינדקס JRI-Poland, גוברניית קאליש.",
-   "⚠ חמשת האקטים המרכזיים (22/1872, 6/1864, 6/1833, 19/1842, 36/1844) שרדו פיזית אך אינם סרוקים. פנייה לארכיון טרם נשלחה.",
-   "⚠ מלכודת: חיפוש JRI לפי שם עיר מחזיר אפס לפיונטק. חייבים לחפש לפי שם משפחה בדלי גוברניית קאליש.",
-   "ראו albert/findings/032-piatek-buzowski.md"
+   "Record Group 6, cards documenting inquiries about individuals. Read from the Ancestry\nmirror (collection 63193, records 1050818 and 1050820), 14 Aug 2026 - index rows\nonly; the underlying tracing files 705603/705604 have not been requested yet.\nSee findings/066."
+  ]
+ },
+ {
+  "id": "s-s81",
+  "gedcomId": "S81",
+  "title": "Arolsen Archives, Index to Tracing and Documentation Files, 1947 - card of Alter Weisblum",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Read from the Ancestry mirror (collection 63193, record 1708388), 14 Aug 2026. The\nbirth date matches the Theresienstadt Memorial Book (@S73@) to the day. The tracing\nfile itself has not been requested. See findings/065."
+  ]
+ },
+ {
+  "id": "s-s82",
+  "gedcomId": "S82",
+  "title": "Post-war survivor registrations of Chaim Albert - USHMM and Arolsen index rows",
+  "author": "",
+  "publication": "",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Index rows read from the Ancestry mirrors (collections 2357 record 40542; 62366;\n63030 record 1483668), 14 Aug 2026. The 1945 Warsaw card is the indexed copy of the\nregistration already held as CKZP slip 12344 (@S20@) - corroboration and a precise\nfile citation, not an independent source. Scan of the Lodz F18 list page saved at\nalbert/sources/ancestry/63030-1483668-Lodz-surviving-jews-ChaimAlbert-b1913-Warsaw-0045_78785619_1.jpg. See findings/066."
   ]
  }
 ]
