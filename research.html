@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>דו"ח מקור · שורשים</title>
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/research.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/research.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/research.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/research.html">
+<link rel="stylesheet" href="css/main.css?v=20260815b">
+<style>
+/* עטיפה מעוצבת לדו"חות המקור (research/*.md) — הם נכתבים כ-markdown
+   ומרונדרים כאן בסגנון האתר, במקום להיפתח כקובץ גולמי. */
+.md{max-width:44rem}
+.md h1{font-size:clamp(1.6rem,2.6vw,2.2rem)}
+.md table{font-size:.88em;overflow-x:auto;display:block}
+.md code{background:var(--paper-2);border:1px solid var(--rule);border-radius:.3em;
+  padding:.06em .35em;font-size:.88em;direction:ltr;unicode-bidi:embed}
+.md pre{background:var(--paper-2);border:1px solid var(--rule);border-radius:.5em;
+  padding:.9em 1.1em;overflow-x:auto;direction:ltr;text-align:left}
+.md pre code{background:none;border:0;padding:0}
+.md hr{border:0;border-top:1px solid var(--rule);margin:2.2em 0}
+.md .backlink{font-family:var(--sans);font-size:.88rem;margin:1.6rem 0 0}
+.srcnote{font-family:var(--sans);font-size:.82rem;color:var(--ink-3);
+  border:1px dashed var(--rule-2);border-radius:.5rem;padding:.6rem .9rem;margin:0 0 1.8rem}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">שורשים</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">מוסקל–שאפיר</a>
+    <a class="tab albert" href="albert-rywenbajrych/">אלברט–ריבנבייריך</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">אילן</a>
+    <a href="map.html">מפה</a>
+    <a href="documents.html">מסמכים</a>
+    <a href="sources.html">מקורות</a>
+    <a href="search.html">חיפוש</a>
+    <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
+    <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
+  </nav>
+</div></header>
+
+<main class="md" id="md">
+  <p class="kicker">דו"ח מקור</p>
+  <p id="loading">טוען…</p>
+</main>
+
+<footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
+<script src="js/ui.js?v=20260815b"></script>
+<script>
+/* מרנדר markdown בסיסי — כותרות, טבלאות, הדגשות, קישורים, ציטוטים.
+   בלי ספריות; הקבצים שלנו משתמשים בתת-קבוצה צפויה של התחביר. */
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function inline(s){
+  return s
+    .replace(/`([^`]+)`/g, (m,c)=>`<code>${c}</code>`)
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+}
+function render(md){
+  const lines = md.split('\n'); const out = []; let i = 0, inList = false, inQuote = false;
+  const closeAll = () => { if(inList){out.push('</ul>');inList=false;} if(inQuote){out.push('</blockquote>');inQuote=false;} };
+  while(i < lines.length){
+    let l = lines[i];
+    if(/^\s*```/.test(l)){ closeAll(); const buf=[]; i++;
+      while(i<lines.length && !/^\s*```/.test(lines[i])) buf.push(lines[i++]);
+      out.push(`<pre><code>${esc(buf.join('\n'))}</code></pre>`); i++; continue; }
+    if(/^\|/.test(l)){ closeAll(); const rows=[];
+      while(i<lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
+      const cells = r => r.replace(/^\||\|$/g,'').split('|').map(c=>inline(esc(c.trim())));
+      const head = cells(rows[0]);
+      const body = rows.slice(1).filter(r=>!/^\|[\s\-:|]+\|?$/.test(r)).map(cells);
+      out.push('<table><thead><tr>'+head.map(c=>`<th>${c}</th>`).join('')+'</tr></thead><tbody>'
+        + body.map(r=>'<tr>'+r.map(c=>`<td>${c}</td>`).join('')+'</tr>').join('')+'</tbody></table>');
+      continue; }
+    const h = l.match(/^(#{1,4})\s+(.*)$/);
+    if(h){ closeAll(); const n=Math.min(h[1].length,3);
+      out.push(`<h${n}>${inline(esc(h[2]))}</h${n}>`); i++; continue; }
+    if(/^\s*[-*]\s+/.test(l)){ if(inQuote){out.push('</blockquote>');inQuote=false;}
+      if(!inList){out.push('<ul>');inList=true;}
+      out.push(`<li>${inline(esc(l.replace(/^\s*[-*]\s+/,'')))}</li>`); i++; continue; }
+    if(/^\s*>\s?/.test(l)){ if(inList){out.push('</ul>');inList=false;}
+      if(!inQuote){out.push('<blockquote>');inQuote=true;}
+      out.push(`<p>${inline(esc(l.replace(/^\s*>\s?/,'')))}</p>`); i++; continue; }
+    if(/^\s*(---|\*\*\*)\s*$/.test(l)){ closeAll(); out.push('<hr>'); i++; continue; }
+    if(/^\s*$/.test(l)){ closeAll(); i++; continue; }
+    closeAll();
+    // צירוף שורות רצופות לפסקה אחת
+    const buf=[l];
+    while(i+1<lines.length && !/^\s*$/.test(lines[i+1]) && !/^(\||#|>|\s*[-*]\s|```|\s*---)/.test(lines[i+1]))
+      buf.push(lines[++i]);
+    out.push(`<p>${inline(esc(buf.join(' ')))}</p>`); i++;
+  }
+  closeAll(); return out.join('\n');
+}
+
+(async function(){
+  const box = document.getElementById('md');
+  const f = new URLSearchParams(location.search).get('f') || '';
+  // ⚠ בטיחות: מותר לטעון אך ורק קבצים מתוך research/
+  if(!/^research\/[a-z0-9\-]+\.md$/.test(f)){
+    box.innerHTML = '<p class="kicker">דו"ח מקור</p><p>קובץ לא נמצא. <a href="map.html">חזרה למפה ←</a></p>';
+    return;
+  }
+  try{
+    const md = await fetch(f).then(r=>{ if(!r.ok) throw 0; return r.text(); });
+    box.innerHTML = '<p class="kicker">דו"ח מקור · ' + esc(f.replace('research/','').replace('.md','')) + '</p>'
+      + '<div class="srcnote">⚠ דו"ח עבודה פנימי של המחקר — הערות גולמיות עם מראי מקום, לא פרק ערוך. הפרקים הערוכים — בתפריט למעלה.</div>'
+      + render(md)
+      + '<p class="backlink"><a href="map.html">← חזרה למפה</a></p>';
+    document.title = f.replace('research/','').replace('.md','') + ' · דו"ח מקור · שורשים';
+  }catch(e){
+    box.innerHTML = '<p class="kicker">דו"ח מקור</p><p>הקובץ לא נטען. <a href="map.html">חזרה למפה ←</a></p>';
+  }
+})();
+</script>
+</body>
+</html>

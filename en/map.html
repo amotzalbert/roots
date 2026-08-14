@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<!-- ROOTS-TRANSLATED: pending -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Map of places · Roots</title>
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/map.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/map.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/map.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/map.html">
+<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+#map{width:100%;height:min(74vh,680px);border:1px solid var(--rule);border-radius:.6rem;
+  background:var(--paper-2)}
+.legend2{display:flex;gap:1.3rem;flex-wrap:wrap;margin:.8rem 0 1.1rem;font-family:var(--sans);
+  font-size:.86rem;color:var(--ink-2)}
+.dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-inline-end:.35rem}
+.dot.moskal{background:var(--moskal)} .dot.albert{background:var(--albert)}
+.leaflet-popup-content-wrapper{direction:rtl;font-family:var(--sans);border-radius:.5rem}
+.pop h4{margin:.1em 0;font-size:1.02rem;font-family:'Frank Ruhl',serif}
+.pop .lat{margin:.15em 0;font-size:.82rem;color:#777;direction:ltr;text-align:right}
+.pop p{margin:.3em 0;font-size:.86rem;line-height:1.5}
+.pop a{font-size:.85rem}
+/* Leaflet tiles darken slightly under our dark theme so the page doesn't glare */
+:root[data-theme=dark] #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]) #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
+}
+.attrib{font-size:.78rem;color:var(--ink-3);margin-top:.5rem;font-family:var(--sans)}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">Roots</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">Moskal–Schafir</a>
+    <a class="tab albert" href="albert-rywenbajrych/">Albert–Rywenbajrych</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">Family tree</a>
+    <a href="map.html" aria-current="page">Map</a>
+    <a href="documents.html">Documents</a>
+    <a href="sources.html">Sources</a>
+    <a href="search.html">Search</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../map.html" hreflang="he" lang="he">עב</a>
+      <a href="../en/map.html" hreflang="en" lang="en" aria-current="true">EN</a>
+      <a href="../pl/map.html" hreflang="pl" lang="pl">PL</a>
+    </div>
+<button class="iconbtn" id="theme" title="Colour theme">◐</button>
+    <button class="iconbtn" id="bigfont" title="Larger text">A+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">Map</p>
+  <h1>The places the family passed through</h1>
+  <p class="lede narrow">From Dorohusk on the Bug to Holon; from Rawa Ruska in Galicia to Warsaw.
+     Every marker is a place documented in the research, with its chapter and sources.</p>
+
+  <div class="legend2">
+    <span><i class="dot moskal"></i>Moskal–Schafir</span>
+    <span><i class="dot albert"></i>Albert–Rywenbajrych</span>
+  </div>
+
+  <div id="map" role="img" aria-label="Map of the family’s places"></div>
+  <p class="attrib">Map tiles: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></p>
+</main>
+
+<footer><div class="in">Roots · A history of the Moskal–Schafir and Albert–Rywenbajrych families</div></footer>
+
+<script src="../js/ui.js?v=20260815b"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+const cs = getComputedStyle(document.documentElement);
+const COLORS = {
+  moskal: cs.getPropertyValue('--moskal').trim() || '#b5601a',
+  albert: cs.getPropertyValue('--albert').trim() || '#5a5478'
+};
+
+async function boot(){
+  const places = await fetch('../data/places.json').then(r=>r.json());
+  const map = L.map('map', {scrollWheelZoom:false}).setView([50.3,22.5], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const group = [];
+  places.forEach(p=>{
+    const marker = L.circleMarker([p.lat, p.lon], {
+      radius: 8, weight: 1.5, color:'#fff',
+      fillColor: COLORS[p.branch] || '#a8322a', fillOpacity: .92
+    }).addTo(map);
+    const researchLink = p.research
+      ? `<p><a href="../research.html?f=${p.research}" target="_blank">Read about ${p.latin} →</a></p>` : '';
+    marker.bindPopup(
+      `<div class="pop"><h4>${p.latin}</h4><p class="lat" lang="he" dir="rtl">${p.he}</p>
+       ${p.note ? `<p lang="he" dir="rtl">${p.note}</p>` : ''}${researchLink}
+       <p><a href="tree.html">Back to the tree →</a></p></div>`
+    );
+    marker.on('mouseover', ()=>marker.openPopup());
+    marker.on('focus',     ()=>marker.openPopup());
+    group.push(marker);
+  });
+  if(group.length) map.fitBounds(L.featureGroup(group).getBounds().pad(.15));
+}
+boot();
+</script>
+</body>
+</html>

@@ -9,6 +9,75 @@ const S = {
   view: {x:0, y:0, k:1}, nodes: [], links: []
 };
 
+/* ── i18n ────────────────────────────────────────────────────────────
+   הנתונים עצמם דו־לשוניים: לכל אדם יש names.he ו-names.latin, ולכל
+   מקום he ו-latin. כאן רק מחליטים במה להשתמש ומתרגמים את תוויות הממשק. */
+const LANG = (document.documentElement.getAttribute('lang') || 'he').slice(0, 2);
+const T = {
+  he: { moskal:'מוסקל–שאפיר', albert:'אלברט–ריבנבייריך',
+        birth:'לידה', death:'פטירה', occupation:'עיסוק', parents:'הורים',
+        spouses:'בני זוג', children:'ילדים', variants:'כתיבים במסמכים:',
+        notes:n=>`הערות מחקר (${n})`,
+        documented:'מתועד — אקט או מסמך שנקרא', probable:'סביר — אינדקס או הצלבה',
+        inference:'השערה — הסקה בלבד',
+        about:'בערך', before:'לפני', after:'אחרי', between:'בין', and:'ל־',
+        months:['בינואר','בפברואר','במרץ','באפריל','במאי','ביוני','ביולי','באוגוסט',
+                'בספטמבר','באוקטובר','בנובמבר','בדצמבר'] },
+  en: { moskal:'Moskal–Schafir', albert:'Albert–Rywenbajrych',
+        birth:'Born', death:'Died', occupation:'Occupation', parents:'Parents',
+        spouses:'Spouse(s)', children:'Children', variants:'Spellings in documents:',
+        notes:n=>`Research notes (${n})`,
+        documented:'Documented — an act or document that was read',
+        probable:'Probable — index or cross-reference',
+        inference:'Inference only',
+        about:'about', before:'before', after:'after', between:'between', and:'and',
+        months:['January','February','March','April','May','June','July','August',
+                'September','October','November','December'] },
+  pl: { moskal:'Moskal–Szafir', albert:'Albert–Rywenbajrych',
+        birth:'Ur.', death:'Zm.', occupation:'Zawód', parents:'Rodzice',
+        spouses:'Małżonkowie', children:'Dzieci', variants:'Zapisy w dokumentach:',
+        notes:n=>`Notatki badawcze (${n})`,
+        documented:'Udokumentowane — odczytany akt lub dokument',
+        probable:'Prawdopodobne — indeks lub odniesienie',
+        inference:'Wyłącznie wnioskowanie',
+        about:'ok.', before:'przed', after:'po', between:'między', and:'a',
+        months:['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia',
+                'września','października','listopada','grudnia'] }
+}[['he','en','pl'].includes(LANG) ? LANG : 'he'];
+
+/** שם אדם בשפת העמוד */
+const nameOf = p => !p ? '' :
+  (LANG === 'he' ? (p.names.he || p.names.latin) : (p.names.latin || p.names.he)) || '';
+
+/** שם מקום בשפת העמוד */
+const placeName = q => !q ? '' : (LANG === 'he' ? (q.he || q.latin) : (q.latin || q.he)) || '';
+
+/** תאריך GEDCOM ("ABT 1827", "16 FEB 1883") לשפת העמוד.
+    בעברית משתמשים ב-dateHe המוכן; אחרת מפרמטים מהשדה date. */
+function dateOf(e){
+  if (!e) return '';
+  if (LANG === 'he') return e.dateHe || e.date || '';
+  const raw = (e.date || '').trim();
+  if (!raw) return e.dateHe || '';
+  const M = {JAN:0,FEB:1,MAR:2,APR:3,MAY:4,JUN:5,JUL:6,AUG:7,SEP:8,OCT:9,NOV:10,DEC:11};
+  const one = s => {
+    const m = s.trim().match(/^(?:(\d{1,2})\s+)?(?:([A-Z]{3})\s+)?(\d{3,4})$/i);
+    if (!m) return s.trim();
+    const [, d, mon, y] = m;
+    const mi = mon ? M[mon.toUpperCase()] : undefined;
+    if (d && mi !== undefined) return `${+d} ${T.months[mi]} ${y}`;
+    if (mi !== undefined) return `${T.months[mi]} ${y}`;
+    return y;
+  };
+  let m;
+  if ((m = raw.match(/^ABT\s+(.+)$/i)))  return `${T.about} ${one(m[1])}`;
+  if ((m = raw.match(/^BEF\s+(.+)$/i)))  return `${T.before} ${one(m[1])}`;
+  if ((m = raw.match(/^AFT\s+(.+)$/i)))  return `${T.after} ${one(m[1])}`;
+  if ((m = raw.match(/^BET\s+(.+?)\s+AND\s+(.+)$/i)))
+    return `${T.between} ${one(m[1])} ${T.and} ${one(m[2])}`;
+  return one(raw);
+}
+
 /* מידות כרטיס: [רגיל, קו־ישיר, מוקטן] */
 const CARD = {
   direct: {w:186, h:62, fs:15, sub:11.5},
@@ -18,11 +87,19 @@ const CARD = {
 const GAP_X = 26, GAP_Y = 120;
 
 /* ── טעינה ───────────────────────────────────────────────────────── */
+/* בסיס הנתונים נגזר ממיקום הסקריפט עצמו — כך שהעמוד יכול לשבת בשורש,
+   ב-/en/ או ב-/pl/ (וגם תחת נתיב-משנה של GitHub Pages) בלי שינוי. */
+const DATA_BASE = (() => {
+  const el = document.querySelector('script[src*="tree.js"]');
+  if (!el) return '';
+  return new URL('..', new URL(el.getAttribute('src'), location.href)).href;
+})();
+
 async function boot(){
   const [people, unions, places] = await Promise.all([
-    fetch('data/people.json').then(r=>r.json()),
-    fetch('data/unions.json').then(r=>r.json()),
-    fetch('data/places.json').then(r=>r.json()),
+    fetch(DATA_BASE + 'data/people.json').then(r=>r.json()),
+    fetch(DATA_BASE + 'data/unions.json').then(r=>r.json()),
+    fetch(DATA_BASE + 'data/places.json').then(r=>r.json()),
   ]);
   people.forEach(p=>S.people.set(p.id,p));
   S.unions = unions;
@@ -157,7 +234,7 @@ function layout(){
   const gensAsc = [...rows.keys()].sort((a,b)=>a-b);
   gensAsc.forEach(g=>{
     const list = rows.get(g), seen = new Set(), out = [];
-    list.sort((a,b)=> (a.names.he||'').localeCompare(b.names.he||'','he'));
+    list.sort((a,b)=> nameOf(a).localeCompare(nameOf(b), LANG));
     list.forEach(p=>{
       if(seen.has(p.id)) return;
       out.push(p); seen.add(p.id);
@@ -292,12 +369,12 @@ function render(){
     const p=n.p;
     const grp = el('g',{class:'node'+(n.direct?' d':'')+(n.focus?' f':'')+' b-'+p.branch,
                         transform:`translate(${n.x},${n.y})`, tabindex:0,
-                        role:'button', 'aria-label':p.names.he||p.names.latin});
+                        role:'button', 'aria-label':nameOf(p)});
     grp.appendChild(el('rect',{x:-n.w/2, y:-n.h/2, width:n.w, height:n.h, rx:7, class:'box'}));
     grp.appendChild(el('rect',{x:n.w/2-4, y:-n.h/2, width:4, height:n.h, class:'edge'}));
 
     const t1 = el('text',{y: n.sub? -3 : 4, 'font-size':n.fs, class:'nm'});
-    t1.textContent = clip(p.names.he || p.names.latin, n.w, n.fs);
+    t1.textContent = clip(nameOf(p), n.w, n.fs);
     grp.appendChild(t1);
 
     if(n.sub){
@@ -321,7 +398,7 @@ const clip=(s,w,fs)=>{const max=Math.floor((w-16)/(fs*0.52));
   return s.length>max ? s.slice(0,max-1)+'…' : s;};
 
 function years(p){
-  const b=(p.birth||{}).dateHe, d=(p.death||{}).dateHe;
+  const b=dateOf(p.birth), d=dateOf(p.death);
   const y=s=>s? (String(s).match(/\d{4}/)||[''])[0] : '';
   const by=y(b), dy=y(d);
   if(by&&dy) return `${by}–${dy}`;
@@ -384,36 +461,36 @@ function showCard(id){
   const box=document.getElementById('person'); if(!box) return;
   const p=S.people.get(id);
   if(!p){ box.innerHTML=''; return; }
-  const place=x=>{const q=S.places.get(x); return q? q.he : (x||'');};
+  const place=x=>{const q=S.places.get(x); return q? placeName(q) : (x||'');};
   const ev=(e,label)=>{
     if(!e) return '';
-    const bits=[e.dateHe, place(e.place)].filter(Boolean).join(' · ');
+    const bits=[dateOf(e), place(e.place)].filter(Boolean).join(' · ');
     if(!bits) return '';
     return `<div class="row"><dt>${label}</dt><dd>${bits} ${gr(e.grade)}</dd></div>`;
   };
-  const gr=g=>g?`<span class="g g-${g}" title="${
-      {documented:'מתועד — אקט או מסמך שנקרא',probable:'סביר — אינדקס או הצלבה',
-       inference:'השערה — הסקה בלבד'}[g]}"></span>`:'';
+  const gr=g=>g?`<span class="g g-${g}" title="${T[g]}"></span>`:'';
   const link=arr=>arr.map(x=>{
-      const q=S.people.get(x); return q?`<button class="chip" data-go="${x}">${q.names.he||q.names.latin}</button>`:'';
+      const q=S.people.get(x); return q?`<button class="chip" data-go="${x}">${nameOf(q)}</button>`:'';
     }).join('') || '<span class="none">—</span>';
+
+  const alt = LANG==='he' ? p.names.latin : p.names.he;   // השם בשפה השנייה
 
   box.innerHTML = `
     <div class="phead b-${p.branch}">
-      <p class="kicker">${p.branch==='moskal'?'מוסקל–שאפיר':'אלברט–ריבנבייריך'}</p>
-      <h2>${p.names.he||p.names.latin} ${gr(p.grade)}</h2>
-      ${p.names.latin && p.names.latin!==p.names.he ? `<p class="lat">${p.names.latin}</p>`:''}
+      <p class="kicker">${p.branch==='moskal'?T.moskal:T.albert}</p>
+      <h2>${nameOf(p)} ${gr(p.grade)}</h2>
+      ${alt && alt!==nameOf(p) ? `<p class="lat">${alt}</p>`:''}
     </div>
     <dl>
-      ${ev(p.birth,'לידה')}${ev(p.death,'פטירה')}
-      ${p.occupation?`<div class="row"><dt>עיסוק</dt><dd>${p.occupation}</dd></div>`:''}
-      <div class="row"><dt>הורים</dt><dd>${link(p.parents)}</dd></div>
-      <div class="row"><dt>בני זוג</dt><dd>${link(p.spouses)}</dd></div>
-      <div class="row"><dt>ילדים</dt><dd>${link(p.children)}</dd></div>
+      ${ev(p.birth,T.birth)}${ev(p.death,T.death)}
+      ${p.occupation?`<div class="row"><dt>${T.occupation}</dt><dd>${p.occupation}</dd></div>`:''}
+      <div class="row"><dt>${T.parents}</dt><dd>${link(p.parents)}</dd></div>
+      <div class="row"><dt>${T.spouses}</dt><dd>${link(p.spouses)}</dd></div>
+      <div class="row"><dt>${T.children}</dt><dd>${link(p.children)}</dd></div>
     </dl>
     ${p.conflict?`<p class="conflict">${p.conflict}</p>`:''}
-    ${(p.names.variants||[]).length?`<p class="vars"><b>כתיבים במסמכים:</b> ${p.names.variants.join(' · ')}</p>`:''}
-    ${p.notes && p.notes.length ? `<details><summary>הערות מחקר (${p.notes.length})</summary>
+    ${(p.names.variants||[]).length?`<p class="vars"><b>${T.variants}</b> ${p.names.variants.join(' · ')}</p>`:''}
+    ${p.notes && p.notes.length ? `<details><summary>${T.notes(p.notes.length)}</summary>
        ${p.notes.map(n=>`<p class="note">${esc(n)}</p>`).join('')}</details>`:''}
   `;
   box.querySelectorAll('[data-go]').forEach(b=>
@@ -443,10 +520,10 @@ function wireUI(){
     list.innerHTML='';
     if(q.length<2) return;
     [...S.people.values()].filter(p=>
-      (p.names.he+' '+p.names.latin+' '+(p.names.variants||[]).join(' ')).toLowerCase().includes(q))
+      ((p.names.he||'')+' '+(p.names.latin||'')+' '+(p.names.variants||[]).join(' ')).toLowerCase().includes(q))
       .slice(0,8).forEach(p=>{
         const b=document.createElement('button');
-        b.textContent=p.names.he||p.names.latin;
+        b.textContent=nameOf(p);
         b.onclick=()=>{select(p.id); box.value=''; list.innerHTML='';};
         list.appendChild(b);
       });

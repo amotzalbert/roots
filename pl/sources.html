@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+<head>
+<!-- ROOTS-TRANSLATED: pending -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Źródła · Korzenie</title>
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/sources.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/sources.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/sources.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/sources.html">
+<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<style>
+.stoolbar{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0 2rem}
+.slist{display:flex;flex-direction:column;gap:.9rem}
+.sitem{padding:1rem 1.2rem;border:1px solid var(--rule);border-radius:.5rem;background:var(--paper-2)}
+.sitem h3{margin:0 0 .3rem;font-size:1.02rem}
+.sitem .meta{font-family:var(--sans);font-size:.83rem;color:var(--ink-3);margin:.15rem 0}
+.sitem .cite{font-size:.85rem;color:var(--ink-2);font-family:var(--sans)}
+.sitem .notes{margin-top:.5rem;font-size:.88rem;color:var(--ink-2);white-space:pre-wrap;
+  border-inline-start:2px solid var(--rule);padding-inline-start:.7rem}
+.count{font-family:var(--sans);color:var(--ink-3);font-size:.88rem;margin-bottom:1rem}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">Korzenie</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">Moskal–Szafir</a>
+    <a class="tab albert" href="albert-rywenbajrych/">Albert–Rywenbajrych</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">Drzewo</a>
+    <a href="map.html">Mapa</a>
+    <a href="documents.html">Dokumenty</a>
+    <a href="sources.html" aria-current="page">Źródła</a>
+    <a href="search.html">Szukaj</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../sources.html" hreflang="he" lang="he">עב</a>
+      <a href="../en/sources.html" hreflang="en" lang="en">EN</a>
+      <a href="../pl/sources.html" hreflang="pl" lang="pl" aria-current="true">PL</a>
+    </div>
+<button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
+    <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">Aneks</p>
+  <h1>Źródła</h1>
+  <p class="lede narrow">Każdy akt, książka, baza danych i dokument rodzinny cytowany na tej stronie — z pełnym
+     przypisem i lokalizacją archiwalną, aby każde twierdzenie można było sprawdzić niezależnie.</p>
+
+  <div class="stoolbar">
+    <span class="seg" role="group" aria-label="Filtr">
+      <button data-f="all" aria-pressed="true">Wszystko</button>
+      <button data-f="moskal" aria-pressed="false">Moskal–Szafir</button>
+      <button data-f="albert" aria-pressed="false">Albert–Rywenbajrych</button>
+    </span>
+    <input type="search" id="q" placeholder="Szukaj w źródłach…">
+  </div>
+  <p class="count" id="count"></p>
+  <div class="slist" id="list"></div>
+</main>
+
+<footer><div class="in">Korzenie · Historia rodzin Moskal–Szafir i Albert–Rywenbajrych</div></footer>
+
+<script src="../js/ui.js?v=20260815b"></script>
+<script>
+let SOURCES = [];
+const branchOf = id => id.startsWith('s-m-') ? 'moskal' : 'albert';
+
+fetch('../data/sources.json').then(r=>r.json()).then(d=>{
+  SOURCES = d.map(s=>({...s, branch: branchOf(s.id)}))
+             .sort((a,b)=> (a.publication||'').localeCompare(b.publication||''));
+  draw();
+});
+
+let filter='all', q='';
+function draw(){
+  let list = SOURCES;
+  if(filter!=='all') list = list.filter(s=>s.branch===filter);
+  if(q) list = list.filter(s => (s.title+s.author+s.publication+s.repository+(s.notes||[]).join(' ')).toLowerCase().includes(q));
+  document.getElementById('count').textContent = `${list.length} źródeł`;
+  document.getElementById('list').innerHTML = list.map(s=>`
+    <div class="sitem">
+      <h3>${esc(s.title)||'(bez tytułu)'}</h3>
+      ${s.author?`<p class="meta">${esc(s.author)}</p>`:''}
+      <p class="meta">${[s.publication,s.repository,s.citation].filter(Boolean).map(esc).join(' · ')}</p>
+      ${(s.notes||[]).length?`<div class="notes">${s.notes.map(esc).join('<br><br>')}</div>`:''}
+    </div>`).join('') || '<p class="count">Brak pasujących źródeł</p>';
+}
+const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+document.querySelectorAll('[data-f]').forEach(b=>b.addEventListener('click',()=>{
+  filter=b.dataset.f;
+  document.querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed', x===b));
+  draw();
+}));
+document.getElementById('q').addEventListener('input', e=>{ q=e.target.value.trim().toLowerCase(); draw(); });
+</script>
+</body>
+</html>

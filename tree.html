@@ -4,7 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>אילן היוחסין · שורשים</title>
-<link rel="stylesheet" href="css/main.css">
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/tree.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/tree.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/tree.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/tree.html">
+<link rel="stylesheet" href="css/main.css?v=20260815b">
 <style>
 .treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
 @media (max-width:940px){.treewrap{grid-template-columns:1fr}}
@@ -84,6 +92,12 @@
     <a href="documents.html">מסמכים</a>
     <a href="sources.html">מקורות</a>
     <a href="search.html">חיפוש</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="tree.html" hreflang="he" lang="he" aria-current="true">עב</a>
+      <a href="en/tree.html" hreflang="en" lang="en">EN</a>
+      <a href="pl/tree.html" hreflang="pl" lang="pl">PL</a>
+    </div>
     <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
     <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
   </nav>
@@ -128,7 +142,7 @@
 
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
 
-<script src="js/ui.js"></script>
-<script src="js/tree.js"></script>
+<script src="js/ui.js?v=20260815b"></script>
+<script src="js/tree.js?v=20260815b"></script>
 </body>
 </html>

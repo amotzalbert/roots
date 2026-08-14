@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+<head>
+<!-- ROOTS-TRANSLATED: pending -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korzenie — Historia rodzin Moskal–Szafir i Albert–Rywenbajrych</title>
+<meta name="description" content="Dwie rodzinne drogi: Wojsławice na Lubelszczyźnie oraz Warszawa–Opatów — udokumentowane aktami archiwalnymi, z mapami i interaktywnym drzewem genealogicznym.">
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/index.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/index.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/index.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/index.html">
+<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<style>
+.hero{padding:3.5rem 0 2.5rem;text-align:center}
+.hero h1{font-size:clamp(2.3rem,5vw,3.6rem);margin:.15em 0}
+.hero p{max-width:38rem;margin:0 auto;color:var(--ink-2);font-size:1.12rem}
+.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:2.6rem 0}
+@media (max-width:760px){.branches{grid-template-columns:1fr}}
+.bcard{display:block;text-decoration:none;color:inherit;border-radius:.8rem;padding:1.8rem 1.6rem;
+  border:1px solid var(--rule);box-shadow:var(--shadow);transition:.18s;position:relative;overflow:hidden}
+.bcard:hover{transform:translateY(-3px)}
+.bcard.moskal{background:linear-gradient(160deg,color-mix(in srgb,var(--moskal) 8%,var(--paper-2)),var(--paper-2))}
+.bcard.albert{background:linear-gradient(160deg,color-mix(in srgb,var(--albert) 8%,var(--paper-2)),var(--paper-2))}
+.bcard .tag{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.bcard.moskal .tag{color:var(--moskal)} .bcard.albert .tag{color:var(--albert)}
+.bcard h2{margin:.25em 0 .4em;font-size:1.6rem;border:0;padding:0}
+.bcard p{color:var(--ink-2);margin:0 0 1rem}
+.bcard .places{font-family:var(--sans);font-size:.85rem;color:var(--ink-3)}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;margin:2.8rem 0}
+.tcard{padding:1.2rem 1.3rem;border:1px solid var(--rule);border-radius:.6rem;text-decoration:none;color:inherit}
+.tcard:hover{border-color:var(--rule-2);background:var(--paper-2)}
+.tcard .ic{font-size:1.3rem;margin-bottom:.4rem;display:block}
+.tcard h3{margin:.1em 0 .2em;font-size:1.02rem}
+.tcard p{margin:0;font-size:.85rem;color:var(--ink-3)}
+.stats{display:flex;gap:2.2rem;justify-content:center;flex-wrap:wrap;margin:2.2rem 0;
+  font-family:var(--sans)}
+.stat{text-align:center}
+.stat b{display:block;font-size:1.7rem;font-family:var(--serif);color:var(--ink)}
+.stat span{font-size:.82rem;color:var(--ink-3)}
+.whatsnew{border-top:1px solid var(--rule);padding-top:1.6rem;margin-top:3rem}
+.whatsnew li{margin-bottom:.5rem;font-size:.94rem}
+.whatsnew time{color:var(--ink-3);font-family:var(--sans);font-size:.82rem;margin-inline-start:.5rem}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">Korzenie</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">Moskal–Szafir</a>
+    <a class="tab albert" href="albert-rywenbajrych/">Albert–Rywenbajrych</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">Drzewo</a>
+    <a href="map.html">Mapa</a>
+    <a href="documents.html">Dokumenty</a>
+    <a href="sources.html">Źródła</a>
+    <a href="search.html">Szukaj</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../index.html" hreflang="he" lang="he">עב</a>
+      <a href="../en/index.html" hreflang="en" lang="en">EN</a>
+      <a href="../pl/index.html" hreflang="pl" lang="pl" aria-current="true">PL</a>
+    </div>
+<button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
+    <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
+  </nav>
+</div></header>
+
+<main>
+  <section class="hero">
+    <p class="kicker">Historia rodziny</p>
+    <h1>Korzenie</h1>
+    <p>Dwie drogi do tego samego punktu: z Wojsławic na Lubelszczyźnie oraz z Warszawy
+       i Opatowa, przez Galicję, Wołyń i Dorohusk nad Bugiem — aż do Izraela.
+       Każde twierdzenie opiera się tu na dokumencie i ma określony stopień pewności.</p>
+  </section>
+
+  <div class="stats" id="stats"></div>
+
+  <section class="branches">
+    <a class="bcard moskal" href="moskal-szafir/">
+      <p class="tag">Strona matki</p>
+      <h2>Moskal–Szafir</h2>
+      <p>Z Wojsławic w powiecie chełmskim, przez Świerże i Dorohusk nad Bugiem,
+         a także z Rawy Ruskiej w Galicji. Rodzinny sklep, piwiarnia
+         i wspomnienia spisane własnoręcznie przez Menachema Mendla Szafira.</p>
+      <p class="places">Wojsławice · Chełm · Świerże · Dorohusk · Rawa Ruska · Bełz · Włodzimierz Wołyński</p>
+    </a>
+    <a class="bcard albert" href="albert-rywenbajrych/">
+      <p class="tag">Strona ojca</p>
+      <h2>Albert–Rywenbajrych</h2>
+      <p>Z żydowskiej dzielnicy Warszawy do chasydzkiego Opatowa, przez Piątek i Iwaniska.
+         Historia zbudowana na jednym akcie małżeństwa odczytanym w całości i na wciąż
+         trwających poszukiwaniach pierwszej żony Chaima Alberta i ich córki, zamordowanych w Zagładzie.</p>
+      <p class="places">Warszawa · Opatów · Iwaniska · Klimontów · Piątek · Łódź</p>
+    </a>
+  </section>
+
+  <h2>Narzędzia badawcze</h2>
+  <div class="tools">
+    <a class="tcard" href="tree.html"><span class="ic">🌳</span><h3>Drzewo genealogiczne</h3>
+      <p>Interaktywne — kliknij osobę, a jej linia prosta zostanie wyróżniona</p></a>
+    <a class="tcard" href="map.html"><span class="ic">🗺️</span><h3>Mapa</h3>
+      <p>Wszystkie miejsca, oznaczone i powiązane z rozdziałami</p></a>
+    <a class="tcard" href="documents.html"><span class="ic">📜</span><h3>Dokumenty</h3>
+      <p>Skany archiwalne z powiększeniem i tłumaczeniem obok oryginału</p></a>
+    <a class="tcard" href="sources.html"><span class="ic">📚</span><h3>Źródła</h3>
+      <p>Każdy akt, baza i książka — z pełnym przypisem</p></a>
+    <a class="tcard" href="search.html"><span class="ic">🔍</span><h3>Szukaj</h3>
+      <p>Według imienia hebrajskiego, łacińskiego, zapisu archiwalnego lub miejsca</p></a>
+    <a class="tcard" href="methodology.html"><span class="ic">⚙️</span><h3>Metodologia</h3>
+      <p>Jak prowadzono badania — archiwa, pułapki, metoda</p></a>
+  </div>
+
+  <section class="whatsnew">
+    <h2>Nowości</h2>
+    <ul id="whatsnew-list">
+      <li>Gałąź Moskal–Alspektor–Rajs (do Lejby Moskala, ur. ok. 1817) dodana do drzewa, na podstawie „dokumentów z 2019 r.”
+        <time>8 sierpnia 2026</time></li>
+      <li>Akt zgonu 6/1833: Aron i Perla Bukszpanowie z Dorohuska — najdawniejsi przodkowie w badaniach
+        <time>8 sierpnia 2026</time></li>
+      <li>Akt zgonu 4/1869: związek między Świerżami a Wojsławicami oraz rodzina Szyfman–Kac
+        <time>8 sierpnia 2026</time></li>
+    </ul>
+  </section>
+</main>
+
+<footer><div class="in">Korzenie · Historia rodzin Moskal–Szafir i Albert–Rywenbajrych · Każda data oznaczona „ok.” jest szacunkiem, nie zapisem</div></footer>
+
+<script src="../js/ui.js?v=20260815b"></script>
+<script>
+fetch('../data/people.json').then(r=>r.json()).then(people=>{
+  const doc = people.filter(p=>p.grade==='documented').length;
+  const places = new Set(people.flatMap(p=>[p.birth?.place, p.death?.place].filter(Boolean))).size;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><b>${people.length}</b><span>osób w drzewie</span></div>
+    <div class="stat"><b>${doc}</b><span>udokumentowanych ●</span></div>
+    <div class="stat"><b>~260</b><span>lat historii</span></div>
+  `;
+});
+</script>
+</body>
+</html>

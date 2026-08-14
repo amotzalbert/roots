@@ -4,7 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>מתודולוגיה · שורשים</title>
-<link rel="stylesheet" href="css/main.css">
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/methodology.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/methodology.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/methodology.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/methodology.html">
+<link rel="stylesheet" href="css/main.css?v=20260815b">
 <style>
 .grade-key{display:flex;gap:1.5rem;flex-wrap:wrap;margin:1rem 0 2rem;font-family:var(--sans);font-size:.92rem}
 .grade-key .k{display:flex;align-items:center;gap:.4rem}
@@ -25,6 +33,12 @@ table.traps td:first-child{white-space:nowrap;font-family:var(--sans);color:var(
     <a href="sources.html">מקורות</a>
     <a href="search.html">חיפוש</a>
     <a href="methodology.html" aria-current="page">מתודולוגיה</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="methodology.html" hreflang="he" lang="he" aria-current="true">עב</a>
+      <a href="en/methodology.html" hreflang="en" lang="en">EN</a>
+      <a href="pl/methodology.html" hreflang="pl" lang="pl">PL</a>
+    </div>
     <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
     <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
   </nav>
@@ -88,6 +102,6 @@ table.traps td:first-child{white-space:nowrap;font-family:var(--sans);color:var(
 </main>
 
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
-<script src="js/ui.js"></script>
+<script src="js/ui.js?v=20260815b"></script>
 </body>
 </html>

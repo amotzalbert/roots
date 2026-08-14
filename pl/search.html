@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+<head>
+<!-- ROOTS-TRANSLATED: pending -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Szukaj · Korzenie</title>
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/search.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/search.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/search.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/search.html">
+<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<style>
+.searchbox{position:relative;max-width:34rem;margin:0 0 2rem}
+.searchbox input{width:100%;font-size:1.1rem;padding:.75rem 1rem}
+#results{display:flex;flex-direction:column;gap:.5rem}
+.result{display:flex;align-items:center;gap:.8rem;padding:.7rem 1rem;border:1px solid var(--rule);
+  border-radius:.5rem;text-decoration:none;color:inherit;background:var(--paper-2)}
+.result:hover{border-color:var(--rule-2)}
+.result .badge{font-family:var(--sans);font-size:.72rem;padding:.15rem .5rem;border-radius:1rem;
+  white-space:nowrap}
+.badge.moskal{background:color-mix(in srgb,var(--moskal) 18%,transparent);color:var(--moskal)}
+.badge.albert{background:color-mix(in srgb,var(--albert) 18%,transparent);color:var(--albert)}
+.badge.place{background:var(--paper-3);color:var(--ink-3)}
+.result .main{flex:1}
+.result .lat{color:var(--ink-3);font-size:.85rem;direction:ltr;text-align:right;margin-inline-start:.4rem}
+.empty{color:var(--ink-3);padding:2rem 0;text-align:center;font-family:var(--sans)}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">Korzenie</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">Moskal–Szafir</a>
+    <a class="tab albert" href="albert-rywenbajrych/">Albert–Rywenbajrych</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html">Drzewo</a>
+    <a href="map.html">Mapa</a>
+    <a href="documents.html">Dokumenty</a>
+    <a href="sources.html">Źródła</a>
+    <a href="search.html" aria-current="page">Szukaj</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../search.html" hreflang="he" lang="he">עב</a>
+      <a href="../en/search.html" hreflang="en" lang="en">EN</a>
+      <a href="../pl/search.html" hreflang="pl" lang="pl" aria-current="true">PL</a>
+    </div>
+<button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
+    <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">Szukaj</p>
+  <h1>Kto, gdzie, kiedy</h1>
+  <p class="lede narrow">Natychmiastowe wyszukiwanie wszystkich nazwisk — po hebrajsku, po łacinie
+     i we wszystkich zapisach archiwalnych (Szyfman, Szaufer, Bukszpan i inne).</p>
+
+  <div class="searchbox">
+    <input type="search" id="q" placeholder="Szukaj nazwiska, miejsca lub zapisu…" autofocus>
+  </div>
+  <div id="results"></div>
+</main>
+
+<footer><div class="in">Korzenie · Historia rodzin Moskal–Szafir i Albert–Rywenbajrych</div></footer>
+
+<script src="../js/ui.js?v=20260815b"></script>
+<script>
+let INDEX = [];
+fetch('../data/index.json').then(r=>r.json()).then(d=>INDEX=d);
+
+const BADGE = {moskal:'Moskal–Szafir', albert:'Albert–Rywenbajrych', both:'obie gałęzie', '':''};
+function render(list){
+  const box = document.getElementById('results');
+  if(!list.length){ box.innerHTML = '<p class="empty">Brak wyników</p>'; return; }
+  box.innerHTML = list.slice(0,30).map(r=>{
+    const href = r.type==='person' ? `tree.html?p=${encodeURIComponent(r.id)}` : `map.html`;
+    const badgeCls = r.type==='place' ? 'place' : (r.branch||'');
+    const badgeTxt = r.type==='place' ? 'miejsce' : (BADGE[r.branch]||'');
+    return `<a class="result" href="${href}">
+      <span class="badge ${badgeCls}">${badgeTxt}</span>
+      <span class="main">${r.label}</span>
+      <span class="lat">${r.sub||''}</span>
+    </a>`;
+  }).join('');
+}
+document.getElementById('q').addEventListener('input', e=>{
+  const q = e.target.value.trim().toLowerCase();
+  if(q.length<2){ document.getElementById('results').innerHTML=''; return; }
+  render(INDEX.filter(r => r.terms.toLowerCase().includes(q)));
+});
+</script>
+</body>
+</html>

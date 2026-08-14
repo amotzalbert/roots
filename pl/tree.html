@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+<head>
+<!-- ROOTS-TRANSLATED: pending -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drzewo genealogiczne · Korzenie</title>
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/tree.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/tree.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/tree.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/tree.html">
+<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<style>
+.treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
+@media (max-width:940px){.treewrap{grid-template-columns:1fr}}
+
+#tree{width:100%;height:min(72vh,720px);background:var(--paper-2);border:1px solid var(--rule);
+  border-radius:.6rem;cursor:grab;touch-action:none;display:block}
+
+/* קשתות */
+.lnk{fill:none;stroke:var(--rule-2);stroke-width:1}
+.lnk.spouse{stroke-dasharray:3 3}
+.lnk.d{stroke:var(--accent);stroke-width:2.4;opacity:.9}          /* ← קו ישיר */
+.lnk:not(.d){opacity:.42}
+
+/* כרטיסים */
+.node{cursor:pointer}
+.node .box{fill:var(--paper);stroke:var(--rule-2);stroke-width:1}
+.node .edge{fill:var(--ink-3);opacity:.35}
+.node.b-moskal .edge{fill:var(--moskal)} .node.b-albert .edge{fill:var(--albert)}
+.node .nm{fill:var(--ink);text-anchor:middle;font-family:'Frank Ruhl','David Libre',serif}
+.node .yr{fill:var(--ink-3);text-anchor:middle;font-family:'Heebo',sans-serif}
+.node .gr{text-anchor:middle;opacity:.75}
+.node:not(.d){opacity:.45}                                         /* ← עמעום העקיפים */
+.node:not(.d) .box{stroke-dasharray:2 2}
+.node.d .box{stroke:var(--ink-3);stroke-width:1.4;filter:drop-shadow(0 2px 4px #0000001f)}
+.node.f .box{stroke:var(--accent);stroke-width:2.6;fill:var(--paper)}
+.node.f .nm{font-weight:700}
+.node:hover .box{stroke:var(--accent)}
+.node:focus{outline:none} .node:focus .box{stroke:var(--accent);stroke-width:2.6}
+
+/* לוח האדם */
+#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;
+  padding:1rem 1.1rem;position:sticky;top:5rem;max-height:min(72vh,720px);overflow:auto}
+#person h2{margin:.1rem 0 .2rem;border:0;padding:0;font-size:1.3rem}
+#person .lat{margin:0 0 .6rem;color:var(--ink-3);font-size:.9rem;direction:ltr;text-align:right}
+.phead{border-bottom:1px solid var(--rule);margin-bottom:.8rem;padding-bottom:.6rem}
+.phead.b-moskal{border-bottom-color:var(--moskal)} .phead.b-albert{border-bottom-color:var(--albert)}
+#person dl{margin:0}
+#person .row{display:grid;grid-template-columns:5.2rem 1fr;gap:.4rem;padding:.32rem 0;
+  border-bottom:1px dotted var(--rule);font-size:.93rem}
+#person dt{color:var(--ink-3);font-family:var(--sans);font-size:.85rem}
+#person dd{margin:0}
+.chip{background:var(--paper);border:1px solid var(--rule-2);border-radius:.9rem;
+  padding:.12rem .58rem;margin:.1rem .1rem .1rem 0;font:inherit;font-size:.86rem;
+  cursor:pointer;color:var(--accent)}
+.chip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.none{color:var(--ink-3)}
+.vars{font-size:.85rem;color:var(--ink-3);margin:.7rem 0 0;direction:ltr;text-align:right}
+.vars b{direction:rtl;display:block;text-align:right;color:var(--ink-2)}
+#person details{margin-top:.8rem;font-size:.86rem}
+#person summary{cursor:pointer;color:var(--ink-3);font-family:var(--sans)}
+#person .note{white-space:pre-wrap;color:var(--ink-2);border-inline-start:2px solid var(--rule);
+  padding-inline-start:.6rem;margin:.6rem 0;font-size:.85rem;line-height:1.6}
+
+.findwrap{position:relative}
+#findlist{position:absolute;z-index:20;inset-inline-start:0;top:100%;background:var(--paper);
+  border:1px solid var(--rule-2);border-radius:.45rem;min-width:14rem;box-shadow:var(--shadow);
+  display:flex;flex-direction:column;overflow:hidden}
+#findlist button{background:none;border:0;text-align:start;padding:.42rem .7rem;cursor:pointer;
+  font:inherit;font-size:.9rem;color:var(--ink)}
+#findlist button:hover{background:var(--accent);color:#fff}
+.legend{font-family:var(--sans);font-size:.8rem;color:var(--ink-3);display:flex;gap:1rem;
+  flex-wrap:wrap;margin:.7rem 0 0}
+.legend i{font-style:normal}
+</style>
+</head>
+<body>
+
+<header class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">Korzenie</a>
+  <nav class="tabs">
+    <a class="tab moskal" href="moskal-szafir/">Moskal–Szafir</a>
+    <a class="tab albert" href="albert-rywenbajrych/">Albert–Rywenbajrych</a>
+  </nav>
+  <nav class="navlinks">
+    <a href="tree.html" aria-current="page">Drzewo</a>
+    <a href="map.html">Mapa</a>
+    <a href="documents.html">Dokumenty</a>
+    <a href="sources.html">Źródła</a>
+    <a href="search.html">Szukaj</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="../tree.html" hreflang="he" lang="he">עב</a>
+      <a href="../en/tree.html" hreflang="en" lang="en">EN</a>
+      <a href="../pl/tree.html" hreflang="pl" lang="pl" aria-current="true">PL</a>
+    </div>
+<button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
+    <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
+  </nav>
+</div></header>
+
+<main>
+  <p class="kicker">Drzewo genealogiczne</p>
+  <h1>Drzewo i twoja własna linia</h1>
+  <p class="lede narrow">Wybierz osobę — klikając kartę lub wyszukując — a jej linia prosta,
+     przodkowie i potomkowie, wysunie się na pierwszy plan, gdy pozostałe gałęzie się cofną.</p>
+
+  <div class="toolbar">
+    <span class="seg" role="group" aria-label="Tryb widoku">
+      <button data-mode="full"     aria-pressed="true">Całe drzewo</button>
+      <button data-mode="pedigree" aria-pressed="false">Przodkowie</button>
+      <button data-mode="descend"  aria-pressed="false">Potomkowie</button>
+    </span>
+    <span class="seg" role="group" aria-label="Gałąź">
+      <button data-branch="all"    aria-pressed="true">Obie gałęzie</button>
+      <button data-branch="moskal" aria-pressed="false">Moskal–Szafir</button>
+      <button data-branch="albert" aria-pressed="false">Albert–Rywenbajrych</button>
+    </span>
+    <span class="findwrap">
+      <input type="search" id="find" placeholder="Znajdź osobę…" aria-label="Znajdź osobę w drzewie">
+      <div id="findlist"></div>
+    </span>
+  </div>
+
+  <div class="treewrap">
+    <div>
+      <svg id="tree" role="img" aria-label="Drzewo genealogiczne"></svg>
+      <p class="legend">
+        <i><span class="g g-documented"></span> udokumentowane</i>
+        <i><span class="g g-probable"></span> prawdopodobne</i>
+        <i><span class="g g-inference"></span> wnioskowanie</i>
+        <i>· przeciągnij, aby przesunąć; przewiń, aby przybliżyć</i>
+      </p>
+    </div>
+    <aside id="person" aria-live="polite"></aside>
+  </div>
+</main>
+
+<footer><div class="in">Korzenie · Historia rodzin Moskal–Szafir i Albert–Rywenbajrych</div></footer>
+
+<script src="../js/ui.js?v=20260815b"></script>
+<script src="../js/tree.js?v=20260815b"></script>
+</body>
+</html>

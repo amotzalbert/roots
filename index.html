@@ -5,7 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>שורשים — תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</title>
 <meta name="description" content="שני נתיבים משפחתיים: וויסלביצה שבלובלין וורשה–אופטוב, מגובים במסמכי ארכיון, מפות ואילן יוחסין אינטראקטיבי.">
-<link rel="stylesheet" href="css/main.css">
+<!-- ROOTS-THEME-BOOT: must stay inline and before the stylesheet -->
+<script>(function(){try{var v=localStorage.getItem('roots-theme');
+if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();</script>
+<!-- ROOTS-ALTS -->
+<link rel="alternate" hreflang="he" href="https://amotzalbert.github.io/roots/index.html">
+<link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/index.html">
+<link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/index.html">
+<link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/index.html">
+<link rel="stylesheet" href="css/main.css?v=20260815b">
 <style>
 .hero{padding:3.5rem 0 2.5rem;text-align:center}
 .hero h1{font-size:clamp(2.3rem,5vw,3.6rem);margin:.15em 0}
@@ -51,6 +59,12 @@
     <a href="documents.html">מסמכים</a>
     <a href="sources.html">מקורות</a>
     <a href="search.html">חיפוש</a>
+    <!-- ROOTS-LANGSW -->
+    <div class="langsw" role="group" aria-label="Language">
+      <a href="index.html" hreflang="he" lang="he" aria-current="true">עב</a>
+      <a href="en/index.html" hreflang="en" lang="en">EN</a>
+      <a href="pl/index.html" hreflang="pl" lang="pl">PL</a>
+    </div>
     <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
     <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
   </nav>
@@ -117,7 +131,7 @@
 
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך · כל התאריכים המסומנים "בערך" הם הערכה, לא תיעוד</div></footer>
 
-<script src="js/ui.js"></script>
+<script src="js/ui.js?v=20260815b"></script>
 <script>
 fetch('data/people.json').then(r=>r.json()).then(people=>{
   const doc = people.filter(p=>p.grade==='documented').length;
