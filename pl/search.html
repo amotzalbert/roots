@@ -13,7 +13,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/search.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/search.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/search.html">
-<link rel="stylesheet" href="../css/main.css?v=20260815b">
+<link rel="stylesheet" href="../css/main.css?v=20260815c">
 <style>
 .searchbox{position:relative;max-width:34rem;margin:0 0 2rem}
 .searchbox input{width:100%;font-size:1.1rem;padding:.75rem 1rem}
@@ -44,14 +44,6 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
     <a href="documents.html">Dokumenty</a>
     <a href="sources.html">Źródła</a>
     <a href="search.html" aria-current="page">Szukaj</a>
-    <!-- ROOTS-LANGSW -->
-    <div class="langsw" role="group" aria-label="Language">
-      <a href="../search.html" hreflang="he" lang="he">עב</a>
-      <a href="../en/search.html" hreflang="en" lang="en">EN</a>
-      <a href="../pl/search.html" hreflang="pl" lang="pl" aria-current="true">PL</a>
-    </div>
-<button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
-    <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
   </nav>
 </div></header>
 
@@ -95,5 +87,15 @@ document.getElementById('q').addEventListener('input', e=>{
   render(INDEX.filter(r => r.terms.toLowerCase().includes(q)));
 });
 </script>
+<!-- ROOTS-LANGSW -->
+<div class="ctrl" role="group" aria-label="Język i wyświetlanie">
+  <div class="langsw" role="group" aria-label="Language">
+    <a href="../search.html" hreflang="he" lang="he" title="עברית" aria-label="עברית"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="1.6" width="21" height="1.9" fill="#0038b8"/><rect y="11.5" width="21" height="1.9" fill="#0038b8"/><path d="M10.5 4.6 12.9 8.75H8.1Z M10.5 10.4 8.1 6.25h4.8Z" fill="none" stroke="#0038b8" stroke-width=".75"/></svg></a>
+    <a href="../en/search.html" hreflang="en" lang="en" title="English" aria-label="English"><svg viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" stroke="#C8102E" stroke-width="2.4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg></a>
+    <a href="../pl/search.html" hreflang="pl" lang="pl" title="Polski" aria-label="Polski" aria-current="true"><svg viewBox="0 0 21 15" aria-hidden="true"><rect width="21" height="15" fill="#fff"/><rect y="7.5" width="21" height="7.5" fill="#dc143c"/></svg></a>
+  </div>
+  <button class="iconbtn" id="theme" title="Motyw kolorów">◐</button>
+  <button class="iconbtn" id="bigfont" title="Większy tekst">A+</button>
+</div>
 </body>
 </html>

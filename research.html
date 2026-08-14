@@ -12,7 +12,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/research.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/research.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/research.html">
-<link rel="stylesheet" href="css/main.css?v=20260815b">
+<link rel="stylesheet" href="css/main.css?v=20260815c">
 <style>
 /* עטיפה מעוצבת לדו"חות המקור (research/*.md) — הם נכתבים כ-markdown
    ומרונדרים כאן בסגנון האתר, במקום להיפתח כקובץ גולמי. */
@@ -43,8 +43,6 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
     <a href="documents.html">מסמכים</a>
     <a href="sources.html">מקורות</a>
     <a href="search.html">חיפוש</a>
-    <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
-    <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
   </nav>
 </div></header>
 
@@ -54,6 +52,10 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 </main>
 
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
+<div class="ctrl" role="group" aria-label="שפה ותצוגה">
+  <button class="iconbtn" id="theme" title="מצב תצוגה">◐</button>
+  <button class="iconbtn" id="bigfont" title="הגדלת גופן">א+</button>
+</div>
 <script src="js/ui.js?v=20260815b"></script>
 <script>
 /* מרנדר markdown בסיסי — כותרות, טבלאות, הדגשות, קישורים, ציטוטים.

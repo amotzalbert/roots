@@ -1494,23 +1494,33 @@
   "bioChapter": null
  },
  {
-  "id": "p-abram-buzowski",
+  "id": "p-abram-butkowski",
   "branch": "albert",
   "gedcomId": "I42",
   "names": {
    "he": "",
-   "latin": "Abram Buzowski",
+   "latin": "Abram Butkowski",
    "given": "Abram",
-   "surname": "Buzowski",
-   "variants": []
+   "surname": "Butkowski",
+   "variants": [
+    "Budkowski",
+    "Buzowski"
+   ]
   },
   "sex": "M",
-  "living": true,
-  "birth": null,
+  "living": false,
+  "birth": {
+   "date": "1842",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek birth act 19/1842 (JRI index; NOT YET READ). Ages in acts 46/1879 (37) and 19/1883 (40) match. findings/032."
+   ]
+  },
   "death": null,
   "occupation": "",
   "notes": [
-   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski."
+   "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski.",
+   "CORRECTED 15 Aug 2026: the 1894 act reads Бутковская — Butkowska/Butkowski, not Buzowski; the Piatek 1883 register spells the name in Latin script \"(Butkowski)\". See albert/findings/032-piatek-buzowski.md §0."
   ],
   "grade": "documented",
   "sources": [
@@ -1521,23 +1531,30 @@
   "bioChapter": null
  },
  {
-  "id": "p-ruchla-i43",
+  "id": "p-ruchla-rochberger",
   "branch": "albert",
   "gedcomId": "I43",
   "names": {
    "he": "",
-   "latin": "Ruchla",
+   "latin": "Ruchla Rochberger",
    "given": "Ruchla",
-   "surname": "",
+   "surname": "Rochberger",
    "variants": []
   },
   "sex": "F",
-  "living": true,
-  "birth": null,
+  "living": false,
+  "birth": {
+   "date": "1844",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek birth act 36/1844 (JRI index; ages 35 in 1879, 38 in 1883 match). Her father is NOT identified - the Nisen Rochberger hypothesis is an unproven guess (findings/032 §2)."
+   ]
+  },
   "death": null,
   "occupation": "",
   "notes": [
-   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
+   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla.",
+   "RESOLVED 15 Aug 2026: maiden name ROCHBERGER, documented in the Piatek registers themselves (children's birth acts 46/1879 and 19/1883 read in scan; JRI index rows). See albert/findings/032-piatek-buzowski.md §§1-2."
   ],
   "grade": "documented",
   "sources": [
@@ -1581,23 +1598,27 @@
   "bioChapter": null
  },
  {
-  "id": "p-rudla-buzowska",
+  "id": "p-rudla-butkowska",
   "branch": "albert",
   "gedcomId": "I31",
   "names": {
    "he": "",
-   "latin": "Rudla Buzowska",
+   "latin": "Rudla Butkowska",
    "given": "Rudla",
-   "surname": "Buzowska",
-   "variants": []
+   "surname": "Butkowska",
+   "variants": [
+    "Budkowska",
+    "Buzowska"
+   ]
   },
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "ABT 1873",
+   "date": "1872",
    "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
+    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **",
+    "CORRECTED 15 Aug 2026: birth found — Piatek act 22/1872 (JRI index; age 21 in Feb 1894 matches). See albert/findings/032-piatek-buzowski.md."
    ]
   },
   "death": null,
@@ -1969,6 +1990,64 @@
   "sources": [
    "s-s84"
   ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-berek-budkowski",
+  "branch": "albert",
+  "gedcomId": "I75",
+  "names": {
+   "he": "",
+   "latin": "Berek Budkowski",
+   "given": "Berek",
+   "surname": "Budkowski",
+   "variants": [
+    "Butkowski"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "1852",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek death act 2/1852 (JRI index). findings/032."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "PROBABLE (not documented) father of Abram: the 1834-1845 birth run in the Piatek register places Abram as a child of the 1833 couple, and the rare name Rudel/Rudla recurring a generation apart supports it. Abram's own birth act 19/1842 has NOT been read - it is the act that will prove or break this link. findings/032 §1."
+  ],
+  "grade": "probable",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "branch": "albert",
+  "gedcomId": "I76",
+  "names": {
+   "he": "",
+   "latin": "Rudel Szydlowicz",
+   "given": "Rudel",
+   "surname": "Szydlowicz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Bride of the 1833 Piatek marriage (act 6/1833). Her rare given name recurs a generation later in her granddaughter Rudla (b. Piatek 1872) - the classic Ashkenazi naming signature that supports the generational chain. findings/032."
+  ],
+  "grade": "probable",
+  "sources": [],
   "photos": [],
   "docs": [],
   "bioChapter": null

@@ -238,13 +238,20 @@
   "branch": "albert",
   "gedcomId": "F31",
   "spouses": [
-   "p-abram-buzowski",
-   "p-ruchla-i43"
+   "p-abram-butkowski",
+   "p-ruchla-rochberger"
   ],
   "children": [
-   "p-rudla-buzowska"
+   "p-rudla-butkowska"
   ],
-  "marriage": null,
+  "marriage": {
+   "date": "1864",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek marriage act 6/1864 (JRI index). The act itself has NOT been read; it is the key unread act - it will name both sets of parents. findings/032."
+   ],
+   "dateHe": "1864"
+  },
   "notes": []
  },
  {
@@ -253,7 +260,7 @@
   "gedcomId": "F20",
   "spouses": [
    "p-dawid-alpert",
-   "p-rudla-buzowska"
+   "p-rudla-butkowska"
   ],
   "children": [
    "p-izrail-mojsze-alpert",
@@ -372,6 +379,27 @@
    "p-rywa-winogron"
   ],
   "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f66",
+  "branch": "albert",
+  "gedcomId": "F66",
+  "spouses": [
+   "p-berek-budkowski",
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-butkowski"
+  ],
+  "marriage": {
+   "date": "1833",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek marriage act 6/1833 (JRI index). Linkage of Abram to this couple is PROBABLE, not documented - see the note on Berek Budkowski."
+   ],
+   "dateHe": "1833"
+  },
   "notes": []
  },
  {

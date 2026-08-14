@@ -344,20 +344,20 @@
   "terms": "אסתרה־גיטלה אלפרט לבית צוקר Estera Gitla Cuker Cuker Zuker אסתרהגיטלה אלפרט לבית צוקר"
  },
  {
-  "id": "p-abram-buzowski",
+  "id": "p-abram-butkowski",
   "type": "person",
   "branch": "albert",
   "label": "אברם בוטקובסקי",
-  "sub": "Abram Buzowski",
-  "terms": "אברם בוטקובסקי Abram Buzowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
+  "sub": "Abram Butkowski",
+  "terms": "אברם בוטקובסקי Abram Butkowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
  },
  {
-  "id": "p-ruchla-i43",
+  "id": "p-ruchla-rochberger",
   "type": "person",
   "branch": "albert",
-  "label": "רוחלה בוטקובסקה",
-  "sub": "Ruchla",
-  "terms": "רוחלה בוטקובסקה Ruchla רוחלה בוטקובסקה"
+  "label": "רוחלה בוטקובסקה לבית רוכברגר",
+  "sub": "Ruchla Rochberger",
+  "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger רוחלה בוטקובסקה לבית רוכברגר"
  },
  {
   "id": "p-dawid-alpert",
@@ -368,12 +368,12 @@
   "terms": "דוד אלפרט Dawid Alpert Albert דוד אלפרט"
  },
  {
-  "id": "p-rudla-buzowska",
+  "id": "p-rudla-butkowska",
   "type": "person",
   "branch": "albert",
   "label": "רודלה אלפרט לבית בוטקובסקה",
-  "sub": "Rudla Buzowska",
-  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Buzowska Butkowska Bukowska Buzowska Gutkowska רודלה אלפרט לבית בוטקובסקה"
+  "sub": "Rudla Butkowska",
+  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Butkowska Butkowska Bukowska Buzowska Gutkowska רודלה אלפרט לבית בוטקובסקה"
  },
  {
   "id": "p-izrail-mojsze-alpert",
@@ -470,6 +470,22 @@
   "label": "גיטלה",
   "sub": "Gitla",
   "terms": "גיטלה Gitla גיטלה"
+ },
+ {
+  "id": "p-berek-budkowski",
+  "type": "person",
+  "branch": "albert",
+  "label": "ברק בודקובסקי",
+  "sub": "Berek Budkowski",
+  "terms": "ברק בודקובסקי Berek Budkowski Butkowski ברק בודקובסקי"
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "type": "person",
+  "branch": "albert",
+  "label": "רוּדֶל שידלוביץ'",
+  "sub": "Rudel Szydlowicz",
+  "terms": "רוּדֶל שידלוביץ' Rudel Szydlowicz רודל שידלוביץ'"
  },
  {
   "id": "p-aron-bukszpan",
