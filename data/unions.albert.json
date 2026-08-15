@@ -139,7 +139,7 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-alter-wajsblum"
+   "p-alter-chaim-wajsblum"
   ],
   "marriage": {
    "date": "1884",
@@ -171,6 +171,21 @@
    ]
   },
   "notes": []
+ },
+ {
+  "id": "u-f67",
+  "branch": "albert",
+  "gedcomId": "F67",
+  "spouses": [
+   "p-alter-chaim-wajsblum",
+   "p-hela-baranek"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": [
+   "(documented) Married by 1947 - the Kreis Schwabmuenchen list of that year has them\nconsecutively as a couple, and the 1948 emigration manifest records Alter as\nmarried, aged 44. ** No marriage record has been found: not the date, not the\nplace. It falls somewhere between the liberation and 1947, most likely in Poland\nor in the Bavarian displaced-persons world. **",
+   "No children are known. None appear beside them on the 1947 list, none on the\nCanadian voters lists, and neither gravestone names a child. That is an absence of\nevidence in thin sources, not evidence of absence - the Toronto obituaries and the\nApter Friendly Society section have not been searched for them."
+  ]
  },
  {
   "id": "u-f60",
@@ -241,7 +256,27 @@
    "date": "1864",
    "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "Piatek marriage act 6/1864 (JRI index). The act itself has NOT been read; it is the key unread act - it will name both sets of parents. findings/032."
+    "Piatek marriage act 6/1864 (JRI index). The act itself has NOT been read; it is\nthe key unread act - it will name both sets of parents.\nSee albert/findings/032-piatek-buzowski.md."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f66",
+  "branch": "albert",
+  "gedcomId": "F66",
+  "spouses": [
+   "p-berek-budkowski",
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-butkowski"
+  ],
+  "marriage": {
+   "date": "1833",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek marriage act 6/1833 (JRI index). Linkage of Abram to this couple is\nPROBABLE, not documented - see the note on Berek (I75)."
    ]
   },
   "notes": []
@@ -367,26 +402,6 @@
    "p-rywa-winogron"
   ],
   "marriage": null,
-  "notes": []
- },
- {
-  "id": "u-f66",
-  "branch": "albert",
-  "gedcomId": "F66",
-  "spouses": [
-   "p-berek-budkowski",
-   "p-rudel-szydlowicz"
-  ],
-  "children": [
-   "p-abram-butkowski"
-  ],
-  "marriage": {
-   "date": "1833",
-   "place": "Piatek, Kalisz Gubernia, Poland",
-   "notes": [
-    "Piatek marriage act 6/1833 (JRI index). Linkage of Abram to this couple is PROBABLE, not documented - see the note on Berek Budkowski."
-   ]
-  },
   "notes": []
  }
 ]

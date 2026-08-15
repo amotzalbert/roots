@@ -320,12 +320,20 @@
   "terms": "צבי שנאוג Cwi Szenaug צבי שנאוג"
  },
  {
-  "id": "p-alter-wajsblum",
+  "id": "p-alter-chaim-wajsblum",
   "type": "person",
   "branch": "albert",
-  "label": "אלטר ווייסבלום",
-  "sub": "Alter Wajsblum",
-  "terms": "אלטר ווייסבלום Alter Wajsblum Weisblum Veisblum אלטר ווייסבלום"
+  "label": "אלתר־חיים ווייסבלום",
+  "sub": "Alter Chaim Wajsblum",
+  "terms": "אלתר־חיים ווייסבלום Alter Chaim Wajsblum Weisblum Veisblum Weisbloom אלתרחיים ווייסבלום"
+ },
+ {
+  "id": "p-hela-baranek",
+  "type": "person",
+  "branch": "albert",
+  "label": "הלה ווייסבלום לבית ברנק",
+  "sub": "Hela Baranek",
+  "terms": "הלה ווייסבלום לבית ברנק Hela Baranek Baranek Weisbloom Helen הלה ווייסבלום לבית ברנק"
  },
  {
   "id": "p-abram-alpert",
@@ -358,6 +366,22 @@
   "label": "רוחלה בוטקובסקה לבית רוכברגר",
   "sub": "Ruchla Rochberger",
   "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger רוחלה בוטקובסקה לבית רוכברגר"
+ },
+ {
+  "id": "p-berek-budkowski",
+  "type": "person",
+  "branch": "albert",
+  "label": "ברק בודקובסקי",
+  "sub": "Berek Budkowski",
+  "terms": "ברק בודקובסקי Berek Budkowski ברק בודקובסקי"
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "type": "person",
+  "branch": "albert",
+  "label": "רוּדֶל שידלוביץ'",
+  "sub": "Rudel Szydlowicz",
+  "terms": "רוּדֶל שידלוביץ' Rudel Szydlowicz רודל שידלוביץ'"
  },
  {
   "id": "p-dawid-alpert",
@@ -470,22 +494,6 @@
   "label": "גיטלה",
   "sub": "Gitla",
   "terms": "גיטלה Gitla גיטלה"
- },
- {
-  "id": "p-berek-budkowski",
-  "type": "person",
-  "branch": "albert",
-  "label": "ברק בודקובסקי",
-  "sub": "Berek Budkowski",
-  "terms": "ברק בודקובסקי Berek Budkowski Butkowski ברק בודקובסקי"
- },
- {
-  "id": "p-rudel-szydlowicz",
-  "type": "person",
-  "branch": "albert",
-  "label": "רוּדֶל שידלוביץ'",
-  "sub": "Rudel Szydlowicz",
-  "terms": "רוּדֶל שידלוביץ' Rudel Szydlowicz רודל שידלוביץ'"
  },
  {
   "id": "p-aron-bukszpan",

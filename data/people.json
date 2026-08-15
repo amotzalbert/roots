@@ -1115,7 +1115,8 @@
   },
   "occupation": "",
   "notes": [
-   "(probable) Named in Opatow marriage act 24/1884, from the JRI-Poland index. Opatow has\nno scans, so the act itself has not been read - only the index row. Independently\ncorroborated by the yizkor necrology, a different kind of source entirely."
+   "(probable) Named in Opatow marriage act 24/1884, from the JRI-Poland index. Opatow has\nno scans, so the act itself has not been read - only the index row. Independently\ncorroborated by the yizkor necrology, a different kind of source entirely.",
+   "על מצבת בנו אלתר־חיים בטורונטו הוא נקרא «משה נתן (נוסן)» — שמו המלא"
   ],
   "grade": "probable",
   "sources": [
@@ -1132,7 +1133,7 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-alter-wajsblum"
+   "p-alter-chaim-wajsblum"
   ]
  },
  {
@@ -1177,7 +1178,7 @@
   "children": [
    "p-tobiasz-wajsblum",
    "p-tobiasz-wajsblum-i23",
-   "p-alter-wajsblum"
+   "p-alter-chaim-wajsblum"
   ]
  },
  {
@@ -1789,17 +1790,18 @@
   "children": []
  },
  {
-  "id": "p-alter-wajsblum",
+  "id": "p-alter-chaim-wajsblum",
   "branch": "albert",
   "gedcomId": "I67",
   "names": {
-   "he": "אלטר ווייסבלום",
-   "latin": "Alter Wajsblum",
-   "given": "Alter",
+   "he": "אלתר־חיים ווייסבלום",
+   "latin": "Alter Chaim Wajsblum",
+   "given": "Alter Chaim",
    "surname": "Wajsblum",
    "variants": [
     "Weisblum",
-    "Veisblum"
+    "Veisblum",
+    "Weisbloom"
    ]
   },
   "sex": "M",
@@ -1809,24 +1811,37 @@
    "place": "Opatow, Poland",
    "grade": "probable",
    "notes": [
-    "(probable) The exact date is from the Theresienstadt Memorial Book's \"Alter\nWeisblum, b. 24.10.1905 Opatow\" - the identification of that survivor with THIS\nAlter (same rare given name, same town, right generation, alive in Tel Aviv when\nthe 1966 necrology was compiled) is strong but not stated by any single source."
+    "(probable) 24 OCTOBER is constant across every record of him; THE YEAR IS NOT, and\nthe date above is retained only because this file has always carried it.\n1905: Theresienstadt Memorial Book (\"Alter Weisblum, b. 24.10.1905 Opatow\") and the\nArolsen tracing index, case 381471. 1903: the 1947 Kreis Schwabmuenchen F18 list\n(\"Weisblum Alter, 24.10.03, Opatow\") and the Toronto cemetery record, which also\nstates the birth place as Opatow. The 1948 emigration manifest gives \"abt 1904\".\n** Two sources against two; treat the year as open. ** See findings/088."
    ],
    "dateHe": "24 באוקטובר 1905"
   },
-  "death": null,
+  "death": {
+   "date": "28 APR 1998",
+   "place": "Toronto, Ontario, Canada",
+   "grade": "documented",
+   "notes": [
+    "(documented) 2 Iyar 5758 on the stone, aged 94; Find a Grave memorial 260806554,\nphotograph credited to JGS Toronto."
+   ],
+   "dateHe": "28 באפריל 1998"
+  },
   "occupation": "",
   "notes": [
-   "(documented) Son of Moszek and Gella: he said so himself. The 1966 Opatow necrology\nentries for \"Moshe Veisblum\" and \"Gele Veisblum nee Ginzburg\" (Yad Vashem 12567734,\n12567735) each carry \"informant: Alter Veisblum, Son\". He supplied his parents'\nentries to the memorial book and filed no Pages of Testimony at all - the submitter\nindex holds exactly those two records for him, in every spelling (findings/056-057).\nThe necrology entry also confirms, from a second source, that Gella's father was\nKhanina - the JRI finding of 050 par. 5.",
-   "(probable) His war: Starachowice-Wierzbnik camp, then Buchenwald, then Theresienstadt,\nwhere he was liberated - per the Memorial Book record above, same identification\ncaveat. First survivor of this branch with an exact birth date. In Israel by 1966.",
+   "(documented) Son of Moszek and Gella: he said so himself. The 1966 Opatow necrology\nentries for \"Moshe Veisblum\" and \"Gele Veisblum nee Ginzburg\" (Yad Vashem 12567734,\n12567735) each carry \"informant: Alter Veisblum, Son\". He supplied his parents'\nentries to the memorial book and filed no Pages of Testimony at all - the submitter\nindex holds exactly those two records for him, in every spelling (findings/056-057).\nThe necrology entry also confirms, from a second source, that Gella's father was\nKhanina - the JRI finding of 050 par. 5.\n** 15 Aug 2026: his gravestone says it a second time and independently - \"Alter\nChaim son of Moshe Natan [Nossen]\". A third kind of source (a stone, cut by his\nown family) after the necrology, where he was himself the informant, and the JRI\nindex. It also gives Moszek a fuller name; see @I20@. findings/088. **",
+   "(probable) His war: Starachowice-Wierzbnik camp, then Buchenwald, then Theresienstadt,\nwhere he was liberated - per the Memorial Book record above, same identification\ncaveat. First survivor of this branch with an exact birth date.\n** CORRECTED 15 Aug 2026: he was NOT in Israel. Canadian voters lists place him in\nYork, Ontario in 1965 and in 1968. The 1966 memorial book was published in Tel\nAviv, but its informant wrote from Toronto. The identification of the Theresienstadt\nsurvivor with this Alter never rested on the city, so it is unaffected. **",
+   "(documented) After liberation, recovered 15 Aug 2026 (findings/088). By 1947 he was\nliving in KREIS SCHWABMUENCHEN, Bavaria, registered on an Arolsen F18 list of\n\"55 Jews who were living in Kreis Schwabmuenchen in 1947\" (ref 8806110) - entry 50,\n\"Weisblum Alter, 24.10.03, Opatow, last residence Starachowice\", with his wife Hela\nimmediately below him at entry 51. ** Entries 52 and 53 on that same page are Hena\nand Chaja Weisblum of Opatow, the daughters of Chil and Sura (findings/087) - four\nWajsblums from Opatow among 55 people in one Bavarian district. Suggestive of kin\nwho regrouped; it is a residence list, not a family list, and proves no relation. **\nHe left Bremen on 25 Jun 1948 from the Bremen-Grohn resettlement camp, by air\n(\"Flug Nr. 3\"), aged 44, married, occupation millworker, arriving Prestwich (a\nJewish suburb of Manchester), England. He was in York, Ontario by 1965, and died\nin Toronto in 1998.",
+   "(documented) Married twice. Hela Baranek (@I77@, @F67@) died in Toronto on\n13 Mar 1974; the following year, on a 1975 Brooklyn marriage licence (index number\n10310), \"Alter Weisbloom\" married RACLA GRYNBAL. She is not entered as a person in\nthis file - the licence index gives nothing but the two names and the year, and no\nrecord has yet been found placing her in Toronto with him.",
    "(documented) An Arolsen tracing-file index row of 1947 carries \"Alter Weisblum,\nb. 24 Oct 1905\" - case 381471 (findings/065). The birth date matches the\nTheresienstadt Memorial Book to the day, from an independent record group; someone\nwas traced by him, or he was traced, in 1947. The file itself has not been obtained.",
-   "בנם של מושק וגלה; ניצול טרזין"
+   "בנם של מושק וגלה; ניצול טרזין. הכתיב «אלתר» ושמו השני «חיים» — מנוסח מצבתו בטורונטו («אלתר חיים בן משה נתן»); בקנדה נכתב Weisbloom"
   ],
   "grade": "documented",
   "sources": [
    "s-s11",
    "s-s72",
    "s-s73",
-   "s-s81"
+   "s-s81",
+   "s-s85",
+   "s-s86",
+   "s-s87"
   ],
   "photos": [],
   "docs": [],
@@ -1835,7 +1850,59 @@
    "p-moszek-wajsblum",
    "p-gella-ginsburg"
   ],
-  "spouses": [],
+  "spouses": [
+   "p-hela-baranek"
+  ],
+  "children": []
+ },
+ {
+  "id": "p-hela-baranek",
+  "branch": "albert",
+  "gedcomId": "I77",
+  "names": {
+   "he": "הלה ווייסבלום לבית ברנק",
+   "latin": "Hela Baranek",
+   "given": "Hela",
+   "surname": "Baranek",
+   "variants": [
+    "Baranek",
+    "Weisbloom",
+    "Helen"
+   ]
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "10 JAN 1908",
+   "place": "Wierzbnik, Poland",
+   "grade": "documented",
+   "notes": [
+    "(documented) \"Weisblum Hela, 10.1.1908, Wierzbnik\" - entry 51 of the 1947 Arolsen\nF18 list of 55 Jews in Kreis Schwabmuenchen, directly below her husband, with his\nlast residence (Starachowice) repeated under hers by ditto. Wierzbnik and\nStarachowice are one town - and Starachowice-Wierzbnik is where Alter's camp was,\nso that is very likely where they met or where they were together."
+   ],
+   "dateHe": "10 בינואר 1908"
+  },
+  "death": {
+   "date": "13 MAR 1974",
+   "place": "Toronto, Ontario, Canada",
+   "dateHe": "13 במרץ 1974"
+  },
+  "occupation": "",
+  "notes": [
+   "(probable) Her parents are unknown, and no record of her before 1947 has been\nfound. Canadian voters lists have \"Helen Weisbloom\" in York, Ontario in 1965 and\n\"Mrs Helen Weisbloom\" there in 1968, alongside her husband. ** Caution: an\nunrelated Helen F Weisbloom, b. Stepney, London 1927, married a Leibovitch at\nPoplar in 1947 - part of an older English Weisbloom family. Not this woman. **",
+   "אשת אלתר־חיים; ילידת ויירז'בניק־סטרחוביצה 1908, נפטרה בטורונטו 1974"
+  ],
+  "grade": "probable",
+  "sources": [
+   "s-s86",
+   "s-s85"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-alter-chaim-wajsblum"
+  ],
   "children": []
  },
  {
@@ -1950,7 +2017,7 @@
    "date": "1842",
    "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "Piatek birth act 19/1842 (JRI index; NOT YET READ). Ages in acts 46/1879 (37) and 19/1883 (40) match. findings/032."
+    "Piatek birth act 19/1842 (JRI index; NOT YET READ). Ages in acts 46/1879 (37)\nand 19/1883 (40) match. See albert/findings/032-piatek-buzowski.md."
    ],
    "dateHe": "1842"
   },
@@ -1958,7 +2025,6 @@
   "occupation": "",
   "notes": [
    "(documented, by name) Named as the bride's father in Warsaw marriage act 75/1894.\nThe surname is given here in its feminine form for the bride (Buzowska); the masculine\nform is the expected Buzowski.",
-   "CORRECTED 15 Aug 2026: the 1894 act reads Бутковская — Butkowska/Butkowski, not Buzowski; the Piatek 1883 register spells the name in Latin script \"(Butkowski)\". See albert/findings/032-piatek-buzowski.md §0.",
    "⚠ הכתיב Buzowski נבע מקריאה שגויה שתוקנה: האות השלישית באקט 75/1894 היא т ולא ж"
   ],
   "grade": "documented",
@@ -1996,15 +2062,14 @@
    "date": "1844",
    "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "Piatek birth act 36/1844 (JRI index; ages 35 in 1879, 38 in 1883 match). Her father is NOT identified - the Nisen Rochberger hypothesis is an unproven guess (findings/032 §2)."
+    "Piatek birth act 36/1844 (JRI index; ages 35 in 1879, 38 in 1883 match).\nHer father is NOT identified - the Nisen Rochberger hypothesis is an unproven\nguess; do not act on it until act 36/1844 itself is read (findings/032 par.2)."
    ],
    "dateHe": "1844"
   },
   "death": null,
   "occupation": "",
   "notes": [
-   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla.",
-   "RESOLVED 15 Aug 2026: maiden name ROCHBERGER, documented in the Piatek registers themselves (children's birth acts 46/1879 and 19/1883 read in scan; JRI index rows). See albert/findings/032-piatek-buzowski.md §§1-2."
+   "(documented, by name) Named as the bride's mother in Warsaw marriage act 75/1894.\n** LINE OF ENQUIRY CLOSED, 6 Aug 2026. ** I expected the act to supply her maiden\nsurname and it does not. Having read the act itself (findings/016), the wording is\n\"дочь Абрама и Рухли —\" followed by a dash and then straight to the bride's age. When\nthis act does know a maiden name it says so: one line earlier the groom's mother is\n\"Эстеры-Гитли УРОЖДЕННОЙ Цукеръ\". For Ruchla there is nothing. The index omitted\nnothing - the information was never written down. Her surname must come from\nelsewhere: Rudla's birth record in Piatek, or the marriage of Abram and Ruchla."
   ],
   "grade": "documented",
   "sources": [
@@ -2019,6 +2084,78 @@
   ],
   "children": [
    "p-rudla-butkowska"
+  ]
+ },
+ {
+  "id": "p-berek-budkowski",
+  "branch": "albert",
+  "gedcomId": "I75",
+  "names": {
+   "he": "ברק בודקובסקי",
+   "latin": "Berek Budkowski",
+   "given": "Berek",
+   "surname": "Budkowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "1852",
+   "place": "Piatek, Kalisz Gubernia, Poland",
+   "notes": [
+    "Piatek death act 2/1852 (JRI index). See albert/findings/032-piatek-buzowski.md."
+   ],
+   "dateHe": "1852"
+  },
+  "occupation": "",
+  "notes": [
+   "PROBABLE (not documented) father of Abram: the 1834-1845 birth run in the Piatek\nregister (Mendel Szyia 1834, Malka 1836, Frayde 1839, ABRAM 1842, Iciek 1845)\nplaces Abram as a child of the 1833 couple, and the rare name Rudel/Rudla recurring\na generation apart supports it. Abram's own birth act 19/1842 has NOT been read -\nit is the act that will prove or break this link. findings/032 par.1."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-butkowski"
+  ]
+ },
+ {
+  "id": "p-rudel-szydlowicz",
+  "branch": "albert",
+  "gedcomId": "I76",
+  "names": {
+   "he": "רוּדֶל שידלוביץ'",
+   "latin": "Rudel Szydlowicz",
+   "given": "Rudel",
+   "surname": "Szydlowicz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Bride of the 1833 Piatek marriage (act 6/1833). Her rare given name recurs a\ngeneration later in her granddaughter Rudla (b. Piatek 1872) - the classic\nAshkenazi naming signature that supports the generational chain. findings/032.",
+   "השם הנדיר שחוזר אצל נכדתה רודלה, ילידת 1872"
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null,
+  "parents": [],
+  "spouses": [
+   "p-berek-budkowski"
+  ],
+  "children": [
+   "p-abram-butkowski"
   ]
  },
  {
@@ -2092,8 +2229,7 @@
    "date": "1872",
    "place": "Piatek, Kalisz Gubernia, Poland",
    "notes": [
-    "\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **",
-    "CORRECTED 15 Aug 2026: birth found — Piatek act 22/1872 (JRI index; age 21 in Feb 1894 matches). See albert/findings/032-piatek-buzowski.md."
+    "CORRECTED 15 Aug 2026: birth = Piatek act 22/1872 per the JRI index (age 21 in\nFeb 1894 matches); see albert/findings/032-piatek-buzowski.md. Earlier note follows.\n\"of the Piatek community, Kalisz Governorate\" per the marriage act. Piatek lies about\n35 km from Lodz - where the family settled again after the war.\n** From the act itself (read 6 Aug 2026, findings/016): she was TWENTY-ONE in February\n1894, so born about 1872-73, and she was living in Warsaw only TEMPORARILY\n(\"временно въ Варшавѣ проживающая\") - her home community was still Piatek. That is the\nstrongest reason yet to look for her birth record there. **"
    ],
    "dateHe": "1872"
   },
@@ -2588,80 +2724,6 @@
   ],
   "children": [
    "p-rywa-winogron"
-  ]
- },
- {
-  "id": "p-berek-budkowski",
-  "branch": "albert",
-  "gedcomId": "I75",
-  "names": {
-   "he": "ברק בודקובסקי",
-   "latin": "Berek Budkowski",
-   "given": "Berek",
-   "surname": "Budkowski",
-   "variants": [
-    "Butkowski"
-   ]
-  },
-  "sex": "M",
-  "living": false,
-  "birth": null,
-  "death": {
-   "date": "1852",
-   "place": "Piatek, Kalisz Gubernia, Poland",
-   "notes": [
-    "Piatek death act 2/1852 (JRI index). findings/032."
-   ],
-   "dateHe": "1852"
-  },
-  "occupation": "",
-  "notes": [
-   "PROBABLE (not documented) father of Abram: the 1834-1845 birth run in the Piatek register places Abram as a child of the 1833 couple, and the rare name Rudel/Rudla recurring a generation apart supports it. Abram's own birth act 19/1842 has NOT been read - it is the act that will prove or break this link. findings/032 §1."
-  ],
-  "grade": "probable",
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [],
-  "spouses": [
-   "p-rudel-szydlowicz"
-  ],
-  "children": [
-   "p-abram-butkowski"
-  ]
- },
- {
-  "id": "p-rudel-szydlowicz",
-  "branch": "albert",
-  "gedcomId": "I76",
-  "names": {
-   "he": "רוּדֶל שידלוביץ'",
-   "latin": "Rudel Szydlowicz",
-   "given": "Rudel",
-   "surname": "Szydlowicz",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": null,
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "Bride of the 1833 Piatek marriage (act 6/1833). Her rare given name recurs a generation later in her granddaughter Rudla (b. Piatek 1872) - the classic Ashkenazi naming signature that supports the generational chain. findings/032.",
-   "השם הנדיר שחוזר אצל נכדתה רודלה, ילידת 1872"
-  ],
-  "grade": "probable",
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null,
-  "parents": [],
-  "spouses": [
-   "p-berek-budkowski"
-  ],
-  "children": [
-   "p-abram-butkowski"
   ]
  },
  {
