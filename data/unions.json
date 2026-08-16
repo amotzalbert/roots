@@ -375,7 +375,19 @@
    "p-rywa-winogron"
   ],
   "children": [
-   "p-estera-gitla-cuker"
+   "p-kalma-cukier",
+   "p-estera-gitla-cuker",
+   "p-laja-cukier-i102",
+   "p-sora-cukier",
+   "p-sandal-cukier",
+   "p-aleksander-cukier",
+   "p-mortka-szlama-cukier",
+   "p-aron-cukier-i106",
+   "p-brandla-cukier",
+   "p-hil-cukier",
+   "p-sora-cukier-i109",
+   "p-rywen-majer-cukier",
+   "p-szymon-cukier"
   ],
   "marriage": {
    "date": "1849",
@@ -396,11 +408,16 @@
    "p-tauba-moszkowicz"
   ],
   "children": [
-   "p-kiwa-cukier"
+   "p-abram-cukier",
+   "p-mortka-cukier",
+   "p-mosiek-cukier",
+   "p-kiwa-cukier",
+   "p-chaim-wolf-cukier",
+   "p-laja-cukier"
   ],
   "marriage": null,
   "notes": [
-   "The children of Aron and Tauba, of Ruda Strawczynska, from their marriage rows in the\nRadoszyce register: Abram b. ~1821 (m. Ester Cukier 16/1844), Mosiek b. ~1824 (m.\nRyfka Grynberg 9/1846), Mortka b. ~1826 (m. Blima Rozencwajg 17/1844), KIWA b. ~1827\n(@I69@), Laja b. ~1839 (m. Szulim Skornicki 13/1857). The sibling tie to Kiwa is\nstated outright in Laja's 1857 act: \"living with her brother Kiwa Cukier, Zagdansk\" -\nthe row that proves this family is one household. Only Kiwa is entered as an\nindividual; the siblings are recorded here pending a decision to expand."
+   "Six children of Aron and Tauba, of Ruda Strawczynska, are documented in their marriage\nrows in the Radoszyce register: Abram ~1821 (@I78@), Mortka ~1823 (@I81@), Mosiek\n~1824 (@I85@), KIWA ~1827 (@I69@), Chaim Wolf 1834 (@I91@) and Laja ~1839 (@I99@).\nThe sibling tie is stated outright in Laja's 1857 act - \"living with her brother Kiwa\nCukier, Zagdansk\" - and Chaim Wolf's parentage is repeated independently in the\nRadoszyce residents' book (@S88@). All six were entered as individuals on 15 Aug 2026\n(findings/090); before that date only Kiwa was."
   ]
  },
  {
@@ -415,6 +432,138 @@
    "p-rywa-winogron"
   ],
   "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f68",
+  "branch": "albert",
+  "gedcomId": "F68",
+  "spouses": [
+   "p-abram-cukier",
+   "p-ester-cukier"
+  ],
+  "children": [
+   "p-sora-gitla-cukier"
+  ],
+  "marriage": {
+   "date": "1844",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 16/1844, Radoszyce Jewish register. The act names the groom's parents as\nAron and Tauba Moskowicz - one of the two rows that document Tauba's maiden surname."
+   ],
+   "dateHe": "1844"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f69",
+  "branch": "albert",
+  "gedcomId": "F69",
+  "spouses": [
+   "p-mortka-cukier",
+   "p-blima-rozencwajg"
+  ],
+  "children": [
+   "p-haia-cukier",
+   "p-zelik-cukier"
+  ],
+  "marriage": {
+   "date": "1844",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 17/1844, Radoszyce Jewish register - the same session as his brother\nAbram's act 16/1844."
+   ],
+   "dateHe": "1844"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f70",
+  "branch": "albert",
+  "gedcomId": "F70",
+  "spouses": [
+   "p-mosiek-cukier",
+   "p-rywka-grynberg"
+  ],
+  "children": [
+   "p-jakob-hil-cukier",
+   "p-herszel-cukier"
+  ],
+  "marriage": {
+   "date": "1846",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 9/1846, Radoszyce Jewish register."
+   ],
+   "dateHe": "1846"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f71",
+  "branch": "albert",
+  "gedcomId": "F71",
+  "spouses": [
+   "p-jakob-hil-cukier",
+   "p-ruchla-feldsztajn"
+  ],
+  "children": [
+   "p-uryn-cukier"
+  ],
+  "marriage": {
+   "date": "4 APR 1867",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 3/1867: Jakob Hil Cukier, 19, of Ruda, son of Mosiek Cukier and Ryfka\nnee Norenberg [Grynberg], and Ruchla Feldsztejn, 16, of Ruda Strawczynska."
+   ],
+   "dateHe": "4 באפריל 1867"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f72",
+  "branch": "albert",
+  "gedcomId": "F72",
+  "spouses": [
+   "p-chaim-wolf-cukier",
+   "p-kajla-zlotowicz"
+  ],
+  "children": [
+   "p-aron-cukier-i93",
+   "p-izrael-cukier",
+   "p-hana-cukier",
+   "p-sura-cukier",
+   "p-perla-tauba-cukier",
+   "p-ester-laja-cukier"
+  ],
+  "marriage": {
+   "date": "1858",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 18/1858: Hajm Wolf Cukier, 19, of Ruda Strawczynska, \"son of Aron\n[deceased] and Tauba\", and Kajla Zlotowicz.",
+    "The household stayed at Radoszyce and lost four children young - two of them to the\ncholera of August 1873, thirteen days apart."
+   ],
+   "dateHe": "1858"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f73",
+  "branch": "albert",
+  "gedcomId": "F73",
+  "spouses": [
+   "p-szulim-skornicki",
+   "p-laja-cukier"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1857",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Marriage act 13/1857."
+   ],
+   "dateHe": "1857"
+  },
   "notes": []
  },
  {

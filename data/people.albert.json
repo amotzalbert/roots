@@ -1997,12 +1997,18 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
-  "death": null,
+  "death": {
+   "date": "BET 1846 AND 1858",
+   "place": "Radoszyce registry district, Poland",
+   "notes": [
+    "** BRACKETED, NOT FOUND. ** He is alive and working as a potash maker in his son\nMosiek's marriage act 9/1846, and marked DECEASED in his son Chaim Wolf's act\n18/1858. Two grandsons born 1859 and 1862 were named Aron. The death act itself,\nsomewhere in the Radoszyce register between those years, is the document that would\nname HIS parents - the next generation back. It has not been searched for."
+   ]
+  },
   "occupation": "potash maker",
   "notes": [
-   "(documented, by name) Named as father of the groom in Kiwa's 1849 marriage act, and as\nfather in the marriage rows of his other children. See @F64@."
+   "(documented, by name) Named as father of the groom in Kiwa's 1849 marriage act and in\nthe marriage rows of five other children - Abram 16/1844, Mortka 17/1844, Mosiek\n9/1846, Laja 13/1857, Chaim Wolf 18/1858. See @F64@."
   ],
   "grade": "documented",
   "sources": [
@@ -2084,6 +2090,1147 @@
    "(documented, by name) Named as mother of the bride in the 1849 marriage act. No maiden\nsurname in the transcription."
   ],
   "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-abram-cukier",
+  "branch": "albert",
+  "gedcomId": "I78",
+  "names": {
+   "he": "",
+   "latin": "Abram Cukier",
+   "given": "Abram",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1821",
+   "notes": [
+    "Aged 23 at his marriage in 1844."
+   ]
+  },
+  "death": null,
+  "occupation": "day-labourer",
+  "notes": [
+   "Eldest recorded son of Aron and Tauba; brother of Kiwa (@I69@). Marriage act 16/1844\nof the Radoszyce register, of Ruda Strawczynska, \"son of Aron and Tauba Moskowicz\"."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ester-cukier",
+  "branch": "albert",
+  "gedcomId": "I79",
+  "names": {
+   "he": "",
+   "latin": "Ester Cukier",
+   "given": "Ester",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1823"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Bride of marriage act 16/1844; aged 24 in the 1847 birth act of\nher daughter. Her maiden surname is transcribed as Cukier as well - a same-surname\nmatch, not an error of this file."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sora-gitla-cukier",
+  "branch": "albert",
+  "gedcomId": "I80",
+  "names": {
+   "he": "",
+   "latin": "Sora Gitla Cukier",
+   "given": "Sora Gitla",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1847",
+   "place": "Strawczyn, Poland",
+   "notes": [
+    "Birth act 51/1847, Radoszyce register; father Abram, 25, day-labourer, mother Ester, 24."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** CAUTION - NEAR-NAMESAKE. ** \"Sora Gitla\" born 1847 to Kiwa's brother Abram is NOT\nEstera Gitla b. 1851 (@I41@), the great-great-grandmother. Same family, same decade,\none syllable apart. See findings/090 and the note at @I41@."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mortka-cukier",
+  "branch": "albert",
+  "gedcomId": "I81",
+  "names": {
+   "he": "",
+   "latin": "Mortka Cukier",
+   "given": "Mortka",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1823",
+   "notes": [
+    "Aged 21 at his marriage in 1844."
+   ]
+  },
+  "death": null,
+  "occupation": "tanner",
+  "notes": [
+   "Son of Aron and Tauba, brother of Kiwa (@I69@). Marriage act 17/1844, \"of Rudzie\nvillage\", son of Aron and Tauba Moskowicz - the second act naming her maiden surname."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-blima-rozencwajg",
+  "branch": "albert",
+  "gedcomId": "I82",
+  "names": {
+   "he": "",
+   "latin": "Blima Rozencwajg",
+   "given": "Blima",
+   "surname": "Rozencwajg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1826",
+   "place": "Strawczyn, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Bride of act 17/1844, aged 18, of Strawczyn; her own parents are\nnamed in the same row: PINKUS Rozencwajg and RUCHLA nee Berkow. They are recorded\nhere rather than as individuals - no act of their own has been seen."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-haia-cukier",
+  "branch": "albert",
+  "gedcomId": "I83",
+  "names": {
+   "he": "",
+   "latin": "Haia Cukier",
+   "given": "Haia",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1848",
+   "place": "Strawczyn, Poland",
+   "notes": [
+    "Birth act 8/1848; father Mortka, tanner, mother Bluma Rozencwajg."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-zelik-cukier",
+  "branch": "albert",
+  "gedcomId": "I84",
+  "names": {
+   "he": "",
+   "latin": "Zelik Cukier",
+   "given": "Zelik",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1851",
+   "place": "Strawczyn, Poland",
+   "notes": [
+    "Birth act 7/1851; father Mordka, 30, farmer, mother Blima, 22."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mosiek-cukier",
+  "branch": "albert",
+  "gedcomId": "I85",
+  "names": {
+   "he": "",
+   "latin": "Mosiek Cukier",
+   "given": "Mosiek",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1824",
+   "notes": [
+    "Aged 22 at his marriage in 1846."
+   ]
+  },
+  "death": null,
+  "occupation": "farmer",
+  "notes": [
+   "Son of Aron and Tauba, brother of Kiwa (@I69@). Marriage act 9/1846, of Ruda\nStrawczynska; the act records his father Aron as a living potash maker - the last\ndated sighting of Aron alive."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rywka-grynberg",
+  "branch": "albert",
+  "gedcomId": "I86",
+  "names": {
+   "he": "",
+   "latin": "Rywka Grynberg",
+   "given": "Rywka",
+   "surname": "Grynberg",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1823",
+   "place": "Zarnow, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Bride of act 9/1846, aged 23, of Zarnow; her parents are named\nin the same row: HERSZEL Grynberg, tailor, and JENTA nee Herszlow. Recorded here\nrather than as individuals."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-jakob-hil-cukier",
+  "branch": "albert",
+  "gedcomId": "I87",
+  "names": {
+   "he": "",
+   "latin": "Jakob Hil Cukier",
+   "given": "Jakob Hil",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1848",
+   "place": "Promnik, Poland",
+   "notes": [
+    "Birth act 7/1848; father Moyzes, 22, farmer, mother Ryfka, 23."
+   ]
+  },
+  "death": null,
+  "occupation": "glazier",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-herszel-cukier",
+  "branch": "albert",
+  "gedcomId": "I88",
+  "names": {
+   "he": "",
+   "latin": "Herszel Cukier",
+   "given": "Herszel",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1850",
+   "place": "Promnik, Poland",
+   "notes": [
+    "Birth act 50/1850; father Mosiek, 30, day-labourer, mother Ryfka, 28."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ruchla-feldsztajn",
+  "branch": "albert",
+  "gedcomId": "I89",
+  "names": {
+   "he": "",
+   "latin": "Ruchla Feldsztajn",
+   "given": "Ruchla",
+   "surname": "Feldsztajn",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1851"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Bride of marriage act 3/1867, aged 16, of Ruda Strawczynska;\nher parents in the same row: ZELIK Feldsztejn and HINDA nee Kamienska."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-uryn-cukier",
+  "branch": "albert",
+  "gedcomId": "I90",
+  "names": {
+   "he": "",
+   "latin": "Uryn Cukier",
+   "given": "Uryn",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "18 SEP 1869",
+   "place": "Ruda Strawczynska, Poland",
+   "notes": [
+    "Birth act 46/1869, registered 22 Sep 1869 at Radoszyce; father Jankiel Chil, 20,\nglazier, mother Ruchla nee Feldsztajn, 20."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaim-wolf-cukier",
+  "branch": "albert",
+  "gedcomId": "I91",
+  "names": {
+   "he": "",
+   "latin": "Chaim Wolf Cukier",
+   "given": "Chaim Wolf",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1834",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "The Radoszyce residents' book (sygn. 41, household 270/1) gives 1834 and names his\nparents outright: \"Chaim Cukier, son of ARON & TOUBA nee [unknown]\". His 1858\nmarriage row gives his age as 19, which would put the birth about 1839; the\nresidents' book is the fuller record but the two do not agree - year ○."
+   ]
+  },
+  "death": {
+   "date": "6 MAY 1919",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Recorded in the residents' book entry."
+   ]
+  },
+  "occupation": "carpenter",
+  "notes": [
+   "Youngest recorded son of Aron and Tauba, brother of Kiwa (@I69@). His marriage act\n18/1858 marks his father Aron as DECEASED - which together with act 9/1846, where\nAron is alive, brackets Aron's death to 1846-1858. He is also the one child whose\nparentage is stated in a second, independent source (the residents' book, @S88@)."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84",
+   "s-s88"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-kajla-zlotowicz",
+  "branch": "albert",
+  "gedcomId": "I92",
+  "names": {
+   "he": "",
+   "latin": "Kajla Zlotowicz",
+   "given": "Kajla",
+   "surname": "Zlotowicz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1842",
+   "notes": [
+    "Aged 20 in the 1862 birth act, 30 in 1872."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as the bride in act 18/1858 and as the mother in her\nchildren's acts; the surname Zlotowicz is confirmed by the residents' book entry of\nher son Aron. Some death rows write her simply \"Kajla\"; one 1872 birth act calls her\n\"Kajla nee WAKS\" - an unexplained divergence, left as recorded."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84",
+   "s-s88"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aron-cukier-i93",
+  "branch": "albert",
+  "gedcomId": "I93",
+  "names": {
+   "he": "",
+   "latin": "Aron Cukier",
+   "given": "Aron",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "20 FEB 1862",
+   "place": "Kuzniaki, Poland",
+   "notes": [
+    "Birth act 12/1862, registered 27 Feb 1862 at Radoszyce; father Hajm, 22, workman, of\nKuzniaki, mother Kajla, 20. The residents' book (sygn. 47, household 279/1) repeats\nthe date and names the parents \"Chaim & Kajla nee Zlotowicz\"."
+   ]
+  },
+  "death": null,
+  "occupation": "tailor",
+  "notes": [
+   "** Named for his grandfather Aron, who was already dead. ** Married Chicela\nLaubersztajn (act 4/1882, Radoszyce; he was 20, she of Przedborz) and had at least\nEtla 1882, Golda 1889, Rywka Ruchla 1892, Alter Pinches 1896, Tauba 1898, Chawa 1900 -\nrecorded here, not entered as individuals."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84",
+   "s-s88"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-izrael-cukier",
+  "branch": "albert",
+  "gedcomId": "I94",
+  "names": {
+   "he": "",
+   "latin": "Izrael Cukier",
+   "given": "Izrael",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "25 AUG 1865",
+   "place": "Jachimowice, Poland",
+   "notes": [
+    "Death act 24/1865, registered at Radoszyce: \"Izrael Cukier, 1 year, of Jachimowice\",\nfather Hajm, mother Kajla."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hana-cukier",
+  "branch": "albert",
+  "gedcomId": "I95",
+  "names": {
+   "he": "",
+   "latin": "Hana Cukier",
+   "given": "Hana",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1867"
+  },
+  "death": {
+   "date": "1868",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Death act 3/1868, aged six months; father Haim, mother Kajla Zlotowicz."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sura-cukier",
+  "branch": "albert",
+  "gedcomId": "I96",
+  "names": {
+   "he": "",
+   "latin": "Sura Cukier",
+   "given": "Sura",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1869",
+   "notes": [
+    "Birth act 10/1869."
+   ]
+  },
+  "death": {
+   "date": "13 AUG 1873",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Death act 106/1873, aged 5. ** Died of cholera. **"
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-perla-tauba-cukier",
+  "branch": "albert",
+  "gedcomId": "I97",
+  "names": {
+   "he": "",
+   "latin": "Perla Tauba Cukier",
+   "given": "Perla Tauba",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "10 SEP 1872",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Birth act 26/1872; father Chaim, 30, carpenter, mother Kajla, 30."
+   ]
+  },
+  "death": {
+   "date": "5 AUG 1873",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Death act 82/1873, aged 2. ** Died of cholera - eight days before her sister Sura. **"
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "Her second name, Tauba, is her grandmother's."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ester-laja-cukier",
+  "branch": "albert",
+  "gedcomId": "I98",
+  "names": {
+   "he": "",
+   "latin": "Ester Laja Cukier",
+   "given": "Ester Laja",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1875"
+  },
+  "death": {
+   "date": "30 JAN 1881",
+   "place": "Radoszyce, Poland",
+   "notes": [
+    "Death act 5/1881, aged 5."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-laja-cukier",
+  "branch": "albert",
+  "gedcomId": "I99",
+  "names": {
+   "he": "",
+   "latin": "Laja Cukier",
+   "given": "Laja",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1839",
+   "notes": [
+    "Aged 18 at her marriage in 1857; a birth act of 1889 gives her age as 53, which fits."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** THE ROW THAT PROVES THE HOUSEHOLD. ** Marriage act 13/1857 records the bride as\n\"living with her brother KIWA CUKIER of Zagdansk village\" - the only explicit sibling\nstatement in the whole cluster, and the reason Aron's children can be joined into one\nfamily with confidence. She later lived at Czermno, near Przedborz."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szulim-skornicki",
+  "branch": "albert",
+  "gedcomId": "I100",
+  "names": {
+   "he": "",
+   "latin": "Szulim Skornicki",
+   "given": "Szulim",
+   "surname": "Skornicki",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1838",
+   "place": "Plaskowice, Zarnow parish, Poland"
+  },
+  "death": null,
+  "occupation": "trader",
+  "notes": [
+   "(documented, by name) Groom of act 13/1857, aged 19; his parents are named in the same\nrow: JUDKA Skornicki [deceased] and FRAJDLA. In 1894, at Czermno, \"Szmul Skornicki,\n55, trader\" and \"Laja nee Cukier, 53\" register a son, Jakow Josif, born 1889; a\ndaughter Ruchla married at Przedborz in 1900. Those children are recorded here only."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-kalma-cukier",
+  "branch": "albert",
+  "gedcomId": "I101",
+  "names": {
+   "he": "",
+   "latin": "Kalma Cukier",
+   "given": "Kalma",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1850",
+   "place": "Promnik, Poland",
+   "notes": [
+    "Birth act 45/1850; father Kiwa, farmer, mother Ryfka, 34."
+   ]
+  },
+  "death": {
+   "date": "1855",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Death act 2/1855, aged 4; father Kiwa, mother Marya."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-laja-cukier-i102",
+  "branch": "albert",
+  "gedcomId": "I102",
+  "names": {
+   "he": "",
+   "latin": "Laja Cukier",
+   "given": "Laja",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1852",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 55/1852; father Kiwa, potash maker, mother Ryfka, 21."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Married in 1876 (act 15/1876, Radoszyce), aged 24; father Kiwa, mother Rywka."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sora-cukier",
+  "branch": "albert",
+  "gedcomId": "I103",
+  "names": {
+   "he": "",
+   "latin": "Sora Cukier",
+   "given": "Sora",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1852",
+   "place": "Zagdansk village, Poland"
+  },
+  "death": {
+   "date": "1852",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Death act 29/1852, aged four months."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aleksander-cukier",
+  "branch": "albert",
+  "gedcomId": "I104",
+  "names": {
+   "he": "",
+   "latin": "Aleksander Cukier",
+   "given": "Aleksander",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1857",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 21/1857; father Kiwa, 36, recorded as SCRIBE (pisarz), mother Rywka, 30."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Married in 1875 (act 11/1875) at Daleszyce, aged 27 - an age that does not sit easily\nwith the 1857 birth; either two sons or a clerk's age. Left open."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mortka-szlama-cukier",
+  "branch": "albert",
+  "gedcomId": "I105",
+  "names": {
+   "he": "",
+   "latin": "Mortka Szlama Cukier",
+   "given": "Mortka Szlama",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1858",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 17/1858; father Kiwa, 36, potash maker, mother Rywka, 30."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aron-cukier-i106",
+  "branch": "albert",
+  "gedcomId": "I106",
+  "names": {
+   "he": "",
+   "latin": "Aron Cukier",
+   "given": "Aron",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1859",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 53/1859; father Kiwa, 30, money-lender (szpekulant), mother Rywka, 28."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** Named for his grandfather Aron ** - independent evidence that Aron was dead by 1859.\nMarried in 1879 (act 23/1879), aged 20, of Zagnansk."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-brandla-cukier",
+  "branch": "albert",
+  "gedcomId": "I107",
+  "names": {
+   "he": "",
+   "latin": "Brandla Cukier",
+   "given": "Brandla",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1861",
+   "place": "Zagdansk village, Poland"
+  },
+  "death": {
+   "date": "19 MAR 1862",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Death act 14/1862, aged 1; father Kiwa, workman of Zagdansk, mother Rywka."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hil-cukier",
+  "branch": "albert",
+  "gedcomId": "I108",
+  "names": {
+   "he": "",
+   "latin": "Hil Cukier",
+   "given": "Hil",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "2 JAN 1862",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 4/1862, registered 9 Jan 1862 at Radoszyce; father Kiwa, 36, workman, mother\nMarya, 36."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Married in 1881 (act 1/1881), aged 18, of Zagnansk; the row gives his mother as\n\"Maria WINOGROD\"."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sora-cukier-i109",
+  "branch": "albert",
+  "gedcomId": "I109",
+  "names": {
+   "he": "",
+   "latin": "Sora Cukier",
+   "given": "Sora",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "1 FEB 1865",
+   "place": "Zagdansk village, Poland",
+   "notes": [
+    "Birth act 46/1865, registered 10 Feb 1865; father Kiwa, 38, trader, mother \"Marya z\nWAJNTRAUBOW\", 38 - the one row that gives the mother a second maiden surname (see\nthe note at @I70@)."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sandal-cukier",
+  "branch": "albert",
+  "gedcomId": "I110",
+  "names": {
+   "he": "",
+   "latin": "Sandal Cukier",
+   "given": "Sandal",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": "Samsonow district, Poland"
+  },
+  "death": {
+   "date": "11 JAN 1930",
+   "place": "Kielce, Poland",
+   "notes": [
+    "Kielce death register 4/1930, of Nowa Zagnanska 12, aged 74; parents given as \"Kiwa\nand Marjem-Rywka\"; cause: general exhaustion."
+   ]
+  },
+  "occupation": "",
+  "notes": [
+   "Known only from his death record, which is also one of the two documents placing the\nfamily in Kielce - on Zagnanska street, named for the village they came from."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rywen-majer-cukier",
+  "branch": "albert",
+  "gedcomId": "I111",
+  "names": {
+   "he": "",
+   "latin": "Rywen Majer Cukier",
+   "given": "Rywen Majer",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1872"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Marriage act 7/1894, Radoszyce: \"Rywen Majer Cukier, 22, of Kielce, bachelor, son of\nKIWA CUKIER and MARIEM RYWKA nee WINOGRAD, deceased\" - the row that both confirms\nhis mother's identity and dates her death before June 1894. He married Ruchla\nCymerman of Ruda Pilecka."
+  ],
+  "grade": null,
+  "sources": [
+   "s-s84"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szymon-cukier",
+  "branch": "albert",
+  "gedcomId": "I112",
+  "names": {
+   "he": "",
+   "latin": "Szymon Cukier",
+   "given": "Szymon",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1880",
+   "place": "Kielce, Poland"
+  },
+  "death": {
+   "date": "3 FEB 1928",
+   "place": "Kielce, Poland",
+   "notes": [
+    "Kielce death register 13/1928, of Nowy Swiat street, aged 48; parents \"Kiwa and\nMarjem-Rywka\"; wife Blima nee Zilberszlag; cause: uraemia."
+   ]
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
   "sources": [
    "s-s84"
   ],

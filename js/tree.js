@@ -398,12 +398,18 @@ const clip=(s,w,fs)=>{const max=Math.floor((w-16)/(fs*0.52));
   return s.length>max ? s.slice(0,max-1)+'…' : s;};
 
 function years(p){
-  const b=dateOf(p.birth), d=dateOf(p.death);
-  const y=s=>s? (String(s).match(/\d{4}/)||[''])[0] : '';
-  const by=y(b), dy=y(d);
+  /* תווית השנים על הכרטיס. ⚠ תאריך טווח ("BET 1846 AND 1858") חייב להופיע
+     כטווח — אחרת הכרטיס טוען עובדה שאינה במסמך. */
+  const raw = s => (s && s.date ? String(s.date) : '');
+  const y = s => s ? (String(s).match(/\d{4}/)||[''])[0] : '';
+  const span = s => {                       // "1846–1858" לטווח, אחרת שנה בודדת
+    const m = raw(s).match(/^BET\s+.*?(\d{4}).*?\s+AND\s+.*?(\d{4})/i);
+    return m ? `${m[1]}–${m[2]}` : y(dateOf(s));
+  };
+  const by = span(p.birth), dy = span(p.death);
   if(by&&dy) return `${by}–${dy}`;
   if(by) return by;
-  if(dy) return `נפ׳ ${dy}`;
+  if(dy) return `${T.death} ${dy}`;
   return '';
 }
 const gradeChar = g => ({documented:'●',probable:'◐',inference:'○'})[g] || '';

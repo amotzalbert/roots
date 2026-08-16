@@ -496,6 +496,286 @@
   "terms": "גיטלה Gitla גיטלה"
  },
  {
+  "id": "p-abram-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "אברם צוקר",
+  "sub": "Abram Cukier",
+  "terms": "אברם צוקר Abram Cukier אברם צוקר"
+ },
+ {
+  "id": "p-ester-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "אסתר צוקר",
+  "sub": "Ester Cukier",
+  "terms": "אסתר צוקר Ester Cukier אסתר צוקר"
+ },
+ {
+  "id": "p-sora-gitla-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "שׂורה־גיטלה צוקר",
+  "sub": "Sora Gitla Cukier",
+  "terms": "שׂורה־גיטלה צוקר Sora Gitla Cukier שורהגיטלה צוקר"
+ },
+ {
+  "id": "p-mortka-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "מורטקה צוקר",
+  "sub": "Mortka Cukier",
+  "terms": "מורטקה צוקר Mortka Cukier מורטקה צוקר"
+ },
+ {
+  "id": "p-blima-rozencwajg",
+  "type": "person",
+  "branch": "albert",
+  "label": "בלימה צוקר לבית רוזנצוויג",
+  "sub": "Blima Rozencwajg",
+  "terms": "בלימה צוקר לבית רוזנצוויג Blima Rozencwajg בלימה צוקר לבית רוזנצוויג"
+ },
+ {
+  "id": "p-haia-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "חיה צוקר",
+  "sub": "Haia Cukier",
+  "terms": "חיה צוקר Haia Cukier חיה צוקר"
+ },
+ {
+  "id": "p-zelik-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "זליק צוקר",
+  "sub": "Zelik Cukier",
+  "terms": "זליק צוקר Zelik Cukier זליק צוקר"
+ },
+ {
+  "id": "p-mosiek-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "מושק צוקר",
+  "sub": "Mosiek Cukier",
+  "terms": "מושק צוקר Mosiek Cukier מושק צוקר"
+ },
+ {
+  "id": "p-rywka-grynberg",
+  "type": "person",
+  "branch": "albert",
+  "label": "ריווקה צוקר לבית גרינברג",
+  "sub": "Rywka Grynberg",
+  "terms": "ריווקה צוקר לבית גרינברג Rywka Grynberg ריווקה צוקר לבית גרינברג"
+ },
+ {
+  "id": "p-jakob-hil-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "יעקב־הִיל צוקר",
+  "sub": "Jakob Hil Cukier",
+  "terms": "יעקב־הִיל צוקר Jakob Hil Cukier יעקבהיל צוקר"
+ },
+ {
+  "id": "p-herszel-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "הרשל צוקר",
+  "sub": "Herszel Cukier",
+  "terms": "הרשל צוקר Herszel Cukier הרשל צוקר"
+ },
+ {
+  "id": "p-ruchla-feldsztajn",
+  "type": "person",
+  "branch": "albert",
+  "label": "רוחלה צוקר לבית פלדשטיין",
+  "sub": "Ruchla Feldsztajn",
+  "terms": "רוחלה צוקר לבית פלדשטיין Ruchla Feldsztajn רוחלה צוקר לבית פלדשטיין"
+ },
+ {
+  "id": "p-uryn-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "אורין צוקר",
+  "sub": "Uryn Cukier",
+  "terms": "אורין צוקר Uryn Cukier אורין צוקר"
+ },
+ {
+  "id": "p-chaim-wolf-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "חיים־וולף צוקר",
+  "sub": "Chaim Wolf Cukier",
+  "terms": "חיים־וולף צוקר Chaim Wolf Cukier חייםוולף צוקר"
+ },
+ {
+  "id": "p-kajla-zlotowicz",
+  "type": "person",
+  "branch": "albert",
+  "label": "קיילה צוקר לבית זלוטוביץ'",
+  "sub": "Kajla Zlotowicz",
+  "terms": "קיילה צוקר לבית זלוטוביץ' Kajla Zlotowicz קיילה צוקר לבית זלוטוביץ'"
+ },
+ {
+  "id": "p-aron-cukier-i93",
+  "type": "person",
+  "branch": "albert",
+  "label": "ארון (ירמיאש) צוקר",
+  "sub": "Aron Cukier",
+  "terms": "ארון (ירמיאש) צוקר Aron Cukier ארון (ירמיאש) צוקר"
+ },
+ {
+  "id": "p-izrael-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "ישראל צוקר",
+  "sub": "Izrael Cukier",
+  "terms": "ישראל צוקר Izrael Cukier ישראל צוקר"
+ },
+ {
+  "id": "p-hana-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "חנה צוקר",
+  "sub": "Hana Cukier",
+  "terms": "חנה צוקר Hana Cukier חנה צוקר"
+ },
+ {
+  "id": "p-sura-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "שׂורה צוקר",
+  "sub": "Sura Cukier",
+  "terms": "שׂורה צוקר Sura Cukier שורה צוקר"
+ },
+ {
+  "id": "p-perla-tauba-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "פרלה־טאובה צוקר",
+  "sub": "Perla Tauba Cukier",
+  "terms": "פרלה־טאובה צוקר Perla Tauba Cukier פרלהטאובה צוקר"
+ },
+ {
+  "id": "p-ester-laja-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "אסתר־לאיה צוקר",
+  "sub": "Ester Laja Cukier",
+  "terms": "אסתר־לאיה צוקר Ester Laja Cukier אסתרלאיה צוקר"
+ },
+ {
+  "id": "p-laja-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "לאיה סקורניצקי לבית צוקר",
+  "sub": "Laja Cukier",
+  "terms": "לאיה סקורניצקי לבית צוקר Laja Cukier לאיה סקורניצקי לבית צוקר"
+ },
+ {
+  "id": "p-szulim-skornicki",
+  "type": "person",
+  "branch": "albert",
+  "label": "שולים סקורניצקי",
+  "sub": "Szulim Skornicki",
+  "terms": "שולים סקורניצקי Szulim Skornicki שולים סקורניצקי"
+ },
+ {
+  "id": "p-kalma-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "קלמה צוקר",
+  "sub": "Kalma Cukier",
+  "terms": "קלמה צוקר Kalma Cukier קלמה צוקר"
+ },
+ {
+  "id": "p-laja-cukier-i102",
+  "type": "person",
+  "branch": "albert",
+  "label": "לאיה צוקר",
+  "sub": "Laja Cukier",
+  "terms": "לאיה צוקר Laja Cukier לאיה צוקר"
+ },
+ {
+  "id": "p-sora-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "שׂורה צוקר",
+  "sub": "Sora Cukier",
+  "terms": "שׂורה צוקר Sora Cukier שורה צוקר"
+ },
+ {
+  "id": "p-aleksander-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "אלכסנדר צוקר",
+  "sub": "Aleksander Cukier",
+  "terms": "אלכסנדר צוקר Aleksander Cukier אלכסנדר צוקר"
+ },
+ {
+  "id": "p-mortka-szlama-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "מורטקה־שלמה צוקר",
+  "sub": "Mortka Szlama Cukier",
+  "terms": "מורטקה־שלמה צוקר Mortka Szlama Cukier מורטקהשלמה צוקר"
+ },
+ {
+  "id": "p-aron-cukier-i106",
+  "type": "person",
+  "branch": "albert",
+  "label": "ארון צוקר",
+  "sub": "Aron Cukier",
+  "terms": "ארון צוקר Aron Cukier ארון צוקר"
+ },
+ {
+  "id": "p-brandla-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "ברנדלה צוקר",
+  "sub": "Brandla Cukier",
+  "terms": "ברנדלה צוקר Brandla Cukier ברנדלה צוקר"
+ },
+ {
+  "id": "p-hil-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "הִיל צוקר",
+  "sub": "Hil Cukier",
+  "terms": "הִיל צוקר Hil Cukier היל צוקר"
+ },
+ {
+  "id": "p-sora-cukier-i109",
+  "type": "person",
+  "branch": "albert",
+  "label": "שׂורה צוקר",
+  "sub": "Sora Cukier",
+  "terms": "שׂורה צוקר Sora Cukier שורה צוקר"
+ },
+ {
+  "id": "p-sandal-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "סנדל צוקר",
+  "sub": "Sandal Cukier",
+  "terms": "סנדל צוקר Sandal Cukier סנדל צוקר"
+ },
+ {
+  "id": "p-rywen-majer-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "ריוון־מאיר צוקר",
+  "sub": "Rywen Majer Cukier",
+  "terms": "ריוון־מאיר צוקר Rywen Majer Cukier ריווןמאיר צוקר"
+ },
+ {
+  "id": "p-szymon-cukier",
+  "type": "person",
+  "branch": "albert",
+  "label": "שמעון צוקר",
+  "sub": "Szymon Cukier",
+  "terms": "שמעון צוקר Szymon Cukier שמעון צוקר"
+ },
+ {
   "id": "p-aron-bukszpan",
   "type": "person",
   "branch": "moskal",
