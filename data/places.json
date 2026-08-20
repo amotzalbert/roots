@@ -222,5 +222,77 @@
   "note": "מקום קבורתו של חיים אלברט, נפטר 12 בספטמבר 1976.",
   "note_en": "Burial place of Chaim Albert, who died on 12 September 1976.",
   "note_pl": "Miejsce pochówku Chaima Alberta, zmarłego 12 września 1976."
+ },
+ {
+  "id": "pl-radoszyce",
+  "he": "ראדושיצה",
+  "latin": "Radoszyce",
+  "country": "פולין",
+  "region": "מחוז קונייצקי, שוונטוקשיסקיה",
+  "lat": 51.0737,
+  "lon": 20.2598,
+  "branch": "albert",
+  "research": "research/radoszyce-kielce-villages.md",
+  "note": "מחוז הרישום של בית צוקר. יהודים מ-1564; פריווילגיה מ-1615; במאה ה-19 מרכז חסידי. הקהילה חוסלה בנובמבר 1942 בטרבלינקה."
+ },
+ {
+  "id": "pl-zagnansk",
+  "he": "זגנסק (זגדנסק)",
+  "latin": "Zagnańsk",
+  "country": "פולין",
+  "region": "מחוז קיילצה, שוונטוקשיסקיה",
+  "lat": 50.98,
+  "lon": 20.6632,
+  "branch": "albert",
+  "research": "research/radoszyce-kielce-villages.md",
+  "note": "הכפר שבו נולדה אסתרה-גיטלה צוקר ב-1851, ושבו ישב בית קיווה צוקר. יהודי כפר, לא יהודי עיירה."
+ },
+ {
+  "id": "pl-krasniczyn",
+  "he": "קרשניצ'ין",
+  "latin": "Kraśniczyn",
+  "country": "פולין",
+  "region": "מחוז קרסנוסטב, לובלין",
+  "lat": 50.9329,
+  "lon": 23.3518,
+  "branch": "moskal",
+  "research": "research/krasniczyn.md",
+  "note": "כפר מגוריו של בית מוסקל לאורך שלושים שנה לפחות — אף שכל אקטיהם נרשמו בוויסלביצה."
+ },
+ {
+  "id": "pl-skarzysko",
+  "he": "סקרז'יסקו-קמיינה",
+  "latin": "Skarżysko-Kamienna",
+  "country": "פולין",
+  "region": "שוונטוקשיסקיה",
+  "lat": 51.123,
+  "lon": 20.877,
+  "branch": "albert",
+  "research": "research/hasag-skarzysko-czestochowa.md",
+  "note": "מחנה העבודה של הזאג. שני הסבים מצד אבא מתועדים כאן ב-1942: חיים אלברט בכרטיס CKŻP, וחנה ריבנבייריך ברשימות ה\"חולים\"."
+ },
+ {
+  "id": "pl-czestochowa",
+  "he": "צ'נסטוחובה",
+  "latin": "Częstochowa",
+  "country": "פולין",
+  "region": "שלונסק",
+  "lat": 50.812,
+  "lon": 19.1132,
+  "branch": "albert",
+  "research": "research/hasag-skarzysko-czestochowa.md",
+  "note": "בית היציקה של הזאג. חיים אלברט \"הגיע מצ'נסטוחובה\" לפי כרטיס הרישום שלו."
+ },
+ {
+  "id": "pl-treblinka",
+  "he": "טרבלינקה",
+  "latin": "Treblinka",
+  "country": "פולין",
+  "region": "מזובייצקיה",
+  "lat": 52.6602,
+  "lon": 22.0298,
+  "branch": "albert",
+  "research": "research/treblinka-opatow-liquidation.md",
+  "note": "יעד הגירוש מאופטוב, 20–22 באוקטובר 1942. שם נספו טוביה ריבנבייריך וביילה-שיינדלה ווייסבלום — ⚠ התאריך המדויק מדורג ◐."
  }
 ]

@@ -41,6 +41,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
     <a href="tree.html">אילן</a>
     <a href="map.html">מפה</a>
     <a href="documents.html">מסמכים</a>
+    <a href="research-index.html">מחקרים</a>
     <a href="sources.html">מקורות</a>
     <a href="search.html">חיפוש</a>
   </nav>
@@ -125,7 +126,7 @@ function render(md){
     return;
   }
   try{
-    const md = await fetch(f).then(r=>{ if(!r.ok) throw 0; return r.text(); });
+    const md = await fetch(f + '?v=20260819').then(r=>{ if(!r.ok) throw 0; return r.text(); });
     box.innerHTML = '<p class="kicker">דו"ח מקור · ' + esc(f.replace('research/','').replace('.md','')) + '</p>'
       + '<div class="srcnote">⚠ דו"ח עבודה פנימי של המחקר — הערות גולמיות עם מראי מקום, לא פרק ערוך. הפרקים הערוכים — בתפריט למעלה.</div>'
       + render(md)
