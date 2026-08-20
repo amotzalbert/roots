@@ -391,7 +391,7 @@
   ],
   "marriage": {
    "date": "1849",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 20/1849, Radoszyce Jewish register - the CRARG transcription names both\nsets of parents, which is what carries the whole 5x-generation above this couple.\nKnown children (all Radoszyce-register births at Zagdansk unless noted): Kalma b. 1850\n(d. 1855), ESTER GITLA b. 1851 (@I41@), Laja b. 1852, Sora b. 1852 (d. at 4 months),\nSandal/Aleksander b. ~1856 (d. 1930 Kielce), Mortka Szlama b. 1858, Aron b. 1859\n(probably the Aron Cukier of Nowo-Zagnanska 7, Kielce, alive 1930), Brandla (d. 1862),\nHil b. 2 Jan 1862, Sora b. 1 Feb 1865. The mother-name shifts across these acts are\nthe \"two Rywkas\" question - see the note at @I70@. Only Ester Gitla is entered as an\nindividual; the siblings await the resolution of that question and Amotz's decision."
    ],
@@ -447,7 +447,7 @@
   ],
   "marriage": {
    "date": "1844",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 16/1844, Radoszyce Jewish register. The act names the groom's parents as\nAron and Tauba Moskowicz - one of the two rows that document Tauba's maiden surname."
    ],
@@ -469,7 +469,7 @@
   ],
   "marriage": {
    "date": "1844",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 17/1844, Radoszyce Jewish register - the same session as his brother\nAbram's act 16/1844."
    ],
@@ -491,7 +491,7 @@
   ],
   "marriage": {
    "date": "1846",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 9/1846, Radoszyce Jewish register."
    ],
@@ -512,7 +512,7 @@
   ],
   "marriage": {
    "date": "4 APR 1867",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 3/1867: Jakob Hil Cukier, 19, of Ruda, son of Mosiek Cukier and Ryfka\nnee Norenberg [Grynberg], and Ruchla Feldsztejn, 16, of Ruda Strawczynska."
    ],
@@ -538,7 +538,7 @@
   ],
   "marriage": {
    "date": "1858",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 18/1858: Hajm Wolf Cukier, 19, of Ruda Strawczynska, \"son of Aron\n[deceased] and Tauba\", and Kajla Zlotowicz.",
     "The household stayed at Radoszyce and lost four children young - two of them to the\ncholera of August 1873, thirteen days apart."
@@ -558,7 +558,7 @@
   "children": [],
   "marriage": {
    "date": "1857",
-   "place": "Radoszyce, Poland",
+   "place": "pl-radoszyce",
    "notes": [
     "Marriage act 13/1857."
    ],
@@ -756,6 +756,7 @@
    "p-pesia-szyfman"
   ],
   "children": [
+   "p-chaim-tojwi-szaufer",
    "p-mendel-schafir",
    "p-estera-malka-szaufer",
    "p-gersz-szaufer",
@@ -775,7 +776,10 @@
     "s-m-act-1873-1"
    ],
    "dateHe": "21 בינואר 1873"
-  }
+  },
+  "notes": [
+   "★ עודכן 20.8.2026: נוסף בנם הבכור חיים־טויבי (1876–1877), שהיה עד כה שתי רשומות אינדקס מסופקות."
+  ]
  },
  {
   "id": "u-m-liben",
@@ -846,6 +850,7 @@
    "p-brandlya-eil"
   ],
   "children": [
+   "p-jankiel-moskal",
    "p-dawid-szloma-moskal"
   ],
   "marriage": {
@@ -854,7 +859,8 @@
    "dateHe": null
   },
   "notes": [
-   "שניהם כבר מתים בינואר 1878 — נקובים באקט נישואי בנם 1/1878."
+   "שניהם כבר מתים ב-17.3.1875 — נקובים כ«המנוחים» באקט נישואי בנם ינקל (9/1875), ושוב באקט נישואי דוד־שלמה (1/1878).",
+   "שלושה בנים מתועדים: אברם־מושקו (~1844), ינקל (~1851), דוד־שלמה (~1855) — כולם ילידי קרשניצ'ין."
   ]
  },
  {
@@ -1076,6 +1082,51 @@
   },
   "notes": [
    "שלַיים של ווישלביצה, פועלי יום. בתם דוויירה נולדה שם ~1831. נקובים יחד באקט נישואיה (1847) ובאקט פטירתה (1871)."
+  ]
+ },
+ {
+  "id": "u-m-jankiel-elka",
+  "branch": "moskal",
+  "spouses": [
+   "p-jankiel-moskal",
+   "p-elka-erlich"
+  ],
+  "children": [
+   "p-ruchla-laja-moskal-1876"
+  ],
+  "marriage": {
+   "date": "17 MAR 1875",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט 9/1875, בשמונה בערב. העדים: מושקא גרשון פוקס, סנדלר, 45, ותויבה שלאיין, שמש, 37."
+   ],
+   "sources": [
+    "s-m-act-1875-9"
+   ],
+   "dateHe": "17 במרץ 1875"
+  },
+  "notes": [
+   "ילדי מוסקל נוספים מקרשניצ'ין שבאינדקס JRI (ברנה־גיטלה 1875, חניה 1881) עשויים להיות שלהם או של אברם־מושקו — האקטים טרם נקראו."
+  ]
+ },
+ {
+  "id": "u-m-berek-ruchla-laja",
+  "branch": "moskal",
+  "spouses": [
+   "p-berek-erlich",
+   "p-ruchla-laja-potasznik"
+  ],
+  "children": [
+   "p-elka-erlich"
+  ],
+  "marriage": {
+   "grade": "inference",
+   "place": null,
+   "dateHe": null
+  },
+  "notes": [
+   "בית ארליך של ווויסלביצה שהשיא את אלקה לינקל מוסקל ב-1875. מאושרים מאקט נישואיה."
   ]
  }
 ]

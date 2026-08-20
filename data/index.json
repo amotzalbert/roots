@@ -917,7 +917,7 @@
   "branch": "moskal",
   "label": "פסיה־רוחלה שאפיר לבית שיפמן",
   "sub": "Pesia Ruchla Szyfman",
-  "terms": "פסיה־רוחלה שאפיר לבית שיפמן Pesia Ruchla Szyfman פסיהרוחלה שאפיר לבית שיפמן"
+  "terms": "פסיה־רוחלה שאפיר לבית שיפמן Pesia Ruchla Szyfman Pesia-Ruchla ⚠ «Chaja-Ruchla» — וריאנט לבלר, אקט 39/1876 פסיהרוחלה שאפיר לבית שיפמן"
  },
  {
   "id": "p-mendel-schafir",
@@ -1312,6 +1312,54 @@
   "terms": "ריפקה שלַיים Rypka Szlaim Rifka-Rykla ריפקה שליים"
  },
  {
+  "id": "p-jankiel-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ינקל מוסקל",
+  "sub": "Jankiel Moskal",
+  "terms": "ינקל מוסקל Jankiel Moskal ינקל מוסקל"
+ },
+ {
+  "id": "p-elka-erlich",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אלקה מוסקל לבית ארליך",
+  "sub": "Elka Moskal née Erlich",
+  "terms": "אלקה מוסקל לבית ארליך Elka Moskal née Erlich אלקה מוסקל לבית ארליך"
+ },
+ {
+  "id": "p-ruchla-laja-moskal-1876",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רוחלה־לאיה מוסקל",
+  "sub": "Ruchla-Laja Moskal",
+  "terms": "רוחלה־לאיה מוסקל Ruchla-Laja Moskal רוחלהלאיה מוסקל"
+ },
+ {
+  "id": "p-berek-erlich",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ברקו ארליך",
+  "sub": "Berek Erlich",
+  "terms": "ברקו ארליך Berek Erlich ברקו ארליך"
+ },
+ {
+  "id": "p-ruchla-laja-potasznik",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רוחלה־לאיה ארליך לבית פוטשניק",
+  "sub": "Ruchla-Laja Erlich née Potasznik",
+  "terms": "רוחלה־לאיה ארליך לבית פוטשניק Ruchla-Laja Erlich née Potasznik רוחלהלאיה ארליך לבית פוטשניק"
+ },
+ {
+  "id": "p-chaim-tojwi-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חיים־טויבי שאופר",
+  "sub": "Chaim-Tojwi Szaufer",
+  "terms": "חיים־טויבי שאופר Chaim-Tojwi Szaufer Chajm Tojwi ⚠ «Chaim Froim» — שגיאה, ראו הערה חייםטויבי שאופר"
+ },
+ {
   "id": "pl-wojslawice",
   "type": "place",
   "branch": "moskal",
@@ -1438,5 +1486,53 @@
   "label": "חולון",
   "sub": "Holon",
   "terms": "חולון Holon   "
+ },
+ {
+  "id": "pl-radoszyce",
+  "type": "place",
+  "branch": "albert",
+  "label": "ראדושיצה",
+  "sub": "Radoszyce",
+  "terms": "ראדושיצה Radoszyce   מחוז קונייצקי, שוונטוקשיסקיה"
+ },
+ {
+  "id": "pl-zagnansk",
+  "type": "place",
+  "branch": "albert",
+  "label": "זגנסק (זגדנסק)",
+  "sub": "Zagnańsk",
+  "terms": "זגנסק (זגדנסק) Zagnańsk   מחוז קיילצה, שוונטוקשיסקיה"
+ },
+ {
+  "id": "pl-krasniczyn",
+  "type": "place",
+  "branch": "moskal",
+  "label": "קרשניצ'ין",
+  "sub": "Kraśniczyn",
+  "terms": "קרשניצ'ין Kraśniczyn   מחוז קרסנוסטב, לובלין"
+ },
+ {
+  "id": "pl-skarzysko",
+  "type": "place",
+  "branch": "albert",
+  "label": "סקרז'יסקו-קמיינה",
+  "sub": "Skarżysko-Kamienna",
+  "terms": "סקרז'יסקו-קמיינה Skarżysko-Kamienna   שוונטוקשיסקיה"
+ },
+ {
+  "id": "pl-czestochowa",
+  "type": "place",
+  "branch": "albert",
+  "label": "צ'נסטוחובה",
+  "sub": "Częstochowa",
+  "terms": "צ'נסטוחובה Częstochowa   שלונסק"
+ },
+ {
+  "id": "pl-treblinka",
+  "type": "place",
+  "branch": "albert",
+  "label": "טרבלינקה",
+  "sub": "Treblinka",
+  "terms": "טרבלינקה Treblinka   מזובייצקיה"
  }
 ]

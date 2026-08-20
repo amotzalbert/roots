@@ -177,6 +177,7 @@
    "p-pesia-szyfman"
   ],
   "children": [
+   "p-chaim-tojwi-szaufer",
    "p-mendel-schafir",
    "p-estera-malka-szaufer",
    "p-gersz-szaufer",
@@ -195,7 +196,10 @@
    "sources": [
     "s-m-act-1873-1"
    ]
-  }
+  },
+  "notes": [
+   "★ עודכן 20.8.2026: נוסף בנם הבכור חיים־טויבי (1876–1877), שהיה עד כה שתי רשומות אינדקס מסופקות."
+  ]
  },
  {
   "id": "u-m-liben",
@@ -261,13 +265,15 @@
    "p-brandlya-eil"
   ],
   "children": [
+   "p-jankiel-moskal",
    "p-dawid-szloma-moskal"
   ],
   "marriage": {
    "grade": "inference"
   },
   "notes": [
-   "שניהם כבר מתים בינואר 1878 — נקובים באקט נישואי בנם 1/1878."
+   "שניהם כבר מתים ב-17.3.1875 — נקובים כ«המנוחים» באקט נישואי בנם ינקל (9/1875), ושוב באקט נישואי דוד־שלמה (1/1878).",
+   "שלושה בנים מתועדים: אברם־מושקו (~1844), ינקל (~1851), דוד־שלמה (~1855) — כולם ילידי קרשניצ'ין."
   ]
  },
  {
@@ -476,6 +482,48 @@
   },
   "notes": [
    "שלַיים של ווישלביצה, פועלי יום. בתם דוויירה נולדה שם ~1831. נקובים יחד באקט נישואיה (1847) ובאקט פטירתה (1871)."
+  ]
+ },
+ {
+  "id": "u-m-jankiel-elka",
+  "branch": "moskal",
+  "spouses": [
+   "p-jankiel-moskal",
+   "p-elka-erlich"
+  ],
+  "children": [
+   "p-ruchla-laja-moskal-1876"
+  ],
+  "marriage": {
+   "date": "17 MAR 1875",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "אקט 9/1875, בשמונה בערב. העדים: מושקא גרשון פוקס, סנדלר, 45, ותויבה שלאיין, שמש, 37."
+   ],
+   "sources": [
+    "s-m-act-1875-9"
+   ]
+  },
+  "notes": [
+   "ילדי מוסקל נוספים מקרשניצ'ין שבאינדקס JRI (ברנה־גיטלה 1875, חניה 1881) עשויים להיות שלהם או של אברם־מושקו — האקטים טרם נקראו."
+  ]
+ },
+ {
+  "id": "u-m-berek-ruchla-laja",
+  "branch": "moskal",
+  "spouses": [
+   "p-berek-erlich",
+   "p-ruchla-laja-potasznik"
+  ],
+  "children": [
+   "p-elka-erlich"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": [
+   "בית ארליך של ווויסלביצה שהשיא את אלקה לינקל מוסקל ב-1875. מאושרים מאקט נישואיה."
   ]
  }
 ]

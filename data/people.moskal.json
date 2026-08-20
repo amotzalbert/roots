@@ -714,7 +714,10 @@
    "latin": "Pesia Ruchla Szyfman",
    "given": "Pesia Ruchla",
    "surname": "Szyfman",
-   "variants": []
+   "variants": [
+    "Pesia-Ruchla",
+    "⚠ «Chaja-Ruchla» — וריאנט לבלר, אקט 39/1876"
+   ]
   },
   "sex": "F",
   "living": false,
@@ -732,10 +735,13 @@
   "death": null,
   "grade": "documented",
   "notes": [
-   "אמו של מנדל. נישאה בהסכמת אמה דבורה-איטה, שהייתה נוכחת בחתונה."
+   "אמו של מנדל. נישאה בהסכמת אמה דבורה-איטה, שהייתה נוכחת בחתונה.",
+   "★ אקט לידה 39/1876 קורא לה «חאיה־רוחלה לבית שיפמן, בת 20»; אקט הפטירה 8/1877 ואקט הנישואין 1/1873 קוראים לה «פסיה־רוחלה». «רוחלה» הוא ליבת השם; המרכיב הראשון נודד."
   ],
   "sources": [
-   "s-m-act-1873-1"
+   "s-m-act-1873-1",
+   "s-m-act-1876-39",
+   "s-m-act-1877-8"
   ],
   "photos": [],
   "docs": [
@@ -968,11 +974,15 @@
   "death": {
    "grade": "documented",
    "notes": [
-    "מת לפני ינואר 1878 — נקוב באקט נישואי בנו כ«המנוח»."
+    "מת לפני 17 במרץ 1875 — נקוב כ«המנוח/ה» (ПОКОЙНЫХЪ) באקט נישואי בנו ינקל, 9/1875.",
+    "★ הודק 20.8.2026 מ«לפני ינואר 1878». אקט 1/1878 (נישואי דוד־שלמה) אומר את אותו הדבר שלוש שנים מאוחר יותר — שני מסמכים בלתי תלויים.",
+    "⚠ אקט הפטירה עצמו טרם אותר. מפתחות הפטירה של ווויסלביצה 1848–1873 נסרקו לכל השמות ואין בהם מוסקל; 1865 אינו קיים בפונד. היעד הבא: אוצ'ניה, פונд 1781."
    ],
    "sources": [
+    "s-m-act-1875-9",
     "s-m-act-1878-1"
-   ]
+   ],
+   "date": "BEF 17 MAR 1875"
   },
   "grade": "documented",
   "occupation": "",
@@ -980,7 +990,8 @@
    "הדור הקדום ביותר בענף מוסקל. נקוב באקט נישואי בנו דוד־שלמה."
   ],
   "sources": [
-   "s-m-act-1878-1"
+   "s-m-act-1878-1",
+   "s-m-act-1875-9"
   ],
   "photos": [],
   "docs": [],
@@ -1009,17 +1020,22 @@
   "death": {
    "grade": "documented",
    "notes": [
-    "מתה לפני ינואר 1878."
+    "מתה לפני 17 במרץ 1875 — נקוב כ«המנוח/ה» (ПОКОЙНЫХЪ) באקט נישואי בנו ינקל, 9/1875.",
+    "★ הודק 20.8.2026 מ«לפני ינואר 1878». אקט 1/1878 (נישואי דוד־שלמה) אומר את אותו הדבר שלוש שנים מאוחר יותר — שני מסמכים בלתי תלויים.",
+    "⚠ אקט הפטירה עצמו טרם אותר. מפתחות הפטירה של ווויסלביצה 1848–1873 נסרקו לכל השמות ואין בהם מוסקל; 1865 אינו קיים בפונד. היעד הבא: אוצ'ניה, פונд 1781."
    ],
    "sources": [
+    "s-m-act-1875-9",
     "s-m-act-1878-1"
-   ]
+   ],
+   "date": "BEF 17 MAR 1875"
   },
   "grade": "documented",
   "occupation": "",
   "notes": [],
   "sources": [
-   "s-m-act-1878-1"
+   "s-m-act-1878-1",
+   "s-m-act-1875-9"
   ],
   "photos": [],
   "docs": [],
@@ -2481,5 +2497,236 @@
   "photos": [],
   "docs": [],
   "bioChapter": "moskal-szafir/moskal"
+ },
+ {
+  "branch": "moskal",
+  "sex": "M",
+  "living": false,
+  "grade": "documented",
+  "occupation": "סנדלר",
+  "notes": [
+   "בנם של לייבה מוסקל וברנדלה לבית אייל, ואחיהם של אברם־מושקו ודוד־שלמה — שלושה אחים, כולם ילידי קרשניצ'ין, במרווחי כחמש שנים.",
+   "★ הוכח 20.8.2026 מאקט נישואיו: «урожденнымъ въ деревнѣ КРОСНИЧИНЪ отъ ПОКОЙНЫХЪ ЛЕЙБЫ и БРАНДЛИ урожденной ЭЙЛЬОВОЙ». עד אז היה שורה באינדקס JRI בלבד."
+  ],
+  "sources": [
+   "s-m-act-1875-9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "id": "p-jankiel-moskal",
+  "gen": 6,
+  "names": {
+   "he": "ינקל מוסקל",
+   "latin": "Jankiel Moskal",
+   "given": "Jankiel",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "birth": {
+   "date": "ABT 1851",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "בן 24 בנישואיו (מרץ 1875) ובן 25 בלידת בתו (ינואר 1876) — בקרה חוצה מדויקת."
+   ],
+   "sources": [
+    "s-m-act-1875-9"
+   ]
+  },
+  "death": null
+ },
+ {
+  "branch": "moskal",
+  "sex": "F",
+  "living": false,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בתם של ברקו ארליך ורוחלה־לאיה לבית פוטשניק.",
+   "★ מוסקל⚭ארליך היא ברית חוזרת: הרשק מוסקל ⚭ סורה (לבית ארליך), מושקו מוסקל ⚭ סורה לבית ארליך, הניה מוסקל ⚭ ארליך (1867), וזוג זה."
+  ],
+  "sources": [
+   "s-m-act-1875-9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "id": "p-elka-erlich",
+  "gen": 6,
+  "names": {
+   "he": "אלקה מוסקל לבית ארליך",
+   "latin": "Elka Moskal née Erlich",
+   "given": "Elka",
+   "surname": "Erlich",
+   "variants": []
+  },
+  "birth": {
+   "date": "ABT 1852",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "בת 23 בנישואיה (1875) ובת 24 בלידת בתה (1876)."
+   ],
+   "sources": [
+    "s-m-act-1875-9"
+   ]
+  },
+  "death": null
+ },
+ {
+  "branch": "moskal",
+  "sex": "F",
+  "living": false,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "נולדה עשרה חודשים אחרי חתונת הוריה ונקראה על שם סבתה מצד אמה, רוחלה־לאיה לבית פוטשניק, שמתה זמן קצר לפני מרץ 1875 — מנהג הקרייה האשכנזי, בדיוק."
+  ],
+  "sources": [
+   "s-m-act-1876-1"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "id": "p-ruchla-laja-moskal-1876",
+  "gen": 5,
+  "names": {
+   "he": "רוחלה־לאיה מוסקל",
+   "latin": "Ruchla-Laja Moskal",
+   "given": "Ruchla-Laja",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "birth": {
+   "date": "1 JAN 1876",
+   "place": "pl-krasniczyn",
+   "grade": "documented",
+   "notes": [
+    "נולדה באחת־עשרה בבוקר; נרשמה 8.1.1876 (אקט לידה 1/1876)."
+   ],
+   "sources": [
+    "s-m-act-1876-1"
+   ]
+  },
+  "death": null
+ },
+ {
+  "branch": "moskal",
+  "sex": "M",
+  "living": false,
+  "grade": "documented",
+  "occupation": "פועל (работникъ)",
+  "notes": [
+   "אביה של אלקה. חי במרץ 1875 — אשתו נקובה כ«המנוחה» והוא לא, ובתו התגוררה אצלו בווויסלביצה.",
+   "⚠ הקשר לבתי ארליך האחרים בתיק (פישל, נ' ~1838; יוסף, נ' ~1818, מנפת הרוּבּיֶישוב; סורה, אשת מושקו מוסקל) — טרם נקבע."
+  ],
+  "sources": [
+   "s-m-act-1875-9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "id": "p-berek-erlich",
+  "gen": 7,
+  "names": {
+   "he": "ברקו ארליך",
+   "latin": "Berek Erlich",
+   "given": "Berek",
+   "surname": "Erlich",
+   "variants": []
+  },
+  "birth": null,
+  "death": null
+ },
+ {
+  "branch": "moskal",
+  "sex": "F",
+  "living": false,
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "פוטשניק — שם משפחה שנוסף לעץ ב-20.8.2026.",
+   "⚠ אקט פטירתה טרם אותר; ייתכן שהוא אחת משתים־עשרה פטירות ארליך שבמפתחות ווויסלביצה 1852–1878, שאף אחת מהן לא נקראה."
+  ],
+  "sources": [
+   "s-m-act-1875-9"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/moskal",
+  "id": "p-ruchla-laja-potasznik",
+  "gen": 7,
+  "names": {
+   "he": "רוחלה־לאיה ארליך לבית פוטשניק",
+   "latin": "Ruchla-Laja Erlich née Potasznik",
+   "given": "Ruchla-Laja",
+   "surname": "Potasznik",
+   "variants": []
+  },
+  "birth": null,
+  "death": {
+   "date": "BEF 17 MAR 1875",
+   "grade": "documented",
+   "notes": [
+    "נקובה כ«ПОКОЙНОЙ» באקט נישואי בתה, 9/1875."
+   ],
+   "sources": [
+    "s-m-act-1875-9"
+   ]
+  }
+ },
+ {
+  "id": "p-chaim-tojwi-szaufer",
+  "branch": "moskal",
+  "gen": 5,
+  "names": {
+   "he": "חיים־טויבי שאופר",
+   "latin": "Chaim-Tojwi Szaufer",
+   "given": "Chaim-Tojwi",
+   "surname": "Szaufer",
+   "variants": [
+    "Chajm Tojwi",
+    "⚠ «Chaim Froim» — שגיאה, ראו הערה"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "11 OCT 1876",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "נולד בשלוש אחר הצהריים; נרשם 24.10.1876. האב שמואל, גגן (кровельщикъ), בן 39."
+   ],
+   "sources": [
+    "s-m-act-1876-39"
+   ]
+  },
+  "death": {
+   "date": "1 NOV 1877",
+   "place": "pl-wojslawice",
+   "grade": "documented",
+   "notes": [
+    "מת בעשר בלילה, «ילד בן שנה» — חי שנים־עשר וחצי חודשים. המצהירים: יוינה שלאיין, שמש, 39, ופייבל קצרמן, מלמד, 36."
+   ],
+   "sources": [
+    "s-m-act-1877-8"
+   ]
+  },
+  "grade": "documented",
+  "occupation": "",
+  "notes": [
+   "בנם הבכור המתועד של שמואל'קה שאפיר ופסיה־רוחלה, שלוש שנים וחצי אחרי חתונתם.",
+   "★ נוסף 20.8.2026. עד אז היה שתי «רשומות רפאים» נפרדות באינדקס JRI — «Chaim Froim, נ' 1876» ו«Chaim Tojwije, ✝ אקט 8/1877» — ושתיהן סומנו בספק. שני האקטים נקראו: זה ילד אחד.",
+   "⚠ מקור השגיאה נמצא בפנקס עצמו: באקט 8/1877 הלבלר כתב בסוגריים הלטיניות «Chajm FOJWI Szaufer» בעוד הקירילית שמעליה כותבת ХАИМЪ ТОЙВИ — F לטינית במקום T. משם התגלגל «Froim» לאינדקס ול-JRI."
+  ],
+  "sources": [
+   "s-m-act-1876-39",
+   "s-m-act-1877-8"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": "moskal-szafir/memoir"
  }
 ]
