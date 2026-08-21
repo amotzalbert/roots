@@ -9,7 +9,7 @@ const S = { people:new Map(), unions:[], places:new Map(), byChild:new Map(),
 const LANG = (document.documentElement.getAttribute('lang')||'he').slice(0,2);
 const RTL  = LANG === 'he';
 const T = {
-  he:{family:'משפחה',fan:'מניפה',pedigree:'פדיגרי',gens:'דורות',
+  he:{family:'משפחה',fan:'מניפה',pedigree:'פדיגרי',all:'כל האילן',gens:'דורות',
       born:'נולד/ה',died:'נפטר/ה',parents:'הורים',spouses:'בני זוג',children:'ילדים',
       find:'חיפוש אדם…',reset:'מרכוז',unknown:'לא ידוע',variants:'כתיבים במסמכים:',
       notes:n=>`הערות מחקר (${n})`,bio:'לפרק בספר →',
@@ -17,7 +17,7 @@ const T = {
       about:'בערך',before:'לפני',after:'אחרי',between:'בין',and:'ל־',
       hint:'גרירה להזזה · גלגלת לזום · לחיצה על כרטיס ממקדת',
       months:['ינו׳','פבר׳','מרץ','אפר׳','מאי','יוני','יולי','אוג׳','ספט׳','אוק׳','נוב׳','דצמ׳']},
-  en:{family:'Family',fan:'Fan chart',pedigree:'Pedigree',gens:'Generations',
+  en:{family:'Family',fan:'Fan chart',pedigree:'Pedigree',all:'Whole tree',gens:'Generations',
       born:'Born',died:'Died',parents:'Parents',spouses:'Spouse(s)',children:'Children',
       find:'Find a person…',reset:'Recentre',unknown:'unknown',variants:'Spellings in documents:',
       notes:n=>`Research notes (${n})`,bio:'Read the chapter →',
@@ -25,7 +25,7 @@ const T = {
       about:'about',before:'before',after:'after',between:'between',and:'and',
       hint:'Drag to pan · scroll to zoom · click a card to focus',
       months:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']},
-  pl:{family:'Rodzina',fan:'Wachlarz',pedigree:'Rodowód',gens:'Pokolenia',
+  pl:{family:'Rodzina',fan:'Wachlarz',pedigree:'Rodowód',all:'Całe drzewo',gens:'Pokolenia',
       born:'Ur.',died:'Zm.',parents:'Rodzice',spouses:'Małżonkowie',children:'Dzieci',
       find:'Znajdź osobę…',reset:'Wyśrodkuj',unknown:'nieznane',variants:'Zapisy w dokumentach:',
       notes:n=>`Notatki badawcze (${n})`,bio:'Rozdział →',
@@ -143,8 +143,11 @@ function card(p,x,y,{focus=false,w=CW,h=CH}={}){
   const tx = RTL ? w-48 : 48, dirv = RTL ? 'rtl' : 'ltr';
   const nm=el('text',{class:'nm',x:tx,y:h/2-4,'text-anchor':'start',
                       direction:dirv,'unicode-bidi':'isolate',fill:'var(--ink)'});
-  let s=nameOf(p); const cap=Math.max(10,Math.floor((w-58)/7.1));
-  if(s.length>cap) s=s.slice(0,cap-1)+'…'; nm.textContent=s; g.appendChild(nm);
+  /* אותו היגיון כמו במניפה: לוותר על הסוגריים ועל «לבית», ורק אז
+     לקצר לראשי תיבות — במקום קיצוץ באמצע מילה. */
+  const full=nameOf(p), s=fitName(full, w-58, 12.9);
+  nm.textContent=s; g.appendChild(nm);
+  if(s!==full){ const ttl=el('title'); ttl.textContent=full; g.appendChild(ttl); }
   const yr=el('text',{class:'yr',x:tx,y:h/2+14,'text-anchor':'start',
                       direction:dirv,'unicode-bidi':'isolate',fill:'var(--ink-3)'});
   yr.textContent=lifespan(p); g.appendChild(yr);
@@ -292,6 +295,80 @@ function drawFan(root){
   }
 }
 
+
+/* ══ תצוגה 4 — כל האילן ══════════════════════════════════════════
+   שושלת קיר: כל אדם פעם אחת, זוגות זה לצד זה, דור בכל שורה.
+   הרוחב נמדד מלמטה למעלה — בלוק רחב כרוחב ילדיו או כרוחב הזוג,
+   הגדול מביניהם — ולכן אין חפיפות. fit() ממזער אוטומטית.        */
+function drawAll(root){
+  /* כרטיס קומפקטי: בתצוגה הזאת הרוחב הכולל נקבע מהשורה הרחבה ביותר,
+     ולכן כל פיקסל בכרטיס מוכפל ב-81. 0.7 מוריד את היריעה ברבע. */
+  const CWa=Math.round(CW*0.7), CHa=Math.round(CH*0.82);
+  const GXn=18, GYn=118, SIB=34;
+  const placed=new Map(), seen=new Set(), blocks=[];
+  const lines=el('g',{class:'lines'}); root.appendChild(lines);
+  const line=(d,cls='')=>lines.appendChild(el('path',{class:'lnk '+cls,d}));
+
+  function build(pid,depth){
+    if(seen.has(pid)||!S.people.get(pid)) return null;
+    seen.add(pid);
+    const partners=[];
+    for(const u of unionsOf(pid))
+      for(const s of u.spouses)
+        if(s!==pid && !seen.has(s) && S.people.get(s)){ seen.add(s); partners.push(s); }
+    const row=[pid,...partners];
+    const rowW=row.length*CWa+(row.length-1)*GXn;
+    const kids=[];
+    for(const u of unionsOf(pid))
+      for(const c of u.children){ const b=build(c,depth+1); if(b) kids.push(b); }
+    const kidsW=kids.length ? kids.reduce((a,k)=>a+k.w,0)+(kids.length-1)*SIB : 0;
+    const b={row,rowW,kids,kidsW,depth,w:Math.max(rowW,kidsW)};
+    blocks.push(b); return b;
+  }
+  function place(b,x0){
+    b.rx=x0+(b.w-b.rowW)/2;
+    b.row.forEach((id,i)=>placed.set(id,{x:b.rx+i*(CWa+GXn),y:b.depth*GYn}));
+    let kx=x0+(b.w-b.kidsW)/2;
+    for(const k of b.kids){ place(k,kx); kx+=k.w+SIB; }
+  }
+
+  /* שורשים = מי שאין לו הורים ידועים — אבל לא מי שבן/בת זוגו כן
+     מוכר/ת להורים. אחרת הוא היה נפתח כבלוק נפרד, ובני הזוג היו
+     נקרעים לשני מקומות רחוקים במקום לשבת זה לצד זה אצל ההורים. */
+  const isRoot = id => parentsOf(id).length===0 &&
+                       !spousesOf(id).some(s=>parentsOf(s).length>0);
+  const roots=[...S.people.keys()].filter(isRoot);
+  let cx=0;
+  for(const id of roots){ const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; } }
+  /* מי שנותר בלי הורים ולא נבלע כבן זוג — בלוק משלו */
+  for(const id of [...S.people.keys()].filter(id=>!seen.has(id)&&parentsOf(id).length===0)){
+    const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; }
+  }
+  /* מי שלא נתפס (מעגל או מנותק) — שורה נפרדת מתחת, כדי שלא ייעלם */
+  const rest=[...S.people.keys()].filter(id=>!placed.has(id));
+  const oy=(blocks.length?Math.max(...blocks.map(b=>b.depth)):0)*GYn+GYn+40;
+  rest.forEach((id,i)=>placed.set(id,{x:i*(CWa+GXn),y:oy}));
+
+  for(const b of blocks){
+    for(let i=1;i<b.row.length;i++)
+      line(`M${b.rx+(i-1)*(CWa+GXn)+CWa},${b.depth*GYn+CHa/2} H${b.rx+i*(CWa+GXn)}`,'spouse');
+    if(!b.kids.length) continue;
+    const y0=b.depth*GYn+CHa, jy=y0+(GYn-CHa)/2;
+    line(`M${b.rx+b.rowW/2},${y0} V${jy}`);
+    const a=b.kids.map(k=>k.rx+CWa/2);
+    if(a.length>1) line(`M${Math.min(...a)},${jy} H${Math.max(...a)}`);
+    for(const k of b.kids) line(`M${k.rx+CWa/2},${jy} V${k.depth*GYn}`);
+  }
+  for(const [id,pt] of placed){
+    const p=S.people.get(id); if(!p) continue;
+    root.appendChild(card(p,pt.x,pt.y,{focus:id===S.focus,w:CWa,h:CHa}));
+  }
+  /* היריעה רחבה מדי מכדי להיפתח ממוזערת — נפתחים קריא סביב המוקד,
+     ו«מרכוז» עדיין מראה את הכול. */
+  const fp=placed.get(S.focus);
+  S.allFocus = fp ? {x:fp.x+CWa/2, y:fp.y+CHa/2} : null;
+}
+
 /* ══ תצוגה 3 — פדיגרי ════════════════════════════════════════════ */
 function drawPedigree(root){
   const rows=ancestorLine(S.focus,S.gens);
@@ -343,8 +420,8 @@ function render(){
   const svg=$('#tree'); svg.innerHTML='';
   const root=el('g',{id:'vp'}); svg.appendChild(root);
   if(!S.focus) return;
-  ({family:drawFamily,fan:drawFan,pedigree:drawPedigree}[S.view])(root);
-  fitSoon();
+  ({family:drawFamily,fan:drawFan,pedigree:drawPedigree,all:drawAll}[S.view])(root);
+  if(S.view==='all' && S.allFocus) centreSoon(S.allFocus,.8); else fitSoon();
   showPerson(S.focus);
 }
 function applyVT(){ const g=$('#vp'); if(g)
@@ -358,6 +435,20 @@ function fit(){
   const k=Math.max(.12, Math.min(r.width/(b.width+46), r.height/(b.height+46), 1.5));
   S.vt={k, x:r.width/2-(b.x+b.width/2)*k, y:r.height/2-(b.y+b.height/2)*k};
   applyVT();
+}
+function centreOn(pt,k){
+  const svg=$('#tree'); if(!svg) return;
+  const r=svg.getBoundingClientRect(); if(!r.width) return;
+  S.vt={k, x:r.width/2-pt.x*k, y:r.height/2-pt.y*k};
+  applyVT();
+}
+/* בניגוד ל-fit(), המרכוז אינו זקוק ל-getBBox — הקואורדינטות ידועות
+   מהפריסה. לכן מבצעים מיד, ושוב ב-rAF רק אם ה-SVG טרם נמדד. חשוב:
+   בלשונית מוסתרת rAF אינו נורה כלל, וקריאה מיידית מבטיחה שהתצוגה
+   נפתחת ממורכזת גם אז. */
+function centreSoon(pt,k){
+  centreOn(pt,k);
+  requestAnimationFrame(()=>centreOn(pt,k));
 }
 function fitSoon(){ requestAnimationFrame(()=>requestAnimationFrame(fit));
   if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fit); }
@@ -418,7 +509,7 @@ function setFocus(id){ if(!S.people.has(id)) return;
   S.focus=id; history.replaceState(null,'','#'+id); render(); }
 function setView(v){ S.view=v;
   document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===v)));
-  $('#gensWrap').hidden = (v==='family');
+  $('#gensWrap').hidden = (v==='family'||v==='all');   /* שתיהן אינן תלויות במספר דורות */
   render(); }
 
 /* ── חיפוש ───────────────────────────────────────────────────────── */
