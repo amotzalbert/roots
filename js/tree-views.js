@@ -132,6 +132,7 @@ function line(p){ return `var(--${BR(p)}-line)`; }
 const CW=206, CH=66;
 function card(p,x,y,{focus=false,w=CW,h=CH}={}){
   const g=el('g',{class:'mh-card'+(focus?' is-focus':''),transform:`translate(${x},${y})`,
+                  'data-id':p.id,   /* מזהה ייחודי — שמות חוזרים על עצמם באילן */
                   tabindex:0,role:'button','aria-label':nameOf(p)});
   g.appendChild(el('rect',{class:'bg',x:0,y:0,width:w,height:h,rx:9,fill:tint(p)}));
   g.appendChild(el('rect',{class:'spine',x:RTL?w-4:0,y:0,width:4,height:h,rx:2,fill:edge(p)}));
@@ -296,6 +297,43 @@ function drawFan(root){
 }
 
 
+
+/* ── דירוג דורות גלובלי ────────────────────────────────────────────
+   השורה נקבעת מהדור האמיתי ולא מעומק הרקורסיה, אחרת שושלות באורך
+   שונה אינן מיושרות זו לזו. בני זוג מאוחדים לקבוצה אחת (כדי שיישבו
+   באותה שורה), ורמת כל קבוצה היא המסלול הארוך ביותר מלמעלה.      */
+function generationLevels(){
+  const up=new Map([...S.people.keys()].map(id=>[id,id]));
+  const find=x=>{ while(up.get(x)!==x){ up.set(x,up.get(up.get(x))); x=up.get(x);} return x; };
+  const join=(a,b)=>{ a=find(a); b=find(b); if(a!==b) up.set(a,b); };
+  for(const u of S.unions){
+    const ps=u.spouses.filter(s=>S.people.has(s));
+    for(let i=1;i<ps.length;i++) join(ps[0],ps[i]);
+  }
+  const groups=new Set([...S.people.keys()].map(find));
+  const out=new Map(), deg=new Map(), lvl=new Map();
+  groups.forEach(g=>{ out.set(g,new Set()); deg.set(g,0); lvl.set(g,0); });
+  for(const u of S.unions){
+    const ps=u.spouses.filter(s=>S.people.has(s)); if(!ps.length) continue;
+    const pg=find(ps[0]);
+    for(const c of u.children){
+      if(!S.people.has(c)) continue;
+      const cg=find(c);
+      if(pg!==cg && !out.get(pg).has(cg)){ out.get(pg).add(cg); deg.set(cg,deg.get(cg)+1); }
+    }
+  }
+  const q=[...groups].filter(g=>deg.get(g)===0);
+  while(q.length){
+    const g=q.shift();
+    for(const c of out.get(g)){
+      if(lvl.get(c) < lvl.get(g)+1) lvl.set(c, lvl.get(g)+1);
+      deg.set(c, deg.get(c)-1);
+      if(deg.get(c)===0) q.push(c);
+    }
+  }
+  return id => lvl.get(find(id)) || 0;
+}
+
 /* ══ תצוגה 4 — כל האילן ══════════════════════════════════════════
    שושלת קיר: כל אדם פעם אחת, זוגות זה לצד זה, דור בכל שורה.
    הרוחב נמדד מלמטה למעלה — בלוק רחב כרוחב ילדיו או כרוחב הזוג,
@@ -306,6 +344,7 @@ function drawAll(root){
   const CWa=Math.round(CW*0.7), CHa=Math.round(CH*0.82);
   const GXn=18, GYn=118, SIB=34;
   const placed=new Map(), seen=new Set(), blocks=[];
+  const level=generationLevels();
   const lines=el('g',{class:'lines'}); root.appendChild(lines);
   const line=(d,cls='')=>lines.appendChild(el('path',{class:'lnk '+cls,d}));
 
@@ -327,7 +366,7 @@ function drawAll(root){
   }
   function place(b,x0){
     b.rx=x0+(b.w-b.rowW)/2;
-    b.row.forEach((id,i)=>placed.set(id,{x:b.rx+i*(CWa+GXn),y:b.depth*GYn}));
+    b.row.forEach((id,i)=>placed.set(id,{x:b.rx+i*(CWa+GXn),y:level(id)*GYn}));
     let kx=x0+(b.w-b.kidsW)/2;
     for(const k of b.kids){ place(k,kx); kx+=k.w+SIB; }
   }
@@ -346,18 +385,18 @@ function drawAll(root){
   }
   /* מי שלא נתפס (מעגל או מנותק) — שורה נפרדת מתחת, כדי שלא ייעלם */
   const rest=[...S.people.keys()].filter(id=>!placed.has(id));
-  const oy=(blocks.length?Math.max(...blocks.map(b=>b.depth)):0)*GYn+GYn+40;
+  const oy=(Math.max(0,...[...S.people.keys()].map(level))+1)*GYn+40;
   rest.forEach((id,i)=>placed.set(id,{x:i*(CWa+GXn),y:oy}));
 
   for(const b of blocks){
     for(let i=1;i<b.row.length;i++)
-      line(`M${b.rx+(i-1)*(CWa+GXn)+CWa},${b.depth*GYn+CHa/2} H${b.rx+i*(CWa+GXn)}`,'spouse');
+      line(`M${b.rx+(i-1)*(CWa+GXn)+CWa},${level(b.row[i])*GYn+CHa/2} H${b.rx+i*(CWa+GXn)}`,'spouse');
     if(!b.kids.length) continue;
-    const y0=b.depth*GYn+CHa, jy=y0+(GYn-CHa)/2;
+    const y0=level(b.row[0])*GYn+CHa, jy=y0+(GYn-CHa)/2;
     line(`M${b.rx+b.rowW/2},${y0} V${jy}`);
     const a=b.kids.map(k=>k.rx+CWa/2);
     if(a.length>1) line(`M${Math.min(...a)},${jy} H${Math.max(...a)}`);
-    for(const k of b.kids) line(`M${k.rx+CWa/2},${jy} V${k.depth*GYn}`);
+    for(const k of b.kids) line(`M${k.rx+CWa/2},${jy} V${level(k.row[0])*GYn}`);
   }
   for(const [id,pt] of placed){
     const p=S.people.get(id); if(!p) continue;
