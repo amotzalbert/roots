@@ -12,23 +12,8 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/research-index.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/research-index.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/research-index.html">
-<link rel="stylesheet" href="css/main.css?v=20260815d">
-<style>
-/* עטיפה מעוצבת לדו"חות המקור (research/*.md) — הם נכתבים כ-markdown
-   ומרונדרים כאן בסגנון האתר, במקום להיפתח כקובץ גולמי. */
-.md{max-width:44rem}
-.md h1{font-size:clamp(1.6rem,2.6vw,2.2rem)}
-.md table{font-size:.88em;overflow-x:auto;display:block}
-.md code{background:var(--paper-2);border:1px solid var(--rule);border-radius:.3em;
-  padding:.06em .35em;font-size:.88em;direction:ltr;unicode-bidi:embed}
-.md pre{background:var(--paper-2);border:1px solid var(--rule);border-radius:.5em;
-  padding:.9em 1.1em;overflow-x:auto;direction:ltr;text-align:left}
-.md pre code{background:none;border:0;padding:0}
-.md hr{border:0;border-top:1px solid var(--rule);margin:2.2em 0}
-.md .backlink{font-family:var(--sans);font-size:.88rem;margin:1.6rem 0 0}
-.srcnote{font-family:var(--sans);font-size:.82rem;color:var(--ink-3);
-  border:1px dashed var(--rule-2);border-radius:.5rem;padding:.6rem .9rem;margin:0 0 1.8rem}
-</style>
+<link rel="stylesheet" href="css/main.css?v=20260821a">
+<link rel="stylesheet" href="css/pages/research-index.css?v=20260821a">
 </head>
 <body>
 <header class="topbar"><div class="topbar-in">
@@ -127,17 +112,5 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 </ul>
 </main>
 
-<style>
-.wrap{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 4rem}
-.lede{font-size:1.05rem;line-height:1.8}
-.note{border:1px solid var(--line,#d8cfc2);background:var(--panel,#f6f1e8);
-      border-radius:.6rem;padding:.9rem 1.1rem;margin:1.4rem 0;font-size:.95rem;line-height:1.75}
-h2{margin-top:2.2rem;padding-top:.6rem;border-top:1px solid var(--line,#d8cfc2)}
-.sub{color:var(--muted,#6b6058);font-size:.92rem;margin-top:-.4rem}
-.rlist{list-style:none;padding:0}
-.rlist li{margin:.55rem 0;line-height:1.6}
-.rlist a{font-weight:600}
-.meta{display:block;color:var(--muted,#6b6058);font-size:.88rem}
-</style>
 </body>
 </html>

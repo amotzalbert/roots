@@ -13,96 +13,8 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/tree.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/tree.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/tree.html">
-<link rel="stylesheet" href="../css/main.css?v=20260815d">
-<style>
-/* ── גוונים בסגנון MyHeritage, נגזרים מפלטת «שורשים» ── */
-:root{ --m-tint:#e8eef6; --f-tint:#f7eaee; --card-sh:0 1px 2px #231f1c1a,0 4px 12px #231f1c12; }
-:root[data-theme="dark"], html:not([data-theme="light"]) { }
-@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){ --m-tint:#232b36; --f-tint:#332229; } }
-:root[data-theme="dark"]{ --m-tint:#232b36; --f-tint:#332229; }
-:root[data-theme="light"]{ --m-tint:#e8eef6; --f-tint:#f7eaee; }
-
-.treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
-@media (max-width:940px){.treewrap{grid-template-columns:1fr}}
-
-#tree{width:100%;height:min(74vh,760px);background:var(--paper-2);border:1px solid var(--rule);
-  border-radius:.8rem;cursor:grab;touch-action:none;display:block}
-
-/* קווי חיבור אורתוגונליים */
-.lnk{fill:none;stroke:var(--rule-2);stroke-width:1.5;stroke-linejoin:round}
-.lnk.spouse{stroke-dasharray:4 4;stroke:var(--gold)}
-
-/* כרטיסים */
-.mh-card{cursor:pointer}
-.mh-card .bg{stroke:var(--rule-2);stroke-width:1;filter:drop-shadow(var(--card-sh))}
-.mh-card .nm{font-family:var(--serif);font-size:13.5px;font-weight:600}
-.mh-card .yr{font-family:var(--sans);font-size:10.5px}
-.mh-card .ini{font-family:var(--serif);font-size:15px}
-.mh-card:hover .bg{stroke:var(--accent);stroke-width:1.6}
-.mh-card.is-focus .bg{stroke:var(--accent);stroke-width:2.4}
-.mh-card.is-focus .nm{font-weight:700}
-.mh-card.faded{opacity:.5}
-.mh-card:focus{outline:none}
-.mh-card:focus .bg{stroke:var(--accent);stroke-width:2.4}
-
-/* מניפה */
-.fan-seg{cursor:pointer;transition:opacity .12s}
-.fan-seg:hover{stroke:var(--accent);stroke-width:2}
-.fan-seg.empty{cursor:default;opacity:.4}
-.fan-seg:focus{outline:none;stroke:var(--accent);stroke-width:2}
-.fan-lbl{pointer-events:none}
-.fan-lbl .nm{font-family:var(--serif);font-weight:600}
-.fan-lbl .yr{font-family:var(--sans)}
-.fan-hub .nm{font-family:var(--serif);font-size:14px;font-weight:700}
-.fan-hub .yr{font-family:var(--sans);font-size:10.5px}
-.ped-empty{opacity:.55}
-
-/* לוח האדם */
-#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.8rem;
-  padding:1rem 1.1rem;position:sticky;top:5rem;max-height:min(74vh,760px);overflow:auto}
-#person h2{margin:.1rem 0 .2rem;border:0;padding:0;font-size:1.3rem}
-#person .lat{margin:0 0 .4rem;color:var(--ink-3);font-size:.9rem;direction:ltr;text-align:right}
-.phead{border-bottom:2px solid var(--rule);margin-bottom:.8rem;padding-bottom:.6rem}
-.phead.b-moskal{border-bottom-color:var(--moskal)}
-.phead.b-albert{border-bottom-color:var(--albert)}
-.phead.b-both{border-bottom-color:var(--gold)}
-.gradepill{display:inline-block;font-family:var(--sans);font-size:.72rem;color:var(--c);
-  border:1px solid var(--c);border-radius:1rem;padding:.05rem .5rem;margin-inline-end:.3rem}
-#person dl{margin:0}
-#person .row{display:grid;grid-template-columns:5.2rem 1fr;gap:.4rem;padding:.32rem 0;
-  border-bottom:1px dotted var(--rule);font-size:.93rem}
-#person dt{color:var(--ink-3);font-family:var(--sans);font-size:.85rem}
-#person dd{margin:0}
-.chip{background:var(--paper);border:1px solid var(--rule-2);border-radius:.9rem;
-  padding:.12rem .58rem;margin:.1rem .1rem .1rem 0;font:inherit;font-size:.86rem;
-  cursor:pointer;color:var(--accent)}
-.chip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-.biolink{font-family:var(--sans);font-size:.88rem}
-.none{color:var(--ink-3)}
-.vars{font-size:.85rem;color:var(--ink-3);margin:.7rem 0 0;direction:ltr;text-align:right}
-.vars b{direction:rtl;display:block;text-align:right;color:var(--ink-2)}
-#person details{margin-top:.8rem;font-size:.86rem}
-#person summary{cursor:pointer;color:var(--ink-3);font-family:var(--sans)}
-#person .note{white-space:pre-wrap;color:var(--ink-2);border-inline-start:2px solid var(--rule);
-  padding-inline-start:.6rem;margin:.6rem 0;font-size:.85rem;line-height:1.6}
-
-.findwrap{position:relative}
-#findlist{position:absolute;z-index:20;inset-inline-start:0;top:100%;background:var(--paper);
-  border:1px solid var(--rule-2);border-radius:.45rem;min-width:14rem;box-shadow:var(--shadow);
-  display:flex;flex-direction:column;overflow:hidden}
-#findlist button{background:none;border:0;text-align:start;padding:.42rem .7rem;cursor:pointer;
-  font:inherit;font-size:.9rem;color:var(--ink)}
-#findlist button:hover{background:var(--accent);color:#fff}
-#gensWrap[hidden]{display:none}
-#gensWrap{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.86rem;color:var(--ink-3)}
-#gens{font:inherit;padding:.2rem .4rem;border:1px solid var(--rule-2);border-radius:.35rem;
-  background:var(--paper);color:var(--ink)}
-.legend{font-family:var(--sans);font-size:.8rem;color:var(--ink-3);display:flex;gap:1rem;
-  flex-wrap:wrap;margin:.7rem 0 0;align-items:center}
-.legend i{font-style:normal;display:inline-flex;align-items:center;gap:.3rem}
-.legend .sw{width:.75rem;height:.75rem;border-radius:.2rem;border:1px solid var(--rule-2);display:inline-block}
-.legend .dot{width:.5rem;height:.5rem;border-radius:50%;display:inline-block}
-</style>
+<link rel="stylesheet" href="../css/main.css?v=20260821a">
+<link rel="stylesheet" href="../css/pages/tree.css?v=20260821a">
 </head>
 <body>
 
@@ -179,7 +91,7 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 
 <footer><div class="in">Roots · A history of the Moskal–Schafir and Albert–Rywenbajrych families</div></footer>
 
-<script src="../js/ui.js?v=20260815e"></script>
+<script src="../js/ui.js?v=20260821a"></script>
 <script src="../js/tree-views.js?v=20260821a"></script>
 </body>
 </html>

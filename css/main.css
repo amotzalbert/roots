@@ -1,155 +1,297 @@
-/* ═══ «שורשים» — מערכת העיצוב ═══════════════════════════════════
-   אסתטיקה ארכיונית מאופקת: נייר, דיו, וקו אדום דק להדגשות.
-   RTL מלא. עובד בהיר וכהה.                                        */
+/* ═══ «שורשים» — «ויטרינה» ═══════════════════════════════════════════
+   אולם מוזיאון מואר באור יום. קיר טיח מינרלי קריר, אובייקטים מורמים על
+   בסיסים עם צל מוטל אמיתי, Heebo Black בגדלים גדולים, וציטוטים גלויים
+   תמיד — לא מוסתרים מאחורי ריחוף.
 
-@font-face{font-family:'Frank Ruhl';src:local('Frank Ruhl Libre'),local('FrankRuhlLibre-Regular');font-weight:400;font-display:swap}
-@font-face{font-family:'Frank Ruhl';src:local('Frank Ruhl Libre Bold'),local('FrankRuhlLibre-Bold');font-weight:700;font-display:swap}
+   בהיר כברירת מחדל. הכהה מעוצב כמערכת עצמאית, לא כהיפוך.
+   RTL מלא בעברית, LTR באנגלית ובפולנית.
 
+   הקובץ הזה מחזיק אך ורק: אסימונים · איפוס · כרום משותף · שש הרכיבות.
+   כל כלל ספציפי-לעמוד יושב ב-css/pages/.                            */
+
+@import url('fonts.css');
+
+/* ── 1 · אסימונים ─────────────────────────────────────────────────── */
 :root{
-  --paper:#f7f4ed; --paper-2:#efeae0; --paper-3:#e5dfd2;
-  --ink:#231f1c; --ink-2:#4e463f; --ink-3:#7d736a;
-  --rule:#d6cec0; --rule-2:#c2b8a6;
-  --accent:#a8322a;          /* קו אדום ארכיוני */
-  --accent-soft:#a8322a1a;
-  --gold:#8a6d34;
-  --moskal:#b5601a;          /* כתום כהה לצד אמא */
-  --albert:#5a5478;          /* סגול־ורשה לצד אבא */
-  --ok:#4a6a5a;               /* ירוק — סימון "מתועד ●" בלבד, לא צבע ענף */
-  --shadow:0 1px 2px #231f1c14, 0 6px 18px #231f1c0f;
-  --maxw:74rem;
-  --fs:clamp(1rem,.55vw + .88rem,1.14rem);
-  --serif:'Frank Ruhl','Frank Ruhl Libre','David Libre','Times New Roman',serif;
-  --sans:'Heebo','Assistant','Segoe UI',system-ui,sans-serif;
-}
-/* לטינית (אנגלית/פולנית): סריף עם כיסוי דיאקריטיקה פולנית מלא */
-:root:lang(en),:root:lang(pl){
-  --serif:'Iowan Old Style','Palatino Linotype','Book Antiqua','Georgia','Times New Roman',serif;
-  --sans:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',sans-serif;
-}
-@media (prefers-color-scheme:dark){
-  :root{--paper:#16140f;--paper-2:#1e1b16;--paper-3:#28241d;--ink:#ece5d8;--ink-2:#c3b9a8;
-        --ink-3:#8d8377;--rule:#3a352c;--rule-2:#4c463a;--accent:#d9695f;--accent-soft:#d9695f1f;
-        --gold:#c6a457;--moskal:#e08a45;--albert:#9c95c4;--ok:#7fae96;--shadow:0 1px 2px #0006,0 6px 20px #0004}
-}
-:root[data-theme=light]{--paper:#f7f4ed;--paper-2:#efeae0;--paper-3:#e5dfd2;--ink:#231f1c;--ink-2:#4e463f;
-  --ink-3:#7d736a;--rule:#d6cec0;--rule-2:#c2b8a6;--accent:#a8322a;--accent-soft:#a8322a1a;
-  --gold:#8a6d34;--moskal:#b5601a;--albert:#5a5478;--ok:#4a6a5a;--shadow:0 1px 2px #231f1c14,0 6px 18px #231f1c0f}
-:root[data-theme=dark]{--paper:#16140f;--paper-2:#1e1b16;--paper-3:#28241d;--ink:#ece5d8;--ink-2:#c3b9a8;
-  --ink-3:#8d8377;--rule:#3a352c;--rule-2:#4c463a;--accent:#d9695f;--accent-soft:#d9695f1f;
-  --gold:#c6a457;--moskal:#e08a45;--albert:#9c95c4;--ok:#7fae96;--shadow:0 1px 2px #0006,0 6px 20px #0004}
+  /* קיר ואובייקטים — הנייטרלים נוטים קלות לירוק, כדי שייקראו כבחירה */
+  --wall:#e3e5df;
+  --plinth:#f4f5f1;
+  --plinth-2:#eceee8;
+  --ink:#1e2320;
+  --ink-2:#4a504a;
+  --ink-3:#585e57;
+  --rule:#c9ccc3;
+  --rule-mid:#b3b8ae;
+  --rule-heavy:#1e2320;
+  --accent:#8c3b2e;            /* אדום ברזל — מצב נוכחי והדגשה בלבד */
+  --accent-soft:#8c3b2e14;
+  --on-accent:#fff;            /* טקסט על גבי הדגש — מתהפך עם הבהירות שלו */
 
+  /* צבעי ענף — נושאים מידע אמיתי ב-tree.js, במפה ובטבלת המסמכים.
+     לא נצבעים מחדש.                                                 */
+  --moskal:#b5601a;
+  --albert:#5a5478;
+  --ok:#4a6a5a;                /* «מתועד ●» */
+  /* גרסאות כהות לטקסט קטן בלבד — הגוון נשמר, הבהירות יורדת כדי
+     לעבור AA ב-0.78rem. הצבע הגרפי (הקו העליון) נשאר --moskal/--albert. */
+  --moskal-ink:#8f4a12;
+  --albert-ink:#4a4566;
+  --gold:#8a6d34;              /* «משוער ◐» */
+
+  --shadow-plinth:0 1px 1px #1e232014, 0 14px 28px -12px #1e232030;
+  --shadow-lift:0 2px 4px #1e232016, 0 22px 40px -14px #1e232038;
+
+  /* גופנים */
+  --font-he:'Heebo','Open Sans',system-ui,-apple-system,sans-serif;
+  --font-latin:'Archivo','Heebo',system-ui,-apple-system,sans-serif;
+  --mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:var(--font-he);
+  --serif:var(--font-he);      /* אין עוד סריף — נשמר כדי לא לשבור css/pages */
+
+  /* סולם טיפוגרפי — 1.25, מ-0.78rem ומעלה.
+     רצפה קשיחה: גוף לא מתחת ל-1.05rem, תווית לא מתחת ל-0.78rem.     */
+  --t-label:.78rem;
+  --t-small:.9rem;
+  --t-body:1.05rem;
+  --t-lede:1.18rem;
+  --t-h3:1.3rem;
+  --t-h2:clamp(1.5rem,2.4vw,1.95rem);
+  --t-h1:clamp(2.1rem,4vw,3rem);
+  --t-display:clamp(3rem,8vw,5.6rem);
+
+  --maxw:74rem;
+  --fs:var(--t-body);
+
+  /* שמות ישנים — css/pages עדיין מפנה אליהם. ממופים אל החדשים. */
+  --paper:var(--wall);
+  --paper-2:var(--plinth);
+  --paper-3:var(--plinth-2);
+  --rule-2:var(--rule-mid);
+  --shadow:var(--shadow-plinth);
+}
+
+:root:lang(en),:root:lang(pl){
+  --font-he:var(--font-latin);
+  --sans:var(--font-latin);
+  --serif:var(--font-latin);
+}
+
+/* כהה — מערכת עצמאית. הדגש מובהר ומופחת רוויה כדי להחזיק ניגודיות. */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --wall:#1a1d1b; --plinth:#232724; --plinth-2:#1e211f;
+    --ink:#e8eae4; --ink-2:#aeb4ac; --ink-3:#9aa098;
+    --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
+    --accent:#d4705e; --accent-soft:#d4705e1f; --on-accent:#1a1d1b;
+    --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
+    --moskal-ink:#eda162; --albert-ink:#b3ace0;
+    --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
+    --shadow-lift:0 2px 4px #0007, 0 22px 40px -14px #0009;
+  }
+}
+:root[data-theme=dark]{
+  --wall:#1a1d1b; --plinth:#232724; --plinth-2:#1e211f;
+  --ink:#e8eae4; --ink-2:#aeb4ac; --ink-3:#9aa098;
+  --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
+  --accent:#d4705e; --accent-soft:#d4705e1f; --on-accent:#1a1d1b;
+  --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
+  --moskal-ink:#eda162; --albert-ink:#b3ace0;
+  --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
+  --shadow-lift:0 2px 4px #0007, 0 22px 40px -14px #0009;
+}
+
+/* ── 2 · איפוס ובסיס ──────────────────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  /* הכיוון נקבע ע"י התכונה dir על <html> — עברית rtl, אנגלית/פולנית ltr */
-  margin:0; background:var(--paper); color:var(--ink);
-  font:var(--fs)/1.75 var(--serif); text-rendering:optimizeLegibility;
+  margin:0;
+  background:var(--wall);
+  color:var(--ink);
+  font:var(--fs)/1.7 var(--sans);
+  font-weight:400;
+  text-rendering:optimizeLegibility;
   -webkit-font-smoothing:antialiased;
-  background-image:radial-gradient(#00000005 1px,transparent 1px);background-size:3px 3px;
 }
-body.font-lg{--fs:1.3rem}
+body.font-lg{--fs:1.28rem;--t-body:1.28rem}
 
-/* ── ניווט ─────────────────────────────────────────────────── */
-.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 88%,transparent);
+main{max-width:var(--maxw);margin:auto;padding:2.4rem 1.5rem 5rem}
+.narrow{max-width:46rem}
+img{max-width:100%;height:auto}
+
+h1,h2,h3{text-wrap:balance;font-weight:900;letter-spacing:-.02em;color:var(--ink)}
+h1{font-size:var(--t-h1);line-height:1.1;margin:.2em 0 .4em}
+h2{font-size:var(--t-h2);line-height:1.2;margin:2.4em 0 .6em;
+   padding-bottom:.3em;border-bottom:2px solid var(--rule-heavy)}
+h3{font-size:var(--t-h3);font-weight:700;line-height:1.3;margin:2em 0 .4em}
+p{margin:0 0 1.05em;max-width:66ch}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
+.lede{font-size:var(--t-lede);color:var(--ink-2);line-height:1.75;max-width:62ch}
+.kicker{font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;
+  font-weight:700;color:var(--ink-3);margin:0 0 .4rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+blockquote{margin:1.6em 0;padding:.2em 1.15em;border-inline-start:3px solid var(--accent);
+  color:var(--ink-2)}
+blockquote .orig{display:block;font-size:.9em;color:var(--ink-3);margin-top:.5em;
+  direction:ltr;text-align:start;font-style:italic}
+blockquote cite{display:block;font-size:var(--t-label);color:var(--ink-3);font-style:normal;
+  margin-top:.55em;font-family:var(--mono)}
+
+/* ── 3 · כרום: פס עליון ────────────────────────────────────────────── */
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--wall) 90%,transparent);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
 .topbar-in{max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:1.25rem;
-  padding:.6rem 1.25rem;flex-wrap:wrap}
-.brand{font-weight:700;font-size:1.22rem;letter-spacing:.02em;text-decoration:none;color:var(--ink);
-  display:flex;align-items:center;gap:.5rem;white-space:nowrap}
-.brand::before{content:"";width:.42rem;height:1.3rem;background:var(--accent);border-radius:1px}
+  padding:.7rem 1.5rem;flex-wrap:wrap}
+.brand{font-size:1.15rem;font-weight:900;letter-spacing:-.01em;text-decoration:none;
+  color:var(--ink);white-space:nowrap}
 .tabs{display:flex;gap:.4rem;margin-inline-start:.5rem}
-.tab{padding:.36rem .85rem;border-radius:.45rem;text-decoration:none;color:var(--ink-2);
-  font-family:var(--sans);font-size:.93rem;border:1px solid transparent;transition:.15s}
-.tab:hover{background:var(--paper-2);color:var(--ink)}
-.tab.moskal.on{background:color-mix(in srgb,var(--moskal) 16%,transparent);color:var(--moskal);
-  border-color:color-mix(in srgb,var(--moskal) 35%,transparent);font-weight:700}
-.tab.albert.on{background:color-mix(in srgb,var(--albert) 16%,transparent);color:var(--albert);
-  border-color:color-mix(in srgb,var(--albert) 35%,transparent);font-weight:700}
-.navlinks{margin-inline-start:auto;display:flex;gap:.15rem;flex-wrap:wrap;align-items:center}
-.navlinks a{padding:.3rem .6rem;border-radius:.4rem;text-decoration:none;color:var(--ink-3);
-  font-family:var(--sans);font-size:.86rem}
-.navlinks a:hover{color:var(--ink);background:var(--paper-2)}
-.navlinks a[aria-current=page]{color:var(--ink);font-weight:700}
-.iconbtn{background:none;border:1px solid var(--rule);border-radius:.4rem;color:var(--ink-3);
-  cursor:pointer;padding:.25rem .5rem;font-size:.9rem;font-family:var(--sans)}
-.iconbtn:hover{color:var(--ink);border-color:var(--rule-2)}
+.tab{padding:.36rem .8rem;text-decoration:none;color:var(--ink-2);font-size:var(--t-small);
+  font-weight:500;border-bottom:2px solid transparent;transition:.15s}
+.tab:hover{color:var(--ink)}
+.tab.moskal.on{color:var(--moskal);border-bottom-color:var(--moskal);font-weight:700}
+.tab.albert.on{color:var(--albert);border-bottom-color:var(--albert);font-weight:700}
+.navlinks{margin-inline-start:auto;display:flex;gap:.2rem;flex-wrap:wrap;align-items:center}
+.navlinks a{padding:.3rem .6rem;text-decoration:none;color:var(--ink-3);
+  font-size:var(--t-label);font-weight:500;border-bottom:2px solid transparent}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a[aria-current=page]{color:var(--ink);font-weight:700;border-bottom-color:var(--accent)}
+.iconbtn{background:none;border:1px solid var(--rule);border-radius:.3rem;color:var(--ink-3);
+  cursor:pointer;padding:.25rem .5rem;font:var(--t-label)/1.4 var(--sans)}
+.iconbtn:hover{color:var(--ink);border-color:var(--rule-mid)}
 
-/* ── אשכול פקדים: שפה, תצוגה, גופן — קבוע בקצה הפס העליון (sticky) ── */
-.ctrl{display:flex;gap:.4rem;align-items:center;direction:ltr;margin-inline-start:.5rem;
-  flex-shrink:0}
-.langsw{display:inline-flex;border:1px solid var(--rule);border-radius:.4rem;overflow:hidden}
-.langsw a{display:flex;align-items:center;padding:.3rem .45rem;font-family:var(--sans);
-  font-size:.8rem;letter-spacing:.03em;text-decoration:none;color:var(--ink-3);
-  border-inline-start:1px solid var(--rule);background:none;transition:.14s}
+.ctrl{display:flex;gap:.4rem;align-items:center;direction:ltr;margin-inline-start:.5rem;flex-shrink:0}
+.langsw{display:inline-flex;border:1px solid var(--rule);border-radius:.3rem;overflow:hidden}
+.langsw a{display:flex;align-items:center;padding:.3rem .45rem;font-size:var(--t-label);
+  letter-spacing:.03em;text-decoration:none;color:var(--ink-3);
+  border-inline-start:1px solid var(--rule);transition:.14s}
 .langsw a:first-child{border-inline-start:0}
-.langsw a:hover{background:var(--paper-2)}
-.langsw a[aria-current=true]{background:var(--paper-2);box-shadow:inset 0 -2px 0 var(--accent)}
+.langsw a:hover{background:var(--plinth)}
+.langsw a[aria-current=true]{background:var(--plinth);box-shadow:inset 0 -2px 0 var(--accent)}
 .langsw svg{width:21px;height:15px;display:block;border-radius:2px;
   box-shadow:0 0 0 1px color-mix(in srgb,var(--ink) 14%,transparent)}
 .langsw a:not([aria-current=true]) svg{opacity:.72}
 .langsw a:hover svg{opacity:1}
 @media print{.ctrl{display:none}}
 
-/* ── פריסה וטיפוגרפיה ──────────────────────────────────────── */
-main{max-width:var(--maxw);margin:auto;padding:2rem 1.25rem 5rem}
-.narrow{max-width:44rem}
-h1{font-size:clamp(1.9rem,3.2vw,2.7rem);line-height:1.22;margin:.2em 0 .35em;font-weight:700;
-  letter-spacing:-.01em}
-h2{font-size:clamp(1.35rem,2vw,1.72rem);margin:2.4em 0 .5em;line-height:1.3;
-  padding-bottom:.28em;border-bottom:1px solid var(--rule)}
-h3{font-size:1.16rem;margin:1.9em 0 .4em;color:var(--ink-2)}
-p{margin:0 0 1.05em}
-a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
-.lede{font-size:1.16em;color:var(--ink-2);line-height:1.7}
-.kicker{font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-3);margin:0 0 .3rem}
-blockquote{margin:1.6em 0;padding:.2em 1.15em;border-inline-start:3px solid var(--accent);
-  color:var(--ink-2);font-style:normal}
-blockquote .orig{display:block;font-size:.9em;color:var(--ink-3);margin-top:.5em;
-  direction:ltr;text-align:start;font-style:italic}
-blockquote cite{display:block;font-size:.82em;color:var(--ink-3);font-style:normal;margin-top:.55em;
-  font-family:var(--sans)}
-
-/* ── דירוג ודאות ───────────────────────────────────────────── */
-.g{font-size:.78em;vertical-align:.15em;cursor:help;font-family:var(--sans)}
-.g-documented{color:var(--ok)}  .g-documented::after{content:"●"}
-.g-probable  {color:var(--gold)}    .g-probable::after{content:"◐"}
-.g-inference {color:var(--ink-3)}   .g-inference::after{content:"○"}
-.conflict{display:block;margin:.9em 0;padding:.65em .9em;border:1px solid var(--rule-2);
-  border-inline-start:3px solid var(--gold);border-radius:.35rem;background:var(--paper-2);
-  font-size:.92em;color:var(--ink-2)}
-
-/* ── כרטיסים ורשתות ────────────────────────────────────────── */
-.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
-.card{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;padding:1rem 1.1rem;
-  text-decoration:none;color:inherit;display:block;transition:.16s;box-shadow:var(--shadow)}
-.card:hover{transform:translateY(-2px);border-color:var(--rule-2)}
-.card h3{margin:.1rem 0 .35rem;font-size:1.05rem;color:var(--ink)}
-.card p{margin:0;font-size:.9rem;color:var(--ink-3);line-height:1.55}
-.card.moskal{border-top:3px solid var(--moskal)}
-.card.albert{border-top:3px solid var(--albert)}
-
-table{border-collapse:collapse;width:100%;margin:1.4em 0;font-size:.94em}
-th,td{text-align:start;padding:.5em .7em;border-bottom:1px solid var(--rule);vertical-align:top}
-th{font-family:var(--sans);font-size:.85em;color:var(--ink-3);font-weight:600;
-  border-bottom:1.5px solid var(--rule-2)}
-
-/* ── כלים ──────────────────────────────────────────────────── */
-.toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:1.1rem 0;
-  font-family:var(--sans);font-size:.9rem}
-.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:.5rem;overflow:hidden}
-.seg button{background:var(--paper-2);border:0;padding:.42rem .85rem;cursor:pointer;color:var(--ink-2);
-  font-family:var(--sans);font-size:.88rem;border-inline-start:1px solid var(--rule)}
-.seg button:first-child{border-inline-start:0}
-.seg button[aria-pressed=true]{background:var(--accent);color:#fff;font-weight:600}
-input[type=search],input[type=text],select{font:inherit;font-family:var(--sans);font-size:.92rem;
-  padding:.42rem .7rem;border:1px solid var(--rule-2);border-radius:.45rem;background:var(--paper);
-  color:var(--ink);min-width:12rem}
-input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-
-footer{border-top:1px solid var(--rule);margin-top:4rem;padding:1.6rem 1.25rem 3rem;
-  color:var(--ink-3);font-size:.86rem;font-family:var(--sans)}
+footer{border-top:1px solid var(--rule);margin-top:4rem;padding:1.8rem 1.5rem 3rem;
+  color:var(--ink-3);font-size:var(--t-label)}
 footer .in{max-width:var(--maxw);margin:auto}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-@media (max-width:640px){.navlinks{width:100%;margin:0}.topbar-in{gap:.6rem}
-  .ctrl{margin-inline-start:auto}}
+
+/* ══ 4 · שש הרכיבות ═══════════════════════════════════════════════ */
+
+/* 4.1 · בסיס — משטח מורם, שפה עליונה בצבע הענף, ציטוט ברגל */
+.plinth{display:block;background:var(--plinth);color:inherit;text-decoration:none;
+  padding:1.7rem 1.6rem 1.5rem;border-top:4px solid var(--rule-mid);
+  box-shadow:var(--shadow-plinth);transition:transform .12s ease,box-shadow .12s ease}
+.plinth.moskal{border-top-color:var(--moskal)}
+.plinth.albert{border-top-color:var(--albert)}
+a.plinth:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+.plinth .tag{font-size:var(--t-label);letter-spacing:.12em;font-weight:700;color:var(--ink-3)}
+.plinth.moskal .tag{color:var(--moskal-ink)}
+.plinth.albert .tag{color:var(--albert-ink)}
+.plinth h2,.plinth h3{margin:.5rem 0 .45rem;border:0;padding:0;font-size:1.65rem;
+  font-weight:900;letter-spacing:-.02em}
+.plinth p{margin:0 0 .6rem;color:var(--ink-2);font-size:var(--t-small)}
+.plinth .places{font-size:var(--t-small);color:var(--ink-3);line-height:1.7}
+.plinths{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:2rem 0}
+@media (max-width:760px){.plinths{grid-template-columns:1fr}}
+
+/* 4.2 · מפקד — שורת מספרים גדולים מעל קו כבד */
+.tally{display:flex;gap:2.4rem;flex-wrap:wrap;margin:.3rem 0 2rem;padding-top:1.1rem;
+  border-top:2px solid var(--rule-heavy)}
+.tally div b{display:block;font-size:2.1rem;font-weight:900;letter-spacing:-.02em;line-height:1;
+  font-variant-numeric:tabular-nums;color:var(--ink)}
+.tally div span{font-size:var(--t-label);letter-spacing:.06em;color:var(--ink-3);font-weight:500}
+
+/* 4.3 · שורת מפתח — מספר, כותרת + תת-כותרת, מונה מיושר לקצה */
+.index{border-top:1px solid var(--rule);margin:1.8rem 0}
+.index-row{display:grid;grid-template-columns:3.4rem 1fr auto;gap:1.4rem;align-items:baseline;
+  padding:1.1rem .4rem;border-bottom:1px solid var(--rule);text-decoration:none;color:inherit;
+  transition:background .12s}
+a.index-row:hover{background:var(--plinth)}
+.index-row .no{font:var(--t-label)/1 var(--mono);color:var(--accent);letter-spacing:.06em;
+  font-variant-numeric:tabular-nums}
+.index-row h2,.index-row h3{margin:0;border:0;padding:0;font-size:1.25rem;font-weight:700;
+  letter-spacing:-.01em}
+.index-row .sub{display:block;font-size:var(--t-label);font-weight:400;color:var(--ink-3);
+  margin-top:.25rem;line-height:1.6}
+.index-row .count{font:var(--t-label)/1 var(--mono);color:var(--ink-3);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.index-row.moskal h2,.index-row.moskal h3{color:var(--moskal-ink)}
+.index-row.albert h2,.index-row.albert h3{color:var(--albert-ink)}
+@media (max-width:560px){
+  .index-row{grid-template-columns:2.6rem 1fr;gap:.9rem}
+  .index-row .count{grid-column:2;margin-top:.3rem}
+}
+
+/* 4.4 · ציטוט — תמיד גלוי, לעולם לא מאחורי ריחוף */
+.cite{display:block;font:var(--t-label)/1.5 var(--mono);color:var(--ink-3);
+  font-variant-numeric:tabular-nums;direction:ltr;text-align:start;
+  overflow-wrap:anywhere}   /* ציטוטים ארוכים חייבים להישבר, אחרת גולשים במובייל */
+.plinth .cite{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--rule)}
+:lang(he) .cite{text-align:right}
+
+/* 4.5 · מסגרת פריט — סריקה, מצבה, תעודה */
+.artifact{margin:2rem 0;background:var(--plinth);border:1px solid var(--rule);
+  box-shadow:var(--shadow-plinth)}
+.artifact img{display:block;width:100%}
+.artifact figcaption{padding:.9rem 1.1rem;font-size:var(--t-small);color:var(--ink-2);
+  border-top:1px solid var(--rule)}
+.artifact figcaption .cite{margin-top:.4rem}
+
+/* 4.6 · דירוג ודאות — נשאר כפי שהיה, נושא מידע */
+.g{font-size:.8em;vertical-align:.15em;cursor:help}
+.g-documented{color:var(--ok)}  .g-documented::after{content:"●"}
+.g-probable  {color:var(--gold)} .g-probable::after{content:"◐"}
+.g-inference {color:var(--ink-3)} .g-inference::after{content:"○"}
+.conflict{display:block;margin:.9em 0;padding:.7em .95em;background:var(--plinth);
+  border-inline-start:3px solid var(--gold);font-size:var(--t-small);color:var(--ink-2)}
+
+/* ── 5 · טבלאות, כלים, טפסים ──────────────────────────────────────── */
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
+.card{background:var(--plinth);border:0;border-top:3px solid var(--rule-mid);padding:1.1rem 1.2rem;
+  text-decoration:none;color:inherit;display:block;box-shadow:var(--shadow-plinth);
+  transition:transform .12s ease,box-shadow .12s ease}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+.card h3{margin:.1rem 0 .35rem;font-size:1.05rem;color:var(--ink)}
+.card p{margin:0;font-size:var(--t-small);color:var(--ink-3);line-height:1.55}
+.card.moskal{border-top-color:var(--moskal)}
+.card.albert{border-top-color:var(--albert)}
+
+table{border-collapse:collapse;width:100%;margin:1.4em 0;font-size:var(--t-small);
+  font-variant-numeric:tabular-nums}
+th,td{text-align:start;padding:.6em .8em;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:var(--t-label);color:var(--ink-3);font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;border-bottom:2px solid var(--rule-heavy)}
+
+.toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:1.2rem 0;
+  font-size:var(--t-small)}
+.seg{display:inline-flex;border:1px solid var(--rule-mid);border-radius:.3rem;overflow:hidden}
+.seg button{background:var(--plinth);border:0;padding:.44rem .9rem;cursor:pointer;color:var(--ink-2);
+  font:500 var(--t-small)/1.4 var(--sans);border-inline-start:1px solid var(--rule)}
+.seg button:first-child{border-inline-start:0}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);font-weight:700}
+input[type=search],input[type=text],select{font:var(--t-small)/1.5 var(--sans);
+  padding:.5rem .8rem;border:1px solid var(--rule-mid);border-radius:.3rem;background:var(--plinth);
+  color:var(--ink);min-width:12rem}
+input:focus-visible,button:focus-visible,a:focus-visible,[tabindex]:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px}
+
+/* ── 6 · תנועה: רגע אחד מתוזמר בטעינה, וזהו ───────────────────────── */
+@media (prefers-reduced-motion:no-preference){
+  .reveal>*{animation:vitrine-rise .42s cubic-bezier(.2,.6,.3,1) both}
+  .reveal>*:nth-child(1){animation-delay:.02s}
+  .reveal>*:nth-child(2){animation-delay:.10s}
+  .reveal>*:nth-child(3){animation-delay:.18s}
+  .reveal>*:nth-child(4){animation-delay:.26s}
+  .reveal>*:nth-child(n+5){animation-delay:.32s}
+}
+@keyframes vitrine-rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (max-width:640px){
+  .navlinks{width:100%;margin:0}
+  .topbar-in{gap:.6rem}
+  .ctrl{margin-inline-start:auto}
+  main{padding:1.8rem 1.1rem 4rem}
+  .tally{gap:1.4rem}
+}
