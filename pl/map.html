@@ -14,27 +14,9 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/map.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/map.html">
 <link rel="stylesheet" href="../css/main.css?v=20260815d">
+<link rel="stylesheet" href="../css/pages/map.css?v=20260821a">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<style>
-#map{width:100%;height:min(74vh,680px);border:1px solid var(--rule);border-radius:.6rem;
-  background:var(--paper-2)}
-.legend2{display:flex;gap:1.3rem;flex-wrap:wrap;margin:.8rem 0 1.1rem;font-family:var(--sans);
-  font-size:.86rem;color:var(--ink-2)}
-.dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-inline-end:.35rem}
-.dot.moskal{background:var(--moskal)} .dot.albert{background:var(--albert)}
-.leaflet-popup-content-wrapper{direction:rtl;font-family:var(--sans);border-radius:.5rem}
-.pop h4{margin:.1em 0;font-size:1.02rem;font-family:'Frank Ruhl',serif}
-.pop .lat{margin:.15em 0;font-size:.82rem;color:#777;direction:ltr;text-align:right}
-.pop p{margin:.3em 0;font-size:.86rem;line-height:1.5}
-.pop a{font-size:.85rem}
-/* Leaflet tiles darken slightly under our dark theme so the page doesn't glare */
-:root[data-theme=dark] #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme=light]) #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
-}
-.attrib{font-size:.78rem;color:var(--ink-3);margin-top:.5rem;font-family:var(--sans)}
-</style>
 </head>
 <body>
 <header class="topbar"><div class="topbar-in">
