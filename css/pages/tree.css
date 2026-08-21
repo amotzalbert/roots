@@ -98,3 +98,9 @@
 .pcard .yrs,.pcard small,.phead .lat{font-family:var(--mono);
   font-variant-numeric:tabular-nums;font-size:var(--t-label)}
 .gradepill{border-radius:.2rem;font-family:var(--sans);font-weight:700}
+
+/* ── שברים שאינם מחוברים לשושלת הראשית ──────────────────────────
+   מסומנים במפורש: קו מקווקו ותווית. זה פער מחקר, לא תקלת ציור,
+   ואסור שייראה כמו רעש. */
+.frag-frame{fill:none;stroke:var(--rule-mid);stroke-width:1.5;stroke-dasharray:7 5}
+.frag-label{font:700 13px var(--sans);fill:var(--ink-3);letter-spacing:.04em}

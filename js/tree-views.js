@@ -9,7 +9,7 @@ const S = { people:new Map(), unions:[], places:new Map(), byChild:new Map(),
 const LANG = (document.documentElement.getAttribute('lang')||'he').slice(0,2);
 const RTL  = LANG === 'he';
 const T = {
-  he:{family:'משפחה',fan:'מניפה',pedigree:'פדיגרי',all:'כל האילן',gens:'דורות',
+  he:{family:'משפחה',fan:'מניפה',pedigree:'פדיגרי',all:'כל האילן',unlinked:'לא מחובר',gens:'דורות',
       born:'נולד/ה',died:'נפטר/ה',parents:'הורים',spouses:'בני זוג',children:'ילדים',
       find:'חיפוש אדם…',reset:'מרכוז',unknown:'לא ידוע',variants:'כתיבים במסמכים:',
       notes:n=>`הערות מחקר (${n})`,bio:'לפרק בספר →',
@@ -17,7 +17,7 @@ const T = {
       about:'בערך',before:'לפני',after:'אחרי',between:'בין',and:'ל־',
       hint:'גרירה להזזה · גלגלת לזום · לחיצה על כרטיס ממקדת',
       months:['ינו׳','פבר׳','מרץ','אפר׳','מאי','יוני','יולי','אוג׳','ספט׳','אוק׳','נוב׳','דצמ׳']},
-  en:{family:'Family',fan:'Fan chart',pedigree:'Pedigree',all:'Whole tree',gens:'Generations',
+  en:{family:'Family',fan:'Fan chart',pedigree:'Pedigree',all:'Whole tree',unlinked:'Not linked',gens:'Generations',
       born:'Born',died:'Died',parents:'Parents',spouses:'Spouse(s)',children:'Children',
       find:'Find a person…',reset:'Recentre',unknown:'unknown',variants:'Spellings in documents:',
       notes:n=>`Research notes (${n})`,bio:'Read the chapter →',
@@ -25,7 +25,7 @@ const T = {
       about:'about',before:'before',after:'after',between:'between',and:'and',
       hint:'Drag to pan · scroll to zoom · click a card to focus',
       months:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']},
-  pl:{family:'Rodzina',fan:'Wachlarz',pedigree:'Rodowód',all:'Całe drzewo',gens:'Pokolenia',
+  pl:{family:'Rodzina',fan:'Wachlarz',pedigree:'Rodowód',all:'Całe drzewo',unlinked:'Niepowiązane',gens:'Pokolenia',
       born:'Ur.',died:'Zm.',parents:'Rodzice',spouses:'Małżonkowie',children:'Dzieci',
       find:'Znajdź osobę…',reset:'Wyśrodkuj',unknown:'nieznane',variants:'Zapisy w dokumentach:',
       notes:n=>`Notatki badawcze (${n})`,bio:'Rozdział →',
@@ -334,6 +334,35 @@ function generationLevels(){
   return id => lvl.get(find(id)) || 0;
 }
 
+
+/* ── רכיבי קשירות ──────────────────────────────────────────────────
+   האילן אינו גוש אחד: יש קבוצות שנכנסו לתיק מאקטים אך החוליה
+   המקשרת אליהן טרם נמצאה. הן מסומנות ככאלה במפורש, כדי שייקראו
+   כפער מחקר ולא כתקלת ציור.                                       */
+function components(){
+  const up=new Map([...S.people.keys()].map(id=>[id,id]));
+  const find=x=>{ while(up.get(x)!==x){ up.set(x,up.get(up.get(x))); x=up.get(x);} return x; };
+  const join=(a,b)=>{ a=find(a); b=find(b); if(a!==b) up.set(a,b); };
+  for(const u of S.unions){
+    const mem=[...u.spouses,...u.children].filter(x=>S.people.has(x));
+    for(let i=1;i<mem.length;i++) join(mem[0],mem[i]);
+  }
+  const size=new Map();
+  for(const id of S.people.keys()){ const c=find(id); size.set(c,(size.get(c)||0)+1); }
+  return {of:find,size};
+}
+/* שם המשפחה השכיח בקבוצה — כדי שהתווית תגיד משהו */
+function commonSurname(ids){
+  const c=new Map();
+  for(const id of ids){
+    const p=S.people.get(id); if(!p) continue;
+    const s=(p.names&&(p.names.surname||''))||'';
+    if(s) c.set(s,(c.get(s)||0)+1);
+  }
+  let best='',n=0; for(const [s,k] of c) if(k>n){best=s;n=k;}
+  return best;
+}
+
 /* ══ תצוגה 4 — כל האילן ══════════════════════════════════════════
    שושלת קיר: כל אדם פעם אחת, זוגות זה לצד זה, דור בכל שורה.
    הרוחב נמדד מלמטה למעלה — בלוק רחב כרוחב ילדיו או כרוחב הזוג,
@@ -376,12 +405,24 @@ function drawAll(root){
      נקרעים לשני מקומות רחוקים במקום לשבת זה לצד זה אצל ההורים. */
   const isRoot = id => parentsOf(id).length===0 &&
                        !spousesOf(id).some(s=>parentsOf(s).length>0);
-  const roots=[...S.people.keys()].filter(isRoot);
-  let cx=0;
-  for(const id of roots){ const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; } }
-  /* מי שנותר בלי הורים ולא נבלע כבן זוג — בלוק משלו */
-  for(const id of [...S.people.keys()].filter(id=>!seen.has(id)&&parentsOf(id).length===0)){
-    const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; }
+  const comp=components();
+  const main=[...comp.size.entries()].sort((a,b)=>b[1]-a[1])[0][0];
+  /* השורשים מקובצים לפי רכיב, והרכיב הראשי ראשון */
+  const byComp=new Map();
+  for(const id of [...S.people.keys()].filter(isRoot)){
+    const c=comp.of(id); if(!byComp.has(c)) byComp.set(c,[]); byComp.get(c).push(id);
+  }
+  const order=[...byComp.keys()].sort((a,b)=>(a===main?-1:b===main?1:comp.size.get(b)-comp.size.get(a)));
+  const GAPC=SIB*6;
+  const regions=[]; let cx=0;
+  for(const c of order){
+    const x0=cx;
+    for(const id of byComp.get(c)){ const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; } }
+    for(const id of [...S.people.keys()].filter(id=>!seen.has(id)&&comp.of(id)===c)){
+      const b=build(id,0); if(b){ place(b,cx); cx+=b.w+SIB; }
+    }
+    regions.push({c,x0,x1:cx-SIB,main:c===main,size:comp.size.get(c)});
+    cx+=GAPC;
   }
   /* מי שלא נתפס (מעגל או מנותק) — שורה נפרדת מתחת, כדי שלא ייעלם */
   const rest=[...S.people.keys()].filter(id=>!placed.has(id));
@@ -397,6 +438,22 @@ function drawAll(root){
     const a=b.kids.map(k=>k.rx+CWa/2);
     if(a.length>1) line(`M${Math.min(...a)},${jy} H${Math.max(...a)}`);
     for(const k of b.kids) line(`M${k.rx+CWa/2},${jy} V${level(k.row[0])*GYn}`);
+  }
+  /* מסגרת מקווקוות + תווית לכל שבר שאינו הרכיב הראשי */
+  for(const r of regions){
+    if(r.main) continue;
+    const ids=[...placed.keys()].filter(id=>comp.of(id)===r.c);
+    if(!ids.length) continue;
+    const xs=ids.map(id=>placed.get(id).x), ys=ids.map(id=>placed.get(id).y);
+    const x0=Math.min(...xs)-14, x1=Math.max(...xs)+CWa+14;
+    const y0=Math.min(...ys)-34, y1=Math.max(...ys)+CHa+14;
+    root.appendChild(el('rect',{class:'frag-frame',x:x0,y:y0,
+      width:x1-x0,height:y1-y0,rx:6}));
+    const sn=commonSurname(ids);
+    const t=el('text',{class:'frag-label',x:RTL?x1-10:x0+10,y:y0+20,
+      'text-anchor':RTL?'end':'start'});
+    t.textContent=`${T.unlinked} · ${sn||'—'} · ${ids.length}`;
+    root.appendChild(t);
   }
   for(const [id,pt] of placed){
     const p=S.people.get(id); if(!p) continue;
