@@ -380,10 +380,14 @@ function drawAll(root){
   function build(pid,depth){
     if(seen.has(pid)||!S.people.get(pid)) return null;
     seen.add(pid);
+    /* בן/בת זוג נבלע לשורה כאן רק אם אין לו הורים ידועים. מי שיש לו
+       הורים מוצב תחת הוריו — אחרת הקשר אליהם היה נעלם מהציור. */
     const partners=[];
     for(const u of unionsOf(pid))
       for(const s of u.spouses)
-        if(s!==pid && !seen.has(s) && S.people.get(s)){ seen.add(s); partners.push(s); }
+        if(s!==pid && !seen.has(s) && S.people.get(s) && parentsOf(s).length===0){
+          seen.add(s); partners.push(s);
+        }
     const row=[pid,...partners];
     const rowW=row.length*CWa+(row.length-1)*GXn;
     const kids=[];
@@ -429,15 +433,29 @@ function drawAll(root){
   const oy=(Math.max(0,...[...S.people.keys()].map(level))+1)*GYn+40;
   rest.forEach((id,i)=>placed.set(id,{x:i*(CWa+GXn),y:oy}));
 
-  for(const b of blocks){
-    for(let i=1;i<b.row.length;i++)
-      line(`M${b.rx+(i-1)*(CWa+GXn)+CWa},${level(b.row[i])*GYn+CHa/2} H${b.rx+i*(CWa+GXn)}`,'spouse');
-    if(!b.kids.length) continue;
-    const y0=level(b.row[0])*GYn+CHa, jy=y0+(GYn-CHa)/2;
-    line(`M${b.rx+b.rowW/2},${y0} V${jy}`);
-    const a=b.kids.map(k=>k.rx+CWa/2);
-    if(a.length>1) line(`M${Math.min(...a)},${jy} H${Math.max(...a)}`);
-    for(const k of b.kids) line(`M${k.rx+CWa/2},${jy} V${level(k.row[0])*GYn}`);
+  /* ── קווים מתוך האיחודים, לא ממבנה הבלוקים ────────────────────
+     כך אף קשר מהגדקום לא יכול ליפול בין הכיסאות: מי שהוצב כבן־זוג
+     במקום אחר עדיין מקבל את הקו אל הוריו.                        */
+  const cx_=id=>placed.get(id).x+CWa/2, cy_=id=>placed.get(id).y;
+  for(const u of S.unions){
+    const ps=u.spouses.filter(s=>placed.has(s));
+    const ks=u.children.filter(c=>placed.has(c));
+    /* קו זוגיות — ישר אם באותה שורה, אחרת מרפק */
+    for(let i=1;i<ps.length;i++){
+      const a=ps[i-1], b=ps[i];
+      if(cy_(a)===cy_(b)) line(`M${cx_(a)},${cy_(a)+CHa/2} H${cx_(b)}`,'spouse');
+      else{ const my=Math.min(cy_(a),cy_(b))-14;
+            line(`M${cx_(a)},${cy_(a)} V${my} H${cx_(b)} V${cy_(b)}`,'spouse'); }
+    }
+    if(!ks.length||!ps.length) continue;
+    const py=Math.max(...ps.map(cy_))+CHa;
+    const mid=ps.reduce((s,x)=>s+cx_(x),0)/ps.length;
+    const jy=py+(GYn-CHa)/2;
+    line(`M${mid},${py} V${jy}`);
+    const xs=ks.map(cx_);
+    if(ks.length>1||Math.abs(xs[0]-mid)>1)
+      line(`M${Math.min(mid,...xs)},${jy} H${Math.max(mid,...xs)}`);
+    for(const c of ks) line(`M${cx_(c)},${jy} V${cy_(c)}`);
   }
   /* מסגרת מקווקוות + תווית לכל שבר שאינו הרכיב הראשי */
   for(const r of regions){
