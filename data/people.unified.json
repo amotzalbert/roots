@@ -5254,7 +5254,8 @@
   },
   "occupation": "Farmer (rolnik)",
   "notes": [
-   "_CONF PROVEN ancestor since 4 Aug 2026: marriage act 1/1878 Wojslawice names Dawid-Szloma\nMoskal as son of THE LATE LEJBA AND BRANDLYA NEE EIL, Moskal spouses - the very household\nbelow. Earlier assessment (kept for the record): A documented Moskal farming household in the villages\nimmediately around Wojslawice, 1842-1889, headed by Lejba Moskal (b. c.1817) and his wife\nBraina/Brandla. Children recorded: Kielman 1842, Hana 1844 (of Teratyn), Abram Moszko 1848,\nJankiel 1851, Dawid Szloma 1854, Henia (m. an Erlich 1867), plus marriages of Abram Moszko\n1866 (of Krasniczyn, Wojslawice district), Abram Hersz 1876 and Aron Moszko 1881.\nTWO REASONS TO PURSUE: (1) the given name - David's father was Lejb, and Ashkenazi families\nnamed children after dead grandparents, so a Lejb born in the 1870s is what a Lejba of 1817\nproduces two generations down. (2) DISPROVED, kept for the record: I suspected the\nmother's maiden name \"Eil\"/\"Ajl\" was a clerk's abbreviation of AJLSPEKTOR/ALSPEKTOR,\nwhich would have put a Moskal-Alspektor marriage in the 1840s. It is not. Marriage act\n1/1882 Wojslawice shows AJL as a standalone Wojslawice surname with its own household -\nMoszek Ajl married to Malka nee Kriger. Brandla was an Ajl, full stop.\n>>> TO RESOLVE: register images. Source: JRI-Poland index records."
+   "_CONF PROVEN ancestor since 4 Aug 2026: marriage act 1/1878 Wojslawice names Dawid-Szloma\nMoskal as son of THE LATE LEJBA AND BRANDLYA NEE EIL, Moskal spouses - the very household\nbelow. Earlier assessment (kept for the record): A documented Moskal farming household in the villages\nimmediately around Wojslawice, 1842-1889, headed by Lejba Moskal (b. c.1817) and his wife\nBraina/Brandla. Children recorded: Kielman 1842, Hana 1844 (of Teratyn), Abram Moszko 1848,\nJankiel 1851, Dawid Szloma 1854, Henia (m. an Erlich 1867), plus marriages of Abram Moszko\n1866 (of Krasniczyn, Wojslawice district), Abram Hersz 1876 and Aron Moszko 1881.\nTWO REASONS TO PURSUE: (1) the given name - David's father was Lejb, and Ashkenazi families\nnamed children after dead grandparents, so a Lejb born in the 1870s is what a Lejba of 1817\nproduces two generations down. (2) DISPROVED, kept for the record: I suspected the\nmother's maiden name \"Eil\"/\"Ajl\" was a clerk's abbreviation of AJLSPEKTOR/ALSPEKTOR,\nwhich would have put a Moskal-Alspektor marriage in the 1840s. It is not. Marriage act\n1/1882 Wojslawice shows AJL as a standalone Wojslawice surname with its own household -\nMoszek Ajl married to Malka nee Kriger. Brandla was an Ajl, full stop.\n>>> TO RESOLVE: register images. Source: JRI-Poland index records.",
+   ">>> HIS PARENTS ARE NOT ENTERED, DELIBERATELY. Uchanie marriage act 1/1839 calls him\n\"Lejbus LEYBOWICZ, son of Herszek Leybowicz and CHAJA\" of Krasniczyn - patronymics,\nno surname. Wojslawice death act 29/1847 names a MOSZKO MOSKAL @I1146@, aged 27, of\nthe same village and the same trade, \"son of HERSZEK and SURA, SPOUSES MOSKAL, OF\nKRASNICZYN\". That act is the first document ever to write MOSKAL on that generation,\nand it makes Lejba and Moszko very probably brothers.\n** But the bridge \"Lejbus Leybowicz = Lejba Moskal\" is still INFERENCE, and the\nmother's name differs between the two acts (Chaja in 1839, Sura in 1847). Until one\nof those is settled, Herszek @I1150@ and Sura @I1151@ are attached to Moszko ONLY. **\n>>> WHAT WOULD SETTLE IT: the 1839 allegata (fond 1781, sygn. 2/49, unit 1790469,\nnot yet digitised) should give Lejbus's birth extract with his surname and mother.\nAlready requested from AP Lublin."
   ],
   "grade": "documented",
   "sources": [
@@ -8395,5 +8396,169 @@
   "bioChapter": "moskal-szafir/bug",
   "gen": 3,
   "siteId": "p-dawid-szaufer"
+ },
+ {
+  "id": "p-moszko-moskal",
+  "gedcomId": "I1146",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Moszko Moskal",
+   "given": "Moszko",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1820",
+   "place": "Krasniczyn, Krasnystaw, Lublin, Poland"
+  },
+  "death": {
+   "date": "21 SEP 1847",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "occupation": "wyrobnik (day-labourer)",
+  "notes": [
+   "ADDED 21 Aug 2026. FOUND 19 Aug 2026 in the complete sweep of the 1840-1847 gap in\nthe Wojslawice death register (1841, 1842, 1845, 1846, 1847 read in full; 1840 does\nnot exist in the fond). He is the ONLY Moskal in those five years.\n>>> WHY HE MATTERS: his act is the FIRST AND ONLY document that writes the surname\nMOSKAL on Herszek's generation. Uchanie marriage act 1/1839 calls our Lejba's father\n\"Herszek Leybowicz\" - a patronymic, no surname. Same village (Krasniczyn), same\ntrade (wyrobek), sons born ~1818 and ~1820.\n** He is therefore very probably LEJBA'S BROTHER - but see @I1036@: that bridge is\nNOT yet proven and no link has been drawn. **"
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sura-erlich",
+  "gedcomId": "I1147",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Sura Erlich",
+   "given": "Sura",
+   "surname": "Erlich",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "wyrobnica (day-labourer) - a widow supporting herself, 1854",
+  "notes": [
+   "ADDED 21 Aug 2026. Moszko's WIDOW, alive in 1849 and still in 1854.\n** \"z ERLICHOW\" is written out in BOTH children's death acts (16/1849 and 7/1854),\nso the maiden name is act-grade, not index-grade. **\n>>> DO NOT CONFUSE WITH SURA, MOSZKO'S MOTHER @I1149@ - two different women in the\nsame household, one generation apart. The warning is in the sources themselves."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-hersz-jozef-moskal",
+  "gedcomId": "I1148",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Hersz-Jozef Moskal",
+   "given": "Hersz-Jozef",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1843",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": {
+   "date": "29 MAR 1854",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szyfra-moskal",
+  "gedcomId": "I1149",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Szyfra Moskal",
+   "given": "Szyfra",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1846",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": {
+   "date": "30 JUN 1849",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-herszek-moskal",
+  "gedcomId": "I1150",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Herszek Moskal",
+   "given": "Herszek",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ADDED 21 Aug 2026 as the father of MOSZKO @I1146@ ONLY.\n** GRADE: documented as a named parent in death act 29/1847 - \"HERSZEK AND SURA,\nSPOUSES MOSKAL, OF KRASNICZYN\". The act does not call him \"niegdy\" (the late),\nso he may still have been alive in 1847. **\n>>> NOT linked to Lejba @I1036@. See the note there.\n>>> STRONG NEGATIVE: there is NO death of a Herszek Moskal or Herszek Leybowicz in\nthe Wojslawice register, ever - 1838, 1839, 1841-1848 and 1848-1884 have all been\nswept, and the indexes count every death of their year. He died outside the\nWojslawice district, or in one of the two lost volumes (1840, 1865).\n>>> His own generation is NOT reachable through Krasniczyn: that register (fond 1747)\nbegins only in 1826, and his sons were born ~1818 and ~1820."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sura-moskal",
+  "gedcomId": "I1151",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Sura Moskal",
+   "given": "Sura",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ADDED 21 Aug 2026 as the mother of MOSZKO @I1146@ ONLY.\n** UNRESOLVED CONTRADICTION. ** Uchanie marriage act 1/1839 names the mother of\nLejbus Leybowicz as CHAJA, who was present and gave her consent. Death act 29/1847\nnames Moszko's mother as SURA. Three readings, none decided:\n(1) a double name, Chaja-Sura or Sura-Chaja - the simplest;\n(2) two marriages of Herszek, which would make Lejba and Moszko HALF-brothers;\n(3) two different Herszeks in Krasniczyn - least likely: same village, same trade,\nsame decade.\n>>> THE TEST would be a death act for Chaja or for Sura. NEITHER is in the\nWojslawice death indexes for 1841-1848 or 1848-1884. Two unread candidates remain:\nMuskal Fryjna, death 16/1849, and Moskal Perla, death 16/1873.\n>>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]

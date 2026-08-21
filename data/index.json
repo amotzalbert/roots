@@ -2000,6 +2000,54 @@
   "terms": "דוד שאפיר Dawid Szaufer Schafir Szajfer"
  },
  {
+  "id": "p-moszko-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Moszko Moskal",
+  "sub": "",
+  "terms": "Moszko Moskal 1820 1847"
+ },
+ {
+  "id": "p-sura-erlich",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Sura Erlich",
+  "sub": "",
+  "terms": "Sura Erlich"
+ },
+ {
+  "id": "p-hersz-jozef-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Hersz-Jozef Moskal",
+  "sub": "",
+  "terms": "Hersz-Jozef Moskal 1843 1854"
+ },
+ {
+  "id": "p-szyfra-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Szyfra Moskal",
+  "sub": "",
+  "terms": "Szyfra Moskal 1846 1849"
+ },
+ {
+  "id": "p-herszek-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Herszek Moskal",
+  "sub": "",
+  "terms": "Herszek Moskal"
+ },
+ {
+  "id": "p-sura-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Sura Moskal",
+  "sub": "",
+  "terms": "Sura Moskal"
+ },
+ {
   "id": "pl-wojslawice",
   "type": "place",
   "branch": "moskal",

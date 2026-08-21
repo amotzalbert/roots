@@ -4117,6 +4117,18 @@
 2 CONT >>> TO RESOLVE: register images. Source: JRI-Poland index records.
 1 SOUR @S1008@
 1 FAMS @F1012@
+1 NOTE >>> HIS PARENTS ARE NOT ENTERED, DELIBERATELY. Uchanie marriage act 1/1839 calls him
+2 CONT "Lejbus LEYBOWICZ, son of Herszek Leybowicz and CHAJA" of Krasniczyn - patronymics,
+2 CONT no surname. Wojslawice death act 29/1847 names a MOSZKO MOSKAL @I1146@, aged 27, of
+2 CONT the same village and the same trade, "son of HERSZEK and SURA, SPOUSES MOSKAL, OF
+2 CONT KRASNICZYN". That act is the first document ever to write MOSKAL on that generation,
+2 CONT and it makes Lejba and Moszko very probably brothers.
+2 CONT ** But the bridge "Lejbus Leybowicz = Lejba Moskal" is still INFERENCE, and the
+2 CONT mother's name differs between the two acts (Chaja in 1839, Sura in 1847). Until one
+2 CONT of those is settled, Herszek @I1150@ and Sura @I1151@ are attached to Moszko ONLY. **
+2 CONT >>> WHAT WOULD SETTLE IT: the 1839 allegata (fond 1781, sygn. 2/49, unit 1790469,
+2 CONT not yet digitised) should give Lejbus's birth extract with his surname and mother.
+2 CONT Already requested from AP Lublin.
 
 0 @I1037@ INDI
 1 NAME Braina /Eil/
@@ -6717,5 +6729,185 @@
 2 CONT Dawid (1890 group registration with Mendel and Srul-Lejb).
 2 CONT >>> AN INDEX IS NOT AN ACT. Both entries need the underlying act before they can be
 2 CONT graded "documented".
+
+0 @I1146@ INDI
+1 NAME Moszko /Moskal/
+2 GIVN Moszko
+2 SURN Moskal
+2 NOTE Written MASKAL in the 1847 death index and MUSKAL in his daughter's 1849 act.
+1 SEX M
+1 BIRT
+2 DATE ABT 1820
+2 PLAC Krasniczyn, Krasnystaw, Lublin, Poland
+2 NOTE Aged 27 at death in Sept 1847. His son's 1843 birth act says 30, which would give
+3 CONT ~1813; the 1846 act says 26 and the 1854 act on his son agrees with ~1820. The 1843
+3 CONT figure is treated as a clerk's slip - the two children's death acts name the same
+3 CONT couple, so this is ONE household, not two. Birthplace inferred from his parents'
+3 CONT residence, not stated.
+1 OCCU wyrobnik (day-labourer)
+1 DEAT
+2 DATE 21 SEP 1847
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE >>> DEATH ACT 29/1847 READ IN THE ORIGINAL. AP Lublin fond 35/1787, sygn. 2.1/12,
+3 CONT unit 2196515, scan 28, right-hand page (pp. 85-86).
+3 CONT "Died the Jew MOSZKO MOSKAL, WYROBNIK, resident here, TWENTY-SEVEN YEARS OF AGE,
+3 CONT SON OF HERSZEK AND SURA, SPOUSES MOSKAL, OF KRASNICZYN, leaving behind his
+3 CONT widowed wife SUSA MOSKAL." Declared 23 Sept 1847 by Ankiel Goldberg, glazier, 57,
+3 CONT and Moszka Honig, speculant, 49. Registrar Felix Dunajewski.
+1 NOTE ADDED 21 Aug 2026. FOUND 19 Aug 2026 in the complete sweep of the 1840-1847 gap in
+2 CONT the Wojslawice death register (1841, 1842, 1845, 1846, 1847 read in full; 1840 does
+2 CONT not exist in the fond). He is the ONLY Moskal in those five years.
+2 CONT >>> WHY HE MATTERS: his act is the FIRST AND ONLY document that writes the surname
+2 CONT MOSKAL on Herszek's generation. Uchanie marriage act 1/1839 calls our Lejba's father
+2 CONT "Herszek Leybowicz" - a patronymic, no surname. Same village (Krasniczyn), same
+2 CONT trade (wyrobek), sons born ~1818 and ~1820.
+2 CONT ** He is therefore very probably LEJBA'S BROTHER - but see @I1036@: that bridge is
+2 CONT NOT yet proven and no link has been drawn. **
+1 SOUR @S1043@
+1 FAMC @F1061@
+1 FAMS @F1062@
+
+0 @I1147@ INDI
+1 NAME Sura /Erlich/
+2 GIVN Sura
+2 SURN Erlich
+2 NOTE Also Susa (1847 act), and "z Erlichow" in both children's acts.
+1 SEX F
+1 OCCU wyrobnica (day-labourer) - a widow supporting herself, 1854
+1 NOTE ADDED 21 Aug 2026. Moszko's WIDOW, alive in 1849 and still in 1854.
+2 CONT ** "z ERLICHOW" is written out in BOTH children's death acts (16/1849 and 7/1854),
+2 CONT so the maiden name is act-grade, not index-grade. **
+2 CONT >>> DO NOT CONFUSE WITH SURA, MOSZKO'S MOTHER @I1149@ - two different women in the
+2 CONT same household, one generation apart. The warning is in the sources themselves.
+1 SOUR @S1044@
+1 SOUR @S1045@
+1 FAMS @F1062@
+
+0 @I1148@ INDI
+1 NAME Hersz-Jozef /Moskal/
+2 GIVN Hersz-Jozef
+2 SURN Moskal
+2 NOTE Indexed by JRI as "Herszko Jos", born 1843 - the same child.
+1 SEX M
+1 BIRT
+2 DATE ABT 1843
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Aged 11 at death in March 1854. A birth act of 1843 for this household was read.
+1 DEAT
+2 DATE 29 MAR 1854
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE >>> DEATH ACT 7/1854 READ IN THE ORIGINAL. Fond 35/1787, sygn. 2.1/19, unit 2196529,
+3 CONT scan 25, right-hand page (p. 65). "Died HERSZ JOSEF MOSKAL, living here WITH HIS
+3 CONT MOTHER, ELEVEN YEARS OF AGE, son of MOSZKO and SURA nee ERLICH, spouses MOSKAL,
+3 CONT leaving his living mother, a WYROBNICA." Declared 31 March 1854 by Jankiel Kielner,
+3 CONT linen-printer, 33, and Tojwi Goldberg, linen-printer, 30.
+1 SOUR @S1045@
+1 FAMC @F1062@
+
+0 @I1149@ INDI
+1 NAME Szyfra /Moskal/
+2 GIVN Szyfra
+2 SURN Moskal
+2 NOTE Written MUSKAL in her act; indexed by JRI as "Szyfer", born 1846 - the same child.
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Aged three and a half at death on 30 June 1849.
+1 DEAT
+2 DATE 30 JUN 1849
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE >>> DEATH ACT 16/1849 READ IN THE ORIGINAL. Fond 35/1787, sygn. 2.1/14, unit 2196518,
+3 CONT scan 28, right-hand page (p. 79). "Died SZYFRA MUSKAL, living here WITH HER MOTHER,
+3 CONT THREE AND A HALF YEARS OF AGE, daughter of MOSZKO ALREADY DECEASED and SURA nee
+3 CONT ERLICH LIVING, spouses MUSKAL, WYROBNIKS in Wojslawice." Declared 2 July 1849 by
+3 CONT Pejsach Kieselbaum, teacher, 51, and Ankiel Kielner, linen-printer, 28.
+1 SOUR @S1044@
+1 FAMC @F1062@
+
+0 @I1150@ INDI
+1 NAME Herszek /Moskal/
+2 GIVN Herszek
+2 SURN Moskal
+2 NOTE Also Herszko. In Uchanie marriage act 1/1839 he appears WITHOUT a surname, as
+3 CONT "Herszek Leybowicz" - a patronymic.
+1 SEX M
+1 RESI
+2 PLAC Krasniczyn, Krasnystaw, Lublin, Poland
+1 NOTE ADDED 21 Aug 2026 as the father of MOSZKO @I1146@ ONLY.
+2 CONT ** GRADE: documented as a named parent in death act 29/1847 - "HERSZEK AND SURA,
+2 CONT SPOUSES MOSKAL, OF KRASNICZYN". The act does not call him "niegdy" (the late),
+2 CONT so he may still have been alive in 1847. **
+2 CONT >>> NOT linked to Lejba @I1036@. See the note there.
+2 CONT >>> STRONG NEGATIVE: there is NO death of a Herszek Moskal or Herszek Leybowicz in
+2 CONT the Wojslawice register, ever - 1838, 1839, 1841-1848 and 1848-1884 have all been
+2 CONT swept, and the indexes count every death of their year. He died outside the
+2 CONT Wojslawice district, or in one of the two lost volumes (1840, 1865).
+2 CONT >>> His own generation is NOT reachable through Krasniczyn: that register (fond 1747)
+2 CONT begins only in 1826, and his sons were born ~1818 and ~1820.
+1 SOUR @S1043@
+1 FAMS @F1061@
+
+0 @I1151@ INDI
+1 NAME Sura /Moskal/
+2 GIVN Sura
+2 SURN Moskal
+1 SEX F
+1 RESI
+2 PLAC Krasniczyn, Krasnystaw, Lublin, Poland
+1 NOTE ADDED 21 Aug 2026 as the mother of MOSZKO @I1146@ ONLY.
+2 CONT ** UNRESOLVED CONTRADICTION. ** Uchanie marriage act 1/1839 names the mother of
+2 CONT Lejbus Leybowicz as CHAJA, who was present and gave her consent. Death act 29/1847
+2 CONT names Moszko's mother as SURA. Three readings, none decided:
+2 CONT (1) a double name, Chaja-Sura or Sura-Chaja - the simplest;
+2 CONT (2) two marriages of Herszek, which would make Lejba and Moszko HALF-brothers;
+2 CONT (3) two different Herszeks in Krasniczyn - least likely: same village, same trade,
+2 CONT same decade.
+2 CONT >>> THE TEST would be a death act for Chaja or for Sura. NEITHER is in the
+2 CONT Wojslawice death indexes for 1841-1848 or 1848-1884. Two unread candidates remain:
+2 CONT Muskal Fryjna, death 16/1849, and Moskal Perla, death 16/1873.
+2 CONT >>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife.
+1 SOUR @S1043@
+1 FAMS @F1061@
+
+0 @F1061@ FAM
+1 HUSB @I1150@
+1 WIFE @I1151@
+1 CHIL @I1146@
+1 NOTE ADDED 21 Aug 2026. Herszek and Sura Moskal of Krasniczyn, named as Moszko's parents
+2 CONT in death act 29/1847. ** Only Moszko is attached here. Lejba @I1036@ is NOT, although
+2 CONT he is very probably their son too - see @I1036@ and @I1151@. **
+1 SOUR @S1043@
+
+0 @F1062@ FAM
+1 HUSB @I1146@
+1 WIFE @I1147@
+1 CHIL @I1148@
+1 CHIL @I1149@
+1 NOTE Moszko Moskal and Sura nee Erlich, wyrobniks of Wojslawice. He died in 1847 leaving
+2 CONT her a widow with young children; she was still alive, and still labouring, in 1854.
+2 CONT >>> The JRI index lists four children for this couple. TWO of them are the SAME two
+2 CONT people under different spellings: "Herszko Jos b.1843" = Hersz-Jozef @I1148@ (d. 1854
+2 CONT aged 11), and "Szyfer b.1846" = Szyfra @I1149@ (d. 1849 aged 3.5). Do not enter four.
+1 SOUR @S1044@
+1 SOUR @S1045@
+
+0 @S1043@ SOUR
+1 TITL Wojslawice death act 29/1847 - Moszko Moskal
+1 REPO AP Lublin, fond 35/1787, sygn. 2.1/12, unit 2196515, scan 28, pp. 85-86
+1 NOTE READ IN THE ORIGINAL 19 Aug 2026, image sources/fond1787/12/act29-1847-a.jpg.
+2 CONT The single document that attaches the surname MOSKAL to Herszek of Krasniczyn.
+
+0 @S1044@ SOUR
+1 TITL Wojslawice death act 16/1849 - Szyfra Muskal
+1 REPO AP Lublin, fond 35/1787, sygn. 2.1/14, unit 2196518, scan 28, p. 79
+1 NOTE READ IN THE ORIGINAL 20 Aug 2026. Names "MOSZKO ALREADY DECEASED and SURA nee
+2 CONT ERLICH LIVING" - fixes the maiden name at act level.
+
+0 @S1045@ SOUR
+1 TITL Wojslawice death act 7/1854 - Hersz Jozef Moskal
+1 REPO AP Lublin, fond 35/1787, sygn. 2.1/19, unit 2196529, scan 25, p. 65
+1 NOTE READ IN THE ORIGINAL 20 Aug 2026. Second independent statement of "SURA nee ERLICH",
+2 CONT and the age that closes the 1843-vs-1820 contradiction over Moszko.
 
 0 TRLR
