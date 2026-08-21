@@ -101,15 +101,20 @@ function fitName(name, avail, fs){
   /* 1 · לוותר על השם שבסוגריים (שם נעורים / כתיב ארכיוני) */
   const noParen = name.replace(/\s*[({\[][^)}\]]*[)}\]]/g,'').trim();
   if(noParen && fits(noParen)) return noParen;
-  const base = noParen || name;
+  /* 2 · לוותר על סעיף שם הנעורים. «לבית» אינה שם ואסור לקצר אותה
+         לראשי תיבות — «רודלה אלפרט לבית בוטקובסקה» חייבת לרדת
+         ל«רודלה אלפרט», לא ל«רודלה א׳ ל׳ ב׳».                     */
+  const noNee = (noParen||name).replace(/\s+(?:לבית|z\s+domu|née|nee|de\s+soltera)\s+.*$/i,'').trim();
+  if(noNee && fits(noNee)) return noNee;
+  const base = noNee || noParen || name;
   const w = base.split(/\s+/).filter(Boolean);
-  /* 2 · לקצר את שם המשפחה לראשי תיבות */
+  /* 3 · לקצר את שם המשפחה לראשי תיבות */
   if(w.length > 1){
     const abbr = (w[0] + ' ' + w.slice(1).map(initial).filter(Boolean).join(' ')).trim();
     if(fits(abbr)) return abbr;
     if(fits(w[0])) return w[0];
   }
-  /* 3 · רק אז קיצוץ */
+  /* 4 · רק אז קיצוץ */
   const max = Math.max(2, Math.floor(avail/(fs*CHW)) - 1);
   return base.slice(0,max).trim() + '…';
 }
