@@ -1890,6 +1890,525 @@
   "bioChapter": null
  },
  {
+  "id": "p-ili",
+  "branch": "albert",
+  "gedcomId": "I113",
+  "names": {
+   "he": "",
+   "latin": "Ili",
+   "given": "Ili",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Natali's son, Amotz's first cousin once removed. GIVEN NAME ONLY, per the\nliving-persons policy: no dates, no places, no surname. Hebrew: אילי.\nNO SURNAME IS RECORDED: Natali's partner is not entered, so the children's surname is\nnot known and has NOT been assumed to be Albert.\nSource: Amotz supplied the youngest generation by name in an earlier session; the\ndaughter's name was re-confirmed by him on 21 Aug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-noya",
+  "branch": "albert",
+  "gedcomId": "I114",
+  "names": {
+   "he": "",
+   "latin": "Noya",
+   "given": "Noya",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Natali's daughter, Amotz's first cousin once removed. GIVEN NAME ONLY, per the\nliving-persons policy: no dates, no places, no surname. Hebrew: נויה.\nNO SURNAME IS RECORDED - see her brother's note.\nSource: Amotz supplied the youngest generation by name in an earlier session, and\nre-confirmed \"the daughter is called Noya\" on 21 Aug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-amotz-albert",
+  "branch": "both",
+  "gedcomId": "I115",
+  "names": {
+   "he": "",
+   "latin": "Amotz Albert",
+   "given": "Amotz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": {
+   "date": "3 APR 1974",
+   "place": "Jaffa, Tel Aviv-Yafo, Israel",
+   "notes": [
+    "Exact date and place from the MyHeritage site \"Amo01\", harvested 21 Aug 2026 before\nthat 15-person tree was replaced. Supersedes the earlier estimate ABT 1974."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - compiler of this research. The point where the two branches meet: son of\nDavid Albert and Dvora nee Moskal. Brother of Boaz, Aya and Michal. NO CHILDREN\n(stated by him, 21 Aug 2026). (documented)\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-boaz-albert",
+  "branch": "both",
+  "gedcomId": "I116",
+  "names": {
+   "he": "",
+   "latin": "Boaz Albert",
+   "given": "Boaz",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Amotz's brother; son of David Albert and Dvora nee Moskal. (documented)\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aya-albert",
+  "branch": "both",
+  "gedcomId": "I117",
+  "names": {
+   "he": "",
+   "latin": "Aya Albert",
+   "given": "Aya",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Amotz's sister; son... daughter of David Albert and Dvora nee Moskal. She is\nthe granddaughter who filed the 1988 Pages of Testimony cited elsewhere here. (documented)\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-michal-albert",
+  "branch": "both",
+  "gedcomId": "I118",
+  "names": {
+   "he": "",
+   "latin": "Michal Albert",
+   "given": "Michal",
+   "surname": "Albert",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - Amotz's sister; daughter of David Albert and Dvora nee Moskal. (documented)\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-neta",
+  "branch": "both",
+  "gedcomId": "I119",
+  "names": {
+   "he": "",
+   "latin": "Neta",
+   "given": "Neta",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nSon of Aya Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-maayan",
+  "branch": "both",
+  "gedcomId": "I120",
+  "names": {
+   "he": "",
+   "latin": "Maayan",
+   "given": "Maayan",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nSon of Aya Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-moran",
+  "branch": "both",
+  "gedcomId": "I121",
+  "names": {
+   "he": "",
+   "latin": "Moran",
+   "given": "Moran",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nSon of Aya Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-nitzan",
+  "branch": "both",
+  "gedcomId": "I122",
+  "names": {
+   "he": "",
+   "latin": "Nitzan",
+   "given": "Nitzan",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nDaughter of Michal Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rotem",
+  "branch": "both",
+  "gedcomId": "I123",
+  "names": {
+   "he": "",
+   "latin": "Rotem",
+   "given": "Rotem",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nDaughter of Michal Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-aviv",
+  "branch": "both",
+  "gedcomId": "I124",
+  "names": {
+   "he": "",
+   "latin": "Aviv",
+   "given": "Aviv",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nDaughter of Michal Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tamar",
+  "branch": "both",
+  "gedcomId": "I125",
+  "names": {
+   "he": "",
+   "latin": "Tamar",
+   "given": "Tamar",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "Living - GIVEN NAME ONLY, per the living-persons policy Amotz set on 21 Aug 2026: no surname, no dates, no places. The parents' partners are not entered, so these children's surnames are not known and have NOT been assumed. (documented)\nDaughter of Boaz Albert.\n_BRANCH both"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szmul-winogron",
+  "branch": "albert",
+  "gedcomId": "I126",
+  "names": {
+   "he": "",
+   "latin": "Szmul Winogron",
+   "given": "Szmul",
+   "surname": "Winogron",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1810",
+   "notes": [
+    "Aged 40 in 1850 (birth act 46/1850)."
+   ]
+  },
+  "death": null,
+  "occupation": "Farmer (rolnik)",
+  "notes": [
+   "(documented, by name) Head of the second Winogron household at Wystepy. Named as\nfather in three transcribed acts: marriage 11/1851 (daughter Cejwa, mother GITLA),\nmarriage 2/1859 (son Rachmiel, mother LAIA) and birth 46/1850 (son Icek, mother\nLAIA, she 38). A further son, Izrael Kalman, was born 1848 with the mother given as\n\"Hana\". Two or three wives, or variant readings of one - not resolved.\n>>> HE IS THE CANDIDATE FATHER OF RYWA @I70@; see the caveat at @I73@."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-cejwa-winogrod",
+  "branch": "albert",
+  "gedcomId": "I127",
+  "names": {
+   "he": "",
+   "latin": "Cejwa Winogrod",
+   "given": "Cejwa",
+   "surname": "Winogrod",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1833",
+   "place": "Wystepy, gmina Samsonow, Poland",
+   "notes": [
+    "Aged 18 at her 1851 marriage."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Marriage act 11/1851: Cejwa Winogrod of Wystepy village, 18,\nmarries a KUPCZYK; her parents are named as SZMUL and GITLA.\n>>> SHE IS ALMOST CERTAINLY RYWA'S SISTER (@I70@): same village, same mother's name\nGITLA, seven years apart. The only obstacle is the father's given name - see @I73@."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rachmiel-winogrod",
+  "branch": "albert",
+  "gedcomId": "I128",
+  "names": {
+   "he": "",
+   "latin": "Rachmiel Winogrod",
+   "given": "Rachmiel",
+   "surname": "Winogrod",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1837",
+   "place": "Wystepy, gmina Samsonow, Poland",
+   "notes": [
+    "Aged 22 at his 1859 marriage; \"33\" in 1865, which fits."
+   ]
+  },
+  "death": null,
+  "occupation": "Trader",
+  "notes": [
+   "(documented, by name) Marriage act 2/1859: Rachmiel Winogrod of Wystepy, 22, marries\nBAJLA RUTKOWSKA; parents SZMUL and LAIA. Birth act 89/1865 (daughter Malka, at\nWystempa) gives him as \"Rachmil Winograd vel Wajntrop, 33\", wife \"Basia z\nRutkowskich, 26\". Later at Oblegor: birth act 5/1869, daughter Brandla."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-icek-winogron",
+  "branch": "albert",
+  "gedcomId": "I129",
+  "names": {
+   "he": "",
+   "latin": "Icek Winogron",
+   "given": "Icek",
+   "surname": "Winogron",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "1850",
+   "place": "Wystepy, gmina Samsonow, Poland",
+   "notes": [
+    "Birth act 46/1850; father Szmul, 40, rolnik; mother Laia, 38."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-gitla-winogron",
+  "branch": "albert",
+  "gedcomId": "I130",
+  "names": {
+   "he": "",
+   "latin": "Gitla Winogron",
+   "given": "Gitla",
+   "surname": "Winogron",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as mother in marriage act 11/1851 (Cejwa). NOTE: a Gitla\nis also named as Rywa's mother in the 1849 act - see @I74@. Whether @I74@ and this\nrecord are the same woman is exactly the open question at @I73@; they are kept\nseparate until it is decided."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-laia",
+  "branch": "albert",
+  "gedcomId": "I131",
+  "names": {
+   "he": "",
+   "latin": "Laia",
+   "given": "Laia",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1812",
+   "notes": [
+    "Aged 38 in the 1850 birth act."
+   ]
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) Named as mother in birth act 46/1850 (Icek) and marriage act\n2/1859 (Rachmiel)."
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s89"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
   "id": "p-liba-rozenman",
   "branch": "albert",
   "gedcomId": "I68",
@@ -1975,7 +2494,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "** THE OPEN \"TWO RYWKAS\" QUESTION. ** In the birth acts of 1850-1852 - including\nEster Gitla's - the mother is consistently \"Ryfka\". From 1855 the registers write\n\"Marya\", in 1865 \"Marya z Wajntraubow\", and a Kielce death of 1872 records \"Rywka\nMarjem, wife of Kiwa, daughter of SZMUL and Gitla\" - while the 1849 bride is daughter\nof IZRAEL and Gitla. Either one woman (Marya-Rywka) sloppily registered, or Kiwa\nremarried - possibly to a kinswoman: a Szmul Winogron lived in the same village of\nWystepy (his sons' births 1848, 1850 are transcribed). Ester Gitla's mother is the\n1849 bride either way; Rywa's own death is therefore NOT entered here. Deciding\ndocuments: the act images of 46/1865 and 14/1872. See findings/083 and the verbatim\nrow collection in sources/crarg/notes-agent-full-sweep.md."
+   "** THE \"TWO RYWKAS\" QUESTION - LARGELY RESOLVED 21 Aug 2026. ** In the birth acts of\n1850-1852 the mother is \"Ryfka\"; from 1855 the registers write \"Marya\", in 1865\n\"Marya z Wajntraubow\", and a Kielce death of 1872 records \"Rywka Marjem, wife of\nKiwa, daughter of SZMUL and Gitla\" - while the 1849 bride is daughter of IZRAEL and\nGitla. The CRARG sweep of 21 Aug 2026 settles two of the three strands:\n(a) ONE WOMAN, NOT TWO. Marriage act 7/1894 Radoszyce names the groom's parents as\n\"KIWA CUKIER\" and \"MARIEM RYWKA nee WINOGRAD, deceased\" - both given names in a\nsingle person, in a single record. Consistent with her death in 1872.\n(b) \"z WAJNTRAUBOW\" IS THE FAMILY'S ALIAS, not another woman. Birth act 89/1865 of\nWystempa records \"RACHMIL WINOGRAD VEL WAJNTROP, 33\" - the same alias, the same\nvillage, the same year as the \"Marya z Wajntraubow\" entry.\n(c) STILL OPEN: SZMUL vs IZRAEL as her father. Szmul appears twice (the 1872 death;\nand marriage act 11/1851, where CEJWA Winogrod of Wystepy is daughter of SZMUL and\nGITLA - the same mother's name), Izrael once (the 1849 marriage). Two against one\nleans to Szmul; a double given name \"Szmul-Izrael\" would reconcile them, and his\nson was in fact named Izrael Kalman. NOT DECIDED - she is left under @F65@ as the\n1849 act states. Deciding documents remain the act images of 46/1865 and 14/1872.\nRywa's own death is therefore still NOT entered here. See findings/083 and 119."
   ],
   "grade": null,
   "sources": [
@@ -2060,7 +2579,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "(documented, by name) Named as father of the bride in the 1849 marriage act. A Szmul\nWinogron also lived at Wystepy (births of his sons Izrael Kalman 1848 and Icek 1850\nare transcribed, mother \"Hana\" resp. \"Laia\") - relationship to Izrael unknown; he\nmatters to the \"two Rywkas\" question (see @I70@)."
+   "(documented, by name) Named as father of the bride in the 1849 marriage act.\n>>> CAVEAT, 21 Aug 2026: he may not be a separate man at all. SZMUL Winogron of the\nsame village of Wystepy is named as father, with a wife GITLA, in marriage act\n11/1851 (his daughter Cejwa) - the same wife's name as here - and again in the\nKielce death of 1872 as Rywa's father. Szmul twice, Izrael once. Either \"Szmul\" and\n\"Izrael\" are one man with a double name, or Gitla married twice. Szmul's other\nchildren are entered at @I126@ / @F79@; Rywa is left here, under the 1849 act, until\nthe act images of 46/1865 and 14/1872 decide it. See findings/119."
   ],
   "grade": "documented",
   "sources": [

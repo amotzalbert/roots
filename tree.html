@@ -14,41 +14,59 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/tree.html">
 <link rel="stylesheet" href="css/main.css?v=20260815d">
 <style>
+/* ── גוונים בסגנון MyHeritage, נגזרים מפלטת «שורשים» ── */
+:root{ --m-tint:#e8eef6; --f-tint:#f7eaee; --card-sh:0 1px 2px #231f1c1a,0 4px 12px #231f1c12; }
+:root[data-theme="dark"], html:not([data-theme="light"]) { }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){ --m-tint:#232b36; --f-tint:#332229; } }
+:root[data-theme="dark"]{ --m-tint:#232b36; --f-tint:#332229; }
+:root[data-theme="light"]{ --m-tint:#e8eef6; --f-tint:#f7eaee; }
+
 .treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
 @media (max-width:940px){.treewrap{grid-template-columns:1fr}}
 
-#tree{width:100%;height:min(72vh,720px);background:var(--paper-2);border:1px solid var(--rule);
-  border-radius:.6rem;cursor:grab;touch-action:none;display:block}
+#tree{width:100%;height:min(74vh,760px);background:var(--paper-2);border:1px solid var(--rule);
+  border-radius:.8rem;cursor:grab;touch-action:none;display:block}
 
-/* קשתות */
-.lnk{fill:none;stroke:var(--rule-2);stroke-width:1}
-.lnk.spouse{stroke-dasharray:3 3}
-.lnk.d{stroke:var(--accent);stroke-width:2.4;opacity:.9}          /* ← קו ישיר */
-.lnk:not(.d){opacity:.42}
+/* קווי חיבור אורתוגונליים */
+.lnk{fill:none;stroke:var(--rule-2);stroke-width:1.5;stroke-linejoin:round}
+.lnk.spouse{stroke-dasharray:4 4;stroke:var(--gold)}
 
 /* כרטיסים */
-.node{cursor:pointer}
-.node .box{fill:var(--paper);stroke:var(--rule-2);stroke-width:1}
-.node .edge{fill:var(--ink-3);opacity:.35}
-.node.b-moskal .edge{fill:var(--moskal)} .node.b-albert .edge{fill:var(--albert)}
-.node .nm{fill:var(--ink);text-anchor:middle;font-family:'Frank Ruhl','David Libre',serif}
-.node .yr{fill:var(--ink-3);text-anchor:middle;font-family:'Heebo',sans-serif}
-.node .gr{text-anchor:middle;opacity:.75}
-.node:not(.d){opacity:.45}                                         /* ← עמעום העקיפים */
-.node:not(.d) .box{stroke-dasharray:2 2}
-.node.d .box{stroke:var(--ink-3);stroke-width:1.4;filter:drop-shadow(0 2px 4px #0000001f)}
-.node.f .box{stroke:var(--accent);stroke-width:2.6;fill:var(--paper)}
-.node.f .nm{font-weight:700}
-.node:hover .box{stroke:var(--accent)}
-.node:focus{outline:none} .node:focus .box{stroke:var(--accent);stroke-width:2.6}
+.mh-card{cursor:pointer}
+.mh-card .bg{stroke:var(--rule-2);stroke-width:1;filter:drop-shadow(var(--card-sh))}
+.mh-card .nm{font-family:var(--serif);font-size:13.5px;font-weight:600}
+.mh-card .yr{font-family:var(--sans);font-size:10.5px}
+.mh-card .ini{font-family:var(--serif);font-size:15px}
+.mh-card:hover .bg{stroke:var(--accent);stroke-width:1.6}
+.mh-card.is-focus .bg{stroke:var(--accent);stroke-width:2.4}
+.mh-card.is-focus .nm{font-weight:700}
+.mh-card.faded{opacity:.5}
+.mh-card:focus{outline:none}
+.mh-card:focus .bg{stroke:var(--accent);stroke-width:2.4}
+
+/* מניפה */
+.fan-seg{cursor:pointer;transition:opacity .12s}
+.fan-seg:hover{stroke:var(--accent);stroke-width:2}
+.fan-seg.empty{cursor:default;opacity:.4}
+.fan-seg:focus{outline:none;stroke:var(--accent);stroke-width:2}
+.fan-lbl{pointer-events:none}
+.fan-lbl .nm{font-family:var(--serif);font-weight:600}
+.fan-lbl .yr{font-family:var(--sans)}
+.fan-hub .nm{font-family:var(--serif);font-size:14px;font-weight:700}
+.fan-hub .yr{font-family:var(--sans);font-size:10.5px}
+.ped-empty{opacity:.55}
 
 /* לוח האדם */
-#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.6rem;
-  padding:1rem 1.1rem;position:sticky;top:5rem;max-height:min(72vh,720px);overflow:auto}
+#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.8rem;
+  padding:1rem 1.1rem;position:sticky;top:5rem;max-height:min(74vh,760px);overflow:auto}
 #person h2{margin:.1rem 0 .2rem;border:0;padding:0;font-size:1.3rem}
-#person .lat{margin:0 0 .6rem;color:var(--ink-3);font-size:.9rem;direction:ltr;text-align:right}
-.phead{border-bottom:1px solid var(--rule);margin-bottom:.8rem;padding-bottom:.6rem}
-.phead.b-moskal{border-bottom-color:var(--moskal)} .phead.b-albert{border-bottom-color:var(--albert)}
+#person .lat{margin:0 0 .4rem;color:var(--ink-3);font-size:.9rem;direction:ltr;text-align:right}
+.phead{border-bottom:2px solid var(--rule);margin-bottom:.8rem;padding-bottom:.6rem}
+.phead.b-moskal{border-bottom-color:var(--moskal)}
+.phead.b-albert{border-bottom-color:var(--albert)}
+.phead.b-both{border-bottom-color:var(--gold)}
+.gradepill{display:inline-block;font-family:var(--sans);font-size:.72rem;color:var(--c);
+  border:1px solid var(--c);border-radius:1rem;padding:.05rem .5rem;margin-inline-end:.3rem}
 #person dl{margin:0}
 #person .row{display:grid;grid-template-columns:5.2rem 1fr;gap:.4rem;padding:.32rem 0;
   border-bottom:1px dotted var(--rule);font-size:.93rem}
@@ -58,6 +76,7 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
   padding:.12rem .58rem;margin:.1rem .1rem .1rem 0;font:inherit;font-size:.86rem;
   cursor:pointer;color:var(--accent)}
 .chip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.biolink{font-family:var(--sans);font-size:.88rem}
 .none{color:var(--ink-3)}
 .vars{font-size:.85rem;color:var(--ink-3);margin:.7rem 0 0;direction:ltr;text-align:right}
 .vars b{direction:rtl;display:block;text-align:right;color:var(--ink-2)}
@@ -73,9 +92,15 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 #findlist button{background:none;border:0;text-align:start;padding:.42rem .7rem;cursor:pointer;
   font:inherit;font-size:.9rem;color:var(--ink)}
 #findlist button:hover{background:var(--accent);color:#fff}
+#gensWrap[hidden]{display:none}
+#gensWrap{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.86rem;color:var(--ink-3)}
+#gens{font:inherit;padding:.2rem .4rem;border:1px solid var(--rule-2);border-radius:.35rem;
+  background:var(--paper);color:var(--ink)}
 .legend{font-family:var(--sans);font-size:.8rem;color:var(--ink-3);display:flex;gap:1rem;
-  flex-wrap:wrap;margin:.7rem 0 0}
-.legend i{font-style:normal}
+  flex-wrap:wrap;margin:.7rem 0 0;align-items:center}
+.legend i{font-style:normal;display:inline-flex;align-items:center;gap:.3rem}
+.legend .sw{width:.75rem;height:.75rem;border-radius:.2rem;border:1px solid var(--rule-2);display:inline-block}
+.legend .dot{width:.5rem;height:.5rem;border-radius:50%;display:inline-block}
 </style>
 </head>
 <body>
@@ -115,20 +140,20 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 <main>
   <p class="kicker">אילן היוחסין</p>
   <h1>העץ, ובתוכו הקו שלך</h1>
-  <p class="lede narrow">בחרו אדם — בלחיצה על כרטיס או בחיפוש — והקו הישיר שלו,
-     אבותיו וצאצאיו, יתבלט בעוד שאר הענפים נסוגים לרקע.</p>
+  <p class="lede narrow">שלוש דרכים להסתכל על אותה משפחה: <b>משפחה</b> — הורים, בני זוג וילדים
+     סביב אדם אחד; <b>מניפה</b> — כל האבות הקדומים בבת אחת; <b>פדיגרי</b> — קו האבות פרוש לרוחב.
+     לחיצה על כל כרטיס ממקדת מחדש.</p>
 
   <div class="toolbar">
-    <span class="seg" role="group" aria-label="מוד תצוגה">
-      <button data-mode="full"     aria-pressed="true">אילן מלא</button>
-      <button data-mode="pedigree" aria-pressed="false">פדיגרי</button>
-      <button data-mode="descend"  aria-pressed="false">צאצאים</button>
+    <span class="seg" role="group" aria-label="תצוגה">
+      <button data-view="family"   aria-pressed="true">משפחה</button>
+      <button data-view="fan"      aria-pressed="false">מניפה</button>
+      <button data-view="pedigree" aria-pressed="false">פדיגרי</button>
     </span>
-    <span class="seg" role="group" aria-label="ענף">
-      <button data-branch="all"    aria-pressed="true">שני הענפים</button>
-      <button data-branch="moskal" aria-pressed="false">מוסקל–שאפיר</button>
-      <button data-branch="albert" aria-pressed="false">אלברט–ריבנבייריך</button>
+    <span id="gensWrap" hidden><label for="gens">דורות</label>
+      <select id="gens"><option>3</option><option>4</option><option selected>5</option><option>6</option><option>7</option><option>8</option><option>9</option></select>
     </span>
+    <button class="iconbtn" id="recentre" title="מרכוז">⊙</button>
     <span class="findwrap">
       <input type="search" id="find" placeholder="חיפוש אדם…" aria-label="חיפוש אדם באילן">
       <div id="findlist"></div>
@@ -139,9 +164,13 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
     <div>
       <svg id="tree" role="img" aria-label="אילן היוחסין"></svg>
       <p class="legend">
-        <i><span class="g g-documented"></span> מתועד</i>
-        <i><span class="g g-probable"></span> סביר</i>
-        <i><span class="g g-inference"></span> השערה</i>
+        <i><span class="sw" style="background:var(--m-tint)"></span> גבר</i>
+        <i><span class="sw" style="background:var(--f-tint)"></span> אישה</i>
+        <i><span class="sw" style="background:var(--moskal)"></span> מוסקל–שאפיר</i>
+        <i><span class="sw" style="background:var(--albert)"></span> אלברט–ריבנבייריך</i>
+        <i><span class="dot" style="background:var(--ok)"></span> מתועד</i>
+        <i><span class="dot" style="background:var(--gold)"></span> סביר</i>
+        <i><span class="dot" style="background:var(--ink-3)"></span> השערה</i>
         <i>· גרירה להזזה, גלגלת לזום</i>
       </p>
     </div>
@@ -152,6 +181,6 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 <footer><div class="in">שורשים · תולדות משפחות מוסקל–שאפיר ואלברט–ריבנבייריך</div></footer>
 
 <script src="js/ui.js?v=20260815e"></script>
-<script src="js/tree.js?v=20260817a"></script>
+<script src="js/tree-views.js?v=20260821a"></script>
 </body>
 </html>

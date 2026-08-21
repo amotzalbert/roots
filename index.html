@@ -141,7 +141,7 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 
 <script src="js/ui.js?v=20260815e"></script>
 <script>
-fetch('data/people.json').then(r=>r.json()).then(people=>{
+fetch('data/people.unified.json').then(r=>r.json()).then(people=>{
   const doc = people.filter(p=>p.grade==='documented').length;
   const places = new Set(people.flatMap(p=>[p.birth?.place, p.death?.place].filter(Boolean))).size;
   document.getElementById('stats').innerHTML = `

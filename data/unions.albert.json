@@ -337,6 +337,116 @@
   "notes": []
  },
  {
+  "id": "u-f74",
+  "branch": "albert",
+  "gedcomId": "F74",
+  "spouses": [
+   "p-natali-albert"
+  ],
+  "children": [
+   "p-ili",
+   "p-noya"
+  ],
+  "marriage": null,
+  "notes": [
+   "Natali's children. Her partner is deliberately NOT entered, consistent with the\nliving-persons policy already applied to Natali herself."
+  ]
+ },
+ {
+  "id": "u-f75",
+  "branch": "albert",
+  "gedcomId": "F75",
+  "spouses": [
+   "p-david-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-aya-albert",
+   "p-michal-albert"
+  ],
+  "marriage": null,
+  "notes": [
+   "The four children of David Albert and DVORA nee MOSKAL. Dvora is recorded on the\nmaternal side (wojslawice/chart/moskal-schafir.ged @I31@) and is not duplicated here."
+  ]
+ },
+ {
+  "id": "u-f76",
+  "branch": "albert",
+  "gedcomId": "F76",
+  "spouses": [
+   "p-aya-albert"
+  ],
+  "children": [
+   "p-neta",
+   "p-maayan",
+   "p-moran"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f77",
+  "branch": "albert",
+  "gedcomId": "F77",
+  "spouses": [
+   "p-michal-albert"
+  ],
+  "children": [
+   "p-nitzan",
+   "p-rotem",
+   "p-aviv"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f78",
+  "branch": "albert",
+  "gedcomId": "F78",
+  "spouses": [
+   "p-boaz-albert"
+  ],
+  "children": [
+   "p-tamar"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f79",
+  "branch": "albert",
+  "gedcomId": "F79",
+  "spouses": [
+   "p-szmul-winogron",
+   "p-gitla-winogron"
+  ],
+  "children": [
+   "p-cejwa-winogrod",
+   "p-rachmiel-winogrod"
+  ],
+  "marriage": null,
+  "notes": [
+   "Szmul Winogron with GITLA. Rachmiel's own marriage row gives his mother as LAIA, so\nhis placement here rather than at @F80@ is uncertain; both are recorded."
+  ]
+ },
+ {
+  "id": "u-f80",
+  "branch": "albert",
+  "gedcomId": "F80",
+  "spouses": [
+   "p-szmul-winogron",
+   "p-laia"
+  ],
+  "children": [
+   "p-icek-winogron"
+  ],
+  "marriage": null,
+  "notes": [
+   "Szmul Winogron with LAIA."
+  ]
+ },
+ {
   "id": "u-f62",
   "branch": "albert",
   "gedcomId": "F62",

@@ -370,72 +370,6 @@
   ]
  },
  {
-  "id": "u-cross-branch-david-dvora",
-  "branch": "both",
-  "spouses": [
-   "p-david-albert",
-   "p-dvora-albert"
-  ],
-  "children": [
-   "p-amotz-albert",
-   "p-boaz-albert",
-   "p-michal-albert",
-   "p-aya-albert"
-  ],
-  "marriage": {
-   "grade": "probable"
-  },
-  "notes": [
-   "★ נקודת המפגש בין שני ענפי המחקר: דוד אלברט (צד אבא) ⚭ דבורה מוסקל (צד אמא)."
-  ]
- },
- {
-  "id": "u-aya-children",
-  "branch": "both",
-  "spouses": [
-   "p-aya-albert"
-  ],
-  "children": [
-   "p-neta-albert",
-   "p-maayan-albert",
-   "p-moran-albert"
-  ],
-  "marriage": {},
-  "notes": [
-   "בן/בת הזוג לא תועד."
-  ]
- },
- {
-  "id": "u-michal-children",
-  "branch": "both",
-  "spouses": [
-   "p-michal-albert"
-  ],
-  "children": [
-   "p-nitzan-albert",
-   "p-rotem-albert",
-   "p-aviv-albert"
-  ],
-  "marriage": {},
-  "notes": [
-   "בן/בת הזוג לא תועד."
-  ]
- },
- {
-  "id": "u-boaz-children",
-  "branch": "both",
-  "spouses": [
-   "p-boaz-albert"
-  ],
-  "children": [
-   "p-tamar-albert"
-  ],
-  "marriage": {},
-  "notes": [
-   "בן/בת הזוג לא תועד."
-  ]
- },
- {
   "id": "u-shalom-rivka",
   "branch": "moskal",
   "spouses": [
@@ -524,6 +458,23 @@
   },
   "notes": [
    "בית ארליך של ווויסלביצה שהשיא את אלקה לינקל מוסקל ב-1875. מאושרים מאקט נישואיה."
+  ]
+ },
+ {
+  "id": "u-m-dvora-children",
+  "branch": "moskal",
+  "spouses": [
+   "p-dvora-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-aya-albert",
+   "p-michal-albert"
+  ],
+  "marriage": null,
+  "notes": [
+   "ארבעת ילדיה של דבורה אלברט לבית מוסקל. אביהם דוד אלברט מופיע בענף אלברט (u-f75), ולכן אינו נרשם כאן שוב — כך כל ילד מקבל את שני ההורים בדיוק פעם אחת."
   ]
  }
 ]

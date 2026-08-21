@@ -1,0 +1,1400 @@
+[
+ {
+  "id": "u-f1",
+  "gedcomId": "F1",
+  "branch": "albert",
+  "spouses": [
+   "p-rywen-rywenbajrych",
+   "p-laca"
+  ],
+  "children": [
+   "p-izrael-rywenbajrych",
+   "p-hercyk-rywenbajrych-i6"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f52",
+  "gedcomId": "F52",
+  "branch": "albert",
+  "spouses": [
+   "p-hercyk-rywenbajrych",
+   "p-laja"
+  ],
+  "children": [
+   "p-jeremiasz-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f50",
+  "gedcomId": "F50",
+  "branch": "albert",
+  "spouses": [
+   "p-jeremiasz-rywenbajrych",
+   "p-haja-zalzberg"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "26 AUG 1834",
+   "place": "Klimontow, Radom Gubernia, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f51",
+  "gedcomId": "F51",
+  "branch": "albert",
+  "spouses": [
+   "p-zalzberg",
+   "p-tauba-zalzberg"
+  ],
+  "children": [
+   "p-haja-zalzberg"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f2",
+  "gedcomId": "F2",
+  "branch": "albert",
+  "spouses": [
+   "p-izrael-rywenbajrych",
+   "p-chaja-rayzla"
+  ],
+  "children": [
+   "p-hercyk-rywenbajrych-i5"
+  ],
+  "marriage": {
+   "date": "BEF 1838",
+   "place": null
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f3",
+  "gedcomId": "F3",
+  "branch": "albert",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i5",
+   "p-tauba-cyrla-rywenbajrych"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f4",
+  "gedcomId": "F4",
+  "branch": "albert",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i6",
+   "p-ruchla"
+  ],
+  "children": [
+   "p-malka-blima-rywenbajrych",
+   "p-chaja-laja-rywenbajrych",
+   "p-chaim-rywenbajrych",
+   "p-fajga-perla-rywenbajrych",
+   "p-dawid-herszl-rywenbajrych",
+   "p-szymcha-rywenbajrych",
+   "p-haskiel-rywenbajrych",
+   "p-necha-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f5",
+  "gedcomId": "F5",
+  "branch": "albert",
+  "spouses": [
+   "p-hercyk-rywenbajrych-i17",
+   "p-ryfka"
+  ],
+  "children": [
+   "p-szaydla-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f10",
+  "gedcomId": "F10",
+  "branch": "albert",
+  "spouses": [
+   "p-moszek-wajsblum",
+   "p-gella-ginsburg"
+  ],
+  "children": [
+   "p-tobiasz-wajsblum",
+   "p-tobiasz-wajsblum-i23",
+   "p-alter-chaim-wajsblum"
+  ],
+  "marriage": {
+   "date": "1884",
+   "place": "Opatow, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f11",
+  "gedcomId": "F11",
+  "branch": "albert",
+  "spouses": [
+   "p-tuvia-rywenbajrych",
+   "p-bajla-szajndla-wajsblum"
+  ],
+  "children": [
+   "p-chana-rywenbajrych",
+   "p-fajga-rachla-rywenbajrych"
+  ],
+  "marriage": {
+   "date": "BEF 1917",
+   "place": null
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f67",
+  "gedcomId": "F67",
+  "branch": "albert",
+  "spouses": [
+   "p-alter-chaim-wajsblum",
+   "p-hela-baranek"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f60",
+  "gedcomId": "F60",
+  "branch": "albert",
+  "spouses": [
+   "p-rafael-wajsblum",
+   "p-fajga"
+  ],
+  "children": [
+   "p-bajla-szajndla-wajsblum",
+   "p-moshe-wajsblum",
+   "p-reizel-wajsblum"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f61",
+  "gedcomId": "F61",
+  "branch": "albert",
+  "spouses": [
+   "p-yehoshua-szenaug",
+   "p-reizel-wajsblum"
+  ],
+  "children": [
+   "p-fejga-szenaug",
+   "p-cwi-szenaug"
+  ],
+  "marriage": {
+   "date": "BEF 1933",
+   "place": "Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f30",
+  "gedcomId": "F30",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-alpert",
+   "p-estera-gitla-cuker"
+  ],
+  "children": [
+   "p-dawid-alpert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f31",
+  "gedcomId": "F31",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-butkowski",
+   "p-ruchla-rochberger"
+  ],
+  "children": [
+   "p-rudla-butkowska"
+  ],
+  "marriage": {
+   "date": "1864",
+   "place": "Piatek, Kalisz Gubernia, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f66",
+  "gedcomId": "F66",
+  "branch": "albert",
+  "spouses": [
+   "p-berek-budkowski",
+   "p-rudel-szydlowicz"
+  ],
+  "children": [
+   "p-abram-butkowski"
+  ],
+  "marriage": {
+   "date": "1833",
+   "place": "Piatek, Kalisz Gubernia, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f20",
+  "gedcomId": "F20",
+  "branch": "albert",
+  "spouses": [
+   "p-dawid-alpert",
+   "p-rudla-butkowska"
+  ],
+  "children": [
+   "p-izrail-mojsze-alpert",
+   "p-chaim-albert"
+  ],
+  "marriage": {
+   "date": "18 FEB 1894",
+   "place": "Warsaw, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f12",
+  "gedcomId": "F12",
+  "branch": "albert",
+  "spouses": [
+   "p-chaim-albert",
+   "p-chana-rywenbajrych"
+  ],
+  "children": [
+   "p-bella-albert",
+   "p-david-albert"
+  ],
+  "marriage": {
+   "date": "AFT 1945",
+   "place": "Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f13",
+  "gedcomId": "F13",
+  "branch": "albert",
+  "spouses": [
+   "p-bella-albert"
+  ],
+  "children": [
+   "p-natali-albert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f74",
+  "gedcomId": "F74",
+  "branch": "albert",
+  "spouses": [
+   "p-natali-albert"
+  ],
+  "children": [
+   "p-ili",
+   "p-noya"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f75",
+  "gedcomId": "F75",
+  "branch": "albert",
+  "spouses": [
+   "p-david-albert",
+   "p-dvora-albert"
+  ],
+  "children": [
+   "p-amotz-albert",
+   "p-boaz-albert",
+   "p-aya-albert",
+   "p-michal-albert"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f76",
+  "gedcomId": "F76",
+  "branch": "albert",
+  "spouses": [
+   "p-aya-albert"
+  ],
+  "children": [
+   "p-neta",
+   "p-maayan",
+   "p-moran"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f77",
+  "gedcomId": "F77",
+  "branch": "albert",
+  "spouses": [
+   "p-michal-albert"
+  ],
+  "children": [
+   "p-nitzan",
+   "p-rotem",
+   "p-aviv"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f78",
+  "gedcomId": "F78",
+  "branch": "albert",
+  "spouses": [
+   "p-boaz-albert"
+  ],
+  "children": [
+   "p-tamar"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f79",
+  "gedcomId": "F79",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-winogron",
+   "p-gitla-winogron"
+  ],
+  "children": [
+   "p-cejwa-winogrod",
+   "p-rachmiel-winogrod"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f80",
+  "gedcomId": "F80",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-winogron",
+   "p-laia"
+  ],
+  "children": [
+   "p-icek-winogron"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f62",
+  "gedcomId": "F62",
+  "branch": "albert",
+  "spouses": [
+   "p-tobiasz-wajsblum-i23",
+   "p-liba-rozenman"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1 NOV 1909",
+   "place": "Stopnica, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f63",
+  "gedcomId": "F63",
+  "branch": "albert",
+  "spouses": [
+   "p-kiwa-cukier",
+   "p-rywa-winogron"
+  ],
+  "children": [
+   "p-kalma-cukier",
+   "p-estera-gitla-cuker",
+   "p-laja-cukier-i102",
+   "p-sora-cukier",
+   "p-sandal-cukier",
+   "p-aleksander-cukier",
+   "p-mortka-szlama-cukier",
+   "p-aron-cukier-i106",
+   "p-brandla-cukier",
+   "p-hil-cukier",
+   "p-sora-cukier-i109",
+   "p-rywen-majer-cukier",
+   "p-szymon-cukier"
+  ],
+  "marriage": {
+   "date": "1849",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f64",
+  "gedcomId": "F64",
+  "branch": "albert",
+  "spouses": [
+   "p-aron-cukier",
+   "p-tauba-moszkowicz"
+  ],
+  "children": [
+   "p-abram-cukier",
+   "p-mortka-cukier",
+   "p-mosiek-cukier",
+   "p-kiwa-cukier",
+   "p-chaim-wolf-cukier",
+   "p-laja-cukier"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f65",
+  "gedcomId": "F65",
+  "branch": "albert",
+  "spouses": [
+   "p-izrael-winogron",
+   "p-gitla"
+  ],
+  "children": [
+   "p-rywa-winogron"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f68",
+  "gedcomId": "F68",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-cukier",
+   "p-ester-cukier"
+  ],
+  "children": [
+   "p-sora-gitla-cukier"
+  ],
+  "marriage": {
+   "date": "1844",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f69",
+  "gedcomId": "F69",
+  "branch": "albert",
+  "spouses": [
+   "p-mortka-cukier",
+   "p-blima-rozencwajg"
+  ],
+  "children": [
+   "p-haia-cukier",
+   "p-zelik-cukier"
+  ],
+  "marriage": {
+   "date": "1844",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f70",
+  "gedcomId": "F70",
+  "branch": "albert",
+  "spouses": [
+   "p-mosiek-cukier",
+   "p-rywka-grynberg"
+  ],
+  "children": [
+   "p-jakob-hil-cukier",
+   "p-herszel-cukier"
+  ],
+  "marriage": {
+   "date": "1846",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f71",
+  "gedcomId": "F71",
+  "branch": "albert",
+  "spouses": [
+   "p-jakob-hil-cukier",
+   "p-ruchla-feldsztajn"
+  ],
+  "children": [
+   "p-uryn-cukier"
+  ],
+  "marriage": {
+   "date": "4 APR 1867",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f72",
+  "gedcomId": "F72",
+  "branch": "albert",
+  "spouses": [
+   "p-chaim-wolf-cukier",
+   "p-kajla-zlotowicz"
+  ],
+  "children": [
+   "p-aron-cukier-i93",
+   "p-izrael-cukier",
+   "p-hana-cukier",
+   "p-sura-cukier",
+   "p-perla-tauba-cukier",
+   "p-ester-laja-cukier"
+  ],
+  "marriage": {
+   "date": "1858",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f73",
+  "gedcomId": "F73",
+  "branch": "albert",
+  "spouses": [
+   "p-szulim-skornicki",
+   "p-laja-cukier"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1857",
+   "place": "Radoszyce, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1001",
+  "gedcomId": "F1001",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-pesia-ruchla-szyfman"
+  ],
+  "children": [
+   "p-chaim-tojwi-szaufer",
+   "p-dwojra-laia-szaufer",
+   "p-chaim-froim-szaufer",
+   "p-hersz-szaufer",
+   "p-menachem-mendel-schafir",
+   "p-yosef-szafir",
+   "p-srul-lejb-szaufer",
+   "p-estera-malka-szaufer",
+   "p-dawid-szaufer",
+   "p-gersz-szaufer",
+   "p-srul-glezer"
+  ],
+  "marriage": {
+   "date": "21 JAN 1873",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1003",
+  "gedcomId": "F1003",
+  "branch": "albert",
+  "spouses": [
+   "p-shalom-liben",
+   "p-khaia-liben"
+  ],
+  "children": [
+   "p-perl-liben"
+  ],
+  "marriage": {
+   "place": "ua-volodymyr",
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1002",
+  "gedcomId": "F1002",
+  "branch": "albert",
+  "spouses": [
+   "p-menachem-mendel-schafir",
+   "p-perl-liben"
+  ],
+  "children": [
+   "p-shalom-schafir",
+   "p-shmuel-schafir",
+   "p-yosef-schafir",
+   "p-dvora-schafir",
+   "p-chaike-schafir",
+   "p-issachar-schafir",
+   "p-malka-schafir",
+   "p-nechama-schafir"
+  ],
+  "marriage": {
+   "grade": "probable"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1004",
+  "gedcomId": "F1004",
+  "branch": "albert",
+  "spouses": [
+   "p-shalom-schafir",
+   "p-rivka-eidelman"
+  ],
+  "children": [],
+  "marriage": {
+   "grade": "probable"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1006",
+  "gedcomId": "F1006",
+  "branch": "albert",
+  "spouses": [
+   "p-hersh-alspektor",
+   "p-khaya-rajs"
+  ],
+  "children": [
+   "p-liza-alspektor",
+   "p-tsivya-dvoyra-alspektor"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1007",
+  "gedcomId": "F1007",
+  "branch": "albert",
+  "spouses": [
+   "p-judka-lejba-moskal",
+   "p-tsivya-dvoyra-alspektor"
+  ],
+  "children": [
+   "p-lea-moskal",
+   "p-etel-moskal",
+   "p-sara-soche-moskal",
+   "p-tauba-moskal",
+   "p-david-moskal"
+  ],
+  "marriage": {
+   "date": "11 AUG 1903",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1008",
+  "gedcomId": "F1008",
+  "branch": "albert",
+  "spouses": [
+   "p-yitzhak-terwitzer",
+   "p-lea-moskal"
+  ],
+  "children": [
+   "p-terwitzer"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1009",
+  "gedcomId": "F1009",
+  "branch": "albert",
+  "spouses": [
+   "p-moshe-blander",
+   "p-etel-moskal"
+  ],
+  "children": [
+   "p-blander"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1005",
+  "gedcomId": "F1005",
+  "branch": "albert",
+  "spouses": [
+   "p-david-moskal",
+   "p-malka-schafir"
+  ],
+  "children": [
+   "p-dvora-albert",
+   "p-arieh-moskal"
+  ],
+  "marriage": {
+   "date": "BEF 1950",
+   "grade": "probable",
+   "notes": [
+    "נישאו לפני העלייה לישראל."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1011",
+  "gedcomId": "F1011",
+  "branch": "albert",
+  "spouses": [
+   "p-yosef-szafir",
+   "p-yokheved-szafir"
+  ],
+  "children": [
+   "p-dvora-szafir"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1012",
+  "gedcomId": "F1012",
+  "branch": "albert",
+  "spouses": [
+   "p-lejba-moskal",
+   "p-braina-eil"
+  ],
+  "children": [
+   "p-dawid-szloma-moskal",
+   "p-abram-moszko-moskal",
+   "p-jankiel-moskal",
+   "p-aron-moszko-moskal"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1013",
+  "gedcomId": "F1013",
+  "branch": "albert",
+  "spouses": [
+   "p-shlomo-itzkovitz",
+   "p-nechama-schafir"
+  ],
+  "children": [
+   "p-chanan-itzkovitz",
+   "p-pnina-itzkovitz"
+  ],
+  "marriage": {
+   "date": "BET 1940 AND 1945",
+   "place": null
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1020",
+  "gedcomId": "F1020",
+  "branch": "albert",
+  "spouses": [
+   "p-dawid-szloma-moskal",
+   "p-hinda-rajs"
+  ],
+  "children": [
+   "p-judka-lejba-moskal",
+   "p-civja-moskal"
+  ],
+  "marriage": {
+   "date": "2 JAN 1878",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1021",
+  "gedcomId": "F1021",
+  "branch": "albert",
+  "spouses": [
+   "p-gershon-rajs",
+   "p-dvoyra-szlaim"
+  ],
+  "children": [
+   "p-hinda-rajs"
+  ],
+  "marriage": {
+   "date": "16 DEC 1847",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1022",
+  "gedcomId": "F1022",
+  "branch": "albert",
+  "spouses": [
+   "p-berek-szyfman",
+   "p-dwojra-itta-kac"
+  ],
+  "children": [
+   "p-estera-dwojra-szyfman",
+   "p-pesia-ruchla-szyfman"
+  ],
+  "marriage": {
+   "date": "BEF 1850",
+   "place": "pl-wojslawice",
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1023",
+  "gedcomId": "F1023",
+  "branch": "albert",
+  "spouses": [
+   "p-chaim-szaufer",
+   "p-liba-glezer"
+  ],
+  "children": [
+   "p-szmul-szaufer",
+   "p-gersz-szaufer",
+   "p-chaja-fajga-szaufer"
+  ],
+  "marriage": {
+   "date": "BEF 1836",
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1024",
+  "gedcomId": "F1024",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-sura-szrojd"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "20 AUG 1859",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1025",
+  "gedcomId": "F1025",
+  "branch": "albert",
+  "spouses": [
+   "p-zyskiel-szrojd",
+   "p-zelda-bragier"
+  ],
+  "children": [
+   "p-sura-szrojd"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1026",
+  "gedcomId": "F1026",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-szaufer-i1057",
+   "p-estera-szaufer"
+  ],
+  "children": [
+   "p-chaim-szaufer"
+  ],
+  "marriage": {
+   "place": "ua-rawa-ruska",
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1027",
+  "gedcomId": "F1027",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-szlaim",
+   "p-rypka-szlaim"
+  ],
+  "children": [
+   "p-dvoyra-szlaim"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1040",
+  "gedcomId": "F1040",
+  "branch": "albert",
+  "spouses": [
+   "p-wolf-rajs",
+   "p-lea-rajs"
+  ],
+  "children": [
+   "p-gershon-rajs"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1028",
+  "gedcomId": "F1028",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-szaufer",
+   "p-estera-dwojra-szyfman"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "BET 1866 AND 1871",
+   "place": "pl-wojslawice",
+   "grade": "inference",
+   "notes": [
+    "אקט הנישואין טרם אותר — חזית מחקר פתוחה."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1029",
+  "gedcomId": "F1029",
+  "branch": "albert",
+  "spouses": [
+   "p-berko-kielner",
+   "p-brandla-kielner"
+  ],
+  "children": [
+   "p-jankiel-kielner"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1030",
+  "gedcomId": "F1030",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-moszko-moskal",
+   "p-ruchla-laia-birman"
+  ],
+  "children": [
+   "p-ita-moskal"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1031",
+  "gedcomId": "F1031",
+  "branch": "albert",
+  "spouses": [
+   "p-mejer-szpektor",
+   "p-dwojra-szpektor"
+  ],
+  "children": [
+   "p-moszko-szpektor"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1032",
+  "gedcomId": "F1032",
+  "branch": "albert",
+  "spouses": [
+   "p-gersz-szaufer",
+   "p-sura-luksemberg"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "31 DEC 1872",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1033",
+  "gedcomId": "F1033",
+  "branch": "albert",
+  "spouses": [
+   "p-ahron-luksemberg",
+   "p-tauba-szpiler"
+  ],
+  "children": [
+   "p-sura-luksemberg"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1034",
+  "gedcomId": "F1034",
+  "branch": "albert",
+  "spouses": [
+   "p-herszko-glezer",
+   "p-masza"
+  ],
+  "children": [
+   "p-liba-glezer"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1035",
+  "gedcomId": "F1035",
+  "branch": "albert",
+  "spouses": [
+   "p-herszko-glezer",
+   "p-rechla-mema-fajner"
+  ],
+  "children": [
+   "p-sura-glezer",
+   "p-srul-glezer",
+   "p-chaja-ruchla-glezer",
+   "p-ita-glezer-i1100"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1036",
+  "gedcomId": "F1036",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-kac",
+   "p-estera-kac"
+  ],
+  "children": [
+   "p-dwojra-itta-kac"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1038",
+  "gedcomId": "F1038",
+  "branch": "albert",
+  "spouses": [
+   "p-wolf-kornfeld",
+   "p-chaja-fajga-szaufer"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1848",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1039",
+  "gedcomId": "F1039",
+  "branch": "albert",
+  "spouses": [
+   "p-aron-bukszpan",
+   "p-perla-bukszpan"
+  ],
+  "children": [
+   "p-dwojra-bukszpan"
+  ],
+  "marriage": {
+   "place": "pl-dorohusk",
+   "grade": "inference",
+   "notes": [
+    "לפני 1826 — לפני תחילת רישום המצב האזרחי היהודי בקונגרס-פולין. אקט נישואין שלהם לא קיים."
+   ]
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1037",
+  "gedcomId": "F1037",
+  "branch": "albert",
+  "spouses": [
+   "p-jos-szyfman",
+   "p-dwojra-bukszpan"
+  ],
+  "children": [
+   "p-berek-szyfman",
+   "p-moszek-szyfman"
+  ],
+  "marriage": {
+   "date": "BEF 1812",
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1041",
+  "gedcomId": "F1041",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-glezer",
+   "p-ita-glezer"
+  ],
+  "children": [
+   "p-herszko-glezer"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1042",
+  "gedcomId": "F1042",
+  "branch": "albert",
+  "spouses": [
+   "p-chaim-fajwel",
+   "p-laja-fajwel"
+  ],
+  "children": [
+   "p-rechla-mema-fajner"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1043",
+  "gedcomId": "F1043",
+  "branch": "albert",
+  "spouses": [
+   "p-srul-glezer",
+   "p-chana-zaman"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1847",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1044",
+  "gedcomId": "F1044",
+  "branch": "albert",
+  "spouses": [
+   "p-lejb-nudel",
+   "p-chaja-ruchla-glezer"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "BEF 1841",
+   "place": null
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1045",
+  "gedcomId": "F1045",
+  "branch": "albert",
+  "spouses": [
+   "p-szaja-binem-szlajn",
+   "p-ita-glezer-i1100"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "JAN 1857",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1046",
+  "gedcomId": "F1046",
+  "branch": "albert",
+  "spouses": [
+   "p-ejzyk-szlajn",
+   "p-dwojra-zlota"
+  ],
+  "children": [
+   "p-szaja-binem-szlajn",
+   "p-berko-szlajn"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1047",
+  "gedcomId": "F1047",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-nudel",
+   "p-estera-nudel"
+  ],
+  "children": [
+   "p-dawid-nudel",
+   "p-majer-josek-nudel"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1048",
+  "gedcomId": "F1048",
+  "branch": "albert",
+  "spouses": [
+   "p-dawid-nudel",
+   "p-maja-fajga-hutmacher"
+  ],
+  "children": [
+   "p-chaja-nudel"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1049",
+  "gedcomId": "F1049",
+  "branch": "albert",
+  "spouses": [
+   "p-itta-hutmacher"
+  ],
+  "children": [
+   "p-maja-fajga-hutmacher"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1050",
+  "gedcomId": "F1050",
+  "branch": "albert",
+  "spouses": [
+   "p-chajm-goldberg",
+   "p-chawa-goldberg"
+  ],
+  "children": [
+   "p-itta-hutmacher"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1051",
+  "gedcomId": "F1051",
+  "branch": "albert",
+  "spouses": [
+   "p-moszek-eil",
+   "p-matla-sztyglic"
+  ],
+  "children": [
+   "p-chaja-rywa-eil"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1052",
+  "gedcomId": "F1052",
+  "branch": "albert",
+  "spouses": [
+   "p-jankiel-moskal",
+   "p-elka-erlich"
+  ],
+  "children": [
+   "p-ruchla-laja-moskal"
+  ],
+  "marriage": {
+   "date": "17 MAR 1875",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1053",
+  "gedcomId": "F1053",
+  "branch": "albert",
+  "spouses": [
+   "p-berek-erlich",
+   "p-ruchla-laja-potasznik"
+  ],
+  "children": [
+   "p-elka-erlich"
+  ],
+  "marriage": {
+   "grade": "inference"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1057",
+  "gedcomId": "F1057",
+  "branch": "albert",
+  "spouses": [
+   "p-aron-moszko-moskal",
+   "p-cywia-rajner"
+  ],
+  "children": [
+   "p-bajla-moskal",
+   "p-szabsa-lejb-moskal",
+   "p-mordko-moskal",
+   "p-tauba-moskal-i1141"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1058",
+  "gedcomId": "F1058",
+  "branch": "albert",
+  "spouses": [
+   "p-szabsa-lejba-rajner",
+   "p-sura-rajner"
+  ],
+  "children": [
+   "p-cywia-rajner"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1059",
+  "gedcomId": "F1059",
+  "branch": "albert",
+  "spouses": [
+   "p-mordko-moskal",
+   "p-civja-moskal"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1060",
+  "gedcomId": "F1060",
+  "branch": "albert",
+  "spouses": [
+   "p-moszek-szyfman",
+   "p-rane-katz"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1832",
+   "place": "Dorohusk, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ }
+]

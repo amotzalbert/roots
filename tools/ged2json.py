@@ -167,11 +167,23 @@ def main():
         ns = notes(r)
         birth, death = event(r, "BIRT"), event(r, "DEAT")
         # אדם נחשב חי אם אין לו רשומת פטירה ואין לו תאריך לידה (מדיניות ה-GEDCOM המקורית)
-        living = death is None and (birth is None or not birth.get("date"))
+        # הערה שמתחילה ב-"Living"/"LIVING" היא קובעת: אדם חי יכול בהחלט להיות עם
+        # תאריך לידה. בלי זה, כל תאריך לידה היה מסמן אותו כנפטר.
+        has_living_note = any(re.match(r"\s*living\b", n, re.I) for n in ns)
+        living = death is None and (has_living_note or birth is None or not birth.get("date"))
+
+        # ענף: ברירת המחדל albert; אדם שמגשר על שני הקווים מסומן ב-GEDCOM
+        # בהערה "_BRANCH both" (או moskal), וזה גובר.
+        branch = "albert"
+        for n in ns:
+            mb = re.search(r'_BRANCH\s+(albert|moskal|both)', n)
+            if mb:
+                branch = mb.group(1)
+                break
 
         people[pid] = {
             "id": pid,
-            "branch": "albert",
+            "branch": branch,
             "gedcomId": xid,
             "names": {"he": "", "latin": latin, "given": given, "surname": surname,
                       "variants": []},

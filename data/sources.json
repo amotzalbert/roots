@@ -1,5 +1,17 @@
 [
  {
+  "id": "s-s89",
+  "gedcomId": "S89",
+  "title": "CRARG master sweep for WINOGRON / WINOGROD / WINOGRAD, 21 Aug 2026",
+  "author": "Daniel Kazez, CRARG (Czestochowa-Radomsko Area Research Group)",
+  "publication": "Sent by Dropbox Transfer 21 Aug 2026; file \"Winogron-Winogr-CRARG.html\", 520 KB,\n568 rows across 88 collections. Held at albert/sources/crarg/ with a parsed TSV.",
+  "repository": "",
+  "citation": "",
+  "notes": [
+   "Supersedes the narrower report of 14 Aug 2026 (50 rows): 526 of the 568 rows are new.\nTranscriptions, NOT the acts themselves. The rows that matter here: marriage 20/1849\n(Kiwa Cukier x Rywa Winogron), marriage 11/1851 (Cejwa, Szmul & Gitla), birth\n46/1850 (Icek, Szmul & Laia), marriage 2/1859 (Rachmiel, Szmul & Laia), birth\n89/1865 (\"Winograd vel Wajntrop\"), marriage 7/1894 (\"Mariem Rywka nee Winograd,\ndeceased\"). See findings/119."
+  ]
+ },
+ {
   "id": "s-s50",
   "gedcomId": "S50",
   "title": "Klimontow Jewish register, marriage act 4/1834 - Jeremiasz Rywenbayrych and Haja Zalzberg",

@@ -1408,286 +1408,6 @@
   "bioChapter": null
  },
  {
-  "id": "p-amotz-albert",
-  "branch": "both",
-  "gen": 1,
-  "names": {
-   "he": "אמוץ אלברט",
-   "latin": "Amotz Albert",
-   "given": "Amotz",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": {
-   "date": "ABT 1974",
-   "grade": "documented"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "הנקודה שבה שני הענפים נפגשים: בנם של דוד אלברט ודבורה מוסקל."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-boaz-albert",
-  "branch": "both",
-  "gen": 1,
-  "names": {
-   "he": "בעז אלברט",
-   "latin": "Boaz Albert",
-   "given": "Boaz",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": {
-   "date": "10 FEB 1978",
-   "grade": "documented"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בנם של דוד אלברט ודבורה מוסקל."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-michal-albert",
-  "branch": "both",
-  "gen": 1,
-  "names": {
-   "he": "מיכל אלברט",
-   "latin": "Michal Albert",
-   "given": "Michal",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": {
-   "date": "6 SEP 1981",
-   "grade": "documented"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתם של דוד אלברט ודבורה מוסקל."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-aya-albert",
-  "branch": "both",
-  "gen": 1,
-  "names": {
-   "he": "איה אלברט",
-   "latin": "Aya Albert",
-   "given": "Aya",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": {
-   "date": "26 JAN 1984",
-   "grade": "documented"
-  },
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתם של דוד אלברט ודבורה מוסקל."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-neta-albert",
-  "branch": "both",
-  "names": {
-   "he": "נטע",
-   "latin": "Neta",
-   "given": "Neta",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בנה של איה אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-maayan-albert",
-  "branch": "both",
-  "names": {
-   "he": "מעיין",
-   "latin": "Maayan",
-   "given": "Maayan",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בנה של איה אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-moran-albert",
-  "branch": "both",
-  "names": {
-   "he": "מורן",
-   "latin": "Moran",
-   "given": "Moran",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "M",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בנה של איה אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-nitzan-albert",
-  "branch": "both",
-  "names": {
-   "he": "ניצן",
-   "latin": "Nitzan",
-   "given": "Nitzan",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתה של מיכל אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-rotem-albert",
-  "branch": "both",
-  "names": {
-   "he": "רותם",
-   "latin": "Rotem",
-   "given": "Rotem",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתה של מיכל אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-aviv-albert",
-  "branch": "both",
-  "names": {
-   "he": "אביב",
-   "latin": "Aviv",
-   "given": "Aviv",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתה של מיכל אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-tamar-albert",
-  "branch": "both",
-  "names": {
-   "he": "תמר",
-   "latin": "Tamar",
-   "given": "Tamar",
-   "surname": "Albert",
-   "variants": []
-  },
-  "sex": "F",
-  "living": true,
-  "birth": null,
-  "death": null,
-  "grade": "documented",
-  "occupation": "",
-  "notes": [
-   "בתו של בעז אלברט."
-  ],
-  "sources": [],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
   "id": "p-sara-soche-moskal",
   "branch": "moskal",
   "gen": 4,
@@ -2337,22 +2057,25 @@
   "branch": "moskal",
   "gen": 3,
   "names": {
-   "he": "ששה שאפיר",
-   "latin": "Shasha Schafir",
-   "given": "Shasha",
+   "he": "יששכר («סשה») שאפיר",
+   "latin": "Issachar Schafir",
+   "given": "Issachar",
    "surname": "Schafir",
    "variants": [
     "Szafir",
-    "Szaufer"
+    "Szaufer",
+    "Shasha",
+    "Sasha",
+    "סשה"
    ]
   },
-  "sex": "F",
+  "sex": "M",
   "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
   "notes": [
-   "בתם של מנחם מנדל שאפיר ופרל; אחותה של מלכה. ○ ידועה משמה בלבד; לא אותר עליה מסמך."
+   "★ «ששה» הוא כינוי של יששכר, אחיה של מלכה — אח, לא אחות. אושר ע\"י אמוץ 3.8.2026 ושוב 21.8.2026. הרשומה הישנה תיארה אותו כבת; תוקן."
   ],
   "grade": "inference",
   "sources": [],
