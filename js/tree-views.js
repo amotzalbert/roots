@@ -87,14 +87,41 @@ function ancestorLine(id,depth){                    /* מערך לפי דורו�
   return rows;
 }
 
+
+/* ── התאמת שם למקום הפנוי ────────────────────────────────────────
+   במקום לקצוץ באמצע מילה («לייבה מו…»), מקצרים קודם את שם המשפחה
+   לראשי תיבות («לייבה מ׳»). רק אם גם זה לא נכנס — קיצוץ.          */
+const CHW = 0.55;                       /* רוחב תו ממוצע ביחס לגובה הגופן */
+const textW = (s,fs) => s.length*fs*CHW;
+const LETTER = /[\u0590-\u05FF A-Za-z\u00C0-\u024F]/;   /* עברית או לטינית */
+const initial = w => { const m = [...w].find(ch => LETTER.test(ch)); return m ? m + '׳' : ''; };
+function fitName(name, avail, fs){
+  const fits = s => textW(s,fs) <= avail;
+  if(fits(name)) return name;
+  /* 1 · לוותר על השם שבסוגריים (שם נעורים / כתיב ארכיוני) */
+  const noParen = name.replace(/\s*[({\[][^)}\]]*[)}\]]/g,'').trim();
+  if(noParen && fits(noParen)) return noParen;
+  const base = noParen || name;
+  const w = base.split(/\s+/).filter(Boolean);
+  /* 2 · לקצר את שם המשפחה לראשי תיבות */
+  if(w.length > 1){
+    const abbr = (w[0] + ' ' + w.slice(1).map(initial).filter(Boolean).join(' ')).trim();
+    if(fits(abbr)) return abbr;
+    if(fits(w[0])) return w[0];
+  }
+  /* 3 · רק אז קיצוץ */
+  const max = Math.max(2, Math.floor(avail/(fs*CHW)) - 1);
+  return base.slice(0,max).trim() + '…';
+}
+
 /* ── צבע וסימון ──────────────────────────────────────────────────── */
 const gcol = g => g==='documented'?'var(--ok)':g==='probable'?'var(--gold)':'var(--ink-3)';
-function tint(p){
-  if(p.sex==='F') return 'var(--f-tint)';
-  if(p.sex==='M') return 'var(--m-tint)';
-  return 'var(--paper-2)';
-}
-function edge(p){ return p.branch==='moskal'?'var(--moskal)':p.branch==='albert'?'var(--albert)':'var(--gold)'; }
+/* הצבע מקודד ענף — איזו שושלת, לא איזה מין. */
+const BR = p => p&&p.branch==='moskal' ? 'moskal'
+              : p&&p.branch==='albert' ? 'albert' : 'both';
+function tint(p){ return `var(--${BR(p)}-tint)`; }
+function edge(p){ return `var(--${BR(p)})`; }
+function line(p){ return `var(--${BR(p)}-line)`; }
 
 /* ── כרטיס בסגנון MyHeritage ─────────────────────────────────────── */
 const CW=206, CH=66;
@@ -207,7 +234,7 @@ function drawFan(root){
       const a1=START+i*step+0.006, a2=a1+step-0.012;
       const id=row[i], p=id?S.people.get(id):null;
       const seg=el('path',{class:'fan-seg'+(p?'':' empty'),d:arc(r1,r2,a1,a2),
-        fill:p?tint(p):'var(--paper-2)',stroke:'var(--rule)','stroke-width':1});
+        fill:p?tint(p):'var(--plinth-2)',stroke:p?line(p):'var(--rule)','stroke-width':1});
       if(p){
         seg.setAttribute('tabindex','0'); seg.setAttribute('role','button');
         seg.setAttribute('aria-label',nameOf(p));
@@ -217,20 +244,44 @@ function drawFan(root){
       }
       root.appendChild(seg);
       if(!p) continue;
-      /* טקסט לאורך הקשת */
+      /* רצועת הענף — קשת עבה בשפה הפנימית של הטבעת, כמו בשושלות המודפסות */
+      root.appendChild(el('path',{class:'fan-band',d:arc(r1,r1+3.5,a1,a2),
+        fill:edge(p),stroke:'none'}));
+      /* ── תווית: לרוחב הקשת כברירת מחדל, לאורך הרדיוס כשאין מקום ──
+         בדורות החיצוניים המשבצת צרה לרוחב אבל גבוהה לאורך הרדיוס,
+         ולכן שם מסובבים את הכיתוב במקום לקצץ אותו.                 */
       const am=(a1+a2)/2, rm=(r1+r2)/2;
       const deg=am*180/Math.PI;
-      let rot = deg+90, flip=false;
-      if(deg>0&&deg<180){ rot=deg-90; flip=true; }
+      const fs = gi<=2?12:gi===3?10.5:9;
+      const tangential = step*rm - 8;      /* מקום לרוחב הקשת */
+      const radial     = (r2-r1) - 14;     /* מקום לאורך הרדיוס */
+      const full = nameOf(p);
+      const needed = textW(full,fs);
+      const radialMode = needed > tangential && radial > tangential;
+      const avail = radialMode ? radial : tangential;
+
+      let rot;
+      if(radialMode){
+        const d=((deg%360)+360)%360;       /* הפוך? מסובבים ב-180 כדי לא לקרוא הפוך */
+        rot = (d>90 && d<270) ? deg+180 : deg;
+      } else {
+        rot = (deg>0 && deg<180) ? deg-90 : deg+90;
+      }
       const tg=el('g',{transform:`translate(${rm*Math.cos(am)},${rm*Math.sin(am)}) rotate(${rot})`,
-                       class:'fan-lbl'});
-      const maxc = gi<=2?16:gi===3?12:9;
-      let s=nameOf(p); if(s.length>maxc) s=s.slice(0,maxc-1)+'…';
-      const t=el('text',{'text-anchor':'middle',y:gi<=3?-2:3,class:'nm',fill:'var(--ink)',
-                         'font-size':gi<=2?12:gi===3?10.5:9});
+                       class:'fan-lbl'+(radialMode?' radial':'')});
+
+      const s = fitName(full, avail, fs);
+      /* שנים רק כשיש באמת מקום לשורה שנייה */
+      const room2 = radialMode ? tangential >= fs*2.2 : gi<=3;
+      const t=el('text',{'text-anchor':'middle',y:room2?-2:3,class:'nm',fill:'var(--ink)',
+                         'font-size':fs});
       t.textContent=s; tg.appendChild(t);
-      if(gi<=3){ const y2=el('text',{'text-anchor':'middle',y:12,class:'yr',fill:'var(--ink-3)',
-                    'font-size':gi<=2?9.5:8.5}); y2.textContent=lifespan(p); tg.appendChild(y2); }
+      if(room2 && gi<=4){
+        const y2=el('text',{'text-anchor':'middle',y:gi<=2?12:11,class:'yr',fill:'var(--ink-3)',
+                      'font-size':gi<=2?9.5:8.5});
+        y2.textContent=lifespan(p); tg.appendChild(y2);
+      }
+      if(s!==full){ const ttl=el('title'); ttl.textContent=full; tg.appendChild(ttl); }
       root.appendChild(tg);
     }
   }

@@ -1,10 +1,17 @@
 /* ═══ tree.html ═══ חולץ מהבלוק הפנימי, משותף ל-he/en/pl ═══ */
 /* ── גוונים בסגנון MyHeritage, נגזרים מפלטת «שורשים» ── */
-:root{ --m-tint:#e8eef6; --f-tint:#f7eaee; --card-sh:0 1px 2px #231f1c1a,0 4px 12px #231f1c12; }
-:root[data-theme="dark"], html:not([data-theme="light"]) { }
-@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){ --m-tint:#232b36; --f-tint:#332229; } }
-:root[data-theme="dark"]{ --m-tint:#232b36; --f-tint:#332229; }
-:root[data-theme="light"]{ --m-tint:#e8eef6; --f-tint:#f7eaee; }
+:root{
+  /* גוון לפי ענף — לא לפי מין. המשבצת כמעט לבנה, והצבע יושב
+     ברצועת הקשת ובקו המתאר, כך שהשושלת נקראת במבט אחד.
+     נגזר מאסימוני הענף ⇒ הגדרה אחת נכונה לבהיר ולכהה כאחד. */
+  --moskal-tint:color-mix(in srgb, var(--moskal)  9%, var(--plinth));
+  --albert-tint:color-mix(in srgb, var(--albert)  9%, var(--plinth));
+  --both-tint:color-mix(in srgb, var(--gold) 9%, var(--plinth));
+  --moskal-line:color-mix(in srgb, var(--moskal) 55%, var(--rule));
+  --albert-line:color-mix(in srgb, var(--albert) 55%, var(--rule));
+  --both-line:color-mix(in srgb, var(--gold) 55%, var(--rule));
+  --card-sh:var(--shadow-plinth);
+}
 
 .treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
 @media (max-width:940px){.treewrap{grid-template-columns:1fr}}
