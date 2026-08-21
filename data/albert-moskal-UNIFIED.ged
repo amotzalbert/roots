@@ -6880,8 +6880,13 @@
 2 CONT nineteen deaths, listed in full, and the ONLY Muskal in it is row 12, SZYFRA,
 2 CONT act 16, page 79 - Moszko's little daughter @I1149@, already read and entered.
 2 CONT "Fryjna" was a misreading of "Szyfra" in the same act.
-2 CONT >>> ONE candidate remains unread: Moskal Perla, death 16/1873 (sygn. 2.1/37,
-2 CONT unit 2196587, 48 scans). Only one scan of that volume is on disk.
+2 CONT >>> SECOND CANDIDATE ELIMINATED 21 Aug 2026: "Moskal Perla, death 16/1873" was
+2 CONT read in the original. She is PERLA nee PERZ @I1152@, born ~1844 in Tyszowce and
+2 CONT dead at TWENTY-NINE - a full generation too young to be Herszek's wife.
+2 CONT ** BOTH proposed local tests are now closed. ** Neither Chaja nor Sura died in
+2 CONT the Wojslawice district, and no further candidate exists in its indexes.
+2 CONT >>> THE QUESTION NOW HAS NO LOCAL TEST. It moves to Krasniczyn (fond 1747,
+2 CONT from 1826) and to the 1839 Uchanie allegata, which is with AP Lublin.
 2 CONT >>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife.
 1 SOUR @S1043@
 1 FAMS @F1061@
@@ -6925,5 +6930,75 @@
 1 REPO AP Lublin, fond 35/1787, sygn. 2.1/19, unit 2196529, scan 25, p. 65
 1 NOTE READ IN THE ORIGINAL 20 Aug 2026. Second independent statement of "SURA nee ERLICH",
 2 CONT and the age that closes the 1843-vs-1820 contradiction over Moszko.
+
+0 @I1152@ INDI
+1 NAME Perla /Perz/
+2 GIVN Perla
+2 SURN Perz
+2 NOTE The act writes her married name in Cyrillic and again in Latin: "Перля Москаль
+3 CONT (Perla Maskal)". Her maiden surname is given as PERC / Percow.
+1 SEX F
+1 BIRT
+2 DATE ABT 1844
+2 PLAC Tyszowce, Tomaszow Lubelski, Lublin, Poland
+2 NOTE Aged 29 at death. "Urodzennaya v Posade TYSHOVTSE."
+1 DEAT
+2 DATE 1873
+2 PLAC Krasniczyn, Krasnystaw, Lublin, Poland
+2 NOTE >>> DEATH ACT 16/1873 READ IN THE ORIGINAL, 21 Aug 2026, at full magnification.
+3 CONT AP Lublin fond 35/1787, sygn. 2.1/37, unit 2196587, scan 34, right-hand page,
+3 CONT pencil p. 57 (the death index gives "act 16, page 99" in the stamped numbering).
+3 CONT Russian text: "at ten in the morning DIED IN THE VILLAGE OF KRASNICZYN, living
+3 CONT with her husband the TAILOR, PERLA MOSKAL, TWENTY-NINE YEARS OF AGE, born in the
+3 CONT town of TYSZOWCE to the late WULF-LAJB and CYRA-SZANDLA, lawful spouses PERC,
+3 CONT leaving behind her widowed husband MOSZKO MOSKAL, THIRTY-TWO YEARS OF AGE."
+3 CONT Witness Josif Tuchman.
+1 NOTE ADDED 21 Aug 2026. ** NOT LINKED to our line. ** She was one of two unread
+2 CONT candidates for CHAJA/SURA, the wife of Herszek @I1150@; reading the act ELIMINATES
+2 CONT her - she was born ~1844 and is a full generation too young.
+2 CONT >>> WHAT SHE DOES SHOW: a MOSKAL HOUSEHOLD STILL IN KRASNICZYN IN 1873, the very
+2 CONT village Herszek came from. Recorded so the household is not lost.
+1 SOUR @S1046@
+1 FAMS @F1063@
+
+0 @I1153@ INDI
+1 NAME Moszko /Moskal/
+2 GIVN Moszko
+2 SURN Moskal
+1 SEX M
+1 BIRT
+2 DATE ABT 1841
+2 NOTE Stated 32 years old in the 1873 act.
+1 OCCU portnoy - tailor
+1 RESI
+2 PLAC Krasniczyn, Krasnystaw, Lublin, Poland
+1 NOTE ADDED 21 Aug 2026 from death act 16/1873 of his wife Perla @I1152@, where he is
+2 CONT named as her surviving widower, a tailor of Krasniczyn, aged 32.
+2 CONT ** NOT the Moszko Moskal @I1146@ who died in 1847 ** - that one was born ~1820.
+2 CONT This is a DIFFERENT, YOUNGER MAN, born ~1841.
+2 CONT >>> ○ A LEAD, NOT A LINK. Ashkenazi custom would have a boy born ~1841 named
+2 CONT MOSZKO only after a dead Moszko - but our Moszko died in 1847, six years LATER,
+2 CONT so he cannot be this child's namesake. The two are simply both Moskals of
+2 CONT Krasniczyn. Whether this household descends from Herszek @I1150@ is UNTESTED.
+2 CONT >>> WHERE TO TEST IT: his own marriage and birth should be in the Krasniczyn
+2 CONT register (fond 1747), which begins in 1826 - early enough for a birth ~1841.
+1 SOUR @S1046@
+1 FAMS @F1063@
+
+0 @F1063@ FAM
+1 HUSB @I1153@
+1 WIFE @I1152@
+1 NOTE A Moskal household of Krasniczyn, documented only by her death act of 1873.
+2 CONT No children are named in it. Not connected to @F1061@ - see both spouses' notes.
+1 SOUR @S1046@
+
+0 @S1046@ SOUR
+1 TITL Wojslawice death act 16/1873 - Perla Moskal nee Perz, of Krasniczyn
+1 REPO AP Lublin, fond 35/1787, sygn. 2.1/37, unit 2196587, scan 34, pencil p. 57
+1 NOTE READ IN THE ORIGINAL 21 Aug 2026 at full magnification, through the archive viewer.
+2 CONT The 1873 alphabetical death index (scans 45-46, saved to sources/fond1787/37/)
+2 CONT lists her at row 23: "Moskal - Perlya - act 16 - page 99". Thirty-six deaths that
+2 CONT year. >>> The act image itself could not be downloaded - that one hash returns an
+2 CONT Incapsula stub - but both index pages were saved and the act was read on screen.
 
 0 TRLR

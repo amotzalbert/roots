@@ -1438,5 +1438,17 @@
   ],
   "marriage": null,
   "notes": []
+ },
+ {
+  "id": "u-f1063",
+  "gedcomId": "F1063",
+  "branch": "albert",
+  "spouses": [
+   "p-moszko-moskal-i1153",
+   "p-perla-perz"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
  }
 ]

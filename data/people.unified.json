@@ -8553,7 +8553,66 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "ADDED 21 Aug 2026 as the mother of MOSZKO @I1146@ ONLY.\n** UNRESOLVED CONTRADICTION. ** Uchanie marriage act 1/1839 names the mother of\nLejbus Leybowicz as CHAJA, who was present and gave her consent. Death act 29/1847\nnames Moszko's mother as SURA. Three readings, none decided:\n(1) a double name, Chaja-Sura or Sura-Chaja - the simplest;\n(2) two marriages of Herszek, which would make Lejba and Moszko HALF-brothers;\n(3) two different Herszeks in Krasniczyn - least likely: same village, same trade,\nsame decade.\n>>> THE TEST would be a death act for Chaja or for Sura. NEITHER is in the\nWojslawice death indexes for 1841-1848 or 1848-1884.\n>>> CANDIDATE ELIMINATED 21 Aug 2026: \"Muskal Fryjna, death 16/1849\" DOES NOT EXIST.\nThe 1849 alphabetical death index was read off the film (sygn. 2.1/14, scan 30):\nnineteen deaths, listed in full, and the ONLY Muskal in it is row 12, SZYFRA,\nact 16, page 79 - Moszko's little daughter @I1149@, already read and entered.\n\"Fryjna\" was a misreading of \"Szyfra\" in the same act.\n>>> ONE candidate remains unread: Moskal Perla, death 16/1873 (sygn. 2.1/37,\nunit 2196587, 48 scans). Only one scan of that volume is on disk.\n>>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife."
+   "ADDED 21 Aug 2026 as the mother of MOSZKO @I1146@ ONLY.\n** UNRESOLVED CONTRADICTION. ** Uchanie marriage act 1/1839 names the mother of\nLejbus Leybowicz as CHAJA, who was present and gave her consent. Death act 29/1847\nnames Moszko's mother as SURA. Three readings, none decided:\n(1) a double name, Chaja-Sura or Sura-Chaja - the simplest;\n(2) two marriages of Herszek, which would make Lejba and Moszko HALF-brothers;\n(3) two different Herszeks in Krasniczyn - least likely: same village, same trade,\nsame decade.\n>>> THE TEST would be a death act for Chaja or for Sura. NEITHER is in the\nWojslawice death indexes for 1841-1848 or 1848-1884.\n>>> CANDIDATE ELIMINATED 21 Aug 2026: \"Muskal Fryjna, death 16/1849\" DOES NOT EXIST.\nThe 1849 alphabetical death index was read off the film (sygn. 2.1/14, scan 30):\nnineteen deaths, listed in full, and the ONLY Muskal in it is row 12, SZYFRA,\nact 16, page 79 - Moszko's little daughter @I1149@, already read and entered.\n\"Fryjna\" was a misreading of \"Szyfra\" in the same act.\n>>> SECOND CANDIDATE ELIMINATED 21 Aug 2026: \"Moskal Perla, death 16/1873\" was\nread in the original. She is PERLA nee PERZ @I1152@, born ~1844 in Tyszowce and\ndead at TWENTY-NINE - a full generation too young to be Herszek's wife.\n** BOTH proposed local tests are now closed. ** Neither Chaja nor Sura died in\nthe Wojslawice district, and no further candidate exists in its indexes.\n>>> THE QUESTION NOW HAS NO LOCAL TEST. It moves to Krasniczyn (fond 1747,\nfrom 1826) and to the 1839 Uchanie allegata, which is with AP Lublin.\n>>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-perla-perz",
+  "gedcomId": "I1152",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Perla Perz",
+   "given": "Perla",
+   "surname": "Perz",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1844",
+   "place": "Tyszowce, Tomaszow Lubelski, Lublin, Poland"
+  },
+  "death": {
+   "date": "1873",
+   "place": "Krasniczyn, Krasnystaw, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [
+   "ADDED 21 Aug 2026. ** NOT LINKED to our line. ** She was one of two unread\ncandidates for CHAJA/SURA, the wife of Herszek @I1150@; reading the act ELIMINATES\nher - she was born ~1844 and is a full generation too young.\n>>> WHAT SHE DOES SHOW: a MOSKAL HOUSEHOLD STILL IN KRASNICZYN IN 1873, the very\nvillage Herszek came from. Recorded so the household is not lost."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-moszko-moskal-i1153",
+  "gedcomId": "I1153",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Moszko Moskal",
+   "given": "Moszko",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1841",
+   "place": null
+  },
+  "death": null,
+  "occupation": "portnoy - tailor",
+  "notes": [
+   "ADDED 21 Aug 2026 from death act 16/1873 of his wife Perla @I1152@, where he is\nnamed as her surviving widower, a tailor of Krasniczyn, aged 32.\n** NOT the Moszko Moskal @I1146@ who died in 1847 ** - that one was born ~1820.\nThis is a DIFFERENT, YOUNGER MAN, born ~1841.\n>>> ○ A LEAD, NOT A LINK. Ashkenazi custom would have a boy born ~1841 named\nMOSZKO only after a dead Moszko - but our Moszko died in 1847, six years LATER,\nso he cannot be this child's namesake. The two are simply both Moskals of\nKrasniczyn. Whether this household descends from Herszek @I1150@ is UNTESTED.\n>>> WHERE TO TEST IT: his own marriage and birth should be in the Krasniczyn\nregister (fond 1747), which begins in 1826 - early enough for a birth ~1841."
   ],
   "grade": null,
   "sources": [],

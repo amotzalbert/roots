@@ -2048,6 +2048,22 @@
   "terms": "Sura Moskal"
  },
  {
+  "id": "p-perla-perz",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Perla Perz",
+  "sub": "",
+  "terms": "Perla Perz 1844 1873"
+ },
+ {
+  "id": "p-moszko-moskal-i1153",
+  "type": "person",
+  "branch": "moskal",
+  "label": "Moszko Moskal",
+  "sub": "",
+  "terms": "Moszko Moskal 1841"
+ },
+ {
   "id": "pl-wojslawice",
   "type": "place",
   "branch": "moskal",
