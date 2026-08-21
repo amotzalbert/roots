@@ -1,30 +1,166 @@
-/* ═══ index.html ═══ חולץ מהבלוק הפנימי, משותף ל-he/en/pl ═══ */
-.hero{padding:3.5rem 0 2.5rem;text-align:center}
-.hero h1{font-size:clamp(2.3rem,5vw,3.6rem);margin:.15em 0}
-.hero p{max-width:38rem;margin:0 auto;color:var(--ink-2);font-size:1.12rem}
-.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:2.6rem 0}
+/* ═══ index.html — «ויטרינה» ═══════════════════════════════════════
+   העמוד הראשי: כותרת ענקית לצד פסקת פתיחה, מפקד מעל קו כבד,
+   שני בסיסי ענף, כלי המחקר, ומה חדש כשורות מפתח.
+
+   אין כאן שינוי מבנה: הסימון נשאר בדיוק כפי שהיה (.hero .stats
+   .branches .bcard .tools .tcard .whatsnew), כולל ה-JS שמייצר את
+   המפקד — כך שאף מילה מתורגמת ב-en/pl לא נוגעים בה.        */
+
+/* ── פתיחה ─────────────────────────────────────────────────────── */
+.hero{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  column-gap:2.8rem;
+  align-items:end;
+  padding:2.6rem 0 2rem;
+}
+.hero .kicker{grid-column:1/-1;margin-bottom:.6rem}
+.hero h1{
+  margin:0;
+  font-size:var(--t-display);
+  line-height:.82;
+  font-weight:900;
+  letter-spacing:-.035em;
+}
+.hero p:not(.kicker){
+  margin:0;
+  padding-bottom:.7rem;
+  padding-inline-start:1.8rem;
+  border-inline-start:1px solid var(--rule);
+  max-width:30rem;
+  font-size:var(--t-body);
+  line-height:1.75;
+  color:var(--ink-2);
+}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr;row-gap:1.2rem}
+  .hero p:not(.kicker){padding-inline-start:0;border-inline-start:0;
+    padding-top:1rem;border-top:1px solid var(--rule);max-width:none}
+}
+
+/* ── מפקד ──────────────────────────────────────────────────────── */
+.stats{
+  display:flex;
+  gap:2.6rem;
+  flex-wrap:wrap;
+  margin:.4rem 0 2.4rem;
+  padding-top:1.2rem;
+  border-top:2px solid var(--rule-heavy);
+}
+.stat b{
+  display:block;
+  font-size:2.2rem;
+  font-weight:900;
+  letter-spacing:-.025em;
+  line-height:1;
+  font-variant-numeric:tabular-nums;
+  color:var(--ink);
+}
+.stat span{
+  display:block;
+  margin-top:.3rem;
+  font-size:var(--t-label);
+  letter-spacing:.05em;
+  color:var(--ink-3);
+  font-weight:500;
+}
+
+/* ── בסיסי הענפים ──────────────────────────────────────────────── */
+.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:0 0 3rem}
 @media (max-width:760px){.branches{grid-template-columns:1fr}}
-.bcard{display:block;text-decoration:none;color:inherit;border-radius:.8rem;padding:1.8rem 1.6rem;
-  border:1px solid var(--rule);box-shadow:var(--shadow);transition:.18s;position:relative;overflow:hidden}
-.bcard:hover{transform:translateY(-3px)}
-.bcard.moskal{background:linear-gradient(160deg,color-mix(in srgb,var(--moskal) 8%,var(--paper-2)),var(--paper-2))}
-.bcard.albert{background:linear-gradient(160deg,color-mix(in srgb,var(--albert) 8%,var(--paper-2)),var(--paper-2))}
-.bcard .tag{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
-.bcard.moskal .tag{color:var(--moskal)} .bcard.albert .tag{color:var(--albert)}
-.bcard h2{margin:.25em 0 .4em;font-size:1.6rem;border:0;padding:0}
-.bcard p{color:var(--ink-2);margin:0 0 1rem}
-.bcard .places{font-family:var(--sans);font-size:.85rem;color:var(--ink-3)}
-.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;margin:2.8rem 0}
-.tcard{padding:1.2rem 1.3rem;border:1px solid var(--rule);border-radius:.6rem;text-decoration:none;color:inherit}
-.tcard:hover{border-color:var(--rule-2);background:var(--paper-2)}
-.tcard .ic{font-size:1.3rem;margin-bottom:.4rem;display:block}
-.tcard h3{margin:.1em 0 .2em;font-size:1.02rem}
-.tcard p{margin:0;font-size:.85rem;color:var(--ink-3)}
-.stats{display:flex;gap:2.2rem;justify-content:center;flex-wrap:wrap;margin:2.2rem 0;
-  font-family:var(--sans)}
-.stat{text-align:center}
-.stat b{display:block;font-size:1.7rem;font-family:var(--serif);color:var(--ink)}
-.stat span{font-size:.82rem;color:var(--ink-3)}
-.whatsnew{border-top:1px solid var(--rule);padding-top:1.6rem;margin-top:3rem}
-.whatsnew li{margin-bottom:.5rem;font-size:.94rem}
-.whatsnew time{color:var(--ink-3);font-family:var(--sans);font-size:.82rem;margin-inline-start:.5rem}
+
+.bcard{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  background:var(--plinth);
+  padding:1.8rem 1.7rem 1.6rem;
+  border-top:4px solid var(--rule-mid);
+  box-shadow:var(--shadow-plinth);
+  transition:transform .12s ease,box-shadow .12s ease;
+}
+.bcard.moskal{border-top-color:var(--moskal)}
+.bcard.albert{border-top-color:var(--albert)}
+.bcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+.bcard .tag{
+  margin:0;
+  font-size:var(--t-label);
+  letter-spacing:.12em;
+  font-weight:700;
+}
+.bcard.moskal .tag{color:var(--moskal)}
+.bcard.albert .tag{color:var(--albert)}
+.bcard h2{
+  margin:.55rem 0 .55rem;
+  border:0;
+  padding:0;
+  font-size:1.75rem;
+  font-weight:900;
+  letter-spacing:-.025em;
+}
+.bcard p{margin:0 0 .9rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.7;max-width:none}
+.bcard .places{
+  margin:0;
+  padding-top:.8rem;
+  border-top:1px solid var(--rule);
+  font-size:var(--t-label);
+  color:var(--ink-3);
+  line-height:1.75;
+}
+
+/* ── כלי המחקר ─────────────────────────────────────────────────── */
+.tools{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));
+  gap:1rem;
+  margin:1.6rem 0 3rem;
+}
+.tcard{
+  display:block;
+  padding:1.2rem 1.3rem;
+  background:var(--plinth);
+  border-top:3px solid var(--rule-mid);
+  box-shadow:var(--shadow-plinth);
+  text-decoration:none;
+  color:inherit;
+  transition:transform .12s ease,box-shadow .12s ease;
+}
+.tcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+.tcard .ic{font-size:1.25rem;margin-bottom:.5rem;display:block;filter:grayscale(.35)}
+.tcard h3{margin:.1rem 0 .25rem;font-size:1.05rem;font-weight:700;letter-spacing:-.01em}
+.tcard p{margin:0;font-size:var(--t-label);color:var(--ink-3);line-height:1.6;max-width:none}
+
+/* ── מה חדש — שורות מפתח ───────────────────────────────────────── */
+.whatsnew{margin-top:1rem}
+.whatsnew h2{margin-top:0}
+.whatsnew ul{list-style:none;margin:1.4rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.whatsnew li{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:1.6rem;
+  padding:1rem .3rem;
+  border-bottom:1px solid var(--rule);
+  font-size:var(--t-small);
+  line-height:1.65;
+  color:var(--ink-2);
+}
+.whatsnew time{
+  flex-shrink:0;
+  font:var(--t-label)/1 var(--mono);
+  color:var(--ink-3);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+@media (max-width:560px){
+  .whatsnew li{flex-direction:column;gap:.4rem}
+}
+
+/* ── תנועה: רגע אחד מתוזמר, ~400ms, ואז שקט ────────────────────── */
+@media (prefers-reduced-motion:no-preference){
+  .hero,.stats,.branches>*{animation:vitrine-rise .42s cubic-bezier(.2,.6,.3,1) both}
+  .hero{animation-delay:.02s}
+  .stats{animation-delay:.12s}
+  .branches>*:nth-child(1){animation-delay:.22s}
+  .branches>*:nth-child(2){animation-delay:.30s}
+}
