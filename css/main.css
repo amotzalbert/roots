@@ -31,6 +31,10 @@
   --moskal:#b5601a;
   --albert:#5a5478;
   --ok:#4a6a5a;                /* «מתועד ●» */
+  /* גרסאות כהות לטקסט קטן בלבד — הגוון נשמר, הבהירות יורדת כדי
+     לעבור AA ב-0.78rem. הצבע הגרפי (הקו העליון) נשאר --moskal/--albert. */
+  --moskal-ink:#8f4a12;
+  --albert-ink:#4a4566;
   --gold:#8a6d34;              /* «משוער ◐» */
 
   --shadow-plinth:0 1px 1px #1e232014, 0 14px 28px -12px #1e232030;
@@ -79,6 +83,7 @@
     --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
     --accent:#d4705e; --accent-soft:#d4705e1f;
     --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
+    --moskal-ink:#eda162; --albert-ink:#b3ace0;
     --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
     --shadow-lift:0 2px 4px #0007, 0 22px 40px -14px #0009;
   }
@@ -89,6 +94,7 @@
   --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
   --accent:#d4705e; --accent-soft:#d4705e1f;
   --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
+  --moskal-ink:#eda162; --albert-ink:#b3ace0;
   --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
   --shadow-lift:0 2px 4px #0007, 0 22px 40px -14px #0009;
 }
@@ -180,8 +186,8 @@ footer .in{max-width:var(--maxw);margin:auto}
 .plinth.albert{border-top-color:var(--albert)}
 a.plinth:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
 .plinth .tag{font-size:var(--t-label);letter-spacing:.12em;font-weight:700;color:var(--ink-3)}
-.plinth.moskal .tag{color:var(--moskal)}
-.plinth.albert .tag{color:var(--albert)}
+.plinth.moskal .tag{color:var(--moskal-ink)}
+.plinth.albert .tag{color:var(--albert-ink)}
 .plinth h2,.plinth h3{margin:.5rem 0 .45rem;border:0;padding:0;font-size:1.65rem;
   font-weight:900;letter-spacing:-.02em}
 .plinth p{margin:0 0 .6rem;color:var(--ink-2);font-size:var(--t-small)}
@@ -210,8 +216,8 @@ a.index-row:hover{background:var(--plinth)}
   margin-top:.25rem;line-height:1.6}
 .index-row .count{font:var(--t-label)/1 var(--mono);color:var(--ink-3);
   font-variant-numeric:tabular-nums;white-space:nowrap}
-.index-row.moskal h2,.index-row.moskal h3{color:var(--moskal)}
-.index-row.albert h2,.index-row.albert h3{color:var(--albert)}
+.index-row.moskal h2,.index-row.moskal h3{color:var(--moskal-ink)}
+.index-row.albert h2,.index-row.albert h3{color:var(--albert-ink)}
 @media (max-width:560px){
   .index-row{grid-template-columns:2.6rem 1fr;gap:.9rem}
   .index-row .count{grid-column:2;margin-top:.3rem}

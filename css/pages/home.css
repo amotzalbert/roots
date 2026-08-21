@@ -88,8 +88,8 @@
   letter-spacing:.12em;
   font-weight:700;
 }
-.bcard.moskal .tag{color:var(--moskal)}
-.bcard.albert .tag{color:var(--albert)}
+.bcard.moskal .tag{color:var(--moskal-ink)}
+.bcard.albert .tag{color:var(--albert-ink)}
 .bcard h2{
   margin:.55rem 0 .55rem;
   border:0;
