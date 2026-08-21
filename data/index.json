@@ -928,6 +928,22 @@
   "terms": "שמעון צוקר Szymon Cukier 1880 1928"
  },
  {
+  "id": "p-abe-lejb-rywenbajrych",
+  "type": "person",
+  "branch": "albert",
+  "label": "Abe-Lejb Rywenbajrych",
+  "sub": "",
+  "terms": "Abe-Lejb Rywenbajrych"
+ },
+ {
+  "id": "p-fajga-rechil-rywenbajrych",
+  "type": "person",
+  "branch": "albert",
+  "label": "Fajga-Rechil Rywenbajrych",
+  "sub": "",
+  "terms": "Fajga-Rechil Rywenbajrych"
+ },
+ {
   "id": "p-szmul-szaufer",
   "type": "person",
   "branch": "moskal",

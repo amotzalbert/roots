@@ -589,6 +589,20 @@
   "notes": []
  },
  {
+  "id": "u-f81",
+  "gedcomId": "F81",
+  "branch": "albert",
+  "spouses": [
+   "p-abe-lejb-rywenbajrych",
+   "p-fajga-rechil-rywenbajrych"
+  ],
+  "children": [
+   "p-tuvia-rywenbajrych"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
   "id": "u-f1001",
   "gedcomId": "F1001",
   "branch": "albert",
@@ -606,8 +620,7 @@
    "p-srul-lejb-szaufer",
    "p-estera-malka-szaufer",
    "p-dawid-szaufer",
-   "p-gersz-szaufer",
-   "p-srul-glezer"
+   "p-gersz-szaufer"
   ],
   "marriage": {
    "date": "21 JAN 1873",

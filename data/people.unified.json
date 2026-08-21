@@ -1086,7 +1086,7 @@
   "living": false,
   "birth": {
    "date": "ABT 1888",
-   "place": "Poland",
+   "place": "Iwaniska, Opatow County, Kielce Gubernia, Poland",
    "notes": [
     "PLACE UNLOCATED, and this is the principal open question on this side. Two documented\nnegatives: (1) he was not born in Klimontow between 1826 and 1892 - the JRI index covers\nbirths 1826-87 and I read the complete birth indexes for 1888, 1889, 1890, 1891 and 1892\noff the film, 183 entries in all, each list closed by its own protocol, with nothing in\nthe R section; (2) Opatow's 9,135 indexed records, covering births, marriages and deaths\nto 1917, contain not one Rywenbajrych. Two further negatives since: Arolsen returns\nnothing on the surname in any spelling (control Kestenbaum = 587), and FamilySearch's\nindexed records contain no Rywenbajrych at all worldwide on an exact search (control\nWajsblum = 56) - though FamilySearch holds no Polish vital registers, so that zero is\nweak. LEAD CLOSED: Yad Vashem 4631872/4631873 \"Rywenbeirech, Tobiasch, b. 20.07.1888,\nLodz\" is a DIFFERENT MAN - a permanent resident of Lodz, Steinmetzgasse 25 apt. 18, from\nthe \"Lodz Names\" volume. Ours is a permanent resident of Opatow. Same name and year;\nprobably kin, but not him. Do not chase Lodz for Tuvia's birthplace. See findings/011."
    ]
@@ -1099,7 +1099,7 @@
     "(probable) Murdered. Recorded as \"Tomasz Rywenbajrich, b. 1888, permanent residence\nOpatow, died Treblinka 23 October 1942\" in the list of murdered Jews from\n\"The Jews of Opatow\", Tel Aviv 1988 - the town's own memorial volume, compiled by its\nsurvivors. The date matches the town's history: the Opatow ghetto was cleared on\n20-22 October 1942 and its people deported to Treblinka.\n** DOWNGRADED from documented-grade, 14 Aug 2026, Amotz's decision: the 1988 list assigns\n\"Treblinka, 23 October 1942\" wholesale to nearly everyone it names, and is counter-\nproven in at least one case - Zukiel Wajsblum, listed so, was in fact registered in\nBuchenwald in January 1945 (findings/075). The date remains the best reconstruction,\nbut it is the list's formula, not a record of this individual. **"
    ]
   },
-  "occupation": "",
+  "occupation": "kupiec (merchant)",
   "notes": [],
   "grade": null,
   "sources": [
@@ -3898,6 +3898,56 @@
   "docs": [],
   "bioChapter": null,
   "siteId": "p-szymon-cukier"
+ },
+ {
+  "id": "p-abe-lejb-rywenbajrych",
+  "gedcomId": "I132",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Abe-Lejb Rywenbajrych",
+   "given": "Abe-Lejb",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ADDED 21 Aug 2026 - the 7 Aug 2026 breakthrough had never been entered here.\nNamed, with his wife Fajga-Rechil, as a parent of Tobjasz in the 1921 Opatow book of\nnon-permanent population. ** GRADE: documented. ** A man of about 33 giving a clerk\nhis own parents' names is direct personal testimony about that fact, recorded\ncontemporaneously; its failure modes are spelling and transliteration, not identity.\n(Grading settled by Amotz, 7 Aug 2026.)\n>>> OPEN: his own birth, and his marriage to Fajga-Rechil, should be in the IWANISKA\nregisters - not Klimontow and not Opatow, both of which have been searched out."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-fajga-rechil-rywenbajrych",
+  "gedcomId": "I133",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Fajga-Rechil Rywenbajrych",
+   "given": "Fajga-Rechil",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ADDED 21 Aug 2026, from the same 1921 Opatow entry as her husband. ** documented **\n>>> OPEN: her maiden name. The Iwaniska marriage register is the place to look."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  },
  {
   "id": "p-szmul-szaufer",

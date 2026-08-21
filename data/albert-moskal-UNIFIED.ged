@@ -714,8 +714,17 @@
 1 SEX M
 1 BIRT
 2 DATE ABT 1888
-2 PLAC Poland
-2 NOTE PLACE UNLOCATED, and this is the principal open question on this side. Two documented
+2 PLAC Iwaniska, Opatow County, Kielce Gubernia, Poland
+2 NOTE >>> RESOLVED 7 Aug 2026. Birthplace IWANISKA, and the names of his parents, from the
+3 CONT Opatow book of NON-PERMANENT population (Ksiega ludnosci niestalej miasta Opatowa,
+3 CONT 1921), APK 24/6/0/-/25 = unit 24686204, scan 193 of 534, page 190 in pencil / 378
+3 CONT stamped. Four consecutive lines entered 18 February 1921 under the spelling
+3 CONT RUBINBAJRACH - a spelling not previously searched: Tobjasz (parents ABE-LEJB and
+3 CONT FAJGA-RECHIL, born Iwaniska, married, kupiec = merchant), his wife Bajla-Szajndla
+3 CONT nee Wajsblum, and their daughters Chana-Sura and Fajga-Ruchla. Place of belonging:
+3 CONT gmina Iwaniska. Registered at DREWSKA no. 11 - the same street as the skorowidz.
+3 CONT ** GRADE: documented. ** Read at full magnification. See findings/022.
+2 NOTE [SUPERSEDED - kept as the record of where he was NOT born.] Two documented
 3 CONT negatives: (1) he was not born in Klimontow between 1826 and 1892 - the JRI index covers
 3 CONT births 1826-87 and I read the complete birth indexes for 1888, 1889, 1890, 1891 and 1892
 3 CONT off the film, 183 entries in all, each list closed by its own protocol, with nothing in
@@ -728,6 +737,8 @@
 3 CONT Lodz" is a DIFFERENT MAN - a permanent resident of Lodz, Steinmetzgasse 25 apt. 18, from
 3 CONT the "Lodz Names" volume. Ours is a permanent resident of Opatow. Same name and year;
 3 CONT probably kin, but not him. Do not chase Lodz for Tuvia's birthplace. See findings/011.
+1 OCCU kupiec (merchant)
+1 FAMC @F81@
 1 DEAT
 2 DATE 23 OCT 1942
 2 PLAC Treblinka extermination camp, Poland
@@ -3046,6 +3057,57 @@
 3 CONT Marjem-Rywka"; wife Blima nee Zilberszlag; cause: uraemia.
 1 FAMC @F63@
 1 SOUR @S84@
+
+0 @I132@ INDI
+1 NAME Abe-Lejb /Rywenbajrych/
+2 GIVN Abe-Lejb
+2 SURN Rywenbajrych
+2 NOTE Recorded in 1921 under the spelling RUBINBAJRACH. Also to be expected as Abe-Lejbus,
+3 CONT Abram-Lejb, Abraham-Lejb. See findings/024 - none of these appears in any Klimontow
+3 CONT record, which is consistent with an Iwaniska family.
+1 SEX M
+1 RESI
+2 PLAC Iwaniska, Opatow County, Kielce Gubernia, Poland
+1 NOTE ADDED 21 Aug 2026 - the 7 Aug 2026 breakthrough had never been entered here.
+2 CONT Named, with his wife Fajga-Rechil, as a parent of Tobjasz in the 1921 Opatow book of
+2 CONT non-permanent population. ** GRADE: documented. ** A man of about 33 giving a clerk
+2 CONT his own parents' names is direct personal testimony about that fact, recorded
+2 CONT contemporaneously; its failure modes are spelling and transliteration, not identity.
+2 CONT (Grading settled by Amotz, 7 Aug 2026.)
+2 CONT >>> OPEN: his own birth, and his marriage to Fajga-Rechil, should be in the IWANISKA
+2 CONT registers - not Klimontow and not Opatow, both of which have been searched out.
+1 SOUR @S90@
+1 FAMS @F81@
+
+0 @I133@ INDI
+1 NAME Fajga-Rechil /Rywenbajrych/
+2 GIVN Fajga-Rechil
+2 SURN Rywenbajrych
+2 NOTE Maiden name NOT RECORDED - the 1921 entry gives only her given name as the mother.
+1 SEX F
+1 RESI
+2 PLAC Iwaniska, Opatow County, Kielce Gubernia, Poland
+1 NOTE ADDED 21 Aug 2026, from the same 1921 Opatow entry as her husband. ** documented **
+2 CONT >>> OPEN: her maiden name. The Iwaniska marriage register is the place to look.
+1 SOUR @S90@
+1 FAMS @F81@
+
+0 @F81@ FAM
+1 HUSB @I132@
+1 WIFE @I133@
+1 CHIL @I25@
+1 NOTE ADDED 21 Aug 2026. The parents of Tuvia (Tobjasz) Rywenbajrych, of Iwaniska.
+1 SOUR @S90@
+
+0 @S90@ SOUR
+1 TITL Ksiega ludnosci niestalej miasta Opatowa, 1921 - the Opatow book of non-permanent population
+1 AUTH Magistrate of Opatow
+1 REPO APK (Archiwum Panstwowe w Kielcach), 24/6/0/-/25 = unit 24686204
+1 NOTE Scan 193 of 534; page 190 in pencil, 378 stamped. Four consecutive lines entered
+2 CONT 18 February 1921, surname written RUBINBAJRACH. Gives Tobjasz's parents (Abe-Lejb,
+2 CONT Fajga-Rechil), his birthplace (Iwaniska), his trade (kupiec), the household's address
+2 CONT (Drewska 11) and the marginal note "Zapisany w ks. ludn. stalej".
+2 CONT READ IN THE ORIGINAL at full magnification, 7 Aug 2026. See findings/022.
 
 0 @S1001@ SOUR
 1 TITL Yad Vashem, Central Database of Shoah Victims' Names - Pages of Testimony
