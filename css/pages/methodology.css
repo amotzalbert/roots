@@ -1,4 +1,8 @@
-/* ═══ methodology.html ═══ חולץ מהבלוק הפנימי, משותף ל-he/en/pl ═══ */
-.grade-key{display:flex;gap:1.5rem;flex-wrap:wrap;margin:1rem 0 2rem;font-family:var(--sans);font-size:.92rem}
-.grade-key .k{display:flex;align-items:center;gap:.4rem}
-table.traps td:first-child{white-space:nowrap;font-family:var(--sans);color:var(--ink-3);font-size:.85rem}
+/* ═══ methodology.html — «ויטרינה» ═══ CSS בלבד; הסימון לא נגעו בו ═══ */
+
+/* מתודולוגיה: טיעון, לא אובייקטים. בלי בסיסים — רק טיפוגרפיה וקווים. */
+.grade-key{display:flex;flex-direction:column;gap:.7rem;margin:1.6rem 0 2.4rem;
+  padding:1.2rem 1.3rem;background:var(--plinth);border-inline-start:3px solid var(--rule-mid)}
+.grade-key .k{display:flex;gap:.7rem;align-items:baseline;font-size:var(--t-small)}
+.traps{margin:1.6rem 0}
+.traps li{margin-bottom:.8rem;line-height:1.7}

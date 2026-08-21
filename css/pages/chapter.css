@@ -1,0 +1,44 @@
+/* ═══ כל 13 פרקי הספר — «ויטרינה» ═══ CSS בלבד; הסימון לא נגעו בו ═══ */
+
+/* פרק: טקסט ארוך. הראיה גלויה — ציטוטים במונו, הערות שוליים ממוספרות. */
+.chapter-meta{display:flex;gap:1.4rem;flex-wrap:wrap;font:var(--t-label)/1.5 var(--mono);
+  color:var(--ink-3);margin:.5rem 0 2rem;padding-bottom:1rem;border-bottom:2px solid var(--rule-heavy);
+  font-variant-numeric:tabular-nums}
+.chapter-meta span{overflow-wrap:anywhere}  /* שורת המקורות ארוכה; nowrap הגליש אותה ל-671px */
+
+/* תיבת הדורות */
+.genbox{background:var(--plinth);border:0;border-top:3px solid var(--rule-mid);
+  padding:1.4rem 1.6rem;margin:2rem 0;font-size:var(--t-small);line-height:2;
+  box-shadow:var(--shadow-plinth)}
+.genbox .row{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+.genbox .row + .row{margin-inline-start:1.4rem;border-inline-start:1px solid var(--rule);
+  padding-inline-start:1rem}
+.genbox a{font-weight:700;text-decoration:none}
+.genbox .lbl{color:var(--ink-3);font-size:var(--t-label);letter-spacing:.04em}
+.genbox .grade{font-size:.8em}
+
+/* ציטוט מובלט */
+.pull{font-size:1.28rem;font-weight:500;color:var(--ink-2);line-height:1.6;
+  border-inline-start:3px solid var(--rule-mid);padding-inline-start:1.1rem;margin:2.2rem 0}
+body.b-moskal .pull,.pull.moskal{border-inline-start-color:var(--moskal)}
+body.b-albert .pull,.pull.albert{border-inline-start-color:var(--albert)}
+
+/* אזהרות והערות */
+.conflict-note,.notice{display:block;margin:1.4rem 0;padding:.85rem 1.05rem;background:var(--plinth);
+  border-inline-start:3px solid var(--gold);font-size:var(--t-small);color:var(--ink-2);line-height:1.7}
+.demo{margin:1.6rem 0;padding:1rem 1.2rem;background:var(--plinth-2);
+  border-inline-start:3px solid var(--rule-mid);font-size:var(--t-small)}
+.victims{margin:1.4rem 0;font-size:var(--t-small);line-height:1.9;color:var(--ink-2)}
+.orig{display:block;font-size:.92em;color:var(--ink-3);margin-top:.5em;
+  direction:ltr;text-align:start;font-style:italic}
+
+/* הערות שוליים */
+.footnotes{font-size:var(--t-small);color:var(--ink-2);margin-top:3rem;padding-top:1.4rem;
+  border-top:2px solid var(--rule-heavy)}
+.footnotes ol{padding-inline-start:1.4rem}
+.footnotes li{margin-bottom:.6rem;line-height:1.7}
+
+/* ניווט בין פרקים */
+.chnav{display:flex;justify-content:space-between;gap:1rem;margin-top:3.5rem;padding-top:1.5rem;
+  border-top:1px solid var(--rule);font-size:var(--t-small);font-weight:500}
+.chnav a{text-decoration:none}

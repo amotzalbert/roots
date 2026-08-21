@@ -25,6 +25,7 @@
   --rule-heavy:#1e2320;
   --accent:#8c3b2e;            /* אדום ברזל — מצב נוכחי והדגשה בלבד */
   --accent-soft:#8c3b2e14;
+  --on-accent:#fff;            /* טקסט על גבי הדגש — מתהפך עם הבהירות שלו */
 
   /* צבעי ענף — נושאים מידע אמיתי ב-tree.js, במפה ובטבלת המסמכים.
      לא נצבעים מחדש.                                                 */
@@ -81,7 +82,7 @@
     --wall:#1a1d1b; --plinth:#232724; --plinth-2:#1e211f;
     --ink:#e8eae4; --ink-2:#aeb4ac; --ink-3:#9aa098;
     --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
-    --accent:#d4705e; --accent-soft:#d4705e1f;
+    --accent:#d4705e; --accent-soft:#d4705e1f; --on-accent:#1a1d1b;
     --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
     --moskal-ink:#eda162; --albert-ink:#b3ace0;
     --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
@@ -92,7 +93,7 @@
   --wall:#1a1d1b; --plinth:#232724; --plinth-2:#1e211f;
   --ink:#e8eae4; --ink-2:#aeb4ac; --ink-3:#9aa098;
   --rule:#343833; --rule-mid:#454a43; --rule-heavy:#e8eae4;
-  --accent:#d4705e; --accent-soft:#d4705e1f;
+  --accent:#d4705e; --accent-soft:#d4705e1f; --on-accent:#1a1d1b;
   --moskal:#e08a45; --albert:#9c95c4; --ok:#7fae96; --gold:#c6a457;
   --moskal-ink:#eda162; --albert-ink:#b3ace0;
   --shadow-plinth:0 1px 1px #0006, 0 14px 28px -12px #0008;
@@ -225,7 +226,8 @@ a.index-row:hover{background:var(--plinth)}
 
 /* 4.4 · ציטוט — תמיד גלוי, לעולם לא מאחורי ריחוף */
 .cite{display:block;font:var(--t-label)/1.5 var(--mono);color:var(--ink-3);
-  font-variant-numeric:tabular-nums;direction:ltr;text-align:start}
+  font-variant-numeric:tabular-nums;direction:ltr;text-align:start;
+  overflow-wrap:anywhere}   /* ציטוטים ארוכים חייבים להישבר, אחרת גולשים במובייל */
 .plinth .cite{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--rule)}
 :lang(he) .cite{text-align:right}
 
@@ -268,7 +270,7 @@ th{font-size:var(--t-label);color:var(--ink-3);font-weight:700;letter-spacing:.0
 .seg button{background:var(--plinth);border:0;padding:.44rem .9rem;cursor:pointer;color:var(--ink-2);
   font:500 var(--t-small)/1.4 var(--sans);border-inline-start:1px solid var(--rule)}
 .seg button:first-child{border-inline-start:0}
-.seg button[aria-pressed=true]{background:var(--accent);color:#fff;font-weight:700}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);font-weight:700}
 input[type=search],input[type=text],select{font:var(--t-small)/1.5 var(--sans);
   padding:.5rem .8rem;border:1px solid var(--rule-mid);border-radius:.3rem;background:var(--plinth);
   color:var(--ink);min-width:12rem}

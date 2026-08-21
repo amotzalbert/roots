@@ -10,7 +10,7 @@
 @media (max-width:940px){.treewrap{grid-template-columns:1fr}}
 
 #tree{width:100%;height:min(74vh,760px);background:var(--paper-2);border:1px solid var(--rule);
-  border-radius:.8rem;cursor:grab;touch-action:none;display:block}
+  border-radius:.25rem;cursor:grab;touch-action:none;display:block}
 
 /* קווי חיבור אורתוגונליים */
 .lnk{fill:none;stroke:var(--rule-2);stroke-width:1.5;stroke-linejoin:round}
@@ -19,9 +19,9 @@
 /* כרטיסים */
 .mh-card{cursor:pointer}
 .mh-card .bg{stroke:var(--rule-2);stroke-width:1;filter:drop-shadow(var(--card-sh))}
-.mh-card .nm{font-family:var(--serif);font-size:13.5px;font-weight:600}
+.mh-card .nm{font-family:var(--sans);font-size:13.5px;font-weight:600}
 .mh-card .yr{font-family:var(--sans);font-size:10.5px}
-.mh-card .ini{font-family:var(--serif);font-size:15px}
+.mh-card .ini{font-family:var(--sans);font-size:15px}
 .mh-card:hover .bg{stroke:var(--accent);stroke-width:1.6}
 .mh-card.is-focus .bg{stroke:var(--accent);stroke-width:2.4}
 .mh-card.is-focus .nm{font-weight:700}
@@ -35,14 +35,14 @@
 .fan-seg.empty{cursor:default;opacity:.4}
 .fan-seg:focus{outline:none;stroke:var(--accent);stroke-width:2}
 .fan-lbl{pointer-events:none}
-.fan-lbl .nm{font-family:var(--serif);font-weight:600}
+.fan-lbl .nm{font-family:var(--sans);font-weight:600}
 .fan-lbl .yr{font-family:var(--sans)}
-.fan-hub .nm{font-family:var(--serif);font-size:14px;font-weight:700}
+.fan-hub .nm{font-family:var(--sans);font-size:14px;font-weight:700}
 .fan-hub .yr{font-family:var(--sans);font-size:10.5px}
 .ped-empty{opacity:.55}
 
 /* לוח האדם */
-#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.8rem;
+#person{background:var(--paper-2);border:1px solid var(--rule);border-radius:.25rem;
   padding:1rem 1.1rem;position:sticky;top:5rem;max-height:min(74vh,760px);overflow:auto}
 #person h2{margin:.1rem 0 .2rem;border:0;padding:0;font-size:1.3rem}
 #person .lat{margin:0 0 .4rem;color:var(--ink-3);font-size:.9rem;direction:ltr;text-align:right}
@@ -51,13 +51,13 @@
 .phead.b-albert{border-bottom-color:var(--albert)}
 .phead.b-both{border-bottom-color:var(--gold)}
 .gradepill{display:inline-block;font-family:var(--sans);font-size:.72rem;color:var(--c);
-  border:1px solid var(--c);border-radius:1rem;padding:.05rem .5rem;margin-inline-end:.3rem}
+  border:1px solid var(--c);border-radius:.25rem;padding:.05rem .5rem;margin-inline-end:.3rem}
 #person dl{margin:0}
 #person .row{display:grid;grid-template-columns:5.2rem 1fr;gap:.4rem;padding:.32rem 0;
   border-bottom:1px dotted var(--rule);font-size:.93rem}
 #person dt{color:var(--ink-3);font-family:var(--sans);font-size:.85rem}
 #person dd{margin:0}
-.chip{background:var(--paper);border:1px solid var(--rule-2);border-radius:.9rem;
+.chip{background:var(--paper);border:1px solid var(--rule-2);border-radius:.25rem;
   padding:.12rem .58rem;margin:.1rem .1rem .1rem 0;font:inherit;font-size:.86rem;
   cursor:pointer;color:var(--accent)}
 .chip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -72,17 +72,22 @@
 
 .findwrap{position:relative}
 #findlist{position:absolute;z-index:20;inset-inline-start:0;top:100%;background:var(--paper);
-  border:1px solid var(--rule-2);border-radius:.45rem;min-width:14rem;box-shadow:var(--shadow);
+  border:1px solid var(--rule-2);border-radius:.25rem;min-width:14rem;box-shadow:var(--shadow);
   display:flex;flex-direction:column;overflow:hidden}
 #findlist button{background:none;border:0;text-align:start;padding:.42rem .7rem;cursor:pointer;
   font:inherit;font-size:.9rem;color:var(--ink)}
 #findlist button:hover{background:var(--accent);color:#fff}
 #gensWrap[hidden]{display:none}
 #gensWrap{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-size:.86rem;color:var(--ink-3)}
-#gens{font:inherit;padding:.2rem .4rem;border:1px solid var(--rule-2);border-radius:.35rem;
+#gens{font:inherit;padding:.2rem .4rem;border:1px solid var(--rule-2);border-radius:.25rem;
   background:var(--paper);color:var(--ink)}
 .legend{font-family:var(--sans);font-size:.8rem;color:var(--ink-3);display:flex;gap:1rem;
   flex-wrap:wrap;margin:.7rem 0 0;align-items:center}
 .legend i{font-style:normal;display:inline-flex;align-items:center;gap:.3rem}
-.legend .sw{width:.75rem;height:.75rem;border-radius:.2rem;border:1px solid var(--rule-2);display:inline-block}
+.legend .sw{width:.75rem;height:.75rem;border-radius:.25rem;border:1px solid var(--rule-2);display:inline-block}
 .legend .dot{width:.5rem;height:.5rem;border-radius:50%;display:inline-block}
+
+/* ── «ויטרינה»: אסימונים בלבד. המבנה וה-JS לא נגעו בהם. ── */
+.pcard .yrs,.pcard small,.phead .lat{font-family:var(--mono);
+  font-variant-numeric:tabular-nums;font-size:var(--t-label)}
+.gradepill{border-radius:.2rem;font-family:var(--sans);font-weight:700}
