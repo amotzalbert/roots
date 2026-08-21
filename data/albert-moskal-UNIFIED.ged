@@ -851,9 +851,30 @@
 3 CONT sister stayed registered at Opatow.
 3 CONT ○ CONTEXT, NOT EVIDENCE: the Walicow-Ceglana-Prosta quarter was Warsaw's
 3 CONT garment district. Do not read more into that than context.
+2 NOTE ★ THE ADDRESS ITSELF VERIFIED, 21 Aug 2026 - the house existed and was occupied.
+3 CONT Warsaw address book, "Ksiega adresowo-gospodarcza miasta stolecznego Warszawy,
+3 CONT Cz. III e: Spis wlascicieli domow" (1939 edition; its figures are stated as of
+3 CONT 31 December 1938), page 161, column 3, under the heading WALICOW:
+3 CONT ** "13, VII - Stradecki Antoni (1109)." **
+3 CONT ⇒ WALICOW 13 WAS A STANDING RESIDENTIAL HOUSE, owner ANTONI STRADECKI,
+3 CONT mortgage number 1109, in the SEVENTH police district (komisariat VII).
+3 CONT >>> AND THE NEIGHBOURS CONFIRM THE QUARTER: no. 3 Silberberg Judka, no. 10 Kac
+3 CONT i Sitkowski, no. 12 Aszkenejzer Hersz and Gruenberg Gitla, no. 6 Br. Szpilfogiel
+3 CONT - a Jewish street, as expected.
+3 CONT ⚠ WHAT THIS DOES NOT SHOW: the book lists OWNERS ONLY, never tenants. A girl of
+3 CONT seventeen in rented rooms could not appear in it. And the owner's name is POLISH,
+3 CONT so she was a lodger or a tenant - she did NOT move in with a relative who owned
+3 CONT the house.
+3 CONT ⚠ AND THE DATE GAP: this edition is 1939, four years after May 1935. Ownership
+3 CONT could have changed in between.
+3 CONT ★ THE PRACTICAL GAIN: KOMISARIAT VII. The Warsaw Jewish vital registers are filed
+3 CONT BY POLICE DISTRICT (see metryki.genealodzy.pl id683). If she married or was
+3 CONT registered in Warsaw, the seventh district is where to look.
+3 CONT >>> Source images: albert/sources/warszawa/walicow/
 3 CONT >>> This remark was NOT noticed in the earlier readings of this scan; the roman
 3 CONT numeral and page number were read, the UWAGI column was not.
 1 SOUR @S91@
+1 SOUR @S92@
 
 0 @I27@ INDI
 1 NAME Fajga Rachla /Rywenbajrych/
@@ -3165,6 +3186,22 @@
 2 CONT 360 Rywenbajrech FAJGA-RACHLA - Tom VIII, strona 200 struck in red, 213
 2 CONT >>> The roman numeral is unambiguous in all four rows: VIII.
 2 CONT >>> Image saved: albert/sources/opatow/24686192-scan54-skorowidz-rywenbajrych-rows356-360.jpg
+
+0 @S92@ SOUR
+1 TITL Ksiega adresowo-gospodarcza miasta stolecznego Warszawy, Cz. III e - Spis wlascicieli domow
+1 DATE 1939
+1 REPO Centralna Biblioteka Wojskowa, ZBROJOWNIA digital library, publication 5065 / edition 3691
+1 NOTE Page 161, third column, heading WALICOW. Read 21 Aug 2026 from the library's own PDF.
+2 CONT The whole street as printed: 1 patrz Prosta 18 · 2/4 patrz Prosta 12,14,16 ·
+2 CONT 3 Silberberg Judka · 5 Gujski Jozef · 6 Br. Szpilfogiel i Mayrner · 7 Muszkat
+2 CONT Maksymil · 8 patrz Ceglana 17 · 9 patrz Ceglana 19 · 10 Kac i Sitkowski ·
+2 CONT 11 Zjednoczone Ziemianskie Mleczarnie Parowe S.A. · 11a Domanski Jan ·
+2 CONT 18b patrz Grzybowska 43 · 12 Aszkenejzer Hersz, Dubrys i Gruenberg Gitla ·
+2 CONT ** 13, VII Stradecki Antoni (1109) ** · 14, VI Golde Ernestyna.
+2 CONT The roman numeral after the house number is the POLICE DISTRICT.
+2 CONT >>> The volume has NO OCR text layer; the street was found by paging the
+2 CONT alphabet. Waliców continues on page 162 with numbers 15-30.
+2 CONT Files: albert/sources/warszawa/walicow/ (full PDF, page 161, cropped section).
 
 0 @S1001@ SOUR
 1 TITL Yad Vashem, Central Database of Shoah Victims' Names - Pages of Testimony
