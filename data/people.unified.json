@@ -7274,14 +7274,14 @@
   "siteId": "p-srul-lejb-szaufer"
  },
  {
-  "id": "p-chana-zaman",
+  "id": "p-chana-klerer",
   "gedcomId": "I1097",
   "branch": "moskal",
   "names": {
    "he": "",
-   "latin": "Chana Zaman",
+   "latin": "Chana Klerer",
    "given": "Chana",
-   "surname": "Zaman",
+   "surname": "Klerer",
    "variants": []
   },
   "sex": "F",
@@ -7293,7 +7293,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "_CONF PROVEN as Srul Glezer's wife (marriage act 26/1847)."
+   "_CONF PROVEN as Srul Glezer's wife (marriage act 26/1847).\n>>> TWO MAIDEN NAMES, BOTH READ FROM ORIGINAL ACTS - UNRESOLVED, DO NOT COLLAPSE THEM.\nAct 26/1847 (son Szloma's birth): \"z Malzonki iego CHANY z ZAMANOW GLEZEROWEJ, lat\nDWADZIESCIA PIEC\".\nAct 5/1856 (son Szmul's birth): \"z Matronki jego CHANY z KLEREROW GLEZER, lat\nTRZYDZIESCI PIEC\".\nSame husband, same town, ages nine years apart and consistent - the same woman.\n** CORRECTION 23 Aug 2026: the file previously dismissed \"KLERER\" as a JRI indexing\nerror. It is NOT. Reading the original act shows the clerk himself wrote KLERER; the\nindex copied him faithfully. The discrepancy is real and needs an explanation - a\npatronymic-vs-surname form, an earlier marriage, or two clerks recording differently.\nRecorded here under KLERER (the later, directly-read act) with ZAMAN preserved.\nSEARCH BOTH. Other JRI rows for this household give ZAMAN (1847) and ZAMER (1858)."
   ],
   "grade": null,
   "sources": [],
@@ -8781,7 +8781,7 @@
   "death": null,
   "occupation": "Labourer (\"rabotnik\") - 1879/1880; earlier \"living with his parents\" (1875). NOT a glazier",
   "notes": [
-   "_CONF #proof PROBABLE as a son of Srul Glezer (@I1096@) and Chana Zaman (@I1097@).\nNO ACT NAMES HIS PARENTS. The chain: birth act 5/1856 matches four separate age\nstatements; act 4/1875 describes him as \"living with his parents\", and act 38/1876 as\n\"prozhivayushchiy pri roditelyakh svoikh\" - so Srul and Chana were alive in Wojslawice in\nOct 1876; and no other Szmul Glezer appears anywhere in the file. Strong and converging,\nNOT proven. Entered to the tree 23 Aug 2026.\n>>> He is the FOURTH generation of this Glezer line: Herszko (~1787) -> Srul (~1820) ->\nSzmul (1856) -> Jankel-Moszko (1876) / Icko-Lejzor (1878). Distinct from the earlier\nSZMUL Glezer @I1092@ (d. bef. 1849), Herszko's father."
+   "_CONF PROVEN as the son of Srul Glezer (@I1096@) and Chana (@I1097@).\n>>> BIRTH ACT 5/1856 READ FROM THE ORIGINAL, 23 Aug 2026 (unit 2196536, sygn. 2.1/21,\nscan 6, left page, folio 6). The act names both parents outright:\n\"Dzialo sie w Miescie WOJSLAWICACH dnia TRZYNASTEGO LUTEGO tysiac osmset piecdziesiatego\nszostego roku o godzinie osmej rano. Stawil sie Starozakonny SRUL GLEZER, SZKLARZ, lat\nTRZYDZIESCI OSM liczacy, w Wojslawicach zamieszkaly, w obecnosci Swiadkow Starozakonnego\nJANKLA SZAUTOR, Szkolnika, lat czterdziesci i LEJBY NUDEL, Handlarza Maki, lat\nczterdziesci ... i okazal nam dziecie plci Mezkiej, urodzone w Wojslawicach na dniu\nPIATYM LUTEGO roku biezacego o godzinie dziesiatej w nocy z Matronki jego CHANY z\nKLEREROW GLEZER, lat TRZYDZIESCI PIEC liczacej, ktoremu przy obrzezaniu nadane zostalo\nImie SAMUL.\" Signed: Srul Glezer, Jankiel Szautor.\nAGES CROSS-CHECK EXACTLY: Srul 38 in 1856 => b. ~1818, against 27 in 1847 => ~1820.\nChana 35 in 1856 => b. ~1821, against 25 in 1847 => ~1822. Both within ordinary drift.\nThe witness LEJBA NUDEL, flour merchant, 40 - Chaja-Ruchla nee Glezer's husband, i.e.\nSrul's brother-in-law - is the same man who witnessed act 26/1847 for the elder son.\nSupporting: act 4/1875 calls Szmul \"living with his parents\", act 38/1876\n\"prozhivayushchiy pri roditelyakh svoikh\"; and in the whole JRI corpus of 46 Glezer\nrecords for Wojslawice, \"Srul + Chana\" is the ONLY couple bearing those two names -\nfour records, all of this one household (Szloma b.26/1847, Szmul b.5/1856,\nRyfka d.15/1857, Bencyan b.17/1858). Raised PROBABLE -> PROVEN, 23 Aug 2026.\n>>> He is the FOURTH generation of this Glezer line: Herszko (~1787) -> Srul (~1820) ->\nSzmul (1856) -> Jankel-Moszko (1876) / Icko-Lejzor (1878). Distinct from the earlier\nSZMUL Glezer @I1092@ (d. bef. 1849), Herszko's father."
   ],
   "grade": null,
   "sources": [],

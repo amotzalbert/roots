@@ -5985,14 +5985,27 @@
 1 FAMS @F1043@
 
 0 @I1097@ INDI
-1 NAME Chana /Zaman/
+1 NAME Chana /Klerer/
 2 GIVN Chana
-2 SURN Zaman
+2 SURN Klerer
+2 _MARNM Zaman
 1 SEX F
 1 BIRT
 2 DATE ABT 1822
 2 NOTE Aged 25 at her marriage, act 26/1847.
 1 NOTE _CONF PROVEN as Srul Glezer's wife (marriage act 26/1847).
+2 CONT >>> TWO MAIDEN NAMES, BOTH READ FROM ORIGINAL ACTS - UNRESOLVED, DO NOT COLLAPSE THEM.
+2 CONT Act 26/1847 (son Szloma's birth): "z Malzonki iego CHANY z ZAMANOW GLEZEROWEJ, lat
+3 CONT DWADZIESCIA PIEC".
+2 CONT Act 5/1856 (son Szmul's birth): "z Matronki jego CHANY z KLEREROW GLEZER, lat
+3 CONT TRZYDZIESCI PIEC".
+2 CONT Same husband, same town, ages nine years apart and consistent - the same woman.
+2 CONT ** CORRECTION 23 Aug 2026: the file previously dismissed "KLERER" as a JRI indexing
+2 CONT error. It is NOT. Reading the original act shows the clerk himself wrote KLERER; the
+2 CONT index copied him faithfully. The discrepancy is real and needs an explanation - a
+2 CONT patronymic-vs-surname form, an earlier marriage, or two clerks recording differently.
+2 CONT Recorded here under KLERER (the later, directly-read act) with ZAMAN preserved.
+2 CONT SEARCH BOTH. Other JRI rows for this household give ZAMAN (1847) and ZAMER (1858).
 1 FAMS @F1043@
 
 0 @I1098@ INDI
@@ -7237,12 +7250,26 @@
 3 CONT 20 (Oct 1876, act 38/1876), 22 (1878), 24 (Sep 1880).
 1 OCCU Labourer ("rabotnik") - 1879/1880; earlier "living with his parents" (1875). NOT a glazier
 2 CONT like his father and grandfather.
-1 NOTE _CONF #proof PROBABLE as a son of Srul Glezer (@I1096@) and Chana Zaman (@I1097@).
-2 CONT NO ACT NAMES HIS PARENTS. The chain: birth act 5/1856 matches four separate age
-2 CONT statements; act 4/1875 describes him as "living with his parents", and act 38/1876 as
-2 CONT "prozhivayushchiy pri roditelyakh svoikh" - so Srul and Chana were alive in Wojslawice in
-2 CONT Oct 1876; and no other Szmul Glezer appears anywhere in the file. Strong and converging,
-2 CONT NOT proven. Entered to the tree 23 Aug 2026.
+1 NOTE _CONF PROVEN as the son of Srul Glezer (@I1096@) and Chana (@I1097@).
+2 CONT >>> BIRTH ACT 5/1856 READ FROM THE ORIGINAL, 23 Aug 2026 (unit 2196536, sygn. 2.1/21,
+2 CONT scan 6, left page, folio 6). The act names both parents outright:
+2 CONT "Dzialo sie w Miescie WOJSLAWICACH dnia TRZYNASTEGO LUTEGO tysiac osmset piecdziesiatego
+3 CONT szostego roku o godzinie osmej rano. Stawil sie Starozakonny SRUL GLEZER, SZKLARZ, lat
+3 CONT TRZYDZIESCI OSM liczacy, w Wojslawicach zamieszkaly, w obecnosci Swiadkow Starozakonnego
+3 CONT JANKLA SZAUTOR, Szkolnika, lat czterdziesci i LEJBY NUDEL, Handlarza Maki, lat
+3 CONT czterdziesci ... i okazal nam dziecie plci Mezkiej, urodzone w Wojslawicach na dniu
+3 CONT PIATYM LUTEGO roku biezacego o godzinie dziesiatej w nocy z Matronki jego CHANY z
+3 CONT KLEREROW GLEZER, lat TRZYDZIESCI PIEC liczacej, ktoremu przy obrzezaniu nadane zostalo
+3 CONT Imie SAMUL." Signed: Srul Glezer, Jankiel Szautor.
+2 CONT AGES CROSS-CHECK EXACTLY: Srul 38 in 1856 => b. ~1818, against 27 in 1847 => ~1820.
+2 CONT Chana 35 in 1856 => b. ~1821, against 25 in 1847 => ~1822. Both within ordinary drift.
+2 CONT The witness LEJBA NUDEL, flour merchant, 40 - Chaja-Ruchla nee Glezer's husband, i.e.
+2 CONT Srul's brother-in-law - is the same man who witnessed act 26/1847 for the elder son.
+2 CONT Supporting: act 4/1875 calls Szmul "living with his parents", act 38/1876
+2 CONT "prozhivayushchiy pri roditelyakh svoikh"; and in the whole JRI corpus of 46 Glezer
+2 CONT records for Wojslawice, "Srul + Chana" is the ONLY couple bearing those two names -
+2 CONT four records, all of this one household (Szloma b.26/1847, Szmul b.5/1856,
+2 CONT Ryfka d.15/1857, Bencyan b.17/1858). Raised PROBABLE -> PROVEN, 23 Aug 2026.
 2 CONT >>> He is the FOURTH generation of this Glezer line: Herszko (~1787) -> Srul (~1820) ->
 2 CONT Szmul (1856) -> Jankel-Moszko (1876) / Icko-Lejzor (1878). Distinct from the earlier
 2 CONT SZMUL Glezer @I1092@ (d. bef. 1849), Herszko's father.
