@@ -70,6 +70,63 @@
   "siteId": "p-laca"
  },
  {
+  "id": "p-brana-gitla-moskal",
+  "gedcomId": "I1154",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Brana-Gitla Moskal",
+   "given": "Brana-Gitla",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "30 DEC 1874",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ENTERED 22 Aug 2026. The act was located and read on 20 Aug 2026 (finding 114) but\nwas never entered into the tree - a documented person missing from the file. Found\nby checking the nine children Geni ascribes to Abram-Moszko against the GEDCOM.\nIDENTIFICATION: the act names the father only as \"Moszko Moskal, shoemaker, of\nKrasniczyn\". What fixes him as ABRAM-Moszko @I1062@ and not his brother\nARON-Moszko @I1074@ is the MOTHER: Ruchla-Laja nee Birman is Abram-Moszko's wife\n@I1066@, whereas Aron-Moszko's wife is Cywia Rajner. Same couple as Ita's act\n22/1882 and Henia's act 37/1881.\n>>> OPEN: the father's stated age drifts - 33 in Jan 1875 (b. ~1841) against 35 in\nNov 1881 (b. ~1846) and 36 in Dec 1882 (b. ~1846). The 1875 figure is the outlier.",
+   "GENI (c) 22 Aug 2026 - UNVERIFIED, NOT USED as evidence, recorded only so the next\nresearcher can test it: the Geni World Family Tree profile managed by Pazit Nudel,\nand two MyHeritage trees (Kagan; Wertzberger), give a Brana Gitla Moskal who\nmarried BEINISCH BENJAMIN HELFMAN, had four children (Moshe, Natan Neta, Yitko,\nBracha) and died in 1943 at Oswiecim. Those trees state her birth as 1897 at\n\"Kraszniecin\" - TWENTY-TWO YEARS after this act. Either two different women or an\nerror in the trees. NOT RESOLVED. Do not merge without a document."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-henia-moskal",
+  "gedcomId": "I1155",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Henia Moskal",
+   "given": "Henia",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "20 NOV 1881",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "ENTERED 22 Aug 2026, together with her sister Brana-Gitla @I1154@. Same omission:\nthe act was read on 20 Aug 2026 and never entered.\nIDENTIFICATION: as for Brana-Gitla, the mother Ruchla-Laja nee Birman @I1066@\nfixes the father as ABRAM-Moszko @I1062@.\nAGE CONTROL (finding 115): the mother's stated age runs 19 (Jan 1875) - 26 (Nov\n1881) - 27 (Nov 1882), a perfect sequence giving b. ~1855. The witness Kiwa Becher\nis 35 in 1875 and 41 in 1881 - exactly six years. Same household, same village."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
   "id": "p-jeremiasz-rywenbajrych",
   "gedcomId": "I50",
   "branch": "albert",
@@ -5740,8 +5797,8 @@
    ]
   },
   "death": {
-   "date": "BEF 1873",
-   "place": "pl-wojslawice",
+   "date": "19 FEB 1869",
+   "place": "Wojslawice, Chelm, Lublin, Poland",
    "grade": "documented"
   },
   "occupation": "Labourer (\"rabotnik\", 1869) - his father was a \"zarobnik\" too",
@@ -8613,6 +8670,205 @@
   "occupation": "portnoy - tailor",
   "notes": [
    "ADDED 21 Aug 2026 from death act 16/1873 of his wife Perla @I1152@, where he is\nnamed as her surviving widower, a tailor of Krasniczyn, aged 32.\n** NOT the Moszko Moskal @I1146@ who died in 1847 ** - that one was born ~1820.\nThis is a DIFFERENT, YOUNGER MAN, born ~1841.\n>>> ○ A LEAD, NOT A LINK. Ashkenazi custom would have a boy born ~1841 named\nMOSZKO only after a dead Moszko - but our Moszko died in 1847, six years LATER,\nso he cannot be this child's namesake. The two are simply both Moskals of\nKrasniczyn. Whether this household descends from Herszek @I1150@ is UNTESTED.\n>>> WHERE TO TEST IT - CORRECTED 21 Aug 2026: NOT in fond 1747. The Krasniczyn\nregister ran ONLY 1826-1836, so a birth ~1841 is five years AFTER it closes.\nAfter 1836 the Jews of Krasniczyn registered at WOJSLAWICE, and Krasniczyn\nMARRIAGES went into the CHELM district book (JRI cites film 766307).\n⇒ Look for his birth in the Wojslawice register c.1841 and for his marriage\n(c.1865, to Perla Perz of Tyszowce) in Chelm - or in TYSZOWCE, the bride's town."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-perla-szpilhajzen",
+  "gedcomId": "I1156",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Perla Szpilhajzen",
+   "given": "Perla",
+   "surname": "Szpilhajzen",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1950",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "_CONF #proof PROVEN as the FIRST wife of Abram-Moszko Moskal (@I1062@), married 1866.\nJRI-Poland index, Wojslawice marriages: \"MOSKAL Abram-Moszko, 1866, act 6, of the village\nKrosniczyn, Wojslawice district, son of LEJBA and BRAJNDLA\", married PERLA SZPILHAJZEN,\ndaughter of WOLF and SURA KAPEL. Microfilm 766307.\n>>> CAVEAT: the JRI row is an INDEX (derivative), not the act. The act itself is NOT in\nthe Wojslawice fond's 1866 volume, which holds only five marriages and no Moskal - so\nKrasniczyn marriages were registered in another book, probably the CHELM district\nregister (JRI cites film 766307). Reading that act is the outstanding confirmation.\nBy 1882 Abram-Moszko's wife was RUCHLA-LAIA nee BIRMAN (@F1030@); whether Perla died or\nthe marriage ended is NOT documented. Entered to the tree 23 Aug 2026 - she had been\ndocumented only inside a NOTE since the JRI find, never as a person."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-wolf-szpilhajzen",
+  "gedcomId": "I1157",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Wolf Szpilhajzen",
+   "given": "Wolf",
+   "surname": "Szpilhajzen",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1950",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "Named as Perla's father in the JRI-Poland index row for marriage act 6/1866. Index only;\nthe act has not been read. Nothing further known."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sura-kapel",
+  "gedcomId": "I1158",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Sura Kapel",
+   "given": "Sura",
+   "surname": "Kapel",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1950",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "Named as Perla's mother in the JRI-Poland index row for marriage act 6/1866. Index only;\nthe act has not been read. Nothing further known."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szmul-glezer-i1159",
+  "gedcomId": "I1159",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Szmul Glezer",
+   "given": "Szmul",
+   "surname": "Glezer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "Labourer (\"rabotnik\") - 1879/1880; earlier \"living with his parents\" (1875). NOT a glazier",
+  "notes": [
+   "_CONF #proof PROBABLE as a son of Srul Glezer (@I1096@) and Chana Zaman (@I1097@).\nNO ACT NAMES HIS PARENTS. The chain: birth act 5/1856 matches four separate age\nstatements; act 4/1875 describes him as \"living with his parents\", and act 38/1876 as\n\"prozhivayushchiy pri roditelyakh svoikh\" - so Srul and Chana were alive in Wojslawice in\nOct 1876; and no other Szmul Glezer appears anywhere in the file. Strong and converging,\nNOT proven. Entered to the tree 23 Aug 2026.\n>>> He is the FOURTH generation of this Glezer line: Herszko (~1787) -> Srul (~1820) ->\nSzmul (1856) -> Jankel-Moszko (1876) / Icko-Lejzor (1878). Distinct from the earlier\nSZMUL Glezer @I1092@ (d. bef. 1849), Herszko's father."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-majta-lant",
+  "gedcomId": "I1160",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Majta Lant",
+   "given": "Majta",
+   "surname": "Lant",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Szmul Glezer's wife - named as the mother in their sons' acts.\n>>> SURNAME SPELLING: the registers give TWO forms, both attested and both preserved here.\nAct 4/1875 writes \"LANGOVOY\" (= LANG); acts 38/1876 and 8/1879 write \"LANT\" (Cyrillic\nLYANT). Death act 8/1879 reads: \"...born in the settlement of Wojslawice to SZMUL and\nMAJTA nee LANT, lawful spouses GLEZER.\" Recorded under LANT (two acts to one), with LANG\nnoted. Do not \"correct\" either spelling away - search both.\nThis is a NEW SURNAME in the tree. Entered 23 Aug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-jankel-moszko-glezer",
+  "gedcomId": "I1161",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Jankel-Moszko Glezer",
+   "given": "Jankel-Moszko",
+   "surname": "Glezer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "7 OCT 1876",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the son of Szmul Glezer and Majta nee Lant (birth act 38/1876, which also\nrecords that Szmul, aged 20, was living with his parents). Entered to the tree 23 Aug 2026.\nNothing is known of him after birth."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-icko-lejzor-glezer",
+  "gedcomId": "I1162",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Icko-Lejzor Glezer",
+   "given": "Icko-Lejzor",
+   "surname": "Glezer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1878",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": {
+   "date": "16 SEP 1879",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the son of Szmul Glezer and Majta nee Lant. Death act 8/1879: \"died, being\nwith his parents, labourers, ICKO LEJZOR GLEZER, a child of one year, born in the\nsettlement of Wojslawice to SZMUL and MAJTA nee LANT, lawful spouses GLEZER.\"\n>>> The two DECLARANTS are themselves family, which is why this act matters twice over:\nLEJBA NUDEL, flour merchant, aged 62 - husband of Chaja-Ruchla nee Glezer (@I1098@), so\nthe child's great-uncle by marriage - and JOSINA SZLAJN, \"shkolnik\" (beadle/teacher),\naged 41. The two families that married into the Glezers reported the death of a Glezer\ngrandchild. Entered to the tree 23 Aug 2026."
   ],
   "grade": null,
   "sources": [],

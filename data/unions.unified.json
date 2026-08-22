@@ -620,8 +620,7 @@
    "p-srul-lejb-szaufer",
    "p-estera-malka-szaufer",
    "p-dawid-szaufer",
-   "p-gersz-szaufer",
-   "p-srul-glezer"
+   "p-gersz-szaufer"
   ],
   "marriage": {
    "date": "21 JAN 1873",
@@ -1014,7 +1013,9 @@
    "p-ruchla-laia-birman"
   ],
   "children": [
-   "p-ita-moskal"
+   "p-ita-moskal",
+   "p-brana-gitla-moskal",
+   "p-henia-moskal"
   ],
   "marriage": null,
   "notes": []
@@ -1198,7 +1199,9 @@
    "p-srul-glezer",
    "p-chana-zaman"
   ],
-  "children": [],
+  "children": [
+   "p-szmul-glezer-i1159"
+  ],
   "marriage": {
    "date": "1847",
    "place": "Wojslawice, Chelm, Lublin, Poland"
@@ -1450,6 +1453,53 @@
   ],
   "children": [],
   "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1064",
+  "gedcomId": "F1064",
+  "branch": "albert",
+  "spouses": [
+   "p-abram-moszko-moskal",
+   "p-perla-szpilhajzen"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "1866",
+   "place": "Krasniczyn / Chelm district, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1065",
+  "gedcomId": "F1065",
+  "branch": "albert",
+  "spouses": [
+   "p-wolf-szpilhajzen",
+   "p-sura-kapel"
+  ],
+  "children": [
+   "p-perla-szpilhajzen"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1066",
+  "gedcomId": "F1066",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul-glezer-i1159",
+   "p-majta-lant"
+  ],
+  "children": [
+   "p-jankel-moszko-glezer",
+   "p-icko-lejzor-glezer"
+  ],
+  "marriage": {
+   "date": "BEF 1875",
+   "place": null
+  },
   "notes": []
  }
 ]

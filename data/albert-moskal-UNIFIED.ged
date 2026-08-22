@@ -5329,6 +5329,7 @@
 1 SOUR @S1022@
 1 FAMC @F1012@
 1 FAMS @F1030@
+1 FAMS @F1064@
 
 0 @I1063@ INDI
 1 NAME Berko /Kielner/
@@ -6329,6 +6330,7 @@
 0 @F1043@ FAM
 1 HUSB @I1096@
 1 WIFE @I1097@
+1 CHIL @I1159@
 1 MARR
 2 DATE 1847
 2 PLAC Wojslawice, Chelm, Lublin, Poland
@@ -7170,5 +7172,166 @@
 2 CONT lists her at row 23: "Moskal - Perlya - act 16 - page 99". Thirty-six deaths that
 2 CONT year. >>> The act image itself could not be downloaded - that one hash returns an
 2 CONT Incapsula stub - but both index pages were saved and the act was read on screen.
+
+0 @I1156@ INDI
+1 NAME Perla /Szpilhajzen/
+2 GIVN Perla
+2 SURN Szpilhajzen
+1 SEX F
+1 DEAT
+2 DATE BEF 1950
+2 NOTE NOT A RECORD - an outer bound only. No death act has been found. She was an adult at her
+3 CONT marriage in 1866, so she cannot have been alive in 1950. The bound is entered so the site
+3 CONT does not treat her as a living person; it is not evidence of a death date.
+1 NOTE _CONF #proof PROVEN as the FIRST wife of Abram-Moszko Moskal (@I1062@), married 1866.
+2 CONT JRI-Poland index, Wojslawice marriages: "MOSKAL Abram-Moszko, 1866, act 6, of the village
+2 CONT Krosniczyn, Wojslawice district, son of LEJBA and BRAJNDLA", married PERLA SZPILHAJZEN,
+2 CONT daughter of WOLF and SURA KAPEL. Microfilm 766307.
+2 CONT >>> CAVEAT: the JRI row is an INDEX (derivative), not the act. The act itself is NOT in
+2 CONT the Wojslawice fond's 1866 volume, which holds only five marriages and no Moskal - so
+2 CONT Krasniczyn marriages were registered in another book, probably the CHELM district
+2 CONT register (JRI cites film 766307). Reading that act is the outstanding confirmation.
+2 CONT By 1882 Abram-Moszko's wife was RUCHLA-LAIA nee BIRMAN (@F1030@); whether Perla died or
+2 CONT the marriage ended is NOT documented. Entered to the tree 23 Aug 2026 - she had been
+2 CONT documented only inside a NOTE since the JRI find, never as a person.
+1 FAMC @F1065@
+1 FAMS @F1064@
+
+0 @I1157@ INDI
+1 NAME Wolf /Szpilhajzen/
+2 GIVN Wolf
+2 SURN Szpilhajzen
+1 SEX M
+1 DEAT
+2 DATE BEF 1950
+2 NOTE NOT A RECORD - an outer bound only. No death act has been found. He was the parent of an
+3 CONT adult marrying in 1866, so he cannot have been alive in 1950. The bound is entered so the
+3 CONT site does not treat him as a living person; it is not evidence of a death date.
+1 NOTE Named as Perla's father in the JRI-Poland index row for marriage act 6/1866. Index only;
+2 CONT the act has not been read. Nothing further known.
+1 FAMS @F1065@
+
+0 @I1158@ INDI
+1 NAME Sura /Kapel/
+2 GIVN Sura
+2 SURN Kapel
+1 SEX F
+1 DEAT
+2 DATE BEF 1950
+2 NOTE NOT A RECORD - an outer bound only. No death act has been found. She was the parent of an
+3 CONT adult marrying in 1866, so she cannot have been alive in 1950. The bound is entered so the
+3 CONT site does not treat her as a living person; it is not evidence of a death date.
+1 NOTE Named as Perla's mother in the JRI-Poland index row for marriage act 6/1866. Index only;
+2 CONT the act has not been read. Nothing further known.
+1 FAMS @F1065@
+
+0 @I1159@ INDI
+1 NAME Szmul /Glezer/
+2 GIVN Szmul
+2 SURN Glezer
+1 SEX M
+1 BIRT
+2 DATE ABT 1856
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 5/1856. Four independent age statements converge: 19 (Jan 1875, act 4/1875),
+3 CONT 20 (Oct 1876, act 38/1876), 22 (1878), 24 (Sep 1880).
+1 OCCU Labourer ("rabotnik") - 1879/1880; earlier "living with his parents" (1875). NOT a glazier
+2 CONT like his father and grandfather.
+1 NOTE _CONF #proof PROBABLE as a son of Srul Glezer (@I1096@) and Chana Zaman (@I1097@).
+2 CONT NO ACT NAMES HIS PARENTS. The chain: birth act 5/1856 matches four separate age
+2 CONT statements; act 4/1875 describes him as "living with his parents", and act 38/1876 as
+2 CONT "prozhivayushchiy pri roditelyakh svoikh" - so Srul and Chana were alive in Wojslawice in
+2 CONT Oct 1876; and no other Szmul Glezer appears anywhere in the file. Strong and converging,
+2 CONT NOT proven. Entered to the tree 23 Aug 2026.
+2 CONT >>> He is the FOURTH generation of this Glezer line: Herszko (~1787) -> Srul (~1820) ->
+2 CONT Szmul (1856) -> Jankel-Moszko (1876) / Icko-Lejzor (1878). Distinct from the earlier
+2 CONT SZMUL Glezer @I1092@ (d. bef. 1849), Herszko's father.
+1 FAMC @F1043@
+1 FAMS @F1066@
+
+0 @I1160@ INDI
+1 NAME Majta /Lant/
+2 GIVN Majta
+2 SURN Lant
+1 SEX F
+1 BIRT
+2 DATE ABT 1856
+2 NOTE 19 in Jan 1875 (act 4/1875) => ~1855/56; 22 in 1878 => ~1856. Consistent.
+1 NOTE _CONF PROVEN as Szmul Glezer's wife - named as the mother in their sons' acts.
+2 CONT >>> SURNAME SPELLING: the registers give TWO forms, both attested and both preserved here.
+2 CONT Act 4/1875 writes "LANGOVOY" (= LANG); acts 38/1876 and 8/1879 write "LANT" (Cyrillic
+2 CONT LYANT). Death act 8/1879 reads: "...born in the settlement of Wojslawice to SZMUL and
+2 CONT MAJTA nee LANT, lawful spouses GLEZER." Recorded under LANT (two acts to one), with LANG
+2 CONT noted. Do not "correct" either spelling away - search both.
+2 CONT This is a NEW SURNAME in the tree. Entered 23 Aug 2026.
+1 FAMS @F1066@
+
+0 @I1161@ INDI
+1 NAME Jankel-Moszko /Glezer/
+2 GIVN Jankel-Moszko
+2 SURN Glezer
+1 SEX M
+1 BIRT
+2 DATE 7 OCT 1876
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 38/1876. The eldest documented son of Szmul and Majta.
+1 NOTE _CONF PROVEN as the son of Szmul Glezer and Majta nee Lant (birth act 38/1876, which also
+2 CONT records that Szmul, aged 20, was living with his parents). Entered to the tree 23 Aug 2026.
+2 CONT Nothing is known of him after birth.
+1 FAMC @F1066@
+
+0 @I1162@ INDI
+1 NAME Icko-Lejzor /Glezer/
+2 GIVN Icko-Lejzor
+2 SURN Glezer
+1 SEX M
+1 BIRT
+2 DATE ABT 1878
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+1 DEAT
+2 DATE 16 SEP 1879
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Death act 8/1879, unit 2196604, scan 36. Died aged one year, at eleven at night on 16
+3 CONT September 1879; the act was registered on 18 September.
+1 NOTE _CONF PROVEN as the son of Szmul Glezer and Majta nee Lant. Death act 8/1879: "died, being
+2 CONT with his parents, labourers, ICKO LEJZOR GLEZER, a child of one year, born in the
+2 CONT settlement of Wojslawice to SZMUL and MAJTA nee LANT, lawful spouses GLEZER."
+2 CONT >>> The two DECLARANTS are themselves family, which is why this act matters twice over:
+2 CONT LEJBA NUDEL, flour merchant, aged 62 - husband of Chaja-Ruchla nee Glezer (@I1098@), so
+2 CONT the child's great-uncle by marriage - and JOSINA SZLAJN, "shkolnik" (beadle/teacher),
+2 CONT aged 41. The two families that married into the Glezers reported the death of a Glezer
+2 CONT grandchild. Entered to the tree 23 Aug 2026.
+1 FAMC @F1066@
+
+0 @F1064@ FAM
+1 HUSB @I1062@
+1 WIFE @I1156@
+1 MARR
+2 DATE 1866
+2 PLAC Krasniczyn / Chelm district, Lublin, Poland
+2 NOTE Marriage act 6/1866 per the JRI-Poland index (microfilm 766307). Abram-Moszko was ~18.
+3 CONT The act itself has not been read - it is not in the Wojslawice 1866 volume.
+1 NOTE Abram-Moszko's FIRST marriage. His second, to Ruchla-Laia nee Birman, is @F1030@.
+2 CONT No children are documented for this marriage.
+
+0 @F1065@ FAM
+1 HUSB @I1157@
+1 WIFE @I1158@
+1 CHIL @I1156@
+1 NOTE Perla Szpilhajzen's parents, named only in the JRI-Poland index row for marriage act
+2 CONT 6/1866. The act has not been read.
+
+0 @F1066@ FAM
+1 HUSB @I1159@
+1 WIFE @I1160@
+1 CHIL @I1161@
+1 CHIL @I1162@
+1 MARR
+2 DATE BEF 1875
+2 NOTE Not documented directly. Szmul was described as living with his parents in Jan 1875
+3 CONT (act 4/1875) yet the couple's eldest documented child was born Oct 1876.
+1 NOTE The fourth generation of the Wojslawice Glezer line. Two sons documented; Icko-Lejzor
+2 CONT died at one year old in 1879. No Glezer appears in the Wojslawice registers at all for
+2 CONT 1881, 1882, 1883 or 1884 - the family's trail there stops after 1879.
 
 0 TRLR
