@@ -478,5 +478,65 @@
   "caption_en": "The two branches meet",
   "title_pl": "Ślub Dawida Alberta i Dwory Moskal",
   "caption_pl": "Spotkanie dwóch gałęzi"
+ },
+ {
+  "id": "m-1919-wojslawice-register",
+  "branch": "moskal",
+  "title": "פנקס רישום העסקים של ווישלאביץ', 1919",
+  "caption": "«Ziemia Lubelska», 16.11.1919 — טובה וזוּש שטיין (בית תה), חיים ורמן (יין ובירה), אנטוני סורמה (קצבות). אין בו איש מהמשפחה — וזו בדיוק העיירה שסביבה חיו.",
+  "image": "assets/scans/moskal/m-1919-wojslawice-register.jpg",
+  "thumb": "assets/scans/thumbs/m-1919-wojslawice-register.jpg",
+  "title_en": "Wojsławice trade register, 1919",
+  "caption_en": "“Ziemia Lubelska”, 16 Nov 1919 — Toba and Zuś Sztejn (tea house), Chaim Warman (wine and beer), Antoni Surma (butcher). No family member appears; this is the town they lived in.",
+  "title_pl": "Rejestr handlowy Wojsławic, 1919",
+  "caption_pl": "„Ziemia Lubelska”, 16 XI 1919 — Toba i Zuś Sztejn (herbaciarnia), Chaim Warman (wyszynk wina i piwa), Antoni Surma (rzeźnictwo)."
+ },
+ {
+  "id": "m-1920-biz-lejba",
+  "branch": "moskal",
+  "title": "רישום העסק של יהודה־לייבה מוסקל, 1920",
+  "caption": "«Obwieszczenia Publiczne», 30.7.1920 — «322) „Lejba Moskal”, wyszynk piwa, herbaciarnia, siedziba w Wojsławicach, pow. Chełmskiego». מזיגת בירה ובית תה.",
+  "image": "assets/scans/moskal/m-1920-biz-lejba.jpg",
+  "thumb": "assets/scans/thumbs/m-1920-biz-lejba.jpg",
+  "title_en": "Judka-Lejba Moskal registers his business, 1920",
+  "caption_en": "“Obwieszczenia Publiczne”, 30 July 1920 — “322) ‘Lejba Moskal’, beer tavern and tea house, seat in Wojsławice, Chełm district.”",
+  "title_pl": "Rejestracja firmy Judki-Lejby Moskala, 1920",
+  "caption_pl": "„Obwieszczenia Publiczne”, 30 VII 1920 — „322) «Lejba Moskal», wyszynk piwa, herbaciarnia, siedziba w Wojsławicach, pow. Chełmskiego”."
+ },
+ {
+  "id": "m-1929-ka-moskal-rajs",
+  "branch": "moskal",
+  "title": "מדריך הכתובות של פולין, 1929 — מוסקל ורייס",
+  "caption": "ווישלאביץ': «Piwiarnie: Głowacki L. — Moskal D.» ומיד אחריה «Restauracje: Rajs A.». בית הבירה של דבורה, והמסעדה של רייס — קו אימהי כפול במשפחה.",
+  "image": "assets/scans/moskal/m-1929-ka-moskal-rajs.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-ka-moskal-rajs.jpg",
+  "title_en": "Polish Business Directory, 1929 — Moskal and Rajs",
+  "caption_en": "Wojsławice: “Beer houses: Głowacki L. — Moskal D.”, and directly below, “Restaurants: Rajs A.” Dwojra’s beer house beside a Rajs restaurant — Rajs is a maternal line on both sides of the family.",
+  "title_pl": "Księga Adresowa Polski, 1929 — Moskal i Rajs",
+  "caption_pl": "Wojsławice: „Piwiarnie: Głowacki L. — Moskal D.”, a zaraz niżej „Restauracje: Rajs A.”."
+ },
+ {
+  "id": "m-1930-ka-three-businesses",
+  "branch": "moskal",
+  "title": "שלושה עסקי מוסקל, 1930",
+  "caption": "מדריך 1930, ווישלאביץ': בתי תה — Moskal D. · בתי בירה — Moskal D. · מי סודה — Moskal Ł. שלושת המקצועות הרשומים בעץ על יהודה־לייבה, בשלוש שורות של מדריך מודפס.",
+  "image": "assets/scans/moskal/m-1930-ka-three-businesses.jpg",
+  "thumb": "assets/scans/thumbs/m-1930-ka-three-businesses.jpg",
+  "title_en": "Three Moskal businesses, 1930",
+  "caption_en": "1930 directory, Wojsławice: tea houses — Moskal D.; beer houses — Moskal D.; soda water — Moskal Ł. The three trades recorded in the family tree for Judka-Lejba, on three separate printed lines.",
+  "title_pl": "Trzy firmy Moskalów, 1930",
+  "caption_pl": "Księga Adresowa 1930, Wojsławice: herbaciarnie — Moskal D.; piwiarnie — Moskal D.; wody gazowe — Moskal Ł."
+ },
+ {
+  "id": "m-1939-dwojra-struck",
+  "branch": "moskal",
+  "title": "העסק נמחק מהמרשם, 1939",
+  "caption": "«Monitor Polski», 22.6.1939 — «9186. Dwojra Moskal — Wojsławice», ברשימת החברות שנמחקו מהמרשם המסחרי בבית המשפט המחוזי בלובלין, 30 במרץ 1939. שלוש שנים לפני שנרצחה.",
+  "image": "assets/scans/moskal/m-1939-dwojra-struck.jpg",
+  "thumb": "assets/scans/thumbs/m-1939-dwojra-struck.jpg",
+  "title_en": "The business is struck from the register, 1939",
+  "caption_en": "“Monitor Polski”, 22 June 1939 — “9186. Dwojra Moskal — Wojsławice”, among the firms removed from the commercial register by the District Court in Lublin on 30 March 1939. Three years before she was murdered.",
+  "title_pl": "Wykreślenie firmy z rejestru, 1939",
+  "caption_pl": "„Monitor Polski”, 22 VI 1939 — „9186. Dwojra Moskal — Wojsławice”, wśród firm wykreślonych z rejestru handlowego przez Sąd Okręgowy w Lublinie 30 III 1939."
  }
 ]

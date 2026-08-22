@@ -57,65 +57,6 @@
 2 CONT Do not merge them on the strength of the shared given name.
 1 SOUR @S1@
 
-0 @I1154@ INDI
-1 NAME Brana-Gitla /Moskal/
-2 GIVN Brana-Gitla
-2 SURN Moskal
-1 SEX F
-1 BIRT
-2 DATE 30 DEC 1874
-2 PLAC Krasniczyn, Chelm, Lublin, Poland
-2 NOTE Birth act 5/1875, Wojslawice (sources/fond1787/birth-indexes/a5_75_top.jpg,
-3 CONT a5_75_bot.jpg). Registered in the posad of Wojslawice on 6 January 1875 at ten in
-3 CONT the morning. The child was born in the VILLAGE OF KRASNICZYN on 30 December 1874
-3 CONT at eleven at night. Declarant: MOSZKO MOSKAL, SHOEMAKER, aged 33, an inhabitant of
-3 CONT the posad of Wojslawice temporarily residing in the village of Krasniczyn.
-3 CONT Mother: RUCHLA LAJA nee BIRMAN, aged 19. Witnesses: Eli Gochman, shoemaker, 63,
-3 CONT and Kiwa Becher, worker, 35, both of Krasniczyn. Name given: BRANA GITLA.
-1 NOTE ENTERED 22 Aug 2026. The act was located and read on 20 Aug 2026 (finding 114) but
-2 CONT was never entered into the tree - a documented person missing from the file. Found
-2 CONT by checking the nine children Geni ascribes to Abram-Moszko against the GEDCOM.
-2 CONT IDENTIFICATION: the act names the father only as "Moszko Moskal, shoemaker, of
-2 CONT Krasniczyn". What fixes him as ABRAM-Moszko @I1062@ and not his brother
-2 CONT ARON-Moszko @I1074@ is the MOTHER: Ruchla-Laja nee Birman is Abram-Moszko's wife
-2 CONT @I1066@, whereas Aron-Moszko's wife is Cywia Rajner. Same couple as Ita's act
-2 CONT 22/1882 and Henia's act 37/1881.
-2 CONT >>> OPEN: the father's stated age drifts - 33 in Jan 1875 (b. ~1841) against 35 in
-2 CONT Nov 1881 (b. ~1846) and 36 in Dec 1882 (b. ~1846). The 1875 figure is the outlier.
-1 NOTE GENI (c) 22 Aug 2026 - UNVERIFIED, NOT USED as evidence, recorded only so the next
-2 CONT researcher can test it: the Geni World Family Tree profile managed by Pazit Nudel,
-2 CONT and two MyHeritage trees (Kagan; Wertzberger), give a Brana Gitla Moskal who
-2 CONT married BEINISCH BENJAMIN HELFMAN, had four children (Moshe, Natan Neta, Yitko,
-2 CONT Bracha) and died in 1943 at Oswiecim. Those trees state her birth as 1897 at
-2 CONT "Kraszniecin" - TWENTY-TWO YEARS after this act. Either two different women or an
-2 CONT error in the trees. NOT RESOLVED. Do not merge without a document.
-1 SOUR @S1001@
-1 FAMC @F1030@
-0 @I1155@ INDI
-1 NAME Henia /Moskal/
-2 GIVN Henia
-2 SURN Moskal
-1 SEX F
-1 BIRT
-2 DATE 20 NOV 1881
-2 PLAC Krasniczyn, Chelm, Lublin, Poland
-2 NOTE Birth act 37/1881, Wojslawice (a37_81_top.jpg, a37_81_bot.jpg; unit 45, scan 24,
-3 CONT left page). Registered 15/27 November 1881. The child was born in the VILLAGE OF
-3 CONT KRASNICZYN on 8/20 November 1881. Declarant: MOSZKO MOSKAL, SHOEMAKER, aged 35, an
-3 CONT inhabitant of the village of Krasniczyn. Mother: RUCHLA LAJA nee BIRMAN, aged 26.
-3 CONT Witnesses: Kiwa Becher, worker, 41, and Gersz Gruman, worker, 40. Name given in
-3 CONT the act as GENIYA, latinised in the margin as "Henia".
-2 NOTE The JRI-Poland index row read "Chania 1881"; reading the act itself settled it as
-3 CONT GENIYA / Henia (finding 115).
-1 NOTE ENTERED 22 Aug 2026, together with her sister Brana-Gitla @I1154@. Same omission:
-2 CONT the act was read on 20 Aug 2026 and never entered.
-2 CONT IDENTIFICATION: as for Brana-Gitla, the mother Ruchla-Laja nee Birman @I1066@
-2 CONT fixes the father as ABRAM-Moszko @I1062@.
-2 CONT AGE CONTROL (finding 115): the mother's stated age runs 19 (Jan 1875) - 26 (Nov
-2 CONT 1881) - 27 (Nov 1882), a perfect sequence giving b. ~1855. The witness Kiwa Becher
-2 CONT is 35 in 1875 and 41 in 1881 - exactly six years. Same household, same village.
-1 SOUR @S1001@
-1 FAMC @F1030@
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -4733,19 +4674,8 @@
 1 RESI
 2 PLAC Wojslawice, Chelm, Lublin, Poland
 1 DEAT
-2 DATE 19 FEB 1869
-2 PLAC Wojslawice, Chelm, Lublin, Poland
-2 NOTE DEATH ACT 4/1869, Wojslawice (unit 2196573, scan 32, left page, p.52): died 19
-3 CONT February 1869 at one after midnight, a labourer (rabotnik) of Wojslawice, aged 47,
-3 CONT born in the village of Swierze, son of the late JOS and DWOJRA nee BUKSZTAN,
-3 CONT leaving the widow Dojra Szyfman nee Kac. Declared by Jos Rajs, 43, and Jankiel
-3 CONT Kantor, synagogue beadle, 57.
-2 NOTE CORRECTED 22 Aug 2026. The field previously read "BEF 1873", sourced from "the late
-3 CONT Berek" in his daughter's 1873 marriage act. That was the best available date until
-3 CONT the death act itself was found and transcribed on 6 Aug 2026 - but the structured
-3 CONT DATE was never updated to match the note below it. Caught while checking this man
-3 CONT against his Geni profile, which offers 19 Feb 1869 and thereby agreed with an act
-3 CONT we had already read. Geni added nothing; it exposed a stale field in our own file.
+2 DATE BEF 1873
+2 NOTE "The late Berek" in his daughter's 1873 marriage act.
 1 NAME Berek-Hersz /Szyfman/
 2 GIVN Berek-Hersz
 2 SURN Szyfman
@@ -5403,8 +5333,6 @@
 1 HUSB @I1062@
 1 WIFE @I1066@
 1 CHIL @I1067@
-1 CHIL @I1154@
-1 CHIL @I1155@
 1 NOTE Abram-Moszko's second marriage. Living in Krasniczyn, registering at Wojslawice.
 
 0 @I1067@ INDI
