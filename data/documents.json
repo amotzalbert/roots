@@ -742,5 +742,29 @@
   "caption_en": "“There appeared Srul Glezer, glazier, aged thirty-eight, resident in Wojsławice, in the presence of the witnesses Jankiel Szautor, beadle, aged forty, and Lejba Nudel, flour merchant, aged forty… and presented to us a male child, born in Wojsławice on the fifth of February… of his wife Chana née Klerer Glezer, aged thirty-five, to whom at the circumcision was given the name Samul.” The act names both parents outright, proving a link that until now rested only on an index. The witness Lejba Nudel was Srul's brother-in-law — the same man who witnessed the elder son's birth in 1847. Note: the mother's maiden name is written “Klerer” here but “Zaman” in the 1847 act — a genuine, still-unexplained discrepancy between two original sources.",
   "title_pl": "Akt urodzenia 5/1856 — Szmul Glezer, syn Srula i Chany",
   "caption_pl": "„Stawił się Starozakonny SRUL GLEZER, SZKLARZ, lat trzydzieści ośm… z Matronki jego CHANY z KLEREROW GLEZER, lat trzydzieści pięć… nadane zostało Imie SAMUL.” Akt wymienia oboje rodziców."
+ },
+ {
+  "id": "m-1856-act10-nute-lejb-rajs",
+  "branch": "moskal",
+  "title": "אקט לידה 10/1856 — נוטה-לייב רייס, בן גרשון ודבוירה",
+  "caption": "«התייצב גרשון רייס, סוחר בד, בן עשרים ושלוש… והציג בפנינו ילד ממין זכר, שנולד בוויסלאביץ׳ ביום עשרים ושמונה באפריל… מאשתו דבוירה לבית שלאיין רייס, בת עשרים וארבע… ובמילה ניתן לו השם נוטה לייב.» תשע שנים אחרי נישואיהם (אקט 7/1847), בנם המתועד כאן.",
+  "image": "assets/scans/moskal/m-1856-act10-nute-lejb-rajs.jpg",
+  "thumb": "assets/scans/thumbs/m-1856-act10-nute-lejb-rajs.jpg",
+  "title_en": "Birth act 10/1856 — Nute-Lejb Rajs, son of Gershon and Dwojra",
+  "caption_en": "“There appeared Gershon Rajs, cloth merchant, aged twenty-three… and presented to us a male child, born in Wojsławice on the twenty-eighth of April… of his wife Dwojra née Szlajn Rajs, aged twenty-four… and at the circumcision was given the name Nute Lejb.” Nine years after their 1847 marriage, this is their documented son.",
+  "title_pl": "Akt urodzenia 10/1856 — Nute-Lejb Rajs, syn Gerszona i Dwojry",
+  "caption_pl": "„Stawił się GIERSZON RAJS... nadane zostało Imię NUTE LEJB.” Dziewięć lat po ślubie z 1847 r."
+ },
+ {
+  "id": "m-1856-act4-jankiel-rajs-wajcenfeld",
+  "branch": "moskal",
+  "title": "אקט נישואין 4/1856 — יאנקל רייס נושא את טובה וייצנפלד",
+  "caption": "«יאנקל רייס, רווק, בן עשרים ואחת, חייט, יליד ויסלאביץ׳, בן הרשק רייס וזיפרה לבית לא ידוע, בני זוג רייס, שניהם מתים… וטובה וייצנפלד, רווקה, בת עשרים, בת שולים ורבקה לבית שיפר, בני זוג וייצנפלד, שניהם מתים.» 25 ביוני 1856. ⚠ אביו של יאנקל — הרשק רייס — שונה מאביו של גרשון רייס שבעץ שלנו (וולף רייס). ענף רייס נפרד באותה עיירה; הקשר ביניהם אינו מוכח.",
+  "image": "assets/scans/moskal/m-1856-act4-jankiel-rajs-wajcenfeld.jpg",
+  "thumb": "assets/scans/thumbs/m-1856-act4-jankiel-rajs-wajcenfeld.jpg",
+  "title_en": "Marriage act 4/1856 — Jankiel Rajs weds Tauba Wajcenfeld",
+  "caption_en": "“Jankiel Rajs, bachelor, 21, tailor, born in Wojsławice, son of the late Herszek Rajs and Zyfra (maiden name unknown)... and Tauba Wajcenfeld, maiden, 20, daughter of the late Szulim and Ryfka née Szyfer.” 25 June 1856. Note: Jankiel's father, Herszek Rajs, differs from Gershon Rajs's father in our tree (Wolf Rajs) — a separate Rajs household in the same small town; the connection between them is not proven.",
+  "title_pl": "Akt małżeństwa 4/1856 — Jankiel Rajs poślubia Tauba Wajcenfeld",
+  "caption_pl": "„Jankiel Rajs, kawaler, lat 21, krawiec... syn zmarłych Herszka Rajs i Zyfry... i Tauba Wajcenfeld, panna, lat 20.” 25 czerwca 1856 r."
  }
 ]

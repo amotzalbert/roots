@@ -847,7 +847,8 @@
    "p-dvoyra-szlaim"
   ],
   "children": [
-   "p-hinda-rajs"
+   "p-hinda-rajs",
+   "p-nute-lejb-rajs"
   ],
   "marriage": {
    "date": "16 DEC 1847",
@@ -1499,6 +1500,21 @@
   "marriage": {
    "date": "BEF 1875",
    "place": null
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1067",
+  "gedcomId": "F1067",
+  "branch": "albert",
+  "spouses": [
+   "p-jankiel-rajs",
+   "p-tauba-wajcenfeld"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "25 JUN 1856",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
   },
   "notes": []
  }

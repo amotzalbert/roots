@@ -4558,6 +4558,7 @@
 1 HUSB @I1047@
 1 WIFE @I1048@
 1 CHIL @I1046@
+1 CHIL @I1163@
 1 MARR
 2 DATE 16 DEC 1847
 2 PLAC Wojslawice, Chelm, Lublin, Poland
@@ -7360,5 +7361,85 @@
 1 NOTE The fourth generation of the Wojslawice Glezer line. Two sons documented; Icko-Lejzor
 2 CONT died at one year old in 1879. No Glezer appears in the Wojslawice registers at all for
 2 CONT 1881, 1882, 1883 or 1884 - the family's trail there stops after 1879.
+
+0 @I1163@ INDI
+1 NAME Nute-Lejb /Rajs/
+2 GIVN Nute-Lejb
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE 28 APR 1856
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 10/1856 (unit 2196536, sygn. 2.1/21, scan 7, printed page 8), read 23 Aug 2026.
+3 CONT "Stawil sie Starozakonny GIERSZON RAJS, DRUKARZ [prawdop. handlarz] plotna, lat
+3 CONT dwadziescia trzy liczacy, w Wojslawicach zamieszkaly ... i okazal nam dziecie plci
+3 CONT Mezkiej, urodzone w Wojslawicach na dniu dwudziestym osmym Kwietnia roku biezacego o
+3 CONT godzinie dziesiatej w nocy z Matronki jego DWOJRY z SZLAJNOW RAJS, lat dwadziescia
+3 CONT cztery liczacej, ktoremu przy obrzezaniu nadane zostalo Imie NUTE LEJB." Witnesses:
+3 CONT Herszek Rubinsztajn, tavern-keeper, 50, and Jankiel Kantor, beadle, 40. Signed:
+3 CONT Gierszon Rajs, Herszek Rubinsztajn, Jankiel Kantor.
+1 NOTE _CONF PROVEN as the son of Gershon Rajs (@I1047@) and Dwojra nee Szlajn (@I1048@).
+2 CONT Both parents named outright in the act, nine years after their 1847 marriage.
+2 CONT AGE CHECK: Dwojra 24 in 1856 => b. ~1832, against 16 in 1847 => ~1831 - matches closely.
+2 CONT Gershon 23 in 1856 => b. ~1833, against the file's established ~1829 (18 in 1847 marriage
+2 CONT act; 30 in 1859 birth act) - a ~4yr gap, wider than his other cross-checks but not
+2 CONT resolved either way; recorded as read, not corrected away.
+2 CONT His trade here, "drukarz" (printer) or possibly a misreading of a cloth-trade word
+2 CONT ("platno" = linen/cloth), differs from "dyer" recorded elsewhere - trades drift across
+2 CONT documents for this family (painter -> dyer already noted on his own record).
+2 CONT Entered to the tree 23 Aug 2026. Nothing further is known of him.
+1 FAMC @F1021@
+
+0 @I1164@ INDI
+1 NAME Jankiel /Rajs/
+2 GIVN Jankiel
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE ABT 1835
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE 21 at his marriage, act 4/1856 (unit 2196536, sygn. 2.1/21, scan 13, right page,
+3 CONT folio 21). No birth record used - the act itself states "podlug Aktu Znania" (per an
+3 CONT act of notoriety, i.e. no birth act existed to cite).
+1 OCCU Tailor ("z krawiectwa utrzymujacy sie")
+1 NOTE _CONF #proof PROBABLE as a son of Herszek Rajs and Zyfra (maiden name unknown), both
+2 CONT already deceased by 1856: "urodzony w Miescie Wojslawicach z Ojca HERSZKA RAJS i ZYFRY
+3 CONT z domu niewiadomej malzonkow Rajs oboje niezyjacych."
+2 CONT >>> NOT LINKED to Gershon Rajs's line (@I1047@): Gershon's father is named WOLF Rajs in
+3 CONT the 1847 marriage act (@F1021@), not Herszek. Same surname, same small town, different
+3 CONT father - could be brothers, cousins, or unrelated households; nothing here decides it.
+3 CONT Entered as a separate, unconnected Rajs family per the town's documented pattern of
+3 CONT multiple distinct households sharing a surname (compare the Glezer count, 23 Aug 2026).
+2 CONT Entered to the tree 23 Aug 2026.
+1 FAMS @F1067@
+
+0 @I1165@ INDI
+1 NAME Tauba /Wajcenfeld/
+2 GIVN Tauba
+2 SURN Wajcenfeld
+1 SEX F
+1 BIRT
+2 DATE ABT 1836
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE 20 "podlug Metryki" (by birth record) at her 1856 marriage.
+1 NOTE _CONF PROVEN as Jankiel Rajs's wife (marriage act 4/1856). Daughter of the late SZULIM
+2 CONT WAJCENFELD and RYFKA nee SZYFER, both already deceased by 1856. At the time of the
+2 CONT marriage she was living with her guardian JANKIEL WICLNER, granary-keeper
+2 CONT ("spichlerz"/"sarazynie" [sic]) in Wojslawice, who stood by her at the act as her
+2 CONT appointed guardian ("opiekun Panny").
+2 CONT New surname in the tree: WAJCENFELD. Entered 23 Aug 2026.
+1 FAMS @F1067@
+
+0 @F1067@ FAM
+1 HUSB @I1164@
+1 WIFE @I1165@
+1 MARR
+2 DATE 25 JUN 1856
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Marriage act 4/1856. Before David London, deputy rabbi of Wojslawice parish. Witnesses:
+3 CONT Herszek Rubinsztajn, tavern-keeper, 50, and Jankiel Kantor, beadle, 40, both resident in
+3 CONT Wojslawice. Banns read on three preceding Saturdays (31st and 8th [sic - dates partly
+3 CONT unclear], and the 14th of the current month) in the Wojslawice prayer-house. No
+3 CONT prenuptial contract.
 
 0 TRLR

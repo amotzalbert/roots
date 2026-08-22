@@ -8875,5 +8875,89 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-nute-lejb-rajs",
+  "gedcomId": "I1163",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Nute-Lejb Rajs",
+   "given": "Nute-Lejb",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "28 APR 1856",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the son of Gershon Rajs (@I1047@) and Dwojra nee Szlajn (@I1048@).\nBoth parents named outright in the act, nine years after their 1847 marriage.\nAGE CHECK: Dwojra 24 in 1856 => b. ~1832, against 16 in 1847 => ~1831 - matches closely.\nGershon 23 in 1856 => b. ~1833, against the file's established ~1829 (18 in 1847 marriage\nact; 30 in 1859 birth act) - a ~4yr gap, wider than his other cross-checks but not\nresolved either way; recorded as read, not corrected away.\nHis trade here, \"drukarz\" (printer) or possibly a misreading of a cloth-trade word\n(\"platno\" = linen/cloth), differs from \"dyer\" recorded elsewhere - trades drift across\ndocuments for this family (painter -> dyer already noted on his own record).\nEntered to the tree 23 Aug 2026. Nothing further is known of him."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-jankiel-rajs",
+  "gedcomId": "I1164",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Jankiel Rajs",
+   "given": "Jankiel",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1835",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "Tailor (\"z krawiectwa utrzymujacy sie\")",
+  "notes": [
+   "_CONF #proof PROBABLE as a son of Herszek Rajs and Zyfra (maiden name unknown), both\nalready deceased by 1856: \"urodzony w Miescie Wojslawicach z Ojca HERSZKA RAJS i ZYFRY\nz domu niewiadomej malzonkow Rajs oboje niezyjacych.\"\n>>> NOT LINKED to Gershon Rajs's line (@I1047@): Gershon's father is named WOLF Rajs in\nthe 1847 marriage act (@F1021@), not Herszek. Same surname, same small town, different\nfather - could be brothers, cousins, or unrelated households; nothing here decides it.\nEntered as a separate, unconnected Rajs family per the town's documented pattern of\nmultiple distinct households sharing a surname (compare the Glezer count, 23 Aug 2026).\nEntered to the tree 23 Aug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tauba-wajcenfeld",
+  "gedcomId": "I1165",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Tauba Wajcenfeld",
+   "given": "Tauba",
+   "surname": "Wajcenfeld",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1836",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Jankiel Rajs's wife (marriage act 4/1856). Daughter of the late SZULIM\nWAJCENFELD and RYFKA nee SZYFER, both already deceased by 1856. At the time of the\nmarriage she was living with her guardian JANKIEL WICLNER, granary-keeper\n(\"spichlerz\"/\"sarazynie\" [sic]) in Wojslawice, who stood by her at the act as her\nappointed guardian (\"opiekun Panny\").\nNew surname in the tree: WAJCENFELD. Entered 23 Aug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]
