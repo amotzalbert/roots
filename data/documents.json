@@ -682,5 +682,29 @@
   "caption_en": "“Usher Lejzelovich Moskal” — Usher, son of Lejzer, Moskal, aged one, buried in the Jewish cemetery of Volodymyr-Volynskyi. The line above is act 45: Moshko Gecilovich Liborgunov, aged 67. The entry surfaced only once the register's second copy was read: in the first copy the “who died” column disappears into the binding and the surnames are cut off. No document links this family to the Moskals of Wojsławice, some 350 km to the west.",
   "title_pl": "Moskal we Włodzimierzu — akt zgonu 46 z 1862 r.",
   "caption_pl": "„Uszer Lejzelowicz Moskal”, roczne dziecko, pochowany na cmentarzu żydowskim we Włodzimierzu Wołyńskim. Zapis odczytano dopiero z drugiego egzemplarza księgi, gdzie nazwiska nie giną w oprawie."
+ },
+ {
+  "id": "m-1889-szyfman-hrubieszow",
+  "branch": "moskal",
+  "title": "שיפמן בהרוביישוב, 1889 — הרישום המוקדם ביותר שנמצא",
+  "caption": "«...בפוביאט הרוביישובסקי: טריפון זייקה, קרול צ'יפרישבסקי, אדם חמיילבסקי, סימחה שיפמן, ארון גרובר וזיסקינד פירשט.» עיתון «Gazeta Lubelska». זהו התיעוד המוקדם ביותר שנמצא לסימחה שיפמן בהרוביישוב — שלוש עשרה שנה לפני מדריך 1902. הוא מתועד ברציפות לפחות עד 1906. ○ אין מסמך שקושר אותו לשיפמן שבעץ שלנו.",
+  "image": "assets/scans/moskal/m-1889-szyfman-hrubieszow.jpg",
+  "thumb": "assets/scans/thumbs/m-1889-szyfman-hrubieszow.jpg",
+  "title_en": "Szyfman in Hrubieszów, 1889 — the earliest record found",
+  "caption_en": "“...in Hrubieszów county: Trifon Zaika, Karol Cypryszewski, Adam Chmielewski, Symcha Szyfman, Aron Gruber and Zyskind Firszt.” Gazeta Lubelska. This is the earliest record found for Symcha Szyfman in Hrubieszów — thirteen years before the 1902 directory. He is documented continuously until at least 1906. No document links him to the Szyfman line in our tree.",
+  "title_pl": "Szyfman w Hrubieszowie, 1889 r. — najwcześniejszy odnaleziony zapis",
+  "caption_pl": "„...w powiecie hrubieszowskim: Trifon Zaika, Karol Cypryszewski, Adam Chmielewski, Symcha Szyfman, Aron Gruber i Zyskind Firszt.” Gazeta Lubelska."
+ },
+ {
+  "id": "m-1897-szyfman-boznica",
+  "branch": "moskal",
+  "title": "שיפמן ממונה לתפקיד ציבורי בבית הכנסת, 1897",
+  "caption": "עיתון «Izraelita»: לאחר פרישת הדוזורצה הוותיק מחמת זקנה, ולאחר השבעה בבית הכנסת, התפקיד עבר ל«ספרן המקומי, מר סימחה שיפמן — אדם, ככל הנראה...». תפקיד ציבורי בקהילה, לצד עסקי הגלנטריה והספרים שלו.",
+  "image": "assets/scans/moskal/m-1897-szyfman-boznica.jpg",
+  "thumb": "assets/scans/thumbs/m-1897-szyfman-boznica.jpg",
+  "title_en": "Szyfman appointed to a communal post at the synagogue, 1897",
+  "caption_en": "“Izraelita”: after the elderly synagogue overseer retired and following the oath in the synagogue, the post passed to “the local bookseller, Mr. Symcha Szyfman — a man who, it seems...” A communal role alongside his haberdashery and bookselling business.",
+  "title_pl": "Szyfman mianowany na funkcję społeczną przy synagodze, 1897",
+  "caption_pl": "„Izraelita”: po odejściu wieloletniego dozorcy bóżniczego z powodu starości, funkcję objął „księgarz tutejszy, p. Symcha Szyfman”."
  }
 ]
