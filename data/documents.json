@@ -538,5 +538,53 @@
   "caption_en": "“Monitor Polski”, 22 June 1939 — “9186. Dwojra Moskal — Wojsławice”, among the firms removed from the commercial register by the District Court in Lublin on 30 March 1939. Three years before she was murdered.",
   "title_pl": "Wykreślenie firmy z rejestru, 1939",
   "caption_pl": "„Monitor Polski”, 22 VI 1939 — „9186. Dwojra Moskal — Wojsławice”, wśród firm wykreślonych z rejestru handlowego przez Sąd Okręgowy w Lublinie 30 III 1939."
+ },
+ {
+  "id": "m-1919b-wojslawice-register",
+  "branch": "moskal",
+  "title": "פנקס ווישלאביץ', דצמבר 1919",
+  "caption": "«Ziemia Lubelska», 14.12.1919 — סלאבה קליינמינץ, לאון סיטאז' (קצבות), טיטוס דניצ'וק (נקניקים), ולדיסלב טרובסקי (מעדנייה). המשך פנקס הרישום של העיירה.",
+  "image": "assets/scans/moskal/m-1919b-wojslawice-register.jpg",
+  "thumb": "assets/scans/thumbs/m-1919b-wojslawice-register.jpg",
+  "title_en": "Wojsławice register, December 1919",
+  "caption_en": "“Ziemia Lubelska”, 14 Dec 1919 — Sława Kleinminc, Leon Sitarz (butcher), Tytus Daniczuk (charcuterie), Władysław Tarowski. A further page of the town’s trade register.",
+  "title_pl": "Rejestr Wojsławic, grudzień 1919",
+  "caption_pl": "„Ziemia Lubelska”, 14 XII 1919 — Sława Kleinminc, Leon Sitarz (rzeźnictwo), Tytus Daniczuk (wędliny), Władysław Tarowski."
+ },
+ {
+  "id": "m-1929-krasniczyn-krawcy",
+  "branch": "moskal",
+  "title": "חייטי קרשניצ'ין, 1929 — מוסקל והלפמן",
+  "caption": "«Krawcy (חייטים): Birnbaum Ch. — Gros A. — Helfman N. — Kozak J. — Lederman K. — Moskal D. — Moskal H.» קרשניצ'ין היא העיירה שבה נולדו אברם־מושקו (1848) ויהודה־לייבה (1883). ובאותה שורה גם הלפמן — שם המשפחה שלתוכו נישאה ברנה־גיטלה מוסקל. ○ טרם הוכח קשר.",
+  "image": "assets/scans/moskal/m-1929-krasniczyn-krawcy.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-krasniczyn-krawcy.jpg",
+  "title_en": "The tailors of Kraśniczyn, 1929 — Moskal and Helfman",
+  "caption_en": "“Tailors: Birnbaum Ch. — Gros A. — Helfman N. — Kozak J. — Lederman K. — Moskal D. — Moskal H.” Kraśniczyn is where Abram-Moszko (1848) and Judka-Lejba (1883) were born. Helfman, on the same line, is the surname Brana-Gitla Moskal married into. Not yet proven to be the same family.",
+  "title_pl": "Krawcy Kraśniczyna, 1929 — Moskal i Helfman",
+  "caption_pl": "„Krawcy: Birnbaum Ch. — Gros A. — Helfman N. — Kozak J. — Lederman K. — Moskal D. — Moskal H.” Kraśniczyn to miejsce urodzenia Abrama-Moszka (1848) i Judki-Lejby (1883)."
+ },
+ {
+  "id": "m-1929-uchanie-block",
+  "branch": "moskal",
+  "title": "אוצ'ניה, 1929 — אַיְל, בירמן, כ\"ץ",
+  "caption": "מדריך 1929: העיירה שממנה בא תנחום־שלמה ליבן, ושבה נחתם ב־1839 אקט הנישואין של לייבה מוסקל וברינדלה לבית אַיְל. תשעים שנה אחר כך עדיין רשומים שם אַיְל (נגר), בירמן וכ\"ץ (אריגים) ונודל. ✖ ואף ליבן — באף איות.",
+  "image": "assets/scans/moskal/m-1929-uchanie-block.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-uchanie-block.jpg",
+  "title_en": "Uchanie, 1929 — Ajl, Birman, Kac",
+  "caption_en": "The 1929 directory. Uchanie is the town Tanchum-Szloma Liben came from, and where Lejba Moskal married Brajndla née Eil in 1839. Ninety years later Ajl (a carpenter), Birman and Kac (textiles) and Nudel are still listed there — and no Liben, in any spelling.",
+  "title_pl": "Uchanie, 1929 — Ajl, Birman, Kac",
+  "caption_pl": "Księga adresowa 1929. W Uchaniach w 1839 r. Lejba Moskal poślubił Brajndlę z domu Ejl. Dziewięćdziesiąt lat później wciąż figurują tam Ajl (stolarz), Birman i Kac (bławaty) oraz Nudel — i ani jeden Liben."
+ },
+ {
+  "id": "m-1939-heading-sad",
+  "branch": "moskal",
+  "title": "כותרת ההודעה, 1939",
+  "caption": "«Sąd Okręgowy w Lublinie, jako Rejestrowy, podaje do publicznej wiadomości, że niżej wymienione firmy zostały wykreślone z rejestru handlowego, z działu „A”» — הכותרת שמעל השורה על דבוירה מוסקל.",
+  "image": "assets/scans/moskal/m-1939-heading-sad.jpg",
+  "thumb": "assets/scans/thumbs/m-1939-heading-sad.jpg",
+  "title_en": "The heading of the 1939 notice",
+  "caption_en": "“The District Court in Lublin, sitting as the registry court, announces publicly that the firms listed below have been struck from the commercial register, section A.” The heading above Dwojra Moskal’s line.",
+  "title_pl": "Nagłówek obwieszczenia z 1939",
+  "caption_pl": "„Sąd Okręgowy w Lublinie, jako Rejestrowy, podaje do publicznej wiadomości, że niżej wymienione firmy zostały wykreślone z rejestru handlowego, z działu «A»”."
  }
 ]
