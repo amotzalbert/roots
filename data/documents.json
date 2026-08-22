@@ -622,5 +622,53 @@
   "caption_en": "“Szyfman B., Kolejowa 51 — Szyfman Sz., Pocztowa 48 — Tenenbaum F., Polichonki 83 — Tenenbaum J., Okszowska 2.” Szyfman is entirely absent from the Wojsławice directories of 1929 and 1930, and appears instead in the district town. Chełm is the first listing that gives street addresses. No document links these men to our Szyfman line.",
   "title_pl": "Szyfman w Chełmie, 1929 — z adresem",
   "caption_pl": "„Szyfman B., Kolejowa 51 — Szyfman Sz., Pocztowa 48 — Tenenbaum F., Polichonki 83 — Tenenbaum J., Okszowska 2”. Szyfmanów brak w księgach adresowych Wojsławic z 1929 i 1930 r."
+ },
+ {
+  "id": "m-1930-szyfman-chelm-spozywcze",
+  "branch": "moskal",
+  "title": "שיפמן בחעלם, 1930 — אותה כתובת, שנה אחרי",
+  "caption": "«Szyfman B., Kolejowa 51 — Szyfman Sz., Pocztowa 48». שני השיפמנים חוזרים במהדורת 1930 של מדריך הכתובות, בכתובות זהות, בסעיף «Spożywcze artykuły» — מכולת. אין זו הדפסה חוזרת: כשלושים וחמישה שמות נשרו מהעמוד וכתריסר נוספו, כלומר המהדיר גזם ועדכן — והשיפמנים אושרו מחדש. באותו ענף ובאותה עיר גם לאנג (פוצ׳טובה 46, שני מספרי בית משיפמן), נודל, כ״ץ, רייס וארליך.",
+  "image": "assets/scans/moskal/m-1930-szyfman-chelm-spozywcze.jpg",
+  "thumb": "assets/scans/thumbs/m-1930-szyfman-chelm-spozywcze.jpg",
+  "title_en": "Szyfman in Chełm, 1930 — the same address, a year on",
+  "caption_en": "“Szyfman B., Kolejowa 51 — Szyfman Sz., Pocztowa 48.” Both Szyfmans reappear in the 1930 edition at identical addresses, under “Spożywcze artykuły” — grocers. This is not a reprint: some thirty-five names were dropped from the page and about a dozen added, so the compiler pruned and refreshed — and the Szyfmans were re-confirmed. Lang (Pocztowa 46, two doors away), Nudel, Kac, Rajs and Erlich trade in the same line in the same town.",
+  "title_pl": "Szyfman w Chełmie, 1930 — ten sam adres rok później",
+  "caption_pl": "„Szyfman B., Kolejowa 51 — Szyfman Sz., Pocztowa 48” w dziale „Spożywcze artykuły”. Wydanie z 1930 r. nie jest przedrukiem: ok. 35 nazwisk usunięto, ok. 12 dodano."
+ },
+ {
+  "id": "m-1929-kac-hrubieszow",
+  "branch": "moskal",
+  "title": "כ״ץ בהרוביישוב, 1929",
+  "caption": "«Kac K.» בסעיף «Spożywcze art. (épiciers)» — מכולת. אותו ענף שבו נמצאים כ״ץ, שיפמן, נודל, רייס ולאנג בחעלם. ○ הקשר המשפחתי לכ״ץ שבעץ שלנו אינו מוכח.",
+  "image": "assets/scans/moskal/m-1929-kac-hrubieszow.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-kac-hrubieszow.jpg",
+  "title_en": "Kac in Hrubieszów, 1929",
+  "caption_en": "“Kac K.” under “Spożywcze art. (épiciers)” — grocers, the same trade in which Kac, Szyfman, Nudel, Rajs and Lang all appear in Chełm. No document links this man to the Kac line in our tree.",
+  "title_pl": "Kac w Hrubieszowie, 1929",
+  "caption_pl": "„Kac K.” w dziale „Spożywcze art. (épiciers)” — sklepy spożywcze."
+ },
+ {
+  "id": "m-1929-nudel-hrubieszow",
+  "branch": "moskal",
+  "title": "נודל בכיכר השוק הישן, הרוביישוב 1929",
+  "caption": "«Nudel K., St. Rynek» — כיכר השוק הישן, המיקום המסחרי הטוב בעיר. נודל מופיע גם באוחאני ב־1929 וגם בחעלם (פוצ׳טובה 7), תמיד במכולת.",
+  "image": "assets/scans/moskal/m-1929-nudel-hrubieszow.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-nudel-hrubieszow.jpg",
+  "title_en": "Nudel on the Old Market Square, Hrubieszów 1929",
+  "caption_en": "“Nudel K., St. Rynek” — the Old Market Square, the best commercial position in town. Nudel also appears in Uchanie in 1929 and in Chełm (Pocztowa 7), always in groceries.",
+  "title_pl": "Nudel na Starym Rynku, Hrubieszów 1929",
+  "caption_pl": "„Nudel K., St. Rynek” — najlepsze miejsce handlowe w mieście."
+ },
+ {
+  "id": "m-1929-rajs-hrubieszow",
+  "branch": "moskal",
+  "title": "רייס בהרוביישוב, 1929",
+  "caption": "«Rajs A.». משפחת רייס ניהלה את המסעדה בווישלאביץ' באותה שנה; כאן היא מופיעה גם בעיר הנפה הדרומית. ○ הקשר בין הענפים אינו מוכח.",
+  "image": "assets/scans/moskal/m-1929-rajs-hrubieszow.jpg",
+  "thumb": "assets/scans/thumbs/m-1929-rajs-hrubieszow.jpg",
+  "title_en": "Rajs in Hrubieszów, 1929",
+  "caption_en": "“Rajs A.” The Rajs family kept the restaurant in Wojsławice that same year; here the name appears in the southern district town as well. The link between the branches is not proven.",
+  "title_pl": "Rajs w Hrubieszowie, 1929",
+  "caption_pl": "„Rajs A.” Rodzina Rajs prowadziła w tym samym roku restaurację w Wojsławicach."
  }
 ]
