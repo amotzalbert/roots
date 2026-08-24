@@ -5590,6 +5590,34 @@
   "siteId": "p-hinda-rajs"
  },
  {
+  "id": "p-wulf-moskal",
+  "gedcomId": "I1157",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Wulf Moskal",
+   "given": "Wulf",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "24 FEB 1888",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as a son of Dawid-Szloma Moskal (@I1045@) and Hinda nee Rajs (@I1046@).\nFather named \"Duvid Moskal, merchant, 32\" and mother \"Ginda nee Rajs, 31\" - matching\nthe already-proven couple (marriage act 1/1878) exactly; \"Ginda/Hinda\" is the same\nname in Russian-act vs Polish-act transliteration. A sibling of Judka-Lejba (@I1021@)\nand Civja (@I1140@). Surfaced 24 Aug 2026 while reading the same 1888 Wojslawice\nvolume opened for the Geni-flagged \"Chaja Sura\" lead (see finding\nGENI-2026-08-asaf-feig-reply...) - found independently via the volume's own\nalphabetical index, not from Geni."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
   "id": "p-gershon-rajs",
   "gedcomId": "I1047",
   "branch": "moskal",
@@ -6493,6 +6521,34 @@
   "occupation": "",
   "notes": [
    "_CONF PROVEN as Abram-Moszko Moskal's wife in 1882 (birth act 22/1882, their daughter Ita).\nHis SECOND wife - he married Perla Szpilhajzen in 1866.\nTHREE children now documented, all born in Krasniczyn: BRANA-GITLA b. 30 Dec 1874\n(act 5/1875), HENIA b. 8/20 Nov 1881 (act 37/1881), ITA b. 30 Nov/12 Dec 1882 (act\n22/1882). The first two were read 20-21 Aug 2026 and resolve the open question at\nsource S-note \"the JRI index (Brana Gitla 1875, Chenia 1881) may belong to this couple\nor to...\" - they belong to this couple. Her marriage to Moszko is therefore <= early\n1874, not the previously assumed ~1874-77."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-herszko-moskal",
+  "gedcomId": "I1156",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Herszko Moskal",
+   "given": "Herszko",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "4 FEB 1889",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as a son of Abram-Moszko Moskal (@I1062@) and Ruchla-Laja nee Birman\n(@I1066@). The act names both parents outright and matches exactly: father \"Moszko\nMoskal\" (Abram-Moszko went by Moszko in daily acts), mother \"Ruchla-Lea nee Birman\" -\nthe identical, distinctive name pair already proven for this couple via act 22/1882\n(@I1067@ Ita's birth). Surfaced via a Geni correspondence: Asaf Feig (a Geni user\nrequesting a merge on Abram-Moszko Moskal, believed a HELFMAN-line descendant of\nBrana-Gitla Moskal - see finding 120-GENI-merge-center) sent this act's archive link\nunprompted on 23-24 Aug 2026, independently corroborating the \"new children\" list\nalready flagged from Geni's own tree data. Entered to the tree 24 Aug 2026."
   ],
   "grade": null,
   "sources": [],

@@ -4469,6 +4469,30 @@
 1 FAMC @F1021@
 1 FAMS @F1020@
 
+0 @I1157@ INDI
+1 NAME Wulf /Moskal/
+2 GIVN Wulf
+2 SURN Moskal
+1 SEX M
+1 BIRT
+2 DATE 24 FEB 1888
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE Birth act 6/1888, Wojslawice (APL 35/1787/0/2.1/50, scan 7, act 6, folio 170).
+3 CONT Declared 15 Mar 1888 by DUVID MOSKAL, MERCHANT, aged 32, of Krasniczyn (gmina
+3 CONT Krasniczyn-Gmina Czajki). Witnesses: Moszko Warman, ?, 50, and Godel Fruks,
+3 CONT shoemaker, 33. Born Krasniczyn, 24 Feb/7 Mar 1888, 4pm, to his lawful wife GINDA
+3 CONT (HINDA) nee RAJS, aged 31. At circumcision the child was given the name WULF.
+3 CONT Signed in Hebrew by Duvid Moskal, Moszko Warman, Godel Fruks.
+1 NOTE _CONF PROVEN as a son of Dawid-Szloma Moskal (@I1045@) and Hinda nee Rajs (@I1046@).
+2 CONT Father named "Duvid Moskal, merchant, 32" and mother "Ginda nee Rajs, 31" - matching
+2 CONT the already-proven couple (marriage act 1/1878) exactly; "Ginda/Hinda" is the same
+2 CONT name in Russian-act vs Polish-act transliteration. A sibling of Judka-Lejba (@I1021@)
+2 CONT and Civja (@I1140@). Surfaced 24 Aug 2026 while reading the same 1888 Wojslawice
+2 CONT volume opened for the Geni-flagged "Chaja Sura" lead (see finding
+2 CONT GENI-2026-08-asaf-feig-reply...) - found independently via the volume's own
+2 CONT alphabetical index, not from Geni.
+1 FAMC @F1020@
+1 SOUR @S1011@
 0 @I1047@ INDI
 1 NAME Gershon /Rajs/
 2 GIVN Gershon
@@ -4548,6 +4572,7 @@
 1 WIFE @I1046@
 1 CHIL @I1021@
 1 CHIL @I1140@
+1 CHIL @I1157@
 1 MARR
 2 DATE 2 JAN 1878
 2 PLAC Wojslawice, Chelm, Lublin, Poland
@@ -5407,7 +5432,36 @@
 1 CHIL @I1067@
 1 CHIL @I1154@
 1 CHIL @I1155@
+1 CHIL @I1156@
 1 NOTE Abram-Moszko's second marriage. Living in Krasniczyn, registering at Wojslawice.
+
+0 @I1156@ INDI
+1 NAME Herszko /Moskal/
+2 GIVN Herszko
+2 SURN Moskal
+1 SEX M
+1 BIRT
+2 DATE 4 FEB 1889
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE Birth act 5/1889, Wojslawice (APL 35/1787/0/2.1/51, scan 10, act 5, folio 208).
+3 CONT Declared 12 Feb 1889 by MOSZKO MOSKAL, TAILOR, aged 49, of Wojslawice. Witnesses:
+3 CONT Szlioma Lederman, merchant, 55, and Godel Fruks, shoemaker, 33. Born in the village of
+3 CONT KRASNICZYN, 4 Feb 1889, to his wife RUCHLA-LEA nee BIRMAN, aged 33. At circumcision the
+3 CONT child was given the name HERSZKO (Гершко). No circumcision certificate was presented at
+3 CONT registration, so the act notes legitimacy as formally unconfirmed - standard registrar
+3 CONT caution, not a substantive doubt. Signed in Hebrew by Moszko Moskal, Szlioma Lederman,
+3 CONT Godel Fruks.
+1 NOTE _CONF PROVEN as a son of Abram-Moszko Moskal (@I1062@) and Ruchla-Laja nee Birman
+2 CONT (@I1066@). The act names both parents outright and matches exactly: father "Moszko
+2 CONT Moskal" (Abram-Moszko went by Moszko in daily acts), mother "Ruchla-Lea nee Birman" -
+2 CONT the identical, distinctive name pair already proven for this couple via act 22/1882
+2 CONT (@I1067@ Ita's birth). Surfaced via a Geni correspondence: Asaf Feig (a Geni user
+2 CONT requesting a merge on Abram-Moszko Moskal, believed a HELFMAN-line descendant of
+2 CONT Brana-Gitla Moskal - see finding 120-GENI-merge-center) sent this act's archive link
+2 CONT unprompted on 23-24 Aug 2026, independently corroborating the "new children" list
+2 CONT already flagged from Geni's own tree data. Entered to the tree 24 Aug 2026.
+1 FAMC @F1030@
+1 SOUR @S1038@
 
 0 @I1067@ INDI
 1 NAME Ita /Moskal/
