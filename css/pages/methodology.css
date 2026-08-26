@@ -1,9 +1,8 @@
-/* ═══ methodology.html — «חדר הקריאה» ═══ CSS בלבד; הסימון לא נגעו בו ═══
-   מתודולוגיה: טיעון, לא אובייקטים — טיפוגרפיה וקווים בלבד.            */
+/* ═══ methodology.html — «ארכיון שחור» ═══ CSS בלבד; הסימון לא נגעו בו ═══ */
 
 .grade-key{display:flex;flex-direction:column;gap:.7rem;margin:1.6rem 0 2.4rem;
-  padding:1.2rem 1.3rem;background:var(--plinth);border:1px solid var(--rule);
-  border-inline-start:3px solid var(--rule-mid)}
+  padding:1.2rem 1.3rem;background:var(--plinth);border:1px solid var(--rule-mid);
+  border-inline-start:6px solid var(--rule-mid)}
 .grade-key .k{display:flex;gap:.7rem;align-items:baseline;font-size:var(--t-small)}
 .traps{margin:1.6rem 0}
 .traps li{margin-bottom:.8rem;line-height:1.8}

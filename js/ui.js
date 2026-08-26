@@ -111,7 +111,8 @@
       ticking = false;
       var h = document.documentElement;
       var max = h.scrollHeight - innerHeight;
-      bar.style.width = (max > 0 ? Math.min(100, 100 * h.scrollTop / max) : 0) + '%';
+      var f = max > 0 ? Math.min(1, h.scrollTop / max) : 0;
+      bar.style.transform = 'scaleX(' + f + ')';
     }
     addEventListener('scroll', function () {
       if (!ticking) { ticking = true; requestAnimationFrame(paintBar); }

@@ -1,36 +1,36 @@
-/* ═══ כל פרקי הספר — «חדר הקריאה» ═══ CSS בלבד; הסימון לא נגעו בו ═══
-   פרק = קריאה ארוכה בסריף. כותרות המשנה ממוספרות אוטומטית (ספרות —
-   ניטרליות לשפה), הראיות במונו, והציטוטים המובלטים בסריף גדול.       */
+/* ═══ כל פרקי הספר — «ארכיון שחור» ═══ CSS בלבד; הסימון לא נגעו בו ═══
+   פרק = קריאה ארוכה על קיר כהה (או קטלוג מודפס במצב הבהיר).
+   כותרות משנה ממוספרות 01 02 03 במונו אדום; הראיות במונו.            */
 
 main{counter-reset:chsec}
 
 .chapter-meta{display:flex;gap:1.4rem;flex-wrap:wrap;font:var(--t-label)/1.6 var(--mono);
-  color:var(--ink-3);margin:.5rem 0 2.2rem;padding-bottom:1.1rem;
-  border-bottom:3px double var(--rule-heavy);font-variant-numeric:tabular-nums}
+  color:var(--ink-3);margin:.5rem 0 2.4rem;padding-bottom:1.2rem;
+  border-bottom:1px solid var(--rule-heavy);font-variant-numeric:tabular-nums;
+  letter-spacing:.04em}
 .chapter-meta span{overflow-wrap:anywhere}
 
-/* מספור סעיפים — §1 §2 … בשולי הכותרת, בצבע קו השוליים */
+/* מספור סעיפים — 01 02 03, ניטרלי לשפה */
 main>h2{counter-increment:chsec}
-main>h2::before{content:"§" counter(chsec);font:400 .62em/1 var(--mono);
-  color:var(--accent);margin-inline-end:.65em;letter-spacing:.04em;
-  font-variant-numeric:tabular-nums;vertical-align:.12em}
+main>h2::before{content:counter(chsec,decimal-leading-zero);
+  font:700 .58em/1 var(--mono);color:var(--accent);margin-inline-end:.8em;
+  letter-spacing:.2em;font-variant-numeric:tabular-nums;vertical-align:.16em}
 
-/* תיבת הדורות — פוליו */
-.genbox{background:var(--plinth);border:1px solid var(--rule);
-  border-inline-start:3px solid var(--rule-mid);
-  padding:1.4rem 1.6rem;margin:2rem 0;font-size:var(--t-small);line-height:2;
-  box-shadow:var(--shadow-plinth)}
+/* תיבת הדורות */
+.genbox{background:var(--plinth);border:1px solid var(--rule-mid);
+  border-inline-start:6px solid var(--rule-mid);
+  padding:1.4rem 1.6rem;margin:2rem 0;font-size:var(--t-small);line-height:2}
 .genbox .row{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
 .genbox .row + .row{margin-inline-start:1.4rem;border-inline-start:1px solid var(--rule);
   padding-inline-start:1rem}
 .genbox a{font-weight:700;text-decoration:none}
-.genbox .lbl{color:var(--ink-3);font-family:var(--sans);font-size:var(--t-label);letter-spacing:.04em}
+.genbox .lbl{color:var(--ink-3);font:var(--t-label)/1.6 var(--mono);letter-spacing:.06em}
 .genbox .grade{font-size:.8em}
 
-/* ציטוט מובלט — קול הזיכרונות, סריף גדול */
-.pull{font-family:var(--serif);font-size:1.42rem;font-weight:500;color:var(--ink-2);
-  line-height:1.75;border-inline-start:3px solid var(--rule-mid);
-  padding-inline-start:1.2rem;margin:2.4rem 0;max-width:58ch}
+/* ציטוט מובלט */
+.pull{font-size:1.45rem;font-weight:700;color:var(--ink);letter-spacing:-.015em;
+  line-height:1.65;border-inline-start:4px solid var(--accent-fill);
+  padding-inline-start:1.3rem;margin:2.6rem 0;max-width:56ch}
 body.b-moskal .pull,.pull.moskal{border-inline-start-color:var(--moskal)}
 body.b-albert .pull,.pull.albert{border-inline-start-color:var(--albert)}
 
@@ -44,14 +44,14 @@ body.b-albert .pull,.pull.albert{border-inline-start-color:var(--albert)}
 .orig{display:block;font-size:.92em;color:var(--ink-3);margin-top:.5em;
   direction:ltr;text-align:start;font-style:italic}
 
-/* הערות שוליים — אפרטוס בתחתית הדף */
+/* הערות שוליים */
 .footnotes{font-size:var(--t-small);color:var(--ink-2);margin-top:3.5rem;padding-top:1.4rem;
-  border-top:3px double var(--rule-heavy)}
+  border-top:1px solid var(--rule-heavy)}
 .footnotes ol{padding-inline-start:1.4rem}
 .footnotes li{margin-bottom:.6rem;line-height:1.8}
 sup a{font-family:var(--mono);font-size:.72em;text-decoration:none;padding:0 .12em}
 
 /* ניווט בין פרקים */
 .chnav{display:flex;justify-content:space-between;gap:1rem;margin-top:3.5rem;padding-top:1.5rem;
-  border-top:1px solid var(--rule);font-family:var(--sans);font-size:var(--t-small);font-weight:500}
+  border-top:1px solid var(--rule);font-size:var(--t-small);font-weight:700}
 .chnav a{text-decoration:none}

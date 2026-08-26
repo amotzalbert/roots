@@ -1,153 +1,186 @@
-/* ═══ index.html — «חדר הקריאה» ═════════════════════════════════════
-   שער הספר: כותרת סריף ענקית כעמוד שער, מפקד כשורת פנקס, שני ענפים
-   כפוליו עם קו שוליים, כלי המחקר ככרטיסי קטלוג, ו«מה חדש» כיומן קליטה.
-   אין שינוי מבנה: הסימון נשאר בדיוק כפי שהיה — .hero .stats .branches
-   .bcard .tools .tcard .whatsnew — ואף מילה מתורגמת לא נוגעים בה.     */
+/* ═══ index.html — «ארכיון שחור» ════════════════════════════════════
+   שער דוקומנטרי: קיר סריקה פול-בליד שהכותרת יושבת עליו, רצועת מפקד
+   אדומה, שני חצאי ענף צילומיים, כלי המחקר כמגירות קטלוג, ו«מה חדש»
+   כיומן. הכול CSS על הסימון הקיים — .hero .stats .branches .bcard
+   .tools .tcard .whatsnew — אף מילה מתורגמת לא נגעו בה.              */
 
-/* ── עמוד השער ─────────────────────────────────────────────────── */
+/* ── שער: קיר הסריקה ───────────────────────────────────────────── */
 .hero{
-  display:grid;
-  grid-template-columns:auto 1fr;
-  column-gap:3rem;
-  align-items:end;
-  padding:3rem 0 2.2rem;
   position:relative;
+  min-height:74vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  margin:-2.8rem calc(50% - 50vw) 0;
+  padding:6rem max(1.7rem,calc(50vw - 41rem + 1.7rem)) 3.2rem;
 }
-.hero .kicker{grid-column:1/-1;margin-bottom:.8rem}
+.hero::before{content:"";position:absolute;inset:0;z-index:0;
+  background:url('../../assets/scans/moskal/m-1839-M01.jpg') center 30%/cover;
+  filter:grayscale(1) contrast(1.05) brightness(1.1) opacity(.42)}
+.hero::after{content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(8deg,var(--wall) 18%,color-mix(in srgb,var(--wall) 55%,transparent) 55%,transparent 95%),
+             linear-gradient(180deg,color-mix(in srgb,var(--wall) 85%,transparent),transparent 35%)}
+:root[data-theme=dark] .hero::before{filter:grayscale(1) contrast(1.1) brightness(.38);opacity:1}
+:root[data-theme=dark] .hero::after{
+  background:linear-gradient(10deg,var(--wall) 20%,#0d0c0b88 58%,transparent 92%),
+             linear-gradient(180deg,#0d0c0bd8,transparent 40%)}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]) .hero::before{filter:grayscale(1) contrast(1.1) brightness(.38);opacity:1}
+  :root:not([data-theme=light]) .hero::after{
+    background:linear-gradient(10deg,var(--wall) 20%,#0d0c0b88 58%,transparent 92%),
+               linear-gradient(180deg,#0d0c0bd8,transparent 40%)}
+}
+.hero>*{position:relative;z-index:1}
+.hero .kicker{margin-bottom:.4rem}
 .hero h1{
-  margin:0;
+  margin:0 0 1.2rem;
   font-size:var(--t-display);
-  line-height:.9;
+  line-height:.95;
   font-weight:900;
-  letter-spacing:-.02em;
+  letter-spacing:-.03em;
 }
 .hero p:not(.kicker){
   margin:0;
-  padding-bottom:.6rem;
-  padding-inline-start:1.9rem;
-  border-inline-start:1px solid var(--rule-mid);
-  max-width:30rem;
-  font-size:var(--t-body);
-  line-height:1.9;
+  max-width:34rem;
+  font-size:1.12rem;
+  line-height:1.85;
   color:var(--ink-2);
-}
-@media (max-width:760px){
-  .hero{grid-template-columns:1fr;row-gap:1.3rem;padding-top:2.2rem}
-  .hero p:not(.kicker){padding-inline-start:0;border-inline-start:0;
-    padding-top:1.1rem;border-top:1px solid var(--rule);max-width:none}
+  border-inline-start:3px solid var(--accent-fill);
+  padding-inline-start:1.2rem;
 }
 
-/* ── מפקד — שורת פנקס מעל קו כפול ─────────────────────────────── */
+/* ── מפקד: הרצועה האדומה ───────────────────────────────────────── */
 .stats{
   display:flex;
-  gap:2.8rem;
+  gap:3.4rem;
   flex-wrap:wrap;
-  margin:.4rem 0 2.6rem;
-  padding-top:1.25rem;
-  border-top:3px double var(--rule-heavy);
+  margin:0 calc(50% - 50vw) 0;
+  padding:1.6rem max(1.7rem,calc(50vw - 41rem + 1.7rem));
+  background:var(--accent-fill);
+  color:var(--on-accent);
 }
 .stat b{
   display:block;
-  font-family:var(--serif);
-  font-size:2.3rem;
+  font-size:2.8rem;
   font-weight:900;
-  letter-spacing:-.02em;
+  letter-spacing:-.03em;
   line-height:1;
   font-variant-numeric:tabular-nums;
-  color:var(--ink);
+  color:var(--on-accent);
 }
 .stat span{
   display:block;
   margin-top:.35rem;
-  font-family:var(--sans);
-  font-size:var(--t-label);
-  letter-spacing:.07em;
-  color:var(--ink-3);
-  font-weight:500;
+  font:700 var(--t-label)/1.5 var(--mono);
+  letter-spacing:.18em;
+  color:var(--on-accent);
+  opacity:.88;
 }
 
-/* ── שני הענפים — פוליו עם קו השוליים ─────────────────────────── */
-.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:0 0 3.2rem}
-@media (max-width:760px){.branches{grid-template-columns:1fr}}
+/* ── הענפים: שני חצאים צילומיים ────────────────────────────────── */
+.branches{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:0;
+  margin:0 calc(50% - 50vw) 4rem;
+  border-bottom:1px solid var(--rule-mid);
+}
+@media (max-width:800px){.branches{grid-template-columns:1fr}}
 
 .bcard{
-  display:block;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  min-height:28rem;
+  padding:4.5rem max(3rem,calc(50vw - 41rem + 1.7rem)) 3rem 3rem;
   text-decoration:none;
-  color:inherit;
-  background:var(--plinth);
-  padding:1.9rem 1.8rem 1.6rem;
-  border:1px solid var(--rule);
-  border-inline-start:4px solid var(--rule-mid);
-  box-shadow:var(--shadow-plinth);
-  transition:transform .18s ease;
+  color:#f2efe9;
+  background:#0d0c0b;
+  border:0;
+  border-inline-start:1px solid #262421;
+  overflow:hidden;
+  transition:none;
 }
-.bcard.moskal{border-inline-start-color:var(--moskal)}
-.bcard.albert{border-inline-start-color:var(--albert)}
+.bcard:nth-child(2){padding:4.5rem 3rem 3rem max(3rem,calc(50vw - 41rem + 1.7rem))}
+.bcard::after{content:"";position:absolute;inset:0;z-index:0;
+  background-size:cover;background-position:center;
+  filter:grayscale(1) brightness(.34) contrast(1.2);
+  transition:transform .6s cubic-bezier(.22,.61,.36,1)}
+.bcard.moskal::after{background-image:url('../../assets/scans/moskal/1873-M01.jpg')}
+.bcard.albert::after{background-image:url('../../assets/scans/albert/1829-M01.jpg')}
+@media (hover:hover) and (pointer:fine){
+  .bcard:hover{transform:none}
+  .bcard:hover::after{transform:scale(1.04)}
+}
+.bcard>*{position:relative;z-index:1}
 .bcard .tag{
   margin:0;
-  font-family:var(--sans);
-  font-size:var(--t-label);
-  letter-spacing:.15em;
-  font-weight:700;
+  font:700 var(--t-label)/1.4 var(--mono);
+  letter-spacing:.4em;
   text-transform:uppercase;
 }
-.bcard.moskal .tag{color:var(--moskal-ink)}
-.bcard.albert .tag{color:var(--albert-ink)}
+.bcard.moskal .tag{color:#ff9d3f}
+.bcard.albert .tag{color:#8f9bff}
 .bcard h2{
-  margin:.55rem 0 .55rem;
+  margin:.7rem 0 .9rem;
   border:0;
   padding:0;
-  font-size:1.85rem;
+  font-size:clamp(2.2rem,4.5vw,3.6rem);
   font-weight:900;
-  letter-spacing:-.015em;
+  letter-spacing:-.025em;
+  line-height:1.06;
+  color:#f2efe9;
 }
-.bcard h2::after{display:none}
-.bcard p{margin:0 0 .9rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.85;max-width:none}
+.bcard p{margin:0 0 .2rem;color:#b8b3a8;font-size:.98rem;line-height:1.8;max-width:30rem}
 .bcard .places{
-  margin:0;
-  padding-top:.85rem;
-  border-top:1px dotted var(--rule-mid);
-  font-family:var(--sans);
-  font-size:var(--t-label);
-  color:var(--ink-3);
-  line-height:1.9;
+  margin:1.3rem 0 0;
+  padding-top:1rem;
+  border-top:1px solid #ffffff2e;
+  font:var(--t-label)/1.9 var(--mono);
+  color:#948f83;
 }
 
-/* ── כלי המחקר — כרטיסי קטלוג ─────────────────────────────────── */
+/* ── כלי המחקר: מגירות קטלוג ───────────────────────────────────── */
 .tools{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));
-  gap:1.1rem;
-  margin:1.7rem 0 3.2rem;
+  display:block;
+  margin:1.6rem 0 3.5rem;
+  border-top:1px solid var(--rule-heavy);
 }
 .tcard{
-  display:block;
-  padding:1.25rem 1.35rem;
-  background:var(--plinth);
-  border:1px solid var(--rule);
-  box-shadow:var(--shadow-plinth);
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:center;
+  row-gap:.15rem;
+  padding:1.35rem .4rem;
+  background:none;
+  border:0;
+  border-bottom:1px solid var(--rule);
   text-decoration:none;
   color:inherit;
-  transition:transform .18s ease,border-color .18s ease;
+  transition:background .16s,transform .16s;
 }
-@media (hover:hover) and (pointer:fine){
-  .tcard:hover{border-color:var(--rule-mid)}
+.tools .tcard:hover{background:var(--plinth);transform:translateX(calc(var(--fwd)*1.1rem))}
+.tcard .ic{display:none}
+.tcard h3{margin:0;grid-column:1;font-size:1.35rem;font-weight:900;letter-spacing:-.02em}
+.tcard p{margin:0;grid-column:1;font-size:var(--t-small);color:var(--ink-3);line-height:1.6;max-width:none}
+.tcard::after{
+  content:"←";grid-column:2;grid-row:1/3;align-self:center;
+  font-size:1.5rem;color:var(--accent);opacity:0;transition:opacity .18s;
+  padding-inline-start:1.2rem;
 }
-.tcard .ic{font-size:1.3rem;margin-bottom:.55rem;display:block;filter:grayscale(.5);opacity:.9}
-.tcard h3{margin:.1rem 0 .3rem;font-size:1.08rem;font-weight:700;letter-spacing:-.01em}
-.tcard p{margin:0;font-family:var(--sans);font-size:var(--t-label);color:var(--ink-3);
-  line-height:1.65;max-width:none}
+.tcard:lang(en)::after,.tcard:lang(pl)::after{content:"→"}
+@media (hover:hover) and (pointer:fine){.tcard:hover::after{opacity:1}}
 
-/* ── מה חדש — יומן הקליטה ─────────────────────────────────────── */
+/* ── מה חדש: יומן המחקר ────────────────────────────────────────── */
 .whatsnew{margin-top:1rem}
 .whatsnew h2{margin-top:0}
-.whatsnew ul{list-style:none;margin:1.4rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.whatsnew ul{list-style:none;margin:1.4rem 0 0;padding:0}
 .whatsnew li{
   display:flex;
   justify-content:space-between;
   align-items:baseline;
-  gap:1.6rem;
-  padding:1rem .3rem;
+  gap:1.8rem;
+  padding:1.05rem .3rem;
   border-bottom:1px solid var(--rule);
   font-size:var(--t-small);
   line-height:1.75;
@@ -155,20 +188,28 @@
 }
 .whatsnew time{
   flex-shrink:0;
-  font:var(--t-label)/1 var(--mono);
-  color:var(--ink-3);
+  font:700 var(--t-label)/1 var(--mono);
+  color:var(--accent);
   font-variant-numeric:tabular-nums;
+  letter-spacing:.08em;
   white-space:nowrap;
 }
 @media (max-width:560px){
   .whatsnew li{flex-direction:column;gap:.4rem}
 }
 
-/* ── תנועה: רגע שער אחד, ~550ms, ואז שקט ─────────────────────── */
+/* ── תנועה: רגע שער אחד, ואז שקט ───────────────────────────────── */
 @media (prefers-reduced-motion:no-preference){
-  .hero,.stats,.branches>*{animation:folio-rise .55s cubic-bezier(.22,.61,.36,1) both}
-  .hero{animation-delay:.02s}
-  .stats{animation-delay:.14s}
-  .branches>*:nth-child(1){animation-delay:.24s}
-  .branches>*:nth-child(2){animation-delay:.32s}
+  .hero>*,.stats,.branches>*{animation:noir-rise .5s cubic-bezier(.22,.61,.36,1) both}
+  .hero>*:nth-child(2){animation-delay:.06s}
+  .hero>*:nth-child(3){animation-delay:.12s}
+  .stats{animation-delay:.2s}
+  .branches>*:nth-child(1){animation-delay:.28s}
+  .branches>*:nth-child(2){animation-delay:.36s}
+}
+@media (max-width:640px){
+  .hero{min-height:64vh;padding-bottom:2.4rem}
+  .stats{gap:1.8rem}
+  .bcard{min-height:22rem;padding:3.5rem 1.4rem 2.2rem}
+  .bcard:nth-child(2){padding:3.5rem 1.4rem 2.2rem}
 }

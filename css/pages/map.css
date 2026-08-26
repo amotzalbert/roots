@@ -1,21 +1,21 @@
-/* ═══ map.html ═══ חולץ מהבלוק הפנימי, משותף ל-he/en/pl ═══ */
-#map{width:100%;height:min(74vh,680px);border:1px solid var(--rule);border-radius:.25rem;
-  background:var(--paper-2)}
-.legend2{display:flex;gap:1.3rem;flex-wrap:wrap;margin:.8rem 0 1.1rem;font-family:var(--sans);
-  font-size:.86rem;color:var(--ink-2)}
+/* ═══ map.html — «ארכיון שחור» ═══ חולץ מהבלוק הפנימי, משותף ל-he/en/pl ═══ */
+#map{width:100%;height:min(74vh,680px);border:1px solid var(--rule-mid);border-radius:0;
+  background:var(--plinth)}
+.legend2{display:flex;gap:1.3rem;flex-wrap:wrap;margin:.8rem 0 1.1rem;
+  font:.78rem/1.7 var(--mono);color:var(--ink-2);letter-spacing:.04em}
 .dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-inline-end:.35rem}
 .dot.moskal{background:var(--moskal)} .dot.albert{background:var(--albert)}
-.leaflet-popup-content-wrapper{direction:rtl;font-family:var(--sans);border-radius:.25rem}
-.pop h4{margin:.1em 0;font-size:1.02rem;font-family:var(--sans)}
-.pop .lat{margin:.15em 0;font-size:.82rem;color:#777;direction:ltr;text-align:right}
+.leaflet-popup-content-wrapper{direction:rtl;font-family:var(--sans);border-radius:0}
+.pop h4{margin:.1em 0;font-size:1.02rem;font-family:var(--sans);font-weight:900}
+.pop .lat{margin:.15em 0;color:#777;direction:ltr;text-align:right;
+  font-family:var(--mono);font-size:var(--t-label)}
 .pop p{margin:.3em 0;font-size:.86rem;line-height:1.5}
 .pop a{font-size:.85rem}
-/* Leaflet tiles darken slightly under our dark theme so the page doesn't glare */
-:root[data-theme=dark] #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
+/* «קטלוג מודפס»: מפה מעודנת אפורה */
+#map .leaflet-tile-pane{filter:grayscale(.35) contrast(1.02)}
+/* ובמצב הכהה האריחים מתעמעמים — הקיר נשאר שחור */
+:root[data-theme=dark] #map .leaflet-tile-pane{filter:grayscale(.55) brightness(.62) contrast(1.1)}
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme=light]) #map .leaflet-tile-pane{filter:brightness(.75) saturate(.85) contrast(1.05)}
+  :root:not([data-theme=light]) #map .leaflet-tile-pane{filter:grayscale(.55) brightness(.62) contrast(1.1)}
 }
-.attrib{font-size:.78rem;color:var(--ink-3);margin-top:.5rem;font-family:var(--sans)}
-
-/* ── «ויטרינה»: אסימונים בלבד. המבנה וה-JS לא נגעו בהם. ── */
-.pop .lat{font-family:var(--mono);font-size:var(--t-label)}
+.attrib{font:.72rem/1.7 var(--mono);color:var(--ink-3);margin-top:.5rem}

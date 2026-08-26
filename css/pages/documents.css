@@ -1,47 +1,44 @@
-/* ═══ documents.html — «חדר הקריאה» ═══ CSS בלבד; הסימון לא נגעו בו ═══
-   גלריית המסמכים: כל סריקה — לוח במסגרת עם פספרטו נייר, תווית קטלוג
-   במונו מתחתיו. תיבת האור נשארת חדר חשוך שהפריט מואר בו.              */
+/* ═══ documents.html — «ארכיון שחור» ═══ CSS בלבד; הסימון לא נגעו בו ═══
+   הגלריה: הסריקות בהירות על הקיר הכהה — הן מקור האור בעמוד.
+   כרטיס = לוח עם מסגרת קשה ותווית מונו. תיבת האור נשארת.             */
 
 .filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.4rem}
-.filters button{border:1px solid var(--rule-mid);background:var(--plinth);border-radius:.25rem;
-  padding:.42rem 1rem;font:500 var(--t-small)/1.4 var(--sans);cursor:pointer;color:var(--ink-2);
-  transition:.14s}
+.filters button{border:1px solid var(--rule-mid);background:none;border-radius:0;
+  padding:.45rem 1.05rem;font:700 var(--t-label)/1.5 var(--mono);letter-spacing:.1em;
+  cursor:pointer;color:var(--ink-2);transition:.14s}
 .filters button:hover{border-color:var(--ink-3);color:var(--ink)}
-.filters button.on{background:var(--ink);color:var(--wall);border-color:var(--ink);font-weight:700}
+.filters button.on{background:var(--accent-fill);color:var(--on-accent);border-color:var(--accent-fill)}
 
 .dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1.4rem;margin-top:1.8rem}
 .dcard{background:var(--plinth);border:1px solid var(--rule-mid);
-  cursor:zoom-in;box-shadow:var(--shadow-plinth);padding:.55rem .55rem 0;
-  transition:transform .18s ease}
-.dcard.moskal{border-block-start:3px solid var(--moskal)}
-.dcard.albert{border-block-start:3px solid var(--albert)}
-.dcard .th{aspect-ratio:4/3;background:var(--plinth-2);overflow:hidden;
-  border:1px solid var(--rule)}
+  cursor:zoom-in;padding:.6rem .6rem 0;transition:transform .18s ease}
+.dcard.moskal{border-block-start:4px solid var(--moskal)}
+.dcard.albert{border-block-start:4px solid var(--albert)}
+.dcard .th{aspect-ratio:4/3;background:var(--plinth-2);overflow:hidden;border:1px solid var(--rule)}
 .dcard .th img{width:100%;height:100%;object-fit:cover;display:block}
 @media (hover:hover) and (pointer:fine){
   .dcard .th img{transition:transform .35s ease}
-  .dcard:hover .th img{transform:scale(1.02)}
+  .dcard:hover .th img{transform:scale(1.03)}
 }
-.dcard .body{padding:.85rem .55rem 1rem}
-.dcard h3{margin:0 0 .35rem;font-family:var(--serif);font-size:1rem;font-weight:700;
-  line-height:1.5;letter-spacing:-.01em}
-.dcard p{margin:0;padding-top:.5rem;border-top:1px dotted var(--rule-mid);
+.dcard .body{padding:.85rem .5rem 1rem}
+.dcard h3{margin:0 0 .4rem;font-size:1rem;font-weight:700;line-height:1.5;letter-spacing:-.01em}
+.dcard p{margin:0;padding-top:.5rem;border-top:1px solid var(--rule);
   font:var(--t-label)/1.5 var(--mono);color:var(--ink-3);direction:ltr;text-align:start}
 :lang(he) .dcard p{text-align:right}
 
-/* תיבת האור — החדר חשוך, הפריט מואר */
-.lightbox{position:fixed;inset:0;background:#141109f2;display:none;z-index:60;
+/* תיבת האור */
+.lightbox{position:fixed;inset:0;background:#050505f5;display:none;z-index:60;
   flex-direction:column;align-items:center;justify-content:center;padding:2rem;cursor:zoom-out}
 .lightbox.open{display:flex}
 .lightbox img{max-width:96vw;max-height:82vh;object-fit:contain;
-  box-shadow:0 8px 60px #000c;cursor:default}
-.lightbox .cap{color:#ece4d0;font:var(--t-small)/1.6 var(--serif);margin-top:1.1rem;
+  box-shadow:0 8px 60px #000;cursor:default}
+.lightbox .cap{color:#f2efe9;font:var(--t-small)/1.6 var(--sans);margin-top:1.1rem;
   text-align:center;max-width:60rem}
-.lightbox .cap small{color:#a89d82;display:block;margin-top:.35rem;font-family:var(--mono);
+.lightbox .cap small{color:#948f83;display:block;margin-top:.35rem;font-family:var(--mono);
   font-size:var(--t-label)}
-.lightbox .nav{position:absolute;top:50%;transform:translateY(-50%);font-size:2rem;color:#ece4d0;
+.lightbox .nav{position:absolute;top:50%;transform:translateY(-50%);font-size:2rem;color:#f2efe9;
   background:none;border:none;cursor:pointer;padding:1rem;opacity:.65;transition:opacity .16s}
 .lightbox .nav:hover{opacity:1}
 .lightbox .prev{right:0}.lightbox .next{left:0}
-.lightbox .close{position:absolute;top:.9rem;left:1.3rem;font-size:1.5rem;color:#ece4d0;
+.lightbox .close{position:absolute;top:.9rem;left:1.3rem;font-size:1.5rem;color:#f2efe9;
   background:none;border:none;cursor:pointer}

@@ -1,86 +1,73 @@
-/* ═══ «שורשים» — «חדר הקריאה» ═════════════════════════════════════════
-   build: reading-room · macro=two-zone archive shell · nav=catalog-rail ·
-   hero=folio-title-page · rotated-from=vitrine(flat museum wall, sans-only) ·
-   type=Frank Ruhl Libre(serif, reading)+Heebo/Archivo(utility)+Roboto Mono(catalog) ·
-   contrast: all body pairings ≥4.5:1, labels ≥4.5:1, checked both themes.
+/* ═══ «שורשים» — «ארכיון שחור» ═══════════════════════════════════════
+   build: archive-noir · macro=full-bleed documentary · nav=mono-catalog ·
+   hero=scan-wall · rotated-from=reading-room(two-zone paper/serif) ·
+   type=Heebo Black(display+body)+Roboto Mono(catalog) ·
+   contrast: body/labels ≥4.5:1 both themes (checked 26 Aug 2026).
 
-   חדר קריאה של ארכיון. מעטפת קטלוג כהה — פס עליון וכותרת תחתונה — ובתוכה
-   דף נייר חם שעליו יושב הטקסט, בסריף של ספר. פרנק-רוהל לקריאה, הייבו
-   לתוויות שירות, מונו לציטוטי אקטים. קו השוליים האדום של פנקסי הרישום
-   הוא המוטיב: פס צבע-ענף אנכי בצד כל פוליו.
+   דוקומנטרי-ברוטליסטי. כהה כברירת המחדל האסתטית: קיר שחור עמוק,
+   הסריקות עצמן פול-בליד, טיפוגרפיה ענקית, ואדום-דם אחד — צבע חותמת
+   הארכיון. קווים גלויים, תוויות מונו, בלי ריכוך.
 
-   בהיר = חדר הקריאה ביום (נייר חם, דיו חומה-שחורה).
-   כהה  = הארכיון לאור מנורה (קירות דיו, נייר כהה חם).
-   המעטפת (topbar+footer) כהה בשני המצבים — שני האזורים של book-serif.
+   מצב בהיר = «קטלוג מודפס»: אותה מערכת בדיוק על נייר לבן — קווים
+   שחורים קשים, אותו אדום, אותו גריד. לא היפוך רך; גרסת דפוס.
 
-   הקובץ מחזיק: אסימונים · איפוס · מעטפת · הרכיבות המשותפות.
-   כללים ספציפיים-לעמוד — ב-css/pages/.                                  */
+   בחירת המצב נשארת כשהייתה: מערכת/בהיר/כהה (ui.js + data-theme).
+
+   הקובץ מחזיק: אסימונים · איפוס · כרום · הרכיבות המשותפות.
+   כללים ספציפיים-לעמוד — ב-css/pages/.                                */
 
 @import url('fonts.css');
 
 /* ── 1 · אסימונים ─────────────────────────────────────────────────── */
 :root{
-  /* חדר הקריאה ביום — נייר חם, לא צהוב */
-  --wall:#efe9dc;            /* הדף הפתוח */
-  --plinth:#f8f4ea;          /* פוליו מורם */
-  --plinth-2:#e7e0cf;        /* גיליון שקוע */
-  --ink:#26211a;             /* דיו ברזל-עפצים */
-  --ink-2:#4f4939;
-  --ink-3:#675f4d;
-  --rule:#d3cab5;
-  --rule-mid:#a99d81;
-  --rule-heavy:#26211a;
-  --accent:#7c2d21;          /* אדום שוליים של פנקס רישום */
-  --accent-soft:#7c2d2114;
-  --on-accent:#f8f4ea;
+  /* «קטלוג מודפס» — ברירת מחדל בהירה */
+  --wall:#f6f4f0;             /* נייר הדפסה */
+  --plinth:#ffffff;           /* כרטיס */
+  --plinth-2:#eceae4;         /* משטח שקוע */
+  --ink:#141311;
+  --ink-2:#4c4842;
+  --ink-3:#6e6960;
+  --rule:#ddd9d0;
+  --rule-mid:#b5b0a5;
+  --rule-heavy:#141311;
+  --accent:#c22415;           /* אדום חותמת — טקסט/קווים */
+  --accent-fill:#d92c1f;      /* אדום מילוי — פסים ורקעים */
+  --accent-soft:#e63b2e14;
+  --on-accent:#ffffff;
 
-  /* המעטפת — קטלוג כהה בשני המצבים */
-  --shell:#211c14;
-  --shell-2:#2a241a;
-  --shell-ink:#ece4d0;
-  --shell-ink-2:#b0a58a;
-  --shell-rule:#3c3526;
-  --shell-accent:#d68a64;
-  --moskal-sh:#dc9448;       /* צבעי ענף על גבי המעטפת הכהה */
-  --albert-sh:#a8a0d4;
+  /* צבעי ענף — נושאים מידע ב-tree.js, במפה ובמסמכים */
+  --moskal:#a24d0d;
+  --albert:#4f57b8;
+  --moskal-ink:#a24d0d;
+  --albert-ink:#4f57b8;
+  --ok:#2c7a4b;               /* «מתועד ●» */
+  --gold:#77601a;             /* «משוער ◐» */
 
-  /* צבעי ענף — נושאים מידע אמיתי ב-tree.js, במפה ובמסמכים. */
-  --moskal:#a3541a;
-  --albert:#57517a;
-  --ok:#44614b;              /* «מתועד ●» */
-  --moskal-ink:#7d420e;      /* גרסת טקסט קטן, AA על נייר */
-  --albert-ink:#454064;
-  --gold:#7c6526;            /* «משוער ◐» */
+  --shadow-plinth:0 1px 2px #14131114, 0 10px 24px -14px #14131126;
+  --shadow-lift:0 2px 4px #14131118, 0 16px 36px -16px #14131136;
 
-  --shadow-plinth:0 1px 2px #26211a14, 0 10px 26px -12px #26211a2e;
-  --shadow-lift:0 2px 4px #26211a18, 0 18px 38px -14px #26211a3d;
-
-  /* גופנים — הסריף חוזר, והפעם הוא נשלח עם האתר */
-  --font-he:'Frank Ruhl Libre','David Libre',Georgia,serif;
-  --font-latin:'Frank Ruhl Libre',Georgia,'Times New Roman',serif;
-  --ui-he:'Heebo',system-ui,-apple-system,sans-serif;
-  --ui-latin:'Archivo','Heebo',system-ui,-apple-system,sans-serif;
+  /* גופנים — הייבו עושה הכול; מונו לקטלוג. הסריף נשאר זמין ללא שימוש. */
+  --font-he:'Heebo',system-ui,-apple-system,sans-serif;
+  --font-latin:'Archivo','Heebo',system-ui,-apple-system,sans-serif;
   --mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
-  --sans:var(--ui-he);            /* «sans» = גופן השירות */
-  --serif:var(--font-he);         /* «serif» = גופן הקריאה */
+  --sans:var(--font-he);
+  --serif:var(--font-he);
 
-  /* סולם — קריאה בסריף רוצה שורה מעט גבוהה יותר */
+  /* סולם */
   --t-label:.78rem;
   --t-small:.92rem;
-  --t-body:1.08rem;
-  --t-lede:1.22rem;
+  --t-body:1.05rem;
+  --t-lede:1.18rem;
   --t-h3:1.32rem;
-  --t-h2:clamp(1.5rem,2.4vw,1.9rem);
-  --t-h1:clamp(2.2rem,4.2vw,3.2rem);
-  --t-display:clamp(3.2rem,8.5vw,6rem);
+  --t-h2:clamp(1.6rem,2.6vw,2.1rem);
+  --t-h1:clamp(2.4rem,5vw,3.8rem);
+  --t-display:clamp(3.6rem,11vw,8.5rem);
 
-  --maxw:74rem;
+  --maxw:82rem;
   --fs:var(--t-body);
+  --fwd:-1;                   /* כיוון ההזחה בריחוף: RTL שמאלה */
 
-  /* מרקם נייר — רעש עדין, אריח קטן */
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='.045'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
-
-  /* שמות ישנים — css/pages מפנה אליהם. ממופים אל החדשים. */
+  /* שמות ישנים — css/pages מפנה אליהם */
   --paper:var(--wall);
   --paper-2:var(--plinth);
   --paper-3:var(--plinth-2);
@@ -89,37 +76,38 @@
 }
 
 :root:lang(en),:root:lang(pl){
+  --fwd:1;
   --font-he:var(--font-latin);
-  --sans:var(--ui-latin);
+  --sans:var(--font-latin);
   --serif:var(--font-latin);
 }
 
-/* הארכיון לאור מנורה — מערכת עצמאית, לא היפוך */
+/* «ארכיון שחור» — המצב הכהה, הזהות הראשית */
 @media (prefers-color-scheme:dark){
   :root:not([data-theme=light]){
-    --wall:#191611; --plinth:#221e17; --plinth-2:#1d1a14;
-    --ink:#eae2cd; --ink-2:#b6ab90; --ink-3:#9a8f75;
-    --rule:#373123; --rule-mid:#4e4735; --rule-heavy:#eae2cd;
-    --accent:#d98f68; --accent-soft:#d98f681f; --on-accent:#191611;
-    --shell:#100e0a; --shell-2:#181510; --shell-ink:#eae2cd;
-    --shell-ink-2:#a89d82; --shell-rule:#2c2619;
-    --moskal:#dc9448; --albert:#a8a0d4; --ok:#84ad8e; --gold:#c2a35a;
-    --moskal-ink:#e5a866; --albert-ink:#bcb5e2;
-    --shadow-plinth:0 1px 2px #0007, 0 12px 28px -12px #0009;
-    --shadow-lift:0 2px 5px #0008, 0 20px 40px -14px #000b;
+    --wall:#0d0c0b; --plinth:#141311; --plinth-2:#1a1917;
+    --ink:#f2efe9; --ink-2:#b8b3a8; --ink-3:#948f83;
+    --rule:#262421; --rule-mid:#3d3a35; --rule-heavy:#f2efe9;
+    --accent:#ff5a4d; --accent-fill:#d92c1f; --accent-soft:#e63b2e1f;
+    --on-accent:#ffffff;
+    --moskal:#ff9d3f; --albert:#8f9bff;
+    --moskal-ink:#ff9d3f; --albert-ink:#9ba5ff;
+    --ok:#69d29a; --gold:#d9b25f;
+    --shadow-plinth:0 1px 2px #0008, 0 12px 28px -14px #000a;
+    --shadow-lift:0 2px 5px #0009, 0 18px 40px -16px #000c;
   }
 }
 :root[data-theme=dark]{
-  --wall:#191611; --plinth:#221e17; --plinth-2:#1d1a14;
-  --ink:#eae2cd; --ink-2:#b6ab90; --ink-3:#9a8f75;
-  --rule:#373123; --rule-mid:#4e4735; --rule-heavy:#eae2cd;
-  --accent:#d98f68; --accent-soft:#d98f681f; --on-accent:#191611;
-  --shell:#100e0a; --shell-2:#181510; --shell-ink:#eae2cd;
-  --shell-ink-2:#a89d82; --shell-rule:#2c2619;
-  --moskal:#dc9448; --albert:#a8a0d4; --ok:#84ad8e; --gold:#c2a35a;
-  --moskal-ink:#e5a866; --albert-ink:#bcb5e2;
-  --shadow-plinth:0 1px 2px #0007, 0 12px 28px -12px #0009;
-  --shadow-lift:0 2px 5px #0008, 0 20px 40px -14px #000b;
+  --wall:#0d0c0b; --plinth:#141311; --plinth-2:#1a1917;
+  --ink:#f2efe9; --ink-2:#b8b3a8; --ink-3:#948f83;
+  --rule:#262421; --rule-mid:#3d3a35; --rule-heavy:#f2efe9;
+  --accent:#ff5a4d; --accent-fill:#d92c1f; --accent-soft:#e63b2e1f;
+  --on-accent:#ffffff;
+  --moskal:#ff9d3f; --albert:#8f9bff;
+  --moskal-ink:#ff9d3f; --albert-ink:#9ba5ff;
+  --ok:#69d29a; --gold:#d9b25f;
+  --shadow-plinth:0 1px 2px #0008, 0 12px 28px -14px #000a;
+  --shadow-lift:0 2px 5px #0009, 0 18px 40px -16px #000c;
 }
 
 /* ── 2 · איפוס ובסיס ──────────────────────────────────────────────── */
@@ -129,153 +117,139 @@ body{
   margin:0;
   background:var(--wall);
   color:var(--ink);
-  font:var(--fs)/1.85 var(--serif);
+  font:var(--fs)/1.85 var(--sans);
   font-weight:400;
   text-rendering:optimizeLegibility;
   -webkit-font-smoothing:antialiased;
-  background-image:var(--grain);
+  overflow-x:clip;               /* רצועות פול-בליד עובדות עם 50vw */
 }
-body.font-lg{--fs:1.3rem;--t-body:1.3rem}
-main{max-width:var(--maxw);margin:auto;padding:2.6rem 1.5rem 5.5rem}
+body.font-lg{--fs:1.28rem;--t-body:1.28rem}
+main{max-width:var(--maxw);margin:auto;padding:2.8rem 1.7rem 5.5rem}
 .narrow{max-width:46rem}
 img{max-width:100%;height:auto}
 
-h1,h2,h3{text-wrap:balance;font-weight:900;letter-spacing:-.015em;color:var(--ink);
-  font-family:var(--serif)}
-h1{font-size:var(--t-h1);line-height:1.12;margin:.2em 0 .4em}
-h2{font-size:var(--t-h2);line-height:1.22;margin:2.6em 0 .65em;padding-bottom:.35em;
-  border-bottom:1px solid var(--rule-heavy);position:relative}
-h2::after{content:"";position:absolute;inset-inline-start:0;bottom:-4px;width:100%;
-  border-bottom:1px solid var(--rule)}          /* קו כפול — שולי פנקס */
-h3{font-size:var(--t-h3);font-weight:700;line-height:1.3;margin:2em 0 .4em}
+h1,h2,h3{text-wrap:balance;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+h1{font-size:var(--t-h1);line-height:1.05;margin:.2em 0 .4em}
+h2{font-size:var(--t-h2);line-height:1.15;margin:2.6em 0 .7em;padding-bottom:.4em;
+  border-bottom:1px solid var(--rule-heavy)}
+h3{font-size:var(--t-h3);font-weight:700;line-height:1.3;margin:2em 0 .4em;letter-spacing:-.015em}
 p{margin:0 0 1.05em;max-width:66ch}
-a{color:var(--accent);text-underline-offset:.2em;text-decoration-thickness:1px;
-  transition:color .16s}
+a{color:var(--accent);text-underline-offset:.2em;text-decoration-thickness:1px;transition:color .16s}
 a:hover{color:var(--ink)}
 .lede{font-size:var(--t-lede);color:var(--ink-2);line-height:1.85;max-width:60ch}
-.kicker{font-family:var(--sans);font-size:var(--t-label);letter-spacing:.16em;
-  text-transform:uppercase;font-weight:700;color:var(--ink-3);margin:0 0 .45rem}
+.kicker{font:700 var(--t-label)/1.4 var(--mono);letter-spacing:.4em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 .6rem}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-blockquote{margin:1.8em 0;padding:.3em 1.25em;border-inline-start:3px solid var(--accent);
-  color:var(--ink-2);font-size:1.06em;line-height:1.9}
+blockquote{margin:1.8em 0;padding:.3em 1.2em;border-inline-start:3px solid var(--accent-fill);
+  color:var(--ink-2);line-height:1.9}
 blockquote .orig{display:block;font-size:.88em;color:var(--ink-3);margin-top:.55em;
   direction:ltr;text-align:start;font-style:italic}
 blockquote cite{display:block;font-size:var(--t-label);color:var(--ink-3);font-style:normal;
   margin-top:.6em;font-family:var(--mono)}
 
-::selection{background:var(--accent-soft);color:var(--ink)}
+::selection{background:var(--accent-fill);color:var(--on-accent)}
 
-/* ── 3 · המעטפת: פס הקטלוג העליון ─────────────────────────────────── */
-.topbar{position:sticky;top:0;z-index:50;background:var(--shell);
-  border-bottom:1px solid var(--shell-rule);
-  box-shadow:0 1px 0 #0003, 0 6px 18px -12px #0006}
-.topbar-in{max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:1.2rem;
-  padding:.66rem 1.5rem;flex-wrap:wrap}
-.brand{font-family:var(--serif);font-size:1.3rem;font-weight:900;letter-spacing:0;
-  text-decoration:none;color:var(--shell-ink);white-space:nowrap;line-height:1}
-.brand:hover{color:var(--shell-accent)}
-.tabs{display:flex;gap:.4rem;margin-inline-start:.6rem}
-.tab{padding:.4rem .75rem;text-decoration:none;color:var(--shell-ink-2);
+/* ── 3 · כרום: פס קטלוג ────────────────────────────────────────────── */
+.topbar{position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb,var(--wall) 88%,transparent);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--rule-mid)}
+.topbar-in{max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:1.3rem;
+  padding:.72rem 1.7rem;flex-wrap:wrap}
+.brand{font-size:1.3rem;font-weight:900;letter-spacing:-.01em;text-decoration:none;
+  color:var(--ink);white-space:nowrap;line-height:1}
+.brand:hover{color:var(--accent)}
+.tabs{display:flex;gap:.5rem;margin-inline-start:.5rem}
+.tab{padding:.4rem .7rem;text-decoration:none;color:var(--ink-2);
   font:500 var(--t-small)/1.4 var(--sans);border-bottom:2px solid transparent;transition:.16s}
-.tab:hover{color:var(--shell-ink)}
-.tab.moskal.on{color:var(--moskal-sh);border-bottom-color:var(--moskal-sh);font-weight:700}
-.tab.albert.on{color:var(--albert-sh);border-bottom-color:var(--albert-sh);font-weight:700}
-.navlinks{margin-inline-start:auto;display:flex;gap:.15rem;flex-wrap:wrap;align-items:center}
-.navlinks a{padding:.34rem .58rem;text-decoration:none;color:var(--shell-ink-2);
-  font:500 var(--t-label)/1.4 var(--sans);letter-spacing:.05em;
+.tab:hover{color:var(--ink)}
+.tab.moskal.on{color:var(--moskal-ink);border-bottom-color:var(--moskal);font-weight:700}
+.tab.albert.on{color:var(--albert-ink);border-bottom-color:var(--albert);font-weight:700}
+.navlinks{margin-inline-start:auto;display:flex;gap:.1rem;flex-wrap:wrap;align-items:center}
+.navlinks a{padding:.35rem .6rem;text-decoration:none;color:var(--ink-3);
+  font:500 var(--t-label)/1.4 var(--mono);letter-spacing:.08em;
   border-bottom:2px solid transparent;transition:.16s}
-.navlinks a:hover{color:var(--shell-ink)}
-.navlinks a[aria-current=page]{color:var(--shell-ink);font-weight:700;
-  border-bottom-color:var(--shell-accent)}
-.iconbtn{background:none;border:1px solid var(--shell-rule);border-radius:.25rem;
-  color:var(--shell-ink-2);cursor:pointer;padding:.28rem .5rem;
-  font:var(--t-label)/1.4 var(--sans);transition:.16s}
-.iconbtn:hover{color:var(--shell-ink);border-color:var(--shell-ink-2)}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a[aria-current=page]{color:var(--ink);font-weight:700;border-bottom-color:var(--accent-fill)}
+.iconbtn{background:none;border:1px solid var(--rule-mid);border-radius:0;color:var(--ink-3);
+  cursor:pointer;padding:.28rem .52rem;font:var(--t-label)/1.4 var(--sans);transition:.16s}
+.iconbtn:hover{color:var(--ink);border-color:var(--ink-3)}
 
 .ctrl{display:flex;gap:.4rem;align-items:center;direction:ltr;margin-inline-start:.5rem;flex-shrink:0}
-.langsw{display:inline-flex;border:1px solid var(--shell-rule);border-radius:.25rem;overflow:hidden}
+.langsw{display:inline-flex;border:1px solid var(--rule-mid);overflow:hidden}
 .langsw a{display:flex;align-items:center;padding:.32rem .45rem;font-size:var(--t-label);
-  text-decoration:none;color:var(--shell-ink-2);
-  border-inline-start:1px solid var(--shell-rule);transition:.14s}
+  text-decoration:none;color:var(--ink-3);border-inline-start:1px solid var(--rule-mid);transition:.14s}
 .langsw a:first-child{border-inline-start:0}
-.langsw a:hover{background:var(--shell-2)}
-.langsw a[aria-current=true]{background:var(--shell-2);
-  box-shadow:inset 0 -2px 0 var(--shell-accent)}
-.langsw svg{width:21px;height:15px;display:block;border-radius:2px;
-  box-shadow:0 0 0 1px #0005}
-.langsw a:not([aria-current=true]) svg{opacity:.62}
-.langsw a:hover svg{opacity:1}
+.langsw a:hover{background:var(--plinth-2)}
+.langsw a[aria-current=true]{background:var(--plinth-2);box-shadow:inset 0 -2px 0 var(--accent-fill)}
+.langsw svg{width:21px;height:15px;display:block;
+  box-shadow:0 0 0 1px color-mix(in srgb,var(--ink) 20%,transparent)}
+.langsw a:not([aria-current=true]) svg{opacity:.6;filter:grayscale(.4)}
+.langsw a:hover svg{opacity:1;filter:none}
 @media print{.ctrl{display:none}}
 
-/* פס התקדמות קריאה — נוצר ב-ui.js בעמודי פרק בלבד */
-.readbar{position:fixed;top:0;inset-inline-start:0;height:3px;width:0;z-index:60;
-  background:var(--shell-accent);transition:width .1s linear;pointer-events:none}
+/* פס התקדמות קריאה — נוצר ב-ui.js בעמודי קריאה ארוכה */
+.readbar{position:fixed;top:0;inset-inline-start:0;height:3px;width:100%;z-index:60;
+  background:var(--accent-fill);transform:scaleX(0);transform-origin:0 0;
+  transition:transform .1s linear;pointer-events:none}
+html[dir=rtl] .readbar{transform-origin:100% 0}
 
-/* קולופון */
-footer{background:var(--shell);border-top:1px solid var(--shell-rule);margin-top:5rem;
-  padding:2rem 1.5rem 3.2rem;color:var(--shell-ink-2);font-size:var(--t-label);
-  font-family:var(--sans);letter-spacing:.02em}
-footer .in{max-width:var(--maxw);margin:auto;position:relative;padding-top:1rem}
-footer .in::before{content:"❦";position:absolute;top:-.5rem;inset-inline-start:0;
-  color:var(--shell-ink-2);font-size:.9rem;opacity:.8}
+footer{border-top:1px solid var(--rule-mid);margin-top:5rem;padding:2.2rem 1.7rem 3.4rem;
+  color:var(--ink-3);font:var(--t-label)/2 var(--mono);letter-spacing:.1em;text-align:center}
+footer .in{max-width:var(--maxw);margin:auto}
 
 /* ══ 4 · הרכיבות המשותפות ═════════════════════════════════════════ */
 
-/* 4.1 · פוליו — גיליון נייר עם קו השוליים של פנקס הרישום */
+/* 4.1 · כרטיס ארכיון — מסגרת קשה, פס ענף עבה בקצה */
 .plinth{display:block;background:var(--plinth);color:inherit;text-decoration:none;
   padding:1.7rem 1.7rem 1.5rem;position:relative;
-  border:1px solid var(--rule);border-inline-start:3px solid var(--rule-mid);
-  box-shadow:var(--shadow-plinth);
-  transition:transform .18s ease}
+  border:1px solid var(--rule-mid);border-inline-start:6px solid var(--rule-mid);
+  transition:transform .18s ease,border-color .18s ease}
 .plinth.moskal{border-inline-start-color:var(--moskal)}
 .plinth.albert{border-inline-start-color:var(--albert)}
+.plinth .tag{font:700 var(--t-label)/1.4 var(--mono);letter-spacing:.35em;color:var(--ink-3);
+  text-transform:uppercase}
+.plinth.moskal .tag{color:var(--moskal-ink)}
+.plinth.albert .tag{color:var(--albert-ink)}
+.plinth h2,.plinth h3{margin:.5rem 0 .45rem;border:0;padding:0;font-size:1.7rem;
+  font-weight:900;letter-spacing:-.025em}
+.plinth p{margin:0 0 .6rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.8}
+.plinth .places{font:var(--t-label)/1.9 var(--mono);color:var(--ink-3)}
+.plinths{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:2rem 0}
+@media (max-width:760px){.plinths{grid-template-columns:1fr}}
 
-/* הרמת פוליו: הצל הכבד יושב על פסאודו-שכבה שרק השקיפות שלה נעה —
-   transform+opacity בלבד, ורק להצבעה מדויקת (עכבר), לא למגע.          */
+/* הרמה: שכבת צל בשקיפות בלבד, עכבר מדויק בלבד */
 .plinth,.card,.bcard,.tcard,.dcard{position:relative}
 .plinth::before,.card::before,.bcard::before,.tcard::before,.dcard::before{
   content:"";position:absolute;inset:-1px;z-index:-1;pointer-events:none;
   box-shadow:var(--shadow-lift);opacity:0;transition:opacity .18s ease}
 @media (hover:hover) and (pointer:fine){
-  a.plinth:hover,.card:hover,.bcard:hover,.tcard:hover,.dcard:hover{
-    transform:translateY(-2px)}
+  a.plinth:hover,.card:hover,.bcard:hover,.tcard:hover,.dcard:hover{transform:translateY(-2px)}
   a.plinth:hover::before,.card:hover::before,.bcard:hover::before,
   .tcard:hover::before,.dcard:hover::before{opacity:1}
 }
-.plinth .tag{font-family:var(--sans);font-size:var(--t-label);letter-spacing:.14em;
-  font-weight:700;color:var(--ink-3);text-transform:uppercase}
-.plinth.moskal .tag{color:var(--moskal-ink)}
-.plinth.albert .tag{color:var(--albert-ink)}
-.plinth h2,.plinth h3{margin:.5rem 0 .45rem;border:0;padding:0;font-size:1.7rem;
-  font-weight:900;letter-spacing:-.015em}
-.plinth h2::after,.plinth h3::after{display:none}
-.plinth p{margin:0 0 .6rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.8}
-.plinth .places{font-family:var(--sans);font-size:var(--t-label);color:var(--ink-3);line-height:1.9}
-.plinths{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:2rem 0}
-@media (max-width:760px){.plinths{grid-template-columns:1fr}}
 
-/* 4.2 · מפקד — מספרי פנקס בסריף שחור, מעל קו כפול */
-.tally{display:flex;gap:2.6rem;flex-wrap:wrap;margin:.3rem 0 2rem;padding-top:1.2rem;
-  border-top:3px double var(--rule-heavy)}
-.tally div b{display:block;font-family:var(--serif);font-size:2.2rem;font-weight:900;
-  letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
-.tally div span{font-family:var(--sans);font-size:var(--t-label);letter-spacing:.08em;
-  color:var(--ink-3);font-weight:500}
+/* 4.2 · מפקד — רצועת אדום פול-בליד */
+.tally{display:flex;gap:3.2rem;flex-wrap:wrap;margin:.3rem 0 2rem;
+  padding:1.5rem max(1.7rem,calc(50vw - var(--maxw)/2 + 1.7rem));
+  margin-inline:calc(50% - 50vw);
+  background:var(--accent-fill);color:var(--on-accent)}
+.tally div b{display:block;font-size:2.6rem;font-weight:900;letter-spacing:-.03em;line-height:1;
+  font-variant-numeric:tabular-nums;color:var(--on-accent)}
+.tally div span{font:700 var(--t-label)/1.6 var(--mono);letter-spacing:.18em;opacity:.88}
 
-/* 4.3 · שורת מפתח — מפתח עניינים של קטלוג */
-.index{border-top:3px double var(--rule-heavy);margin:1.8rem 0}
-.index-row{display:grid;grid-template-columns:3.4rem 1fr auto;gap:1.4rem;align-items:baseline;
-  padding:1.15rem .5rem;border-bottom:1px solid var(--rule);text-decoration:none;color:inherit;
-  transition:background .16s,border-color .16s}
-a.index-row:hover{background:var(--plinth)}
-.index-row .no{font:var(--t-label)/1 var(--mono);color:var(--accent);letter-spacing:.06em;
+/* 4.3 · שורת מפתח — מגירת קטלוג */
+.index{border-top:1px solid var(--rule-heavy);margin:1.8rem 0}
+.index-row{display:grid;grid-template-columns:3.6rem 1fr auto;gap:1.5rem;align-items:baseline;
+  padding:1.25rem .4rem;border-bottom:1px solid var(--rule);text-decoration:none;color:inherit;
+  transition:background .16s,transform .16s}
+a.index-row:hover{background:var(--plinth);transform:translateX(calc(var(--fwd)*1.1rem))}
+.index-row .no{font:var(--t-label)/1 var(--mono);color:var(--accent);letter-spacing:.15em;
   font-variant-numeric:tabular-nums}
-.index-row h2,.index-row h3{margin:0;border:0;padding:0;font-size:1.28rem;font-weight:700;
-  letter-spacing:-.01em}
-.index-row h2::after,.index-row h3::after{display:none}
-.index-row .sub{display:block;font-family:var(--sans);font-size:var(--t-label);font-weight:400;
-  color:var(--ink-3);margin-top:.3rem;line-height:1.6}
+.index-row h2,.index-row h3{margin:0;border:0;padding:0;font-size:1.3rem;font-weight:900;
+  letter-spacing:-.02em}
+.index-row .sub{display:block;font-size:var(--t-label);font-weight:400;color:var(--ink-3);
+  margin-top:.3rem;line-height:1.6}
 .index-row .count{font:var(--t-label)/1 var(--mono);color:var(--ink-3);
   font-variant-numeric:tabular-nums;white-space:nowrap}
 .index-row.moskal h2,.index-row.moskal h3{color:var(--moskal-ink)}
@@ -285,17 +259,16 @@ a.index-row:hover{background:var(--plinth)}
   .index-row .count{grid-column:2;margin-top:.3rem}
 }
 
-/* 4.4 · ציטוט אקט — תמיד גלוי, במונו */
+/* 4.4 · ציטוט אקט — מונו, גלוי תמיד */
 .cite{display:block;font:var(--t-label)/1.55 var(--mono);color:var(--ink-3);
   font-variant-numeric:tabular-nums;direction:ltr;text-align:start;overflow-wrap:anywhere}
-.plinth .cite{margin-top:.9rem;padding-top:.7rem;border-top:1px dotted var(--rule-mid)}
+.plinth .cite{margin-top:.9rem;padding-top:.7rem;border-top:1px solid var(--rule)}
 :lang(he) .cite{text-align:right}
 
-/* 4.5 · לוח — סריקה במסגרת עם פספרטו */
-.artifact{margin:2.2rem 0;background:var(--plinth);border:1px solid var(--rule-mid);
-  padding:.9rem;box-shadow:var(--shadow-plinth)}
+/* 4.5 · לוח — סריקה בקו מסגרת קשה */
+.artifact{margin:2.2rem 0;background:var(--plinth);border:1px solid var(--rule-mid);padding:.7rem}
 .artifact img{display:block;width:100%;border:1px solid var(--rule)}
-.artifact figcaption{padding:.85rem .35rem .1rem;font-size:var(--t-small);color:var(--ink-2);
+.artifact figcaption{padding:.85rem .3rem .15rem;font-size:var(--t-small);color:var(--ink-2);
   line-height:1.7}
 .artifact figcaption .cite{margin-top:.4rem}
 
@@ -309,56 +282,54 @@ a.index-row:hover{background:var(--plinth)}
 
 /* ── 5 · טבלאות, כלים, טפסים ──────────────────────────────────────── */
 .grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
-.card{background:var(--plinth);border:1px solid var(--rule);
-  border-inline-start:3px solid var(--rule-mid);padding:1.15rem 1.25rem;
-  text-decoration:none;color:inherit;display:block;box-shadow:var(--shadow-plinth);
-  transition:transform .18s ease}
+.card{background:var(--plinth);border:1px solid var(--rule-mid);
+  border-inline-start:6px solid var(--rule-mid);padding:1.15rem 1.25rem;
+  text-decoration:none;color:inherit;display:block;transition:transform .18s ease}
 .card h3{margin:.1rem 0 .35rem;font-size:1.08rem;color:var(--ink)}
-.card p{margin:0;font-family:var(--sans);font-size:var(--t-small);color:var(--ink-3);line-height:1.6}
+.card p{margin:0;font-size:var(--t-small);color:var(--ink-3);line-height:1.6}
 .card.moskal{border-inline-start-color:var(--moskal)}
 .card.albert{border-inline-start-color:var(--albert)}
 
 table{border-collapse:collapse;width:100%;margin:1.4em 0;font-size:var(--t-small);
   font-variant-numeric:tabular-nums}
 th,td{text-align:start;padding:.6em .8em;border-bottom:1px solid var(--rule);vertical-align:top}
-th{font-family:var(--sans);font-size:var(--t-label);color:var(--ink-3);font-weight:700;
-  letter-spacing:.06em;text-transform:uppercase;border-bottom:3px double var(--rule-heavy)}
+th{font:700 var(--t-label)/1.5 var(--mono);color:var(--ink-3);letter-spacing:.12em;
+  text-transform:uppercase;border-bottom:2px solid var(--rule-heavy)}
 
 .toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:1.2rem 0;
-  font-family:var(--sans);font-size:var(--t-small)}
-.seg{display:inline-flex;border:1px solid var(--rule-mid);border-radius:.25rem;overflow:hidden}
-.seg button{background:var(--plinth);border:0;padding:.46rem .9rem;cursor:pointer;color:var(--ink-2);
-  font:500 var(--t-small)/1.4 var(--sans);border-inline-start:1px solid var(--rule);transition:.14s}
+  font-size:var(--t-small)}
+.seg{display:inline-flex;border:1px solid var(--rule-mid);overflow:hidden}
+.seg button{background:var(--plinth);border:0;padding:.46rem .95rem;cursor:pointer;color:var(--ink-2);
+  font:500 var(--t-small)/1.4 var(--sans);border-inline-start:1px solid var(--rule-mid);transition:.14s}
 .seg button:first-child{border-inline-start:0}
-.seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);font-weight:700}
+.seg button[aria-pressed=true]{background:var(--accent-fill);color:var(--on-accent);font-weight:700}
 input[type=search],input[type=text],select{font:var(--t-small)/1.5 var(--sans);
-  padding:.52rem .8rem;border:1px solid var(--rule-mid);border-radius:.25rem;background:var(--plinth);
+  padding:.55rem .85rem;border:1px solid var(--rule-mid);border-radius:0;background:var(--plinth);
   color:var(--ink);min-width:12rem}
 input:focus-visible,button:focus-visible,a:focus-visible,[tabindex]:focus-visible{
-  outline:2px solid var(--accent);outline-offset:2px}
-.topbar a:focus-visible,.topbar button:focus-visible{outline-color:var(--shell-accent)}
+  outline:2px solid var(--accent-fill);outline-offset:2px}
 
 /* ── 6 · תנועה ─────────────────────────────────────────────────────
-   רגע טעינה אחד מתוזמר, וחשיפת גלילה שקטה. ההסתרה חלה רק כאשר
-   JS חי (html.js) והמבקר לא ביקש צמצום תנועה — אחרת הכל גלוי.       */
+   רגע טעינה אחד, וחשיפת גלילה שקטה. ההסתרה רק תחת html.js +
+   prefers-reduced-motion:no-preference — אחרת הכל גלוי מהרגע הראשון. */
 @media (prefers-reduced-motion:no-preference){
-  .reveal>*{animation:folio-rise .55s cubic-bezier(.22,.61,.36,1) both}
+  .reveal>*{animation:noir-rise .5s cubic-bezier(.22,.61,.36,1) both}
   .reveal>*:nth-child(1){animation-delay:.02s}
-  .reveal>*:nth-child(2){animation-delay:.10s}
+  .reveal>*:nth-child(2){animation-delay:.1s}
   .reveal>*:nth-child(3){animation-delay:.18s}
   .reveal>*:nth-child(4){animation-delay:.26s}
   .reveal>*:nth-child(n+5){animation-delay:.32s}
 
-  html.js [data-reveal]{opacity:0;transform:translateY(10px);
-    transition:opacity .6s cubic-bezier(.22,.61,.36,1),transform .6s cubic-bezier(.22,.61,.36,1)}
+  html.js [data-reveal]{opacity:0;transform:translateY(12px);
+    transition:opacity .55s cubic-bezier(.22,.61,.36,1),transform .55s cubic-bezier(.22,.61,.36,1)}
   html.js [data-reveal].in{opacity:1;transform:none}
 }
-@keyframes folio-rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes noir-rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 
 @media (max-width:640px){
   .navlinks{width:100%;margin:0}
   .topbar-in{gap:.6rem}
   .ctrl{margin-inline-start:auto}
-  main{padding:1.9rem 1.1rem 4rem}
-  .tally{gap:1.5rem}
+  main{padding:2rem 1.1rem 4rem}
+  .tally{gap:1.6rem}
 }

@@ -1,53 +1,57 @@
 # Style lock — «שורשים» roots site
 
-## Active direction: «חדר הקריאה» (Reading Room), Aug 2026 — branch redesign/reading-room
-Two-zone archival system per book-serif-index: dark catalog shell (topbar+footer, dark in
-BOTH themes) framing a warm paper page. Light = reading room by day; dark = archive by
-lamplight (independent system, not an inversion).
+## Active direction: «ארכיון שחור» (Archive Noir), 26 Aug 2026 — branch redesign/archive-noir
+Chosen by Amotz from a 3-comp shootout (__comps/: a-noir ✓ · b-atlas · c-gallery).
+Documentary-brutalist. DARK IS THE PRIMARY IDENTITY: deep black wall (#0d0c0b), the
+archive scans themselves full-bleed as hero/section imagery, huge Heebo Black type,
+one blood-red accent, hard visible rules, mono catalog labels.
+LIGHT MODE = «printed catalog»: the exact same system on white paper — hard black
+rules, same red, gray-scaled scans. Not a soft inversion. Theme toggle (system/
+light/dark) preserved as before.
 
 ## Type
-- Reading (body, headings, display): 'Frank Ruhl Libre' variable 400–900, self-hosted
-  woff2 subsets (hebrew / latin / latin-ext) in assets/fonts. Serif is the identity.
-- Utility (nav, labels, buttons, kickers): Heebo (he) / Archivo (en+pl).
-- Catalog (act citations, numbers, dates): Roboto Mono. tabular-nums everywhere numeric.
-- Scale: labels .78rem floor, body 1.08rem/1.85, display clamp(3.2rem,8.5vw,6rem).
+Heebo Black 900 display + body (Archivo for en/pl UI), Roboto Mono for act numbers,
+dates, nav links, kickers (letter-spacing .35–.5em). NO serif (FRL stays shipped but
+unused). Display clamp(3.6rem,11vw,8.5rem).
 
-## Color contract (all pairs checked, 0 failures, both themes — 26 Aug 2026)
-Light: wall #efe9dc · plinth #f8f4ea · ink #26211a (13.2:1) · ink-2 #4f4939 · ink-3 #675f4d
-· accent #7c2d21 (registry-margin oxblood, 7.7:1) · moskal #a3541a / ink #7d420e
-· albert #57517a / ink #454064 · ok #44614b · gold #7c6526.
-Shell (theme-invariant dark): #211c14 · ink #ece4d0 · ink-2 #b0a58a (6.9:1) · accent #d68a64
-· moskal-sh #dc9448 · albert-sh #a8a0d4.
-Dark: wall #191611 · plinth #221e17 · ink #eae2cd · accent #d98f68 — all body pairs ≥5:1.
-Branch colors CARRY DATA (tree.js/map/documents) — never repaint decoratively.
+## Color contract (all pairs AA, 0 failures, 26 Aug 2026)
+Dark: wall #0d0c0b · plinth #141311 · ink #f2efe9 · ink-2 #b8b3a8 · ink-3 #948f83
+· accent(text) #ff5a4d · accent-fill #d92c1f (white-on-fill 4.85) · moskal #ff9d3f
+· albert #8f9bff · ok #69d29a · gold #d9b25f.
+Light: wall #f6f4f0 · plinth #fff · ink #141311 · accent(text) #c22415 · fill #d92c1f
+· moskal #a24d0d · albert #4f57b8 · ok #2c7a4b · gold #77601a.
+--accent (text-safe) vs --accent-fill (fills/bars, white text) are SEPARATE tokens.
+Branch photo panels (.bcard on home) are constant-dark in both themes.
 
 ## Motifs
-- Registry margin line: 3-4px branch-color border-inline-start on folio cards (.plinth,
-  .bcard, .introcard) — the red margin rule of Polish registry books.
-- Double rules (3px double) above ledgers/indexes/footnotes; h2 gets thin double via ::after.
-- Paper grain: feTurbulence data-URI at slope .045 on body.
-- Artifact = plate: paper mat padding + thin frames. Lightbox stays a darkened room.
-- §-numbered h2 in chapters (CSS counters — language-neutral). ❦ in footer colophon.
+- Scan-wall hero (m-1839-M01.jpg full-bleed, theme-dependent treatment) — CSS-only
+  via .hero::before/::after; full-bleed strips use margin-inline:calc(50% - 50vw)
+  + body{overflow-x:clip}.
+- Red census band (.stats/.tally) — full-bleed accent-fill strip, white 900 numerals.
+- Catalog drawers: list rows that indent on hover via transform:translateX(calc(var(--fwd)*…))
+  (--fwd:-1 RTL / 1 LTR) — never padding animation.
+- Tree: sharp corners (CSS rx:0 overrides SVG attr), 18% branch tint cards, thick
+  spines, red focus stroke. Tint formula in tree.css.
+- Sharp corners everywhere (border-radius:0), 1px rules + 1px heavy rules, no soft chrome.
+- Emoji icons hidden by CSS (.tcard .ic{display:none}), arrows via ::after with
+  :lang() direction flip.
 
 ## Motion
-One orchestrated load moment (.reveal / folio-rise 550ms, cubic-bezier(.22,.61,.36,1)),
-IntersectionObserver scroll reveals (10px rise, 600ms) auto-tagged by ui.js — hidden only
-under html.js + no-preference. Hover lifts: transform + opacity-animated ::before shadow
-layer, gated @media (hover:hover) and (pointer:fine). Reading progress bar (.readbar) on
-.chapter-meta/.md pages. Editorial budget: entrances 500–760ms, controls 140–180ms.
+One load moment (noir-rise .5s), IO scroll reveals (ui.js, reduced-motion safe),
+readbar via transform:scaleX (transform-origin flips for RTL). Hover: background +
+transform indents at .16s, image zoom .35s, all gated (hover:hover) and (pointer:fine).
+scaleX(0) on .readbar is a progress bar at rest — a known audit false-positive.
 
-## Hard constraints (project)
-- NEVER touch translated text in en/ + pl/ (ROOTS-TRANSLATED:done). CSS/JS-only redesigns;
-  markup contracts (class names) are frozen API.
-- All 68 pages × 3 languages share main.css + css/pages/*; tree.css/map.css are token-driven
-  (SVG reads CSS vars) — redesign via tokens, don't restructure.
-- Certainty grading ● ◐ ○ (.g-*) carries research meaning — keep visible, never decorative.
-- Legacy aliases --paper/--paper-2/--paper-3/--rule-2/--shadow must stay mapped.
-- Emoji tool icons (🌳🗺️📜…) are content in protected trilingual markup — replace only in a
-  pass that edits all 3 languages deliberately.
+## Hard constraints (project) — unchanged
+- NEVER touch translated text in en/ + pl/. CSS/JS-only; class names = frozen API.
+- tree.css/map.css restyle via tokens only; tree.js/map JS untouched.
+- Certainty grading ● ◐ ○ carries research meaning.
+- Legacy aliases --paper/--paper-2/--paper-3/--rule-2/--shadow stay mapped.
 
 ## History
-- v1 (pre-Aug-21): Frank Ruhl via local() only (broken fallback to Times).
-- v2 «ויטרינה» (merged 21 Aug, branch redesign/museum-vitrine): flat daylight museum,
-  Heebo-Black-only, plinth cards with colored top bars.
-- v3 «חדר הקריאה» (26 Aug, branch redesign/reading-room): this lock.
+- v1 (pre-Aug-21): serif via local() only. v2 «ויטרינה» (21 Aug, merged): flat museum.
+- v3 «חדר הקריאה» (26 Aug, commit 7a03902 on this branch's history): paper/serif
+  two-zone — built, then rejected by Amotz as too close to v2.
+- v4 «ארכיון שחור» (26 Aug, this lock): chosen from comps. LESSON RECORDED: Amotz
+  wants redesigns to be RADICAL — new palette, new layout, new component shapes —
+  not a token reskin. Show 2-3 real comps and let him choose before rolling out.

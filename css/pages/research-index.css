@@ -1,42 +1,40 @@
-/* ═══ research-index.html — «חדר הקריאה» ═══ CSS בלבד; הסימון לא נגעו בו ═══
-   מפתח הדו"חות: תוכן עניינים של קטלוג — סריף לכותרות, מונו לנתונים.   */
+/* ═══ research-index.html — «ארכיון שחור» ═══ CSS בלבד; הסימון לא נגעו בו ═══ */
 
 .md{max-width:46rem}
-.md h1{font-size:var(--t-h1);letter-spacing:-.02em}
+.md h1{font-size:var(--t-h1);letter-spacing:-.03em}
 .md h2{border-bottom:1px solid var(--rule-heavy)}
 .md table{font-size:var(--t-small);overflow-x:auto;display:block;max-width:100%}
-.md code{background:var(--plinth);border:1px solid var(--rule);border-radius:.2em;
+.md code{background:var(--plinth);border:1px solid var(--rule);
   padding:.08em .38em;font:var(--t-label)/1.5 var(--mono);direction:ltr;unicode-bidi:embed}
-.md pre{background:var(--plinth);border:1px solid var(--rule);
+.md pre{background:var(--plinth);border:1px solid var(--rule-mid);
   border-inline-start:3px solid var(--rule-mid);
   padding:1em 1.2em;overflow-x:auto;direction:ltr;text-align:left;font-family:var(--mono)}
 .md pre code{background:none;border:0;padding:0}
-.md hr{border:0;border-top:3px double var(--rule);margin:2.4em 0}
-.md .backlink,.backlink{font-family:var(--sans);font-size:var(--t-small);margin:2rem 0 0}
+.md hr{border:0;border-top:1px solid var(--rule);margin:2.4em 0}
+.md .backlink,.backlink{font-size:var(--t-small);margin:2rem 0 0}
 .srcnote{font:var(--t-label)/1.6 var(--mono);color:var(--ink-3);background:var(--plinth);
-  border:1px solid var(--rule);border-inline-start:3px solid var(--rule-mid);
+  border:1px solid var(--rule-mid);border-inline-start:3px solid var(--rule-mid);
   padding:.8rem 1rem;margin:0 0 2rem}
 
 /* מפתח הדו"חות */
-.rlist{display:flex;flex-direction:column;gap:0;border-top:3px double var(--rule-heavy);margin-top:1.6rem}
-.rlist a,.rlist .note{display:block;padding:1.15rem .5rem;border-bottom:1px solid var(--rule);
-  text-decoration:none;color:inherit;transition:background .16s}
-.rlist a:hover{background:var(--plinth)}
-.rlist b{display:block;font-family:var(--serif);font-size:1.16rem;font-weight:700;letter-spacing:-.01em}
+.rlist{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule-heavy);margin-top:1.6rem}
+.rlist a,.rlist .note{display:block;padding:1.2rem .4rem;border-bottom:1px solid var(--rule);
+  text-decoration:none;color:inherit;transition:background .16s,transform .16s}
+.rlist a:hover{background:var(--plinth);transform:translateX(calc(var(--fwd)*1.1rem))}
+.rlist b{display:block;font-size:1.2rem;font-weight:900;letter-spacing:-.015em}
 .rlist a:hover b{color:var(--accent)}
-.rlist .sub{display:block;font-family:var(--sans);font-size:var(--t-label);color:var(--ink-3);
-  margin-top:.3rem;line-height:1.6}
+.rlist .sub{display:block;font-size:var(--t-label);color:var(--ink-3);margin-top:.3rem;line-height:1.6}
 .rlist .meta{font:var(--t-label)/1.4 var(--mono);color:var(--ink-3);margin-top:.3rem;
   font-variant-numeric:tabular-nums}
 
-/* ── הבלוק שנקלט מ-<style> פנימי — נשמר, מיושר לאסימוני המערכת ── */
+/* ── הבלוק שנקלט מ-<style> פנימי — מיושר לאסימונים ── */
 .wrap{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 4rem}
 .wrap .lede{font-size:var(--t-lede);line-height:1.85}
-.note{border:1px solid var(--rule);border-inline-start:3px solid var(--rule-mid);
+.note{border:1px solid var(--rule-mid);border-inline-start:3px solid var(--rule-mid);
   background:var(--plinth);padding:.9rem 1.1rem;margin:1.4rem 0;
   font-size:var(--t-small);line-height:1.8;color:var(--ink-2)}
 .wrap h2{margin-top:2.4rem}
-.sub{color:var(--ink-3);font-family:var(--sans);font-size:var(--t-label);margin-top:-.2rem}
+.sub{color:var(--ink-3);font-size:var(--t-label);margin-top:-.2rem}
 .rlist{list-style:none;padding:0}
 .rlist li{margin:0;line-height:1.6}
 .meta{display:block;color:var(--ink-3);font:var(--t-label)/1.5 var(--mono);

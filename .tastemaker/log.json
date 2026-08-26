@@ -1,1 +1,26 @@
-[{"date":"2026-08-21","build":"vitrine","macrostructure":"flat-museum-wall","nav":"inline-tabs","hero":"display-vs-lede-columns","notes":"sans-only Heebo Black, plinth top-bars"},{"date":"2026-08-26","build":"reading-room","macrostructure":"two-zone-archive-shell","nav":"dark-catalog-rail","hero":"folio-title-page","notes":"serif-led FRL, registry margin rules, grain, scroll reveals, readbar"}]
+[
+ {
+  "date": "2026-08-21",
+  "build": "vitrine",
+  "macrostructure": "flat-museum-wall",
+  "nav": "inline-tabs",
+  "hero": "display-vs-lede-columns",
+  "notes": "sans-only Heebo Black, plinth top-bars"
+ },
+ {
+  "date": "2026-08-26",
+  "build": "reading-room",
+  "macrostructure": "two-zone-archive-shell",
+  "nav": "dark-catalog-rail",
+  "hero": "folio-title-page",
+  "notes": "serif-led FRL, registry margin rules, grain, scroll reveals, readbar"
+ },
+ {
+  "date": "2026-08-26",
+  "build": "archive-noir",
+  "macrostructure": "full-bleed-documentary",
+  "nav": "mono-catalog-bar",
+  "hero": "scan-wall",
+  "notes": "chosen from 3-comp shootout; dark-primary + printed-catalog light; tree recolored 18% tints, sharp rx:0"
+ }
+]

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>אופציה ג — «גלריה לבנה» · שורשים</title>
+<link rel="stylesheet" href="../css/fonts.css">
+<style>
+/* ═══ COMP C — «גלריה לבנה» · Gallery White ═══
+   שוויצרי-מוזיאלי: לבן בוהק, שחור חד, כחול-קובלט אחד. גריד קשיח,
+   קווים דקים, הרבה אוויר. הסריקות — לוחות אמנות עם מספור לוח.      */
+:root{
+  --wh:#ffffff; --wh2:#f5f4f1; --ln:#e3e1dc; --ln2:#111111;
+  --tx:#111111; --tx2:#4d4a45; --tx3:#8a867e;
+  --blue:#1f3fe8; --blue-soft:#1f3fe814;
+  --moskal:#d96f1e; --albert:#6a5cd8;
+  --sans:'Heebo',system-ui,sans-serif; --mono:'Roboto Mono',monospace;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--wh);color:var(--tx);font:1.04rem/1.8 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+nav{position:sticky;top:0;z-index:50;background:#ffffffe8;backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--ln2)}
+nav .in{max-width:80rem;margin:auto;display:flex;align-items:center;padding:0 1.6rem;height:3.6rem}
+nav .brand{font-weight:900;font-size:1.2rem;letter-spacing:-.01em}
+nav .links{display:flex;margin-inline-start:auto;height:100%}
+nav .links a{display:flex;align-items:center;padding:0 1.05rem;font:500 .84rem/1 var(--sans);
+  color:var(--tx2);border-inline-start:1px solid var(--ln);transition:.15s}
+nav .links a:first-child{border-inline-start:0}
+nav .links a:hover{background:var(--blue);color:#fff}
+
+/* ── פתיחה: פוסטר טיפוגרפי ── */
+header{max-width:80rem;margin:auto;padding:4.5rem 1.6rem 0}
+header .k{font:700 .74rem/1 var(--mono);letter-spacing:.4em;color:var(--blue)}
+header h1{font-size:clamp(4.5rem,14vw,10.5rem);font-weight:900;line-height:.92;letter-spacing:-.045em;
+  margin:.6rem 0 0}
+header h1 .dot{color:var(--blue)}
+header .row{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:end;
+  border-top:2px solid var(--ln2);margin-top:2.2rem;padding-top:1.6rem;padding-bottom:3.5rem}
+header .sub{font-size:1.14rem;line-height:1.85;color:var(--tx2);max-width:32rem}
+header .stats{display:flex;gap:2.6rem;justify-content:flex-end;flex-wrap:wrap}
+header .stat b{display:block;font-size:2.6rem;font-weight:900;letter-spacing:-.03em;line-height:1;
+  font-variant-numeric:tabular-nums}
+header .stat b i{font-style:normal;color:var(--blue)}
+header .stat span{font:.72rem/1.6 var(--mono);color:var(--tx3);letter-spacing:.1em}
+
+/* ── סרט לוחות ── */
+.strip{border-block:1px solid var(--ln2);background:var(--wh2);overflow:hidden}
+.strip .in{max-width:80rem;margin:auto;padding:2.2rem 1.6rem;display:grid;
+  grid-template-columns:repeat(4,1fr);gap:1.2rem}
+.plate{background:#fff;border:1px solid var(--ln);padding:.55rem;position:relative;
+  transition:transform .2s,box-shadow .2s}
+.plate:hover{transform:translateY(-3px);box-shadow:0 16px 40px -18px #0003}
+.plate img{aspect-ratio:4/3;object-fit:cover;width:100%;filter:grayscale(.2) contrast(1.02)}
+.plate figcaption{display:flex;justify-content:space-between;padding:.6rem .2rem .2rem;
+  font:.68rem/1.4 var(--mono);color:var(--tx3);direction:ltr}
+.plate figcaption b{color:var(--tx);font-weight:700}
+
+/* ── הענפים: שתי כרזות ── */
+.branches{max-width:80rem;margin:auto;padding:4rem 1.6rem;display:grid;
+  grid-template-columns:1fr 1fr;gap:1.6rem}
+.branch{border:1px solid var(--ln2);padding:2.4rem 2.2rem 2rem;position:relative;
+  background:#fff;transition:.2s}
+.branch::before{content:"";position:absolute;top:-1px;inset-inline:-1px;height:.55rem}
+.branch.moskal::before{background:var(--moskal)}
+.branch.albert::before{background:var(--albert)}
+.branch:hover{background:var(--wh2)}
+.branch .tag{font:700 .72rem/1 var(--mono);letter-spacing:.35em;color:var(--tx3)}
+.branch h2{font-size:clamp(2rem,4vw,3rem);font-weight:900;letter-spacing:-.03em;line-height:1.05;
+  margin:.8rem 0 1rem}
+.branch p{color:var(--tx2);font-size:.97rem;max-width:30rem}
+.branch .places{margin-top:1.5rem;padding-top:1.1rem;border-top:1px solid var(--ln);
+  font:.76rem/1.9 var(--mono);color:var(--tx3)}
+.branch .go{position:absolute;bottom:1.8rem;inset-inline-end:1.8rem;width:2.6rem;height:2.6rem;
+  border:1px solid var(--ln2);border-radius:50%;display:grid;place-items:center;font-size:1.1rem;
+  transition:.2s}
+.branch:hover .go{background:var(--blue);border-color:var(--blue);color:#fff;transform:translateX(-4px)}
+
+/* ── כלים: אינדקס עמודות ── */
+section.tools{border-top:1px solid var(--ln2)}
+section.tools .in{max-width:80rem;margin:auto;padding:3.6rem 1.6rem 4rem}
+.sh{display:flex;align-items:baseline;gap:1rem;margin-bottom:2rem}
+.sh h3{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:900;letter-spacing:-.03em}
+.sh .no{font:.78rem/1 var(--mono);color:var(--blue);letter-spacing:.2em}
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ln2);
+  border-inline-start:1px solid var(--ln2)}
+.tool{border-inline-end:1px solid var(--ln2);border-bottom:1px solid var(--ln2);
+  padding:1.6rem 1.5rem 1.8rem;transition:.16s;position:relative}
+.tool:hover{background:var(--blue);color:#fff}
+.tool:hover span{color:#ffffffb8}
+.tool .idx{font:.7rem/1 var(--mono);color:var(--tx3);letter-spacing:.15em}
+.tool:hover .idx{color:#ffffff90}
+.tool b{display:block;font-size:1.25rem;font-weight:900;letter-spacing:-.01em;margin:.7rem 0 .35rem}
+.tool span{display:block;font-size:.85rem;color:var(--tx3);line-height:1.6}
+
+/* ── האילן: כרטיסים לבנים, פס צד ── */
+section.treeprev{background:var(--wh2);border-block:1px solid var(--ln2)}
+section.treeprev .in{max-width:80rem;margin:auto;padding:3.6rem 1.6rem}
+.tcards{display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:1.8rem}
+.tcard{background:#fff;border:1px solid var(--ln2);padding:1rem 1.3rem;min-width:15rem;
+  position:relative;box-shadow:.35rem .35rem 0 var(--ln)}
+[dir=rtl] .tcard{box-shadow:-.35rem .35rem 0 var(--ln)}
+.tcard::before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:.45rem;
+  background:var(--moskal)}
+.tcard.albert::before{background:var(--albert)}
+.tcard.focus{box-shadow:-.35rem .35rem 0 var(--blue)}
+.tcard b{font-size:1.06rem;font-weight:900}
+.tcard .yr{font:.72rem/1.7 var(--mono);color:var(--tx3);letter-spacing:.08em}
+.tcard .g{position:absolute;top:.8rem;inset-inline-end:.9rem;font-size:.7rem;color:#2c8c5a}
+.treenote{margin-top:1.6rem;font-size:.9rem;color:var(--tx3);max-width:40rem}
+
+/* ── יומן ── */
+section.log .in{max-width:80rem;margin:auto;padding:3.6rem 1.6rem 5rem}
+.logrow{display:grid;grid-template-columns:8.5rem 1fr;gap:2rem;padding:1.05rem .2rem;
+  border-bottom:1px solid var(--ln);align-items:baseline}
+.logrow:first-of-type{border-top:2px solid var(--ln2)}
+.logrow time{font:.74rem/1 var(--mono);color:var(--blue);letter-spacing:.08em}
+.logrow p{color:var(--tx2);font-size:.97rem}
+
+footer{border-top:2px solid var(--ln2);padding:2.2rem 1.6rem 3.2rem;text-align:center;
+  font:.78rem/1.9 var(--mono);color:var(--tx3);letter-spacing:.1em}
+@media (max-width:860px){
+  header .row{grid-template-columns:1fr;gap:2rem}
+  header .stats{justify-content:flex-start}
+  .strip .in{grid-template-columns:repeat(2,1fr)}
+  .branches{grid-template-columns:1fr}
+  .tgrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<nav><div class="in">
+  <span class="brand">שורשים</span>
+  <div class="links">
+    <a href="#">אילן</a><a href="#">מפה</a><a href="#">מסמכים</a><a href="#">מחקרים</a><a href="#">מקורות</a><a href="#">חיפוש</a>
+  </div>
+</div></nav>
+
+<header>
+  <p class="k">תולדות משפחה · 1760–2026</p>
+  <h1>שורשים<span class="dot">.</span></h1>
+  <div class="row">
+    <p class="sub">שני נתיבים אל אותה נקודה: מוויסלביצה שבמחוז לובלין ומוורשה־אופטוב,
+       דרך גליציה, ווהלין ודורוהוסק שעל נהר הבוג — עד ישראל. כל טענה כאן מגובה
+       במסמך, ומדורגת לפי מידת הוודאות שלה.</p>
+    <div class="stats">
+      <div class="stat"><b>274</b><span>אנשים בעץ</span></div>
+      <div class="stat"><b>111<i>●</i></b><span>מתועדים במסמך</span></div>
+      <div class="stat"><b>260~</b><span>שנות היסטוריה</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="strip"><div class="in">
+  <figure class="plate"><img src="../assets/scans/moskal/m-1919-wojslawice-register.jpg" alt="">
+    <figcaption><b>לוח 01</b><span>1919 · APL</span></figcaption></figure>
+  <figure class="plate"><img src="../assets/scans/albert/1834-akt-znania.jpg" alt="">
+    <figcaption><b>לוח 02</b><span>1834 · Akt Znania</span></figcaption></figure>
+  <figure class="plate"><img src="../assets/scans/moskal/1873-M01.jpg" alt="">
+    <figcaption><b>לוח 03</b><span>1/1873 · M</span></figcaption></figure>
+  <figure class="plate"><img src="../assets/scans/albert/1829-M01.jpg" alt="">
+    <figcaption><b>לוח 04</b><span>1/1829 · M</span></figcaption></figure>
+</div></div>
+
+<div class="branches">
+  <a class="branch moskal" href="#">
+    <span class="tag">צד אמא</span>
+    <h2>מוסקל–שאפיר</h2>
+    <p>מוויסלביצה שבמחוז חלם, דרך שוייז'ה ודורוהוסק שעל נהר הבוג, וגם מראווה
+       רוסקה שבגליציה האוסטרית. חנות משפחתית, בית בירה, וזיכרונות שנכתבו בעצם
+       ידו של מנחם מנדל שאפיר.</p>
+    <p class="places">וויסלביצה · חלם · שוייז'ה · דורוהוסק · ראווה רוסקה · בלז</p>
+    <span class="go">←</span>
+  </a>
+  <a class="branch albert" href="#">
+    <span class="tag">צד אבא</span>
+    <h2>אלברט–ריבנבייריך</h2>
+    <p>מרובע היהודים של ורשה ועד אופטוב החסידית, דרך פיונטק ואיווניסקה.
+       סיפור שנבנה מאקט נישואין אחד שנקרא במלואו.</p>
+    <p class="places">ורשה · אופטוב · איווניסקה · קלימונטוב · פיונטק · לודז'</p>
+    <span class="go">←</span>
+  </a>
+</div>
+
+<section class="tools"><div class="in">
+  <div class="sh"><span class="no">01</span><h3>כלי המחקר</h3></div>
+  <div class="tgrid">
+    <a class="tool" href="#"><span class="idx">01</span><b>אילן יוחסין</b><span>אינטראקטיבי — הקו הישיר שלכם מודגש, בלחיצה על כל אדם</span></a>
+    <a class="tool" href="#"><span class="idx">02</span><b>מפה</b><span>כל המקומות, מסומנים ומקושרים לפרקים</span></a>
+    <a class="tool" href="#"><span class="idx">03</span><b>מסמכים</b><span>סריקות ארכיון עם זום, ותרגום לצד המקור</span></a>
+    <a class="tool" href="#"><span class="idx">04</span><b>נספח מקורות</b><span>כל אקט, מאגר וספר שצוטט — עם ציטוט מלא</span></a>
+    <a class="tool" href="#"><span class="idx">05</span><b>חיפוש</b><span>לפי שם עברי, לטיני, כתיב ארכיוני או מקום</span></a>
+    <a class="tool" href="#"><span class="idx">06</span><b>מתודולוגיה</b><span>איך חקרנו — הארכיונים, המלכודות, השיטה</span></a>
+  </div>
+</div></section>
+
+<section class="treeprev"><div class="in">
+  <div class="sh"><span class="no">02</span><h3>כך ייראה האילן</h3></div>
+  <div class="tcards">
+    <div class="tcard"><b>מלכה מוסקל</b><div class="yr">1914–2003</div><span class="g">●</span></div>
+    <div class="tcard albert focus"><b>אמוץ אלברט</b><div class="yr">‎1974–</div><span class="g">●</span></div>
+    <div class="tcard albert"><b>חיים אלברט</b><div class="yr">1907–1976</div><span class="g">●</span></div>
+  </div>
+  <p class="treenote">כרטיסים לבנים חדים עם צל-בלוק גרפי ופס ענף רחב — כתום-חלודה לצד אמא,
+     סגול לצד אבא. מיקוד בכחול קובלט. קווי חיבור שחורים דקים.</p>
+</div></section>
+
+<section class="log"><div class="in">
+  <div class="sh"><span class="no">03</span><h3>יומן המחקר</h3></div>
+  <div class="logrow"><time>08·08·2026</time><p>ענף מוסקל–אלספקטור–רייס (עד לייבה מוסקל, יליד ~1817) נוסף לעץ ולג'ני, מ"מסמכי 2019"</p></div>
+  <div class="logrow"><time>08·08·2026</time><p>אקט פטירה 6/1833: אהרן ופרלה בוקשפן מדורוהוסק — האבות הקדומים ביותר במחקר</p></div>
+  <div class="logrow"><time>08·08·2026</time><p>אקט פטירה 4/1869: הקשר בין שוייז'ה לוויסלביצה, ומשפחת שיפמן–קץ</p></div>
+</div></section>
+
+<footer>שורשים · מוסקל–שאפיר × אלברט–ריבנבייריך · MMXXVI</footer>
+</body>
+</html>
