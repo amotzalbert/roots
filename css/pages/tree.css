@@ -2,39 +2,61 @@
    שפת הכרטיסים מעוצבת מחדש: פינות חדות, גוון ענף מלא יותר, פס-שדרה
    עבה, ומיקוד אדום. המבנה וה-JS לא נגעו בהם — אסימונים ו-CSS בלבד.  */
 :root{
-  /* גוון לפי ענף — לא לפי מין. 18% צבע ענף על משטח הכרטיס:
-     נוכח באמת, בבהיר ובכהה כאחד. הקו — 75% צבע ענף.               */
-  --moskal-tint:color-mix(in srgb, var(--moskal) 18%, var(--plinth));
-  --albert-tint:color-mix(in srgb, var(--albert) 18%, var(--plinth));
-  --both-tint:color-mix(in srgb, var(--gold) 16%, var(--plinth));
-  --moskal-line:color-mix(in srgb, var(--moskal) 75%, var(--rule-mid));
-  --albert-line:color-mix(in srgb, var(--albert) 75%, var(--rule-mid));
-  --both-line:color-mix(in srgb, var(--gold) 70%, var(--rule-mid));
+  /* גוון לפי ענף — לא לפי מין. עוצמת הגוון תלוית-מצב:
+     על נייר לבן צריך 30% כדי להיראות; על שחור מספיקים 18%.
+     «הקטלוג המודפס» מקבל גם קנבס לבן נבדל, מתאר כהה יותר,
+     ועמעום עדין יותר לשברים.                                        */
+  --tree-mix:30%;
+  --both-mix:10%;
+  --tree-canvas:var(--plinth);
+  --tree-stroke:color-mix(in srgb, var(--ink) 32%, var(--rule-mid));
+  --tree-faded:.62;
+
+  --moskal-tint:color-mix(in srgb, var(--moskal) var(--tree-mix), var(--plinth));
+  --albert-tint:color-mix(in srgb, var(--albert) var(--tree-mix), var(--plinth));
+  --both-tint:color-mix(in srgb, var(--gold) var(--both-mix), var(--plinth));
+  --moskal-line:color-mix(in srgb, var(--moskal) 85%, var(--rule-mid));
+  --albert-line:color-mix(in srgb, var(--albert) 85%, var(--rule-mid));
+  --both-line:color-mix(in srgb, var(--gold) 80%, var(--rule-mid));
   --card-sh:var(--shadow-plinth);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --tree-mix:18%; --both-mix:16%;
+    --tree-canvas:var(--wall);
+    --tree-stroke:var(--rule-mid);
+    --tree-faded:.45;
+  }
+}
+:root[data-theme=dark]{
+  --tree-mix:18%; --both-mix:16%;
+  --tree-canvas:var(--wall);
+  --tree-stroke:var(--rule-mid);
+  --tree-faded:.45;
 }
 
 .treewrap{display:grid;grid-template-columns:1fr 21rem;gap:1.1rem;align-items:start}
 @media (max-width:940px){.treewrap{grid-template-columns:1fr}}
 
-#tree{width:100%;height:min(74vh,760px);background:var(--wall);border:1px solid var(--rule-mid);
+#tree{width:100%;height:min(74vh,760px);background:var(--tree-canvas);border:1px solid var(--rule-mid);
   border-radius:0;cursor:grab;touch-action:none;display:block}
 
 /* קווי חיבור אורתוגונליים */
-.lnk{fill:none;stroke:var(--rule-mid);stroke-width:1.5;stroke-linejoin:round}
+.lnk{fill:none;stroke:var(--tree-stroke);stroke-width:1.5;stroke-linejoin:round}
 .lnk.spouse{stroke-dasharray:4 4;stroke:var(--gold)}
 
 /* כרטיסים — חדים, שדרה עבה, מיקוד אדום */
 .mh-card{cursor:pointer}
-.mh-card .bg{rx:0;stroke:var(--rule-mid);stroke-width:1}
+.mh-card .bg{rx:0;stroke:var(--tree-stroke);stroke-width:1}
 .mh-card .spine{rx:0}
-.mh-card .av{fill:var(--wall);stroke:var(--rule-mid)}
+.mh-card .av{fill:var(--plinth);stroke:var(--tree-stroke)}
 .mh-card .nm{font-family:var(--sans);font-size:13.5px;font-weight:700}
 .mh-card .yr{font-family:var(--mono);font-size:10px}
 .mh-card .ini{font-family:var(--sans);font-size:15px;font-weight:700}
 .mh-card:hover .bg{stroke:var(--accent-fill);stroke-width:1.6}
 .mh-card.is-focus .bg{stroke:var(--accent-fill);stroke-width:2.6}
 .mh-card.is-focus .nm{font-weight:900}
-.mh-card.faded{opacity:.45}
+.mh-card.faded{opacity:var(--tree-faded)}
 .mh-card:focus{outline:none}
 .mh-card:focus .bg{stroke:var(--accent-fill);stroke-width:2.6}
 

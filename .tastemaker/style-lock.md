@@ -30,8 +30,10 @@ Branch photo panels (.bcard on home) are constant-dark in both themes.
 - Red census band (.stats/.tally) — full-bleed accent-fill strip, white 900 numerals.
 - Catalog drawers: list rows that indent on hover via transform:translateX(calc(var(--fwd)*…))
   (--fwd:-1 RTL / 1 LTR) — never padding animation.
-- Tree: sharp corners (CSS rx:0 overrides SVG attr), 18% branch tint cards, thick
-  spines, red focus stroke. Tint formula in tree.css.
+- Tree: sharp corners (CSS rx:0 overrides SVG attr), branch tint cards, thick
+  spines, red focus stroke. Tint strength is THEME-DEPENDENT (--tree-mix: 30% light /
+  18% dark; white canvas + darker strokes + gentler fade in light) — fixed 26 Aug after
+  Amotz flagged the washed-out light tree. Formula in tree.css.
 - Sharp corners everywhere (border-radius:0), 1px rules + 1px heavy rules, no soft chrome.
 - Emoji icons hidden by CSS (.tcard .ic{display:none}), arrows via ::after with
   :lang() direction flip.
