@@ -67,3 +67,55 @@
     if (current() === 'system') root.removeAttribute('data-theme');
   });
 })();
+
+/* ═══ «חדר הקריאה» — תנועת קריאה ═══════════════════════════════════
+   1) חשיפת גלילה שקטה: בלוקים מבניים (לא פסקאות) עולים 10px בכניסה
+      לחלון. ההסתרה חלה רק תחת html.js + prefers-reduced-motion:no-preference
+      (ראו main.css §6) — בלי JS או עם צמצום תנועה הכל גלוי מהרגע הראשון.
+   2) פס התקדמות קריאה בעמודי קריאה ארוכה (פרק/דו"ח).                  */
+(function () {
+  var root = document.documentElement;
+  root.classList.add('js');
+
+  // ── חשיפת גלילה ──
+  var SEL = ['main>h2', 'main>section', '.plinths>*', '.chlist .ch', '.tools .tcard',
+    '.dgrid .dcard', '.slist .sitem', '.rlist>*', '.index .index-row',
+    '.artifact', '.genbox', '.pull', '.introcard', '.grade-key', '.whatsnew li'].join(',');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if (!reduce && 'IntersectionObserver' in window) {
+    var els = document.querySelectorAll(SEL);
+    if (els.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+      Array.prototype.forEach.call(els, function (el) {
+        // מה שכבר על המסך בטעינה — לא מסתירים בכלל (רגע השער עושה את שלו)
+        var r = el.getBoundingClientRect();
+        if (r.top < innerHeight && r.bottom > 0) return;
+        el.setAttribute('data-reveal', '');
+        io.observe(el);
+      });
+    }
+  }
+
+  // ── פס התקדמות קריאה — רק בקריאה ארוכה ──
+  if (document.querySelector('.chapter-meta, .md')) {
+    var bar = document.createElement('div');
+    bar.className = 'readbar';
+    bar.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(bar);
+    var ticking = false;
+    function paintBar() {
+      ticking = false;
+      var h = document.documentElement;
+      var max = h.scrollHeight - innerHeight;
+      bar.style.width = (max > 0 ? Math.min(100, 100 * h.scrollTop / max) : 0) + '%';
+    }
+    addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(paintBar); }
+    }, { passive: true });
+    paintBar();
+  }
+})();

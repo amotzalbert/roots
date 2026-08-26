@@ -1,72 +1,73 @@
-/* ═══ index.html — «ויטרינה» ═══════════════════════════════════════
-   העמוד הראשי: כותרת ענקית לצד פסקת פתיחה, מפקד מעל קו כבד,
-   שני בסיסי ענף, כלי המחקר, ומה חדש כשורות מפתח.
+/* ═══ index.html — «חדר הקריאה» ═════════════════════════════════════
+   שער הספר: כותרת סריף ענקית כעמוד שער, מפקד כשורת פנקס, שני ענפים
+   כפוליו עם קו שוליים, כלי המחקר ככרטיסי קטלוג, ו«מה חדש» כיומן קליטה.
+   אין שינוי מבנה: הסימון נשאר בדיוק כפי שהיה — .hero .stats .branches
+   .bcard .tools .tcard .whatsnew — ואף מילה מתורגמת לא נוגעים בה.     */
 
-   אין כאן שינוי מבנה: הסימון נשאר בדיוק כפי שהיה (.hero .stats
-   .branches .bcard .tools .tcard .whatsnew), כולל ה-JS שמייצר את
-   המפקד — כך שאף מילה מתורגמת ב-en/pl לא נוגעים בה.        */
-
-/* ── פתיחה ─────────────────────────────────────────────────────── */
+/* ── עמוד השער ─────────────────────────────────────────────────── */
 .hero{
   display:grid;
   grid-template-columns:auto 1fr;
-  column-gap:2.8rem;
+  column-gap:3rem;
   align-items:end;
-  padding:2.6rem 0 2rem;
+  padding:3rem 0 2.2rem;
+  position:relative;
 }
-.hero .kicker{grid-column:1/-1;margin-bottom:.6rem}
+.hero .kicker{grid-column:1/-1;margin-bottom:.8rem}
 .hero h1{
   margin:0;
   font-size:var(--t-display);
-  line-height:.82;
+  line-height:.9;
   font-weight:900;
-  letter-spacing:-.035em;
+  letter-spacing:-.02em;
 }
 .hero p:not(.kicker){
   margin:0;
-  padding-bottom:.7rem;
-  padding-inline-start:1.8rem;
-  border-inline-start:1px solid var(--rule);
+  padding-bottom:.6rem;
+  padding-inline-start:1.9rem;
+  border-inline-start:1px solid var(--rule-mid);
   max-width:30rem;
   font-size:var(--t-body);
-  line-height:1.75;
+  line-height:1.9;
   color:var(--ink-2);
 }
 @media (max-width:760px){
-  .hero{grid-template-columns:1fr;row-gap:1.2rem}
+  .hero{grid-template-columns:1fr;row-gap:1.3rem;padding-top:2.2rem}
   .hero p:not(.kicker){padding-inline-start:0;border-inline-start:0;
-    padding-top:1rem;border-top:1px solid var(--rule);max-width:none}
+    padding-top:1.1rem;border-top:1px solid var(--rule);max-width:none}
 }
 
-/* ── מפקד ──────────────────────────────────────────────────────── */
+/* ── מפקד — שורת פנקס מעל קו כפול ─────────────────────────────── */
 .stats{
   display:flex;
-  gap:2.6rem;
+  gap:2.8rem;
   flex-wrap:wrap;
-  margin:.4rem 0 2.4rem;
-  padding-top:1.2rem;
-  border-top:2px solid var(--rule-heavy);
+  margin:.4rem 0 2.6rem;
+  padding-top:1.25rem;
+  border-top:3px double var(--rule-heavy);
 }
 .stat b{
   display:block;
-  font-size:2.2rem;
+  font-family:var(--serif);
+  font-size:2.3rem;
   font-weight:900;
-  letter-spacing:-.025em;
+  letter-spacing:-.02em;
   line-height:1;
   font-variant-numeric:tabular-nums;
   color:var(--ink);
 }
 .stat span{
   display:block;
-  margin-top:.3rem;
+  margin-top:.35rem;
+  font-family:var(--sans);
   font-size:var(--t-label);
-  letter-spacing:.05em;
+  letter-spacing:.07em;
   color:var(--ink-3);
   font-weight:500;
 }
 
-/* ── בסיסי הענפים ──────────────────────────────────────────────── */
-.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin:0 0 3rem}
+/* ── שני הענפים — פוליו עם קו השוליים ─────────────────────────── */
+.branches{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:0 0 3.2rem}
 @media (max-width:760px){.branches{grid-template-columns:1fr}}
 
 .bcard{
@@ -74,19 +75,21 @@
   text-decoration:none;
   color:inherit;
   background:var(--plinth);
-  padding:1.8rem 1.7rem 1.6rem;
-  border-top:4px solid var(--rule-mid);
+  padding:1.9rem 1.8rem 1.6rem;
+  border:1px solid var(--rule);
+  border-inline-start:4px solid var(--rule-mid);
   box-shadow:var(--shadow-plinth);
-  transition:transform .12s ease,box-shadow .12s ease;
+  transition:transform .18s ease;
 }
-.bcard.moskal{border-top-color:var(--moskal)}
-.bcard.albert{border-top-color:var(--albert)}
-.bcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
+.bcard.moskal{border-inline-start-color:var(--moskal)}
+.bcard.albert{border-inline-start-color:var(--albert)}
 .bcard .tag{
   margin:0;
+  font-family:var(--sans);
   font-size:var(--t-label);
-  letter-spacing:.12em;
+  letter-spacing:.15em;
   font-weight:700;
+  text-transform:uppercase;
 }
 .bcard.moskal .tag{color:var(--moskal-ink)}
 .bcard.albert .tag{color:var(--albert-ink)}
@@ -94,43 +97,48 @@
   margin:.55rem 0 .55rem;
   border:0;
   padding:0;
-  font-size:1.75rem;
+  font-size:1.85rem;
   font-weight:900;
-  letter-spacing:-.025em;
+  letter-spacing:-.015em;
 }
-.bcard p{margin:0 0 .9rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.7;max-width:none}
+.bcard h2::after{display:none}
+.bcard p{margin:0 0 .9rem;color:var(--ink-2);font-size:var(--t-small);line-height:1.85;max-width:none}
 .bcard .places{
   margin:0;
-  padding-top:.8rem;
-  border-top:1px solid var(--rule);
+  padding-top:.85rem;
+  border-top:1px dotted var(--rule-mid);
+  font-family:var(--sans);
   font-size:var(--t-label);
   color:var(--ink-3);
-  line-height:1.75;
+  line-height:1.9;
 }
 
-/* ── כלי המחקר ─────────────────────────────────────────────────── */
+/* ── כלי המחקר — כרטיסי קטלוג ─────────────────────────────────── */
 .tools{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));
-  gap:1rem;
-  margin:1.6rem 0 3rem;
+  gap:1.1rem;
+  margin:1.7rem 0 3.2rem;
 }
 .tcard{
   display:block;
-  padding:1.2rem 1.3rem;
+  padding:1.25rem 1.35rem;
   background:var(--plinth);
-  border-top:3px solid var(--rule-mid);
+  border:1px solid var(--rule);
   box-shadow:var(--shadow-plinth);
   text-decoration:none;
   color:inherit;
-  transition:transform .12s ease,box-shadow .12s ease;
+  transition:transform .18s ease,border-color .18s ease;
 }
-.tcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-lift)}
-.tcard .ic{font-size:1.25rem;margin-bottom:.5rem;display:block;filter:grayscale(.35)}
-.tcard h3{margin:.1rem 0 .25rem;font-size:1.05rem;font-weight:700;letter-spacing:-.01em}
-.tcard p{margin:0;font-size:var(--t-label);color:var(--ink-3);line-height:1.6;max-width:none}
+@media (hover:hover) and (pointer:fine){
+  .tcard:hover{border-color:var(--rule-mid)}
+}
+.tcard .ic{font-size:1.3rem;margin-bottom:.55rem;display:block;filter:grayscale(.5);opacity:.9}
+.tcard h3{margin:.1rem 0 .3rem;font-size:1.08rem;font-weight:700;letter-spacing:-.01em}
+.tcard p{margin:0;font-family:var(--sans);font-size:var(--t-label);color:var(--ink-3);
+  line-height:1.65;max-width:none}
 
-/* ── מה חדש — שורות מפתח ───────────────────────────────────────── */
+/* ── מה חדש — יומן הקליטה ─────────────────────────────────────── */
 .whatsnew{margin-top:1rem}
 .whatsnew h2{margin-top:0}
 .whatsnew ul{list-style:none;margin:1.4rem 0 0;padding:0;border-top:1px solid var(--rule)}
@@ -142,7 +150,7 @@
   padding:1rem .3rem;
   border-bottom:1px solid var(--rule);
   font-size:var(--t-small);
-  line-height:1.65;
+  line-height:1.75;
   color:var(--ink-2);
 }
 .whatsnew time{
@@ -156,11 +164,11 @@
   .whatsnew li{flex-direction:column;gap:.4rem}
 }
 
-/* ── תנועה: רגע אחד מתוזמר, ~400ms, ואז שקט ────────────────────── */
+/* ── תנועה: רגע שער אחד, ~550ms, ואז שקט ─────────────────────── */
 @media (prefers-reduced-motion:no-preference){
-  .hero,.stats,.branches>*{animation:vitrine-rise .42s cubic-bezier(.2,.6,.3,1) both}
+  .hero,.stats,.branches>*{animation:folio-rise .55s cubic-bezier(.22,.61,.36,1) both}
   .hero{animation-delay:.02s}
-  .stats{animation-delay:.12s}
-  .branches>*:nth-child(1){animation-delay:.22s}
-  .branches>*:nth-child(2){animation-delay:.30s}
+  .stats{animation-delay:.14s}
+  .branches>*:nth-child(1){animation-delay:.24s}
+  .branches>*:nth-child(2){animation-delay:.32s}
 }
