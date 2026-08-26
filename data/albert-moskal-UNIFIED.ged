@@ -6617,6 +6617,56 @@
 1 FAMC @F1053@
 1 FAMS @F1052@
 
+0 @I1158@ INDI
+1 NAME Szandla /Moskal/
+2 GIVN Szandla
+2 SURN Moskal
+1 SEX F
+1 BIRT
+2 DATE 30 MAR 1888
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE Birth act 15/1888, Wojslawice (APL 35/1787/0/2.1/50, scan 11, right page, folio 175).
+3 CONT Declared 22 Mar/3 Apr 1888 at nine in the morning by JANKIEL MOSKAL, SHOEMAKER, 33,
+3 CONT of the village Krasniczyn, gmina Czajki. Witnesses: Aron Gilwasser, 29, and Icek
+3 CONT Gochman, shoemaker, 52, both of Krasniczyn. Born Krasniczyn 18/30 March 1888 at five
+3 CONT in the afternoon, of his lawful wife ELKA nee ERLICH, 28. Named SZANDLA.
+1 NOTE _CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@).
+2 CONT A TWIN with Chaja-Sura (@I1159@) - acts 15 and 16 record two girls born the same day
+2 CONT to the same parents, with the same two witnesses, registered consecutively.
+2 CONT Identification rests on a four-way exact match with marriage act 9/1875: given name
+2 CONT Jankiel, trade SHOEMAKER, village KRASNICZYN, and wife ELKA nee ERLICH. Entered 26
+2 CONT Aug 2026.
+1 FAMC @F1052@
+1 SOUR @S1001@
+
+0 @I1159@ INDI
+1 NAME Chaja-Sura /Moskal/
+2 GIVN Chaja-Sura
+2 SURN Moskal
+1 SEX F
+1 BIRT
+2 DATE 30 MAR 1888
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE Birth act 16/1888, Wojslawice (APL 35/1787/0/2.1/50, scan 12, left page, folio 175).
+3 CONT Declared 22 Mar/3 Apr 1888 at ten in the morning by JANKIEL MOSKAL, SHOEMAKER, 33,
+3 CONT of Krasniczyn. Same two witnesses as act 15. Born Krasniczyn 15/27 February 1888 at
+3 CONT eleven, of his lawful wife ELKA nee ERLICH, 28. Named CHAJA SURA.
+3 CONT NOTE the birth dates differ between the twins' acts (27 Feb in act 16, 30 Mar in act
+3 CONT 15) although both were registered the same morning by the same father with the same
+3 CONT witnesses - one of the two dates is a clerical slip. NOT resolved; recorded as read.
+1 NOTE _CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@),
+2 CONT on the same four-way match as her sister @I1158@.
+2 CONT >>> THIS CORRECTS A GENI IDENTIFICATION. Geni lists a "Chaia Sura Fox (nee Moskal)"
+2 CONT as a daughter of ABRAM-MOSZKO Moskal (@I1062@); Asaf Feig sent this act as proof.
+2 CONT The act names JANKIEL, not Abram-Moszko - so she is Abram-Moszko's NIECE, not his
+2 CONT daughter. Geni had the right family and the wrong brother.
+2 CONT >>> AND IT CORRECTS MY OWN NOTE OF 24 Aug 2026, which read the father's name as
+2 CONT "Ankiel" and concluded this was an unrelated household. At full zoom the initial is
+2 CONT clearly Я (compare "Явился" opening the same line), i.e. ЯНКЕЛЬ = Jankiel. The
+2 CONT 24 Aug finding file has been corrected.
+1 FAMC @F1052@
+1 SOUR @S1001@
+
 0 @I1119@ INDI
 1 NAME Ruchla-Laja /Moskal/
 2 GIVN Ruchla-Laja
@@ -6675,6 +6725,8 @@
 1 HUSB @I1117@
 1 WIFE @I1118@
 1 CHIL @I1119@
+1 CHIL @I1158@
+1 CHIL @I1159@
 1 MARR
 2 DATE 17 MAR 1875
 2 PLAC Wojslawice, Chelm, Lublin, Poland

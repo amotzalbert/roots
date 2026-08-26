@@ -7981,6 +7981,62 @@
   "siteId": "p-elka-erlich"
  },
  {
+  "id": "p-szandla-moskal",
+  "gedcomId": "I1158",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Szandla Moskal",
+   "given": "Szandla",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "30 MAR 1888",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@).\nA TWIN with Chaja-Sura (@I1159@) - acts 15 and 16 record two girls born the same day\nto the same parents, with the same two witnesses, registered consecutively.\nIdentification rests on a four-way exact match with marriage act 9/1875: given name\nJankiel, trade SHOEMAKER, village KRASNICZYN, and wife ELKA nee ERLICH. Entered 26\nAug 2026."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaja-sura-moskal",
+  "gedcomId": "I1159",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chaja-Sura Moskal",
+   "given": "Chaja-Sura",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "30 MAR 1888",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@),\non the same four-way match as her sister @I1158@.\n>>> THIS CORRECTS A GENI IDENTIFICATION. Geni lists a \"Chaia Sura Fox (nee Moskal)\"\nas a daughter of ABRAM-MOSZKO Moskal (@I1062@); Asaf Feig sent this act as proof.\nThe act names JANKIEL, not Abram-Moszko - so she is Abram-Moszko's NIECE, not his\ndaughter. Geni had the right family and the wrong brother.\n>>> AND IT CORRECTS MY OWN NOTE OF 24 Aug 2026, which read the father's name as\n\"Ankiel\" and concluded this was an unrelated household. At full zoom the initial is\nclearly Я (compare \"Явился\" opening the same line), i.e. ЯНКЕЛЬ = Jankiel. The\n24 Aug finding file has been corrected."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
   "id": "p-ruchla-laja-moskal",
   "gedcomId": "I1119",
   "branch": "moskal",
