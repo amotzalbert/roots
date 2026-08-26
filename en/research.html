@@ -13,8 +13,8 @@ if(v==='light'||v==='dark')document.documentElement.setAttribute('data-theme',v)
 <link rel="alternate" hreflang="en" href="https://amotzalbert.github.io/roots/en/research.html">
 <link rel="alternate" hreflang="pl" href="https://amotzalbert.github.io/roots/pl/research.html">
 <link rel="alternate" hreflang="x-default" href="https://amotzalbert.github.io/roots/research.html">
-<link rel="stylesheet" href="../css/main.css?v=20260826b">
-<link rel="stylesheet" href="../css/pages/research.css?v=20260826b">
+<link rel="stylesheet" href="../css/main.css?v=20260826d">
+<link rel="stylesheet" href="../css/pages/research.css?v=20260826d">
 </head>
 <body>
 <header class="topbar"><div class="topbar-in">
@@ -53,7 +53,7 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 </main>
 
 <footer><div class="in">Roots · A history of the Moskal–Schafir and Albert–Rywenbajrych families</div></footer>
-<script src="../js/ui.js?v=20260826b"></script>
+<script src="../js/ui.js?v=20260826d"></script>
 <script>
 /* מרנדר markdown בסיסי — כותרות, טבלאות, הדגשות, קישורים, ציטוטים.
    בלי ספריות; הקבצים שלנו משתמשים בתת-קבוצה צפויה של התחביר. */
@@ -111,7 +111,7 @@ function render(md){
     return;
   }
   try{
-    const md = await fetch(f + '?v=20260826b').then(r=>{ if(!r.ok) throw 0; return r.text(); });
+    const md = await fetch(f + '?v=20260826d').then(r=>{ if(!r.ok) throw 0; return r.text(); });
     box.innerHTML = '<p class="kicker">Source report · ' + esc(f.replace('research/','').replace('.md','')) + '</p>'
       + '<div class="srcnote">⚠ An internal working report of the research — raw notes with source references, not an edited chapter. The edited chapters are in the menu above. Reports are also available in Hebrew (the original) and Polish via the flags above.</div>'
       + render(md)

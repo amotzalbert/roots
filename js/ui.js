@@ -120,3 +120,55 @@
     paintBar();
   }
 })();
+
+/* ═══ ניווט נייד — «ארכיון שחור» ═══════════════════════════════════
+   בטלפון הפס העליון נשבר לשלוש שורות וגזל שליש מסך. במקום זה:
+   שורה אחת — מותג, מצב תצוגה, וכפתור תפריט שפותח את הניווט הקיים
+   כמגירת עמודה עם יעדי מגע של 48px. שום קישור לא נוצר מחדש —
+   ה-CSS פורס את ה-DOM הקיים, וכך שלוש השפות מקבלות זאת חינם.
+   בלי JS: הפס המקופל הישן נשאר — הכל נגיש גם אז.                    */
+(function () {
+  var bar = document.querySelector('.topbar');
+  var barIn = bar && bar.querySelector('.topbar-in');
+  if (!bar || !barIn) return;
+  var L = { he: { open: 'תפריט', close: 'סגירת התפריט' },
+            en: { open: 'Menu', close: 'Close menu' },
+            pl: { open: 'Menu', close: 'Zamknij menu' } };
+  var lang = (document.documentElement.getAttribute('lang') || 'he').slice(0, 2);
+  var T = L[lang] || L.he;
+
+  var btn = document.createElement('button');
+  btn.className = 'iconbtn menubtn';
+  btn.setAttribute('aria-expanded', 'false');
+  btn.setAttribute('aria-label', T.open);
+  btn.textContent = '☰';
+  barIn.appendChild(btn);
+
+  function setOpen(on, focusFirst) {
+    bar.classList.toggle('open', on);
+    document.documentElement.classList.toggle('nav-open', on);
+    btn.setAttribute('aria-expanded', on ? 'true' : 'false');
+    btn.setAttribute('aria-label', on ? T.close : T.open);
+    btn.textContent = on ? '✕' : '☰';
+    if (on && focusFirst) {
+      var first = bar.querySelector('.tabs a, .navlinks a');
+      if (first) first.focus();
+    }
+  }
+  btn.addEventListener('click', function () {
+    setOpen(!bar.classList.contains('open'), false);
+  });
+  btn.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpen(!bar.classList.contains('open'), true); }
+  });
+  bar.addEventListener('click', function (e) {
+    if (e.target.closest('.tabs a, .navlinks a')) setOpen(false, false);
+  });
+  addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && bar.classList.contains('open')) { setOpen(false, false); btn.focus(); }
+  });
+  var mq = matchMedia('(min-width: 761px)');
+  (mq.addEventListener ? mq.addEventListener.bind(mq, 'change') : mq.addListener.bind(mq))(function (ev) {
+    if (ev.matches) setOpen(false, false);
+  });
+})();

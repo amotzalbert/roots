@@ -326,10 +326,62 @@ input:focus-visible,button:focus-visible,a:focus-visible,[tabindex]:focus-visibl
 }
 @keyframes noir-rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 
-@media (max-width:640px){
-  .navlinks{width:100%;margin:0}
-  .topbar-in{gap:.6rem}
+/* ── 7 · נייד ──────────────────────────────────────────────────────
+   שורת כרום אחת: מותג · מצב תצוגה · תפריט. הניווט הקיים נפרס
+   כמגירת עמודה עם יעדי מגע של 48px — אותו DOM, שלוש השפות חינם.   */
+.menubtn{display:none}
+html.nav-open{overflow:hidden}
+
+@media (max-width:760px){
+  .menubtn{display:inline-flex}
+  .topbar-in{flex-wrap:nowrap;gap:.7rem;padding:.55rem 1.1rem}
   .ctrl{margin-inline-start:auto}
+  .topbar.open .menubtn{margin-inline-start:auto}   /* ה-✕ נשאר באותה פינה */
+  .tabs,.navlinks,.langsw,#bigfont{display:none}
+  .iconbtn{min-width:44px;min-height:44px;display:inline-flex;
+    align-items:center;justify-content:center;font-size:1.1rem}
+  .brand{font-size:1.35rem}
+
+  .topbar.open{max-height:100dvh;overflow:auto;background:var(--wall)}
+  .topbar.open .topbar-in{flex-wrap:wrap;padding-bottom:.4rem}
+
+  .topbar.open .tabs{display:flex;order:10;width:100%;flex-direction:column;gap:0;
+    margin:.4rem 0 0;border-top:1px solid var(--rule-heavy)}
+  .topbar.open .tab{display:flex;align-items:center;min-height:48px;width:100%;
+    padding:.6rem .5rem;font-size:1.1rem;font-weight:700;
+    border-bottom:1px solid var(--rule);border-inline-start:3px solid transparent}
+  .topbar.open .tab.moskal.on{border-bottom:1px solid var(--rule);
+    border-inline-start-color:var(--moskal)}
+  .topbar.open .tab.albert.on{border-bottom:1px solid var(--rule);
+    border-inline-start-color:var(--albert)}
+
+  .topbar.open .navlinks{display:flex;order:11;width:100%;flex-direction:column;
+    gap:0;margin:0}
+  .topbar.open .navlinks a{display:flex;align-items:center;min-height:48px;width:100%;
+    padding:.6rem .5rem;font-size:.95rem;letter-spacing:.08em;
+    border-bottom:1px solid var(--rule);border-inline-start:3px solid transparent}
+  .topbar.open .navlinks a[aria-current=page]{
+    border-bottom:1px solid var(--rule);border-inline-start-color:var(--accent-fill)}
+
+  .topbar.open .ctrl{width:100%;order:12;justify-content:flex-start;
+    gap:.9rem;padding:.9rem .2rem 1rem;margin:0}
+  .topbar.open .langsw{display:inline-flex}
+  .topbar.open .langsw a{padding:.55rem .7rem;min-height:44px}
+  .topbar.open .langsw svg{width:27px;height:19px}
+  .topbar.open #bigfont{display:inline-flex}
+
+  /* קלט בגודל 16px — אחרת iOS מזנק פנימה בזום על כל מיקוד */
+  input[type=search],input[type=text],select{font-size:1rem;min-width:0}
+
   main{padding:2rem 1.1rem 4rem}
   .tally{gap:1.6rem}
+  .index-row .no{letter-spacing:.06em}
+}
+
+/* יעדי מגע — לכל מסך מגע, לא רק צר */
+@media (pointer:coarse){
+  .filters button,.seg button{min-height:44px}
+  .iconbtn{min-width:44px;min-height:44px}
+  .navlinks a,.tab{min-height:40px;display:inline-flex;align-items:center}
+  sup a{padding:.2em .3em}
 }

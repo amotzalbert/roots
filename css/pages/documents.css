@@ -42,3 +42,12 @@
 .lightbox .prev{right:0}.lightbox .next{left:0}
 .lightbox .close{position:absolute;top:.9rem;left:1.3rem;font-size:1.5rem;color:#f2efe9;
   background:none;border:none;cursor:pointer}
+
+/* ── נייד: תיבת האור עם יעדי מגע אמיתיים ── */
+@media (max-width:760px){
+  .lightbox{padding:1rem}
+  .lightbox img{max-height:72vh}
+  .lightbox .close{font-size:1.8rem;padding:.7rem 1.1rem;top:.4rem;left:.6rem}
+  .lightbox .nav{font-size:2.2rem;padding:1.2rem .7rem}
+  .filters button{flex:1;min-width:7.5rem}
+}

@@ -208,7 +208,7 @@
   .branches>*:nth-child(2){animation-delay:.36s}
 }
 @media (max-width:640px){
-  .hero{min-height:64vh;padding-bottom:2.4rem}
+  .hero{min-height:64vh;min-height:64svh;padding-bottom:2.4rem}
   .stats{gap:1.8rem}
   .bcard{min-height:22rem;padding:3.5rem 1.4rem 2.2rem}
   .bcard:nth-child(2){padding:3.5rem 1.4rem 2.2rem}

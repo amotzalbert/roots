@@ -441,16 +441,52 @@ function applyView(){
 }
 function wirePanZoom(svg){
   let drag=null;
+  /* מגע: אצבע אחת גוררת (וגלילה אנכית עוברת לדף דרך touch-action:pan-y
+     בנייד); שתי אצבעות = צביטה — זום סביב נקודת האמצע + הזזה.        */
+  const touches=new Map();
+  let pinch=null;
+  const setPt=e=>touches.set(e.pointerId,{x:e.clientX,y:e.clientY});
   svg.addEventListener('pointerdown',e=>{
+    if(e.pointerType==='touch'){
+      setPt(e); svg.setPointerCapture(e.pointerId);
+      if(touches.size===2){
+        drag=null;
+        const [a,b]=[...touches.values()];
+        pinch={d:Math.hypot(a.x-b.x,a.y-b.y),cx:(a.x+b.x)/2,cy:(a.y+b.y)/2,
+               vx:S.view.x,vy:S.view.y,vk:S.view.k};
+      }else if(touches.size===1){
+        drag={x:e.clientX,y:e.clientY,vx:S.view.x,vy:S.view.y};
+      }
+      return;
+    }
     if(e.target.closest('.node')) return;
     drag={x:e.clientX,y:e.clientY,vx:S.view.x,vy:S.view.y};
     svg.setPointerCapture(e.pointerId); svg.style.cursor='grabbing';
   });
   svg.addEventListener('pointermove',e=>{
+    if(e.pointerType==='touch'&&touches.has(e.pointerId)){
+      setPt(e);
+      if(pinch&&touches.size>=2){
+        const [a,b]=[...touches.values()];
+        const d=Math.hypot(a.x-b.x,a.y-b.y), cx=(a.x+b.x)/2, cy=(a.y+b.y)/2;
+        const r=svg.getBoundingClientRect();
+        const nk=Math.max(.25,Math.min(2.6,pinch.vk*(d/(pinch.d||1))));
+        S.view.x=(cx-r.left)-((pinch.cx-r.left)-pinch.vx)*(nk/pinch.vk);
+        S.view.y=(cy-r.top)-((pinch.cy-r.top)-pinch.vy)*(nk/pinch.vk);
+        S.view.k=nk; applyView(); return;
+      }
+    }
     if(!drag) return;
     S.view.x=drag.vx+(e.clientX-drag.x); S.view.y=drag.vy+(e.clientY-drag.y); applyView();
   });
-  const end=()=>{drag=null; svg.style.cursor='grab';};
+  const end=e=>{
+    if(e&&e.pointerType==='touch'){
+      touches.delete(e.pointerId);
+      if(touches.size<2) pinch=null;
+      if(touches.size===0) drag=null;
+    }else drag=null;
+    svg.style.cursor='grab';
+  };
   svg.addEventListener('pointerup',end); svg.addEventListener('pointercancel',end);
   svg.addEventListener('wheel',e=>{
     e.preventDefault();

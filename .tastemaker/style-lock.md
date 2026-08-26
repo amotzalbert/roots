@@ -44,6 +44,20 @@ readbar via transform:scaleX (transform-origin flips for RTL). Hover: background
 transform indents at .16s, image zoom .35s, all gated (hover:hover) and (pointer:fine).
 scaleX(0) on .readbar is a progress bar at rest — a known audit false-positive.
 
+## Mobile (26 Aug, evening — Amotz: "make the phone version accessible, don't compromise")
+- Chrome = ONE row (brand · theme · ☰ 44px, corner-pinned in both states). The existing
+  nav DOM opens as a column drawer (48px rows, branch-color inline-start markers,
+  enlarged flags/font controls) — ui.js injects only the toggle button (localized
+  aria-label he/en/pl); links are never cloned/recreated, so translations are free.
+  Esc closes, focus returns, html.nav-open locks scroll, no-JS falls back to wrapped bar.
+- Tree touch: #tree{touch-action:pan-y} on mobile — one finger scrolls the PAGE
+  (vertical) or pans the tree (horizontal); TWO-finger pinch zooms + pans (implemented
+  in tree.js wirePanZoom via pointer map). Canvas 58vh, #person becomes static flow
+  (no nested scroll), seg buttons full-width 44px.
+- Inputs ≥1rem on mobile (kills iOS focus auto-zoom). @media(pointer:coarse): 44px
+  minimums on filters/seg/iconbtns, padded footnote sup links. Lightbox controls enlarged.
+- Hero uses svh fallback against address-bar jumps.
+
 ## Hard constraints (project) — unchanged
 - NEVER touch translated text in en/ + pl/. CSS/JS-only; class names = frozen API.
 - tree.css/map.css restyle via tokens only; tree.js/map JS untouched.

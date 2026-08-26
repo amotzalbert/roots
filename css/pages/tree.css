@@ -125,3 +125,20 @@
 /* ── שברים שאינם מחוברים לשושלת הראשית — פער מחקר, מסומן במפורש ── */
 .frag-frame{fill:none;stroke:var(--rule-mid);stroke-width:1.5;stroke-dasharray:7 5}
 .frag-label{font:700 13px var(--mono);fill:var(--ink-3);letter-spacing:.08em}
+
+/* ── נייד — העץ לא כולא את הגלילה ─────────────────────────────────
+   אצבע אחת אנכית גוללת את הדף; גרירה אופקית מזיזה את העץ;
+   שתי אצבעות — צביטה לזום והזזה (tree.js). הקנבס מתקצר, לוח האדם
+   הופך לזרימה רגילה בלי גלילה מקוננת, והפקדים מקבלים יעדי מגע.     */
+@media (max-width:940px){
+  #person{position:static;max-height:none}
+}
+@media (max-width:760px){
+  #tree{height:min(58vh,520px);touch-action:pan-y}
+  .toolbar{gap:.6rem}
+  .findwrap{flex:1;min-width:10rem}
+  .findwrap input{width:100%}
+  .seg{width:100%;display:flex}
+  .seg button{flex:1;min-height:44px;padding:.5rem .4rem}
+  .legend{gap:.7rem 1rem}
+}
