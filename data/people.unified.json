@@ -9936,7 +9936,7 @@
   "gedcomId": "I1191",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "מאיור ריבנבייריך",
    "latin": "Majer Rywenbajrych",
    "given": "Majer",
    "surname": "Rywenbajrych",
@@ -9959,6 +9959,36 @@
   "grade": "documented",
   "sources": [
    "s-s1056"
+  ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-dawid-jakob-rywenbajrych",
+  "gedcomId": "I1192",
+  "branch": "albert",
+  "names": {
+   "he": "דוד־יעקב ריבנבייריך",
+   "latin": "Dawid Jakob Rywenbajrych",
+   "given": "Dawid Jakob",
+   "surname": "Rywenbajrych",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "30 JUL 1858",
+   "place": "Klimontow, Radom Gubernia, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented) Klimontow BIRTH ACT 25/1858, READ FROM THE IMAGE 29 Aug 2026. He was\nnamed in the note on @F4@ from the start but had never been given a record of his own;\nentered now, from the act rather than from that note.\nNo death act has been located for him. He is not among the children whose deaths the\nregister records (Fajga Perla 1857, Dawid Hersz 1862, Szymcha 1864, Chaskiel 1865,\nNecha 1869), so on present evidence he outlived infancy - but nothing traces him\nfurther, and the household lost both parents in 1867, when he was nine.\n>>> A YOUNGER BROTHER WAS NAMED DAWID HERSZL in 1861. Two living sons both called\nDawid would be unusual in an Ashkenazi household, so this may mean Dawid Jakob died\nbetween 1858 and 1861 and his name was reused. NOT PROVEN - no death act found, and\nthe 1859 and 1860 death indexes have not been read. Recorded as an open question.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [
+   "s-s1057"
   ],
   "photos": [],
   "docs": [],

@@ -420,6 +420,7 @@
 1 CHIL @I19@
 1 CHIL @I9@
 1 CHIL @I13@
+1 CHIL @I1192@
 1 CHIL @I10@
 1 CHIL @I14@
 1 CHIL @I15@
@@ -8419,5 +8420,50 @@
 2 CONT albert/sources/klimontow/zgony/1836-1851_zg_P_0986.jpg
 1 TEXT Umarl Maior Rywenbajrych, pol roku majacy, syn Chercyka i Ruchli z Lewkow
 2 CONT Rywenbajrychow, handlarzy w Klimontowie zamieszkalych.
+
+0 @I1192@ INDI
+1 NAME Dawid Jakob /Rywenbajrych/
+2 GIVN Dawid Jakob
+2 SURN Rywenbajrych
+1 SEX M
+1 BIRT
+2 DATE 30 JUL 1858
+2 PLAC Klimontow, Radom Gubernia, Poland
+2 NOTE Born 18/30 July 1858 at one in the afternoon, in the town of Klimontow. Registered
+3 CONT 31 July / 12 August 1858 at five in the morning.
+3 CONT DECLARANT: his father HERCYK RYWENBAJRYCH, trader, aged 43 - his own age statement,
+3 CONT which gives a birth year of about 1815. Witnesses: Moszek Agater, 43, and Ejzyk Kimet,
+3 CONT 44, both szkolnicy (synagogue beadles) of Klimontow. Mother: RUCHLA, aged 36, giving
+3 CONT about 1822 - and the act does NOT give her maiden name, which is why it stands as the
+3 CONT one blank in the series of readings recorded at @I8@.
+3 CONT >>> HIS FATHER SIGNED THE ACT HIMSELF, in Hebrew letters, beneath the Polish text.
+3 CONT Registrar: Ludwik Gnoinski.
+1 FAMC @F4@
+1 NOTE (documented) Klimontow BIRTH ACT 25/1858, READ FROM THE IMAGE 29 Aug 2026. He was
+2 CONT named in the note on @F4@ from the start but had never been given a record of his own;
+2 CONT entered now, from the act rather than from that note.
+2 CONT No death act has been located for him. He is not among the children whose deaths the
+2 CONT register records (Fajga Perla 1857, Dawid Hersz 1862, Szymcha 1864, Chaskiel 1865,
+2 CONT Necha 1869), so on present evidence he outlived infancy - but nothing traces him
+2 CONT further, and the household lost both parents in 1867, when he was nine.
+2 CONT >>> A YOUNGER BROTHER WAS NAMED DAWID HERSZL in 1861. Two living sons both called
+2 CONT Dawid would be unusual in an Ashkenazi household, so this may mean Dawid Jakob died
+2 CONT between 1858 and 1861 and his name was reused. NOT PROVEN - no death act found, and
+2 CONT the 1859 and 1860 death indexes have not been read. Recorded as an open question.
+2 CONT _BRANCH albert
+1 SOUR @S1057@
+
+0 @S1057@ SOUR
+1 TITL Klimontow Jewish register, birth act 25/1858 - Dawid Jakob Rywenbajrych
+1 AUTH Ludwik Gnoinski, Urzednik Stanu Cywilnego, Klimontow
+1 PUBL Archiwum Panstwowe w Sandomierzu, Klimontow_moj_171, annual volume 1858.
+1 NOTE READ FROM THE IMAGE, 29 August 2026.
+2 CONT Local copy: albert/sources/klimontow/acts/1858-B25-dawid-jakob.jpg (right page);
+2 CONT high-resolution halves v-1858B25-L.jpg and v-1858B25-R.jpg.
+1 TEXT Stawil sie Starozakonny Chercyk Rywenbajrych handlarz lat czterdziesci trzy liczacy w
+2 CONT miescie Klimontowie zamieszkaly [...] okazal nam dziecie plci mezkiej urodzone w
+2 CONT miescie Klimontowie na dniu osmnastym trzydziestym Lipca roku biezacego o godzinie
+2 CONT pierwszej po poludniu z malzonki jego Ruchli lat trzydziesci szesc liczacej, ktoremu to
+2 CONT dziecieciu nadane zostaly imiona DAWID JAKOB.
 
 0 TRLR
