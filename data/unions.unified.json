@@ -97,6 +97,8 @@
   "children": [
    "p-malka-blima-rywenbajrych",
    "p-chaja-laja-rywenbajrych",
+   "p-majer-rywenbajrych",
+   "p-szaydla-rywenbajrych",
    "p-chaim-rywenbajrych",
    "p-fajga-perla-rywenbajrych",
    "p-dawid-herszl-rywenbajrych",
@@ -111,13 +113,8 @@
   "id": "u-f5",
   "gedcomId": "F5",
   "branch": "albert",
-  "spouses": [
-   "p-hercyk-rywenbajrych-i17",
-   "p-ryfka"
-  ],
-  "children": [
-   "p-szaydla-rywenbajrych"
-  ],
+  "spouses": [],
+  "children": [],
   "marriage": null,
   "notes": []
  },
@@ -1643,6 +1640,35 @@
   ],
   "children": [
    "p-ester"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1077",
+  "gedcomId": "F1077",
+  "branch": "albert",
+  "spouses": [
+   "p-joachym-cukrowski",
+   "p-gitla-fraymowa"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "19 JUL 1823",
+   "place": "Checiny, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1078",
+  "gedcomId": "F1078",
+  "branch": "albert",
+  "spouses": [
+   "p-jowie-wolfowicz",
+   "p-pinda-wolf"
+  ],
+  "children": [
+   "p-gitla-fraymowa"
   ],
   "marriage": null,
   "notes": []

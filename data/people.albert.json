@@ -629,64 +629,6 @@
   "bioChapter": null
  },
  {
-  "id": "p-hercyk-rywenbajrych-i17",
-  "branch": "albert",
-  "gedcomId": "I17",
-  "names": {
-   "he": "",
-   "latin": "Hercyk Rywenbajrych",
-   "given": "Hercyk",
-   "surname": "Rywenbajrych",
-   "variants": []
-  },
-  "sex": "M",
-  "living": false,
-  "birth": {
-   "date": "ABT 1812"
-  },
-  "death": null,
-  "occupation": "handlarz (trader)",
-  "notes": [
-   "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of\nhouse no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854\neither side of it give the same man's wife as Ruchla, so this cannot be a remarriage.\nEither there were two contemporaries both called Hercyk (making three Hercyks in the\ntown at once, counting our own b. 1838), or the clerk wrote the wrong given name.\nEntered separately rather than merged, so the problem stays visible."
-  ],
-  "grade": null,
-  "sources": [
-   "s-s15"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
-  "id": "p-ryfka",
-  "branch": "albert",
-  "gedcomId": "I18",
-  "names": {
-   "he": "",
-   "latin": "Ryfka",
-   "given": "Ryfka",
-   "surname": "",
-   "variants": []
-  },
-  "sex": "F",
-  "living": false,
-  "birth": {
-   "date": "ABT 1817"
-  },
-  "death": null,
-  "occupation": "",
-  "notes": [
-   "Maiden name reads \"z Lewkow\" - same caveat as for Ruchla; I do not trust my reading of\nthis formula."
-  ],
-  "grade": null,
-  "sources": [
-   "s-s15"
-  ],
-  "photos": [],
-  "docs": [],
-  "bioChapter": null
- },
- {
   "id": "p-szaydla-rywenbajrych",
   "branch": "albert",
   "gedcomId": "I19",

@@ -368,7 +368,8 @@
 0 @I8@ INDI
 1 NAME Ruchla //
 2 GIVN Ruchla
-2 NOTE MAIDEN NAME UNRESOLVED - deliberately left blank. See the note below.
+2 NOTE No surname, and that is correct: she is Ruchla DAUGHTER OF LEWEK - "z Lewkow" /
+3 CONT "z Lewkowiczow" is a patronymic. Resolved 29 Aug 2026; see the notes below.
 1 SEX F
 1 BIRT
 2 DATE ABT 1822
@@ -380,7 +381,22 @@
 2 NOTE (probable) Klimontow death act 53/1867 - not yet read. She had given birth in April
 3 CONT of that year.
 1 FAMS @F4@
-1 NOTE MAIDEN NAME UNRESOLVED, and I am recording this as a limit of my own reading rather
+1 NOTE >>> RESOLVED 29 August 2026: SHE IS RUCHLA, DAUGHTER OF LEWEK. The name is a
+2 CONT PATRONYMIC, not a surname, so she correctly has no surname of her own.
+2 CONT The key document is Klimontow DEATH ACT 14/1850 (@S1056@), read from the image, which
+2 CONT names her plainly as "RUCHLI z LEWKOW" - the short form. Re-read at high magnification,
+2 CONT the clearest of the long-form readings, act 27/1854, is LEWKOWICZOW and not
+2 CONT "Lemkowiczow": the third letter is a single-humped w. LEWKOW and LEWKOWICZOW are the
+2 CONT same patronymic, short and long. That resolves the whole series below in one reading,
+2 CONT and it also identifies the "Ryfka z Lewkow" of act 19/1852 as herself - see @I18@.
+2 CONT The rival KIMET/KIMEL reading is dropped: the 1852 register uses "z Kimlow" for a
+2 CONT DIFFERENT woman on the page facing her own act, which is why the two names kept
+2 CONT crossing in my readings.
+2 CONT >>> Her father LEWEK is not entered as a person: he is known from this formula alone,
+2 CONT with no act, no dates and no other mention. Not to be confused with LEWEK @I1186@ of
+2 CONT Checiny - different town, different generation, common name.
+1 NOTE THE ORIGINAL CAUTION, KEPT SO THE CORRECTION STAYS LEGIBLE - "MAIDEN NAME UNRESOLVED,
+2 CONT and I am recording this as a limit of my own reading rather
 2 CONT than pretending to a conclusion. Across seven birth acts read in the original, the
 2 CONT maiden-name formula reads: 46/1845 "z Leml(ow)"; 12/1847 illegible; 27/1854
 2 CONT "z Lemkowiczow"; 20/1856 "z Kimetow"; 25/1858 no maiden name given; 12/1861
@@ -400,6 +416,8 @@
 1 WIFE @I8@
 1 CHIL @I11@
 1 CHIL @I12@
+1 CHIL @I1191@
+1 CHIL @I19@
 1 CHIL @I9@
 1 CHIL @I13@
 1 CHIL @I10@
@@ -484,7 +502,7 @@
 1 SOUR @S14@
 
 0 @I17@ INDI
-1 NAME Hercyk /Rywenbajrych/
+1 NAME Hercyk /Rywenbajrych/ [duplicate of @I6@]
 2 GIVN Hercyk
 2 SURN Rywenbajrych
 2 NOTE A THIRD Hercyk, or the same man as @I6@ with a wife I cannot reconcile - see below.
@@ -494,13 +512,21 @@
 1 OCCU handlarz (trader)
 1 RESI
 2 PLAC Klimontow, house no. 122 (1852)
-1 FAMS @F5@
-1 NOTE UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of
-2 CONT house no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854
-2 CONT either side of it give the same man's wife as Ruchla, so this cannot be a remarriage.
-2 CONT Either there were two contemporaries both called Hercyk (making three Hercyks in the
-2 CONT town at once, counting our own b. 1838), or the clerk wrote the wrong given name.
-2 CONT Entered separately rather than merged, so the problem stays visible.
+1 NOTE >>> RESOLVED 29 August 2026, AND THIS RECORD IS NOW A DUPLICATE OF @I6@. <<<
+2 CONT The old note read: "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych,
+2 CONT trader, aged 40, of house no. 122, and his wife RYFKA, aged 35 - not Ruchla. Either
+2 CONT there were two contemporaries both called Hercyk, or the clerk wrote the wrong given
+2 CONT name. Entered separately rather than merged, so the problem stays visible."
+2 CONT IT WAS THE CLERK. Klimontow DEATH ACT 14/1850, read from the image on 29 Aug 2026,
+2 CONT names the parents of the dead infant Majer as "CHERCYKA i RUCHLI z LEWKOW
+2 CONT RYWENBAJRYCHOW, handlarzy w Klimontowie" - Hercyk and RUCHLA "z Lewkow", the very
+2 CONT formula the 1852 clerk attached to a "Ryfka". The maiden name is the same in 1850,
+2 CONT 1852 and 1854; only the given name slipped, in 1852 alone.
+2 CONT His stated ages agree as well: 33 (1845), 37 (1847), 40 (1852), 42 (1854).
+2 CONT >>> This @I17@ and his wife @I18@ are the SAME PEOPLE as @I6@ and @I8@. Their child
+2 CONT Szaydla @I19@ has been moved to @F4@. The two shell records are kept, empty of family
+2 CONT links, so that the mistake and its correction stay legible; they are not ancestors and
+2 CONT should not be counted as people.
 1 NOTE SHARPENED 29 Aug 2026, from the images of all three acts. It is not only the wife's
 2 CONT GIVEN name that disagrees - her MAIDEN name disagrees too, and differently each time:
 2 CONT   act 12/1847 - Ruchla "z Sternebugow", he is an OIL TRADER (handlarz oleju), 37,
@@ -519,46 +545,48 @@
 1 SOUR @S15@
 
 0 @I18@ INDI
-1 NAME Ryfka //
+1 NAME Ryfka // [duplicate of Ruchla @I8@]
 2 GIVN Ryfka
 1 SEX F
 1 BIRT
 2 DATE ABT 1817
-1 FAMS @F5@
-1 NOTE READING VERIFIED 29 Aug 2026, from the image at high magnification. The act reads
-2 CONT "z Malzonki iego RYFKI Z LEWKOW lat trzydziesci piec liczacy". The word is short and
-2 CONT ends in -kow; there is no -icz- in it. The earlier caveat - "I do not trust my
-2 CONT reading of this formula" - is withdrawn: the reading itself is certain.
-1 NOTE INTERPRETATION: "z Lewkow" is a PATRONYMIC, daughter of Lewek, not a maiden surname.
-2 CONT Two independent grounds.
-2 CONT (1) LEWEK IS A GIVEN NAME, not a surname - the Yiddish Lejwe/Lejb. The Checiny kahal
-3 CONT certificate of 1824 (@S1053@) proves the equation for another woman, writing the same
-3 CONT formula out in full as "ESTER LEWKOWNA" - Ester daughter of Lewek. See @I1179@.
-2 CONT (2) THIS CLERK USES "z ...ow" FOR BOTH surnames and patronymics, so the construction
-3 CONT settles nothing by itself; what settles it is the word inside. On these very pages he
-3 CONT writes "z Grynbergow" and "z Sternebugow" (surnames) but also "z KIMLOW" - act
-3 CONT 18/1852, the act immediately beside this one - and "z MELECHOW" (act 26/1854). Kimel
-3 CONT and Melech are given names, exactly like Lewek.
-2 CONT >>> NOT to be connected to LEWEK @I1186@ of Checiny. Different town, different
-3 CONT generation, a very common name. No evidence joins them, and none is claimed.
-1 NOTE >>> AND A LARGER PROBLEM, FOUND WHILE CHECKING THIS. Three acts of Hercyk
-2 CONT Rywenbajrych @I17@ give THREE DIFFERENT maiden names for his wife, all read from the
-2 CONT images on 29 Aug 2026:
-2 CONT   act 12/1847 - RUCHLA "z Sternebugow" (Sternberg-type, Germanic)
-2 CONT   act 19/1852 - RYFKA  "z Lewkow"      (patronymic)
-2 CONT   act 27/1854 - RUCHLA "z Lemkowiczow" (patronymic-derived surname)
-2 CONT His stated ages fit ONE man (37 in 1847, 40 in 1852, 42 in 1854, so born about
-2 CONT 1810-1812), but the wives cannot be one woman. Either there were two contemporaries
-2 CONT called Hercyk Rywenbajrych, or he was twice widowed inside seven years, or the clerk
-2 CONT was careless. UNRESOLVED, and left visible rather than smoothed over.
-2 CONT >>> BECAUSE OF THIS, NO FATHER "Lewek of Klimontow" HAS BEEN ENTERED for her. It
-3 CONT would build a generation on top of a couple that is itself unproven.
+1 NOTE >>> RESOLVED 29 August 2026. THIS IS RUCHLA @I8@, AND THIS RECORD IS A DUPLICATE. <<<
+2 CONT The reading itself was verified first, from the image at high magnification: birth act
+2 CONT 19/1852 does say "z Malzonki iego RYFKI z LEWKOW lat trzydziesci piec liczacy". The
+2 CONT word is short, ends in -kow, and has no -icz- in it.
+2 CONT WHAT SETTLED IT was a different act. Klimontow DEATH ACT 14/1850 (@S1056@) names the
+2 CONT parents of the infant Majer as "CHERCYKA i RUCHLI Z LEWKOW RYWENBAJRYCHOW" - the same
+2 CONT maiden formula, on RUCHLA. So "Ryfka" in 1852 is the clerk's slip on the GIVEN name,
+2 CONT and the maiden name is the constant that runs through 1850, 1852, 1854, 1863 and 1867.
+2 CONT Her stated age fits too: 35 in 1852 gives about 1817, and Ruchla's own 1847 statement
+2 CONT of 30 gives the same year.
+1 NOTE ON THE MAIDEN NAME ITSELF - "z Lewkow" is a PATRONYMIC, daughter of LEWEK, not a
+2 CONT surname. Two grounds. (1) Lewek is a given name, the Yiddish Lejwe/Lejb; the Checiny
+2 CONT kahal certificate of 1824 (@S1053@) writes the identical formula out in full for
+2 CONT another woman as "ESTER LEWKOWNA", Ester daughter of Lewek - see @I1179@. (2) The
+2 CONT Klimontow clerk uses "z ...ow" for both surnames and patronymics, so the construction
+2 CONT settles nothing by itself; what settles it is the word inside. On the very page facing
+2 CONT this act he writes "z KIMLOW" (act 18/1852), and elsewhere "z MELECHOW" (26/1854) -
+2 CONT Kimel and Melech being given names, exactly like Lewek - alongside true surnames like
+2 CONT "z Grynbergow".
+2 CONT >>> NOT to be connected to LEWEK @I1186@ of Checiny: different town, different
+2 CONT generation, a very common name. No evidence joins them and none is claimed.
+1 NOTE >>> AND THIS UNLOCKS @I8@. Ruchla's maiden formula had been read nine different ways
+2 CONT and left open: "z Leml(ow)" 1845, "z Lemkowiczow" 1854, "z Kimetow" 1856,
+2 CONT "z Komkowiczow" 1861, "z Lemkowiczow" 1863 and 1867, "z Lemelow" 1865. Re-read at high
+2 CONT magnification on 29 Aug 2026, the 1854 word is LEWKOWICZOW - the third letter is a
+2 CONT single-humped w, not an m. LEWKOWICZ and LEWKOW are the same patronymic in its long
+2 CONT and short forms. See @I8@.
 1 SOUR @S15@
-
+1 SOUR @S1056@
 0 @F5@ FAM
-1 HUSB @I17@
-1 WIFE @I18@
-1 CHIL @I19@
+1 NOTE SUPERSEDED 29 August 2026. This provisional couple - Hercyk @I17@ and Ryfka @I18@ -
+2 CONT was created only because birth act 19/1852 called the wife RYFKA where the acts either
+2 CONT side called her Ruchla. Death act 14/1850 (@S1056@) shows the 1852 clerk simply wrote
+2 CONT the wrong given name: the maiden formula "z Lewkow" belongs to RUCHLA. The couple is
+2 CONT @F4@, and their daughter Szaydla @I19@ now sits there.
+2 CONT The empty shell is kept rather than deleted so the error and its correction stay in
+2 CONT the record.
 
 0 @I19@ INDI
 1 NAME Szaydla /Rywenbajrych/
@@ -570,7 +598,11 @@
 2 PLAC Klimontow, Radom Gubernia, Poland
 2 NOTE Registered 23 April. Witnesses: Szachna Grynberg, 30, and Chaskel Salzberg, 23, both
 3 CONT traders of Klimontow.
-1 FAMC @F5@
+1 FAMC @F4@
+1 NOTE REASSIGNED 29 Aug 2026 from the provisional couple @F5@ to @F4@. Her mother, entered
+2 CONT in 1852 as "Ryfka z Lewkow", is now shown to be RUCHLA @I8@; see @I8@ and @I1191@.
+2 CONT She also fills the 1847-1854 gap in her parents' otherwise two-yearly births, together
+2 CONT with her brother Majer @I1191@ b. about March 1850.
 1 NOTE (documented) Klimontow birth act 19/1852, read in the original. Note the witness
 2 CONT CHASKEL SALZBERG: a Salzberg / Zalcberg family is present in Klimontow in this period,
 2 CONT which makes "Chaja Rajza nee Zalcberg" in the 1903 death act (@I4@) a plausible local
@@ -7901,7 +7933,7 @@
 1 SOUR @S1050@
 1 SOUR @S1051@
 1 SOUR @S1052@
-1 SOUR @S1054@
+1 SOUR @S1056@
 
 0 @I1177@ INDI
 1 NAME Esterka /Chojna/
@@ -7934,7 +7966,7 @@
 2 CONT _BRANCH albert
 1 SOUR @S1049@
 1 SOUR @S1050@
-1 SOUR @S1054@
+1 SOUR @S1056@
 
 0 @F1071@ FAM
 1 HUSB @I1176@
@@ -8167,10 +8199,17 @@
 3 CONT the man wrote himself CHAIM. Kept under the Polish form because that is what every
 3 CONT Polish document calls him.
 1 SEX M
+1 BIRT
+2 DATE ABT 1788
+2 NOTE "maiacy podlug zlozonego przed Nami AKTU ZNANIA sporzadzonego w Sadzie Pokoju Powiatu
+3 CONT Kieleckiego Woiewodztwa Krakowskiego LAT TRZYDZIESCI PIEC" - thirty-five years on
+3 CONT 19 July 1823 (@S1055@). Born about 1788, which makes him SEVEN YEARS OLDER THAN ARON
+3 CONT (b. 21 Feb 1795) and therefore the elder brother.
 1 OCCU Trader (handlarz)
 1 RESI
 2 PLAC Checiny, Poland
 1 FAMC @F1071@
+1 FAMS @F1077@
 1 NOTE (documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is
 2 CONT the first declarant of his father's death in Checiny in 1823: "stawili sie
 2 CONT Starozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach
@@ -8183,8 +8222,26 @@
 2 CONT in 1826 because that is when separate Jewish registers began; nothing of this family
 2 CONT before 1826 can be in it.
 2 CONT _BRANCH albert
+1 NOTE (documented) HIS MARRIAGE - act 23 of the Checiny register for 1823, karta 211, read
+2 CONT from the image 29 August 2026 (@S1055@): on 19 July 1823 he married GITLA FRAYMOWA,
+2 CONT 34, daughter of Jowie Wolfowicz and Pinda z Wolfow. See @F1077@.
+2 CONT >>> ** THE MARRIAGE ACT GIVES HIS FATHER A DIFFERENT PATRONYMIC. ** It calls him
+2 CONT "Syn MARTKA SZMULOWICZA w Rudzie Strawczynskiey i Gminie zamieszkalego" - son of
+2 CONT Mortka SON OF SZMUL - and his mother "Estery z L[...]ow, a teraz zwana Cukrowska".
+2 CONT But the death act of that same father, drawn by the SAME registrar three months
+2 CONT later, reads "Rodzicow WULFA i DWOYRY Cukrowskich [...] Syn", and the Checiny kahal
+2 CONT certificate of December 1823 calls the couple "WULFOWICZOW na teraz Cukrowskich".
+2 CONT Both words were checked at maximum magnification and both are unambiguous in the
+2 CONT manuscript: this is a conflict between the documents, not a misreading.
+2 CONT TWO DOCUMENTS SAY WULF, ONE SAYS SZMUL. Wulf and Dwojra therefore stand in the tree,
+2 CONT and the Szmulowicz form is recorded rather than acted on. One possibility worth
+2 CONT testing: that Wulf was himself WULF SZMULOWICZ, and the July clerk reached a
+2 CONT generation too far back.
+2 CONT >>> The mother's family is given differently too - "z L[...]ow" here against
+2 CONT "z Choynow" / "z Chaynow" in the 1824 marriage act and in the kahal certificate.
 1 SOUR @S1052@
-1 SOUR @S1054@
+1 SOUR @S1056@
+1 SOUR @S1055@
 
 0 @I1185@ INDI
 1 NAME Szmul //
@@ -8242,5 +8299,125 @@
 2 CONT Located through the volume's own alphabetical death index: entry 30, "Cukrowski
 2 CONT Mortka, lat 71, karta 318".
 2 CONT Local copy: albert/sources/checiny-1823/p88.jpg (index: p94-p97).
+
+0 @S1055@ SOUR
+1 TITL Chęciny civil register 1823, marriage act 23 - Jochym Cukrowski and Gitla Fraymowa, 19 July 1823
+1 AUTH Rev. Antoni Jedryszko, Mansionarius, deputy Registrar of Civil Status of gmina Checiny
+1 PUBL Archiwum Panstwowe w Kielcach, Checiny civil register for 1823. Karta 211, act 23. GenBaza album "Checiny_AP Kielce / 1823", scan _22_051.jpg (image 52 of 99); the alphabetical marriage index is on scan 60, entry 19: "Jachym Cukrowski i Gitla Fraymowa - 211".
+1 NOTE READ FROM THE IMAGE, 29 August 2026. Found first in the Swietogen index (indexer:
+2 CONT Edward Jablonski), then read in the register itself.
+2 CONT >>> Swietogen indexes the CATHOLIC parish of Checiny (births 1766-1917, marriages
+2 CONT 1766-1919, deaths 1789-1905). There is NO "Checiny Mojzeszowi" entry in its parish
+3 CONT list, so the separate JEWISH register from 1826 on is NOT indexed there. The two
+3 CONT Cukrowski records it does hold - this marriage and death act 220 - are both of 1823,
+3 CONT before the registers split, which is why they fall inside its coverage at all.
+2 CONT A Hebrew signature line stands under the act. It is NOT confidently legible at this
+2 CONT resolution and no reading of it is recorded here.
+2 CONT Local copy: albert/sources/checiny-1823/p52.jpg (index: p60.jpg).
+
+0 @I1187@ INDI
+1 NAME Gitla /Fraymowa/
+2 GIVN Gitla
+2 SURN Fraymowa
+2 NOTE FRAYMOWA is the form the act uses, a married/female form; the underlying family name
+3 CONT is likely FRAYM / FRAJM. Her father is given an unrelated name (Wolfowicz), so
+3 CONT "Fraymowa" is probably a house-name rather than a patronymic.
+1 SEX F
+1 BIRT
+2 DATE ABT 1789
+2 NOTE "lat trzydziesci cztery skonczonych" - thirty-four completed - on 19 July 1823,
+3 CONT proved by an AKT ZNANIA drawn in the Sad Pokoju of Kielce powiat.
+1 FAMC @F1078@
+1 FAMS @F1077@
+1 NOTE (documented, by name) WIFE OF JOACHYM CUKROWSKI @I1184@, married at Checiny on
+2 CONT 19 July 1823. Entered 29 August 2026 from marriage act 23/1823 (@S1055@).
+2 CONT _BRANCH albert
+1 SOUR @S1055@
+
+0 @I1188@ INDI
+1 NAME Jowie /Wolfowicz/
+2 GIVN Jowie
+2 SURN Wolfowicz
+2 NOTE WOLFOWICZ is a patronymic - son of Wulf. "Jowie" is the act's spelling; the name is
+3 CONT probably Jowel / Joel.
+1 SEX M
+1 FAMS @F1078@
+1 NOTE (documented, by name) FATHER OF GITLA @I1187@. Named in marriage act 23/1823 of the
+2 CONT Checiny register: "Corka JOWIE WOLFOWICZA a Matki PINDY z WOLFOW".
+2 CONT _BRANCH albert
+1 SOUR @S1055@
+
+0 @I1189@ INDI
+1 NAME Pinda /Wolf/
+2 GIVN Pinda
+2 SURN Wolf
+2 NOTE The act reads "Matki PINDY z WOLFOW". Same caveat as elsewhere in this file: the
+3 CONT "z ...ow" formula is usually a PATRONYMIC, not a maiden surname - the point was
+3 CONT settled at @I1186@. She is probably Pinda daughter of Wulf.
+1 SEX F
+1 FAMS @F1078@
+1 NOTE (documented, by name) MOTHER OF GITLA @I1187@.
+2 CONT _BRANCH albert
+1 SOUR @S1055@
+
+0 @F1077@ FAM
+1 HUSB @I1184@
+1 WIFE @I1187@
+1 MARR
+2 DATE 19 JUL 1823
+2 PLAC Checiny, Poland
+2 NOTE Act 23 of the Checiny civil register for 1823, karta 211, at ten in the morning before
+3 CONT Rev. Antoni Jedryszko. BOTH parties proved their age by an AKT ZNANIA drawn in the
+3 CONT Sad Pokoju of Kielce powiat - not by a kahal certificate, which is how Aron and Tauba
+3 CONT proved theirs six months later at Strawczyn. Four Jewish witnesses of Checiny.
+3 CONT >>> THREE MONTHS AND TEN DAYS LATER the groom's father was dead, and it was this same
+3 CONT Joachym who declared the death (act 220/1823, @S1054@).
+1 SOUR @S1055@
+
+0 @F1078@ FAM
+1 HUSB @I1188@
+1 WIFE @I1189@
+1 CHIL @I1187@
+1 NOTE Corrected 29 Aug 2026: this family pointed at a nonexistent @I1190@, an xref that was never
+2 CONT written. Their daughter is Gitla @I1187@, who already names @F1078@ as her parents.
+1 NOTE Parents of Gitla Fraymowa. Established 29 August 2026 from marriage act 23/1823 of the
+2 CONT Checiny register.
+1 SOUR @S1055@
+
+0 @I1191@ INDI
+1 NAME Majer /Rywenbajrych/
+2 GIVN Majer
+2 SURN Rywenbajrych
+1 SEX M
+1 BIRT
+2 DATE ABT MAR 1850
+2 PLAC Klimontow, Radom Gubernia, Poland
+2 NOTE Inferred from his stated age at death - "pol roku majacy", half a year old, on
+3 CONT 22 September 1850. No birth act has been located; the 1850 birth register has not
+3 CONT been searched for him.
+1 DEAT
+2 DATE 22 SEP 1850
+2 PLAC Klimontow, Radom Gubernia, Poland
+2 NOTE Klimontow death act 14/1850, READ FROM THE IMAGE 29 Aug 2026 (AP Sandomierz,
+3 CONT Klimontow_moj_171, 1836-1851_zg, scan _P_0986, right page, karta 244).
+3 CONT Died 10/22 September 1850 at two at night, registered 12/24 September by the two
+3 CONT standing declarants of that year, Kalman Goldhamer, salt trader, 62, and Lejbus
+3 CONT Grynblat, schoolman, 60.
+3 CONT >>> THE SENTENCE THAT MATTERS: "umarl MAIOR RYWENBAJRYCH, pol roku majacy, syn
+3 CONT CHERCYKA i RUCHLI z LEWKOW RYWENBAJRYCHOW, handlarzy w Klimontowie zamieszkalych".
+1 FAMC @F4@
+1 NOTE (documented) Son of Hercyk @I6@ and Ruchla @I8@, named in his own death act.
+2 CONT He is the elder brother of Szaydla @I19@, b. 16 April 1852.
+2 CONT _BRANCH albert
+1 SOUR @S1056@
+
+0 @S1056@ SOUR
+1 TITL Klimontow Jewish register, death act 14/1850 - Majer Rywenbajrych
+1 AUTH Urzednik Stanu Cywilnego Gnoinski, Klimontow
+1 PUBL Archiwum Panstwowe w Sandomierzu, Klimontow_moj_171, unit "1836-1851_zg". Image _P_0986.JPG via legacy.jri-poland.org; the same page is GenBaza unit 388138 page 128.
+1 NOTE READ FROM THE IMAGE, 29 August 2026. Local copy:
+2 CONT albert/sources/klimontow/zgony/1836-1851_zg_P_0986.jpg
+1 TEXT Umarl Maior Rywenbajrych, pol roku majacy, syn Chercyka i Ruchli z Lewkow
+2 CONT Rywenbajrychow, handlarzy w Klimontowie zamieszkalych.
 
 0 TRLR

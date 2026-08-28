@@ -115,20 +115,6 @@
   ]
  },
  {
-  "id": "u-f5",
-  "branch": "albert",
-  "gedcomId": "F5",
-  "spouses": [
-   "p-hercyk-rywenbajrych-i17",
-   "p-ryfka"
-  ],
-  "children": [
-   "p-szaydla-rywenbajrych"
-  ],
-  "marriage": null,
-  "notes": []
- },
- {
   "id": "u-f10",
   "branch": "albert",
   "gedcomId": "F10",
