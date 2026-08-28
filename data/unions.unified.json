@@ -620,7 +620,8 @@
    "p-srul-lejb-szaufer",
    "p-estera-malka-szaufer",
    "p-dawid-szaufer",
-   "p-gersz-szaufer"
+   "p-gersz-szaufer",
+   "p-srul-glezer"
   ],
   "marriage": {
    "date": "21 JAN 1873",
@@ -831,7 +832,7 @@
   "children": [
    "p-judka-lejba-moskal",
    "p-civja-moskal",
-   "p-wolf-szpilhajzen"
+   "p-wulf-moskal"
   ],
   "marriage": {
    "date": "2 JAN 1878",
@@ -1018,7 +1019,7 @@
    "p-ita-moskal",
    "p-brana-gitla-moskal",
    "p-henia-moskal",
-   "p-perla-szpilhajzen"
+   "p-herszko-moskal"
   ],
   "marriage": null,
   "notes": []
@@ -1081,6 +1082,48 @@
   "notes": []
  },
  {
+  "id": "u-f1068",
+  "gedcomId": "F1068",
+  "branch": "albert",
+  "spouses": [
+   "p-falka-michlowicz",
+   "p-ryfka-glezer"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "26 NOV 1811",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1069",
+  "gedcomId": "F1069",
+  "branch": "albert",
+  "spouses": [
+   "p-michlowicz",
+   "p-estera"
+  ],
+  "children": [
+   "p-falka-michlowicz"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1070",
+  "gedcomId": "F1070",
+  "branch": "albert",
+  "spouses": [
+   "p-duwid"
+  ],
+  "children": [
+   "p-ita-glezer"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
   "id": "u-f1035",
   "gedcomId": "F1035",
   "branch": "albert",
@@ -1092,7 +1135,8 @@
    "p-sura-glezer",
    "p-srul-glezer",
    "p-chaja-ruchla-glezer",
-   "p-ita-glezer-i1100"
+   "p-ita-glezer-i1100",
+   "p-abram-glezer"
   ],
   "marriage": null,
   "notes": []
@@ -1175,7 +1219,8 @@
    "p-ita-glezer"
   ],
   "children": [
-   "p-herszko-glezer"
+   "p-herszko-glezer",
+   "p-ryfka-glezer"
   ],
   "marriage": null,
   "notes": []
@@ -1336,8 +1381,8 @@
   ],
   "children": [
    "p-ruchla-laja-moskal",
-   "p-sura-kapel",
-   "p-szmul-glezer-i1159"
+   "p-szandla-moskal",
+   "p-chaja-sura-moskal"
   ],
   "marriage": {
    "date": "17 MAR 1875",
