@@ -501,6 +501,21 @@
 2 CONT Either there were two contemporaries both called Hercyk (making three Hercyks in the
 2 CONT town at once, counting our own b. 1838), or the clerk wrote the wrong given name.
 2 CONT Entered separately rather than merged, so the problem stays visible.
+1 NOTE SHARPENED 29 Aug 2026, from the images of all three acts. It is not only the wife's
+2 CONT GIVEN name that disagrees - her MAIDEN name disagrees too, and differently each time:
+2 CONT   act 12/1847 - Ruchla "z Sternebugow", he is an OIL TRADER (handlarz oleju), 37,
+3 CONT house no. 309
+2 CONT   act 19/1852 - Ryfka  "z Lewkow",      he is a trader, 40, house no. 122
+2 CONT   act 27/1854 - Ruchla "z Lemkowiczow", he is a trader, 42, house no. 605
+2 CONT THE AGES FIT ONE MAN (born about 1810-1812). THE WIVES DO NOT FIT ONE WOMAN. Three
+2 CONT different maiden names in seven years cannot be explained by a slip of the given
+2 CONT name alone, which was the working theory until now.
+2 CONT >>> The remaining readings: two remarriages inside seven years; or two distinct men
+3 CONT of the same name and near-identical age in one small town; or a clerk who copied
+3 CONT maiden names carelessly. Nothing in these three acts decides between them.
+2 CONT >>> WHAT WOULD DECIDE IT: the Klimontow DEATH register 1847-1854, for a Ruchla or a
+3 CONT Ryfka Rywenbajrych. Two burials would prove the remarriages; none would point to two
+3 CONT men. Not yet searched.
 1 SOUR @S15@
 
 0 @I18@ INDI
@@ -510,8 +525,34 @@
 1 BIRT
 2 DATE ABT 1817
 1 FAMS @F5@
-1 NOTE Maiden name reads "z Lewkow" - same caveat as for Ruchla; I do not trust my reading of
-2 CONT this formula.
+1 NOTE READING VERIFIED 29 Aug 2026, from the image at high magnification. The act reads
+2 CONT "z Malzonki iego RYFKI Z LEWKOW lat trzydziesci piec liczacy". The word is short and
+2 CONT ends in -kow; there is no -icz- in it. The earlier caveat - "I do not trust my
+2 CONT reading of this formula" - is withdrawn: the reading itself is certain.
+1 NOTE INTERPRETATION: "z Lewkow" is a PATRONYMIC, daughter of Lewek, not a maiden surname.
+2 CONT Two independent grounds.
+2 CONT (1) LEWEK IS A GIVEN NAME, not a surname - the Yiddish Lejwe/Lejb. The Checiny kahal
+3 CONT certificate of 1824 (@S1053@) proves the equation for another woman, writing the same
+3 CONT formula out in full as "ESTER LEWKOWNA" - Ester daughter of Lewek. See @I1179@.
+2 CONT (2) THIS CLERK USES "z ...ow" FOR BOTH surnames and patronymics, so the construction
+3 CONT settles nothing by itself; what settles it is the word inside. On these very pages he
+3 CONT writes "z Grynbergow" and "z Sternebugow" (surnames) but also "z KIMLOW" - act
+3 CONT 18/1852, the act immediately beside this one - and "z MELECHOW" (act 26/1854). Kimel
+3 CONT and Melech are given names, exactly like Lewek.
+2 CONT >>> NOT to be connected to LEWEK @I1186@ of Checiny. Different town, different
+3 CONT generation, a very common name. No evidence joins them, and none is claimed.
+1 NOTE >>> AND A LARGER PROBLEM, FOUND WHILE CHECKING THIS. Three acts of Hercyk
+2 CONT Rywenbajrych @I17@ give THREE DIFFERENT maiden names for his wife, all read from the
+2 CONT images on 29 Aug 2026:
+2 CONT   act 12/1847 - RUCHLA "z Sternebugow" (Sternberg-type, Germanic)
+2 CONT   act 19/1852 - RYFKA  "z Lewkow"      (patronymic)
+2 CONT   act 27/1854 - RUCHLA "z Lemkowiczow" (patronymic-derived surname)
+2 CONT His stated ages fit ONE man (37 in 1847, 40 in 1852, 42 in 1854, so born about
+2 CONT 1810-1812), but the wives cannot be one woman. Either there were two contemporaries
+2 CONT called Hercyk Rywenbajrych, or he was twice widowed inside seven years, or the clerk
+2 CONT was careless. UNRESOLVED, and left visible rather than smoothed over.
+2 CONT >>> BECAUSE OF THIS, NO FATHER "Lewek of Klimontow" HAS BEEN ENTERED for her. It
+3 CONT would build a generation on top of a couple that is itself unproven.
 1 SOUR @S15@
 
 0 @F5@ FAM
@@ -7837,11 +7878,11 @@
 3 CONT Checiny before Rev. Antoni Jedryszko by his son JOACHYM CUKROWSKI, trader, and
 3 CONT Herszla Waxman, szpitalnik, both of Checiny: he died "na Dniu wczorayszym o
 3 CONT godzinie siodmey wieczorem" - yesterday at seven in the evening - in house no. 44.
-3 CONT >>> DATE CAVEAT: the act is dated "Dnia trzydziestego" of a month read as
-3 CONT PAZDZIERNIKA (October); the month word is not perfectly crisp. The death is
-3 CONT therefore the 29th of that month. It cannot be December: the certified extract
-3 CONT itself is dated 29 December 1823. The ORIGINAL act in the Checiny 1823 register
-3 CONT will settle the month.
+3 CONT >>> DATE CONFIRMED 29 August 2026 FROM THE ORIGINAL ACT (@S1054@), karta 318 of the
+3 CONT Checiny 1823 register: "Dnia TRZYDZIESTEGO PAZDZIERNIKA" - the act is of 30 October,
+3 CONT the death of the day before. The caveat entered on 28 August is withdrawn.
+3 CONT >>> The original also records that the declarants "PODPISALI PO HEBRAYSZKU" - signed
+3 CONT in Hebrew - and two Hebrew signatures stand under the act.
 1 FAMC @F1074@
 1 FAMS @F1071@
 1 NOTE (documented, by name) FATHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of
@@ -7860,6 +7901,7 @@
 1 SOUR @S1050@
 1 SOUR @S1051@
 1 SOUR @S1052@
+1 SOUR @S1054@
 
 0 @I1177@ INDI
 1 NAME Esterka /Chojna/
@@ -7870,11 +7912,18 @@
 3 CONT recorded at @I18@ for "z Lewkow". It may be a patronymic form.
 1 SEX F
 1 DEAT
-2 DATE 1823
-2 NOTE From the Checiny kahal certificate of 29 December 1823 (@S1050@), which speaks of
-3 CONT Aron's father and mother together: "ktorzy DOPIERO TEGO ROKU ZMARLI" - who died
-3 CONT only this year. Both parents died in 1823. Her own death act has not been sought;
-3 CONT it should stand in the Checiny 1823 register, near her husband's.
+2 DATE BEF 29 DEC 1823
+2 NOTE ** CORRECTED 29 August 2026 - this was entered as "1823" and that was an over-read. **
+3 CONT The Checiny kahal certificate (@S1050@) says of Aron's parents "ktorzy DOPIERO TEGO
+3 CONT ROKU ZMARLI" - who died only this year - and on 28 August I took that as a death year
+3 CONT for her. It is not supported. The ALPHABETICAL DEATH INDEX of the Checiny 1823
+3 CONT register was read on 29 August (@S1054@): 288 deaths, and the whole C block is
+3 CONT Cybulina, Chepinski, Chruscicki, Chrabia and Cukrowski Mortka. THERE IS NO CUKROWSKA
+3 CONT ESTERA IN IT.
+3 CONT What is certain is only that she was dead by the date of the certificate,
+3 CONT 29 December 1823. Where and when she died is open. Places to look: the Strawczyn
+3 CONT register (the family had a household at Ruda), a Checiny register of an earlier year,
+3 CONT or an index entry under her maiden family CHOJNA / CHAYN.
 1 FAMS @F1071@
 1 NOTE (documented, by name) MOTHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of
 2 CONT the Strawczyn register as "Esterki z Choynow", and in the Checiny kahal certificate
@@ -7885,6 +7934,7 @@
 2 CONT _BRANCH albert
 1 SOUR @S1049@
 1 SOUR @S1050@
+1 SOUR @S1054@
 
 0 @F1071@ FAM
 1 HUSB @I1176@
@@ -8111,6 +8161,11 @@
 1 NAME Joachym /Cukrowski/
 2 GIVN Joachym
 2 SURN Cukrowski
+2 NICK Chaim
+2 NOTE HIS OWN SIGNATURE, in Hebrew letters, stands under his father's death act (@S1054@,
+3 CONT karta 318): it reads CHAIM CUKROWSKI. "Joachym" is the Polish clerk's rendering;
+3 CONT the man wrote himself CHAIM. Kept under the Polish form because that is what every
+3 CONT Polish document calls him.
 1 SEX M
 1 OCCU Trader (handlarz)
 1 RESI
@@ -8122,8 +8177,14 @@
 2 CONT zamieszkali". No age is given for him and nothing else about him is yet known.
 2 CONT >>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records
 2 CONT of the 1820s-40s should carry his marriage and children.
+2 CONT >>> THE PLACE TO LOOK IS NOW KNOWN: the separate JEWISH civil register of Checiny
+2 CONT (akta stanu cywilnego wyznania mojzeszowego) survives and is scanned in full from
+2 CONT 1826 to 1942 - GenBaza album "Checiny_moj_AP Kielce", one volume per year. It begins
+2 CONT in 1826 because that is when separate Jewish registers began; nothing of this family
+2 CONT before 1826 can be in it.
 2 CONT _BRANCH albert
 1 SOUR @S1052@
+1 SOUR @S1054@
 
 0 @I1185@ INDI
 1 NAME Szmul //
@@ -8163,5 +8224,23 @@
 1 NOTE Established 28 August 2026 from the Checiny kahal certificate of Toba Moszkowna.
 2 CONT The wife is unknown.
 1 SOUR @S1053@
+
+0 @S1054@ SOUR
+1 TITL Chęciny civil register 1823, death act 220 - the ORIGINAL act of Mortka Cukrowski
+1 AUTH Rev. Antoni Jedryszko, Mansionarius, deputy Registrar of Civil Status of gmina Checiny
+1 PUBL Archiwum Panstwowe w Kielcach, Checiny civil register for 1823 (60 karty). Karta 318, act 220. GenBaza album "Checiny_AP Kielce / 1823", scan _22_087.jpg (image 88 of 99); the alphabetical death index is on scans 95-97.
+1 NOTE READ FROM THE IMAGE, 29 August 2026. This is the ORIGINAL act, not the certified
+2 CONT extract @S1052@ that was filed with the 1824 marriage. It confirms the extract word
+2 CONT for word AND settles the date: "Dnia TRZYDZIESTEGO PAZDZIERNIKA" - the thirtieth of
+3 CONT OCTOBER 1823, the death "na Dniu wczorayszym o godzinie siodmey wieczor" - the day
+3 CONT before, at seven in the evening. The month caveat recorded on 28 August is closed.
+2 CONT >>> The act adds a line the extract does not stress: "Po czem Oswiadczaiacy PODPISALI
+2 CONT PO HEBRAYSZKU z Nami niniejszy Akt Zeyscia" - the declarants signed in HEBREW, and
+3 CONT two Hebrew signatures stand on the page. The first reads CHAIM CUKROWSKI, which is
+3 CONT the Hebrew name of the man the Polish clerk calls JOACHYM (@I1184@). The second is
+3 CONT the witness Herszla Waxman; its reading is less certain.
+2 CONT Located through the volume's own alphabetical death index: entry 30, "Cukrowski
+2 CONT Mortka, lat 71, karta 318".
+2 CONT Local copy: albert/sources/checiny-1823/p88.jpg (index: p94-p97).
 
 0 TRLR

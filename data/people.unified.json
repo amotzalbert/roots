@@ -733,7 +733,8 @@
   "death": null,
   "occupation": "handlarz (trader)",
   "notes": [
-   "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of\nhouse no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854\neither side of it give the same man's wife as Ruchla, so this cannot be a remarriage.\nEither there were two contemporaries both called Hercyk (making three Hercyks in the\ntown at once, counting our own b. 1838), or the clerk wrote the wrong given name.\nEntered separately rather than merged, so the problem stays visible."
+   "UNRESOLVED. Klimontow birth act 19/1852 names Hercyk Rywenbayrych, trader, aged 40, of\nhouse no. 122, and his wife RYFKA, aged 35 - not Ruchla. But acts of 1847 and 1854\neither side of it give the same man's wife as Ruchla, so this cannot be a remarriage.\nEither there were two contemporaries both called Hercyk (making three Hercyks in the\ntown at once, counting our own b. 1838), or the clerk wrote the wrong given name.\nEntered separately rather than merged, so the problem stays visible.",
+   "SHARPENED 29 Aug 2026, from the images of all three acts. It is not only the wife's\nGIVEN name that disagrees - her MAIDEN name disagrees too, and differently each time:\n  act 12/1847 - Ruchla \"z Sternebugow\", he is an OIL TRADER (handlarz oleju), 37,\nhouse no. 309\n  act 19/1852 - Ryfka  \"z Lewkow\",      he is a trader, 40, house no. 122\n  act 27/1854 - Ruchla \"z Lemkowiczow\", he is a trader, 42, house no. 605\nTHE AGES FIT ONE MAN (born about 1810-1812). THE WIVES DO NOT FIT ONE WOMAN. Three\ndifferent maiden names in seven years cannot be explained by a slip of the given\nname alone, which was the working theory until now.\n>>> The remaining readings: two remarriages inside seven years; or two distinct men\nof the same name and near-identical age in one small town; or a clerk who copied\nmaiden names carelessly. Nothing in these three acts decides between them.\n>>> WHAT WOULD DECIDE IT: the Klimontow DEATH register 1847-1854, for a Ruchla or a\nRyfka Rywenbajrych. Two burials would prove the remarriages; none would point to two\nmen. Not yet searched."
   ],
   "grade": null,
   "sources": [
@@ -764,7 +765,9 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "Maiden name reads \"z Lewkow\" - same caveat as for Ruchla; I do not trust my reading of\nthis formula."
+   "READING VERIFIED 29 Aug 2026, from the image at high magnification. The act reads\n\"z Malzonki iego RYFKI Z LEWKOW lat trzydziesci piec liczacy\". The word is short and\nends in -kow; there is no -icz- in it. The earlier caveat - \"I do not trust my\nreading of this formula\" - is withdrawn: the reading itself is certain.",
+   "INTERPRETATION: \"z Lewkow\" is a PATRONYMIC, daughter of Lewek, not a maiden surname.\nTwo independent grounds.\n(1) LEWEK IS A GIVEN NAME, not a surname - the Yiddish Lejwe/Lejb. The Checiny kahal\ncertificate of 1824 (@S1053@) proves the equation for another woman, writing the same\nformula out in full as \"ESTER LEWKOWNA\" - Ester daughter of Lewek. See @I1179@.\n(2) THIS CLERK USES \"z ...ow\" FOR BOTH surnames and patronymics, so the construction\nsettles nothing by itself; what settles it is the word inside. On these very pages he\nwrites \"z Grynbergow\" and \"z Sternebugow\" (surnames) but also \"z KIMLOW\" - act\n18/1852, the act immediately beside this one - and \"z MELECHOW\" (act 26/1854). Kimel\nand Melech are given names, exactly like Lewek.\n>>> NOT to be connected to LEWEK @I1186@ of Checiny. Different town, different\ngeneration, a very common name. No evidence joins them, and none is claimed.",
+   ">>> AND A LARGER PROBLEM, FOUND WHILE CHECKING THIS. Three acts of Hercyk\nRywenbajrych @I17@ give THREE DIFFERENT maiden names for his wife, all read from the\nimages on 29 Aug 2026:\n  act 12/1847 - RUCHLA \"z Sternebugow\" (Sternberg-type, Germanic)\n  act 19/1852 - RYFKA  \"z Lewkow\"      (patronymic)\n  act 27/1854 - RUCHLA \"z Lemkowiczow\" (patronymic-derived surname)\nHis stated ages fit ONE man (37 in 1847, 40 in 1852, 42 in 1854, so born about\n1810-1812), but the wives cannot be one woman. Either there were two contemporaries\ncalled Hercyk Rywenbajrych, or he was twice widowed inside seven years, or the clerk\nwas careless. UNRESOLVED, and left visible rather than smoothed over.\n>>> BECAUSE OF THIS, NO FATHER \"Lewek of Klimontow\" HAS BEEN ENTERED for her. It\nwould build a generation on top of a couple that is itself unproven."
   ],
   "grade": null,
   "sources": [
@@ -9534,7 +9537,8 @@
    "s-s1049",
    "s-s1050",
    "s-s1051",
-   "s-s1052"
+   "s-s1052",
+   "s-s1054"
   ],
   "photos": [],
   "docs": [],
@@ -9555,7 +9559,7 @@
   "living": false,
   "birth": null,
   "death": {
-   "date": "1823",
+   "date": "BEF 29 DEC 1823",
    "place": null
   },
   "occupation": "",
@@ -9565,7 +9569,8 @@
   "grade": "documented",
   "sources": [
    "s-s1049",
-   "s-s1050"
+   "s-s1050",
+   "s-s1054"
   ],
   "photos": [],
   "docs": [],
@@ -9761,7 +9766,9 @@
    "latin": "Joachym Cukrowski",
    "given": "Joachym",
    "surname": "Cukrowski",
-   "variants": []
+   "variants": [
+    "Chaim"
+   ]
   },
   "sex": "M",
   "living": true,
@@ -9769,11 +9776,12 @@
   "death": null,
   "occupation": "Trader (handlarz)",
   "notes": [
-   "(documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is\nthe first declarant of his father's death in Checiny in 1823: \"stawili sie\nStarozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach\nzamieszkali\". No age is given for him and nothing else about him is yet known.\n>>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records\nof the 1820s-40s should carry his marriage and children.\n_BRANCH albert"
+   "(documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is\nthe first declarant of his father's death in Checiny in 1823: \"stawili sie\nStarozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach\nzamieszkali\". No age is given for him and nothing else about him is yet known.\n>>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records\nof the 1820s-40s should carry his marriage and children.\n>>> THE PLACE TO LOOK IS NOW KNOWN: the separate JEWISH civil register of Checiny\n(akta stanu cywilnego wyznania mojzeszowego) survives and is scanned in full from\n1826 to 1942 - GenBaza album \"Checiny_moj_AP Kielce\", one volume per year. It begins\nin 1826 because that is when separate Jewish registers began; nothing of this family\nbefore 1826 can be in it.\n_BRANCH albert"
   ],
   "grade": "documented",
   "sources": [
-   "s-s1052"
+   "s-s1052",
+   "s-s1054"
   ],
   "photos": [],
   "docs": [],
