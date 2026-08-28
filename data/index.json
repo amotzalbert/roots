@@ -5,7 +5,7 @@
   "branch": "albert",
   "label": "ריוון ריבנבייריך",
   "sub": "Rywen Rywenbajrych",
-  "terms": "ריוון ריבנבייריך Rywen Rywenbajrych 1790"
+  "terms": "ריוון ריבנבייריך Rywen Rywenbajrych ריוון ריבנבייריך"
  },
  {
   "id": "p-laca",
@@ -13,7 +13,7 @@
   "branch": "albert",
   "label": "לאצה",
   "sub": "Laca",
-  "terms": "לאצה Laca 1792 1835"
+  "terms": "לאצה Laca לאצה"
  },
  {
   "id": "p-jeremiasz-rywenbajrych",
@@ -21,7 +21,7 @@
   "branch": "albert",
   "label": "ירמיאש ריבנבייריך",
   "sub": "Jeremiasz Rywenbajrych",
-  "terms": "ירמיאש ריבנבייריך Jeremiasz Rywenbajrych 1820"
+  "terms": "ירמיאש ריבנבייריך Jeremiasz Rywenbajrych ירמיאש ריבנבייריך"
  },
  {
   "id": "p-hercyk-rywenbajrych",
@@ -29,7 +29,7 @@
   "branch": "albert",
   "label": "הרציק ריבנבייריך",
   "sub": "Hercyk Rywenbajrych",
-  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych 1795"
+  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych הרציק ריבנבייריך"
  },
  {
   "id": "p-laja",
@@ -37,7 +37,7 @@
   "branch": "albert",
   "label": "לאיה",
   "sub": "Laja",
-  "terms": "לאיה Laja"
+  "terms": "לאיה Laja לאיה"
  },
  {
   "id": "p-haja-zalzberg",
@@ -45,7 +45,7 @@
   "branch": "albert",
   "label": "חיה ריבנבייריך לבית זלצברג",
   "sub": "Haja Zalzberg",
-  "terms": "חיה ריבנבייריך לבית זלצברג Haja Zalzberg 1820"
+  "terms": "חיה ריבנבייריך לבית זלצברג Haja Zalzberg חיה ריבנבייריך לבית זלצברג"
  },
  {
   "id": "p-zalzberg",
@@ -53,7 +53,7 @@
   "branch": "albert",
   "label": "זלצברג",
   "sub": "Zalzberg",
-  "terms": "זלצברג Zalzberg 1834"
+  "terms": "זלצברג Zalzberg זלצברג"
  },
  {
   "id": "p-tauba-zalzberg",
@@ -61,7 +61,7 @@
   "branch": "albert",
   "label": "טאובה זלצברג",
   "sub": "Tauba Zalzberg",
-  "terms": "טאובה זלצברג Tauba Zalzberg"
+  "terms": "טאובה זלצברג Tauba Zalzberg טאובה זלצברג"
  },
  {
   "id": "p-izrael-rywenbajrych",
@@ -69,7 +69,7 @@
   "branch": "albert",
   "label": "ישראל ריבנבייריך",
   "sub": "Izrael Rywenbajrych",
-  "terms": "ישראל ריבנבייריך Izrael Rywenbajrych 1817 1867"
+  "terms": "ישראל ריבנבייריך Izrael Rywenbajrych ישראל ריבנבייריך"
  },
  {
   "id": "p-chaja-rayzla",
@@ -77,7 +77,7 @@
   "branch": "albert",
   "label": "חיה־רייזלה",
   "sub": "Chaja Rayzla",
-  "terms": "חיה־רייזלה Chaja Rayzla 1818"
+  "terms": "חיה־רייזלה Chaja Rayzla חיהרייזלה"
  },
  {
   "id": "p-hercyk-rywenbajrych-i5",
@@ -85,7 +85,7 @@
   "branch": "albert",
   "label": "הרציק ריבנבייריך",
   "sub": "Hercyk Rywenbajrych",
-  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych 1838 1903"
+  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych הרציק ריבנבייריך"
  },
  {
   "id": "p-tauba-cyrla-rywenbajrych",
@@ -93,7 +93,7 @@
   "branch": "albert",
   "label": "טאובה־צירלה ריבנבייריך",
   "sub": "Tauba Cyrla Rywenbajrych",
-  "terms": "טאובה־צירלה ריבנבייריך Tauba Cyrla Rywenbajrych"
+  "terms": "טאובה־צירלה ריבנבייריך Tauba Cyrla Rywenbajrych טאובהצירלה ריבנבייריך"
  },
  {
   "id": "p-hercyk-rywenbajrych-i6",
@@ -101,7 +101,7 @@
   "branch": "albert",
   "label": "הרציק ריבנבייריך",
   "sub": "Hercyk Rywenbajrych",
-  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych 1814 1867"
+  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych הרציק ריבנבייריך"
  },
  {
   "id": "p-ruchla",
@@ -109,7 +109,7 @@
   "branch": "albert",
   "label": "רוחלה",
   "sub": "Ruchla",
-  "terms": "רוחלה Ruchla 1822 1867"
+  "terms": "רוחלה Ruchla רוחלה"
  },
  {
   "id": "p-fajga-perla-rywenbajrych",
@@ -117,7 +117,7 @@
   "branch": "albert",
   "label": "פייגה־פרלה ריבנבייריך",
   "sub": "Fajga Perla Rywenbajrych",
-  "terms": "פייגה־פרלה ריבנבייריך Fajga Perla Rywenbajrych 1856 1857"
+  "terms": "פייגה־פרלה ריבנבייריך Fajga Perla Rywenbajrych פייגהפרלה ריבנבייריך"
  },
  {
   "id": "p-szymcha-rywenbajrych",
@@ -125,7 +125,7 @@
   "branch": "albert",
   "label": "שמחה ריבנבייריך",
   "sub": "Szymcha Rywenbajrych",
-  "terms": "שמחה ריבנבייריך Szymcha Rywenbajrych 1863 1864"
+  "terms": "שמחה ריבנבייריך Szymcha Rywenbajrych שמחה ריבנבייריך"
  },
  {
   "id": "p-haskiel-rywenbajrych",
@@ -133,7 +133,7 @@
   "branch": "albert",
   "label": "חסקיל ריבנבייריך",
   "sub": "Haskiel Rywenbajrych",
-  "terms": "חסקיל ריבנבייריך Haskiel Rywenbajrych 1865 1865"
+  "terms": "חסקיל ריבנבייריך Haskiel Rywenbajrych חסקיל ריבנבייריך"
  },
  {
   "id": "p-necha-rywenbajrych",
@@ -141,7 +141,7 @@
   "branch": "albert",
   "label": "נחה ריבנבייריך",
   "sub": "Necha Rywenbajrych",
-  "terms": "נחה ריבנבייריך Necha Rywenbajrych 1867 1869"
+  "terms": "נחה ריבנבייריך Necha Rywenbajrych נחה ריבנבייריך"
  },
  {
   "id": "p-hercyk-rywenbajrych-i17",
@@ -149,7 +149,7 @@
   "branch": "albert",
   "label": "הרציק ריבנבייריך",
   "sub": "Hercyk Rywenbajrych",
-  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych 1812"
+  "terms": "הרציק ריבנבייריך Hercyk Rywenbajrych הרציק ריבנבייריך"
  },
  {
   "id": "p-ryfka",
@@ -157,7 +157,7 @@
   "branch": "albert",
   "label": "ריפקה",
   "sub": "Ryfka",
-  "terms": "ריפקה Ryfka 1817"
+  "terms": "ריפקה Ryfka ריפקה"
  },
  {
   "id": "p-szaydla-rywenbajrych",
@@ -165,7 +165,7 @@
   "branch": "albert",
   "label": "שיידלה ריבנבייריך",
   "sub": "Szaydla Rywenbajrych",
-  "terms": "שיידלה ריבנבייריך Szaydla Rywenbajrych 1852"
+  "terms": "שיידלה ריבנבייריך Szaydla Rywenbajrych שיידלה ריבנבייריך"
  },
  {
   "id": "p-malka-blima-rywenbajrych",
@@ -173,7 +173,7 @@
   "branch": "albert",
   "label": "מלכה־בלימה ריבנבייריך",
   "sub": "Malka Blima Rywenbajrych",
-  "terms": "מלכה־בלימה ריבנבייריך Malka Blima Rywenbajrych 1845"
+  "terms": "מלכה־בלימה ריבנבייריך Malka Blima Rywenbajrych מלכהבלימה ריבנבייריך"
  },
  {
   "id": "p-chaja-laja-rywenbajrych",
@@ -181,7 +181,7 @@
   "branch": "albert",
   "label": "חיה־לאיה ריבנבייריך",
   "sub": "Chaja Laja Rywenbajrych",
-  "terms": "חיה־לאיה ריבנבייריך Chaja Laja Rywenbajrych 1847"
+  "terms": "חיה־לאיה ריבנבייריך Chaja Laja Rywenbajrych חיהלאיה ריבנבייריך"
  },
  {
   "id": "p-chaim-rywenbajrych",
@@ -189,7 +189,7 @@
   "branch": "albert",
   "label": "חיים ריבנבייריך",
   "sub": "Chaim Rywenbajrych",
-  "terms": "חיים ריבנבייריך Chaim Rywenbajrych 1854"
+  "terms": "חיים ריבנבייריך Chaim Rywenbajrych חיים ריבנבייריך"
  },
  {
   "id": "p-dawid-herszl-rywenbajrych",
@@ -197,7 +197,7 @@
   "branch": "albert",
   "label": "דוד־הרשל ריבנבייריך",
   "sub": "Dawid Herszl Rywenbajrych",
-  "terms": "דוד־הרשל ריבנבייריך Dawid Herszl Rywenbajrych 1861 1862"
+  "terms": "דוד־הרשל ריבנבייריך Dawid Herszl Rywenbajrych דודהרשל ריבנבייריך"
  },
  {
   "id": "p-moszek-wajsblum",
@@ -205,7 +205,7 @@
   "branch": "albert",
   "label": "מושק ווייסבלום",
   "sub": "Moszek Wajsblum",
-  "terms": "מושק ווייסבלום Moszek Wajsblum"
+  "terms": "מושק ווייסבלום Moszek Wajsblum Waisblum Wajcblum Weissblum מושק ווייסבלום"
  },
  {
   "id": "p-gella-ginsburg",
@@ -213,7 +213,7 @@
   "branch": "albert",
   "label": "גלה ווייסבלום לבית גינסבורג",
   "sub": "Gella Ginsburg",
-  "terms": "גלה ווייסבלום לבית גינסבורג Gella Ginsburg"
+  "terms": "גלה ווייסבלום לבית גינסבורג Gella Ginsburg Ginzburg Ginsberg גלה ווייסבלום לבית גינסבורג"
  },
  {
   "id": "p-tobiasz-wajsblum",
@@ -221,7 +221,7 @@
   "branch": "albert",
   "label": "טוביאש ווייסבלום",
   "sub": "Tobiasz Wajsblum",
-  "terms": "טוביאש ווייסבלום Tobiasz Wajsblum 1885"
+  "terms": "טוביאש ווייסבלום Tobiasz Wajsblum טוביאש ווייסבלום"
  },
  {
   "id": "p-tobiasz-wajsblum-i23",
@@ -229,7 +229,7 @@
   "branch": "albert",
   "label": "טוביאש ווייסבלום",
   "sub": "Tobiasz Wajsblum",
-  "terms": "טוביאש ווייסבלום Tobiasz Wajsblum 1889"
+  "terms": "טוביאש ווייסבלום Tobiasz Wajsblum טוביאש ווייסבלום"
  },
  {
   "id": "p-bajla-szajndla-wajsblum",
@@ -237,7 +237,7 @@
   "branch": "albert",
   "label": "ביילה־שיינדלה ריבנבייריך לבית ווייסבלום",
   "sub": "Bajla Szajndla Wajsblum",
-  "terms": "ביילה־שיינדלה ריבנבייריך לבית ווייסבלום Bajla Szajndla Wajsblum 1892 1942"
+  "terms": "ביילה־שיינדלה ריבנבייריך לבית ווייסבלום Bajla Szajndla Wajsblum ביילהשיינדלה ריבנבייריך לבית ווייסבלום"
  },
  {
   "id": "p-tuvia-rywenbajrych",
@@ -245,7 +245,7 @@
   "branch": "albert",
   "label": "טוביה ריבנבייריך",
   "sub": "Tuvia Rywenbajrych",
-  "terms": "טוביה ריבנבייריך Tuvia Rywenbajrych 1888 1942"
+  "terms": "טוביה ריבנבייריך Tuvia Rywenbajrych Tobjasz Rubinbajrach Tomasz טוביה ריבנבייריך"
  },
  {
   "id": "p-chana-rywenbajrych",
@@ -253,7 +253,7 @@
   "branch": "albert",
   "label": "חנה אלברט לבית ריבנבייריך",
   "sub": "Chana Rywenbajrych",
-  "terms": "חנה אלברט לבית ריבנבייריך Chana Rywenbajrych 1917"
+  "terms": "חנה אלברט לבית ריבנבייריך Chana Rywenbajrych Chana Sura חנה אלברט לבית ריבנבייריך"
  },
  {
   "id": "p-fajga-rachla-rywenbajrych",
@@ -261,7 +261,7 @@
   "branch": "albert",
   "label": "פייגה־רחל ריבנבייריך",
   "sub": "Fajga Rachla Rywenbajrych",
-  "terms": "פייגה־רחל ריבנבייריך Fajga Rachla Rywenbajrych 1920"
+  "terms": "פייגה־רחל ריבנבייריך Fajga Rachla Rywenbajrych פייגהרחל ריבנבייריך"
  },
  {
   "id": "p-rafael-wajsblum",
@@ -269,7 +269,7 @@
   "branch": "albert",
   "label": "רפאל ווייסבלום",
   "sub": "Rafael Wajsblum",
-  "terms": "רפאל ווייסבלום Rafael Wajsblum"
+  "terms": "רפאל ווייסבלום Rafael Wajsblum רפאל ווייסבלום"
  },
  {
   "id": "p-fajga",
@@ -277,7 +277,7 @@
   "branch": "albert",
   "label": "פייגה ווייסבלום",
   "sub": "Fajga",
-  "terms": "פייגה ווייסבלום Fajga"
+  "terms": "פייגה ווייסבלום Fajga Cypojra Tzipora פייגה ווייסבלום"
  },
  {
   "id": "p-moshe-wajsblum",
@@ -285,7 +285,7 @@
   "branch": "albert",
   "label": "משה ווייסבלום",
   "sub": "Moshe Wajsblum",
-  "terms": "משה ווייסבלום Moshe Wajsblum"
+  "terms": "משה ווייסבלום Moshe Wajsblum Veisblum משה ווייסבלום"
  },
  {
   "id": "p-reizel-wajsblum",
@@ -293,7 +293,7 @@
   "branch": "albert",
   "label": "רייזל־שושנה שנאוג לבית ווייסבלום",
   "sub": "Reizel Wajsblum",
-  "terms": "רייזל־שושנה שנאוג לבית ווייסבלום Reizel Wajsblum 1900 1942"
+  "terms": "רייזל־שושנה שנאוג לבית ווייסבלום Reizel Wajsblum Szoszana Rozana Schoehnbak Sheinbakh רייזלשושנה שנאוג לבית ווייסבלום"
  },
  {
   "id": "p-yehoshua-szenaug",
@@ -301,7 +301,7 @@
   "branch": "albert",
   "label": "יהושע שנאוג",
   "sub": "Yehoshua Szenaug",
-  "terms": "יהושע שנאוג Yehoshua Szenaug 1890 1942"
+  "terms": "יהושע שנאוג Yehoshua Szenaug Schoehnhak Sheinbakh Szyju יהושע שנאוג"
  },
  {
   "id": "p-fejga-szenaug",
@@ -309,7 +309,7 @@
   "branch": "albert",
   "label": "פייגה שנאוג",
   "sub": "Fejga Szenaug",
-  "terms": "פייגה שנאוג Fejga Szenaug 1933 1942"
+  "terms": "פייגה שנאוג Fejga Szenaug פייגה שנאוג"
  },
  {
   "id": "p-cwi-szenaug",
@@ -317,7 +317,7 @@
   "branch": "albert",
   "label": "צבי שנאוג",
   "sub": "Cwi Szenaug",
-  "terms": "צבי שנאוג Cwi Szenaug 1936 1942"
+  "terms": "צבי שנאוג Cwi Szenaug צבי שנאוג"
  },
  {
   "id": "p-alter-chaim-wajsblum",
@@ -325,7 +325,7 @@
   "branch": "albert",
   "label": "אלתר־חיים ווייסבלום",
   "sub": "Alter Chaim Wajsblum",
-  "terms": "אלתר־חיים ווייסבלום Alter Chaim Wajsblum 1905 1998"
+  "terms": "אלתר־חיים ווייסבלום Alter Chaim Wajsblum Weisblum Veisblum Weisbloom אלתרחיים ווייסבלום"
  },
  {
   "id": "p-hela-baranek",
@@ -333,7 +333,7 @@
   "branch": "albert",
   "label": "הלה ווייסבלום לבית ברנק",
   "sub": "Hela Baranek",
-  "terms": "הלה ווייסבלום לבית ברנק Hela Baranek 1908 1974"
+  "terms": "הלה ווייסבלום לבית ברנק Hela Baranek Baranek Weisbloom Helen הלה ווייסבלום לבית ברנק"
  },
  {
   "id": "p-abram-alpert",
@@ -341,7 +341,7 @@
   "branch": "albert",
   "label": "אברם אלפרט",
   "sub": "Abram Alpert",
-  "terms": "אברם אלפרט Abram Alpert 1845"
+  "terms": "אברם אלפרט Abram Alpert אברם אלפרט"
  },
  {
   "id": "p-estera-gitla-cuker",
@@ -349,7 +349,7 @@
   "branch": "albert",
   "label": "אסתרה־גיטלה אלפרט לבית צוקר",
   "sub": "Estera Gitla Cuker",
-  "terms": "אסתרה־גיטלה אלפרט לבית צוקר Estera Gitla Cuker 1851"
+  "terms": "אסתרה־גיטלה אלפרט לבית צוקר Estera Gitla Cuker Cuker Zuker אסתרהגיטלה אלפרט לבית צוקר"
  },
  {
   "id": "p-abram-butkowski",
@@ -357,7 +357,7 @@
   "branch": "albert",
   "label": "אברם בוטקובסקי",
   "sub": "Abram Butkowski",
-  "terms": "אברם בוטקובסקי Abram Butkowski 1842"
+  "terms": "אברם בוטקובסקי Abram Butkowski Butkowski Budkowski Bukowski Buzowski אברם בוטקובסקי"
  },
  {
   "id": "p-ruchla-rochberger",
@@ -365,7 +365,7 @@
   "branch": "albert",
   "label": "רוחלה בוטקובסקה לבית רוכברגר",
   "sub": "Ruchla Rochberger",
-  "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger 1844"
+  "terms": "רוחלה בוטקובסקה לבית רוכברגר Ruchla Rochberger רוחלה בוטקובסקה לבית רוכברגר"
  },
  {
   "id": "p-berek-budkowski",
@@ -373,7 +373,7 @@
   "branch": "albert",
   "label": "ברק בודקובסקי",
   "sub": "Berek Budkowski",
-  "terms": "ברק בודקובסקי Berek Budkowski 1852"
+  "terms": "ברק בודקובסקי Berek Budkowski ברק בודקובסקי"
  },
  {
   "id": "p-rudel-szydlowicz",
@@ -381,7 +381,7 @@
   "branch": "albert",
   "label": "רוּדֶל שידלוביץ'",
   "sub": "Rudel Szydlowicz",
-  "terms": "רוּדֶל שידלוביץ' Rudel Szydlowicz"
+  "terms": "רוּדֶל שידלוביץ' Rudel Szydlowicz רודל שידלוביץ'"
  },
  {
   "id": "p-dawid-alpert",
@@ -389,7 +389,7 @@
   "branch": "albert",
   "label": "דוד אלפרט",
   "sub": "Dawid Alpert",
-  "terms": "דוד אלפרט Dawid Alpert 1869"
+  "terms": "דוד אלפרט Dawid Alpert Albert דוד אלפרט"
  },
  {
   "id": "p-rudla-butkowska",
@@ -397,7 +397,7 @@
   "branch": "albert",
   "label": "רודלה אלפרט לבית בוטקובסקה",
   "sub": "Rudla Butkowska",
-  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Butkowska 1872"
+  "terms": "רודלה אלפרט לבית בוטקובסקה Rudla Butkowska Butkowska Bukowska Buzowska Gutkowska רודלה אלפרט לבית בוטקובסקה"
  },
  {
   "id": "p-izrail-mojsze-alpert",
@@ -405,7 +405,7 @@
   "branch": "albert",
   "label": "ישראל־משה אלפרט",
   "sub": "Izrail Mojsze Alpert",
-  "terms": "ישראל־משה אלפרט Izrail Mojsze Alpert 1909"
+  "terms": "ישראל־משה אלפרט Izrail Mojsze Alpert ישראלמשה אלפרט"
  },
  {
   "id": "p-chaim-albert",
@@ -413,7 +413,7 @@
   "branch": "albert",
   "label": "חיים אלברט",
   "sub": "Chaim Albert",
-  "terms": "חיים אלברט Chaim Albert 1907 1976"
+  "terms": "חיים אלברט Chaim Albert Albert Alpert Albirt Elbert חיים אלברט"
  },
  {
   "id": "p-bella-albert",
@@ -421,7 +421,7 @@
   "branch": "albert",
   "label": "בלה אלברט",
   "sub": "Bella Albert",
-  "terms": "בלה אלברט Bella Albert"
+  "terms": "בלה אלברט Bella Albert בלה אלברט"
  },
  {
   "id": "p-david-albert",
@@ -429,7 +429,7 @@
   "branch": "albert",
   "label": "דוד אלברט",
   "sub": "David Albert",
-  "terms": "דוד אלברט David Albert"
+  "terms": "דוד אלברט David Albert דוד אלברט"
  },
  {
   "id": "p-natali-albert",
@@ -437,7 +437,7 @@
   "branch": "albert",
   "label": "נטלי אלברט",
   "sub": "Natali Albert",
-  "terms": "נטלי אלברט Natali Albert"
+  "terms": "נטלי אלברט Natali Albert נטלי אלברט"
  },
  {
   "id": "p-ili",
@@ -445,7 +445,7 @@
   "branch": "albert",
   "label": "אילי",
   "sub": "Ili",
-  "terms": "אילי Ili"
+  "terms": "אילי Ili אילי"
  },
  {
   "id": "p-noya",
@@ -453,7 +453,7 @@
   "branch": "albert",
   "label": "נויה",
   "sub": "Noya",
-  "terms": "נויה Noya"
+  "terms": "נויה Noya נויה"
  },
  {
   "id": "p-amotz-albert",
@@ -461,7 +461,7 @@
   "branch": "both",
   "label": "אמוץ אלברט",
   "sub": "Amotz Albert",
-  "terms": "אמוץ אלברט Amotz Albert 1974"
+  "terms": "אמוץ אלברט Amotz Albert אמוץ אלברט"
  },
  {
   "id": "p-boaz-albert",
@@ -469,7 +469,7 @@
   "branch": "both",
   "label": "בעז אלברט",
   "sub": "Boaz Albert",
-  "terms": "בעז אלברט Boaz Albert"
+  "terms": "בעז אלברט Boaz Albert בעז אלברט"
  },
  {
   "id": "p-aya-albert",
@@ -477,7 +477,7 @@
   "branch": "both",
   "label": "איה אלברט",
   "sub": "Aya Albert",
-  "terms": "איה אלברט Aya Albert"
+  "terms": "איה אלברט Aya Albert איה אלברט"
  },
  {
   "id": "p-michal-albert",
@@ -485,7 +485,7 @@
   "branch": "both",
   "label": "מיכל אלברט",
   "sub": "Michal Albert",
-  "terms": "מיכל אלברט Michal Albert"
+  "terms": "מיכל אלברט Michal Albert מיכל אלברט"
  },
  {
   "id": "p-neta",
@@ -493,7 +493,7 @@
   "branch": "both",
   "label": "נטע",
   "sub": "Neta",
-  "terms": "נטע Neta"
+  "terms": "נטע Neta נטע"
  },
  {
   "id": "p-maayan",
@@ -501,7 +501,7 @@
   "branch": "both",
   "label": "מעיין",
   "sub": "Maayan",
-  "terms": "מעיין Maayan"
+  "terms": "מעיין Maayan מעיין"
  },
  {
   "id": "p-moran",
@@ -509,7 +509,7 @@
   "branch": "both",
   "label": "מורן",
   "sub": "Moran",
-  "terms": "מורן Moran"
+  "terms": "מורן Moran מורן"
  },
  {
   "id": "p-nitzan",
@@ -517,7 +517,7 @@
   "branch": "both",
   "label": "ניצן",
   "sub": "Nitzan",
-  "terms": "ניצן Nitzan"
+  "terms": "ניצן Nitzan ניצן"
  },
  {
   "id": "p-rotem",
@@ -525,7 +525,7 @@
   "branch": "both",
   "label": "רותם",
   "sub": "Rotem",
-  "terms": "רותם Rotem"
+  "terms": "רותם Rotem רותם"
  },
  {
   "id": "p-aviv",
@@ -533,7 +533,7 @@
   "branch": "both",
   "label": "אביב",
   "sub": "Aviv",
-  "terms": "אביב Aviv"
+  "terms": "אביב Aviv אביב"
  },
  {
   "id": "p-tamar",
@@ -541,7 +541,7 @@
   "branch": "both",
   "label": "תמר",
   "sub": "Tamar",
-  "terms": "תמר Tamar"
+  "terms": "תמר Tamar תמר"
  },
  {
   "id": "p-szmul-winogron",
@@ -549,7 +549,7 @@
   "branch": "albert",
   "label": "שמול וינוגרון",
   "sub": "Szmul Winogron",
-  "terms": "שמול וינוגרון Szmul Winogron 1810"
+  "terms": "שמול וינוגרון Szmul Winogron שמול וינוגרון"
  },
  {
   "id": "p-cejwa-winogrod",
@@ -557,7 +557,7 @@
   "branch": "albert",
   "label": "צייבה וינוגרוד",
   "sub": "Cejwa Winogrod",
-  "terms": "צייבה וינוגרוד Cejwa Winogrod 1833"
+  "terms": "צייבה וינוגרוד Cejwa Winogrod צייבה וינוגרוד"
  },
  {
   "id": "p-rachmiel-winogrod",
@@ -565,7 +565,7 @@
   "branch": "albert",
   "label": "רחמיאל וינוגרוד",
   "sub": "Rachmiel Winogrod",
-  "terms": "רחמיאל וינוגרוד Rachmiel Winogrod 1837"
+  "terms": "רחמיאל וינוגרוד Rachmiel Winogrod רחמיאל וינוגרוד"
  },
  {
   "id": "p-icek-winogron",
@@ -573,7 +573,7 @@
   "branch": "albert",
   "label": "איצק וינוגרון",
   "sub": "Icek Winogron",
-  "terms": "איצק וינוגרון Icek Winogron 1850"
+  "terms": "איצק וינוגרון Icek Winogron איצק וינוגרון"
  },
  {
   "id": "p-gitla-winogron",
@@ -581,7 +581,7 @@
   "branch": "albert",
   "label": "גיטלה",
   "sub": "Gitla Winogron",
-  "terms": "גיטלה Gitla Winogron"
+  "terms": "גיטלה Gitla Winogron גיטלה"
  },
  {
   "id": "p-laia",
@@ -589,7 +589,7 @@
   "branch": "albert",
   "label": "לאיה",
   "sub": "Laia",
-  "terms": "לאיה Laia 1812"
+  "terms": "לאיה Laia לאיה"
  },
  {
   "id": "p-liba-rozenman",
@@ -597,7 +597,7 @@
   "branch": "albert",
   "label": "ליבה רוזנמן",
   "sub": "Liba Rozenman",
-  "terms": "ליבה רוזנמן Liba Rozenman 1888"
+  "terms": "ליבה רוזנמן Liba Rozenman ליבה רוזנמן"
  },
  {
   "id": "p-kiwa-cukier",
@@ -605,7 +605,7 @@
   "branch": "albert",
   "label": "קיווה צוקר",
   "sub": "Kiwa Cukier",
-  "terms": "קיווה צוקר Kiwa Cukier 1827"
+  "terms": "קיווה צוקר Kiwa Cukier קיווה צוקר"
  },
  {
   "id": "p-rywa-winogron",
@@ -613,7 +613,7 @@
   "branch": "albert",
   "label": "ריווה וינוגרון",
   "sub": "Rywa Winogron",
-  "terms": "ריווה וינוגרון Rywa Winogron 1826"
+  "terms": "ריווה וינוגרון Rywa Winogron ריווה וינוגרון"
  },
  {
   "id": "p-aron-cukier",
@@ -621,7 +621,7 @@
   "branch": "albert",
   "label": "ארון צוקר",
   "sub": "Aron Cukier",
-  "terms": "ארון צוקר Aron Cukier 1846"
+  "terms": "ארון צוקר Aron Cukier ארון צוקר"
  },
  {
   "id": "p-tauba-moszkowicz",
@@ -629,7 +629,7 @@
   "branch": "albert",
   "label": "טאובה מוסקוביץ'",
   "sub": "Tauba Moszkowicz",
-  "terms": "טאובה מוסקוביץ' Tauba Moszkowicz"
+  "terms": "טאובה מוסקוביץ' Tauba Moszkowicz טאובה מוסקוביץ'"
  },
  {
   "id": "p-izrael-winogron",
@@ -637,7 +637,7 @@
   "branch": "albert",
   "label": "ישראל וינוגרון",
   "sub": "Izrael Winogron",
-  "terms": "ישראל וינוגרון Izrael Winogron"
+  "terms": "ישראל וינוגרון Izrael Winogron ישראל וינוגרון"
  },
  {
   "id": "p-gitla",
@@ -645,7 +645,7 @@
   "branch": "albert",
   "label": "גיטלה",
   "sub": "Gitla",
-  "terms": "גיטלה Gitla"
+  "terms": "גיטלה Gitla גיטלה"
  },
  {
   "id": "p-abram-cukier",
@@ -653,7 +653,7 @@
   "branch": "albert",
   "label": "אברם צוקר",
   "sub": "Abram Cukier",
-  "terms": "אברם צוקר Abram Cukier 1821"
+  "terms": "אברם צוקר Abram Cukier אברם צוקר"
  },
  {
   "id": "p-ester-cukier",
@@ -661,7 +661,7 @@
   "branch": "albert",
   "label": "אסתר צוקר",
   "sub": "Ester Cukier",
-  "terms": "אסתר צוקר Ester Cukier 1823"
+  "terms": "אסתר צוקר Ester Cukier אסתר צוקר"
  },
  {
   "id": "p-sora-gitla-cukier",
@@ -669,7 +669,7 @@
   "branch": "albert",
   "label": "שׂורה־גיטלה צוקר",
   "sub": "Sora Gitla Cukier",
-  "terms": "שׂורה־גיטלה צוקר Sora Gitla Cukier 1847"
+  "terms": "שׂורה־גיטלה צוקר Sora Gitla Cukier שורהגיטלה צוקר"
  },
  {
   "id": "p-mortka-cukier",
@@ -677,7 +677,7 @@
   "branch": "albert",
   "label": "מורטקה צוקר",
   "sub": "Mortka Cukier",
-  "terms": "מורטקה צוקר Mortka Cukier 1823"
+  "terms": "מורטקה צוקר Mortka Cukier מורטקה צוקר"
  },
  {
   "id": "p-blima-rozencwajg",
@@ -685,7 +685,7 @@
   "branch": "albert",
   "label": "בלימה צוקר לבית רוזנצוויג",
   "sub": "Blima Rozencwajg",
-  "terms": "בלימה צוקר לבית רוזנצוויג Blima Rozencwajg 1826"
+  "terms": "בלימה צוקר לבית רוזנצוויג Blima Rozencwajg בלימה צוקר לבית רוזנצוויג"
  },
  {
   "id": "p-haia-cukier",
@@ -693,7 +693,7 @@
   "branch": "albert",
   "label": "חיה צוקר",
   "sub": "Haia Cukier",
-  "terms": "חיה צוקר Haia Cukier 1848"
+  "terms": "חיה צוקר Haia Cukier חיה צוקר"
  },
  {
   "id": "p-zelik-cukier",
@@ -701,7 +701,7 @@
   "branch": "albert",
   "label": "זליק צוקר",
   "sub": "Zelik Cukier",
-  "terms": "זליק צוקר Zelik Cukier 1851"
+  "terms": "זליק צוקר Zelik Cukier זליק צוקר"
  },
  {
   "id": "p-mosiek-cukier",
@@ -709,7 +709,7 @@
   "branch": "albert",
   "label": "מושק צוקר",
   "sub": "Mosiek Cukier",
-  "terms": "מושק צוקר Mosiek Cukier 1824"
+  "terms": "מושק צוקר Mosiek Cukier מושק צוקר"
  },
  {
   "id": "p-rywka-grynberg",
@@ -717,7 +717,7 @@
   "branch": "albert",
   "label": "ריווקה צוקר לבית גרינברג",
   "sub": "Rywka Grynberg",
-  "terms": "ריווקה צוקר לבית גרינברג Rywka Grynberg 1823"
+  "terms": "ריווקה צוקר לבית גרינברג Rywka Grynberg ריווקה צוקר לבית גרינברג"
  },
  {
   "id": "p-jakob-hil-cukier",
@@ -725,7 +725,7 @@
   "branch": "albert",
   "label": "יעקב־הִיל צוקר",
   "sub": "Jakob Hil Cukier",
-  "terms": "יעקב־הִיל צוקר Jakob Hil Cukier 1848"
+  "terms": "יעקב־הִיל צוקר Jakob Hil Cukier יעקבהיל צוקר"
  },
  {
   "id": "p-herszel-cukier",
@@ -733,7 +733,7 @@
   "branch": "albert",
   "label": "הרשל צוקר",
   "sub": "Herszel Cukier",
-  "terms": "הרשל צוקר Herszel Cukier 1850"
+  "terms": "הרשל צוקר Herszel Cukier הרשל צוקר"
  },
  {
   "id": "p-ruchla-feldsztajn",
@@ -741,7 +741,7 @@
   "branch": "albert",
   "label": "רוחלה צוקר לבית פלדשטיין",
   "sub": "Ruchla Feldsztajn",
-  "terms": "רוחלה צוקר לבית פלדשטיין Ruchla Feldsztajn 1851"
+  "terms": "רוחלה צוקר לבית פלדשטיין Ruchla Feldsztajn רוחלה צוקר לבית פלדשטיין"
  },
  {
   "id": "p-uryn-cukier",
@@ -749,7 +749,7 @@
   "branch": "albert",
   "label": "אורין צוקר",
   "sub": "Uryn Cukier",
-  "terms": "אורין צוקר Uryn Cukier 1869"
+  "terms": "אורין צוקר Uryn Cukier אורין צוקר"
  },
  {
   "id": "p-chaim-wolf-cukier",
@@ -757,7 +757,7 @@
   "branch": "albert",
   "label": "חיים־וולף צוקר",
   "sub": "Chaim Wolf Cukier",
-  "terms": "חיים־וולף צוקר Chaim Wolf Cukier 1834 1919"
+  "terms": "חיים־וולף צוקר Chaim Wolf Cukier חייםוולף צוקר"
  },
  {
   "id": "p-kajla-zlotowicz",
@@ -765,7 +765,7 @@
   "branch": "albert",
   "label": "קיילה צוקר לבית זלוטוביץ'",
   "sub": "Kajla Zlotowicz",
-  "terms": "קיילה צוקר לבית זלוטוביץ' Kajla Zlotowicz 1842"
+  "terms": "קיילה צוקר לבית זלוטוביץ' Kajla Zlotowicz קיילה צוקר לבית זלוטוביץ'"
  },
  {
   "id": "p-aron-cukier-i93",
@@ -773,7 +773,7 @@
   "branch": "albert",
   "label": "ארון (ירמיאש) צוקר",
   "sub": "Aron Cukier",
-  "terms": "ארון (ירמיאש) צוקר Aron Cukier 1862"
+  "terms": "ארון (ירמיאש) צוקר Aron Cukier ארון (ירמיאש) צוקר"
  },
  {
   "id": "p-izrael-cukier",
@@ -781,7 +781,7 @@
   "branch": "albert",
   "label": "ישראל צוקר",
   "sub": "Izrael Cukier",
-  "terms": "ישראל צוקר Izrael Cukier 1865"
+  "terms": "ישראל צוקר Izrael Cukier ישראל צוקר"
  },
  {
   "id": "p-hana-cukier",
@@ -789,7 +789,7 @@
   "branch": "albert",
   "label": "חנה צוקר",
   "sub": "Hana Cukier",
-  "terms": "חנה צוקר Hana Cukier 1867 1868"
+  "terms": "חנה צוקר Hana Cukier חנה צוקר"
  },
  {
   "id": "p-sura-cukier",
@@ -797,7 +797,7 @@
   "branch": "albert",
   "label": "שׂורה צוקר",
   "sub": "Sura Cukier",
-  "terms": "שׂורה צוקר Sura Cukier 1869 1873"
+  "terms": "שׂורה צוקר Sura Cukier שורה צוקר"
  },
  {
   "id": "p-perla-tauba-cukier",
@@ -805,7 +805,7 @@
   "branch": "albert",
   "label": "פרלה־טאובה צוקר",
   "sub": "Perla Tauba Cukier",
-  "terms": "פרלה־טאובה צוקר Perla Tauba Cukier 1872 1873"
+  "terms": "פרלה־טאובה צוקר Perla Tauba Cukier פרלהטאובה צוקר"
  },
  {
   "id": "p-ester-laja-cukier",
@@ -813,7 +813,7 @@
   "branch": "albert",
   "label": "אסתר־לאיה צוקר",
   "sub": "Ester Laja Cukier",
-  "terms": "אסתר־לאיה צוקר Ester Laja Cukier 1875 1881"
+  "terms": "אסתר־לאיה צוקר Ester Laja Cukier אסתרלאיה צוקר"
  },
  {
   "id": "p-laja-cukier",
@@ -821,7 +821,7 @@
   "branch": "albert",
   "label": "לאיה סקורניצקי לבית צוקר",
   "sub": "Laja Cukier",
-  "terms": "לאיה סקורניצקי לבית צוקר Laja Cukier 1839"
+  "terms": "לאיה סקורניצקי לבית צוקר Laja Cukier לאיה סקורניצקי לבית צוקר"
  },
  {
   "id": "p-szulim-skornicki",
@@ -829,7 +829,7 @@
   "branch": "albert",
   "label": "שולים סקורניצקי",
   "sub": "Szulim Skornicki",
-  "terms": "שולים סקורניצקי Szulim Skornicki 1838"
+  "terms": "שולים סקורניצקי Szulim Skornicki שולים סקורניצקי"
  },
  {
   "id": "p-kalma-cukier",
@@ -837,7 +837,7 @@
   "branch": "albert",
   "label": "קלמה צוקר",
   "sub": "Kalma Cukier",
-  "terms": "קלמה צוקר Kalma Cukier 1850 1855"
+  "terms": "קלמה צוקר Kalma Cukier קלמה צוקר"
  },
  {
   "id": "p-laja-cukier-i102",
@@ -845,7 +845,7 @@
   "branch": "albert",
   "label": "לאיה צוקר",
   "sub": "Laja Cukier",
-  "terms": "לאיה צוקר Laja Cukier 1852"
+  "terms": "לאיה צוקר Laja Cukier לאיה צוקר"
  },
  {
   "id": "p-sora-cukier",
@@ -853,7 +853,7 @@
   "branch": "albert",
   "label": "שׂורה צוקר",
   "sub": "Sora Cukier",
-  "terms": "שׂורה צוקר Sora Cukier 1852 1852"
+  "terms": "שׂורה צוקר Sora Cukier שורה צוקר"
  },
  {
   "id": "p-aleksander-cukier",
@@ -861,7 +861,7 @@
   "branch": "albert",
   "label": "אלכסנדר צוקר",
   "sub": "Aleksander Cukier",
-  "terms": "אלכסנדר צוקר Aleksander Cukier 1857"
+  "terms": "אלכסנדר צוקר Aleksander Cukier אלכסנדר צוקר"
  },
  {
   "id": "p-mortka-szlama-cukier",
@@ -869,7 +869,7 @@
   "branch": "albert",
   "label": "מורטקה־שלמה צוקר",
   "sub": "Mortka Szlama Cukier",
-  "terms": "מורטקה־שלמה צוקר Mortka Szlama Cukier 1858"
+  "terms": "מורטקה־שלמה צוקר Mortka Szlama Cukier מורטקהשלמה צוקר"
  },
  {
   "id": "p-aron-cukier-i106",
@@ -877,7 +877,7 @@
   "branch": "albert",
   "label": "ארון צוקר",
   "sub": "Aron Cukier",
-  "terms": "ארון צוקר Aron Cukier 1859"
+  "terms": "ארון צוקר Aron Cukier ארון צוקר"
  },
  {
   "id": "p-brandla-cukier",
@@ -885,7 +885,7 @@
   "branch": "albert",
   "label": "ברנדלה צוקר",
   "sub": "Brandla Cukier",
-  "terms": "ברנדלה צוקר Brandla Cukier 1861 1862"
+  "terms": "ברנדלה צוקר Brandla Cukier ברנדלה צוקר"
  },
  {
   "id": "p-hil-cukier",
@@ -893,7 +893,7 @@
   "branch": "albert",
   "label": "הִיל צוקר",
   "sub": "Hil Cukier",
-  "terms": "הִיל צוקר Hil Cukier 1862"
+  "terms": "הִיל צוקר Hil Cukier היל צוקר"
  },
  {
   "id": "p-sora-cukier-i109",
@@ -901,7 +901,7 @@
   "branch": "albert",
   "label": "שׂורה צוקר",
   "sub": "Sora Cukier",
-  "terms": "שׂורה צוקר Sora Cukier 1865"
+  "terms": "שׂורה צוקר Sora Cukier שורה צוקר"
  },
  {
   "id": "p-sandal-cukier",
@@ -909,7 +909,7 @@
   "branch": "albert",
   "label": "סנדל צוקר",
   "sub": "Sandal Cukier",
-  "terms": "סנדל צוקר Sandal Cukier 1856 1930"
+  "terms": "סנדל צוקר Sandal Cukier סנדל צוקר"
  },
  {
   "id": "p-rywen-majer-cukier",
@@ -917,7 +917,7 @@
   "branch": "albert",
   "label": "ריוון־מאיר צוקר",
   "sub": "Rywen Majer Cukier",
-  "terms": "ריוון־מאיר צוקר Rywen Majer Cukier 1872"
+  "terms": "ריוון־מאיר צוקר Rywen Majer Cukier ריווןמאיר צוקר"
  },
  {
   "id": "p-szymon-cukier",
@@ -925,711 +925,7 @@
   "branch": "albert",
   "label": "שמעון צוקר",
   "sub": "Szymon Cukier",
-  "terms": "שמעון צוקר Szymon Cukier 1880 1928"
- },
- {
-  "id": "p-abe-lejb-rywenbajrych",
-  "type": "person",
-  "branch": "albert",
-  "label": "Abe-Lejb Rywenbajrych",
-  "sub": "",
-  "terms": "Abe-Lejb Rywenbajrych"
- },
- {
-  "id": "p-fajga-rechil-rywenbajrych",
-  "type": "person",
-  "branch": "albert",
-  "label": "Fajga-Rechil Rywenbajrych",
-  "sub": "",
-  "terms": "Fajga-Rechil Rywenbajrych"
- },
- {
-  "id": "p-szmul-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שמואל («שמואל'קה») שאפיר",
-  "sub": "Szmul Szaufer",
-  "terms": "שמואל («שמואל'קה») שאפיר Szmul Szaufer Shmuelke, Shmuel Schafir 1836 1920"
- },
- {
-  "id": "p-pesia-ruchla-szyfman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "פסיה־רוחלה שאפיר לבית שיפמן",
-  "sub": "Pesia-Ruchla Szyfman",
-  "terms": "פסיה־רוחלה שאפיר לבית שיפמן Pesia-Ruchla Szyfman Pesia Pesia-Ruchla ⚠ «Chaja-Ruchla» — וריאנט לבלר, אקט 39/1876 1856"
- },
- {
-  "id": "p-hersz-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Hersz Szaufer",
-  "sub": "",
-  "terms": "Hersz Szaufer Hershl, Hershl Schafir 1878"
- },
- {
-  "id": "p-menachem-mendel-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "מנחם מנדל שאפיר",
-  "sub": "Menachem Mendel Schafir",
-  "terms": "מנחם מנדל שאפיר Menachem Mendel Schafir Mendel Schafer, Mendel Szaufer Szaufer Szafir 1887 1970"
- },
- {
-  "id": "p-shalom-liben",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שלום ליבן",
-  "sub": "Shalom Liben",
-  "terms": "שלום ליבן Shalom Liben 1912"
- },
- {
-  "id": "p-khaia-liben",
-  "type": "person",
-  "branch": "moskal",
-  "label": "חיה ליבן",
-  "sub": "Khaia Liben",
-  "terms": "חיה ליבן Khaia Liben"
- },
- {
-  "id": "p-perl-liben",
-  "type": "person",
-  "branch": "moskal",
-  "label": "פרל שאפיר לבית ליבן",
-  "sub": "Perl Liben",
-  "terms": "פרל שאפיר לבית ליבן Perl Liben Pnina פנינה 1888 1942"
- },
- {
-  "id": "p-shalom-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שלום שאפיר",
-  "sub": "Shalom Schafir",
-  "terms": "שלום שאפיר Shalom Schafir Shafir 1912 1942"
- },
- {
-  "id": "p-rivka-eidelman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "רבקה שאפיר לבית איידלמן",
-  "sub": "Rivka Eidelman",
-  "terms": "רבקה שאפיר לבית איידלמן Rivka Eidelman"
- },
- {
-  "id": "p-shmuel-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שמואל שאפיר",
-  "sub": "Shmuel Schafir",
-  "terms": "שמואל שאפיר Shmuel Schafir Shafir 1920 1942"
- },
- {
-  "id": "p-yosef-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "יוסף שאפיר",
-  "sub": "Yosef Schafir",
-  "terms": "יוסף שאפיר Yosef Schafir Szafir Szaufer"
- },
- {
-  "id": "p-dvora-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דבורה (דורה) שאפיר",
-  "sub": "Dvora Schafir",
-  "terms": "דבורה (דורה) שאפיר Dvora Schafir Dora Szafir Szaufer"
- },
- {
-  "id": "p-chaike-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "חייקה וייסטופ לבית שאפיר",
-  "sub": "Chaike Schafir",
-  "terms": "חייקה וייסטופ לבית שאפיר Chaike Schafir Szafir Szaufer"
- },
- {
-  "id": "p-issachar-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "יששכר («סשה») שאפיר",
-  "sub": "Issachar Schafir",
-  "terms": "יששכר («סשה») שאפיר Issachar Schafir Shasha Szafir Szaufer Sasha סשה"
- },
- {
-  "id": "p-malka-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "מלכה מוסקל לבית שאפיר",
-  "sub": "Malka Schafir",
-  "terms": "מלכה מוסקל לבית שאפיר Malka Schafir 1914 2003"
- },
- {
-  "id": "p-hersh-alspektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "הרש אלספקטור",
-  "sub": "Hersh Alspektor",
-  "terms": "הרש אלספקטור Hersh Alspektor 1855"
- },
- {
-  "id": "p-khaya-rajs",
-  "type": "person",
-  "branch": "moskal",
-  "label": "חיה אלספקטור לבית רייס",
-  "sub": "Khaya Rajs",
-  "terms": "חיה אלספקטור לבית רייס Khaya Rajs Faia, Fane Faia Fane 1860"
- },
- {
-  "id": "p-yehoshua-reiz",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Yehoshua Reiz",
-  "sub": "",
-  "terms": "Yehoshua Reiz Shiurn"
- },
- {
-  "id": "p-liza-alspektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Liza Alspektor",
-  "sub": "",
-  "terms": "Liza Alspektor"
- },
- {
-  "id": "p-tsivya-dvoyra-alspektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "צביה־דבורה מוסקל לבית אלספקטור",
-  "sub": "Tsivya-Dvoyra Alspektor",
-  "terms": "צביה־דבורה מוסקל לבית אלספקטור Tsivya-Dvoyra Alspektor Dvora Cywia Dwora 1885 1942"
- },
- {
-  "id": "p-judka-lejba-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "יודקה־לייבה מוסקל",
-  "sub": "Judka-Lejba Moskal",
-  "terms": "יודקה־לייבה מוסקל Judka-Lejba Moskal Lejb 1883 1942"
- },
- {
-  "id": "p-lea-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "לאה לבית מוסקל",
-  "sub": "Lea Moskal",
-  "terms": "לאה לבית מוסקל Lea Moskal Lahtshe לאהצ'ה לאהצ'ה מוסקאל 1897 1942"
- },
- {
-  "id": "p-yitzhak-terwitzer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Yitzhak Terwitzer",
-  "sub": "",
-  "terms": "Yitzhak Terwitzer"
- },
- {
-  "id": "p-etel-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אטל בלנדר לבית מוסקל",
-  "sub": "Etel Moskal",
-  "terms": "אטל בלנדר לבית מוסקל Etel Moskal 1942"
- },
- {
-  "id": "p-moshe-blander",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Moshe Blander",
-  "sub": "",
-  "terms": "Moshe Blander"
- },
- {
-  "id": "p-sara-soche-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שרה־סוחה מוסקל",
-  "sub": "Sara Soche Moskal",
-  "terms": "שרה־סוחה מוסקל Sara Soche Moskal Sitshe, Sarahtshe Sitshe Siche סיצ'ה 1918 1942"
- },
- {
-  "id": "p-tauba-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "טאובה מוסקל",
-  "sub": "Tauba Moskal",
-  "terms": "טאובה מוסקל Tauba Moskal Tovale, Tovahle, Toybele, Tova Tova Toibe Tovale טובהלה 1922 1942"
- },
- {
-  "id": "p-david-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דוד מוסקל",
-  "sub": "David Moskal",
-  "terms": "דוד מוסקל David Moskal 1910"
- },
- {
-  "id": "p-terwitzer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Terwitzer",
-  "sub": "",
-  "terms": "Terwitzer 1942"
- },
- {
-  "id": "p-blander",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Blander",
-  "sub": "",
-  "terms": "Blander 1942"
- },
- {
-  "id": "p-dvora-albert",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דבורה אלברט לבית מוסקל",
-  "sub": "Dvora Albert",
-  "terms": "דבורה אלברט לבית מוסקל Dvora Albert nee Moskal 1951"
- },
- {
-  "id": "p-yosef-szafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "יוסף שאפיר",
-  "sub": "Yosef Szafir",
-  "terms": "יוסף שאפיר Yosef Szafir Yosele Schafer Josef Schafir Szajfer 1881 1942"
- },
- {
-  "id": "p-srul-lejb-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שרול־לייב שאפיר",
-  "sub": "Srul Lejb Szaufer",
-  "terms": "שרול־לייב שאפיר Srul Lejb Szaufer Yisrael Szafir Schafir Szajfer 1890 1942"
- },
- {
-  "id": "p-yokheved-szafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Yokheved Szafir",
-  "sub": "",
-  "terms": "Yokheved Szafir 1942"
- },
- {
-  "id": "p-dvora-szafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Dvora Szafir",
-  "sub": "",
-  "terms": "Dvora Szafir 1917 1942"
- },
- {
-  "id": "p-lejba-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "לייבה מוסקל",
-  "sub": "Lejba Moskal",
-  "terms": "לייבה מוסקל Lejba Moskal 1817 1875"
- },
- {
-  "id": "p-braina-eil",
-  "type": "person",
-  "branch": "moskal",
-  "label": "ברנדלה מוסקל לבית אייל",
-  "sub": "Braina Eil",
-  "terms": "ברנדלה מוסקל לבית אייל Braina Eil Brandla, Brajndla Brandlya Ejl Braina 1816 1875"
- },
- {
-  "id": "p-nechama-schafir",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Nechama Schafir",
-  "sub": "",
-  "terms": "Nechama Schafir 1997"
- },
- {
-  "id": "p-shlomo-itzkovitz",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Shlomo Itzkovitz",
-  "sub": "",
-  "terms": "Shlomo Itzkovitz"
- },
- {
-  "id": "p-chanan-itzkovitz",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chanan Itzkovitz",
-  "sub": "",
-  "terms": "Chanan Itzkovitz"
- },
- {
-  "id": "p-pnina-itzkovitz",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Pnina Itzkovitz",
-  "sub": "",
-  "terms": "Pnina Itzkovitz 1942"
- },
- {
-  "id": "p-arieh-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Arieh Moskal",
-  "sub": "",
-  "terms": "Arieh Moskal"
- },
- {
-  "id": "p-dawid-szloma-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דוד־שלמה מוסקל",
-  "sub": "Dawid-Szloma Moskal",
-  "terms": "דוד־שלמה מוסקל Dawid-Szloma Moskal Duvid 1855 1910"
- },
- {
-  "id": "p-hinda-rajs",
-  "type": "person",
-  "branch": "moskal",
-  "label": "הינדה מוסקל לבית רייס",
-  "sub": "Hinda Rajs",
-  "terms": "הינדה מוסקל לבית רייס Hinda Rajs Inda 1859"
- },
- {
-  "id": "p-gershon-rajs",
-  "type": "person",
-  "branch": "moskal",
-  "label": "גרשון רייס",
-  "sub": "Gershon Rajs",
-  "terms": "גרשון רייס Gershon Rajs 1829"
- },
- {
-  "id": "p-dvoyra-szlaim",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דוויירה רייס לבית שלַיים",
-  "sub": "Dvoyra Szlaim",
-  "terms": "דוויירה רייס לבית שלַיים Dvoyra Szlaim Sztajn (וריאנט של פקיד) Dwojra 1831 1871"
- },
- {
-  "id": "p-chaim-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "חיים שאפיר",
-  "sub": "Chaim Szaufer",
-  "terms": "חיים שאפיר Chaim Szaufer 1804 1866"
- },
- {
-  "id": "p-liba-glezer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "ליבה שאפיר",
-  "sub": "Liba Glezer",
-  "terms": "ליבה שאפיר Liba Glezer Kielner Glezer קילנר גלזר 1810 1874"
- },
- {
-  "id": "p-berek-szyfman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "משקו־הרש שיפמן",
-  "sub": "Berek Szyfman",
-  "terms": "משקו־הרש שיפמן Berek Szyfman Moszko Hersz Gersz Berek(?) 1822 1873"
- },
- {
-  "id": "p-jos-szyfman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "יוסק שיפמן",
-  "sub": "Jos Szyfman",
-  "terms": "יוסק שיפמן Jos Szyfman Josek Josio Jos Josia 1869"
- },
- {
-  "id": "p-dwojra-bukszpan",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דבורה שיפמן לבית בוקשפן",
-  "sub": "Dwojra Bukszpan",
-  "terms": "דבורה שיפמן לבית בוקשפן Dwojra Bukszpan Dwera Dwojra 1788 1833"
- },
- {
-  "id": "p-dwojra-itta-kac",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דבורה־איטה שיפמן לבית קץ",
-  "sub": "Dwojra-Itta Kac",
-  "terms": "דבורה־איטה שיפמן לבית קץ Dwojra-Itta Kac 1819 1874"
- },
- {
-  "id": "p-sura-szrojd",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שרה שרויד",
-  "sub": "Sura Szrojd",
-  "terms": "שרה שרויד Sura Szrojd 1841 1859"
- },
- {
-  "id": "p-zyskiel-szrojd",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Zyskiel Szrojd",
-  "sub": "",
-  "terms": "Zyskiel Szrojd 1859"
- },
- {
-  "id": "p-zelda-bragier",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Zelda Bragier",
-  "sub": "",
-  "terms": "Zelda Bragier"
- },
- {
-  "id": "p-dwojra-laia-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "דבורה־לאיה שאפיר",
-  "sub": "Dwojra-Laia Szaufer",
-  "terms": "דבורה־לאיה שאפיר Dwojra-Laia Szaufer Schafir Szajfer 1883"
- },
- {
-  "id": "p-szmul-szaufer-i1057",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שמול שאפיר",
-  "sub": "Szmul Szaufer",
-  "terms": "שמול שאפיר Szmul Szaufer Schafir Szafir 1775 1866"
- },
- {
-  "id": "p-estera-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אסתרה שאפיר",
-  "sub": "Estera Szaufer",
-  "terms": "אסתרה שאפיר Estera Szaufer 1780 1866"
- },
- {
-  "id": "p-szmul-szlaim",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שמואל שלַיים",
-  "sub": "Szmul Szlaim",
-  "terms": "שמואל שלַיים Szmul Szlaim"
- },
- {
-  "id": "p-rypka-szlaim",
-  "type": "person",
-  "branch": "moskal",
-  "label": "ריפקה שלַיים",
-  "sub": "Rypka Szlaim",
-  "terms": "ריפקה שלַיים Rypka Szlaim Rifka-Rykla 1847"
- },
- {
-  "id": "p-wolf-rajs",
-  "type": "person",
-  "branch": "moskal",
-  "label": "וולף רייס",
-  "sub": "Wolf Rajs",
-  "terms": "וולף רייס Wolf Rajs Wulf"
- },
- {
-  "id": "p-lea-rajs",
-  "type": "person",
-  "branch": "moskal",
-  "label": "לאה רייס",
-  "sub": "Lea Rajs",
-  "terms": "לאה רייס Lea Rajs Łea 1847"
- },
- {
-  "id": "p-estera-dwojra-szyfman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אסתרה־דבורה שיפמן",
-  "sub": "Estera-Dwojra Szyfman",
-  "terms": "אסתרה־דבורה שיפמן Estera-Dwojra Szyfman 1850 1872"
- },
- {
-  "id": "p-abram-moszko-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Abram-Moszko Moskal",
-  "sub": "",
-  "terms": "Abram-Moszko Moskal 1848"
- },
- {
-  "id": "p-berko-kielner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Berko Kielner",
-  "sub": "",
-  "terms": "Berko Kielner"
- },
- {
-  "id": "p-brandla-kielner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Brandla Kielner",
-  "sub": "",
-  "terms": "Brandla Kielner 1844"
- },
- {
-  "id": "p-jankiel-kielner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Jankiel Kielner",
-  "sub": "",
-  "terms": "Jankiel Kielner 1817"
- },
- {
-  "id": "p-ruchla-laia-birman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Ruchla-Laia Birman",
-  "sub": "",
-  "terms": "Ruchla-Laia Birman 1855"
- },
- {
-  "id": "p-ita-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Ita Moskal",
-  "sub": "",
-  "terms": "Ita Moskal 1882"
- },
- {
-  "id": "p-szrul-majer-ejlspektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Szrul-Majer Ejlspektor",
-  "sub": "",
-  "terms": "Szrul-Majer Ejlspektor 1863 1915"
- },
- {
-  "id": "p-moszko-szpektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Moszko Szpektor",
-  "sub": "",
-  "terms": "Moszko Szpektor 1802 1870"
- },
- {
-  "id": "p-mejer-szpektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Mejer Szpektor",
-  "sub": "",
-  "terms": "Mejer Szpektor 1870"
- },
- {
-  "id": "p-dwojra-szpektor",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Dwojra Szpektor",
-  "sub": "",
-  "terms": "Dwojra Szpektor 1870"
- },
- {
-  "id": "p-gersz-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "גרש (הרשל) שאפיר",
-  "sub": "Gersz Szaufer",
-  "terms": "גרש (הרשל) שאפיר Gersz Szaufer Herszek Schafir Szajfer 1845"
- },
- {
-  "id": "p-sura-luksemberg",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Sura Luksemberg",
-  "sub": "",
-  "terms": "Sura Luksemberg"
- },
- {
-  "id": "p-ahron-luksemberg",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Ahron Luksemberg",
-  "sub": "",
-  "terms": "Ahron Luksemberg 1872"
- },
- {
-  "id": "p-tauba-szpiler",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Tauba Szpiler",
-  "sub": "",
-  "terms": "Tauba Szpiler"
- },
- {
-  "id": "p-herszko-glezer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Herszko Glezer",
-  "sub": "",
-  "terms": "Herszko Glezer Hersz, Herszek, Gerszek 1790 1849"
- },
- {
-  "id": "p-masza",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Masza",
-  "sub": "",
-  "terms": "Masza 1826"
- },
- {
-  "id": "p-rechla-mema-fajner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Rechla-Mema Fajner",
-  "sub": "",
-  "terms": "Rechla-Mema Fajner Ruchla 1798 1855"
- },
- {
-  "id": "p-sura-glezer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Sura Glezer",
-  "sub": "",
-  "terms": "Sura Glezer 1826"
- },
- {
-  "id": "p-chaim-froim-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaim Froim Szaufer",
-  "sub": "",
-  "terms": "Chaim Froim Szaufer 1876"
- },
- {
-  "id": "p-szmul-kac",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שמול קץ",
-  "sub": "Szmul Kac",
-  "terms": "שמול קץ Szmul Kac Katz 1790 1874"
- },
- {
-  "id": "p-estera-kac",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אסתרה קץ",
-  "sub": "Estera Kac",
-  "terms": "אסתרה קץ Estera Kac 1795 1874"
- },
- {
-  "id": "p-chaja-fajga-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaja-Fajga Szaufer",
-  "sub": "",
-  "terms": "Chaja-Fajga Szaufer 1830"
- },
- {
-  "id": "p-wolf-kornfeld",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Wolf Kornfeld",
-  "sub": "",
-  "terms": "Wolf Kornfeld 1830"
+  "terms": "שמעון צוקר Szymon Cukier שמעון צוקר"
  },
  {
   "id": "p-aron-bukszpan",
@@ -1637,7 +933,7 @@
   "branch": "moskal",
   "label": "אהרן בוקשפן",
   "sub": "Aron Bukszpan",
-  "terms": "אהרן בוקשפן Aron Bukszpan Bukszpan Bugszpan Bogszpan Buchszpan 1760"
+  "terms": "אהרן בוקשפן Aron Bukszpan Bukszpan Bugszpan Bogszpan Buchszpan אהרן בוקשפן"
  },
  {
   "id": "p-perla-bukszpan",
@@ -1645,327 +941,23 @@
   "branch": "moskal",
   "label": "פרלה בוקשפן",
   "sub": "Perla Bukszpan",
-  "terms": "פרלה בוקשפן Perla Bukszpan 1765"
+  "terms": "פרלה בוקשפן Perla Bukszpan פרלה בוקשפן"
  },
  {
-  "id": "p-szmul-glezer",
+  "id": "p-josek-szyfman",
   "type": "person",
   "branch": "moskal",
-  "label": "Szmul Glezer",
-  "sub": "",
-  "terms": "Szmul Glezer 1849"
+  "label": "יוסק שיפמן",
+  "sub": "Josek Szyfman",
+  "terms": "יוסק שיפמן Josek Szyfman Josio Jos Josia יוסק שיפמן"
  },
  {
-  "id": "p-ita-glezer",
+  "id": "p-dwera-bukszpan",
   "type": "person",
   "branch": "moskal",
-  "label": "Ita Glezer",
-  "sub": "",
-  "terms": "Ita Glezer 1849"
- },
- {
-  "id": "p-chaim-fajwel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaim Fajwel",
-  "sub": "",
-  "terms": "Chaim Fajwel 1855"
- },
- {
-  "id": "p-laja-fajwel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Laja Fajwel",
-  "sub": "",
-  "terms": "Laja Fajwel 1855"
- },
- {
-  "id": "p-srul-glezer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "שרול־לייב שאפיר",
-  "sub": "Srul Glezer",
-  "terms": "שרול־לייב שאפיר Srul Glezer Schafir Szajfer 1820"
- },
- {
-  "id": "p-chana-zaman",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chana Zaman",
-  "sub": "",
-  "terms": "Chana Zaman 1822"
- },
- {
-  "id": "p-chaja-ruchla-glezer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaja-Ruchla Glezer",
-  "sub": "",
-  "terms": "Chaja-Ruchla Glezer"
- },
- {
-  "id": "p-lejb-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Lejb Nudel",
-  "sub": "",
-  "terms": "Lejb Nudel Lejba 1816"
- },
- {
-  "id": "p-ita-glezer-i1100",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Ita Glezer",
-  "sub": "",
-  "terms": "Ita Glezer 1836"
- },
- {
-  "id": "p-szaja-binem-szlajn",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Szaja-Binem Szlajn",
-  "sub": "",
-  "terms": "Szaja-Binem Szlajn Szaja 1809"
- },
- {
-  "id": "p-ejzyk-szlajn",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Ejzyk Szlajn",
-  "sub": "",
-  "terms": "Ejzyk Szlajn 1849"
- },
- {
-  "id": "p-dwojra-zlota",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Dwojra Zlota",
-  "sub": "",
-  "terms": "Dwojra Zlota 1849"
- },
- {
-  "id": "p-berko-szlajn",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Berko Szlajn",
-  "sub": "",
-  "terms": "Berko Szlajn 1813 1849"
- },
- {
-  "id": "p-abram-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Abram Nudel",
-  "sub": "",
-  "terms": "Abram Nudel 1855"
- },
- {
-  "id": "p-estera-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Estera Nudel",
-  "sub": "",
-  "terms": "Estera Nudel 1855"
- },
- {
-  "id": "p-dawid-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Dawid Nudel",
-  "sub": "",
-  "terms": "Dawid Nudel 1811 1855"
- },
- {
-  "id": "p-maja-fajga-hutmacher",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Maja-Fajga Hutmacher",
-  "sub": "",
-  "terms": "Maja-Fajga Hutmacher Majzia Fajga 1860"
- },
- {
-  "id": "p-majer-josek-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Majer-Josek Nudel",
-  "sub": "",
-  "terms": "Majer-Josek Nudel 1822 1855"
- },
- {
-  "id": "p-itta-hutmacher",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Itta Hutmacher",
-  "sub": "",
-  "terms": "Itta Hutmacher 1797 1854"
- },
- {
-  "id": "p-chajm-goldberg",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chajm Goldberg",
-  "sub": "",
-  "terms": "Chajm Goldberg 1854"
- },
- {
-  "id": "p-chawa-goldberg",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chawa Goldberg",
-  "sub": "",
-  "terms": "Chawa Goldberg 1854"
- },
- {
-  "id": "p-chaja-nudel",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaja Nudel",
-  "sub": "",
-  "terms": "Chaja Nudel 1853 1855"
- },
- {
-  "id": "p-moszek-eil",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Moszek Eil",
-  "sub": "",
-  "terms": "Moszek Eil"
- },
- {
-  "id": "p-matla-sztyglic",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Matla Sztyglic",
-  "sub": "",
-  "terms": "Matla Sztyglic"
- },
- {
-  "id": "p-chaja-rywa-eil",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Chaja-Rywa Eil",
-  "sub": "",
-  "terms": "Chaja-Rywa Eil 1853 1855"
- },
- {
-  "id": "p-jankiel-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "ינקל מוסקל",
-  "sub": "Jankiel Moskal",
-  "terms": "ינקל מוסקל Jankiel Moskal 1851"
- },
- {
-  "id": "p-elka-erlich",
-  "type": "person",
-  "branch": "moskal",
-  "label": "אלקה מוסקל לבית ארליך",
-  "sub": "Elka Erlich",
-  "terms": "אלקה מוסקל לבית ארליך Elka Erlich 1852"
- },
- {
-  "id": "p-ruchla-laja-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "רוחלה־לאיה מוסקל",
-  "sub": "Ruchla-Laja Moskal",
-  "terms": "רוחלה־לאיה מוסקל Ruchla-Laja Moskal 1876"
- },
- {
-  "id": "p-berek-erlich",
-  "type": "person",
-  "branch": "moskal",
-  "label": "ברקו ארליך",
-  "sub": "Berek Erlich",
-  "terms": "ברקו ארליך Berek Erlich"
- },
- {
-  "id": "p-ruchla-laja-potasznik",
-  "type": "person",
-  "branch": "moskal",
-  "label": "רוחלה־לאיה ארליך לבית פוטשניק",
-  "sub": "Ruchla-Laja Potasznik",
-  "terms": "רוחלה־לאיה ארליך לבית פוטשניק Ruchla-Laja Potasznik 1875"
- },
- {
-  "id": "p-chaim-tojwi-szaufer",
-  "type": "person",
-  "branch": "moskal",
-  "label": "חיים־טויבי שאופר",
-  "sub": "Chaim-Tojwi Szaufer",
-  "terms": "חיים־טויבי שאופר Chaim-Tojwi Szaufer Chajm Tojwi ⚠ «Chaim Froim» — שגיאה, ראו הערה 1876 1877"
- },
- {
-  "id": "p-aron-moszko-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Aron-Moszko Moskal",
-  "sub": "",
-  "terms": "Aron-Moszko Moskal"
- },
- {
-  "id": "p-cywia-rajner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Cywia Rajner",
-  "sub": "",
-  "terms": "Cywia Rajner 1850"
- },
- {
-  "id": "p-szabsa-lejba-rajner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Szabsa-Lejba Rajner",
-  "sub": "",
-  "terms": "Szabsa-Lejba Rajner"
- },
- {
-  "id": "p-sura-rajner",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Sura Rajner",
-  "sub": "",
-  "terms": "Sura Rajner"
- },
- {
-  "id": "p-bajla-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Bajla Moskal",
-  "sub": "",
-  "terms": "Bajla Moskal"
- },
- {
-  "id": "p-szabsa-lejb-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Szabsa-Lejb Moskal",
-  "sub": "",
-  "terms": "Szabsa-Lejb Moskal"
- },
- {
-  "id": "p-mordko-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Mordko Moskal",
-  "sub": "",
-  "terms": "Mordko Moskal"
- },
- {
-  "id": "p-civja-moskal",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Civja Moskal",
-  "sub": "",
-  "terms": "Civja Moskal 1881"
- },
- {
-  "id": "p-tauba-moskal-i1141",
-  "type": "person",
-  "branch": "moskal",
-  "label": "Tauba Moskal",
-  "sub": "",
-  "terms": "Tauba Moskal"
+  "label": "דבורה שיפמן לבית בוקשפן",
+  "sub": "Dwera Szyfman née Bukszpan",
+  "terms": "דבורה שיפמן לבית בוקשפן Dwera Szyfman née Bukszpan Dwojra דבורה שיפמן לבית בוקשפן"
  },
  {
   "id": "p-moszek-szyfman",
@@ -1973,7 +965,7 @@
   "branch": "moskal",
   "label": "משק שיפמן",
   "sub": "Moszek Szyfman",
-  "terms": "משק שיפמן Moszek Szyfman 1812"
+  "terms": "משק שיפמן Moszek Szyfman משק שיפמן"
  },
  {
   "id": "p-rane-katz",
@@ -1981,15 +973,319 @@
   "branch": "moskal",
   "label": "רנה קץ",
   "sub": "Rane Katz",
-  "terms": "רנה קץ Rane Katz Kac 1815"
+  "terms": "רנה קץ Rane Katz Kac רנה קץ"
+ },
+ {
+  "id": "p-szmul-kac",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמול קץ",
+  "sub": "Szmul Kac",
+  "terms": "שמול קץ Szmul Kac Katz שמול קץ"
+ },
+ {
+  "id": "p-estera-kac",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אסתרה קץ",
+  "sub": "Estera Kac",
+  "terms": "אסתרה קץ Estera Kac אסתרה קץ"
+ },
+ {
+  "id": "p-moszko-hersz-szyfman",
+  "type": "person",
+  "branch": "moskal",
+  "label": "משקו־הרש שיפמן",
+  "sub": "Moszko Hersz Szyfman",
+  "terms": "משקו־הרש שיפמן Moszko Hersz Szyfman Gersz Berek(?) משקוהרש שיפמן"
+ },
+ {
+  "id": "p-dwojra-itta-kac",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דבורה־איטה שיפמן לבית קץ",
+  "sub": "Dwojra Itta Szyfman née Kac",
+  "terms": "דבורה־איטה שיפמן לבית קץ Dwojra Itta Szyfman née Kac דבורהאיטה שיפמן לבית קץ"
+ },
+ {
+  "id": "p-szmul-szaufer-elder",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמול שאפיר",
+  "sub": "Szmul Szaufer",
+  "terms": "שמול שאפיר Szmul Szaufer Schafir Szafir שמול שאפיר"
+ },
+ {
+  "id": "p-estera-szaufer-elder",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אסתרה שאפיר",
+  "sub": "Estera Szaufer",
+  "terms": "אסתרה שאפיר Estera Szaufer אסתרה שאפיר"
+ },
+ {
+  "id": "p-chaim-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חיים שאפיר",
+  "sub": "Chaim Szaufer",
+  "terms": "חיים שאפיר Chaim Szaufer חיים שאפיר"
+ },
+ {
+  "id": "p-liba-kielner",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ליבה שאפיר",
+  "sub": "Liba Szaufer née Kielner",
+  "terms": "ליבה שאפיר Liba Szaufer née Kielner Kielner Glezer קילנר גלזר ליבה שאפיר"
+ },
+ {
+  "id": "p-szmul-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמואל («שמואל'קה») שאפיר",
+  "sub": "Szmul Szaufer",
+  "terms": "שמואל («שמואל'קה») שאפיר Szmul Szaufer שמואל («שמואל'קה») שאפיר"
+ },
+ {
+  "id": "p-sura-szrojd",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שרה שרויד",
+  "sub": "Sura Szrojd",
+  "terms": "שרה שרויד Sura Szrojd שרה שרויד"
+ },
+ {
+  "id": "p-estera-dwojra-szyfman",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אסתרה־דבורה שיפמן",
+  "sub": "Estera Dwojra Szyfman",
+  "terms": "אסתרה־דבורה שיפמן Estera Dwojra Szyfman אסתרהדבורה שיפמן"
+ },
+ {
+  "id": "p-pesia-szyfman",
+  "type": "person",
+  "branch": "moskal",
+  "label": "פסיה־רוחלה שאפיר לבית שיפמן",
+  "sub": "Pesia Ruchla Szyfman",
+  "terms": "פסיה־רוחלה שאפיר לבית שיפמן Pesia Ruchla Szyfman Pesia-Ruchla ⚠ «Chaja-Ruchla» — וריאנט לבלר, אקט 39/1876 פסיהרוחלה שאפיר לבית שיפמן"
+ },
+ {
+  "id": "p-mendel-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "מנחם מנדל שאפיר",
+  "sub": "Menachem Mendel Schafir",
+  "terms": "מנחם מנדל שאפיר Menachem Mendel Schafir Szaufer Szafir מנחם מנדל שאפיר"
+ },
+ {
+  "id": "p-perl-liben",
+  "type": "person",
+  "branch": "moskal",
+  "label": "פרל שאפיר לבית ליבן",
+  "sub": "Perl Schafir née Liben",
+  "terms": "פרל שאפיר לבית ליבן Perl Schafir née Liben Pnina פנינה פרל שאפיר לבית ליבן"
+ },
+ {
+  "id": "p-shalom-liben",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שלום ליבן",
+  "sub": "Shalom Liben",
+  "terms": "שלום ליבן Shalom Liben שלום ליבן"
+ },
+ {
+  "id": "p-khaia-liben",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חיה ליבן",
+  "sub": "Khaia Liben",
+  "terms": "חיה ליבן Khaia Liben חיה ליבן"
+ },
+ {
+  "id": "p-malka-schafir",
+  "type": "person",
+  "branch": "moskal",
+  "label": "מלכה מוסקל לבית שאפיר",
+  "sub": "Malka Moskal née Schafir",
+  "terms": "מלכה מוסקל לבית שאפיר Malka Moskal née Schafir מלכה מוסקל לבית שאפיר"
+ },
+ {
+  "id": "p-david-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דוד מוסקל",
+  "sub": "David Moskal",
+  "terms": "דוד מוסקל David Moskal דוד מוסקל"
+ },
+ {
+  "id": "p-lejba-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "לייבה מוסקל",
+  "sub": "Lejba Moskal",
+  "terms": "לייבה מוסקל Lejba Moskal לייבה מוסקל"
+ },
+ {
+  "id": "p-brandlya-eil",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ברנדלה מוסקל לבית אייל",
+  "sub": "Brandlya Moskal née Eil",
+  "terms": "ברנדלה מוסקל לבית אייל Brandlya Moskal née Eil Ejl Braina ברנדלה מוסקל לבית אייל"
+ },
+ {
+  "id": "p-gershon-rajs",
+  "type": "person",
+  "branch": "moskal",
+  "label": "גרשון רייס",
+  "sub": "Gershon Rajs",
+  "terms": "גרשון רייס Gershon Rajs גרשון רייס"
+ },
+ {
+  "id": "p-dvoyra-sztajn",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דוויירה רייס לבית שלַיים",
+  "sub": "Dvoyra Rajs née Szlaim",
+  "terms": "דוויירה רייס לבית שלַיים Dvoyra Rajs née Szlaim Sztajn (וריאנט של פקיד) Dwojra דוויירה רייס לבית שליים"
+ },
+ {
+  "id": "p-dawid-szloma-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דוד־שלמה מוסקל",
+  "sub": "Dawid Szloma Moskal",
+  "terms": "דוד־שלמה מוסקל Dawid Szloma Moskal Duvid דודשלמה מוסקל"
+ },
+ {
+  "id": "p-hinda-rajs",
+  "type": "person",
+  "branch": "moskal",
+  "label": "הינדה מוסקל לבית רייס",
+  "sub": "Hinda Moskal née Rajs",
+  "terms": "הינדה מוסקל לבית רייס Hinda Moskal née Rajs Inda הינדה מוסקל לבית רייס"
+ },
+ {
+  "id": "p-hersh-alspektor",
+  "type": "person",
+  "branch": "moskal",
+  "label": "הרש אלספקטור",
+  "sub": "Hersh Alspektor",
+  "terms": "הרש אלספקטור Hersh Alspektor הרש אלספקטור"
+ },
+ {
+  "id": "p-khaya-rajs",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חיה אלספקטור לבית רייס",
+  "sub": "Khaya Alspektor née Rajs",
+  "terms": "חיה אלספקטור לבית רייס Khaya Alspektor née Rajs Faia Fane חיה אלספקטור לבית רייס"
+ },
+ {
+  "id": "p-judka-lejba-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "יודקה־לייבה מוסקל",
+  "sub": "Judka Lejba Moskal",
+  "terms": "יודקה־לייבה מוסקל Judka Lejba Moskal Lejb יודקהלייבה מוסקל"
+ },
+ {
+  "id": "p-dvora-alspektor",
+  "type": "person",
+  "branch": "moskal",
+  "label": "צביה־דבורה מוסקל לבית אלספקטור",
+  "sub": "Tsivya Dvoyra Moskal née Alspektor",
+  "terms": "צביה־דבורה מוסקל לבית אלספקטור Tsivya Dvoyra Moskal née Alspektor Cywia Dwora צביהדבורה מוסקל לבית אלספקטור"
+ },
+ {
+  "id": "p-dvora-albert",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דבורה אלברט לבית מוסקל",
+  "sub": "Dvora Albert née Moskal",
+  "terms": "דבורה אלברט לבית מוסקל Dvora Albert née Moskal דבורה אלברט לבית מוסקל"
+ },
+ {
+  "id": "p-sara-soche-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שרה־סוחה מוסקל",
+  "sub": "Sara Soche Moskal",
+  "terms": "שרה־סוחה מוסקל Sara Soche Moskal Sitshe Siche סיצ'ה שרהסוחה מוסקל"
+ },
+ {
+  "id": "p-lea-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "לאה לבית מוסקל",
+  "sub": "Lea née Moskal",
+  "terms": "לאה לבית מוסקל Lea née Moskal Lahtshe לאהצ'ה לאהצ'ה מוסקאל לאה לבית מוסקל"
+ },
+ {
+  "id": "p-shmuel-schafir-brother",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמואל שאפיר",
+  "sub": "Shmuel Schafir",
+  "terms": "שמואל שאפיר Shmuel Schafir Shafir שמואל שאפיר"
+ },
+ {
+  "id": "p-shalom-schafir-brother",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שלום שאפיר",
+  "sub": "Shalom Schafir",
+  "terms": "שלום שאפיר Shalom Schafir Shafir שלום שאפיר"
+ },
+ {
+  "id": "p-rivka-eidelman",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רבקה שאפיר לבית איידלמן",
+  "sub": "Rivka Schafir née Eidelman",
+  "terms": "רבקה שאפיר לבית איידלמן Rivka Schafir née Eidelman רבקה שאפיר לבית איידלמן"
  },
  {
   "id": "p-estera-malka-szaufer",
   "type": "person",
   "branch": "moskal",
   "label": "אסתרה־מלכה שאפיר",
-  "sub": "Estera-Malka Szaufer",
-  "terms": "אסתרה־מלכה שאפיר Estera-Malka Szaufer Schafir Szajfer 1873"
+  "sub": "Estera Malka Szaufer",
+  "terms": "אסתרה־מלכה שאפיר Estera Malka Szaufer Schafir Szajfer אסתרהמלכה שאפיר"
+ },
+ {
+  "id": "p-gersz-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "גרש (הרשל) שאפיר",
+  "sub": "Gersz Szaufer",
+  "terms": "גרש (הרשל) שאפיר Gersz Szaufer Schafir Szajfer גרש (הרשל) שאפיר"
+ },
+ {
+  "id": "p-josef-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "יוסף שאפיר",
+  "sub": "Josef Szajfer",
+  "terms": "יוסף שאפיר Josef Szajfer Schafir Szajfer יוסף שאפיר"
+ },
+ {
+  "id": "p-dwojra-laia-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "דבורה־לאיה שאפיר",
+  "sub": "Dwojra Laia Szaufer",
+  "terms": "דבורה־לאיה שאפיר Dwojra Laia Szaufer Schafir Szajfer דבורהלאיה שאפיר"
+ },
+ {
+  "id": "p-srul-lejb-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שרול־לייב שאפיר",
+  "sub": "Srul Lejb Szaufer",
+  "terms": "שרול־לייב שאפיר Srul Lejb Szaufer Schafir Szajfer שרוללייב שאפיר"
  },
  {
   "id": "p-dawid-szaufer",
@@ -1997,71 +1293,135 @@
   "branch": "moskal",
   "label": "דוד שאפיר",
   "sub": "Dawid Szaufer",
-  "terms": "דוד שאפיר Dawid Szaufer Schafir Szajfer"
+  "terms": "דוד שאפיר Dawid Szaufer Schafir Szajfer דוד שאפיר"
  },
  {
-  "id": "p-moszko-moskal",
+  "id": "p-etel-blander",
   "type": "person",
   "branch": "moskal",
-  "label": "Moszko Moskal",
-  "sub": "",
-  "terms": "Moszko Moskal 1820 1847"
+  "label": "אטל בלנדר לבית מוסקל",
+  "sub": "Etel Blander",
+  "terms": "אטל בלנדר לבית מוסקל Etel Blander אטל בלנדר לבית מוסקל"
  },
  {
-  "id": "p-sura-erlich",
+  "id": "p-tauba-moskal",
   "type": "person",
   "branch": "moskal",
-  "label": "Sura Erlich",
-  "sub": "",
-  "terms": "Sura Erlich"
+  "label": "טאובה מוסקל",
+  "sub": "Tauba Moskal",
+  "terms": "טאובה מוסקל Tauba Moskal Tova Toibe Tovale טובהלה טאובה מוסקל"
  },
  {
-  "id": "p-hersz-jozef-moskal",
+  "id": "p-dvora-schafir",
   "type": "person",
   "branch": "moskal",
-  "label": "Hersz-Jozef Moskal",
-  "sub": "",
-  "terms": "Hersz-Jozef Moskal 1843 1854"
+  "label": "דבורה (דורה) שאפיר",
+  "sub": "Dvora Schafir",
+  "terms": "דבורה (דורה) שאפיר Dvora Schafir Szafir Szaufer דבורה (דורה) שאפיר"
  },
  {
-  "id": "p-szyfra-moskal",
+  "id": "p-chaike-schafir",
   "type": "person",
   "branch": "moskal",
-  "label": "Szyfra Moskal",
-  "sub": "",
-  "terms": "Szyfra Moskal 1846 1849"
+  "label": "חייקה וייסטופ לבית שאפיר",
+  "sub": "Chaike Weisstop Schafir",
+  "terms": "חייקה וייסטופ לבית שאפיר Chaike Weisstop Schafir Szafir Szaufer חייקה וייסטופ לבית שאפיר"
  },
  {
-  "id": "p-herszek-moskal",
+  "id": "p-yosef-schafir",
   "type": "person",
   "branch": "moskal",
-  "label": "Herszek Moskal",
-  "sub": "",
-  "terms": "Herszek Moskal"
+  "label": "יוסף שאפיר",
+  "sub": "Yosef Schafir",
+  "terms": "יוסף שאפיר Yosef Schafir Szafir Szaufer יוסף שאפיר"
  },
  {
-  "id": "p-sura-moskal",
+  "id": "p-shasha-schafir",
   "type": "person",
   "branch": "moskal",
-  "label": "Sura Moskal",
-  "sub": "",
-  "terms": "Sura Moskal"
+  "label": "יששכר («סשה») שאפיר",
+  "sub": "Issachar Schafir",
+  "terms": "יששכר («סשה») שאפיר Issachar Schafir Szafir Szaufer Shasha Sasha סשה יששכר («סשה») שאפיר"
  },
  {
-  "id": "p-perla-perz",
+  "id": "p-wolf-rajs",
   "type": "person",
   "branch": "moskal",
-  "label": "Perla Perz",
-  "sub": "",
-  "terms": "Perla Perz 1844 1873"
+  "label": "וולף רייס",
+  "sub": "Wolf Rajs",
+  "terms": "וולף רייס Wolf Rajs Wulf וולף רייס"
  },
  {
-  "id": "p-moszko-moskal-i1153",
+  "id": "p-lea-rajs",
   "type": "person",
   "branch": "moskal",
-  "label": "Moszko Moskal",
-  "sub": "",
-  "terms": "Moszko Moskal 1841"
+  "label": "לאה רייס",
+  "sub": "Lea Rajs",
+  "terms": "לאה רייס Lea Rajs Łea לאה רייס"
+ },
+ {
+  "id": "p-szmul-szlaim",
+  "type": "person",
+  "branch": "moskal",
+  "label": "שמואל שלַיים",
+  "sub": "Szmul Szlaim",
+  "terms": "שמואל שלַיים Szmul Szlaim שמואל שליים"
+ },
+ {
+  "id": "p-rypka-szlaim",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ריפקה שלַיים",
+  "sub": "Rypka Szlaim",
+  "terms": "ריפקה שלַיים Rypka Szlaim Rifka-Rykla ריפקה שליים"
+ },
+ {
+  "id": "p-jankiel-moskal",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ינקל מוסקל",
+  "sub": "Jankiel Moskal",
+  "terms": "ינקל מוסקל Jankiel Moskal ינקל מוסקל"
+ },
+ {
+  "id": "p-elka-erlich",
+  "type": "person",
+  "branch": "moskal",
+  "label": "אלקה מוסקל לבית ארליך",
+  "sub": "Elka Moskal née Erlich",
+  "terms": "אלקה מוסקל לבית ארליך Elka Moskal née Erlich אלקה מוסקל לבית ארליך"
+ },
+ {
+  "id": "p-ruchla-laja-moskal-1876",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רוחלה־לאיה מוסקל",
+  "sub": "Ruchla-Laja Moskal",
+  "terms": "רוחלה־לאיה מוסקל Ruchla-Laja Moskal רוחלהלאיה מוסקל"
+ },
+ {
+  "id": "p-berek-erlich",
+  "type": "person",
+  "branch": "moskal",
+  "label": "ברקו ארליך",
+  "sub": "Berek Erlich",
+  "terms": "ברקו ארליך Berek Erlich ברקו ארליך"
+ },
+ {
+  "id": "p-ruchla-laja-potasznik",
+  "type": "person",
+  "branch": "moskal",
+  "label": "רוחלה־לאיה ארליך לבית פוטשניק",
+  "sub": "Ruchla-Laja Erlich née Potasznik",
+  "terms": "רוחלה־לאיה ארליך לבית פוטשניק Ruchla-Laja Erlich née Potasznik רוחלהלאיה ארליך לבית פוטשניק"
+ },
+ {
+  "id": "p-chaim-tojwi-szaufer",
+  "type": "person",
+  "branch": "moskal",
+  "label": "חיים־טויבי שאופר",
+  "sub": "Chaim-Tojwi Szaufer",
+  "terms": "חיים־טויבי שאופר Chaim-Tojwi Szaufer Chajm Tojwi ⚠ «Chaim Froim» — שגיאה, ראו הערה חייםטויבי שאופר"
  },
  {
   "id": "pl-wojslawice",

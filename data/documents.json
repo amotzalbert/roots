@@ -802,5 +802,65 @@
   "caption_en": "Wojsławice · State Archive in Lublin, fond 35/1960, sygn. 0/1/10, scan 12, karta 19. \"Herszko Gleyzer, glazier, aged 32\" registers his son Abram, born in his house No. 18.",
   "title_pl": "Akt urodzenia 56/1822 — Abram Glezer",
   "caption_pl": "Wojsławice · Archiwum Państwowe w Lublinie, zespół 35/1960, sygn. 0/1/10, skan 12, karta 19. „Herszko Gleyzer Szklarz lat trzydzieści dwa\" zgłasza syna Abrama, urodzonego w domu pod numerem 18."
+ },
+ {
+  "id": "albert-1824-M01",
+  "branch": "albert",
+  "title": "אקט נישואין 1/1824 — אהרון צוקרוסקי ⚭ טאובה פוטאשניצקה",
+  "caption": "סטראווצ׳ין, 12 בינואר 1824. בתחתית העמוד חתם החתן בעצמו בעברית: «אהרן צוקרווסקי», ולצדו העד «שלמה רוטקאווסקי».",
+  "image": "assets/scans/albert/1824-M01.jpg",
+  "thumb": "assets/scans/thumbs/albert-1824-M01.jpg",
+  "title_en": "Marriage act 1/1824 — Aaron Cukroski ⚭ Taube Potasznicka",
+  "caption_en": "Strawczyn, 12 January 1824. At the foot of the page the groom signed for himself in Hebrew letters — “Aharon Cukrowski” — and beside him the witness “Shlomo Rutkovski”.",
+  "title_pl": "Akt małżeństwa 1/1824 — Aaron Cukroski ⚭ Taube Potasznicka",
+  "caption_pl": "Strawczyn, 12 stycznia 1824. U dołu strony pan młody podpisał się własnoręcznie po hebrajsku — „Aharon Cukrowski” — a obok niego świadek „Szlomo Rutkowski”."
+ },
+ {
+  "id": "albert-1823-checiny-cert-aron",
+  "branch": "albert",
+  "title": "תעודת קהל חנצ'ין לאהרון, 29 בדצמבר 1823",
+  "caption": "«אהרון מורדקוביץ׳, הנקרא כעת צוקרוסקי» — נולד 21 בפברואר 1795 בעיר חנצ'ין, בן מורדקה ואסתר לבית חיינוב, «שנפטרו שניהם רק השנה». נושא את חותם הדוזור הבוז'ניצ'י: כתר, לוחות הברית וענפי זית.",
+  "image": "assets/scans/albert/1823-checiny-cert-aron.jpg",
+  "thumb": "assets/scans/thumbs/albert-1823-checiny-cert-aron.jpg",
+  "title_en": "Chęciny kahal certificate for Aron, 29 December 1823",
+  "caption_en": "“Aron Mordkowicz, now called Cukrowski” — born 21 February 1795 in the town of Chęciny, son of Mordka and Ester née Chayn, “who died only this year”. It carries the seal of the Synagogue Board: a crown, the Tablets of the Law and olive branches.",
+  "title_pl": "Świadectwo kahału chęcińskiego dla Arona, 29 grudnia 1823",
+  "caption_pl": "„Aron Mordkowicz na teraz Cukrowskim zwany” — urodzony 21 lutego 1795 w mieście Chęciny, syn Mordki i Ester z Chaynów, „którzy dopiero tego roku zmarli”. Dokument opatrzony pieczęcią Dozoru Bóżniczego: korona, Tablice Prawa i gałązki oliwne."
+ },
+ {
+  "id": "albert-1823-checiny-death-mortka",
+  "branch": "albert",
+  "title": "אקט פטירה של מורטקה צוקרוסקי, חנצ'ין 1823",
+  "caption": "המסמך שהעלה את השושלת שני דורות: «בנם של ווּלף ודבוירה צוקרוסקי מהעיר חנצ'ין, שניהם כבר מתים». המצהיר הוא בנו יואכים, סוחר בחנצ'ין — אחיו של אהרון, שלא ידענו על קיומו.",
+  "image": "assets/scans/albert/1823-checiny-death-mortka.jpg",
+  "thumb": "assets/scans/thumbs/albert-1823-checiny-death-mortka.jpg",
+  "title_en": "Death act of Mortka Cukrowski, Chęciny 1823",
+  "caption_en": "The document that carried the line two generations up: “son of Wulf and Dwojra Cukrowscy, of the town of Chęciny, both already dead”. The declarant is his son Joachym, a trader in Chęciny — a brother of Aron we did not know existed.",
+  "title_pl": "Akt zejścia Mortki Cukrowskiego, Chęciny 1823",
+  "caption_pl": "Dokument, który cofnął linię o dwa pokolenia: „Rodziców Wulfa i Dwoyry Cukrowskich [...] Syn, w Mieście Chęcinach, oboyga już zmarłych”. Zgłaszającym jest jego syn Joachym, handlarz w Chęcinach — brat Arona, o którym nie wiedzieliśmy."
+ },
+ {
+  "id": "albert-1824-checiny-cert-toba",
+  "branch": "albert",
+  "title": "תעודת קהל חנצ'ין לטובה, 4 בינואר 1824",
+  "caption": "«טובה מושקובנה, הנקראת כעת פוטאשניצקה» — נולדה 8 בדצמבר 1801 בחנצ'ין, בתם של מושק שמולוביץ׳ ואסתר לבקובנה. שתי הצורות של שמה במסמך אחד — וזה מה שסגר את זיהוי המשפחה.",
+  "image": "assets/scans/albert/1824-checiny-cert-toba.jpg",
+  "thumb": "assets/scans/thumbs/albert-1824-checiny-cert-toba.jpg",
+  "title_en": "Chęciny kahal certificate for Toba, 4 January 1824",
+  "caption_en": "“Toba Moszkówna, now called Potasznicka” — born 8 December 1801 in Chęciny, daughter of Moszek Szmulowicz and Ester Lewkówna. Both forms of her name in one document — and that is what closed the identification of the family.",
+  "title_pl": "Świadectwo kahału chęcińskiego dla Toby, 4 stycznia 1824",
+  "caption_pl": "„Toba Moszkówna na teraz Potasznicka zwana” — urodzona 8 grudnia 1801 w Chęcinach, córka Moszka Szmulowicza i Ester Lewkówny. Obie formy jej nazwiska w jednym dokumencie — i to właśnie zamknęło identyfikację rodziny."
+ },
+ {
+  "id": "albert-1823-D16-sara",
+  "branch": "albert",
+  "title": "אקט פטירה 16/1823 — שרה לבית רוטקובסקי, אשתו הראשונה של אהרון",
+  "caption": "רודה סטראווצ׳ינסקה, 20 בספטמבר 1823, בית מס' 60, בת 28. ⚠ המצהיר הראשון נקרא באקט «מורטקה צוקרוביץ׳, בן שבעים, אבי הנפטרת» — סתירה שטרם נפתרה, שכן אותו מורטקה הוא אביו של אהרון.",
+  "image": "assets/scans/albert/1823-D16-sara.jpg",
+  "thumb": "assets/scans/thumbs/albert-1823-D16-sara.jpg",
+  "title_en": "Death act 16/1823 — Sara née Rutkowska, Aron’s first wife",
+  "caption_en": "Ruda Strawczyńska, 20 September 1823, house no. 60, aged 28. ⚠ The first declarant is called “Mortka Cukrowicz, seventy, father of the deceased” — an unresolved contradiction, since that same Mortka is Aron’s own father.",
+  "title_pl": "Akt zejścia 16/1823 — Sara z Rutkowskich, pierwsza żona Arona",
+  "caption_pl": "Ruda Strawczyńska, 20 września 1823, dom nr 60, lat 28. ⚠ Pierwszy zgłaszający określony jest jako „Mortka Cukrowicz maiący lat siedmdziesiąt, Oyciec zmarłey” — sprzeczność nierozwiązana, bo ten sam Mortka jest ojcem Arona."
  }
 ]

@@ -7536,22 +7536,25 @@
   "branch": "moskal",
   "gen": 3,
   "names": {
-   "he": "ששה שאפיר",
-   "latin": "Shasha Schafir",
-   "given": "Shasha",
+   "he": "יששכר («סשה») שאפיר",
+   "latin": "Issachar Schafir",
+   "given": "Issachar",
    "surname": "Schafir",
    "variants": [
     "Szafir",
-    "Szaufer"
+    "Szaufer",
+    "Shasha",
+    "Sasha",
+    "סשה"
    ]
   },
-  "sex": "F",
+  "sex": "M",
   "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
   "notes": [
-   "בתם של מנחם מנדל שאפיר ופרל; אחותה של מלכה. ○ ידועה משמה בלבד; לא אותר עליה מסמך."
+   "★ «ששה» הוא כינוי של יששכר, אחיה של מלכה — אח, לא אחות. אושר ע\"י אמוץ 3.8.2026 ושוב 21.8.2026. הרשומה הישנה תיארה אותו כבת; תוקן."
   ],
   "grade": "inference",
   "sources": [],

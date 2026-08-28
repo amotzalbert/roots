@@ -160,6 +160,17 @@ def index_by_key(items, get):
             idx.setdefault(k, []).append(it)
     return idx
 
+
+# ── שער בטיחות 28.8.2026: התאמה לפי שם פרטי בלבד (מפתח "G:") אינה מספיקה ──
+# מקרה שחשף את הבאג: הוספת "Sara Rutkowska" (ענף אלברט, נפטרה 1823 ברודה סטראווצ׳ינסקה)
+# גרמה למפתח G:sara להצביע עליה, והיא בלעה את הזהות של "Sara Soche Moskal" מהענף האימהי —
+# שם עברי, כינויים, ענף, ואפילו חברות בזיווג u-f1007. מעכשיו מפתח G: נדחה אם שני
+# הצדדים נושאים שם משפחה והם שונים, או אם הענפים שונים.
+REJECTED_G = []
+def g_match_ok(ged_names, cur_names):
+    gs, cs = norm(ged_names.get('surname','')), norm((cur_names or {}).get('surname',''))
+    return not (gs and cs and gs != cs)
+
 MANUAL = {}
 mp_ = DATA/"curated-to-gedcom.map.json"
 if mp_.exists(): MANUAL = json.loads(mp_.read_text(encoding='utf-8'))
@@ -189,7 +200,13 @@ for p in people.values():
             if src: via_manual = True; break
     if not src:
         for k in all_keys(p['names']['latin'], p['names']['given'], p['names']['surname']):
-            if k in enrich: src = enrich[k]; break
+            if k not in enrich: continue
+            cand = enrich[k]
+            if k.startswith('G:') and not g_match_ok(p['names'], cand.get('names')):
+                REJECTED_G.append((p['gedcomId'], p['names']['latin'], cand['id'],
+                                   ((cand.get('names') or {}).get('latin') or '')))
+                continue
+            src = cand; break
     if not src: continue
     hits += 1; matched.add(src['id'])
     sn = src.get('names') or {}
@@ -226,7 +243,9 @@ for c in curated:
         tgt = by_ged.get(MANUAL[c['id']]['gedcomId'], {}).get('id')
     if not tgt and c['id'] in matched:
         for k in all_keys(cn.get('latin',''), cn.get('given',''), cn.get('surname','')):
-            if k in alias: tgt = alias[k]; break
+            if k not in alias: continue
+            if k.startswith('G:') and not g_match_ok(people[alias[k]]['names'], cn): continue
+            tgt = alias[k]; break
     if tgt:
         idmap2[c['id']] = tgt
         continue
@@ -316,6 +335,9 @@ if suspects:
         print(f"    {a}  ≟  {b}   (קרובים משותפים: {sh})")
     raise SystemExit("הרצה נעצרה: יש מועמדים לכפילות. הכריעו והוסיפו ל-curated-to-gedcom.map.json")
 print("שער הכפילויות: נקי")
+if REJECTED_G:
+    print("שער G: נדחו %d התאמות שם-פרטי-בלבד עם שמות משפחה סותרים:" % len(REJECTED_G))
+    for g,gl,cid,cl in REJECTED_G: print(f"    {g} «{gl}»  ≠  {cid} «{cl}»")
 
 (DATA/"people.unified.json").write_text(json.dumps(list(people.values()), ensure_ascii=False, indent=1), encoding='utf-8')
 (DATA/"unions.unified.json").write_text(json.dumps(unions, ensure_ascii=False, indent=1), encoding='utf-8')

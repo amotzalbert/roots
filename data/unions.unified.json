@@ -620,8 +620,7 @@
    "p-srul-lejb-szaufer",
    "p-estera-malka-szaufer",
    "p-dawid-szaufer",
-   "p-gersz-szaufer",
-   "p-srul-glezer"
+   "p-gersz-szaufer"
   ],
   "marriage": {
    "date": "21 JAN 1873",
@@ -1565,6 +1564,87 @@
    "date": "25 JUN 1856",
    "place": "Wojslawice, Chelm, Lublin, Poland"
   },
+  "notes": []
+ },
+ {
+  "id": "u-f1071",
+  "gedcomId": "F1071",
+  "branch": "albert",
+  "spouses": [
+   "p-mortka-cukier-i1176",
+   "p-esterka-chojna"
+  ],
+  "children": [
+   "p-aron-cukier",
+   "p-joachym-cukrowski"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1072",
+  "gedcomId": "F1072",
+  "branch": "albert",
+  "spouses": [
+   "p-mosko-potasznicki",
+   "p-ester"
+  ],
+  "children": [
+   "p-tauba-moszkowicz"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1073",
+  "gedcomId": "F1073",
+  "branch": "albert",
+  "spouses": [
+   "p-aron-cukier",
+   "p-sara-rutkowska"
+  ],
+  "children": [],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1074",
+  "gedcomId": "F1074",
+  "branch": "albert",
+  "spouses": [
+   "p-wulf-cukrowski",
+   "p-dwojra-cukrowska"
+  ],
+  "children": [
+   "p-mortka-cukier-i1176"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1075",
+  "gedcomId": "F1075",
+  "branch": "albert",
+  "spouses": [
+   "p-szmul"
+  ],
+  "children": [
+   "p-mosko-potasznicki"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1076",
+  "gedcomId": "F1076",
+  "branch": "albert",
+  "spouses": [
+   "p-lewek"
+  ],
+  "children": [
+   "p-ester"
+  ],
+  "marriage": null,
   "notes": []
  }
 ]

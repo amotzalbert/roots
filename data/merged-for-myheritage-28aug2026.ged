@@ -2409,30 +2409,11 @@
 2 GIVN Aron
 2 SURN Cukier
 1 SEX M
-1 BIRT
-2 DATE 21 FEB 1795
-2 PLAC Checiny, Poland
-2 NOTE ** EXACT DATE, FROM THE KAHAL CERTIFICATE ITSELF (@S1050@), read 28 Aug 2026: **
-3 CONT "urodzil tutay w miescie Checinach [...] ten sie urodzil dnia 21. Lutego roku
-3 CONT Tysiac Siedm Set Dziewiecdziesiatego Piatego, a tak konczy lat Dwadziescia Osm."
-3 CONT The certificate also calls him "ARONA MORDKOWICZA na teraz CUKROWSKIM zwanego" -
-3 CONT Aron son of Mordka, NOW CALLED Cukrowski: the surname change caught in the act of
-3 CONT happening.
-2 CONT From marriage act 1/1824 of Strawczyn: "maiacy podlug Swiadectwa z Kachalu
-3 CONT Checinskiego wydanego lat dwadziescia dziewiec NIEDOKONCZONE" - twenty-nine not yet
-3 CONT complete on 12 January 1824. So born between 13 Jan 1794 and 12 Jan 1795. The age
-3 CONT certificate came from the KAHAL OF CHECINY, which places his birth registration
-3 CONT there rather than at Strawczyn.
-1 MARR
-2 DATE 12 JAN 1824
-2 PLAC Strawczyn, Poland
 1 OCCU potash maker
 2 NOTE "Potaznik" in the 1846 act - potash making was the family trade, carried on by Kiwa.
 1 RESI
 2 PLAC Ruda Strawczynska, Poland
 1 FAMS @F64@
-1 FAMS @F1073@
-1 FAMC @F1071@
 1 DEAT
 2 DATE BET 1846 AND 1858
 2 PLAC Radoszyce registry district, Poland
@@ -2444,20 +2425,7 @@
 1 NOTE (documented, by name) Named as father of the groom in Kiwa's 1849 marriage act and in
 2 CONT the marriage rows of five other children - Abram 16/1844, Mortka 17/1844, Mosiek
 2 CONT 9/1846, Laja 13/1857, Chaim Wolf 18/1858. See @F64@.
-1 NOTE (documented) MARRIAGE ACT 1/1824, STRAWCZYN - read from the image 28 Aug 2026. It
-2 CONT names HIS PARENTS: Mortka Cukroski, potasznik, "niegdy" of Ruda, and Esterka z
-2 CONT Choynow (@F1071@) - two generations further back. It also shows he was a WIDOWER of
-2 CONT Sara z Rutkowskich (@I1180@), so this was his second marriage. He signed the act
-2 CONT himself, in Hebrew letters: "Aharon Cukrowski".
-2 CONT >>> IDENTIFICATION. The act says CUKROSKI, not Cukier. It is the same man on every
-2 CONT other axis: same tiny village Ruda, same trade potasznik, wife Taube whose father
-2 CONT is Mosko - matching Tauba's documented maiden surname MOSZKOWICZ - and a father
-2 CONT called Mortka, after whom their son Mortka ~1823 is named. In 1824 Jewish surnames
-2 CONT were three years old; Cukroski to Cukier is ordinary drift. Strong, not certain.
-2 CONT See albert/findings/131.
 1 SOUR @S84@
-1 SOUR @S1049@
-1 SOUR @S1050@
 
 0 @I72@ INDI
 1 NAME Tauba /Moszkowicz/
@@ -2468,34 +2436,8 @@
 3 CONT 9/1846 (Mosiek), all "Tauba Moskowicz". Kiwa's own 1849 row gives just "Tajba".
 3 CONT Upgraded from probable to documented, 15 Aug 2026 (findings/090).
 1 SEX F
-1 BIRT
-2 DATE 8 DEC 1801
-2 PLAC Checiny, Poland
-2 NOTE ** EXACT DATE, FROM THE KAHAL CERTIFICATE ITSELF (@S1053@), read 28 Aug 2026: **
-3 CONT "taz TOBA urodzila sie w Parafii tuteyszey, dnia 8go Grudnia Tysiac Osmsetnego
-3 CONT pierwszego, tu w miescie Checinach wychowana, a na teraz w wsi Rudzie Strawczyny
-3 CONT [...] w sluzbie zostaiaca."
-3 CONT The certificate calls her "TOBY MOSZKOWNY na teraz POTASZNICKIE zwaney" - Toba
-3 CONT daughter of Moszek, NOW CALLED Potasznicka. This is the documentary proof that
-3 CONT MOSZKOWICZ and POTASZNICKA are one and the same woman, and closes the
-3 CONT identification of this couple with ours.
-2 CONT Aged twenty-two on 12 January 1824, "podlug Swiadectwa z Kachalu Checinskiego
-3 CONT wydanego" - by a certificate issued by the KAHAL OF CHECINY.
-1 MARR
-2 DATE 12 JAN 1824
-2 PLAC Strawczyn, Poland
 1 FAMS @F64@
-1 FAMC @F1072@
-1 NOTE (documented) MARRIAGE ACT 1/1824, STRAWCZYN - read from the image 28 Aug 2026. In it
-2 CONT she is "Starozakonna Panna TAUBE POTASZNICKA", aged 22, in service as a maid at
-2 CONT Ruda, daughter of Mosko Potasznicki and Esterka z Lewkow (@F1072@). POTASZNICKA is
-2 CONT the occupational by-name of her father's trade, not a surname; the Radoszyce clerk
-2 CONT later wrote the true patronymic, MOSZKOWICZ - daughter of Mosko. The two agree.
-2 CONT >>> She married WITH HER MOTHER AT HER SIDE, "w Assystencyi Matki swoiey", and made
-2 CONT the Akt Uszanowania to her before the witnesses. Her father is not recorded present.
 1 SOUR @S84@
-1 SOUR @S1049@
-1 SOUR @S1053@
 
 0 @F64@ FAM
 1 HUSB @I71@
@@ -2514,7 +2456,6 @@
 2 CONT Radoszyce residents' book (@S88@). All six were entered as individuals on 15 Aug 2026
 2 CONT (findings/090); before that date only Kiwa was.
 1 SOUR @S84@
-1 SOUR @S1049@
 
 0 @I73@ INDI
 1 NAME Izrael /Winogron/
@@ -4542,10 +4483,6 @@
 3 CONT shoemaker, 33. Born Krasniczyn, 24 Feb/7 Mar 1888, 4pm, to his lawful wife GINDA
 3 CONT (HINDA) nee RAJS, aged 31. At circumcision the child was given the name WULF.
 3 CONT Signed in Hebrew by Duvid Moskal, Moszko Warman, Godel Fruks.
-3 CONT CALENDAR: the act gives the birth in both styles, 24 Feb / 7 Mar 1888. The date
-3 CONT recorded above is the NEW STYLE (Gregorian) half, 7 March, which is the convention
-3 CONT used throughout this file. Corrected 29 Aug 2026; it had been entered as 24 Feb,
-3 CONT the Old Style half, which made him appear born twelve days early.
 1 NOTE _CONF PROVEN as a son of Dawid-Szloma Moskal (@I1045@) and Hinda nee Rajs (@I1046@).
 2 CONT Father named "Duvid Moskal, merchant, 32" and mother "Ginda nee Rajs, 31" - matching
 2 CONT the already-proven couple (marriage act 1/1878) exactly; "Ginda/Hinda" is the same
@@ -4969,13 +4906,6 @@
 3 CONT ◐ the day of the month is the one word I would not swear to; the year, age, parents,
 3 CONT residence and surviving husband are all unambiguous.
 3 CONT Corroborated by Dorohusk marriage act 1/1832 ("Josia and Dwojra BUKSZPAN").
-3 CONT ⚠ CLARIFIED 28 Aug 2026: act 1/1832 is NOT her own marriage - it is the marriage
-3 CONT of her SON MOSZEK (aged 20) to Rane Katz, in which she and Jos appear as the
-3 CONT GROOM'S PARENTS. Good corroboration of the couple; not a record of her marriage.
-3 CONT >>> HER OWN MARRIAGE therefore falls c.1810-1812, INSIDE the mixed-register period
-3 CONT when the Catholic parish priest registered Jews - and it would name ARON and PERLA.
-3 CONT TARGET: fond 35/1932 (Swierze, filia Dorohusk) or 35/1931 (Swierze), marriages
-3 CONT 1810-1812, both fully digitised. NOT YET SEARCHED.
 3 CONT ⇒ SHE DIED AT DOROHUSK, not Swierze - the family had moved the few km down the Bug.
 3 CONT ⇒ AND JOS OUTLIVED HER, which the 1836 marriage act independently confirms.
 1 NOTE _CONF PROVEN as Moszko-Gersz's mother (death act 4/1869): "of the late Jos and Dwojra
@@ -7094,15 +7024,11 @@
 1 BIRT
 2 DATE 15 SEP 1881
 2 PLAC Krasniczyn, Lublin, Poland
-2 NOTE 3/15 September 1881. From BIRTH ACT 14/1884 (APL 35/1787/0/2.1/48, scans 10r-11l) -
+2 NOTE 3/15 September 1881. NEW STYLE (Gregorian) half recorded above; corrected 29 Aug 2026. From BIRTH ACT 14/1884 (APL 35/1787/0/2.1/48, scans 10r-11l) -
 3 CONT a late registration filed 3/15 Feb 1884, the delay recorded as "za bolezn'yu ottsa",
 3 CONT owing to the father's illness. Declared by Duvid Moskal, merchant, 28, of
-3 CONT Krasniczyn; mother Inda nee Rajs, 28.
-3 CONT CALENDAR: the act gives the birth in both styles, 3/15 September 1881. The date
-3 CONT recorded above is the NEW STYLE (Gregorian) half, 15 September, which is the
-3 CONT convention used throughout this file. Corrected 29 Aug 2026; it had been entered as
-3 CONT 3 September, the Old Style half, which made her appear born twelve days early.
-3 CONT Geni's profile gives 3 September 1881 - the same act, read in Old Style.
+3 CONT Krasniczyn; mother Inda nee Rajs, 28. Geni's profile gives 3 September 1881, i.e.
+3 CONT the Old Style half of the same act.
 1 FAMC @F1020@
 1 FAMS @F1059@
 1 NOTE (documented) SISTER OF JUDKA-LEJBA @I1021@, daughter of Dawid-Szloma and Hinda.
@@ -7797,371 +7723,5 @@
 2 CONT photos.szukajwarchiwach.gov.pl/<hash>_max directly - see
 2 CONT findings/ACT-33-1820-READ-bergier-marries-a-KAC-and-the-curl-breakthrough.md
 1 NOTE Carries four Hebrew-script signatures. NOT yet deciphered.
-
-0 @S1049@ SOUR
-1 TITL Strawczyn parish register, marriage acts 1824, act 1 (banns 28 Dec 1823 and 4 Jan 1824; marriage 12 Jan 1824)
-1 AUTH Rev. Andrzej Groth, pleban of Strawczyn, Civil Registrar of gmina Strawczyn
-1 PUBL Archiwum Panstwowe w Kielcach. Album "Strawczyn_95_AP Kielce / 1824_026", scan __942346.JPG (image 21 of 30). Viewed at metryki.genbaza.pl/genbaza,detail,421706,21 - free, no account needed. Located through the Swietogen index (indexer: Janina Hyb).
-1 NOTE READ FROM THE IMAGE, 28 August 2026, at 1:1 zoom - not from the index alone. Full
-2 CONT transcription and Hebrew translation in albert/findings/131.
-2 CONT The act carries TWO HEBREW SIGNATURES: "Aharon Cukrowski" (the groom, who signed
-3 CONT himself) and "Shlomo Rutkovski" (the witness Szlama Rutkoski) - exactly as the act
-3 CONT states: signed by us, by the newly-wed and by one of the witnesses, the rest being
-3 CONT unable to write.
-
-0 @I1176@ INDI
-1 NAME Mortka /Cukier/
-2 GIVN Mortka
-2 SURN Cukier
-2 NOTE Written CUKROSKI in the 1824 act; his son signed himself in Hebrew letters as
-3 CONT "Cukrowski". The family is CUKIER in the Radoszyce register from 1844 on. In 1824
-3 CONT Jewish surnames in the Kingdom were three years old and unstable - see the
-3 CONT surname-law finding in the Wojslawice file. Recorded here under the family's
-3 CONT settled spelling, with the 1824 form noted.
-1 SEX M
-1 OCCU Potash maker (potasznik)
-1 BIRT
-2 DATE ABT 1752
-2 PLAC Checiny, Poland
-2 NOTE Aged SEVENTY at Strawczyn on 22 September 1823 (@S1051@) and SEVENTY-ONE at Checiny
-3 CONT that autumn (@S1052@) - he had a birthday between the two, which is itself a
-3 CONT small confirmation that the two records are one man.
-1 RESI
-2 PLAC Ruda Strawczynska, gmina Strawczyn, Poland
-2 NOTE A potasznik at Ruda in September 1823; he died at Checiny, house no. 44, weeks
-3 CONT later. Whether he had moved back or was only visiting is not stated.
-1 DEAT
-2 DATE 29 OCT 1823
-2 PLAC Checiny, house no. 44, Poland
-2 NOTE ** THE DEATH ACT ITSELF (@S1052@), read from the image 28 Aug 2026. ** Declared at
-3 CONT Checiny before Rev. Antoni Jedryszko by his son JOACHYM CUKROWSKI, trader, and
-3 CONT Herszla Waxman, szpitalnik, both of Checiny: he died "na Dniu wczorayszym o
-3 CONT godzinie siodmey wieczorem" - yesterday at seven in the evening - in house no. 44.
-3 CONT >>> DATE CAVEAT: the act is dated "Dnia trzydziestego" of a month read as
-3 CONT PAZDZIERNIKA (October); the month word is not perfectly crisp. The death is
-3 CONT therefore the 29th of that month. It cannot be December: the certified extract
-3 CONT itself is dated 29 December 1823. The ORIGINAL act in the Checiny 1823 register
-3 CONT will settle the month.
-1 FAMC @F1074@
-1 FAMS @F1071@
-1 NOTE (documented, by name) FATHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of
-2 CONT the Strawczyn register, read from the image 28 Aug 2026: "Syn Mortki Cukroskiego
-2 CONT Potasznika niegdy w Rudzie zamieszkalego i Esterki z Choynow".
-2 CONT >>> HIS OWN PARENTS ARE NAMED in his Checiny death act (@S1052@): "Rodzicow WULFA
-2 CONT i DWOYRY Cukrowskich [...] Syn, w Miescie Checinach, oboyga juz zmarlych" - see
-2 CONT @F1074@. That single line carries the Cukier line two generations above Aron.
-2 CONT >>> THE SURNAME IS UNSTABLE ACROSS THREE MONTHS OF 1823: he is CUKROWICZ in the
-2 CONT September death act at Strawczyn, CUKROWSKI in the October death act at Checiny,
-2 CONT and his son is "Mortki CUKROSKIEGO" in the January 1824 marriage act. By 1844 the
-2 CONT family is CUKIER in the Radoszyce register. One family, four spellings, twenty
-2 CONT years.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-1 SOUR @S1050@
-1 SOUR @S1051@
-1 SOUR @S1052@
-
-0 @I1177@ INDI
-1 NAME Esterka /Chojna/
-2 GIVN Esterka
-2 SURN Chojna
-2 NOTE The act reads "Esterka z CHOYNOW". Rendered Chojna. CAUTION: in these registers the
-3 CONT "z ...ow" formula is not always a maiden surname - the same caveat is already
-3 CONT recorded at @I18@ for "z Lewkow". It may be a patronymic form.
-1 SEX F
-1 DEAT
-2 DATE 1823
-2 NOTE From the Checiny kahal certificate of 29 December 1823 (@S1050@), which speaks of
-3 CONT Aron's father and mother together: "ktorzy DOPIERO TEGO ROKU ZMARLI" - who died
-3 CONT only this year. Both parents died in 1823. Her own death act has not been sought;
-3 CONT it should stand in the Checiny 1823 register, near her husband's.
-1 FAMS @F1071@
-1 NOTE (documented, by name) MOTHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of
-2 CONT the Strawczyn register as "Esterki z Choynow", and in the Checiny kahal certificate
-2 CONT as "Ester z Chaynow". The certificate then calls the couple "WULFOWICZOW na teraz
-2 CONT CUKROWSKICH zwanych" - the Wulfowicze, now called Cukrowski - which is her
-2 CONT husband's patronymic, not hers, and is confirmed by his own death act naming his
-2 CONT father Wulf.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-1 SOUR @S1050@
-
-0 @F1071@ FAM
-1 HUSB @I1176@
-1 WIFE @I1177@
-1 CHIL @I71@
-1 CHIL @I1184@
-1 NOTE Parents of Aron Cukier @I71@, of Ruda Strawczynska. Established 28 Aug 2026 from
-2 CONT marriage act 1/1824 of the Strawczyn register, read from the image. Both age
-2 CONT certificates in that act were issued by the KAHAL OF CHECINY, which is where this
-2 CONT couple's own records should be sought.
-1 SOUR @S1049@
-
-0 @I1178@ INDI
-1 NAME Mosko /Potasznicki/
-2 GIVN Mosko
-2 SURN Potasznicki
-2 NOTE POTASZNICKI is an occupational by-name, not a fixed surname - he was himself a
-3 CONT potasznik. His daughter's documented maiden surname in the Radoszyce register is
-3 CONT MOSZKOWICZ, the true patronymic: daughter of Mosko. The two forms point to one man.
-1 SEX M
-1 OCCU Potash maker (potasznik)
-1 RESI
-2 PLAC "na Pustkowiu", gmina Strawczyn, Poland
-2 NOTE The act says only "na Pustkowiu" - at an outlying settlement - without naming which
-3 CONT one. Not yet identified.
-1 FAMC @F1075@
-1 FAMS @F1072@
-1 NOTE (documented, by name) MOSZEK SZMULOWICZ - son of Szmul - in the Checiny kahal
-2 CONT certificate of his daughter (@S1053@), "na teraz POTASZNICKICH zwanych", now called
-2 CONT Potasznicki. His own father @I1185@ is known from that patronymic alone.
-1 NOTE (documented, by name) FATHER OF TAUBA @I72@. Named in marriage act 1/1824 of the
-2 CONT Strawczyn register: "Corka Moska Potasznickiego na Pustkowiu zamieszkalego
-2 CONT Potasznika i Esterki z Lewkow". He is NOT recorded as present at the wedding - his
-2 CONT daughter appeared "w Assystencyi Matki swoiey", with her mother only.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-1 SOUR @S1053@
-
-0 @I1179@ INDI
-1 NAME Ester //
-2 GIVN Ester
-2 NOTE ** THE "z Lewkow" QUESTION IS NOW SETTLED. ** The marriage act reads "Esterki z
-3 CONT LEWKOW" and I left her without a surname because the formula was distrusted at
-3 CONT @I18@. The Checiny kahal certificate (@S1053@) writes it out in full: "z matki
-3 CONT ESTER LEWKOWNEY" - Ester DAUGHTER OF LEWEK. It is a PATRONYMIC, not a maiden
-3 CONT surname, and she correctly has no surname of her own. Her father is @I1186@.
-3 CONT >>> The same correction should be considered for Ryfka @I18@ in the Klimontow
-3 CONT branch, whose maiden name also "reads z Lewkow".
-1 SEX F
-1 FAMC @F1076@
-1 FAMS @F1072@
-1 NOTE (documented, by name) MOTHER OF TAUBA @I72@. Named in marriage act 1/1824 of the
-2 CONT Strawczyn register. ALIVE AND PRESENT, 12 JANUARY 1824: her daughter appeared "w
-2 CONT Assystencyi Matki swoiey", and made the Akt Uszanowania - the act of respect - to
-2 CONT her before the witnesses.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-1 SOUR @S1053@
-
-0 @F1072@ FAM
-1 HUSB @I1178@
-1 WIFE @I1179@
-1 CHIL @I72@
-1 NOTE Parents of Tauba @I72@, wife of Aron Cukier. Established 28 Aug 2026 from marriage
-2 CONT act 1/1824 of the Strawczyn register, read from the image. Her age certificate in
-2 CONT that act was issued by the KAHAL OF CHECINY.
-1 SOUR @S1049@
-
-0 @I1180@ INDI
-1 NAME Sara /Rutkowska/
-2 GIVN Sara
-2 SURN Rutkowska
-1 SEX F
-1 BIRT
-2 DATE ABT 1795
-2 NOTE Aged twenty-eight at her death.
-1 DEAT
-2 DATE 20 SEP 1823
-2 PLAC Ruda Strawczynska, house no. 60, Poland
-2 NOTE ** DEATH ACT 16/1823 OF THE STRAWCZYN REGISTER (@S1051@), read from the certified
-3 CONT extract 28 Aug 2026. ** She died on 20 September 1823 at two in the afternoon, in
-3 CONT house no. 60, aged twenty-eight, "Zona pozostalego AARONA CUKROWICZA w Rudzie
-3 CONT zamieszkalego Potasznika". Declared two days later.
-3 CONT >>> The ORIGINAL act in the Strawczyn 1823 volume has not been read - only this
-3 CONT extract.
-1 FAMS @F1073@
-1 NOTE FIRST WIFE OF ARON CUKIER @I71@ - new to the file, 28 Aug 2026.
-2 CONT >>> SHE MAY BE THE MOTHER OF ABRAM ~1821 (@I78@) AND MORTKA ~1823 (@I81@), who on
-2 CONT the present reckoning were born before Aron married Tauba in January 1824. Their
-2 CONT own marriage acts of 1844 name their mother as Tauba Moskowicz, which is what one
-2 CONT would expect of a stepmother who raised them from infancy - but it is equally
-2 CONT possible the ages stated in 1844 are simply two or three years out. UNRESOLVED, and
-2 CONT deliberately left so: the children remain attached to @F64@ and are NOT moved.
-2 CONT >>> The witness SZLAMA RUTKOSKI, 45, potasznik of Ruda, who signed the 1824 act in
-2 CONT Hebrew letters, is almost certainly her father or brother.
-2 CONT >>> ** AN UNRESOLVED CONTRADICTION IN HER DEATH ACT, LEFT VISIBLE ON PURPOSE. **
-2 CONT The first declarant is "Starozakonny MORTKA CUKROWICZ maiacy lat siedmdziesiat,
-2 CONT OYCIEC ZMARLEY" - Mortka Cukrowicz, seventy, FATHER OF THE DECEASED. The wording is
-2 CONT unambiguous in the manuscript. But that same Mortka is Aron's own father, named as
-2 CONT such by the Checiny kahal certificate and by the marriage act; if he were also
-2 CONT Sara's father, Aron would have married his sister, which is impossible.
-2 CONT The reading that survives is that the clerk wrote "oyciec" where he meant
-2 CONT father-in-law. The alternative - two men called Mortka Cukrowicz, both potaszniks
-2 CONT at Ruda, both about seventy in 1823 - is weakened by the ages matching across the
-2 CONT two acts (70 in September, 71 in October).
-2 CONT >>> THE ORIGINAL ACT 16/1823 must be read before this is called settled.
-2 CONT The second declarant is ABRAM RUDNICKI, 24, also a potasznik at Ruda - a name new
-2 CONT to the file and not entered.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-1 SOUR @S1051@
-
-0 @F1073@ FAM
-1 HUSB @I71@
-1 WIFE @I1180@
-1 NOTE First marriage of Aron Cukier, before 1821. The marriage act has not been found -
-2 CONT it should be sought in the Strawczyn register before 1821, or at Checiny.
-2 CONT No children are attached here; see the note at @I1180@.
-1 SOUR @S1049@
-
-0 @I1181@ INDI
-1 NAME Szlama /Rutkowski/
-2 GIVN Szlama
-2 SURN Rutkowski
-1 SEX M
-1 BIRT
-2 DATE ABT 1779
-2 NOTE Aged 45 on 12 January 1824.
-1 OCCU Potash maker (potasznik)
-1 RESI
-2 PLAC Ruda Strawczynska, Poland
-1 NOTE ** NOT A PROVEN RELATIVE - entered because he is almost certainly one. ** Witness to
-2 CONT marriage act 1/1824 of the Strawczyn register, and one of only two men who signed
-2 CONT it: his signature stands under the groom's, in Hebrew letters, "Shlomo Rutkovski".
-2 CONT He carries the surname of Aron's dead first wife, Sara z Rutkowskich @I1180@, lives
-2 CONT in the same tiny village and follows the same trade. Father or brother of Sara.
-2 CONT No family link is asserted in the file until a document states one.
-2 CONT _BRANCH albert
-1 SOUR @S1049@
-
-0 @S1050@ SOUR
-1 TITL Chęciny kahal certificate of age and birth for Aron Cukrowski, 29 December 1823
-1 AUTH Dozor Bozniczy Parafii Checiny (the Synagogue Supervisory Board of the Checiny Jewish parish), signed for the Board by Mendel Konigsztein
-1 PUBL Archiwum Panstwowe w Kielcach. Filed in the ALEGATA to the Strawczyn marriage acts of 1824 (album "Strawczyn_95_AP Kielce / 1824_027_al", sygn. 21/95), scan __942358.JPG, image 3 of 37.
-1 NOTE READ FROM THE IMAGE, 28 August 2026. Bears the round seal of the Checiny Dozor
-2 CONT Bozniczy - a crown, the Tablets of the Law with a Hebrew inscription, and olive
-3 CONT branches - and a Hebrew signature beside the Polish one.
-2 CONT Local copy: albert/sources/strawczyn-1824/alegata/al-1824-p03.jpg
-
-0 @S1051@ SOUR
-1 TITL Strawczyn civil register, death act 16/1823 of Sara Cukrowicz nee Rutkowska - certified extract of 10 January 1824
-1 AUTH Rev. Andrzej Groth, pleban of Strawczyn, Civil Registrar
-1 PUBL Archiwum Panstwowe w Kielcach. Filed in the ALEGATA to the Strawczyn marriage acts of 1824, scan __942359.JPG, image 4 of 37.
-1 NOTE READ FROM THE IMAGE, 28 August 2026. This is the certified extract filed with the
-2 CONT 1824 marriage; the ORIGINAL act 16/1823 stands in the Strawczyn 1823 volume (album
-2 CONT 1823_024) and has NOT yet been read.
-2 CONT Local copy: albert/sources/strawczyn-1824/alegata/al-1824-p04.jpg
-
-0 @S1052@ SOUR
-1 TITL Chęciny civil register, death act of Mortka Cukrowski, 1823 - certified extract of 29 December 1823
-1 AUTH Rev. Antoni Jedryszko, Mansionarius, deputy Registrar of Civil Status of gmina Checiny
-1 PUBL Archiwum Panstwowe w Kielcach. Filed in the ALEGATA to the Strawczyn marriage acts of 1824, scan __942360.JPG, image 5 of 37.
-1 NOTE READ FROM THE IMAGE, 28 August 2026. THE SINGLE MOST IMPORTANT DOCUMENT OF THE DAY:
-2 CONT it names the deceased's own parents, WULF and DWOJRA CUKROWSCY of Checiny, and so
-2 CONT carries the line two generations above Aron. The original act stands in the Checiny
-2 CONT civil register of 1823 and has NOT yet been read.
-2 CONT Local copy: albert/sources/strawczyn-1824/alegata/al-1824-p05.jpg
-
-0 @S1053@ SOUR
-1 TITL Chęciny kahal certificate of birth for Toba Moszkowna, now called Potasznicka, 4 January 1824
-1 AUTH Dozor Bozniczy Parafii Checiny, signed by Mendel Konigsztein
-1 PUBL Archiwum Panstwowe w Kielcach. Filed in the ALEGATA to the Strawczyn marriage acts of 1824, scan __942361.JPG, image 6 of 37.
-1 NOTE READ FROM THE IMAGE, 28 August 2026. Gives Tauba's exact birth date and names her
-2 CONT father's and mother's patronymics - MOSZEK SZMULOWICZ and ESTER LEWKOWNA - which is
-3 CONT what carries her line two generations up. Same seal and same signatory as @S1050@.
-2 CONT Local copy: albert/sources/strawczyn-1824/alegata/al-1824-p06.jpg
-
-0 @I1182@ INDI
-1 NAME Wulf /Cukrowski/
-2 GIVN Wulf
-2 SURN Cukrowski
-2 NOTE The surname is the one his son bore by 1823; Wulf himself lived and died before
-3 CONT surnames were imposed, and would have been known simply as Wulf of Checiny. His
-3 CONT son's patronymic - "Wulfowiczow" in @S1050@ - is what the family was called.
-1 SEX M
-1 RESI
-2 PLAC Checiny, Poland
-1 DEAT
-2 DATE BEF 1823
-2 NOTE "Rodzicow WULFA i DWOYRY Cukrowskich [...] Syn, w Miescie Checinach, oboyga juz
-3 CONT zmarlych" - both already dead when their son died in 1823.
-1 FAMS @F1074@
-1 NOTE (documented, by name) FATHER OF MORTKA @I1176@, great-grandfather of Kiwa Cukier.
-2 CONT Named in the Checiny death act of his son, filed in the 1824 Strawczyn alegata.
-2 CONT Entered 28 August 2026 - the earliest generation of the Cukier line on record.
-2 CONT _BRANCH albert
-1 SOUR @S1052@
-
-0 @I1183@ INDI
-1 NAME Dwojra /Cukrowska/
-2 GIVN Dwojra
-2 SURN Cukrowska
-2 NOTE Same caveat as her husband @I1182@: the surname is her son's, applied backwards.
-1 SEX F
-1 RESI
-2 PLAC Checiny, Poland
-1 DEAT
-2 DATE BEF 1823
-1 FAMS @F1074@
-1 NOTE (documented, by name) MOTHER OF MORTKA @I1176@. Named in his Checiny death act.
-2 CONT _BRANCH albert
-1 SOUR @S1052@
-
-0 @F1074@ FAM
-1 HUSB @I1182@
-1 WIFE @I1183@
-1 CHIL @I1176@
-1 NOTE Parents of Mortka Cukrowski, of the town of Checiny. Established 28 August 2026 from
-2 CONT the Checiny death act of their son, read from the image in the 1824 Strawczyn
-2 CONT alegata. THE OLDEST GENERATION IN THE CUKIER LINE.
-1 SOUR @S1052@
-
-0 @I1184@ INDI
-1 NAME Joachym /Cukrowski/
-2 GIVN Joachym
-2 SURN Cukrowski
-1 SEX M
-1 OCCU Trader (handlarz)
-1 RESI
-2 PLAC Checiny, Poland
-1 FAMC @F1071@
-1 NOTE (documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is
-2 CONT the first declarant of his father's death in Checiny in 1823: "stawili sie
-2 CONT Starozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach
-2 CONT zamieszkali". No age is given for him and nothing else about him is yet known.
-2 CONT >>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records
-2 CONT of the 1820s-40s should carry his marriage and children.
-2 CONT _BRANCH albert
-1 SOUR @S1052@
-
-0 @I1185@ INDI
-1 NAME Szmul //
-2 GIVN Szmul
-2 NOTE Given name only, and that is historically correct: he belongs to the generation
-3 CONT before surnames. He is known solely through his son's patronymic, "Moszka
-3 CONT SZMULOWICZA" - Moszek son of Szmul - in @S1053@.
-1 SEX M
-1 FAMS @F1075@
-1 NOTE (documented, by patronymic) FATHER OF MOSZEK @I1178@, Tauba's grandfather.
-2 CONT _BRANCH albert
-1 SOUR @S1053@
-
-0 @F1075@ FAM
-1 HUSB @I1185@
-1 CHIL @I1178@
-1 NOTE Established 28 August 2026 from the Checiny kahal certificate of Toba Moszkowna,
-2 CONT which names her father as MOSZEK SZMULOWICZ. The wife is unknown.
-1 SOUR @S1053@
-
-0 @I1186@ INDI
-1 NAME Lewek //
-2 GIVN Lewek
-2 NOTE Given name only - the generation before surnames. Known through his daughter's
-3 CONT patronymic, "ESTER LEWKOWNEY" - Ester daughter of Lewek - in @S1053@.
-3 CONT >>> THIS SETTLES THE "z Lewkow" QUESTION flagged at @I18@ and @I1179@: in these
-3 CONT registers the formula IS a patronymic, not a maiden surname.
-1 SEX M
-1 FAMS @F1076@
-1 NOTE (documented, by patronymic) FATHER OF ESTER @I1179@, Tauba's maternal grandfather.
-2 CONT _BRANCH albert
-1 SOUR @S1053@
-
-0 @F1076@ FAM
-1 HUSB @I1186@
-1 CHIL @I1179@
-1 NOTE Established 28 August 2026 from the Checiny kahal certificate of Toba Moszkowna.
-2 CONT The wife is unknown.
-1 SOUR @S1053@
 
 0 TRLR

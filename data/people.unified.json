@@ -1318,7 +1318,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -2666,7 +2666,10 @@
   },
   "sex": "M",
   "living": false,
-  "birth": null,
+  "birth": {
+   "date": "21 FEB 1795",
+   "place": "Checiny, Poland"
+  },
   "death": {
    "date": "BET 1846 AND 1858",
    "place": "Radoszyce registry district, Poland",
@@ -2676,7 +2679,8 @@
   },
   "occupation": "potash maker",
   "notes": [
-   "(documented, by name) Named as father of the groom in Kiwa's 1849 marriage act and in\nthe marriage rows of five other children - Abram 16/1844, Mortka 17/1844, Mosiek\n9/1846, Laja 13/1857, Chaim Wolf 18/1858. See @F64@."
+   "(documented, by name) Named as father of the groom in Kiwa's 1849 marriage act and in\nthe marriage rows of five other children - Abram 16/1844, Mortka 17/1844, Mosiek\n9/1846, Laja 13/1857, Chaim Wolf 18/1858. See @F64@.",
+   "(documented) MARRIAGE ACT 1/1824, STRAWCZYN - read from the image 28 Aug 2026. It\nnames HIS PARENTS: Mortka Cukroski, potasznik, \"niegdy\" of Ruda, and Esterka z\nChoynow (@F1071@) - two generations further back. It also shows he was a WIDOWER of\nSara z Rutkowskich (@I1180@), so this was his second marriage. He signed the act\nhimself, in Hebrew letters: \"Aharon Cukrowski\".\n>>> IDENTIFICATION. The act says CUKROSKI, not Cukier. It is the same man on every\nother axis: same tiny village Ruda, same trade potasznik, wife Taube whose father\nis Mosko - matching Tauba's documented maiden surname MOSZKOWICZ - and a father\ncalled Mortka, after whom their son Mortka ~1823 is named. In 1824 Jewish surnames\nwere three years old; Cukroski to Cukier is ordinary drift. Strong, not certain.\nSee albert/findings/131."
   ],
   "grade": "documented",
   "sources": [
@@ -2700,11 +2704,16 @@
   },
   "sex": "F",
   "living": false,
-  "birth": null,
+  "birth": {
+   "date": "8 DEC 1801",
+   "place": "Checiny, Poland"
+  },
   "death": null,
   "occupation": "",
-  "notes": [],
-  "grade": null,
+  "notes": [
+   "(documented) MARRIAGE ACT 1/1824, STRAWCZYN - read from the image 28 Aug 2026. In it\nshe is \"Starozakonna Panna TAUBE POTASZNICKA\", aged 22, in service as a maid at\nRuda, daughter of Mosko Potasznicki and Esterka z Lewkow (@F1072@). POTASZNICKA is\nthe occupational by-name of her father's trade, not a surname; the Radoszyce clerk\nlater wrote the true patronymic, MOSZKOWICZ - daughter of Mosko. The two agree.\n>>> She married WITH HER MOTHER AT HER SIDE, \"w Assystencyi Matki swoiey\", and made\nthe Akt Uszanowania to her before the witnesses. Her father is not recorded present."
+  ],
+  "grade": "documented",
   "sources": [
    "s-s84"
   ],
@@ -4649,7 +4658,7 @@
    ]
   },
   "sex": "M",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4674,7 +4683,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4901,7 +4910,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4925,6 +4934,7 @@
    "surname": "Moskal",
    "variants": [
     "Sitshe, Sarahtshe",
+    "Sara",
     "Sitshe",
     "Siche",
     "סיצ'ה"
@@ -5603,7 +5613,7 @@
   "sex": "M",
   "living": false,
   "birth": {
-   "date": "24 FEB 1888",
+   "date": "7 MAR 1888",
    "place": "Krasniczyn, Chelm, Lublin, Poland"
   },
   "death": null,
@@ -7464,39 +7474,28 @@
   "gedcomId": "I1096",
   "branch": "moskal",
   "names": {
-   "he": "שרול־לייב שאפיר",
+   "he": "",
    "latin": "Srul Glezer",
    "given": "Srul",
    "surname": "Glezer",
-   "variants": [
-    "Schafir",
-    "Szajfer"
-   ]
+   "variants": []
   },
   "sex": "M",
   "living": false,
   "birth": {
    "date": "ABT 1820",
-   "place": null,
-   "grade": "inference",
-   "notes": [
-    "אינדקס הלידות של וויסלביצה, אקט לידה 4/1890 (רישום מאוחר). שנת הלידה בפועל לא נרשמה."
-   ]
+   "place": null
   },
   "death": null,
   "occupation": "Glazier (\"szklarz\") - his father's trade",
   "notes": [
    "_CONF #proof Probable as a son of Herszko and Rechla-Mema. NO ACT SAYS SO DIRECTLY.\nThe chain: marriage act 3/1857 says his sister Ita \"lives with her brother\"; he carries\nthe father's exact trade; and act 44/1855 counts FOUR ADULT CHILDREN, which the four\nidentified children fill exactly. Strong, converging, NOT proven."
   ],
-  "grade": "probable",
-  "sources": [
-   "s-m-jri-index"
-  ],
+  "grade": null,
+  "sources": [],
   "photos": [],
   "docs": [],
-  "bioChapter": "moskal-szafir/bug",
-  "gen": 3,
-  "siteId": "p-srul-lejb-szaufer"
+  "bioChapter": null
  },
  {
   "id": "p-chana-klerer",
@@ -8466,7 +8465,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8491,7 +8490,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8543,7 +8542,7 @@
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "3 SEP 1881",
+   "date": "15 SEP 1881",
    "place": "Krasniczyn, Lublin, Poland"
   },
   "death": null,
@@ -8569,7 +8568,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": false,
+  "living": true,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8710,7 +8709,7 @@
    ]
   },
   "sex": "M",
-  "living": false,
+  "living": true,
   "birth": {
    "grade": "inference",
    "notes": [
@@ -9236,6 +9235,306 @@
    "_CONF PROVEN as Jankiel Rajs's wife (marriage act 4/1856). Daughter of the late SZULIM\nWAJCENFELD and RYFKA nee SZYFER, both already deceased by 1856. At the time of the\nmarriage she was living with her guardian JANKIEL WICLNER, granary-keeper\n(\"spichlerz\"/\"sarazynie\" [sic]) in Wojslawice, who stood by her at the act as her\nappointed guardian (\"opiekun Panny\").\nNew surname in the tree: WAJCENFELD. Entered 23 Aug 2026."
   ],
   "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mortka-cukier-i1176",
+  "gedcomId": "I1176",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Mortka Cukier",
+   "given": "Mortka",
+   "surname": "Cukier",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1752",
+   "place": "Checiny, Poland"
+  },
+  "death": {
+   "date": "29 OCT 1823",
+   "place": "Checiny, house no. 44, Poland"
+  },
+  "occupation": "Potash maker (potasznik)",
+  "notes": [
+   "(documented, by name) FATHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of\nthe Strawczyn register, read from the image 28 Aug 2026: \"Syn Mortki Cukroskiego\nPotasznika niegdy w Rudzie zamieszkalego i Esterki z Choynow\".\n>>> HIS OWN PARENTS ARE NAMED in his Checiny death act (@S1052@): \"Rodzicow WULFA\ni DWOYRY Cukrowskich [...] Syn, w Miescie Checinach, oboyga juz zmarlych\" - see\n@F1074@. That single line carries the Cukier line two generations above Aron.\n>>> THE SURNAME IS UNSTABLE ACROSS THREE MONTHS OF 1823: he is CUKROWICZ in the\nSeptember death act at Strawczyn, CUKROWSKI in the October death act at Checiny,\nand his son is \"Mortki CUKROSKIEGO\" in the January 1824 marriage act. By 1844 the\nfamily is CUKIER in the Radoszyce register. One family, four spellings, twenty\nyears.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-esterka-chojna",
+  "gedcomId": "I1177",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Esterka Chojna",
+   "given": "Esterka",
+   "surname": "Chojna",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "1823",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name) MOTHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of\nthe Strawczyn register as \"Esterki z Choynow\", and in the Checiny kahal certificate\nas \"Ester z Chaynow\". The certificate then calls the couple \"WULFOWICZOW na teraz\nCUKROWSKICH zwanych\" - the Wulfowicze, now called Cukrowski - which is her\nhusband's patronymic, not hers, and is confirmed by his own death act naming his\nfather Wulf.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mosko-potasznicki",
+  "gedcomId": "I1178",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Mosko Potasznicki",
+   "given": "Mosko",
+   "surname": "Potasznicki",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "Potash maker (potasznik)",
+  "notes": [
+   "(documented, by name) MOSZEK SZMULOWICZ - son of Szmul - in the Checiny kahal\ncertificate of his daughter (@S1053@), \"na teraz POTASZNICKICH zwanych\", now called\nPotasznicki. His own father @I1185@ is known from that patronymic alone.",
+   "(documented, by name) FATHER OF TAUBA @I72@. Named in marriage act 1/1824 of the\nStrawczyn register: \"Corka Moska Potasznickiego na Pustkowiu zamieszkalego\nPotasznika i Esterki z Lewkow\". He is NOT recorded as present at the wedding - his\ndaughter appeared \"w Assystencyi Matki swoiey\", with her mother only.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ester",
+  "gedcomId": "I1179",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Ester",
+   "given": "Ester",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by name) MOTHER OF TAUBA @I72@. Named in marriage act 1/1824 of the\nStrawczyn register. ALIVE AND PRESENT, 12 JANUARY 1824: her daughter appeared \"w\nAssystencyi Matki swoiey\", and made the Akt Uszanowania - the act of respect - to\nher before the witnesses.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sara-rutkowska",
+  "gedcomId": "I1180",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Sara Rutkowska",
+   "given": "Sara",
+   "surname": "Rutkowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1795",
+   "place": null
+  },
+  "death": {
+   "date": "20 SEP 1823",
+   "place": "Ruda Strawczynska, house no. 60, Poland"
+  },
+  "occupation": "",
+  "notes": [
+   "FIRST WIFE OF ARON CUKIER @I71@ - new to the file, 28 Aug 2026.\n>>> SHE MAY BE THE MOTHER OF ABRAM ~1821 (@I78@) AND MORTKA ~1823 (@I81@), who on\nthe present reckoning were born before Aron married Tauba in January 1824. Their\nown marriage acts of 1844 name their mother as Tauba Moskowicz, which is what one\nwould expect of a stepmother who raised them from infancy - but it is equally\npossible the ages stated in 1844 are simply two or three years out. UNRESOLVED, and\ndeliberately left so: the children remain attached to @F64@ and are NOT moved.\n>>> The witness SZLAMA RUTKOSKI, 45, potasznik of Ruda, who signed the 1824 act in\nHebrew letters, is almost certainly her father or brother.\n>>> ** AN UNRESOLVED CONTRADICTION IN HER DEATH ACT, LEFT VISIBLE ON PURPOSE. **\nThe first declarant is \"Starozakonny MORTKA CUKROWICZ maiacy lat siedmdziesiat,\nOYCIEC ZMARLEY\" - Mortka Cukrowicz, seventy, FATHER OF THE DECEASED. The wording is\nunambiguous in the manuscript. But that same Mortka is Aron's own father, named as\nsuch by the Checiny kahal certificate and by the marriage act; if he were also\nSara's father, Aron would have married his sister, which is impossible.\nThe reading that survives is that the clerk wrote \"oyciec\" where he meant\nfather-in-law. The alternative - two men called Mortka Cukrowicz, both potaszniks\nat Ruda, both about seventy in 1823 - is weakened by the ages matching across the\ntwo acts (70 in September, 71 in October).\n>>> THE ORIGINAL ACT 16/1823 must be read before this is called settled.\nThe second declarant is ABRAM RUDNICKI, 24, also a potasznik at Ruda - a name new\nto the file and not entered.\n_BRANCH albert"
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szlama-rutkowski",
+  "gedcomId": "I1181",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Szlama Rutkowski",
+   "given": "Szlama",
+   "surname": "Rutkowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1779",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Potash maker (potasznik)",
+  "notes": [
+   "** NOT A PROVEN RELATIVE - entered because he is almost certainly one. ** Witness to\nmarriage act 1/1824 of the Strawczyn register, and one of only two men who signed\nit: his signature stands under the groom's, in Hebrew letters, \"Shlomo Rutkovski\".\nHe carries the surname of Aron's dead first wife, Sara z Rutkowskich @I1180@, lives\nin the same tiny village and follows the same trade. Father or brother of Sara.\nNo family link is asserted in the file until a document states one.\n_BRANCH albert"
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-wulf-cukrowski",
+  "gedcomId": "I1182",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Wulf Cukrowski",
+   "given": "Wulf",
+   "surname": "Cukrowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1823",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name) FATHER OF MORTKA @I1176@, great-grandfather of Kiwa Cukier.\nNamed in the Checiny death act of his son, filed in the 1824 Strawczyn alegata.\nEntered 28 August 2026 - the earliest generation of the Cukier line on record.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-dwojra-cukrowska",
+  "gedcomId": "I1183",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Dwojra Cukrowska",
+   "given": "Dwojra",
+   "surname": "Cukrowska",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF 1823",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "(documented, by name) MOTHER OF MORTKA @I1176@. Named in his Checiny death act.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-joachym-cukrowski",
+  "gedcomId": "I1184",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Joachym Cukrowski",
+   "given": "Joachym",
+   "surname": "Cukrowski",
+   "variants": []
+  },
+  "sex": "M",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "Trader (handlarz)",
+  "notes": [
+   "(documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is\nthe first declarant of his father's death in Checiny in 1823: \"stawili sie\nStarozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach\nzamieszkali\". No age is given for him and nothing else about him is yet known.\n>>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records\nof the 1820s-40s should carry his marriage and children.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szmul",
+  "gedcomId": "I1185",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Szmul",
+   "given": "Szmul",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by patronymic) FATHER OF MOSZEK @I1178@, Tauba's grandfather.\n_BRANCH albert"
+  ],
+  "grade": "documented",
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-lewek",
+  "gedcomId": "I1186",
+  "branch": "albert",
+  "names": {
+   "he": "",
+   "latin": "Lewek",
+   "given": "Lewek",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "(documented, by patronymic) FATHER OF ESTER @I1179@, Tauba's maternal grandfather.\n_BRANCH albert"
+  ],
+  "grade": "documented",
   "sources": [],
   "photos": [],
   "docs": [],
