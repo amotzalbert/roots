@@ -208,7 +208,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -304,7 +304,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -447,7 +447,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -1258,7 +1258,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -1288,7 +1288,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -1318,7 +1318,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -1767,7 +1767,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -2503,7 +2503,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -2699,7 +2699,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -2725,7 +2725,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -2753,7 +2753,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -3968,7 +3968,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -3993,7 +3993,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4211,7 +4211,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4579,7 +4579,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": {
    "date": "ABT 1855",
    "grade": "inference"
@@ -4615,7 +4615,7 @@
    ]
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": {
    "date": "ABT 1860",
    "grade": "inference"
@@ -4649,7 +4649,7 @@
    ]
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4674,7 +4674,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4843,7 +4843,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -4901,7 +4901,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -5591,7 +5591,7 @@
  },
  {
   "id": "p-wulf-moskal",
-  "gedcomId": "I1157",
+  "gedcomId": "I1167",
   "branch": "moskal",
   "names": {
    "he": "",
@@ -6076,7 +6076,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -6227,7 +6227,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "Wyrobnik (day labourer)",
@@ -6296,7 +6296,7 @@
    ]
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "Wyrobnik (day labourer), later rzeznik (butcher)",
@@ -6431,7 +6431,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -6530,7 +6530,7 @@
  },
  {
   "id": "p-herszko-moskal",
-  "gedcomId": "I1156",
+  "gedcomId": "I1166",
   "branch": "moskal",
   "names": {
    "he": "",
@@ -6754,7 +6754,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -6805,7 +6805,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -6936,6 +6936,173 @@
   "occupation": "",
   "notes": [
    "_CONF PROVEN. Liba's HALF-SISTER on the reconstruction at @I1076@."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-abram-glezer",
+  "gedcomId": "I1170",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Abram Glezer",
+   "given": "Abram",
+   "surname": "Glezer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "20 MAY 1822",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the son of Herszko Glezer and Ruchla nee Fajner - birth act 56/1822\nnames both parents explicitly, with the father appearing in person.",
+   ">>> NEW PERSON, added 28 Aug 2026. He was NOT previously in this file. Found by reading\nthe alphabetical index at the end of the 1822 birth register, which lists\n\"Gleyzer - Abram - karta 19\".",
+   ">>> NOTHING IS KNOWN OF HIM AFTER BIRTH. Not searched yet: the 1826-1884 Jewish fond\n35/1787 for his marriage or death; the 1855 death act of his mother names FOUR ADULT\nCHILDREN without naming them - he may be one of the four."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-ryfka-glezer",
+  "gedcomId": "I1171",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Ryfka Glezer",
+   "given": "Ryfka",
+   "surname": "Glezer",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1788",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the daughter of Szmul Glezer and Ita - marriage act 23/1811 names both\nparents and her father appeared in person to give her away.",
+   ">>> NEW PERSON, added 28 Aug 2026. HERSZKO GLEZER'S SISTER - he was born about 1790,\nshe about 1788, same parents, same town. The first sibling of his ever identified."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-falka-michlowicz",
+  "gedcomId": "I1172",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Falka Michlowicz",
+   "given": "Falka",
+   "surname": "Michlowicz",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1787",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN from marriage act 23/1811."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-michlowicz",
+  "gedcomId": "I1173",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Michlowicz",
+   "given": "",
+   "surname": "Michlowicz",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> HIS GIVEN NAME IS NOT IN THE ACT. Act 23/1811 says only \"w Assystencji Ojca swego\nMICHLOWICZA y Matki swoiey ESTERY w Biskupicach zamieszkalego\" - the clerk wrote the\npatronymic where the given name should be. Recorded surname-only, deliberately."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-estera",
+  "gedcomId": "I1174",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Estera",
+   "given": "Estera",
+   "surname": "",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Falka's mother (act 23/1811). Maiden name not given."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-duwid",
+  "gedcomId": "I1175",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Duwid",
+   "given": "Duwid",
+   "surname": "",
+   "variants": [
+    "Dawid"
+   ]
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> HE HAS A GIVEN NAME AND NO SURNAME, AND THAT IS HISTORICALLY CORRECT, NOT A GAP.\nHe belongs to the last generation of Polish Jews before hereditary surnames: the\nKingdom of Poland's surname decree is of 27 March 1821, ten years AFTER the act that\nnames him. Men of his lifetime were identified by given name plus patronymic alone.",
+   "_CONF #proof Probable as Ita's father. Marriage act 23/1811 calls her \"ITY z DUWIDOW\"\n- Ita of the Duwids, i.e. Ita daughter of Duwid. That phrase is the ONLY trace of him.\n\"z Duwidow\" is a PATRONYMIC construction, not a family name; DUWID must not be\nrecorded as Ita's maiden surname.",
+   ">>> HIS WIFE IS NOT NAMED. Act 23/1811 records only two couples - the bride's parents\n(Szmul Glezer and Ita) and the groom's (Michlowicz and Estera of Biskupice). The\nlikeliest route to her name is ITA'S OWN DEATH ACT, if she died after 1 Jan 1826 and\nis therefore in the Jewish register 35/1787, where death acts do name the deceased's\nparents (compare death act 44/1855, Rechla-Mema, \"daughter of CHAIM and LAJA\").\nNOT YET SEARCHED.",
+   ">>> POSSIBLE SON, NOT PROVEN: JCEK DAWIDOWICZ, 50 (b. c.1761), of Siedliszcze,\nwitnessed the same wedding. \"Dawidowicz\" = son of Dawid. He may be this man's son\nand Ita's brother - but nothing in the act says so, and he is NOT entered."
   ],
   "grade": null,
   "sources": [],
@@ -7117,7 +7284,7 @@
    ]
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": {
    "date": "ABT 1760",
    "place": "pl-dorohusk",
@@ -7155,7 +7322,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": {
    "date": "ABT 1765",
    "place": "pl-dorohusk",
@@ -7198,7 +7365,8 @@
   },
   "occupation": "",
   "notes": [
-   "_CONF PROVEN as Herszko's father. Death act 5/1849 names the deceased as the son of\nSZMUL and ITA, spouses GLEZER. Amotz's 6x-great-grandfather on this line."
+   "_CONF PROVEN as Herszko's father. Death act 5/1849 names the deceased as the son of\nSZMUL and ITA, spouses GLEZER. Amotz's 6x-great-grandfather on this line.",
+   ">>> ALIVE AND PRESENT, 26 NOVEMBER 1811. He appeared in person before the\nregistrar of Wojslawice to give away his daughter Ryfka (marriage act 23/1811),\ndescribed as \"Ojca swego SZMULA GLEZERA\". Until 28 Aug 2026 he was known ONLY\nretrospectively, from his son's death act of 1849 - thirty-eight years later.\nThis is the first contemporary record of him."
   ],
   "grade": null,
   "sources": [],
@@ -7226,7 +7394,8 @@
   },
   "occupation": "",
   "notes": [
-   "_CONF PROVEN as Herszko's mother (death act 5/1849). Her granddaughter Ita b. ~1836\nwas very likely named for her - the Ashkenazi pattern, and the dates allow it."
+   "_CONF PROVEN as Herszko's mother (death act 5/1849). Her granddaughter Ita b. ~1836\nwas very likely named for her - the Ashkenazi pattern, and the dates allow it.",
+   ">>> HER FATHER WAS CALLED DAWID. Marriage act 23/1811 names her\n\"ITY z DUWIDOW\" - Ita of the Duwids, i.e. Ita daughter of Duwid/Dawid.\n### THIS IS A PATRONYMIC, NOT A FIXED SURNAME: the act predates the Kingdom of\nPoland's surname decree of 27 March 1821 by ten years. Do NOT record DUWID as\nher maiden surname. He IS entered, as @I1175@ - a given name with no surname is\nthe historically correct form for his generation, not a gap.\n### A witness at the same wedding was JCEK DAWIDOWICZ, 50, of Siedliszcze.\nHe may well be her brother - but that is a HYPOTHESIS, not proven, and he is\ndeliberately NOT entered in this file."
   ],
   "grade": null,
   "sources": [],
@@ -7369,7 +7538,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -7838,7 +8007,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "Day-labourer (\"wyrobnik\")",
@@ -7863,7 +8032,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -7982,7 +8151,7 @@
  },
  {
   "id": "p-szandla-moskal",
-  "gedcomId": "I1158",
+  "gedcomId": "I1168",
   "branch": "moskal",
   "names": {
    "he": "",
@@ -8000,7 +8169,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@).\nA TWIN with Chaja-Sura (@I1159@) - acts 15 and 16 record two girls born the same day\nto the same parents, with the same two witnesses, registered consecutively.\nIdentification rests on a four-way exact match with marriage act 9/1875: given name\nJankiel, trade SHOEMAKER, village KRASNICZYN, and wife ELKA nee ERLICH. Entered 26\nAug 2026."
+   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@).\nA TWIN with Chaja-Sura (@I1169@) - acts 15 and 16 record two girls born the same day\nto the same parents, with the same two witnesses, registered consecutively.\nIdentification rests on a four-way exact match with marriage act 9/1875: given name\nJankiel, trade SHOEMAKER, village KRASNICZYN, and wife ELKA nee ERLICH. Entered 26\nAug 2026."
   ],
   "grade": null,
   "sources": [],
@@ -8010,7 +8179,7 @@
  },
  {
   "id": "p-chaja-sura-moskal",
-  "gedcomId": "I1159",
+  "gedcomId": "I1169",
   "branch": "moskal",
   "names": {
    "he": "",
@@ -8028,7 +8197,7 @@
   "death": null,
   "occupation": "",
   "notes": [
-   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@),\non the same four-way match as her sister @I1158@.\n>>> THIS CORRECTS A GENI IDENTIFICATION. Geni lists a \"Chaia Sura Fox (nee Moskal)\"\nas a daughter of ABRAM-MOSZKO Moskal (@I1062@); Asaf Feig sent this act as proof.\nThe act names JANKIEL, not Abram-Moszko - so she is Abram-Moszko's NIECE, not his\ndaughter. Geni had the right family and the wrong brother.\n>>> AND IT CORRECTS MY OWN NOTE OF 24 Aug 2026, which read the father's name as\n\"Ankiel\" and concluded this was an unrelated household. At full zoom the initial is\nclearly Я (compare \"Явился\" opening the same line), i.e. ЯНКЕЛЬ = Jankiel. The\n24 Aug finding file has been corrected."
+   "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@),\non the same four-way match as her sister @I1168@.\n>>> THIS CORRECTS A GENI IDENTIFICATION. Geni lists a \"Chaia Sura Fox (nee Moskal)\"\nas a daughter of ABRAM-MOSZKO Moskal (@I1062@); Asaf Feig sent this act as proof.\nThe act names JANKIEL, not Abram-Moszko - so she is Abram-Moszko's NIECE, not his\ndaughter. Geni had the right family and the wrong brother.\n>>> AND IT CORRECTS MY OWN NOTE OF 24 Aug 2026, which read the father's name as\n\"Ankiel\" and concluded this was an unrelated household. At full zoom the initial is\nclearly Я (compare \"Явился\" opening the same line), i.e. ЯНКЕЛЬ = Jankiel. The\n24 Aug finding file has been corrected."
   ],
   "grade": null,
   "sources": [],
@@ -8084,7 +8253,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "Labourer (rabotnik) - Wojslawice",
@@ -8194,7 +8363,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8247,7 +8416,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8272,7 +8441,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8297,7 +8466,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8322,7 +8491,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8347,7 +8516,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8400,7 +8569,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8541,7 +8710,7 @@
    ]
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": {
    "grade": "inference",
    "notes": [
@@ -8609,7 +8778,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "wyrobnica (day-labourer) - a widow supporting herself, 1854",
@@ -8692,7 +8861,7 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",
@@ -8717,7 +8886,7 @@
    "variants": []
   },
   "sex": "F",
-  "living": true,
+  "living": false,
   "birth": null,
   "death": null,
   "occupation": "",

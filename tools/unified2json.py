@@ -104,6 +104,41 @@ for m in records('F'):
         "children":[idmap[k] for k in kids if k in idmap],
         "marriage": event(j,'MARR'), "notes":[]})
 
+# ── תיקון דגל living ────────────────────────────────────────────────────
+# הכלל הגולמי ("אין תאריך לידה ואין פטירה ⇒ חי") סימן עשרות אבות-קדמונים כחיים
+# והסתיר אותם מהאתר.  כאן מסיקים מוות מעוגן תאריכי לפני 1900 ומפיצים אותו
+# ‏**כלפי מעלה בלבד** — הורה של מת מת, בן/בת זוג של מת מת.  לא כלפי ילדים:
+# ילדו של אדם שנולד 1890 עשוי להיות בחיים.  מי שאין לו עוגן נשאר כפי שהיה,
+# כדי שלא נפרסם פרטיו של אדם חי.
+def _fix_living(people, unions):
+    parents, spouses = {}, {}
+    for u in unions:
+        sp, ch = u.get('spouses') or [], u.get('children') or []
+        for s in sp:
+            spouses.setdefault(s, set()).update(x for x in sp if x != s)
+        for c in ch:
+            parents.setdefault(c, set()).update(sp)
+    def _yr(p):
+        ys = []
+        for k in ('birth', 'death'):
+            ys += [int(x) for x in re.findall(r'\b(1[5-9]\d\d)\b', (p.get(k) or {}).get('date') or '')]
+        return min(ys) if ys else None
+    dead = {pid for pid, p in people.items() if (_yr(p) or 9999) < 1900}
+    for _ in range(8):
+        grow = set()
+        for pid in dead:
+            grow |= parents.get(pid, set()) | spouses.get(pid, set())
+        if grow <= dead: break
+        dead |= grow
+    n = 0
+    for pid in dead:
+        if pid in people and people[pid].get('living'):
+            people[pid]['living'] = False; n += 1
+    return n
+
+_n = _fix_living(people, unions)
+if _n: print(f"  living: {_n} אנשים סומנו כנפטרים לפי עוגן לפני 1900")
+
 # ── העשרה מהקבצים המתוחזקים ─────────────────────────────────────────────
 # כל מפתח נקלט רק אם הוא חד־ערכי בשני הצדדים — אחרת שני אנשים שונים היו ממוזגים.
 curated_all = []
