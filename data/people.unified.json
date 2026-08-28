@@ -93,7 +93,9 @@
    "GENI (c) 22 Aug 2026 - UNVERIFIED, NOT USED as evidence, recorded only so the next\nresearcher can test it: the Geni World Family Tree profile managed by Pazit Nudel,\nand two MyHeritage trees (Kagan; Wertzberger), give a Brana Gitla Moskal who\nmarried BEINISCH BENJAMIN HELFMAN, had four children (Moshe, Natan Neta, Yitko,\nBracha) and died in 1943 at Oswiecim. Those trees state her birth as 1897 at\n\"Kraszniecin\" - TWENTY-TWO YEARS after this act. Either two different women or an\nerror in the trees. NOT RESOLVED. Do not merge without a document."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -121,7 +123,9 @@
    "ENTERED 22 Aug 2026, together with her sister Brana-Gitla @I1154@. Same omission:\nthe act was read on 20 Aug 2026 and never entered.\nIDENTIFICATION: as for Brana-Gitla, the mother Ruchla-Laja nee Birman @I1066@\nfixes the father as ABRAM-Moszko @I1062@.\nAGE CONTROL (finding 115): the mother's stated age runs 19 (Jan 1875) - 26 (Nov\n1881) - 27 (Nov 1882), a perfect sequence giving b. ~1855. The witness Kiwa Becher\nis 35 in 1875 and 41 in 1881 - exactly six years. Same household, same village."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -1199,7 +1203,9 @@
    "s-s12",
    "s-s41",
    "s-s60",
-   "s-s80"
+   "s-s80",
+   "s-s91",
+   "s-s92"
   ],
   "photos": [],
   "docs": [],
@@ -2684,7 +2690,9 @@
   ],
   "grade": "documented",
   "sources": [
-   "s-s84"
+   "s-s84",
+   "s-s1049",
+   "s-s1050"
   ],
   "photos": [],
   "docs": [],
@@ -2715,7 +2723,9 @@
   ],
   "grade": "documented",
   "sources": [
-   "s-s84"
+   "s-s84",
+   "s-s1049",
+   "s-s1053"
   ],
   "photos": [],
   "docs": [],
@@ -3985,7 +3995,9 @@
    "ADDED 21 Aug 2026 - the 7 Aug 2026 breakthrough had never been entered here.\nNamed, with his wife Fajga-Rechil, as a parent of Tobjasz in the 1921 Opatow book of\nnon-permanent population. ** GRADE: documented. ** A man of about 33 giving a clerk\nhis own parents' names is direct personal testimony about that fact, recorded\ncontemporaneously; its failure modes are spelling and transliteration, not identity.\n(Grading settled by Amotz, 7 Aug 2026.)\n>>> OPEN: his own birth, and his marriage to Fajga-Rechil, should be in the IWANISKA\nregisters - not Klimontow and not Opatow, both of which have been searched out."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s90"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4010,7 +4022,9 @@
    "ADDED 21 Aug 2026, from the same 1921 Opatow entry as her husband. ** documented **\n>>> OPEN: her maiden name. The Iwaniska marriage register is the place to look."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s90"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4049,6 +4063,9 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1004",
+   "s-s1014",
+   "s-s1015",
    "s-m-act-1859-14",
    "s-m-act-1873-1",
    "s-m-act-1874-6",
@@ -4092,6 +4109,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1004",
+   "s-s1014",
    "s-m-act-1873-1",
    "s-m-act-1876-39",
    "s-m-act-1877-8"
@@ -4129,7 +4148,10 @@
    "_CONF PROVEN. Eldest son. Took part in the Jewish self-defence in the Wojslawice market\nsquare during the 1905-era unrest: gentile youths who tried to start a riot were surrounded\nby a group of young men \"among them my eldest brother Hershl\"."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1016",
+   "s-s1004"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4166,6 +4188,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1002",
+   "s-s1004",
    "s-m-birth-mendel",
    "s-m-memoir"
   ],
@@ -4199,6 +4223,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-liben-1865",
    "s-m-yad-vashem-pot"
   ],
@@ -4229,6 +4254,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-liben-1865",
    "s-m-yad-vashem-pot"
   ],
@@ -4276,6 +4302,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-liben-1865",
    "s-m-yad-vashem-pot"
   ],
@@ -4323,6 +4350,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-yad-vashem-pot"
   ],
   "photos": [],
@@ -4352,6 +4380,8 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1001",
+   "s-s1009",
    "s-m-yad-vashem-pot"
   ],
   "photos": [],
@@ -4398,6 +4428,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-yad-vashem-pot"
   ],
   "photos": [],
@@ -4466,6 +4497,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1002",
    "s-m-yizkor-holocaust-ch",
    "s-m-memoir"
   ],
@@ -4499,6 +4531,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1002",
    "s-m-yizkor-holocaust-ch"
   ],
   "photos": [],
@@ -4568,6 +4601,8 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1010",
+   "s-s1001",
    "s-m-family-2019"
   ],
   "photos": [],
@@ -4600,6 +4635,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
+   "s-s1008",
    "s-m-act-1903-18"
   ],
   "photos": [],
@@ -4636,6 +4673,9 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
+   "s-s1003",
+   "s-s1005",
    "s-m-act-1903-18"
   ],
   "photos": [],
@@ -4666,7 +4706,9 @@
    "_CONF PROVEN that the book states he was \"the brother of the grandmother of David Moskal\n(Bat Yam)\". POSSIBLE that the grandmother meant is Faia/\"Fane\" @I1017@.\nHe visited Wojslawice every few years, brought \"greetings by ship\" (dollars) to relatives,\ntold of the wonders across the sea, and HELPED OTHERS TO EMIGRATE.\n>>> THE BEST OPEN LEAD IN THIS TREE. US records (ship manifests, naturalisation petitions,\n1900-1940 censuses, NY death index) would name HIS PARENTS - i.e. one more generation.\nSearch as: Reiz / Reis / Reisz / Reiss / Rice / Rais; Yehoshua / Joshua / Sioma / Shia / Shiya."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1005"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4691,7 +4733,9 @@
    "_CONF PROVEN that she existed and was Fane's daughter: the p.419 photograph caption reads\n\"the grandmother Fane and Liza her daughter, Dvora\". So Liza was DVORA'S SISTER.\nShe appears in NO other document found by this research.\n>>> OPEN QUESTION: her married name, her fate, her descendants."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1003"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4733,6 +4777,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
+   "s-s1003",
    "s-m-act-1903-18",
    "s-m-yizkor-necrology",
    "s-m-yad-vashem-pot"
@@ -4782,6 +4828,10 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1037",
+   "s-s1001",
+   "s-s1007",
+   "s-s1009",
    "s-m-act-1903-18"
   ],
   "photos": [],
@@ -4831,6 +4881,9 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1001",
+   "s-s1002",
+   "s-s1003",
    "s-m-yad-vashem-pot",
    "s-m-yizkor-holocaust-ch"
   ],
@@ -4860,7 +4913,9 @@
    "_CONF PROVEN as Lea's husband, from the p.419 photograph caption: \"Lahtshe with her\nhusband Yitzhak Terwitzer and their children\".\nMalka did not know his surname when she filed testimony for Lea.\n>>> OPEN QUESTION: his origins, his fate, and the names of his children."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1003"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4890,6 +4945,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
+   "s-s1003",
    "s-m-yad-vashem-pot"
   ],
   "photos": [],
@@ -4918,7 +4975,9 @@
    "_CONF PROVEN as Etel's husband (Yad Vashem item 318626; surname also written Blender).\n>>> OPEN QUESTION: his fate, and the names of his children."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -4964,6 +5023,9 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1001",
+   "s-s1003",
+   "s-s1006",
    "s-m-yad-vashem-pot"
   ],
   "photos": [],
@@ -5010,6 +5072,10 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
+   "s-s1002",
+   "s-s1003",
+   "s-s1006",
    "s-m-yad-vashem-pot",
    "s-m-yizkor-holocaust-ch"
   ],
@@ -5047,6 +5113,9 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1001",
+   "s-s1003",
+   "s-s1005",
    "s-m-family-2019",
    "s-m-teatrnn",
    "s-m-directory-1929"
@@ -5080,7 +5149,9 @@
    "_CONF PROVEN that children existed; NAMES AND NUMBER UNKNOWN.\nPlaceholder for the children of Lea Moskal and Yitzhak Terwitzer, recorded only by the words\n\"and their children\" in the p.419 photograph caption. They appear on no Page of Testimony\nand in no necrology. >>> OPEN QUESTION: how many, and their names."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1003"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -5108,7 +5179,9 @@
    "_CONF PROVEN that children existed; NAMES AND NUMBER UNKNOWN.\nPlaceholder for the children of Etel Moskal and Moshe Blander. See @I1029@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1003"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -5181,6 +5254,10 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1006",
+   "s-s1002",
+   "s-s1009",
+   "s-s1025",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -5224,6 +5301,8 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1008",
+   "s-s1025",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -5255,7 +5334,9 @@
    "_CONF PROVEN, from the necrology: \"Shafir Yosef and his wife Yokheved\"."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1006"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -5286,7 +5367,9 @@
    "_CONF PROVEN. Yad Vashem item 932394, submitted by Yehoshua Lam, \"relative\".\nMurdered IN WOJSLAWICE ITSELF - i.e. among the several dozen shot in the meadow behind the\nbakery, rather than deported to Chelm and Sobibor."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -5326,6 +5409,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1008",
    "s-m-act-1878-1",
    "s-m-act-1875-9"
   ],
@@ -5374,6 +5458,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1008",
    "s-m-act-1878-1",
    "s-m-act-1875-9"
   ],
@@ -5548,6 +5633,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1011",
    "s-m-act-1878-1"
   ],
   "photos": [],
@@ -5588,6 +5674,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1011",
+   "s-s1024",
    "s-m-act-1878-1",
    "s-m-act-1859-17"
   ],
@@ -5622,7 +5710,9 @@
    "_CONF PROVEN as a son of Dawid-Szloma Moskal (@I1045@) and Hinda nee Rajs (@I1046@).\nFather named \"Duvid Moskal, merchant, 32\" and mother \"Ginda nee Rajs, 31\" - matching\nthe already-proven couple (marriage act 1/1878) exactly; \"Ginda/Hinda\" is the same\nname in Russian-act vs Polish-act transliteration. A sibling of Judka-Lejba (@I1021@)\nand Civja (@I1140@). Surfaced 24 Aug 2026 while reading the same 1888 Wojslawice\nvolume opened for the Geni-flagged \"Chaja Sura\" lead (see finding\nGENI-2026-08-asaf-feig-reply...) - found independently via the volume's own\nalphabetical index, not from Geni."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1011"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -5655,6 +5745,10 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1017",
+   "s-s1011",
+   "s-s1023",
+   "s-s1024",
    "s-m-act-1878-1",
    "s-m-act-1847-7",
    "s-m-act-1859-17"
@@ -5703,6 +5797,9 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1011",
+   "s-s1020",
+   "s-s1023",
    "s-m-act-1878-1",
    "s-m-act-1847-7",
    "s-m-act-1859-17"
@@ -5746,6 +5843,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1866-9",
    "s-m-act-1838-15"
   ],
@@ -5798,6 +5896,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1838-15",
    "s-m-act-1866-9",
    "s-m-act-1874-10",
@@ -5847,6 +5946,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1869-4",
    "s-m-act-1873-1"
   ],
@@ -5897,6 +5997,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1833-6",
    "s-m-act-1869-4"
   ],
@@ -5947,6 +6048,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1833-6"
   ],
   "photos": [],
@@ -5992,6 +6094,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1874-6",
    "s-m-act-1873-1"
   ],
@@ -6038,6 +6141,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1015",
    "s-m-act-1859-14"
   ],
   "photos": [],
@@ -6069,7 +6173,9 @@
    "_CONF PROVEN as Sura's father (act 14/1859). Of Dubienka. NOT a direct ancestor of Amotz -\nrecorded because Sura was Szmul's first wife."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1015"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6094,7 +6200,9 @@
    "_CONF PROVEN as Sura's mother (act 14/1859); she gave oral consent at the wedding.\nMaiden name uncertain in the hand - read tentatively as Bragier. #proof Possible on spelling."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1015"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6130,6 +6238,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1017",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -6246,6 +6355,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1020",
+   "s-s1023",
    "s-m-act-1847-7"
   ],
   "photos": [],
@@ -6284,6 +6395,8 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1020",
+   "s-s1023",
    "s-m-act-1847-7"
   ],
   "photos": [],
@@ -6315,6 +6428,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1023",
    "s-m-act-1847-7"
   ],
   "photos": [],
@@ -6353,6 +6467,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1023",
    "s-m-act-1847-7"
   ],
   "photos": [],
@@ -6393,6 +6508,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1021",
    "s-m-act-1872-7"
   ],
   "photos": [],
@@ -6424,7 +6540,9 @@
    "_CONF PROVEN 5 Aug 2026 as a SON OF LEJBA AND BRANDLA MOSKAL, and therefore the ELDER\nBROTHER of Dawid-Szloma. Two independent records agree:\n(1) JRI-Poland index, Wojslawice marriages: \"MOSKAL Abram-Moszko, 1866, act 6, of the\nvillage Krosniczyn, Wojslawice district, son of LEJBA and BRAJNDLA\", married PERLA\nSZPILHAJZEN (d.o. Wolf and Sura Kapel). Microfilm 766307.\n(2) Birth act 22/1882 (APL 35/1787/0/2.1/46 scan 16): Moszko Moskal, shoemaker, 36, of\nKRASNICZYN - the same village where Dawid-Szloma lived and where Judka-Lejba was born.\nHe married twice: Perla Szpilhajzen (1866), and by 1882 his wife was RUCHLA-LAIA nee\nBIRMAN, 27, with a daughter ITA b. 12 Dec 1882 - a first cousin of Judka-Lejba.\n>>> CAVEAT: the JRI row is an INDEX (derivative). The act itself is NOT in the Wojslawice\nfond's 1866 volume, which holds only five marriages and no Moskal - so Krasniczyn\nmarriages were registered in another book, probably the CHELM district register\n(JRI cites film 766307). Reading that act is the outstanding confirmation."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1022"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6533,7 +6651,9 @@
    "_CONF PROVEN as Abram-Moszko Moskal's wife in 1882 (birth act 22/1882, their daughter Ita).\nHis SECOND wife - he married Perla Szpilhajzen in 1866.\nTHREE children now documented, all born in Krasniczyn: BRANA-GITLA b. 30 Dec 1874\n(act 5/1875), HENIA b. 8/20 Nov 1881 (act 37/1881), ITA b. 30 Nov/12 Dec 1882 (act\n22/1882). The first two were read 20-21 Aug 2026 and resolve the open question at\nsource S-note \"the JRI index (Brana Gitla 1875, Chenia 1881) may belong to this couple\nor to...\" - they belong to this couple. Her marriage to Moszko is therefore <= early\n1874, not the previously assumed ~1874-77."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1038"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6561,7 +6681,9 @@
    "_CONF PROVEN as a son of Abram-Moszko Moskal (@I1062@) and Ruchla-Laja nee Birman\n(@I1066@). The act names both parents outright and matches exactly: father \"Moszko\nMoskal\" (Abram-Moszko went by Moszko in daily acts), mother \"Ruchla-Lea nee Birman\" -\nthe identical, distinctive name pair already proven for this couple via act 22/1882\n(@I1067@ Ita's birth). Surfaced via a Geni correspondence: Asaf Feig (a Geni user\nrequesting a merge on Abram-Moszko Moskal, believed a HELFMAN-line descendant of\nBrana-Gitla Moskal - see finding 120-GENI-merge-center) sent this act's archive link\nunprompted on 23-24 Aug 2026, independently corroborating the \"new children\" list\nalready flagged from Geni's own tree data. Entered to the tree 24 Aug 2026."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1038"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6620,7 +6742,9 @@
    "_CONF PROVEN that the act exists and what it says in outline (JRI-Poland index, a\nDERIVATIVE source). His relationship to Hersh Alspektor is UNPROVEN - he is of the right\nplace and roughly the right generation to be a brother or cousin, nothing more.\n>>> This act was ASK No. 1 in the letter Amotz sent to the Lublin archive on 4 Aug 2026.\nThe archive copy is still worth having: it will name his parents and his widow."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1022"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6651,7 +6775,9 @@
    "_CONF PROVEN as a person and as the son of Mejer and Dwojra Szpektor.\n>>> NOT LINKED to our Hersh Alspektor. The surname is the same family (Alt-Szpektor, see\n@S1022@), the town is the same, and the generations fit a grandfather - but no record\nconnects them. POSSIBLE only. Do not draw the line without an act."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1026"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6744,6 +6870,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1014",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -6772,7 +6899,9 @@
    "_CONF PROVEN as Gersz Szaufer's bride, marriage act 6/1872: \"the maiden SURA LUKSEMBERG,\ndaughter of the late AHRON and TAUBA nee SZPILER, lawful Luksemberg spouses\". Her age was\non the unread part of the page. NOT a direct ancestor of Amotz."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6798,7 +6927,9 @@
   "occupation": "",
   "notes": [],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6821,7 +6952,9 @@
   "occupation": "",
   "notes": [],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6857,7 +6990,9 @@
    ">>> UPDATE 20 Aug 2026 - MASZA'S WINDOW NARROWED, AND CLOSED. Rechla-Mema died in 1855\naged 57 (b. ~1798), so she was about 13 when Liba was born ~1811 and CANNOT be Liba's\nmother - which confirms the two-marriage reconstruction from an independent direction.\nHerszko was already married to Ruchla/Rechla by May 1826. => Masza died c.1813-1825.\nThe Wojslawice register BEGINS IN 1826. Her death therefore falls outside the civil\nrecord entirely. NOT \"not found\" - UNFINDABLE HERE. Stop looking in this fond."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6920,7 +7055,10 @@
    "_CONF PROVEN as Herszko Glezer's wife in 1826 (birth act 5/1826). His SECOND wife,\nNOT Liba's mother - see @I1076@. Not a direct ancestor of Amotz."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027",
+   "s-s1028"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -6978,7 +7116,9 @@
    ">>> NOTHING IS KNOWN OF HIM AFTER BIRTH. Not searched yet: the 1826-1884 Jewish fond\n35/1787 for his marriage or death; the 1855 death act of his mother names FOUR ADULT\nCHILDREN without naming them - he may be one of the four."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1047"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7007,7 +7147,9 @@
    ">>> NEW PERSON, added 28 Aug 2026. HERSZKO GLEZER'S SISTER - he was born about 1790,\nshe about 1788, same parents, same town. The first sibling of his ever identified."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7035,7 +7177,9 @@
    "_CONF PROVEN from marriage act 23/1811."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7060,7 +7204,9 @@
    ">>> HIS GIVEN NAME IS NOT IN THE ACT. Act 23/1811 says only \"w Assystencji Ojca swego\nMICHLOWICZA y Matki swoiey ESTERY w Biskupicach zamieszkalego\" - the clerk wrote the\npatronymic where the given name should be. Recorded surname-only, deliberately."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7085,7 +7231,9 @@
    "_CONF PROVEN as Falka's mother (act 23/1811). Maiden name not given."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7115,7 +7263,9 @@
    ">>> POSSIBLE SON, NOT PROVEN: JCEK DAWIDOWICZ, 50 (b. c.1761), of Siedliszcze,\nwitnessed the same wedding. \"Dawidowicz\" = son of Dawid. He may be this man's son\nand Ita's brother - but nothing in the act says so, and he is NOT entered."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7143,7 +7293,9 @@
    "_CONF PROVEN 6 Aug 2026. A previously unknown son of Szmul and Pesia-Ruchla, found by\nreading the 1876 birth register (the year's ONLY Szaufer birth, no. 39 of 42) and then\nthe act: \"the resident of Wojslawice SZMUL SZAUFER, ROOFER, THIRTY-NINE years of age...\npresented to us a male child... born in Wojslawice on the seventeenth day of the current\nmonth and year at three in the afternoon of his lawful wife PESIA RUCHLA nee [Szyfman]\".\nNAMED FOR HIS GRANDFATHER CHAIM SZAUFER, who died in 1866 - the Ashkenazi pattern,\nand one of the \"four sons and four daughters\" of the memoir.\n>>> His fate is unknown. Check the death registers 1877+ (the JRI index has a\n\"Chaim Tojwije SZAUFER, d. act 8/1877\" - a DIFFERENT given name, so probably not him)."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7244,7 +7396,9 @@
    ">>> TWO THINGS THIS ACT ADDS BEYOND THE PERSON.\n(1) OCCUPATION. In 1848 Chaim and Liba are \"WYROBNICY\" - DAY-LABOURERS. In 1838 Chaim was\na \"kotlarz\" (coppersmith) and by 1866 a house owner. The middle of his life was the poor\npart. This is the only statement of LIBA's own occupation before her 1872 \"rabotnica\".\n(2) ★ THE MAIDEN-NAME CONFLICT. The clerk wrote Liba \"Z DOMU NIEWIADOMEJ\" - NEE UNKNOWN.\nIn 1848 the Wojslawice registrar did not know, or could not obtain, her maiden name at\nall. That is a third state alongside GLEZER (1866, 1872, 1874) and KIELNER (1859, 1873),\nand it weakens any argument that one of the two was the settled, well-known form.\nSee the conflict note at @I1050@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7272,7 +7426,9 @@
    "Son of [father not yet read] and FAJGA, spouses KORNFELD, TRADERS (\"handlarze\").\n>>> OPEN, CHEAP: his father's given name is on the same page and simply was not\ntranscribed in the first reading. One screenshot."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1014"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7310,6 +7466,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1833-6"
   ],
   "photos": [],
@@ -7345,6 +7502,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1014",
    "s-m-act-1833-6"
   ],
   "photos": [],
@@ -7379,7 +7537,10 @@
    ">>> ALIVE AND PRESENT, 26 NOVEMBER 1811. He appeared in person before the\nregistrar of Wojslawice to give away his daughter Ryfka (marriage act 23/1811),\ndescribed as \"Ojca swego SZMULA GLEZERA\". Until 28 Aug 2026 he was known ONLY\nretrospectively, from his son's death act of 1849 - thirty-eight years later.\nThis is the first contemporary record of him."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027",
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7408,7 +7569,10 @@
    ">>> HER FATHER WAS CALLED DAWID. Marriage act 23/1811 names her\n\"ITY z DUWIDOW\" - Ita of the Duwids, i.e. Ita daughter of Duwid/Dawid.\n### THIS IS A PATRONYMIC, NOT A FIXED SURNAME: the act predates the Kingdom of\nPoland's surname decree of 27 March 1821 by ten years. Do NOT record DUWID as\nher maiden surname. He IS entered, as @I1175@ - a given name with no surname is\nthe historically correct form for his generation, not a gap.\n### A witness at the same wedding was JCEK DAWIDOWICZ, 50, of Siedliszcze.\nHe may well be her brother - but that is a HYPOTHESIS, not proven, and he is\ndeliberately NOT entered in this file."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027",
+   "s-s1048"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7436,7 +7600,9 @@
    "_CONF PROVEN as Rechla-Mema's father: death act 44/1855 names her as \"daughter of\nCHAIM and LAJA, maiden name unknown, spouses FAJWEL\".\n>>> The 1849 act spells the family FAJNER. Two clerks, one family; see @I1078@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1028"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7464,7 +7630,9 @@
    "_CONF PROVEN as Rechla-Mema's mother (death act 44/1855). Her own maiden name is\nexplicitly recorded as unknown - \"z domu niewiadomej\" - by the clerk himself."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1028"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7492,7 +7660,9 @@
    "_CONF #proof Probable as a son of Herszko and Rechla-Mema. NO ACT SAYS SO DIRECTLY.\nThe chain: marriage act 3/1857 says his sister Ita \"lives with her brother\"; he carries\nthe father's exact trade; and act 44/1855 counts FOUR ADULT CHILDREN, which the four\nidentified children fill exactly. Strong, converging, NOT proven."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1028"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7545,7 +7715,9 @@
    "_CONF #proof Probable as a daughter of Herszko and Rechla-Mema. Her husband Lejb Nudel\nis called \"son-in-law of the deceased\" in Herszko's death act 5/1849, and birth act\n31/1848 gives a mother \"nee GLEZER\". Two independent hooks; no act names her parents."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7576,7 +7748,10 @@
    ">>> OPEN QUESTION, STATED AS A QUESTION. Dawid Nudel (44, flour merchant) and\nMajer-Josek Nudel (33) are PROVEN brothers, sons of Abram and Estera Nudel, both dead\nin 1855. Lejb is 39, in the same small town, in DAWID'S EXACT AND UNCOMMON TRADE.\nAges 44-39-33 make a clean sibling ladder. BUT NOT ONE ACT SAYS \"Lejb son of Abram\".\nHe is therefore NOT linked to @F1047@ in this file. WHAT WOULD SETTLE IT: his marriage\nact to Chaja-Ruchla - which the swept indexes place BEFORE 1841, i.e. in the 1840\nvolume or its alegata, both requested from AP Lublin on 20 Aug 2026."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1027",
+   "s-s1034"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7604,7 +7779,9 @@
    "_CONF PROVEN as a daughter of Herszko and Mema: marriage act 3/1857 names her as\n\"daughter of Herszek and Mema, BOTH DECEASED\" - which the two death acts confirm\nexactly (Herszko 16 Feb 1849, Mema 26 Apr 1855, marriage January 1857).\nAt marriage she was \"living with her brother\" - see @I1096@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1033"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7635,7 +7812,9 @@
    ">>> LEAD, NOT YET READ. The 1873 death index (Cyrillic) lists \"SHLIYAN - SHAYA BINEM,\nact 35, p.118\". Age would be ~64. Same town, same surname, same given name, and the\nsecond element \"Binem\" is the kind of name-part clerks drop and restore (cf.\nMoszko-Gersz Szyfman, written three ways in three acts). If that act names EJZYK and\nDWOJRA as his parents it identifies him and dates Ita's widowhood. Unit 2196587."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1033"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7663,7 +7842,10 @@
    "_CONF PROVEN by TWO independent acts naming the same couple: marriage act 3/1857\n(son Szaja) and death act 9/1849 (son Berko)."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1032",
+   "s-s1033"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7691,7 +7873,9 @@
    "_CONF PROVEN. >>> AND THIS IS WHERE THE MAIDEN NAME CAME FROM. Marriage act 3/1857\nrecords her as \"DWOJRA, MAIDEN NAME UNKNOWN\" - the clerk said so outright. Death act\n9/1849, of her son Berko, eight years EARLIER, writes \"syn EJZYKA i DWOJRY **z ZLOTOW**\nmalzonkow SZLAJN\". An older document closing an explicit blank in a later one.\nFound 20 Aug 2026 in the full-name sweep of the 1849 death index."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1032"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7722,7 +7906,9 @@
    "_CONF PROVEN as Szaja-Binem's brother: identical parents, same surname, same town.\nNot an ancestor - he is Ita Glezer's brother-in-law, and he is in this file because\nhis death act is what supplies Dwojra's maiden name. See @I1103@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1032"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7750,7 +7936,10 @@
    "_CONF PROVEN as the father of Dawid and Majer-Josek Nudel - TWO death acts of 1855\nname the same couple. Whether he is also Lejb Nudel's father is UNPROVEN: see @I1099@."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1029",
+   "s-s1030"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7778,7 +7967,10 @@
    "_CONF PROVEN as their mother. Both acts record her maiden name as unknown -\n\"nazwiska niewiadomego\" (1855, act 43) and \"niewiadomej\" (1855, act 48)."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1029",
+   "s-s1030"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7809,7 +8001,10 @@
    "_CONF PROVEN. Son-in-law of Itta Hutmacher - he declared her death himself in 1854,\nand her act names his wife as her daughter."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1029",
+   "s-s1031"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7840,7 +8035,11 @@
    "_CONF PROVEN as Itta Hutmacher's daughter: act 12/1854 says Itta died \"leaving her\nMARRIED DAUGHTER FAJGA NUDEL\", and the declarant was Fajga's husband Dawid."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1031",
+   "s-s1035",
+   "s-s1036"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7871,7 +8070,9 @@
    "_CONF PROVEN as Dawid's brother - death act 48/1855 names the identical parents."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1030"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7902,7 +8103,9 @@
    "_CONF PROVEN. Death act 12/1854: \"ITTA HUTMACHER, WIDOW, WYROBNICA, aged 57,\ndaughter of CHAJM and CHAWA, maiden name unknown, spouses GOLDBERG, already dead,\nleaving her married daughter FAJGA NUDEL.\" Read 20 Aug 2026 from the volume on disk."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1031"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7930,7 +8133,9 @@
    "_CONF PROVEN as Itta Hutmacher's father (death act 12/1854). Born c.1770s on his\ndaughter's age. The oldest generation reached on the Nudel-Hutmacher side."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1031"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7958,7 +8163,9 @@
    "_CONF PROVEN as Itta's mother (death act 12/1854); her own maiden name recorded as\nunknown by the clerk."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1031"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -7989,7 +8196,9 @@
    "_CONF PROVEN as the daughter of Dawid and Maja-Fajga (death act 53/1855).\nShe died seven weeks after her father, in the same epidemic year."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1035"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8014,7 +8223,9 @@
    "_CONF PROVEN as a householder (death act 52/1855, of his daughter).\n>>> WHY HE IS IN THIS FILE: this is the FOURTH documented Eil household, and the\nFIRST inside Wojslawice itself - the others are Herszek Eil in Teratyn (Brana's\nfather), Chaim Eil in Grabowiec, and Szmul Eil in Uchanie. Whether Moszek is a son\nof Herszek of Teratyn, and so Brana's brother, is UNKNOWN. No link is asserted here."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1034"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8039,7 +8250,9 @@
    "_CONF PROVEN as Moszek Eil's wife (death act 52/1855)."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1034"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8071,7 +8284,9 @@
    "_CONF PROVEN as the daughter of Moszek and Matla (death act 52/1855)."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1034"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8104,6 +8319,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1875-9"
   ],
   "photos": [],
@@ -8140,6 +8356,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1875-9"
   ],
   "photos": [],
@@ -8171,7 +8388,9 @@
    "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@).\nA TWIN with Chaja-Sura (@I1169@) - acts 15 and 16 record two girls born the same day\nto the same parents, with the same two witnesses, registered consecutively.\nIdentification rests on a four-way exact match with marriage act 9/1875: given name\nJankiel, trade SHOEMAKER, village KRASNICZYN, and wife ELKA nee ERLICH. Entered 26\nAug 2026."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8199,7 +8418,9 @@
    "_CONF PROVEN as a daughter of Jankiel Moskal (@I1117@) and Elka nee Erlich (@I1118@),\non the same four-way match as her sister @I1168@.\n>>> THIS CORRECTS A GENI IDENTIFICATION. Geni lists a \"Chaia Sura Fox (nee Moskal)\"\nas a daughter of ABRAM-MOSZKO Moskal (@I1062@); Asaf Feig sent this act as proof.\nThe act names JANKIEL, not Abram-Moszko - so she is Abram-Moszko's NIECE, not his\ndaughter. Geni had the right family and the wrong brother.\n>>> AND IT CORRECTS MY OWN NOTE OF 24 Aug 2026, which read the father's name as\n\"Ankiel\" and concluded this was an unrelated household. At full zoom the initial is\nclearly Я (compare \"Явился\" opening the same line), i.e. ЯНКЕЛЬ = Jankiel. The\n24 Aug finding file has been corrected."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1001"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8232,6 +8453,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1876-1"
   ],
   "photos": [],
@@ -8261,6 +8483,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1875-9"
   ],
   "photos": [],
@@ -8295,6 +8518,7 @@
   "notes": [],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1875-9"
   ],
   "photos": [],
@@ -8341,6 +8565,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1001",
    "s-m-act-1876-39",
    "s-m-act-1877-8"
   ],
@@ -8370,7 +8595,9 @@
    "(documented, by name) Named among the children of Lejba and Brandla in the register\nsweep of the neighbouring towns, 1842-1881 - see the note at @F1012@. He had no record\nof his own here until 21 Aug 2026.\n>>> HIS HOUSEHOLD BELOW IS FROM GENI, NOT FROM ACTS. The profiles carry no sources\n(empty About, 0 matches), so wife, children and her parents are all rated PROBABLE\nat best. What makes them worth entering: (a) he is himself documented as Lejba's\nson; (b) RAJNER is a genuine Wojslawice surname - \"Rajner Mordko\" appears in the\n1855 death index (findings/1855-death-index-full-sweep); (c) the naming is\ninternally coherent - his son SZABSA LEJB carries the name of the maternal\ngrandfather SZABSA LEJBA RAJNER, which is ordinary Ashkenazi practice and is not\nthe kind of detail an inventor supplies. (probable)"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8398,7 +8625,9 @@
    "(probable) Wife of Aron-Moszko. From Geni; no sources there.\n>>> NOT TO BE CONFUSED WITH \"Civja Moskal\" born 3 Sep 1881 at Krasniczyn - that is\nDawid-Szloma's daughter (birth act 14/1884), a different woman one generation down,\nwho MARRIED this couple's son Mordko. The two are separate profiles on Geni and\nwere checked on 21 Aug 2026: different parents, different husbands. Do not merge."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8423,7 +8652,9 @@
    "(probable) Named on Geni as Cywia's father. His grandson Szabsa Lejb Moskal carries\nthe name."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8448,7 +8679,9 @@
    "(probable) Named on Geni as Cywia's mother."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8473,7 +8706,9 @@
    "(probable) Daughter of Aron-Moszko and Cywia, per Geni. No act located."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8498,7 +8733,9 @@
    "(probable) Son of Aron-Moszko and Cywia, per Geni. Named for his mother's father\nSzabsa-Lejba Rajner @I1135@ - the coherence that makes this household credible."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8523,7 +8760,9 @@
    "(probable) Son of Aron-Moszko and Cywia, per Geni.\n>>> WARNING - TWO MORDKO MOSKALS. This one is Aron-Moszko's son. The OTHER is\nABRAM-MOSZKO's son, born 3 May 1878 at Krasniczyn (birth act 20/1878), who is a\nfirst cousin of this one. Do not conflate them.\nHe married CIVJA MOSKAL @I1140@, his first cousin - Dawid-Szloma's daughter."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8551,7 +8790,9 @@
    "(documented) SISTER OF JUDKA-LEJBA @I1021@, daughter of Dawid-Szloma and Hinda.\n(probable) She married MORDKO MOSKAL @I1139@, son of Aron-Moszko - i.e. her first\ncousin. The marriage is from Geni and has no act; cousin marriage is unremarkable\nin this community. Her own birth, by contrast, is fully documented."
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8576,7 +8817,9 @@
    "(probable) Daughter of Aron-Moszko and Cywia, per Geni. No act located."
   ],
   "grade": "probable",
-  "sources": [],
+  "sources": [
+   "s-s1040"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8609,6 +8852,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1041",
    "s-m-act-1832-1"
   ],
   "photos": [],
@@ -8647,6 +8891,7 @@
   ],
   "grade": "documented",
   "sources": [
+   "s-s1041",
    "s-m-act-1832-1"
   ],
   "photos": [],
@@ -8686,6 +8931,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1042",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -8726,6 +8972,7 @@
   ],
   "grade": "probable",
   "sources": [
+   "s-s1042",
    "s-m-jri-index"
   ],
   "photos": [],
@@ -8760,7 +9007,9 @@
    "ADDED 21 Aug 2026. FOUND 19 Aug 2026 in the complete sweep of the 1840-1847 gap in\nthe Wojslawice death register (1841, 1842, 1845, 1846, 1847 read in full; 1840 does\nnot exist in the fond). He is the ONLY Moskal in those five years.\n>>> WHY HE MATTERS: his act is the FIRST AND ONLY document that writes the surname\nMOSKAL on Herszek's generation. Uchanie marriage act 1/1839 calls our Lejba's father\n\"Herszek Leybowicz\" - a patronymic, no surname. Same village (Krasniczyn), same\ntrade (wyrobek), sons born ~1818 and ~1820.\n** He is therefore very probably LEJBA'S BROTHER - but see @I1036@: that bridge is\nNOT yet proven and no link has been drawn. **"
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1043"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8785,7 +9034,10 @@
    "ADDED 21 Aug 2026. Moszko's WIDOW, alive in 1849 and still in 1854.\n** \"z ERLICHOW\" is written out in BOTH children's death acts (16/1849 and 7/1854),\nso the maiden name is act-grade, not index-grade. **\n>>> DO NOT CONFUSE WITH SURA, MOSZKO'S MOTHER @I1149@ - two different women in the\nsame household, one generation apart. The warning is in the sources themselves."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1044",
+   "s-s1045"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8814,7 +9066,9 @@
   "occupation": "",
   "notes": [],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1045"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8843,7 +9097,9 @@
   "occupation": "",
   "notes": [],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1044"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8868,7 +9124,9 @@
    "ADDED 21 Aug 2026 as the father of MOSZKO @I1146@ ONLY.\n** GRADE: documented as a named parent in death act 29/1847 - \"HERSZEK AND SURA,\nSPOUSES MOSKAL, OF KRASNICZYN\". The act does not call him \"niegdy\" (the late),\nso he may still have been alive in 1847. **\n>>> NOT linked to Lejba @I1036@. See the note there.\n>>> STRONG NEGATIVE: there is NO death of a Herszek Moskal or Herszek Leybowicz in\nthe Wojslawice register, ever - 1838, 1839, 1841-1848 and 1848-1884 have all been\nswept, and the indexes count every death of their year. He died outside the\nWojslawice district, or in one of the two lost volumes (1840, 1865).\n>>> His own generation is NOT reachable through Krasniczyn: that register (fond 1747)\nbegins only in 1826, and his sons were born ~1818 and ~1820."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1043"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8893,7 +9151,9 @@
    "ADDED 21 Aug 2026 as the mother of MOSZKO @I1146@ ONLY.\n** UNRESOLVED CONTRADICTION. ** Uchanie marriage act 1/1839 names the mother of\nLejbus Leybowicz as CHAJA, who was present and gave her consent. Death act 29/1847\nnames Moszko's mother as SURA. Three readings, none decided:\n(1) a double name, Chaja-Sura or Sura-Chaja - the simplest;\n(2) two marriages of Herszek, which would make Lejba and Moszko HALF-brothers;\n(3) two different Herszeks in Krasniczyn - least likely: same village, same trade,\nsame decade.\n>>> THE TEST would be a death act for Chaja or for Sura. NEITHER is in the\nWojslawice death indexes for 1841-1848 or 1848-1884.\n>>> CANDIDATE ELIMINATED 21 Aug 2026: \"Muskal Fryjna, death 16/1849\" DOES NOT EXIST.\nThe 1849 alphabetical death index was read off the film (sygn. 2.1/14, scan 30):\nnineteen deaths, listed in full, and the ONLY Muskal in it is row 12, SZYFRA,\nact 16, page 79 - Moszko's little daughter @I1149@, already read and entered.\n\"Fryjna\" was a misreading of \"Szyfra\" in the same act.\n>>> SECOND CANDIDATE ELIMINATED 21 Aug 2026: \"Moskal Perla, death 16/1873\" was\nread in the original. She is PERLA nee PERZ @I1152@, born ~1844 in Tyszowce and\ndead at TWENTY-NINE - a full generation too young to be Herszek's wife.\n** BOTH proposed local tests are now closed. ** Neither Chaja nor Sura died in\nthe Wojslawice district, and no further candidate exists in its indexes.\n>>> THE QUESTION NOW HAS NO LOCAL TEST. It moves to Krasniczyn (fond 1747,\nfrom 1826) and to the 1839 Uchanie allegata, which is with AP Lublin.\n>>> DO NOT CONFUSE WITH SURA nee ERLICH @I1147@, Moszko's wife."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1043"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8924,7 +9184,9 @@
    "ADDED 21 Aug 2026. ** NOT LINKED to our line. ** She was one of two unread\ncandidates for CHAJA/SURA, the wife of Herszek @I1150@; reading the act ELIMINATES\nher - she was born ~1844 and is a full generation too young.\n>>> WHAT SHE DOES SHOW: a MOSKAL HOUSEHOLD STILL IN KRASNICZYN IN 1873, the very\nvillage Herszek came from. Recorded so the household is not lost."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1046"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -8952,7 +9214,9 @@
    "ADDED 21 Aug 2026 from death act 16/1873 of his wife Perla @I1152@, where he is\nnamed as her surviving widower, a tailor of Krasniczyn, aged 32.\n** NOT the Moszko Moskal @I1146@ who died in 1847 ** - that one was born ~1820.\nThis is a DIFFERENT, YOUNGER MAN, born ~1841.\n>>> ○ A LEAD, NOT A LINK. Ashkenazi custom would have a boy born ~1841 named\nMOSZKO only after a dead Moszko - but our Moszko died in 1847, six years LATER,\nso he cannot be this child's namesake. The two are simply both Moskals of\nKrasniczyn. Whether this household descends from Herszek @I1150@ is UNTESTED.\n>>> WHERE TO TEST IT - CORRECTED 21 Aug 2026: NOT in fond 1747. The Krasniczyn\nregister ran ONLY 1826-1836, so a birth ~1841 is five years AFTER it closes.\nAfter 1836 the Jews of Krasniczyn registered at WOJSLAWICE, and Krasniczyn\nMARRIAGES went into the CHELM district book (JRI cites film 766307).\n⇒ Look for his birth in the Wojslawice register c.1841 and for his marriage\n(c.1865, to Perla Perz of Tyszowce) in Chelm - or in TYSZOWCE, the bride's town."
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1046"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9266,7 +9530,12 @@
    "(documented, by name) FATHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of\nthe Strawczyn register, read from the image 28 Aug 2026: \"Syn Mortki Cukroskiego\nPotasznika niegdy w Rudzie zamieszkalego i Esterki z Choynow\".\n>>> HIS OWN PARENTS ARE NAMED in his Checiny death act (@S1052@): \"Rodzicow WULFA\ni DWOYRY Cukrowskich [...] Syn, w Miescie Checinach, oboyga juz zmarlych\" - see\n@F1074@. That single line carries the Cukier line two generations above Aron.\n>>> THE SURNAME IS UNSTABLE ACROSS THREE MONTHS OF 1823: he is CUKROWICZ in the\nSeptember death act at Strawczyn, CUKROWSKI in the October death act at Checiny,\nand his son is \"Mortki CUKROSKIEGO\" in the January 1824 marriage act. By 1844 the\nfamily is CUKIER in the Radoszyce register. One family, four spellings, twenty\nyears.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1049",
+   "s-s1050",
+   "s-s1051",
+   "s-s1052"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9276,7 +9545,7 @@
   "gedcomId": "I1177",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "אסתרקה חוינא",
    "latin": "Esterka Chojna",
    "given": "Esterka",
    "surname": "Chojna",
@@ -9294,7 +9563,10 @@
    "(documented, by name) MOTHER OF ARON CUKIER @I71@. Named in marriage act 1/1824 of\nthe Strawczyn register as \"Esterki z Choynow\", and in the Checiny kahal certificate\nas \"Ester z Chaynow\". The certificate then calls the couple \"WULFOWICZOW na teraz\nCUKROWSKICH zwanych\" - the Wulfowicze, now called Cukrowski - which is her\nhusband's patronymic, not hers, and is confirmed by his own death act naming his\nfather Wulf.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1049",
+   "s-s1050"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9304,7 +9576,7 @@
   "gedcomId": "I1178",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "מושקו פוטשניצקי",
    "latin": "Mosko Potasznicki",
    "given": "Mosko",
    "surname": "Potasznicki",
@@ -9320,7 +9592,10 @@
    "(documented, by name) FATHER OF TAUBA @I72@. Named in marriage act 1/1824 of the\nStrawczyn register: \"Corka Moska Potasznickiego na Pustkowiu zamieszkalego\nPotasznika i Esterki z Lewkow\". He is NOT recorded as present at the wedding - his\ndaughter appeared \"w Assystencyi Matki swoiey\", with her mother only.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1049",
+   "s-s1053"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9330,7 +9605,7 @@
   "gedcomId": "I1179",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "אסתר",
    "latin": "Ester",
    "given": "Ester",
    "surname": "",
@@ -9345,7 +9620,10 @@
    "(documented, by name) MOTHER OF TAUBA @I72@. Named in marriage act 1/1824 of the\nStrawczyn register. ALIVE AND PRESENT, 12 JANUARY 1824: her daughter appeared \"w\nAssystencyi Matki swoiey\", and made the Akt Uszanowania - the act of respect - to\nher before the witnesses.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1049",
+   "s-s1053"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9376,7 +9654,10 @@
    "FIRST WIFE OF ARON CUKIER @I71@ - new to the file, 28 Aug 2026.\n>>> SHE MAY BE THE MOTHER OF ABRAM ~1821 (@I78@) AND MORTKA ~1823 (@I81@), who on\nthe present reckoning were born before Aron married Tauba in January 1824. Their\nown marriage acts of 1844 name their mother as Tauba Moskowicz, which is what one\nwould expect of a stepmother who raised them from infancy - but it is equally\npossible the ages stated in 1844 are simply two or three years out. UNRESOLVED, and\ndeliberately left so: the children remain attached to @F64@ and are NOT moved.\n>>> The witness SZLAMA RUTKOSKI, 45, potasznik of Ruda, who signed the 1824 act in\nHebrew letters, is almost certainly her father or brother.\n>>> ** AN UNRESOLVED CONTRADICTION IN HER DEATH ACT, LEFT VISIBLE ON PURPOSE. **\nThe first declarant is \"Starozakonny MORTKA CUKROWICZ maiacy lat siedmdziesiat,\nOYCIEC ZMARLEY\" - Mortka Cukrowicz, seventy, FATHER OF THE DECEASED. The wording is\nunambiguous in the manuscript. But that same Mortka is Aron's own father, named as\nsuch by the Checiny kahal certificate and by the marriage act; if he were also\nSara's father, Aron would have married his sister, which is impossible.\nThe reading that survives is that the clerk wrote \"oyciec\" where he meant\nfather-in-law. The alternative - two men called Mortka Cukrowicz, both potaszniks\nat Ruda, both about seventy in 1823 - is weakened by the ages matching across the\ntwo acts (70 in September, 71 in October).\n>>> THE ORIGINAL ACT 16/1823 must be read before this is called settled.\nThe second declarant is ABRAM RUDNICKI, 24, also a potasznik at Ruda - a name new\nto the file and not entered.\n_BRANCH albert"
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1049",
+   "s-s1051"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9404,7 +9685,9 @@
    "** NOT A PROVEN RELATIVE - entered because he is almost certainly one. ** Witness to\nmarriage act 1/1824 of the Strawczyn register, and one of only two men who signed\nit: his signature stands under the groom's, in Hebrew letters, \"Shlomo Rutkovski\".\nHe carries the surname of Aron's dead first wife, Sara z Rutkowskich @I1180@, lives\nin the same tiny village and follows the same trade. Father or brother of Sara.\nNo family link is asserted in the file until a document states one.\n_BRANCH albert"
   ],
   "grade": null,
-  "sources": [],
+  "sources": [
+   "s-s1049"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9432,7 +9715,9 @@
    "(documented, by name) FATHER OF MORTKA @I1176@, great-grandfather of Kiwa Cukier.\nNamed in the Checiny death act of his son, filed in the 1824 Strawczyn alegata.\nEntered 28 August 2026 - the earliest generation of the Cukier line on record.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1052"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9460,7 +9745,9 @@
    "(documented, by name) MOTHER OF MORTKA @I1176@. Named in his Checiny death act.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1052"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9485,7 +9772,9 @@
    "(documented, by name) BROTHER OF ARON @I71@ - new to the file, 28 August 2026. He is\nthe first declarant of his father's death in Checiny in 1823: \"stawili sie\nStarozakonni JOACHYM CUKROWSKI Syn zmarlego, Handlarz [...] w Miescie Checinach\nzamieszkali\". No age is given for him and nothing else about him is yet known.\n>>> He stayed in Checiny while Aron moved out to Ruda Strawczynska. Checiny records\nof the 1820s-40s should carry his marriage and children.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1052"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9495,7 +9784,7 @@
   "gedcomId": "I1185",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "שמול",
    "latin": "Szmul",
    "given": "Szmul",
    "surname": "",
@@ -9510,7 +9799,9 @@
    "(documented, by patronymic) FATHER OF MOSZEK @I1178@, Tauba's grandfather.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1053"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null
@@ -9520,7 +9811,7 @@
   "gedcomId": "I1186",
   "branch": "albert",
   "names": {
-   "he": "",
+   "he": "לווק",
    "latin": "Lewek",
    "given": "Lewek",
    "surname": "",
@@ -9535,7 +9826,9 @@
    "(documented, by patronymic) FATHER OF ESTER @I1179@, Tauba's maternal grandfather.\n_BRANCH albert"
   ],
   "grade": "documented",
-  "sources": [],
+  "sources": [
+   "s-s1053"
+  ],
   "photos": [],
   "docs": [],
   "bioChapter": null

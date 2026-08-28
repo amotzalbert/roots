@@ -83,6 +83,10 @@ for m in records('I'):
     low = ' '.join(notes).lower()
     grade = next((g for pat,g in GRADE if re.search(pat, low)), None)
     birth, death = event(joined,'BIRT'), event(joined,'DEAT')
+    # ציטוטי מקור מהגדקום עצמו — @S84@ ⇒ s-s84. עד 29.8.2026 לא נקראו כלל,
+    # והמקורות הגיעו רק מהקבצים הידניים; מקור שנוסף לגדקום בלבד נעלם מהאתר.
+    ged_sources = [f"s-{s.strip('@').lower()}" for s in
+                   re.findall(r'^1 SOUR (@S[^@]+@)$', joined, re.M)]
     branch = 'albert'
     mb = re.search(r'_BRANCH\s+(albert|moskal|both)', joined)
     if mb: branch = mb.group(1)
@@ -91,7 +95,7 @@ for m in records('I'):
         "names":{"he":"", "latin":latin, "given":given, "surname":surname, "variants":[x for x in nicks if x]},
         "sex": sub(joined,'SEX'), "living": death is None and not (birth or {}).get('date'),
         "birth":birth, "death":death, "occupation": sub(joined,'OCCU') or "",
-        "notes":notes, "grade":grade, "sources":[], "photos":[], "docs":[], "bioChapter":None}
+        "notes":notes, "grade":grade, "sources":ged_sources, "photos":[], "docs":[], "bioChapter":None}
 
 for m in records('F'):
     xid, body = m.group(1), m.group(2)
@@ -217,8 +221,12 @@ for p in people.values():
     if sn.get('variants'):                       # מיזוג, לא דריסה — כינויי הגדקום נשמרים
         seen_v = {v.lower() for v in p['names']['variants']}
         p['names']['variants'] += [v for v in sn['variants'] if v.lower() not in seen_v]
-    for fld in ('bioChapter','photos','docs','sources','gen'):
+    for fld in ('bioChapter','photos','docs','gen'):
         if src.get(fld): p[fld] = src[fld]
+    # מקורות — איחוד, לא דריסה: הקובץ הידני מוסיף לציטוטים שבגדקום ולא מוחק אותם
+    if src.get('sources'):
+        have = set(p['sources'])
+        p['sources'] += [s for s in src['sources'] if s not in have]
     if src.get('grade') and not p['grade']: p['grade'] = src['grade']
     if src.get('branch') in ('moskal','both'): p['branch'] = src['branch']
     p['siteId'] = src['id']
