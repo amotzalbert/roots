@@ -101,7 +101,7 @@ In Volodymyr-Volynskyi itself: after battles between Ukrainian and Polish forces
 11. Description of the presence of the First Army under Semyon Budyonny's command in the Bug River area and the Volodymyr-Volynskyi district in September 1920, and its literary documentation by Isaac Babel in "Red Cavalry" — based on a synthesis of sources surveyed in the search (Wikipedia, "Battle of Lwów (1920)"; general background on the pogroms of Budyonny's First Army)
 12. General background on the scale of Jewish emigration from Eastern Europe 1919–1925 (about 400,000 persons to the USA and the Land of Israel) — based on a survey by the National Park Service, "Immigration and the Great War," and general demographic sources on Jewish emigration in the period
 13. Shtetl Routes (Teatr NN), "Wojsławice — przewodnik" — https://shtetlroutes.eu/en/wojslawice-przewodnik/ (the location of Wojsławice on a junction of the Lublin–Volodymyr and Chełm–Bełz trade routes)
-14. The Wojsławice memorial (yizkor) book (Tel Aviv, 1970), the memoirs of "Mendel Szafir/Schafir" — "Sixty Years of My Life in Wojsławice 1879–1939"; see the parallel research file: `/Users/amotz/Projects/family-history/site/research/wojslawice.md`, Section 1.6
+14. The Wojsławice memorial (yizkor) book (Tel Aviv, 1970), the memoirs of "Mendel Szafir/Schafir" — "Sixty Years of My Life in Wojsławice 1879–1939"; see the parallel research file: the Wojsławice report on this site, Section 1.6
 
 **Primary archival source (not surveyed directly in this report, mentioned at the user's request):** the Jewish birth register of Volodymyr-Volynskyi, 1865, act 4 — the State Archive of the Volhynia Region (Державний архів Волинської області, ДАВО), fond 96.
 

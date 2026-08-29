@@ -102,7 +102,7 @@ O losie Rawy Ruskiej przesądziła jej bliskość obozu zagłady w Bełżcu, odd
 | Rodzice Chaima | Szmul (Szmul) i Estera (Estera) Szauferowie; w akcie z 1866 r. wzmiankowani jako zmarli — żyli i zmarli najprawdopodobniej w Rawie Ruskiej | akt zgonu 9/1866 | udokumentowane (miejsce zgonu — wniosek) |
 | Migracja do Wojsławic | przed 1838 r. (pojawienie się w aktach Wojsławic); odległość ok. 75 km, przekroczenie granicy austriacko-rosyjskiej | akta Wojsławic | udokumentowane (dokładna data — nieznana) |
 | Kontekst migracji | podatki małżeńskie, podatek świecowy/od mięsa, pobór austriacki, szansa gospodarcza w regionie chełmskim | tło (rozdz. 3.1) | uzasadniona hipoteza |
-| Księgi gminy | żydowskie księgi stanu cywilnego Rawy Ruskiej przechowywane w AGAD w Warszawie, fond 300 (głównie 1877–1911); zapisy wcześniejsze — rzadkie | Gesher Galicia (strona AGAD); JRI-Poland | udokumentowane — **kierunek badań**: sprawdzić, czy zachowały się księgi metrykalne sprzed 1877 r., i szukać Szaufer/Schaufer w indeksach Gesher Galicia i JRI-Poland |
+| Księgi gminy | żydowskie księgi stanu cywilnego Rawy Ruskiej przechowywane w AGAD w Warszawie, zespół 300 (głównie 1877–1911); zapisy wcześniejsze — rzadkie | Gesher Galicia (strona AGAD); JRI-Poland | udokumentowane — **kierunek badań**: sprawdzić, czy zachowały się księgi metrykalne sprzed 1877 r., i szukać Szaufer/Schaufer w indeksach Gesher Galicia i JRI-Poland |
 | Środowisko religijne | dwór bełski (od ok. 1817) w odległości ok. 25 km; udokumentowany wpływ chasydzki na Rawę Ruską | YIVO; księga pamięci | udokumentowane (związek samej rodziny z Bełzem — nieznany) |
 
 ---

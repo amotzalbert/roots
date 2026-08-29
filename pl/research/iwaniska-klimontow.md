@@ -111,7 +111,7 @@ W okresie okupacji niemieckiej utworzono w Klimontowie getto; nastąpiła zagła
 
 ### Odległość i bliskość geograficzna
 
-Odległość drogowa między Iwaniskami a Klimontowem wynosi ok. **16,6 km** [11]. Gmina (samorząd lokalny) Iwaniska graniczy na wschodzie z gminą Klimontów [12]. Oba miasteczka leżą w tym samym powiecie — powiat opatowski — razem z samym Opatowem, oddalonym o ok. 14 km od Iwanisk [1], [4]. Trzy miejscowości tworzą ciasny trójkąt geograficzny (promień ok. 15–20 km), typowy dla gęstej sieci osadnictwa żydowskiego w regionie kielecko-radomskim.
+Odległość drogowa między Iwaniskami a Klimontowem wynosi ok. **16,6 km** [11]. Gmina (samorząd lokalny) Iwaniska graniczy na wschodzie z gminą Klimontów [12]. Oba miasteczka leżą w **sąsiednich powiatach**: Iwaniska w powiecie opatowskim, razem z samym Opatowem oddalonym o ok. 14 km [1], [4], a Klimontów w **powiecie sandomierskim** — dlatego też jego księgi metrykalne przechowywane są w sandomierskim oddziale archiwum państwowego. Trzy miejscowości tworzą ciasny trójkąt geograficzny (promień ok. 15–20 km), typowy dla gęstej sieci osadnictwa żydowskiego w regionie kielecko-radomskim.
 
 ### Wspólna podległość gminna wobec Opatowa
 
@@ -156,7 +156,7 @@ Połączenie (a) bliskości geograficznej 14–17 km między trzema miejscowośc
 11. ViaMichelin, trasa Iwaniska–Klimontów — https://www.viamichelin.com/web/Routes/Route-Iwaniska-27_570-Swietokrzyskie-Poland-to-Klimontow-27_640-Swietokrzyskie-Poland
 12. Wikipedia angielska, „Gmina Iwaniska" — https://en.wikipedia.org/wiki/Gmina_Iwaniska
 13. Tłumaczenie księgi pamięci „Apt" (Opatów) w JewishGen, s. 5–20 — https://www.jewishgen.org/yizkor/opatow/opae005.html (wzmianka o dniach targowych Klimontowa i Iwanisk w kontekście kupców opatowskich)
-14. Wcześniejszy raport w tym samym projekcie: `/Users/amotz/Projects/family-history/site/research/opatow.md` — tło dotyczące Opatowa i Tuwii Rywenbajrycha
+14. Wcześniejszy raport w tym samym projekcie: opracowanie o Opatowie na tej stronie — tło dotyczące Opatowa i Tuwii Rywenbajrycha
 
 **Uwaga metodologiczna:** strony sztetl.org.pl dotyczące Iwanisk i Klimontowa zablokowały bezpośredni dostęp (HTTP 403) narzędziu automatycznego pobierania w czasie pisania tego raportu. Treść im przypisywaną włączono z wyników wyszukiwania indeksowego tych samych stron (snippet z korpusu tekstu oryginalnego) oraz ze źródeł uzupełniających (Świętokrzyski Sztetl, Pinkas Hakehillot, JewishGen KehilaLinks), które pobrano pomyślnie. Zaleca się ręczny dostęp do oryginalnych stron sztetl.org.pl (linki 2, 9 powyżej) w celu weryfikacji i rozszerzenia.
 

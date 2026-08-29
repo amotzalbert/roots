@@ -17,7 +17,7 @@
 
 ### המאה ה-18 — על פי מחקרו של גרשון הונדרט
 
-ספרו של **Gershon David Hundert, *The Jews in a Polish Private Town: The Case of Opatów in the Eighteenth Century*** (Johns Hopkins University Press, 1992) הוא המחקר האקדמי המקיף על הקהילה [8]:
+ספרו של **Gershon David Hundert**, *The Jews in a Polish Private Town: The Case of Opatów in the Eighteenth Century* (Johns Hopkins University Press, 1992) הוא המחקר האקדמי המקיף על הקהילה [8]:
 
 - אופטוב הייתה **עיר פרטית** בבעלות משפחות מגנטים (אצולה גבוהה), ולא עיר מלוכה — מצב שאפיין את מרבית יהדות פולין: במאה ה-18 חיו יותר ממחצית יהודי העולם בערים ובכפרים פרטיים של מגנטים פולנים, וכמחצית מכלל האוכלוסייה העירונית של פולין הייתה יהודית [8].
 - הונדרט מתעד קהילה של **כ-2,000 יהודים במפקד 1765** [8], על מבנה הקהל, יחסי הקהילה עם בעלי העיר, המסים, הסכסוכים הפנימיים והכלכלה.

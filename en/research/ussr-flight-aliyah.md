@@ -36,7 +36,7 @@ Sources: [Exile of Jews in the Soviet interior during World War II — Wikipedia
 
 ---
 
-## 3. The Sikorski-Mayski Agreement and the Amnesty, 1941
+## 3. The Sikorski–Mayski Agreement and the Amnesty, 1941
 
 On 30 July 1941, about a month after Germany's invasion of the Soviet Union, an agreement was signed in London between the prime minister of the Polish government-in-exile, Władysław Sikorski, and the Soviet ambassador to Britain, Ivan Mayski (the Sikorski–Mayski Agreement). The agreement renewed diplomatic relations between the Polish government-in-exile and the Soviet Union — relations that had been severed with the Soviet invasion of 1939 — and included a Soviet commitment to an "amnesty" (амнистия) for all Polish citizens held in detention, captivity, or exile within the territory of the Soviet Union.
 

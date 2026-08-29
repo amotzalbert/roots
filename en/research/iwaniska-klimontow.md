@@ -111,7 +111,7 @@ A ghetto was established in Klimontów during the German occupation; most of the
 
 ### Distance and geographic proximity
 
-The travel distance between Iwaniska and Klimontów is about **16.6 km** [11]. The gmina (local authority) of Iwaniska borders the gmina of Klimontów to the east [12]. Both towns lie in the same county — powiat opatowski — together with Opatów itself, about 14 km from Iwaniska [1], [4]. The three towns form a tight geographic triangle (a radius of about 15–20 km), typical of the dense network of Jewish settlement in the Kielce–Radom region.
+The travel distance between Iwaniska and Klimontów is about **16.6 km** [11]. The gmina (local authority) of Iwaniska borders the gmina of Klimontów to the east [12]. The two towns lie in **adjacent counties**: Iwaniska in powiat opatowski, together with Opatów itself about 14 km away [1], [4], and Klimontów in **powiat sandomierski** — which is also why its registers are held at the Sandomierz branch of the state archive. The three towns form a tight geographic triangle (a radius of about 15–20 km), typical of the dense network of Jewish settlement in the Kielce–Radom region.
 
 ### Shared communal subordination to Opatów
 
@@ -156,7 +156,7 @@ The combination of (a) geographic proximity of 14–17 km between the three town
 11. ViaMichelin, Iwaniska–Klimontów route — https://www.viamichelin.com/web/Routes/Route-Iwaniska-27_570-Swietokrzyskie-Poland-to-Klimontow-27_640-Swietokrzyskie-Poland
 12. English Wikipedia, "Gmina Iwaniska" — https://en.wikipedia.org/wiki/Gmina_Iwaniska
 13. Translation of the "Apt" (Opatów) yizkor book on JewishGen, pp. 5–20 — https://www.jewishgen.org/yizkor/opatow/opae005.html (mention of the market days of Klimontów and Iwaniska in the context of the Opatów merchants)
-14. Earlier report in the same project: `/Users/amotz/Projects/family-history/site/research/opatow.md` — background on Opatów and Tuvia Rywenbajrych
+14. Earlier report in the same project: the Opatów report on this site — background on Opatów and Tuvia Rywenbajrych
 
 **Methodological note:** the sztetl.org.pl pages for Iwaniska and Klimontów blocked direct access (HTTP 403) to the automated retrieval tool at the time this report was written. The content attributed to them was compiled from search-index results of those very pages (snippets from the body of the original text) and from complementary sources (Świętokrzyski Sztetl, Pinkas Hakehillot, JewishGen KehilaLinks) that were retrieved successfully. It is recommended to access the original sztetl.org.pl pages manually (links 2 and 9 above) for verification and expansion.
 

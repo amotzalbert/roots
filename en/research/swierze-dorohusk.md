@@ -11,7 +11,7 @@ The three settlements sit in a narrow triangle at the eastern edge of the Chełm
 ### 1.1 Świerże
 
 - First mention: 1443, in connection with a church endowment by the boyar Piotr Wołczko Rokut; town rights were granted around that time — according to sztetl.org.pl around 1435 [1], according to the Polish Wikipedia before 1455 [2]. In other words: for some four hundred years Świerże was a **small town** (miasteczko), not a village.
-- A private town under changing noble ownership: Jełowicki (1625), Olędzki (1694—1782), Przyłucki (1782), the Orsetti family from 1780; after 1760 the owner Rulikowski built a palace there [1].
+- A private town under changing noble ownership: Jełowicki (1625), Olędzki (1694–1782), Przyłucki (1782), the Orsetti family from 1780; after 1760 the owner Rulikowski built a palace there [1].
 - **Thanks to its location on the Bug, a large river harbor (przystań rzeczna) developed in Świerże** [1].
 - The partitions of Poland: 1795 under Austrian control, 1807 in the Duchy of Warsaw, 1815 in Congress Poland [1].
 - On 19 November 1822 Świerże lost its town rights and officially became an "osada" (a semi-urban settlement) [1][2]. In the years 1867–1954 it was the seat of the gmina authority (gmina Świerże) [2].

@@ -40,7 +40,7 @@ W okresie międzywojennym Chełm był, według Wirtualnego Sztetla, **drugim co 
 Źródło: [Wirtualny Sztetl – Chełm, historia społeczności](https://sztetl.org.pl/pl/miejscowosci/c/41-chelm/99-historia-spolecznosci/137157-historia-spolecznosci).
 
 ### II wojna światowa — getto i Zagłada (1939–1943)
-- **Jesień 1939**: okupacja niemiecka; we wczesnej fazie okupacji Chełm przechodzi z rąk niemieckich w sowieckie i z powrotem (dystrykt lubelski).
+- **Jesień 1939**: okupacja niemiecka; we wczesnej fazie okupacji Chełm przechodził z rąk niemieckich w sowieckie i z powrotem (dystrykt lubelski).
 - **Październik 1940**: utworzenie getta w Chełmie, w którym skupiono ok. 11 000 Żydów (spadek w stosunku do łącznej liczby przedwojennej, najpewniej wskutek ucieczek na wschód w latach 1939–1941 oraz wczesnej śmiertelności/wysiedleń).
 - **21–22 maja 1942**: początek pierwszej akcji deportacyjnej z getta — ok. 4 000 Żydów wywieziono do obozu zagłady w Sobiborze.
 - **Czerwiec 1942**: druga akcja, przeprowadzona przez gestapowców z Sobiboru; po selekcji ok. 600 Żydów „zdolnych do pracy" deportowano do Sobiboru.

@@ -11,7 +11,7 @@ Trzy miejscowości leżą w wąskim trójkącie na wschodnim krańcu powiatu che
 ### 1.1 Świerże
 
 - Pierwsza wzmianka: 1443, w związku z fundacją kościelną bojara Piotra Wołczka Rokuta; prawa miejskie uzyskane w zbliżonym czasie — według sztetl.org.pl około 1435 r. [1], według polskiej Wikipedii przed 1455 r. [2]. Innymi słowy: przez około czterysta lat Świerże były **miasteczkiem**, nie wsią.
-- Miasteczko prywatne w rękach zmieniającej się szlachty: Jełowickich (1625), Olędzkich (1694—1782), Przyłuckich (1782), rodziny Orsettich od 1780 r.; po 1760 r. właściciel Rulikowski wzniósł tu pałac [1].
+- Miasteczko prywatne w rękach zmieniającej się szlachty: Jełowickich (1625), Olędzkich (1694–1782), Przyłuckich (1782), rodziny Orsettich od 1780 r.; po 1760 r. właściciel Rulikowski wzniósł tu pałac [1].
 - **Dzięki położeniu nad Bugiem rozwinęła się w Świerżach duża przystań rzeczna** [1].
 - Rozbiory Polski: 1795 pod panowaniem austriackim, 1807 w Księstwie Warszawskim, 1815 w Królestwie Kongresowym [1].
 - 19 listopada 1822 r. Świerże utraciły prawa miejskie i stały się formalnie „osadą" (osiedlem na poły miejskim) [1][2]. W latach 1867–1954 były siedzibą władz gminy (gmina Świerże) [2].

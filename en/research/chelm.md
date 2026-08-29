@@ -40,7 +40,7 @@ In the interwar period, according to Wirtualny Sztetl, Chełm was **the second-l
 Source: [Wirtualny Sztetl – Chełm, history of the community](https://sztetl.org.pl/pl/miejscowosci/c/41-chelm/99-historia-spolecznosci/137157-historia-spolecznosci).
 
 ### World War II — ghetto and destruction (1939–1943)
-- **Autumn 1939**: German occupation; Chełm passes between German and Soviet hands in the early phase of the occupation (Lublin district).
+- **Autumn 1939**: German occupation; Chełm passed between German and Soviet hands in the early phase of the occupation (Lublin district).
 - **October 1940**: establishment of the Chełm ghetto, in which about 11,000 Jews were concentrated (a decline from the total pre-war figure, apparently due to flight eastward in 1939–1941 and early mortality/expulsions).
 - **21–22 May 1942**: start of the first deportation Aktion from the ghetto — about 4,000 Jews were deported to the Sobibór extermination camp.
 - **June 1942**: a second Aktion, carried out by Gestapo men from Sobibór; after a selection, about 600 Jews "fit for work" were deported to Sobibór.

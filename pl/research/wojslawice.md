@@ -86,11 +86,11 @@ Po wojnie: stara synagoga, zamieniona na młyn, została zburzona w 1981 r.; now
 
 ## 3. Rodzinne punkty styku na osi czasu
 
-Dane w tej tabeli pochodzą z badań rodzinnych (zapisy rodziny w księgach metrykalnych/aktach miasteczka, Archiwum Państwowe w Lublinie, fond 35/1787, 1826–1913) — a nie z publicznych źródeł z listy. Ich osadzenie na osi czasu gminy:
+Dane w tej tabeli pochodzą z badań rodzinnych (zapisy rodziny w księgach metrykalnych/aktach miasteczka, Archiwum Państwowe w Lublinie, zespół 35/1787, 1826–1913) — a nie z publicznych źródeł z listy. Ich osadzenie na osi czasu gminy:
 
 | Okres na osi dziejów gminy | Rodzina | Punkt styku |
 |---|---|---|
-| 1826–1913: księgi metrykalne gminy (okres wzrostu pod panowaniem Rosji, rozdz. 1.4) | Moskal, Szafir/SZAUFER, Szyfman, Kac, Glazer | Wszystkie pięć rodzin figuruje w aktach miasteczka, archiwum lubelskie, fond 35/1787 — były więc częścią gminy w pokoleniach, w których Żydzi stali się większością w miasteczku |
+| 1826–1913: księgi metrykalne gminy (okres wzrostu pod panowaniem Rosji, rozdz. 1.4) | Moskal, Szafir/SZAUFER, Szyfman, Kac, Glazer | Wszystkie pięć rodzin figuruje w aktach miasteczka, archiwum lubelskie, zespół 35/1787 — były więc częścią gminy w pokoleniach, w których Żydzi stali się większością w miasteczku |
 | Druga połowa XIX w. – okres międzywojenny: gospodarka targowa i handel (rozdz. 2) | Moskal | Sklep i piwiarnia (browar/szynk) w miasteczku — źródło utrzymania typowe dla warstwy sklepikarzy i szynkarzy udokumentowanej w miasteczku (por. skład wódki Bergiera [1]) |
 | 1879–1939: życie miasteczka w okresie międzywojennym (rozdz. 1.6, 2) | Szafir | Mendel Szafir (Mendel Schaffer) napisał „Sześćdziesiąt lat mojego życia w Wojsławicach 1879–1939" — rozdział w księdze pamięci gminy (Tel Awiw 1970, s. 69), jedyne w swoim rodzaju świadectwo od wewnątrz o tym okresie [5] |
 | Październik 1942: deportacja do Sobiboru (rozdz. 1.7) | Wszystkie rodziny pozostałe w miasteczku | Członkowie rodzin, którzy wcześniej nie wyemigrowali, podzielili los gminy — marsz z miasteczka i deportację do Sobiboru [1][2] |
@@ -107,7 +107,7 @@ Dane w tej tabeli pochodzą z badań rodzinnych (zapisy rodziny w księgach metr
 6. Polona/Blog: „Frank, frankiści i «dziecię pracowitych Andrzejuków okrutnie zamordowane»" (2014) — https://blog.polona.pl/2014/12/dziecie-okrutnie-zamordowane/
 7. Izba Tradycji Ziemi Wojsławickiej: „1761 – Fałszywe oskarżenie o mord rytualny" — https://wojslawice.info.pl/1761-2/
 8. Processus judiciarius in causa patrati cruenti infanticidii per infideles judaeos seniores synagogae woyslavicensis, 1761 (źródło pierwotne, druk z epoki) — kopia cyfrowa: http://rcin.org.pl/dlibra/docmetadata?id=27395&from=pubindex&dirids=403&lp=583
-9. Zapisy rodzinne: Archiwum Państwowe w Lublinie (Archiwum Państwowe w Lublinie), fond 35/1787 — akta miasteczka Wojsławice 1826–1913 (źródło archiwalne; identyfikacja rodzin Moskal, Szafir, Szyfman, Kac, Glazer — z badań rodzinnych).
+9. Zapisy rodzinne: Archiwum Państwowe w Lublinie (Archiwum Państwowe w Lublinie), zespół 35/1787 — akta miasteczka Wojsławice 1826–1913 (źródło archiwalne; identyfikacja rodzin Moskal, Szafir, Szyfman, Kac, Glazer — z badań rodzinnych).
 
 Uwaga metodologiczna: strona sztetl.org.pl (Virtual Shtetl) blokuje dostęp automatyczny i nie została sprawdzona bezpośrednio; jej hasło o Wojsławicach zaleca się zweryfikować ręcznie — https://sztetl.org.pl/pl/miejscowosci/w/263-wojslawice/
 

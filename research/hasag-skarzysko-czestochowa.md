@@ -42,10 +42,10 @@
 
 **המבנה:** המחנה חולק ל**שלושה מחנות־מפעל — Werke A, B ו‑C** — כל אחד ליד
 המפעל שבו עבדו אסיריו, **בשמירת המשטרה האוקראינית של המפעל**. **Werk A** היה
-הגדול; **Werk B** חלק עם A מנהלה ואבטחה אך היה לו **מועצת זקנים משלו**. אסירי
+הגדול; **Werk B** חלק עם A מנהלה ואבטחה אך **הייתה לו מועצת זקנים משלו**. אסירי
 שני המחנות **ייצרו תחמושת** [1].
 
-### ★ ורק C
+### ★ Werk C
 > **«Werk C היה צמוד למפעל מילוי, שבו יוצרו מוקשים תת־ימיים ממולאים בחומצה**
 > **פיקרית. זה היה הגרוע שבשלושת המחנות, משום שהחומצה הרעילה את האסירים בתוך**
 > **שלושה חודשים.»** [1]
@@ -154,12 +154,12 @@ HASAG‑Apparatebau/Pelcery) · USHMM.
    ⚠ **ספריה לא נקראו בידינו** — נרשמת כאן כמקור **להמשך**, ולא צוטטה.
 3. ○ **The World Society of Częstochowa Jews** — עמוד על מחנה
    HASAG‑Apparatebau (Pelcery). ⚠ **לא נשלף. לא צוטט.**
+4. **מסמכי המשפחה** — כרטיס הרישום CKŻP ומסמכי `albert/findings/`
+   (‏`000-OPENING-what-the-documents-say.md`, `095-chaim-alpert-warsaw-survivor-registration-card-1945.md`).
 5. **Hasag**, Shoah Resource Center, **יד ושם** —
    https://wwv.yadvashem.org/odot_pdf/Microsoft%20Word%20-%206352.pdf
    (‏PDF, חולץ בטקסט מלא 19.8.2026). **מקור מוסדי.**
    ⚠ **המארח `wwv` הוא שעובד; `www` מחזיר 403.**
-4. **מסמכי המשפחה** — כרטיס הרישום CKŻP ומסמכי `albert/findings/`
-   (‏`000-OPENING-what-the-documents-say.md`, `095-chaim-alpert-warsaw-survivor-registration-card-1945.md`).
 
 ---
 
