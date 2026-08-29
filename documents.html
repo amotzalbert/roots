@@ -78,7 +78,7 @@ if(a)location.replace(a.getAttribute('href')+location.search+location.hash);}}ca
 const esc = s => String(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 let DOCS = [], shown = [], cur = -1;
 
-fetch('data/documents.json?v=20260829').then(r=>r.json()).then(d=>{ DOCS=d; render('all'); });
+fetch('data/documents.json?v=20260829b').then(r=>r.json()).then(d=>{ DOCS=d; render('all'); });
 
 function render(branch){
   shown = branch==='all' ? DOCS : DOCS.filter(x=>x.branch===branch);
