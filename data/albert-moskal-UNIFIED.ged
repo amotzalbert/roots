@@ -5577,6 +5577,7 @@
 1 CHIL @I1154@
 1 CHIL @I1155@
 1 CHIL @I1166@
+1 CHIL @I1193@
 1 NOTE Abram-Moszko's second marriage. Living in Krasniczyn, registering at Wojslawice.
 
 0 @I1166@ INDI
@@ -7803,6 +7804,12 @@
 2 NOTE 21 at his marriage, act 4/1856 (unit 2196536, sygn. 2.1/21, scan 13, right page,
 3 CONT folio 21). No birth record used - the act itself states "podlug Aktu Znania" (per an
 3 CONT act of notoriety, i.e. no birth act existed to cite).
+1 DEAT
+2 DATE BEF NOV 1886
+2 NOTE Terminus from his wife's death act 22/1886, which records Tauba as a WIDOW
+3 CONT (vdova) on 16/28 Nov 1886. His own death act has not been found; the death
+3 CONT indexes 1866-1869 and the read volumes to 1884 do not show him - the gap years
+3 CONT (1885, and the unread 1870s-80s indexes) remain to be checked.
 1 OCCU Tailor ("z krawiectwa utrzymujacy sie")
 1 NOTE _CONF #proof PROBABLE as a son of Herszek Rajs and Zyfra (maiden name unknown), both
 2 CONT already deceased by 1856: "urodzony w Miescie Wojslawicach z Ojca HERSZKA RAJS i ZYFRY
@@ -7824,6 +7831,17 @@
 2 DATE ABT 1836
 2 PLAC Wojslawice, Chelm, Lublin, Poland
 2 NOTE 20 "podlug Metryki" (by birth record) at her 1856 marriage.
+1 DEAT
+2 DATE 28 NOV 1886
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Death act 22/1886 (fond 35/1787, sygn. 2.1/49, scan 33, read 29 Aug 2026): died
+3 CONT 16/28 November 1886 at three in the morning, a WIDOW, "in her own house"
+3 CONT (v sobstvennom dome) in Wojslawice, aged 49 - which fits b. ~1836/37 and the age
+3 CONT 20 "podlug Metryki" of 1856 exactly. Father written SZUMIL WAJCENFELD, matching
+3 CONT Szulim of the 1856 act.
+3 CONT >>> OPEN: the mother's maiden name reads here as GROIN(?), where the 1856 marriage
+3 CONT act gives SZYFER. Same parents otherwise. One of the two readings is wrong, or the
+3 CONT clerk erred; not resolved - do not normalise either way.
 1 NOTE _CONF PROVEN as Jankiel Rajs's wife (marriage act 4/1856). Daughter of the late SZULIM
 2 CONT WAJCENFELD and RYFKA nee SZYFER, both already deceased by 1856. At the time of the
 2 CONT marriage she was living with her guardian JANKIEL WICLNER, granary-keeper
@@ -8474,5 +8492,35 @@
 2 CONT miescie Klimontowie na dniu osmnastym trzydziestym Lipca roku biezacego o godzinie
 2 CONT pierwszej po poludniu z malzonki jego Ruchli lat trzydziesci szesc liczacej, ktoremu to
 2 CONT dziecieciu nadane zostaly imiona DAWID JAKOB.
+
+0 @I1193@ INDI
+1 NAME Icek-Gindel /Moskal/
+2 GIVN Icek-Gindel
+2 SURN Moskal
+1 SEX M
+1 BIRT
+2 DATE ABT 1872
+2 PLAC Krasniczyn, Chelm district, Lublin, Poland
+2 NOTE "fourteen years of age" at death in June 1886; ages at death in this register
+3 CONT are routinely rounded - treat as ~1872 at best.
+1 DEAT
+2 DATE 13 JUN 1886
+2 PLAC Krasniczyn, Chelm district, Lublin, Poland
+2 NOTE Death act 9/1886, Wojslawice register (fond 35/1787, sygn. 2.1/49, scan 28, read
+3 CONT 29 Aug 2026): died 1/13 June 1886 at six o'clock, "living with his parents" in
+3 CONT Krasniczyn, born Krasniczyn, son of MOSZKO Moskal and RUCHLA-LAJA nee BIRMAN,
+3 CONT "the spouses Moskal". Declared by Jos Lederman, 52, and Symcha Szydlowicz, 26,
+3 CONT traders of Krasniczyn.
+1 NOTE _CONF PROBABLE as a son of ABRAM-Moszko @I1062@: the act names the father only as
+2 CONT "Moszko Moskal", but the mother RUCHLA-LAJA NEE BIRMAN fixes the household - the
+2 CONT same identification rule already applied to Mordko, Henia, Ita and Brana-Gitla.
+2 CONT A boy who died at fourteen: absent from every descendant tree, including the Geni
+2 CONT profile of Abram-Moszko checked 29 Aug 2026. First found in the 1886 death index.
+2 CONT >>> OPEN: b. ~1872 sits BEFORE the documented window for his parents' marriage
+2 CONT (~1874-77, from Mordko b. May 1878 and the "by 1882" Geni note), and the mother
+2 CONT b. ~1855 would be ~17. Either the marriage was earlier than the window, or the
+2 CONT age at death is overstated. NOT RESOLVED - do not tighten the marriage date from
+2 CONT this act alone.
+1 FAMC @F1030@
 
 0 TRLR

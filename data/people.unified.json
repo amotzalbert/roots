@@ -9469,7 +9469,10 @@
    "date": "ABT 1835",
    "place": "Wojslawice, Chelm, Lublin, Poland"
   },
-  "death": null,
+  "death": {
+   "date": "BEF NOV 1886",
+   "place": null
+  },
   "occupation": "Tailor (\"z krawiectwa utrzymujacy sie\")",
   "notes": [
    "_CONF #proof PROBABLE as a son of Herszek Rajs and Zyfra (maiden name unknown), both\nalready deceased by 1856: \"urodzony w Miescie Wojslawicach z Ojca HERSZKA RAJS i ZYFRY\nz domu niewiadomej malzonkow Rajs oboje niezyjacych.\"\n>>> NOT LINKED to Gershon Rajs's line (@I1047@): Gershon's father is named WOLF Rajs in\nthe 1847 marriage act (@F1021@), not Herszek. Same surname, same small town, different\nfather - could be brothers, cousins, or unrelated households; nothing here decides it.\nEntered as a separate, unconnected Rajs family per the town's documented pattern of\nmultiple distinct households sharing a surname (compare the Glezer count, 23 Aug 2026).\nEntered to the tree 23 Aug 2026."
@@ -9497,7 +9500,10 @@
    "date": "ABT 1836",
    "place": "Wojslawice, Chelm, Lublin, Poland"
   },
-  "death": null,
+  "death": {
+   "date": "28 NOV 1886",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
   "occupation": "",
   "notes": [
    "_CONF PROVEN as Jankiel Rajs's wife (marriage act 4/1856). Daughter of the late SZULIM\nWAJCENFELD and RYFKA nee SZYFER, both already deceased by 1856. At the time of the\nmarriage she was living with her guardian JANKIEL WICLNER, granary-keeper\n(\"spichlerz\"/\"sarazynie\" [sic]) in Wojslawice, who stood by her at the act as her\nappointed guardian (\"opiekun Panny\").\nNew surname in the tree: WAJCENFELD. Entered 23 Aug 2026."
@@ -9990,6 +9996,37 @@
   "sources": [
    "s-s1057"
   ],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-icek-gindel-moskal",
+  "gedcomId": "I1193",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Icek-Gindel Moskal",
+   "given": "Icek-Gindel",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1872",
+   "place": "Krasniczyn, Chelm district, Lublin, Poland"
+  },
+  "death": {
+   "date": "13 JUN 1886",
+   "place": "Krasniczyn, Chelm district, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [
+   "_CONF PROBABLE as a son of ABRAM-Moszko @I1062@: the act names the father only as\n\"Moszko Moskal\", but the mother RUCHLA-LAJA NEE BIRMAN fixes the household - the\nsame identification rule already applied to Mordko, Henia, Ita and Brana-Gitla.\nA boy who died at fourteen: absent from every descendant tree, including the Geni\nprofile of Abram-Moszko checked 29 Aug 2026. First found in the 1886 death index.\n>>> OPEN: b. ~1872 sits BEFORE the documented window for his parents' marriage\n(~1874-77, from Mordko b. May 1878 and the \"by 1882\" Geni note), and the mother\nb. ~1855 would be ~17. Either the marriage was earlier than the window, or the\nage at death is overstated. NOT RESOLVED - do not tighten the marriage date from\nthis act alone."
+  ],
+  "grade": null,
+  "sources": [],
   "photos": [],
   "docs": [],
   "bioChapter": null
