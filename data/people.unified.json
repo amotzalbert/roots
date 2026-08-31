@@ -10023,7 +10023,7 @@
   },
   "occupation": "",
   "notes": [
-   "_CONF PROBABLE as a son of ABRAM-Moszko @I1062@: the act names the father only as\n\"Moszko Moskal\", but the mother RUCHLA-LAJA NEE BIRMAN fixes the household - the\nsame identification rule already applied to Mordko, Henia, Ita and Brana-Gitla.\nA boy who died at fourteen: absent from every descendant tree, including the Geni\nprofile of Abram-Moszko checked 29 Aug 2026. First found in the 1886 death index.\n>>> OPEN: b. ~1872 sits BEFORE the documented window for his parents' marriage\n(~1874-77, from Mordko b. May 1878 and the \"by 1882\" Geni note), and the mother\nb. ~1855 would be ~17. Either the marriage was earlier than the window, or the\nage at death is overstated. NOT RESOLVED - do not tighten the marriage date from\nthis act alone."
+   "_CONF PROBABLE as a son of ABRAM-Moszko @I1062@: the act names the father only as\n\"Moszko Moskal\", but the mother RUCHLA-LAJA NEE BIRMAN fixes the household - the\nsame identification rule already applied to Mordko, Henia, Ita and Brana-Gitla.\nA boy who died at fourteen: absent from every descendant tree, including the Geni\nprofile of Abram-Moszko checked 29 Aug 2026. First found in the 1886 death index.\n>>> OPEN, but mild: b. ~1872 sits before the marriage terminus the tree already\nholds (<= early 1874, from Brana-Gitla b. 30 Dec 1874 - see @I1066@), and the\nmother b. ~1855 would be ~17. An age overstated by two years at death resolves\nit entirely; ages at death in this register are routinely rounded. CORRECTED\n29 Aug 2026: an earlier version of this note cited an obsolete ~1874-77 window."
   ],
   "grade": null,
   "sources": [],
@@ -10132,6 +10132,168 @@
    "date": "22 NOV 1886",
    "place": "Wojslawice, Chelm, Lublin, Poland"
   },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-szulim-kelner",
+  "gedcomId": "I1198",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Szulim Kelner",
+   "given": "Szulim",
+   "surname": "Kelner",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1858",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Dyer (\"krasilshchik\", 1886)",
+  "notes": [
+   "_CONF UNCONNECTED - one of TWO Kelner householders in the 1886 Wojslawice births,\nentered 29 Aug 2026. He and Duvid-Ber Kelner (@I1201@) are near in age (b. ~1857/58)\nand share the same trade, dyeing - very likely brothers, unproven. CANDIDATE sons\nof Jankiel Kielner @I1065@ (b. ~1817, the cloth-printer of the 1849/1854 acts) -\nthe textile trade runs through the family - but NO act yet names their father.\nDo not join without a document. Bearing on the Liba nee Kielner/Glezer question:\nnone directly; it documents the Kielner house continuing to 1886."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-tauba-wagenfeld",
+  "gedcomId": "I1199",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Tauba Wagenfeld",
+   "given": "Tauba",
+   "surname": "Wagenfeld",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1862",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-srul-ioser-kelner",
+  "gedcomId": "I1200",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Srul-Ioser Kelner",
+   "given": "Srul-Ioser",
+   "surname": "Kelner",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "27 AUG 1886",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-duvid-ber-kelner",
+  "gedcomId": "I1201",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Duvid-Ber Kelner",
+   "given": "Duvid-Ber",
+   "surname": "Kelner",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1857",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Dyer (\"krasilshchik\", 1886)",
+  "notes": [
+   "_CONF UNCONNECTED - see @I1198@; the two are very likely brothers, unproven.\nHe SIGNS his own name on the act."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-basia-golda-gerc",
+  "gedcomId": "I1202",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Basia-Golda Gerc",
+   "given": "Basia-Golda",
+   "surname": "Gerc",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1856",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> HER MAIDEN NAME IS AN UNCERTAIN READING: the act's \"urozhdennoi ...\" reads\nGERC or KERC (Cyrillic G/K ambiguous in this hand). Gerc is a documented\nWojslawice family (Bendzhe Gerts the butcher, in the yizkor book); Kerc is not\notherwise attested here. Recorded as Gerc with the doubt stated - re-read at\nmagnification before citing."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-rajzia-kelner",
+  "gedcomId": "I1203",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Rajzia Kelner",
+   "given": "Rajzia",
+   "surname": "Kelner",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "6 AUG 1886",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
   "occupation": "",
   "notes": [],
   "grade": null,

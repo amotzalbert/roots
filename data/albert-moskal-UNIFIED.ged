@@ -8516,11 +8516,11 @@
 2 CONT same identification rule already applied to Mordko, Henia, Ita and Brana-Gitla.
 2 CONT A boy who died at fourteen: absent from every descendant tree, including the Geni
 2 CONT profile of Abram-Moszko checked 29 Aug 2026. First found in the 1886 death index.
-2 CONT >>> OPEN: b. ~1872 sits BEFORE the documented window for his parents' marriage
-2 CONT (~1874-77, from Mordko b. May 1878 and the "by 1882" Geni note), and the mother
-2 CONT b. ~1855 would be ~17. Either the marriage was earlier than the window, or the
-2 CONT age at death is overstated. NOT RESOLVED - do not tighten the marriage date from
-2 CONT this act alone.
+2 CONT >>> OPEN, but mild: b. ~1872 sits before the marriage terminus the tree already
+2 CONT holds (<= early 1874, from Brana-Gitla b. 30 Dec 1874 - see @I1066@), and the
+2 CONT mother b. ~1855 would be ~17. An age overstated by two years at death resolves
+2 CONT it entirely; ages at death in this register are routinely rounded. CORRECTED
+2 CONT 29 Aug 2026: an earlier version of this note cited an obsolete ~1874-77 window.
 1 FAMC @F1030@
 
 0 @I1194@ INDI
@@ -8596,5 +8596,99 @@
 2 CONT the scans on 29 Aug 2026. Parents' ages consistent across all three. UNCONNECTED
 2 CONT to the main tree - kept as a documented Wojslawice Bukszpan cluster for the
 2 CONT Bukszpan-Szyfman question.
+
+0 @I1198@ INDI
+1 NAME Szulim /Kelner/
+2 GIVN Szulim
+2 SURN Kelner
+1 SEX M
+1 BIRT
+2 DATE ABT 1858
+2 NOTE Aged 28 at his son's birth, Aug 1886 (act 22/1886).
+1 OCCU Dyer ("krasilshchik", 1886)
+1 NOTE _CONF UNCONNECTED - one of TWO Kelner householders in the 1886 Wojslawice births,
+2 CONT entered 29 Aug 2026. He and Duvid-Ber Kelner (@I1201@) are near in age (b. ~1857/58)
+2 CONT and share the same trade, dyeing - very likely brothers, unproven. CANDIDATE sons
+2 CONT of Jankiel Kielner @I1065@ (b. ~1817, the cloth-printer of the 1849/1854 acts) -
+2 CONT the textile trade runs through the family - but NO act yet names their father.
+2 CONT Do not join without a document. Bearing on the Liba nee Kielner/Glezer question:
+2 CONT none directly; it documents the Kielner house continuing to 1886.
+1 FAMS @F1080@
+
+0 @I1199@ INDI
+1 NAME Tauba /Wagenfeld/
+2 GIVN Tauba
+2 SURN Wagenfeld
+1 SEX F
+1 BIRT
+2 DATE ABT 1862
+2 NOTE Aged 24 at her son's birth, Aug 1886. Wagenfeld is a documented Wojslawice family
+3 CONT (the 1915 cholera list; the yizkor neighbours row).
+1 FAMS @F1080@
+
+0 @I1200@ INDI
+1 NAME Srul-Ioser /Kelner/
+2 GIVN Srul-Ioser
+2 SURN Kelner
+1 SEX M
+1 BIRT
+2 DATE 27 AUG 1886
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 22/1886 (sygn. 2.1/49, scan 14 left, read 29 Aug 2026): born 15/27 Aug
+3 CONT 1886 at four in the morning; registered 22 Aug/3 Sep. Witnesses Chaim Assia,
+3 CONT trader, 47, and Jos Rajsbaum, tinsmith, 56.
+1 FAMC @F1080@
+
+0 @F1080@ FAM
+1 HUSB @I1198@
+1 WIFE @I1199@
+1 CHIL @I1200@
+
+0 @I1201@ INDI
+1 NAME Duvid-Ber /Kelner/
+2 GIVN Duvid-Ber
+2 SURN Kelner
+1 SEX M
+1 BIRT
+2 DATE ABT 1857
+2 NOTE Aged 29 at his daughter's birth, Aug 1886 (act 21/1886).
+1 OCCU Dyer ("krasilshchik", 1886)
+1 NOTE _CONF UNCONNECTED - see @I1198@; the two are very likely brothers, unproven.
+2 CONT He SIGNS his own name on the act.
+1 FAMS @F1081@
+
+0 @I1202@ INDI
+1 NAME Basia-Golda /Gerc/
+2 GIVN Basia-Golda
+2 SURN Gerc
+1 SEX F
+1 BIRT
+2 DATE ABT 1856
+2 NOTE Aged 30 at her daughter's birth, Aug 1886.
+1 NOTE >>> HER MAIDEN NAME IS AN UNCERTAIN READING: the act's "urozhdennoi ..." reads
+2 CONT GERC or KERC (Cyrillic G/K ambiguous in this hand). Gerc is a documented
+2 CONT Wojslawice family (Bendzhe Gerts the butcher, in the yizkor book); Kerc is not
+2 CONT otherwise attested here. Recorded as Gerc with the doubt stated - re-read at
+2 CONT magnification before citing.
+1 FAMS @F1081@
+
+0 @I1203@ INDI
+1 NAME Rajzia /Kelner/
+2 GIVN Rajzia
+2 SURN Kelner
+1 SEX F
+1 BIRT
+2 DATE 6 AUG 1886
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 21/1886 (sygn. 2.1/49, scans 13-14, read 29 Aug 2026): born 25 Jul/6 Aug
+3 CONT 1886 at three in the morning; registered 26 Jul/7 Aug. Witnesses Chaim Assia, 47,
+3 CONT and Jos Rajsbaum, tinsmith, 55. CORRECTION: the 1886 birth-index row was first
+3 CONT read as "Gosha"; the act itself says RAJZIA.
+1 FAMC @F1081@
+
+0 @F1081@ FAM
+1 HUSB @I1201@
+1 WIFE @I1202@
+1 CHIL @I1203@
 
 0 TRLR

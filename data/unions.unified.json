@@ -1689,5 +1689,33 @@
   ],
   "marriage": null,
   "notes": []
+ },
+ {
+  "id": "u-f1080",
+  "gedcomId": "F1080",
+  "branch": "albert",
+  "spouses": [
+   "p-szulim-kelner",
+   "p-tauba-wagenfeld"
+  ],
+  "children": [
+   "p-srul-ioser-kelner"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1081",
+  "gedcomId": "F1081",
+  "branch": "albert",
+  "spouses": [
+   "p-duvid-ber-kelner",
+   "p-basia-golda-gerc"
+  ],
+  "children": [
+   "p-rajzia-kelner"
+  ],
+  "marriage": null,
+  "notes": []
  }
 ]
