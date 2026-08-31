@@ -8523,4 +8523,78 @@
 2 CONT this act alone.
 1 FAMC @F1030@
 
+0 @I1194@ INDI
+1 NAME Wulf /Bukszpan/
+2 GIVN Wulf
+2 SURN Bukszpan
+1 SEX M
+1 BIRT
+2 DATE ABT 1840
+2 NOTE Aged 28 in Nov 1868 (birth act 23/1868) and 31 in Aug 1871 (birth act 27/1871) -
+3 CONT a consistent pair. The clerk wrote his name in Latin script in both acts:
+3 CONT "Wolf Bukszpan". He SIGNS his own name in both.
+1 OCCU Trader ("torgovets") in Wojslawice
+1 NOTE _CONF UNCONNECTED CLUSTER - a Wojslawice Bukszpan household documented by three acts
+2 CONT (births 23/1868 and 27/1871, death 23/1886), entered 29 Aug 2026. His relationship
+2 CONT to Dwojra nee Bukszpan (wife of Jos Szyfman, of Swierze) is NOT KNOWN - do not
+2 CONT join without a document. A "Wulf Bukszpan" grocery at Chelm, Wesola 5, appears in
+2 CONT a ~1920 directory - possibly a descendant or a namesake; unverified.
+1 FAMS @F1079@
+
+0 @I1195@ INDI
+1 NAME Chanca /Brandt/
+2 GIVN Chanca
+2 SURN Brandt
+1 SEX F
+1 BIRT
+2 DATE ABT 1841
+2 NOTE Aged 27 in Nov 1868 and 30 in Aug 1871 - consistent. Written "Brandtova" in both
+3 CONT birth acts and "Brand" in her son's death act 23/1886; Brand/Brandt is a
+3 CONT documented Wojslawice family (Berko Brand the tavern-keeper, a recurring witness).
+1 FAMS @F1079@
+
+0 @I1196@ INDI
+1 NAME Srul-Beniamin /Bukszpan/
+2 GIVN Srul-Beniamin
+2 SURN Bukszpan
+1 SEX M
+1 BIRT
+2 DATE 24 NOV 1868
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 23/1868 (sygn. 2.1/32, scan 16 right, folio 25, read 29 Aug 2026): born
+3 CONT 12/24 Nov 1868 at six in the morning; circumcised on the day of registration,
+3 CONT 19 Nov - the eighth day exactly. THE CIRCUMCISING RABBI IS NAMED: "Ravvinom
+3 CONT Davidom Landon" - Rabbi Dawid Landau, the first rabbi in the yizkor book's
+3 CONT rabbi chapter, here attested in an official act of 1868.
+1 FAMC @F1079@
+
+0 @I1197@ INDI
+1 NAME Berko /Bukszpan/
+2 GIVN Berko
+2 SURN Bukszpan
+1 SEX M
+1 BIRT
+2 DATE 15 AUG 1871
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Birth act 27/1871 (sygn. 2.1/35, scan 19 left, folio 29, read 29 Aug 2026): born
+3 CONT 3/15 Aug 1871 at two in the morning; circumcised on the day of registration,
+3 CONT 10 Aug - the eighth day exactly.
+1 DEAT
+2 DATE 22 NOV 1886
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Death act 23/1886 (sygn. 2.1/49, scan 33, read 29 Aug 2026): died 10/22 Nov 1886
+3 CONT at ten in the evening, "living with his parents", aged fifteen - which matches
+3 CONT the birth act to the month. Declared by Chaim Assia, 47, and Szyja Berger, 32.
+1 FAMC @F1079@
+
+0 @F1079@ FAM
+1 HUSB @I1194@
+1 WIFE @I1195@
+1 CHIL @I1196@
+1 CHIL @I1197@
+1 NOTE Documented by birth acts 23/1868 and 27/1871 and death act 23/1886, all read from
+2 CONT the scans on 29 Aug 2026. Parents' ages consistent across all three. UNCONNECTED
+2 CONT to the main tree - kept as a documented Wojslawice Bukszpan cluster for the
+2 CONT Bukszpan-Szyfman question.
+
 0 TRLR

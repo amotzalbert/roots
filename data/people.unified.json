@@ -10030,5 +10030,114 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-wulf-bukszpan",
+  "gedcomId": "I1194",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Wulf Bukszpan",
+   "given": "Wulf",
+   "surname": "Bukszpan",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1840",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Trader (\"torgovets\") in Wojslawice",
+  "notes": [
+   "_CONF UNCONNECTED CLUSTER - a Wojslawice Bukszpan household documented by three acts\n(births 23/1868 and 27/1871, death 23/1886), entered 29 Aug 2026. His relationship\nto Dwojra nee Bukszpan (wife of Jos Szyfman, of Swierze) is NOT KNOWN - do not\njoin without a document. A \"Wulf Bukszpan\" grocery at Chelm, Wesola 5, appears in\na ~1920 directory - possibly a descendant or a namesake; unverified."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chanca-brandt",
+  "gedcomId": "I1195",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chanca Brandt",
+   "given": "Chanca",
+   "surname": "Brandt",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1841",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-srul-beniamin-bukszpan",
+  "gedcomId": "I1196",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Srul-Beniamin Bukszpan",
+   "given": "Srul-Beniamin",
+   "surname": "Bukszpan",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "24 NOV 1868",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-berko-bukszpan",
+  "gedcomId": "I1197",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Berko Bukszpan",
+   "given": "Berko",
+   "surname": "Bukszpan",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "15 AUG 1871",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": {
+   "date": "22 NOV 1886",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]

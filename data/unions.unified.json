@@ -1674,5 +1674,20 @@
   ],
   "marriage": null,
   "notes": []
+ },
+ {
+  "id": "u-f1079",
+  "gedcomId": "F1079",
+  "branch": "albert",
+  "spouses": [
+   "p-wulf-bukszpan",
+   "p-chanca-brandt"
+  ],
+  "children": [
+   "p-srul-beniamin-bukszpan",
+   "p-berko-bukszpan"
+  ],
+  "marriage": null,
+  "notes": []
  }
 ]
