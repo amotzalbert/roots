@@ -1762,5 +1762,34 @@
   ],
   "marriage": null,
   "notes": []
+ },
+ {
+  "id": "u-f1085",
+  "gedcomId": "F1085",
+  "branch": "albert",
+  "spouses": [
+   "p-chaim-rajs",
+   "p-fajga-perla-wajdak"
+  ],
+  "children": [
+   "p-mindla-rajs",
+   "p-duvid-lejba-rajs"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1086",
+  "gedcomId": "F1086",
+  "branch": "albert",
+  "spouses": [
+   "p-gerszl-lejba-rajs",
+   "p-chaja-greber"
+  ],
+  "children": [
+   "p-icek-rajs"
+  ],
+  "marriage": null,
+  "notes": []
  }
 ]

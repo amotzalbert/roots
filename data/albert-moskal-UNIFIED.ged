@@ -8855,4 +8855,132 @@
 2 CONT deliberately: see the Chana-or-Yokheved note on @I1208@. Merging them without a
 2 CONT document would invent a fact.
 
+0 @I1210@ INDI
+1 NAME Chaim /Rajs/
+2 GIVN Chaim
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE ABT 1864
+2 NOTE Aged 41 in April 1905, stated identically in birth acts 22/1905 and 23/1905.
+1 OCCU Trader ("torgovets", 1905)
+1 RESI
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+1 NOTE He SIGNED both acts in Cyrillic, "Chaim Rajs".
+1 NOTE _CONF UNCONNECTED CANDIDATE, entered 3 Sep 2026 from acts 22 and 23 of 1905.
+2 CONT ⚠ NOT joined to our Rajs line. b. ~1864 would sit neatly among the children of
+2 CONT GERSZON RAJS (b. ~1829) and Dwojra nee Szlajm, whose known children are Nute-Lejb
+2 CONT (b. 1856) and Hinda (b. 1859) - a further son in 1864 is chronologically easy.
+2 CONT He could equally be a son of Jankiel Rajs (b. ~1835). NO ACT NAMES HIS PARENTS.
+2 CONT Do not attach him to Gerszon, or to Hinda as a brother, without a document.
+1 FAMS @F1085@
+
+0 @I1211@ INDI
+1 NAME Fajga-Perla /Wajdak/
+2 GIVN Fajga-Perla
+2 SURN Wajdak
+1 SEX F
+1 BIRT
+2 DATE ABT 1866
+2 NOTE Aged 39 in April 1905 - stated the same in BOTH acts 22 and 23, registered the same
+3 CONT day. (A first reading of act 22 took it for 29; at magnification the word is
+3 CONT "тридцати", thirty. Corrected before entry - the two acts do not conflict.)
+1 NOTE >>> HER MAIDEN NAME IS AN UNCERTAIN READING - WAJDAK, or possibly Wajdas / Wajdac.
+2 CONT The hand is cramped and the surname is not otherwise attested in the Wojslawice
+2 CONT material read so far. Re-read at magnification before citing it.
+1 FAMS @F1085@
+
+0 @I1212@ INDI
+1 NAME Mindla /Rajs/
+2 GIVN Mindla
+2 SURN Rajs
+1 SEX F
+1 BIRT
+2 DATE 17 JAN 1902
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Born 4/17 January 1902 at two in the afternoon. ⚑ REGISTERED LATE - not until
+3 CONT 31 March / 13 April 1905, more than three years afterwards, on the same day her
+3 CONT brother's birth was registered. Birth act 22/1905 (sygn. 2.1/64, scan 14 right,
+3 CONT folio 22/p.12, read 3 Sep 2026). Witnesses Abram Gus, szkolnik, 47, and Gerszon
+3 CONT Gonik, 43. The act gives no reason for the delay.
+1 FAMC @F1085@
+
+0 @I1213@ INDI
+1 NAME Duvid-Lejba /Rajs/
+2 GIVN Duvid-Lejba
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE 6 APR 1905
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Born 24 March / 6 April 1905 at eight in the morning; registered a week later,
+3 CONT 31 March / 13 April, at noon - an hour after his sister's late registration.
+3 CONT Birth act 23/1905 (scan 15 left, folio 23/p.13). Same two witnesses.
+1 FAMC @F1085@
+
+0 @F1085@ FAM
+1 HUSB @I1210@
+1 WIFE @I1211@
+1 CHIL @I1212@
+1 CHIL @I1213@
+1 NOTE A Wojslawice Rajs household documented by birth acts 22 and 23 of 1905, both
+2 CONT registered on 13 April 1905. UNCONNECTED to our Rajs line - see @I1210@.
+
+0 @I1214@ INDI
+1 NAME Gerszl-Lejba /Rajs/
+2 GIVN Gerszl-Lejba
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE ABT 1876
+2 NOTE Aged 29 at his son's birth, June 1905 (birth act 36/1905).
+1 OCCU Shoemaker ("sapozhnik", 1905)
+1 RESI
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+1 NOTE He is ILLITERATE - the act closes "ибо отецъ неграмотенъ", because the father cannot
+2 CONT write, and only the two witnesses signed. Note the contrast with Chaim Rajs
+2 CONT (@I1210@), a trader of the same town who signed his own name.
+1 NOTE _CONF UNCONNECTED CANDIDATE, entered 3 Sep 2026 from act 36/1905.
+2 CONT ⚠ The given name is suggestive and nothing more: GERSZL is a form of GERSZON, and
+2 CONT Gerszon Rajs (b. ~1829) is Hinda's father - a grandson born ~1876 and named for him
+2 CONT would fit the custom exactly, and Nute-Lejb (b. 1856) would be the right age to be
+2 CONT that grandson's father. THIS IS A NAMING PATTERN, NOT EVIDENCE. No act names his
+2 CONT parents. Do not attach.
+1 FAMS @F1086@
+
+0 @I1215@ INDI
+1 NAME Chaja /Greber/
+2 GIVN Chaja
+2 SURN Greber
+1 SEX F
+1 BIRT
+2 DATE ABT 1881
+2 NOTE Aged 24 at her son's birth, June 1905.
+1 NOTE >>> MAIDEN NAME AN UNCERTAIN READING - GREBER or Gerber. Gerber IS attested at
+2 CONT Wojslawice (Efraim Gerber the tanner; Sara Gerber-Turbiner, who survived 22 months
+2 CONT in a bunker), which makes Gerber the likelier of the two - but the act's letters
+2 CONT are ambiguous and it is recorded as read.
+1 FAMS @F1086@
+
+0 @I1216@ INDI
+1 NAME Icek /Rajs/
+2 GIVN Icek
+2 SURN Rajs
+1 SEX M
+1 BIRT
+2 DATE 16 JUN 1905
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Born 3/16 June 1905 at three in the afternoon; registered 10/23 June at ten in the
+3 CONT morning. Birth act 36/1905 (sygn. 2.1/64, scan 21 right, folio 36/p.19, read
+3 CONT 3 Sep 2026). Witnesses Abram Gus, szkolnik, 47, and Gerszon Gonik, 43.
+1 FAMC @F1086@
+
+0 @F1086@ FAM
+1 HUSB @I1214@
+1 WIFE @I1215@
+1 CHIL @I1216@
+1 NOTE A second, separate Wojslawice Rajs household of 1905 - a shoemaker's, against the
+2 CONT trader's at @F1085@. UNCONNECTED to our line and to each other; nothing in the acts
+2 CONT links Chaim and Gerszl-Lejba.
+
 0 TRLR

@@ -10474,5 +10474,197 @@
   "photos": [],
   "docs": [],
   "bioChapter": null
+ },
+ {
+  "id": "p-chaim-rajs",
+  "gedcomId": "I1210",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chaim Rajs",
+   "given": "Chaim",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1864",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Trader (\"torgovets\", 1905)",
+  "notes": [
+   "He SIGNED both acts in Cyrillic, \"Chaim Rajs\".",
+   "_CONF UNCONNECTED CANDIDATE, entered 3 Sep 2026 from acts 22 and 23 of 1905.\n⚠ NOT joined to our Rajs line. b. ~1864 would sit neatly among the children of\nGERSZON RAJS (b. ~1829) and Dwojra nee Szlajm, whose known children are Nute-Lejb\n(b. 1856) and Hinda (b. 1859) - a further son in 1864 is chronologically easy.\nHe could equally be a son of Jankiel Rajs (b. ~1835). NO ACT NAMES HIS PARENTS.\nDo not attach him to Gerszon, or to Hinda as a brother, without a document."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-fajga-perla-wajdak",
+  "gedcomId": "I1211",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Fajga-Perla Wajdak",
+   "given": "Fajga-Perla",
+   "surname": "Wajdak",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1866",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> HER MAIDEN NAME IS AN UNCERTAIN READING - WAJDAK, or possibly Wajdas / Wajdac.\nThe hand is cramped and the surname is not otherwise attested in the Wojslawice\nmaterial read so far. Re-read at magnification before citing it."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-mindla-rajs",
+  "gedcomId": "I1212",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Mindla Rajs",
+   "given": "Mindla",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "17 JAN 1902",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-duvid-lejba-rajs",
+  "gedcomId": "I1213",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Duvid-Lejba Rajs",
+   "given": "Duvid-Lejba",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "6 APR 1905",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-gerszl-lejba-rajs",
+  "gedcomId": "I1214",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Gerszl-Lejba Rajs",
+   "given": "Gerszl-Lejba",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1876",
+   "place": null
+  },
+  "death": null,
+  "occupation": "Shoemaker (\"sapozhnik\", 1905)",
+  "notes": [
+   "He is ILLITERATE - the act closes \"ибо отецъ неграмотенъ\", because the father cannot\nwrite, and only the two witnesses signed. Note the contrast with Chaim Rajs\n(@I1210@), a trader of the same town who signed his own name.",
+   "_CONF UNCONNECTED CANDIDATE, entered 3 Sep 2026 from act 36/1905.\n⚠ The given name is suggestive and nothing more: GERSZL is a form of GERSZON, and\nGerszon Rajs (b. ~1829) is Hinda's father - a grandson born ~1876 and named for him\nwould fit the custom exactly, and Nute-Lejb (b. 1856) would be the right age to be\nthat grandson's father. THIS IS A NAMING PATTERN, NOT EVIDENCE. No act names his\nparents. Do not attach."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaja-greber",
+  "gedcomId": "I1215",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chaja Greber",
+   "given": "Chaja",
+   "surname": "Greber",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1881",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> MAIDEN NAME AN UNCERTAIN READING - GREBER or Gerber. Gerber IS attested at\nWojslawice (Efraim Gerber the tanner; Sara Gerber-Turbiner, who survived 22 months\nin a bunker), which makes Gerber the likelier of the two - but the act's letters\nare ambiguous and it is recorded as read."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-icek-rajs",
+  "gedcomId": "I1216",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Icek Rajs",
+   "given": "Icek",
+   "surname": "Rajs",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "16 JUN 1905",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
  }
 ]
