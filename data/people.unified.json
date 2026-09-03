@@ -90,7 +90,7 @@
   "occupation": "",
   "notes": [
    "ENTERED 22 Aug 2026. The act was located and read on 20 Aug 2026 (finding 114) but\nwas never entered into the tree - a documented person missing from the file. Found\nby checking the nine children Geni ascribes to Abram-Moszko against the GEDCOM.\nIDENTIFICATION: the act names the father only as \"Moszko Moskal, shoemaker, of\nKrasniczyn\". What fixes him as ABRAM-Moszko @I1062@ and not his brother\nARON-Moszko @I1074@ is the MOTHER: Ruchla-Laja nee Birman is Abram-Moszko's wife\n@I1066@, whereas Aron-Moszko's wife is Cywia Rajner. Same couple as Ita's act\n22/1882 and Henia's act 37/1881.\n>>> OPEN: the father's stated age drifts - 33 in Jan 1875 (b. ~1841) against 35 in\nNov 1881 (b. ~1846) and 36 in Dec 1882 (b. ~1846). The 1875 figure is the outlier.",
-   "GENI (c) 22 Aug 2026 - UNVERIFIED, NOT USED as evidence, recorded only so the next\nresearcher can test it: the Geni World Family Tree profile managed by Pazit Nudel,\nand two MyHeritage trees (Kagan; Wertzberger), give a Brana Gitla Moskal who\nmarried BEINISCH BENJAMIN HELFMAN, had four children (Moshe, Natan Neta, Yitko,\nBracha) and died in 1943 at Oswiecim. Those trees state her birth as 1897 at\n\"Kraszniecin\" - TWENTY-TWO YEARS after this act. Either two different women or an\nerror in the trees. NOT RESOLVED. Do not merge without a document."
+   "RESOLVED 1 Sep 2026 - THE DOCUMENT ARRIVED. Marriage act 25/1904, Wojslawice\n(sygn. 2.1/63, scan 60 right, folio 112/p.69, read 1 Sep 2026): \"Brana-Gitla\nMOSKAL, aged THIRTY PER HER BIRTH RECORD (soglasno metrike o rozhdenii), born in\nthe village of Krasniczyn, gmina Czajki, living in the posad Wojslawice, daughter\nof MOSZKO and RUCHLA-LAJA nee BERMAN\", married BEJNISZ HELFMAN on 13/26 Oct 1904.\n\"Thirty per the birth record\" locks her to birth act 5/1875 (30 Dec 1874) twice\nover - the age fits AND the clerk consulted the metric. So the Geni/MyHeritage\n\"Brana Gitla Moskal m. Beinisch Benjamin Helfman\" IS this woman, and the trees'\nbirth year 1897 is simply wrong. Their further claims - four children (Moshe,\nNatan Neta, Yitko, Bracha) and death in 1943 at Oswiecim - remain TREE CLAIMS,\nunverified by any document; now credible, still not evidence.\nThree banns in the WOJSLAWICE SYNAGOGUE (Sep-Oct 1904); no prenuptial contract;\nofficiant RABBI SZYJA KLEJNMINC - the yizkor book's \"kazioner rov\" Yehoshua\nKleinmintz, here attested in office. Both newlyweds recorded as ILLITERATE.\nWitnesses: Abram Gus, 46, and Gerszon Gonik, 42, szkolniks of Wojslawice."
   ],
   "grade": null,
   "sources": [
@@ -5254,6 +5254,7 @@
   },
   "occupation": "Roof-tiler and roofer - his father's trade",
   "notes": [
+   ">>> 3 Sep 2026 - FIRST CONTEMPORARY DOCUMENT OF HIM AS AN ADULT. Birth act 10/1905,\nWojslawice (sygn. 2.1/64, scan 8 right, folio 10/p.6): \"a resident of the posad of\nWojslawice, KHLEBOPASHETS, IOSIF SZAUFER, twenty-four years of age\" registers a son\non 11/24 Feb 1905. He SIGNED the act himself, \"Iosif Szaufer\". Age 24 gives b. ~1881\nand matches birth act 3/1881 - name, year and town all agree, so the identification\nis PROBABLE, close to proven.\n⚠ TRADE DISCREPANCY, recorded not resolved: the act calls him a khlebopashets - a\ntiller of grain - where every other source makes him a roofer and roof-tiler. In\nRussian registers that word often records a legal estate rather than the work a man\nactually did; but it is a conflict and is left standing.",
    "_CONF PROVEN as a separate Wojslawice Szafir household, in the necrology: \"Shafir Yosef\nand his wife Yokheved\". PROBABLE that this household is closely related to Mendel Schafir's:\nboth families' professions include ROOFER and TILER (as did Mendel's father Shmuel), and\nboth have Volhynian origins - Mendel's wife Perl was born at Wlodzimierz Wolynski and this\nfamily's daughter Dvora at Uscilug, twenty kilometres away.\nA \"YOSELE SCHAFER THE ROOF-TILER\" was shot off a farmer's roof by Germans for sport in 1942\n(\"he fell with his arms spread like a bird, and the Germans laughed out loud\"). A Yosele\nSchafer was also a DOZOR - a member of the kehilla board. The family knows the roof story.\n** OPEN QUESTION ANSWERED, 14 Aug 2026 - AND THE EARLIER RULING REVERSED. ** Until now\nthis household was held to be a different Szafir family, and the note on Mendel's son\nYosef says so explicitly (\"the contradiction was checked and decided\"). That ruling was\nmade before the Pages of Testimony were read. Two of them name this man's parents\noutright: 1125024 \"father Shmuel, mother Pesia\" and 483774 \"father Shmuel, mother Peshe\".\nSzmul Szaufer (@I1001@) married PESIA-Ruchla Szyfman in 1873, was himself a ROOFER, and had\na son JOSEF registered at birth act 3/1881. Father's name, mother's rare given name,\nthe trade, the town and the birth year all converge on one man.\n⇒ He is Mendel's own brother, and the \"second Szafir household\" of houses 32-33 is the\nfamily he founded, next door to his parents'. The roof story is about Amotz's\ngreat-grandfather's brother.\n⚠ WHAT THIS DOES NOT SETTLE: the note at Mendel's son Yosef (the other Yosef Schafir,\nMalka's brother) still carries the old ruling and should be revised to match."
   ],
   "grade": "probable",
@@ -8729,10 +8730,13 @@
    "variants": []
   },
   "sex": "M",
-  "living": true,
-  "birth": null,
+  "living": false,
+  "birth": {
+   "date": "ABT 1876",
+   "place": null
+  },
   "death": null,
-  "occupation": "",
+  "occupation": "Tailor (\"portnoy\", 1905)",
   "notes": [
    "(probable) Son of Aron-Moszko and Cywia, per Geni. Named for his mother's father\nSzabsa-Lejba Rajner @I1135@ - the coherence that makes this household credible."
   ],
@@ -10296,6 +10300,175 @@
   "death": null,
   "occupation": "",
   "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-bejnisz-helfman",
+  "gedcomId": "I1204",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Bejnisz Helfman",
+   "given": "Bejnisz",
+   "surname": "Helfman",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "ABT 1877",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Brana-Gitla Moskal's husband (marriage act 25/1904, read 1 Sep 2026).\nSon of the late SRUL Helfman and the late SURA nee TUCHMAN. Recorded illiterate.\nThe Geni World Family Tree calls him \"Beinisch Benjamin Helfman\"; the middle name\nBenjamin appears in no document here."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-srul-helfman",
+  "gedcomId": "I1205",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Srul Helfman",
+   "given": "Srul",
+   "surname": "Helfman",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF OCT 1904",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Bejnisz's father, named in marriage act 25/1904. Nothing else known."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-sura-tuchman",
+  "gedcomId": "I1206",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Sura Tuchman",
+   "given": "Sura",
+   "surname": "Tuchman",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": null,
+  "death": {
+   "date": "BEF OCT 1904",
+   "place": null
+  },
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as Bejnisz's mother, nee Tuchman, named in marriage act 25/1904.\nTuchman is a documented Wojslawice-area family."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chaja-sura-moskal-i1207",
+  "gedcomId": "I1207",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chaja-Sura Moskal",
+   "given": "Chaja-Sura",
+   "surname": "Moskal",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "24 APR 1905",
+   "place": "Krasniczyn, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as their daughter from the act itself. She is a FIRST COUSIN of David\nMoskal (b. 1910): her mother Civja and his father Judka-Lejba were sister and\nbrother. Nothing is known of her after 1905 - she appears in no later record, no\nPage of Testimony and no tree. DO NOT assume a fate."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-chana-tinzer",
+  "gedcomId": "I1208",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Chana Tinzer",
+   "given": "Chana",
+   "surname": "Tinzer",
+   "variants": []
+  },
+  "sex": "F",
+  "living": false,
+  "birth": {
+   "date": "ABT 1879",
+   "place": null
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   ">>> HER MAIDEN NAME IS AN UNCERTAIN READING. The act writes it in a hand that allows\nTINZER or TITZER; neither is otherwise attested in the Wojslawice material read so\nfar. Recorded as Tinzer with the doubt stated - re-read at magnification before\nciting it anywhere.",
+   "_CONF PROVEN as the wife of Iosif Szaufer in Feb 1905, from the act.\n⚠ UNRESOLVED - CHANA OR YOKHEVED. The yizkor necrology names Yosef Szafir's wife as\nYOKHEVED (@I1034@), and the couple's known daughter Dvora was born ~1917 at Usciug.\nThis act names CHANA in 1905. Either Chana died and Yokheved was a second wife, or\none woman was called by two names (a double name Chana-Yokheved would explain it).\nNOTHING here decides it. The two are kept as separate records and separate families\nuntil a document settles which."
+  ],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-elimelech-szaufer",
+  "gedcomId": "I1209",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Elimelech Szaufer",
+   "given": "Elimelech",
+   "surname": "Szaufer",
+   "variants": []
+  },
+  "sex": "M",
+  "living": false,
+  "birth": {
+   "date": "16 FEB 1905",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "_CONF PROVEN as the son of Iosif Szaufer and Chana from the act. A GRANDSON of Szmul\n\"Shmuelke\" Szaufer the roofer, and so a first cousin of Malka Schafir.\nHe appears in NO other source - not in the necrology, not in any Page of Testimony,\nnot in any tree. First found 3 Sep 2026. DO NOT assume a fate."
+  ],
   "grade": null,
   "sources": [],
   "photos": [],

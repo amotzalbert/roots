@@ -1443,7 +1443,9 @@
    "p-mordko-moskal",
    "p-civja-moskal"
   ],
-  "children": [],
+  "children": [
+   "p-chaja-sura-moskal-i1207"
+  ],
   "marriage": null,
   "notes": []
  },
@@ -1714,6 +1716,49 @@
   ],
   "children": [
    "p-rajzia-kelner"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1083",
+  "gedcomId": "F1083",
+  "branch": "albert",
+  "spouses": [
+   "p-srul-helfman",
+   "p-sura-tuchman"
+  ],
+  "children": [
+   "p-bejnisz-helfman"
+  ],
+  "marriage": null,
+  "notes": []
+ },
+ {
+  "id": "u-f1082",
+  "gedcomId": "F1082",
+  "branch": "albert",
+  "spouses": [
+   "p-bejnisz-helfman",
+   "p-brana-gitla-moskal"
+  ],
+  "children": [],
+  "marriage": {
+   "date": "26 OCT 1904",
+   "place": "Wojslawice, Chelm, Lublin, Poland"
+  },
+  "notes": []
+ },
+ {
+  "id": "u-f1084",
+  "gedcomId": "F1084",
+  "branch": "albert",
+  "spouses": [
+   "p-yosef-szafir",
+   "p-chana-tinzer"
+  ],
+  "children": [
+   "p-elimelech-szaufer"
   ],
   "marriage": null,
   "notes": []

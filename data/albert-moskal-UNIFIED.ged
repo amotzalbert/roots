@@ -82,13 +82,22 @@
 2 CONT 22/1882 and Henia's act 37/1881.
 2 CONT >>> OPEN: the father's stated age drifts - 33 in Jan 1875 (b. ~1841) against 35 in
 2 CONT Nov 1881 (b. ~1846) and 36 in Dec 1882 (b. ~1846). The 1875 figure is the outlier.
-1 NOTE GENI (c) 22 Aug 2026 - UNVERIFIED, NOT USED as evidence, recorded only so the next
-2 CONT researcher can test it: the Geni World Family Tree profile managed by Pazit Nudel,
-2 CONT and two MyHeritage trees (Kagan; Wertzberger), give a Brana Gitla Moskal who
-2 CONT married BEINISCH BENJAMIN HELFMAN, had four children (Moshe, Natan Neta, Yitko,
-2 CONT Bracha) and died in 1943 at Oswiecim. Those trees state her birth as 1897 at
-2 CONT "Kraszniecin" - TWENTY-TWO YEARS after this act. Either two different women or an
-2 CONT error in the trees. NOT RESOLVED. Do not merge without a document.
+1 NOTE RESOLVED 1 Sep 2026 - THE DOCUMENT ARRIVED. Marriage act 25/1904, Wojslawice
+2 CONT (sygn. 2.1/63, scan 60 right, folio 112/p.69, read 1 Sep 2026): "Brana-Gitla
+2 CONT MOSKAL, aged THIRTY PER HER BIRTH RECORD (soglasno metrike o rozhdenii), born in
+2 CONT the village of Krasniczyn, gmina Czajki, living in the posad Wojslawice, daughter
+2 CONT of MOSZKO and RUCHLA-LAJA nee BERMAN", married BEJNISZ HELFMAN on 13/26 Oct 1904.
+2 CONT "Thirty per the birth record" locks her to birth act 5/1875 (30 Dec 1874) twice
+2 CONT over - the age fits AND the clerk consulted the metric. So the Geni/MyHeritage
+2 CONT "Brana Gitla Moskal m. Beinisch Benjamin Helfman" IS this woman, and the trees'
+2 CONT birth year 1897 is simply wrong. Their further claims - four children (Moshe,
+2 CONT Natan Neta, Yitko, Bracha) and death in 1943 at Oswiecim - remain TREE CLAIMS,
+2 CONT unverified by any document; now credible, still not evidence.
+2 CONT Three banns in the WOJSLAWICE SYNAGOGUE (Sep-Oct 1904); no prenuptial contract;
+2 CONT officiant RABBI SZYJA KLEJNMINC - the yizkor book's "kazioner rov" Yehoshua
+2 CONT Kleinmintz, here attested in office. Both newlyweds recorded as ILLITERATE.
+2 CONT Witnesses: Abram Gus, 46, and Gerszon Gonik, 42, szkolniks of Wojslawice.
+1 FAMS @F1082@
 1 SOUR @S1001@
 1 FAMC @F1030@
 0 @I1155@ INDI
@@ -4253,6 +4262,17 @@
 3 CONT (=> b. ~1882), one year off the act - a normal margin. (His second Page, 483774, says
 3 CONT b. 1890; that year is rejected, see the identity note below.)
 1 OCCU Roof-tiler and roofer - his father's trade
+1 NOTE >>> 3 Sep 2026 - FIRST CONTEMPORARY DOCUMENT OF HIM AS AN ADULT. Birth act 10/1905,
+2 CONT Wojslawice (sygn. 2.1/64, scan 8 right, folio 10/p.6): "a resident of the posad of
+2 CONT Wojslawice, KHLEBOPASHETS, IOSIF SZAUFER, twenty-four years of age" registers a son
+2 CONT on 11/24 Feb 1905. He SIGNED the act himself, "Iosif Szaufer". Age 24 gives b. ~1881
+2 CONT and matches birth act 3/1881 - name, year and town all agree, so the identification
+2 CONT is PROBABLE, close to proven.
+2 CONT ⚠ TRADE DISCREPANCY, recorded not resolved: the act calls him a khlebopashets - a
+2 CONT tiller of grain - where every other source makes him a roofer and roof-tiler. In
+2 CONT Russian registers that word often records a legal estate rather than the work a man
+2 CONT actually did; but it is a conflict and is left standing.
+1 FAMS @F1084@
 1 RESI
 2 PLAC Wojslawice, Chelm, Lublin, Poland
 2 NOTE Houses 32-33 on the survivors' map are marked SZAFIR - an adjoining pair, consistent with
@@ -7143,6 +7163,11 @@
 2 SURN Moskal
 1 SEX M
 1 FAMC @F1057@
+1 BIRT
+2 DATE ABT 1876
+2 NOTE Aged 29 at his daughter's registration, April 1905 (birth act 24/1905). His only
+3 CONT age statement; no birth act found for him.
+1 OCCU Tailor ("portnoy", 1905)
 1 NOTE (probable) Son of Aron-Moszko and Cywia, per Geni. Named for his mother's father
 2 CONT Szabsa-Lejba Rajner @I1135@ - the coherence that makes this household credible.
 1 SOUR @S1040@
@@ -7180,6 +7205,13 @@
 3 CONT Geni's profile gives 3 September 1881 - the same act, read in Old Style.
 1 FAMC @F1020@
 1 FAMS @F1059@
+2 NOTE >>> HER NAME IN FULL: birth act 24/1905 of her daughter writes her CYWIA-DWOJRA,
+3 CONT not Civja alone. Recorded here because the pair Cywia-Dwojra recurs in this family
+3 CONT (cf. Dvora Moskal nee Alspektor, her brother's wife) and the two must not be merged:
+3 CONT different maiden names, different husbands, five years apart.
+3 CONT >>> AGE DISCREPANCY: that act calls her twenty-five in April 1905, which would give
+3 CONT b. ~1880; her own birth act says 15 Sep 1881, making her 23. Two years - within the
+3 CONT ordinary drift of stated ages here, and the birth act governs.
 1 NOTE (documented) SISTER OF JUDKA-LEJBA @I1021@, daughter of Dawid-Szloma and Hinda.
 2 CONT (probable) She married MORDKO MOSKAL @I1139@, son of Aron-Moszko - i.e. her first
 3 CONT cousin. The marriage is from Geni and has no act; cousin marriage is unremarkable
@@ -7203,8 +7235,18 @@
 0 @F1059@ FAM
 1 HUSB @I1139@
 1 WIFE @I1140@
-1 NOTE (probable) First-cousin marriage: Mordko son of Aron-Moszko x Civja daughter of
-2 CONT Dawid-Szloma. From Geni; no act.
+1 CHIL @I1207@
+1 NOTE First-cousin marriage: Mordko son of Aron-Moszko x Civja daughter of Dawid-Szloma.
+2 CONT >>> UPGRADED 3 Sep 2026 - THE COUPLE IS NOW DOCUMENTED. Until today this marriage
+2 CONT rested on Geni alone with no act. BIRTH ACT 24/1905, Wojslawice (sygn. 2.1/64,
+2 CONT scan 15 right, folio 24/p.13, read 3 Sep 2026) registers their daughter and names
+2 CONT them together: "Mordko MOSKAL, TAILOR, twenty-nine years of age" and "his wife
+2 CONT CYWIA-DWOJRA, NEE MOSKAL, twenty-five years of age". A Moskal wife nee Moskal is
+2 CONT exactly the first-cousin marriage Geni described, and the witness (below) settles
+2 CONT which cousins. The marriage act itself is still not found.
+2 CONT WITNESS: JUDKA-LEJBA MOSKAL, trader, 22 - Civja's own brother, i.e. the child's
+2 CONT maternal uncle - who SIGNED. That a brother of the mother stood as witness is what
+2 CONT ties this couple to Dawid-Szloma's household rather than to any other Moskal pair.
 
 0 @I1141@ INDI
 1 NAME Tauba /Moskal/
@@ -8690,5 +8732,127 @@
 1 HUSB @I1201@
 1 WIFE @I1202@
 1 CHIL @I1203@
+
+0 @I1204@ INDI
+1 NAME Bejnisz /Helfman/
+2 GIVN Bejnisz
+2 SURN Helfman
+1 SEX M
+1 BIRT
+2 DATE ABT 1877
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE "Twenty-seven per his birth record" at his marriage, Oct 1904 (act 25/1904);
+3 CONT born and living in Krasniczyn, gmina Czajki.
+1 NOTE _CONF PROVEN as Brana-Gitla Moskal's husband (marriage act 25/1904, read 1 Sep 2026).
+2 CONT Son of the late SRUL Helfman and the late SURA nee TUCHMAN. Recorded illiterate.
+2 CONT The Geni World Family Tree calls him "Beinisch Benjamin Helfman"; the middle name
+2 CONT Benjamin appears in no document here.
+1 FAMC @F1083@
+1 FAMS @F1082@
+
+0 @I1205@ INDI
+1 NAME Srul /Helfman/
+2 GIVN Srul
+2 SURN Helfman
+1 SEX M
+1 DEAT
+2 DATE BEF OCT 1904
+2 NOTE "Son of the LATE Srul and Sura" - both parents dead by the 1904 marriage.
+1 NOTE _CONF PROVEN as Bejnisz's father, named in marriage act 25/1904. Nothing else known.
+1 FAMS @F1083@
+
+0 @I1206@ INDI
+1 NAME Sura /Tuchman/
+2 GIVN Sura
+2 SURN Tuchman
+1 SEX F
+1 DEAT
+2 DATE BEF OCT 1904
+1 NOTE _CONF PROVEN as Bejnisz's mother, nee Tuchman, named in marriage act 25/1904.
+2 CONT Tuchman is a documented Wojslawice-area family.
+1 FAMS @F1083@
+
+0 @F1083@ FAM
+1 HUSB @I1205@
+1 WIFE @I1206@
+1 CHIL @I1204@
+
+0 @F1082@ FAM
+1 HUSB @I1204@
+1 WIFE @I1154@
+1 MARR
+2 DATE 26 OCT 1904
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Marriage act 25/1904 (13/26 Oct, five in the afternoon). Religious ceremony by
+3 CONT Rabbi Szyja Klejnminc of Wojslawice. Banns 8, 15 and 22 Oct (N.S.) in the
+3 CONT Wojslawice synagogue. No prenuptial agreement.
+1 NOTE The Geni World Family Tree ascribes four children to this couple (Moshe, Natan
+2 CONT Neta, Yitko, Bracha) and Brana-Gitla's death at Oswiecim in 1943 - TREE CLAIMS,
+2 CONT not yet documented; do not enter the children without records.
+
+0 @I1207@ INDI
+1 NAME Chaja-Sura /Moskal/
+2 GIVN Chaja-Sura
+2 SURN Moskal
+1 SEX F
+1 BIRT
+2 DATE 24 APR 1905
+2 PLAC Krasniczyn, Chelm, Lublin, Poland
+2 NOTE Born 11/24 April 1905 at seven in the evening in the village of Krasniczyn;
+3 CONT registered at Wojslawice 12/25 April at nine in the morning. Birth act 24/1905
+3 CONT (sygn. 2.1/64, scan 15 right, folio 24/p.13, read 3 Sep 2026). Father Mordko
+3 CONT Moskal, tailor, 29; mother Cywia-Dwojra nee Moskal, 25. Witnesses JUDKA-LEJBA
+3 CONT MOSKAL, trader, 22, and Abram Gus, 47. Both Moskal men signed in Cyrillic.
+1 NOTE _CONF PROVEN as their daughter from the act itself. She is a FIRST COUSIN of David
+2 CONT Moskal (b. 1910): her mother Civja and his father Judka-Lejba were sister and
+2 CONT brother. Nothing is known of her after 1905 - she appears in no later record, no
+2 CONT Page of Testimony and no tree. DO NOT assume a fate.
+1 FAMC @F1059@
+
+0 @I1208@ INDI
+1 NAME Chana /Tinzer/
+2 GIVN Chana
+2 SURN Tinzer
+1 SEX F
+1 BIRT
+2 DATE ABT 1879
+2 NOTE Aged 26 at her son's birth, February 1905 (birth act 10/1905).
+1 NOTE >>> HER MAIDEN NAME IS AN UNCERTAIN READING. The act writes it in a hand that allows
+2 CONT TINZER or TITZER; neither is otherwise attested in the Wojslawice material read so
+2 CONT far. Recorded as Tinzer with the doubt stated - re-read at magnification before
+2 CONT citing it anywhere.
+1 NOTE _CONF PROVEN as the wife of Iosif Szaufer in Feb 1905, from the act.
+2 CONT ⚠ UNRESOLVED - CHANA OR YOKHEVED. The yizkor necrology names Yosef Szafir's wife as
+2 CONT YOKHEVED (@I1034@), and the couple's known daughter Dvora was born ~1917 at Usciug.
+2 CONT This act names CHANA in 1905. Either Chana died and Yokheved was a second wife, or
+2 CONT one woman was called by two names (a double name Chana-Yokheved would explain it).
+2 CONT NOTHING here decides it. The two are kept as separate records and separate families
+2 CONT until a document settles which.
+1 FAMS @F1084@
+
+0 @I1209@ INDI
+1 NAME Elimelech /Szaufer/
+2 GIVN Elimelech
+2 SURN Szaufer
+1 SEX M
+1 BIRT
+2 DATE 16 FEB 1905
+2 PLAC Wojslawice, Chelm, Lublin, Poland
+2 NOTE Born 4/16 February 1905 at ten in the morning; registered 11/24 February. Named at
+3 CONT his circumcision ELIMELECH. Birth act 10/1905 (sygn. 2.1/64, scan 8 right, folio
+3 CONT 10/p.6, read 3 Sep 2026). Witnesses Abram Gus, szkolnik, 47, and Gerszon Gonik, 43.
+1 NOTE _CONF PROVEN as the son of Iosif Szaufer and Chana from the act. A GRANDSON of Szmul
+2 CONT "Shmuelke" Szaufer the roofer, and so a first cousin of Malka Schafir.
+2 CONT He appears in NO other source - not in the necrology, not in any Page of Testimony,
+2 CONT not in any tree. First found 3 Sep 2026. DO NOT assume a fate.
+1 FAMC @F1084@
+
+0 @F1084@ FAM
+1 HUSB @I1033@
+1 WIFE @I1208@
+1 CHIL @I1209@
+1 NOTE Documented solely by birth act 10/1905. Kept SEPARATE from @F1011@ (Yosef x Yokheved)
+2 CONT deliberately: see the Chana-or-Yokheved note on @I1208@. Merging them without a
+2 CONT document would invent a fact.
 
 0 TRLR
