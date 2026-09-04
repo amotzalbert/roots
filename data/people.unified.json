@@ -1928,7 +1928,8 @@
   "notes": [
    "(documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;\n1942 at Skarzysko; arrived from Czestochowa; then Targowa 7.\n** (probable) \"Targowa\" appears as the war-time or post-war address on registration\ncards of unrelated survivors as well, which suggests a registration-office address\nin Praga rather than a residence - observation, not established (findings/066). **\nBefore marrying Chana he had a first wife and a child, both murdered in the Shoah -\nthat line was dropped at Amotz's direction after nine Yad Vashem candidates were\nexcluded.",
    "(documented) ** JOINT TRACING FILE, 1947. ** The Arolsen Archives index of Tracing and\nDocumentation files carries \"Chaim Albert, b. 07 Nov 1907\", case 705603, and - the\nCONSECUTIVE case 705604 - \"Chana Albert [Sara], maiden name Rywenbeirich,\nb. 18 Jun 1917\": one joint tracing request filed by or for the couple in 1947,\ntheir first appearance together in a record outside the family's own documents.\nThe files themselves have not been obtained; a request draft is pending\n(findings/066). ** DATE OBSERVATION: 07.11.1907 here against 11.07.1907 in the 2015\ncitizenship application is a day/month swap - the two are probably one underlying\ndocument whose digits are 7, 11, 1907 in an order not yet established. The\n1907-vs-1913 conflict itself remains open, awaiting Czestochowa sygn. 13801. **",
-   "(documented) Post-war registrations, indexed 14 Aug 2026 from Ancestry mirrors of\nUSHMM and Arolsen holdings (findings/066): the Warsaw survivor-registration card of\n14 Aug 1945 (USHMM RG-15.147, file RG-15.147_a_page_0065 - the indexed copy of the\nCKZP registration, naming father Dawid and mother \"Rudla Gutkowska\", occupation\nczapnik, pre-war Leszno 36, post-war Skarzysko and Czestochowa); five CKZP\nregistration index rows (USHMM RG-15.186M), all \"b. 1913 Warszawa\"; and an Arolsen\nF18 \"List of Surviving Jews, Registered in Lodz\" carrying \"Chaim Albert, b. 1913\nWarsaw\" - the earliest record of him in Lodz, where the family later lived. Scan\nsaved at albert/sources/ancestry/. A namesake on the Hillersleben camp list was\nexamined and excluded - that man's contact was a Sephardi family in Bogota."
+   "(documented) Post-war registrations, indexed 14 Aug 2026 from Ancestry mirrors of\nUSHMM and Arolsen holdings (findings/066): the Warsaw survivor-registration card of\n14 Aug 1945 (USHMM RG-15.147, file RG-15.147_a_page_0065 - the indexed copy of the\nCKZP registration, naming father Dawid and mother \"Rudla Gutkowska\", occupation\nczapnik, pre-war Leszno 36, post-war Skarzysko and Czestochowa); five CKZP\nregistration index rows (USHMM RG-15.186M), all \"b. 1913 Warszawa\"; and an Arolsen\nF18 \"List of Surviving Jews, Registered in Lodz\" carrying \"Chaim Albert, b. 1913\nWarsaw\" - the earliest record of him in Lodz, where the family later lived. Scan\nsaved at albert/sources/ancestry/. A namesake on the Hillersleben camp list was\nexamined and excluded - that man's contact was a Sephardi family in Bogota.",
+   "** TWO PRE-WAR WARSAW ADDRESSES, BOTH IN PRIMARY SOURCES, NOT RECONCILED. **\nul. LESZNO 36 - the 1945 CKZP/USHMM survivor registration and the post-war\ncorrespondence. ul. WOLYNSKA 19 - his own hand, 24 Feb 1958, on the Arolsen F-30a\nquestionnaire, field 9, \"last address before imprisonment\". Both are original and\nneither is dated to a particular year, so it is not known which came first or\nwhether he moved. ** Every future Warsaw enquiry must cite BOTH. ** By the 1930\nstreet index in \"Cala Warszawa\" (Dzial V), the even side of Leszno belongs to\nIII Komisariat P.P. and the whole of Wolynska to V Komisariat P.P."
   ],
   "grade": "documented",
   "sources": [
@@ -10661,6 +10662,33 @@
   "death": null,
   "occupation": "",
   "notes": [],
+  "grade": null,
+  "sources": [],
+  "photos": [],
+  "docs": [],
+  "bioChapter": null
+ },
+ {
+  "id": "p-estera-spilsinger",
+  "gedcomId": "I1217",
+  "branch": "moskal",
+  "names": {
+   "he": "",
+   "latin": "Estera Spilsinger",
+   "given": "Estera",
+   "surname": "Spilsinger",
+   "variants": []
+  },
+  "sex": "F",
+  "living": true,
+  "birth": null,
+  "death": null,
+  "occupation": "",
+  "notes": [
+   "** THE ONLY SOURCE: CHAIM'S OWN HAND, 24 FEBRUARY 1958. ** International Tracing\nService questionnaire F-30a, tracing file T/D 705.603, filed through the lawyer\nDr. I. D. Evian of Dusseldorf. In field 11b - \"if married, first name and maiden name\nof the wife\" - Chaim wrote: \"1. Ehe - Estera geb. Spilsinger, im Jahre 1936,\nWarschau, umgekommen\". Received from Arolsen Archives 4 Sep 2026 in answer to\nenquiry IQ-0000108509; scans at albert/letters/replies/arolsen-TD-705603/, the line\nitself on page-05.jpg.\n** This is the first time either her surname or the year of the marriage has been\nknown. ** Before this document the file had only a first name, from family memory.",
+   "** WHAT IS *NOT* ESTABLISHED - and must not be filled in by inference. ** Her birth\ndate, birthplace, parents, and the district of Warsaw she lived in are all unknown.\nThe marriage act of 1936 would name her parents; it has not been found (see the\nnote on @F1087@). Searched and negative as of 4 Sep 2026: Yad Vashem (30 records in\nthe spelling variants, ALL in the Zamosc-Szczebrzeszyn-Bilgoraj-Tarnogrod corner of\nLublin province, none named Estera, none in Warsaw); JRI-Poland (7 records, all\nTarnogrod deaths 1870-1919 - including an Estera Szpilzinger who died at Tarnogrod\nin 1898, far too early to be her, but a naming precedent in that family); the\nWarsaw Ghetto Database at getto.pl (no Szpil- surname in any spelling among its\n46,302 people).\n** WARNING ON THE JRI-POLAND NEGATIVE FOR WARSAW: it is not evidence. ** A control\ntest on the common name Goldberg returned 87 rows for Wiskitki and 76 for Bodzanow\nagainst 9 for the city of Warsaw itself - the Warsaw indexing is too thin for an\nabsence there to mean anything.",
+   "** AND SHE IS NOT RACHEL. ** Family testimony remembers a daughter named Rachel. No\ndocument of any kind names her, and she is deliberately NOT in this tree. Estera is\nthe wife and is documented; Rachel is the daughter and is not. Keep them apart."
+  ],
   "grade": null,
   "sources": [],
   "photos": [],

@@ -1696,6 +1696,7 @@
 3 CONT 12 Sep 1976, while my reading of the gravestone gives 17 Adar I 5737 = 7 Mar 1977.
 3 CONT Grave and cemetery lines are parked - the grave is known and photographed.
 1 FAMC @F20@
+1 FAMS @F1087@
 1 FAMS @F12@
 1 NOTE (documented) Traced through the CKZP registration cards: 1939 at Leszno 36, Warsaw;
 2 CONT 1942 at Skarzysko; arrived from Czestochowa; then Targowa 7.
@@ -1725,6 +1726,14 @@
 2 CONT Warsaw" - the earliest record of him in Lodz, where the family later lived. Scan
 2 CONT saved at albert/sources/ancestry/. A namesake on the Hillersleben camp list was
 2 CONT examined and excluded - that man's contact was a Sephardi family in Bogota.
+1 NOTE ** TWO PRE-WAR WARSAW ADDRESSES, BOTH IN PRIMARY SOURCES, NOT RECONCILED. **
+2 CONT ul. LESZNO 36 - the 1945 CKZP/USHMM survivor registration and the post-war
+2 CONT correspondence. ul. WOLYNSKA 19 - his own hand, 24 Feb 1958, on the Arolsen F-30a
+2 CONT questionnaire, field 9, "last address before imprisonment". Both are original and
+2 CONT neither is dated to a particular year, so it is not known which came first or
+2 CONT whether he moved. ** Every future Warsaw enquiry must cite BOTH. ** By the 1930
+2 CONT street index in "Cala Warszawa" (Dzial V), the even side of Leszno belongs to
+2 CONT III Komisariat P.P. and the whole of Wolynska to V Komisariat P.P.
 1 SOUR @S20@
 1 SOUR @S21@
 1 SOUR @S60@
@@ -8982,5 +8991,69 @@
 1 NOTE A second, separate Wojslawice Rajs household of 1905 - a shoemaker's, against the
 2 CONT trader's at @F1085@. UNCONNECTED to our line and to each other; nothing in the acts
 2 CONT links Chaim and Gerszl-Lejba.
+
+0 @I1217@ INDI
+1 NAME Estera /Spilsinger/
+2 GIVN Estera
+2 SURN Spilsinger
+2 NOTE The surname is known from ONE document only, and that document is German, so the
+3 CONT spelling "Spilsinger" is a German-language rendering of whatever the Polish original
+3 CONT was - most likely SZPILZYNGER / SZPILZINGER / SZPILSINGER. Do not treat "Spilsinger"
+3 CONT as the archival spelling. No Polish-language record of her has been found.
+1 SEX F
+1 DEAT
+2 NOTE ** "UMGEKOMMEN" - PERISHED. ** That single word is all the source says. It gives NO
+3 CONT date, NO place and NO circumstance of death, and nothing else about her has been
+3 CONT found in any record. Do not assign her a fate beyond the word itself.
+1 NOTE ** THE ONLY SOURCE: CHAIM'S OWN HAND, 24 FEBRUARY 1958. ** International Tracing
+2 CONT Service questionnaire F-30a, tracing file T/D 705.603, filed through the lawyer
+2 CONT Dr. I. D. Evian of Dusseldorf. In field 11b - "if married, first name and maiden name
+2 CONT of the wife" - Chaim wrote: "1. Ehe - Estera geb. Spilsinger, im Jahre 1936,
+2 CONT Warschau, umgekommen". Received from Arolsen Archives 4 Sep 2026 in answer to
+2 CONT enquiry IQ-0000108509; scans at albert/letters/replies/arolsen-TD-705603/, the line
+2 CONT itself on page-05.jpg.
+2 CONT ** This is the first time either her surname or the year of the marriage has been
+2 CONT known. ** Before this document the file had only a first name, from family memory.
+1 NOTE ** WHAT IS *NOT* ESTABLISHED - and must not be filled in by inference. ** Her birth
+2 CONT date, birthplace, parents, and the district of Warsaw she lived in are all unknown.
+2 CONT The marriage act of 1936 would name her parents; it has not been found (see the
+2 CONT note on @F1087@). Searched and negative as of 4 Sep 2026: Yad Vashem (30 records in
+2 CONT the spelling variants, ALL in the Zamosc-Szczebrzeszyn-Bilgoraj-Tarnogrod corner of
+2 CONT Lublin province, none named Estera, none in Warsaw); JRI-Poland (7 records, all
+2 CONT Tarnogrod deaths 1870-1919 - including an Estera Szpilzinger who died at Tarnogrod
+2 CONT in 1898, far too early to be her, but a naming precedent in that family); the
+2 CONT Warsaw Ghetto Database at getto.pl (no Szpil- surname in any spelling among its
+2 CONT 46,302 people).
+2 CONT ** WARNING ON THE JRI-POLAND NEGATIVE FOR WARSAW: it is not evidence. ** A control
+2 CONT test on the common name Goldberg returned 87 rows for Wiskitki and 76 for Bodzanow
+2 CONT against 9 for the city of Warsaw itself - the Warsaw indexing is too thin for an
+2 CONT absence there to mean anything.
+1 NOTE ** AND SHE IS NOT RACHEL. ** Family testimony remembers a daughter named Rachel. No
+2 CONT document of any kind names her, and she is deliberately NOT in this tree. Estera is
+2 CONT the wife and is documented; Rachel is the daughter and is not. Keep them apart.
+1 FAMS @F1087@
+
+0 @F1087@ FAM
+1 HUSB @I32@
+1 WIFE @I1217@
+1 MARR
+2 DATE 1936
+2 PLAC Warsaw, Poland
+2 NOTE ** THE YEAR AND THE CITY ARE DOCUMENTED; THE ACT IS NOT FOUND. ** Both come from
+3 CONT Chaim's own 1958 questionnaire (see @I1217@). No month, no day, no district.
+3 CONT ** Where the act should be. ** Warsaw's Jewish civil registers held by the state
+3 CONT archive (fond 72/200/0) stop in practice at 1915, so a 1936 act is not there. The
+3 CONT surviving 1930s Jewish books are listed in the USC m.st. Warszawy holdings list
+3 CONT (findings/033). Of those, the books that cover 1936 are: IX Komisariat P.P.
+3 CONT (1930, 1932, 1936); XVI Komisariat P.P./Mokotow (1933, 1936-1938); the un-named
+3 CONT block of years 1917-1927, 1930-1933 and 1936-1937 whose owner and denomination the
+3 CONT list leaves blank; and the Wawer/Falenica registers (1917-1939).
+3 CONT ** The two known addresses point to two different districts, and neither is proven
+3 CONT to be where he lived in 1936: ** ul. Leszno 36 = III Komisariat, whose Jewish books
+3 CONT survive only for 1937-1938; ul. Wolynska 19 = V Komisariat, whose Jewish books
+3 CONT survive only for 1928. Both mappings are read off "Cala Warszawa" 1930, Dzial V.
+3 CONT ** A marriage was commonly registered in the BRIDE'S district, which is unknown. **
+3 CONT The letter to USC m.st. Warszawy asking them to search has been drafted since
+3 CONT 7 Aug 2026 and is still unsent.
 
 0 TRLR
