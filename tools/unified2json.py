@@ -93,7 +93,11 @@ for m in records('I'):
     elif int(re.sub(r'\D','',xid)) >= 1000: branch = 'moskal'
     people[pid] = {"id":pid, "gedcomId":xid.strip('@'), "branch":branch,
         "names":{"he":"", "latin":latin, "given":given, "surname":surname, "variants":[x for x in nicks if x]},
-        "sex": sub(joined,'SEX'), "living": death is None and not (birth or {}).get('date'),
+        # ⚠ 4.9.2026: DEAT בלי DATE/PLAC (למשל «umgekommen» בלי פרטים) החזיר None
+        # מ־event() והאדם סומן living ⇒ הוסתר באתר כחי. נוכחות 1 DEAT מספיקה.
+        "sex": sub(joined,'SEX'),
+        "living": death is None and not re.search(r'^1 DEAT', joined, re.M)
+                  and not (birth or {}).get('date'),
         "birth":birth, "death":death, "occupation": sub(joined,'OCCU') or "",
         "notes":notes, "grade":grade, "sources":ged_sources, "photos":[], "docs":[], "bioChapter":None}
 

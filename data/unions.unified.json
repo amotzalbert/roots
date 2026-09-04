@@ -1800,7 +1800,9 @@
    "p-chaim-albert",
    "p-estera-spilsinger"
   ],
-  "children": [],
+  "children": [
+   "p-rachela-albert"
+  ],
   "marriage": {
    "date": "1936",
    "place": "Warsaw, Poland"

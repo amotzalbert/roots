@@ -8993,6 +8993,7 @@
 2 CONT links Chaim and Gerszl-Lejba.
 
 0 @I1217@ INDI
+1 _BRANCH albert
 1 NAME Estera /Spilsinger/
 2 GIVN Estera
 2 SURN Spilsinger
@@ -9028,14 +9029,17 @@
 2 CONT test on the common name Goldberg returned 87 rows for Wiskitki and 76 for Bodzanow
 2 CONT against 9 for the city of Warsaw itself - the Warsaw indexing is too thin for an
 2 CONT absence there to mean anything.
-1 NOTE ** AND SHE IS NOT RACHEL. ** Family testimony remembers a daughter named Rachel. No
-2 CONT document of any kind names her, and she is deliberately NOT in this tree. Estera is
-2 CONT the wife and is documented; Rachel is the daughter and is not. Keep them apart.
+1 NOTE ** AND SHE IS NOT RACHEL. ** Rachel is the DAUGHTER (@I1218@), Estera the WIFE.
+2 CONT The two have been conflated before and must be kept apart. ** They also rest on
+2 CONT completely different footings: ** Estera is named in a document written by Chaim
+2 CONT himself; Rachel is named only in the oral testimony of his son David. Entering
+2 CONT both in the tree does not make them equal evidence.
 1 FAMS @F1087@
 
 0 @F1087@ FAM
 1 HUSB @I32@
 1 WIFE @I1217@
+1 CHIL @I1218@
 1 MARR
 2 DATE 1936
 2 PLAC Warsaw, Poland
@@ -9055,5 +9059,44 @@
 3 CONT ** A marriage was commonly registered in the BRIDE'S district, which is unknown. **
 3 CONT The letter to USC m.st. Warszawy asking them to search has been drafted since
 3 CONT 7 Aug 2026 and is still unsent.
+
+0 @I1218@ INDI
+1 _BRANCH albert
+1 NAME Rachela /Albert/
+2 GIVN Rachela
+2 SURN Albert
+2 NOTE Remembered in the family as RACHEL. The Polish form Rachela is used here because
+3 CONT any Warsaw record of her would carry it; Ruchla is the other likely register form.
+3 CONT ** No document has ever given her name, so no spelling here is authoritative. **
+1 SEX F
+1 DEAT
+2 NOTE Killed during the occupation. The family's testimony says only that she and her
+3 CONT mother were murdered - no date, no place, no circumstance. Chaim's own 1958
+3 CONT questionnaire, which names Estera and writes "umgekommen" over her, DOES NOT
+3 CONT MENTION A CHILD AT ALL: the form's field 11b asks only about wives. Read that
+3 CONT silence as the form's shape, not as evidence either way.
+1 NOTE ** SOURCE: THE TESTIMONY OF DAVID ALBERT, CHAIM'S SON - not a document. ** David
+2 CONT states that his father's first wife Estera and their daughter Rachel were murdered
+2 CONT in the Holocaust (findings/034 section 3, recorded 7 Aug 2026). This is
+2 CONT first-degree oral testimony from the son of the man himself, and it is why she is
+2 CONT in this tree. It is NOT archival evidence and must never be cited as if it were.
+1 NOTE ** ENTERED 4 SEP 2026 AT AMOTZ'S EXPLICIT INSTRUCTION, ahead of any confirming
+2 CONT record. ** She had been kept out of the tree until then precisely because no
+2 CONT document names her (findings/034 section 9 item 3). Amotz's decision: her existence
+2 CONT is certain within the family and confirmation is expected to follow. ** The grade
+2 CONT stays honest: she is TESTIMONY, not documentation. ** Do not upgrade it, and do not
+2 CONT let her appear in any narrative sentence that reads as documented fact.
+1 NOTE ** WHAT IS UNKNOWN - the whole of it. ** Birth date, birth place, and even her
+2 CONT parents' marriage year were unknown until Sep 2026; the marriage is now fixed to
+2 CONT 1936 Warsaw, so a daughter would have been born 1937 or later and would have been
+2 CONT a small child in the ghetto. ** That is arithmetic from the marriage year, not a
+2 CONT record, and it does not exclude a birth before the civil marriage. **
+2 CONT Where a birth record would be, if one exists: births are closed for 100 years, so a
+2 CONT 1937+ birth stays at USC m.st. Warszawy until at least 2037 and cannot reach a
+2 CONT state archive before then (findings/033 section 8.5). Searched and negative:
+2 CONT Yad Vashem (Rachela in three spellings, 56 sub-records, none from Warsaw, none
+2 CONT Albert/Alpert/Elbert); Lodz births (JRI indexes only 1918-1922 - findings/031).
+1 FAMC @F1087@
+
 
 0 TRLR
