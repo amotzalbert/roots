@@ -811,16 +811,25 @@
 2 NOTE Called Bela in the family. Recorded in Yad Vashem under her married name, Rywenbajrych.
 1 SEX F
 1 BIRT
-2 DATE 1892
+2 DATE 1891
 2 PLAC Opatow, Poland
-2 NOTE The year rests on the 1988 memorial list (1891) and the Pages of Testimony (1891/92);
-3 CONT Moshe's own 1957 Page for her says 1890 - a three-year spread, normal for forms
-3 CONT filled in decades later. ** The attribution of birth act 8/1892 to her, asserted
-3 CONT here until 14 Aug 2026, is DOWNGRADED to an open question: it was premised on her
-3 CONT being a child of the 1884 Moszek-Gella marriage, which is now rejected. Reading act
-3 CONT 8/1892 - first item in the Sandomierz letter - will either show parents Rafael and
-3 CONT Fajga (confirming both the act and @F60@) or show other parents (meaning her birth
-3 CONT act is still unfound). **
+2 NOTE ** RESOLVED 5 Sep 2026 - THE ACT ITSELF HAS NOW BEEN READ. ** Birth act 8/1892 of the
+3 CONT Opatow Jewish register was located and read on GenBaza (AP_Sandomierz-24 /
+3 CONT Opatow_moj_44 / 1889-1892_ur, unit 388507, scan 96 = IMG_4215, right-hand page,
+3 CONT lower block). It names the father as RAFAEL WAJSBLUM, resident of Opatow, aged 29,
+3 CONT appearing in person with witnesses Abram Perec (62) and Szulim Rozenblum (42), both
+3 CONT beadles of the Opatow synagogue, and the mother as his lawful wife FAJGA, aged 23.
+3 CONT The child is named Bajla Szajndla.
+3 CONT ** So the open question posed in this note until today is answered in the affirmative:
+3 CONT the act IS hers, and @F60@ is confirmed from a contemporaneous record rather than
+3 CONT reconstructed from two Pages of Testimony. **
+3 CONT ** AND THE YEAR SHIFTS. ** The act states she was born at six in the evening on the
+3 CONT fifteenth of June or July (the month glyph is between Iyunya and Iyulya) "of the
+3 CONT PREVIOUS year" - that is, in 1891 - and was registered as act 8 of 1892. That
+3 CONT reconciles the three-year spread: the 1988 memorial list's 1891 is the birth year and
+3 CONT is right; 1892 is the registration year. Moshe's 1890 remains a form-filling error.
+3 CONT DATE changed here from 1892 to 1891 accordingly; the day is not entered because the
+3 CONT month is not yet certain. See findings/OPATOW-ACT-8-1892-2026-09-05.
 1 DEAT
 2 DATE 23 OCT 1942
 2 PLAC Treblinka extermination camp, Poland
@@ -1057,6 +1066,15 @@
 2 GIVN Rafael
 2 SURN Wajsblum
 1 SEX M
+1 BIRT
+2 DATE ABT 1863
+2 NOTE (documented) ** 5 Sep 2026 - he is no longer a man known only from other people's
+3 CONT Pages of Testimony. ** In Opatow birth act 8/1892 (GenBaza unit 388507, scan 96 =
+3 CONT IMG_4215) he appears IN PERSON to register his daughter Bajla Szajndla, is described
+3 CONT as a resident of the town of Opatow, and is given as "dvadtsati devyati let ot rodu"
+3 CONT - twenty-nine years of age. That places his birth about 1863. (I first misread the
+3 CONT figure as forty-nine and corrected it against a full-resolution crop.) No birthplace
+3 CONT is stated in the act. His own birth act, and his parents, remain unfound.
 1 FAMS @F60@
 1 NOTE (documented, by name only) Named as father on two Pages of Testimony filed
 2 CONT independently: by his son-in-law's brother-in-law - properly, by his daughter
@@ -1082,7 +1100,29 @@
 2 GIVN Fajga
 2 NOTE Also Cypojra/Tzipora - the same name in Yiddish and Hebrew, exactly as her daughter
 2 CONT was Reizel in Yiddish and Szoszana in Hebrew. Maiden surname UNKNOWN.
+2 CONT ** 5 Sep 2026 - HER MAIDEN SURNAME EXISTS ON PAPER AND HAS BEEN LOCATED, BUT NOT YET
+2 CONT READ. ** Opatow birth act 8/1892 says of her: "ot zakonnoy ego zheny FAIGI
+2 CONT UROZHDENNOY <surname>, dvadtsati trekh let ot rodu". The word after "urozhdennoy" is
+2 CONT one word in Cyrillic cursive at GenBaza unit 388507, scan 96 (IMG_4215), roughly
+2 CONT x 2295-2765, y 1878-1958 of the 3136x2580 image. Its interior letters are legible -
+2 CONT o, l-or-i, soft sign, d, sh, m, e, t, with a long descender under the d - but the
+2 CONT INITIAL CAPITAL is not, and it is demonstrably not the angular V this same clerk
+2 CONT writes in "Vaysblyum" in the margin of the same act (the two words were compared
+2 CONT side by side at magnification). Candidate readings run Goldszmet / Boldszmet /
+2 CONT Woldszmet. NOTHING IS ENTERED HERE, deliberately: a surname guessed from blurred
+2 CONT Cyrillic is exactly the failure this file exists to prevent.
+2 CONT ** The document that will settle it: the marriage act Rafael Wajsblum x Fajga, which
+2 CONT should fall about 1886-1890 and therefore in GenBaza unit 388531 (1884-1893_sl). A
+2 CONT Russian-era marriage act names the parents of both parties, so it would give her
+2 CONT maiden name in a second hand AND her father - a whole generation. **
 1 SEX F
+1 BIRT
+2 DATE ABT 1869
+2 NOTE (documented) Aged twenty-three in Opatow birth act 8/1892, which places her birth
+3 CONT about 1869. ** This bears on the open question below: the 1966 Opatow necrology's
+3 CONT "Cypojra Wajsblum, b. 1872, murdered" is now within ordinary form-filling tolerance
+3 CONT of this woman's age. That STRENGTHENS the identification. It does not settle it, and
+3 CONT it is logged, not smoothed. **
 1 FAMS @F60@
 1 NOTE (documented, by name only) "Mother: Feiga" on Reizel's Page by her son Moshe (1957);
 2 CONT "mother: Tzipora" on Szoszana's Page by Shlomo (1955); mother of Bejla per the 1921
