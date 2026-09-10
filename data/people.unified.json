@@ -1107,7 +1107,7 @@
   "sex": "F",
   "living": false,
   "birth": {
-   "date": "1892",
+   "date": "1891",
    "place": "Opatow, Poland",
    "notes": [
     "The year rests on the 1988 memorial list (1891) and the Pages of Testimony (1891/92);\nMoshe's own 1957 Page for her says 1890 - a three-year spread, normal for forms\nfilled in decades later. ** The attribution of birth act 8/1892 to her, asserted\nhere until 14 Aug 2026, is DOWNGRADED to an open question: it was premised on her\nbeing a child of the 1884 Moszek-Gella marriage, which is now rejected. Reading act\n8/1892 - first item in the Sandomierz letter - will either show parents Rafael and\nFajga (confirming both the act and @F60@) or show other parents (meaning her birth\nact is still unfound). **"
@@ -1269,7 +1269,10 @@
   },
   "sex": "M",
   "living": false,
-  "birth": null,
+  "birth": {
+   "date": "ABT 1863",
+   "place": null
+  },
   "death": null,
   "occupation": "",
   "notes": [
@@ -1299,7 +1302,10 @@
   },
   "sex": "F",
   "living": false,
-  "birth": null,
+  "birth": {
+   "date": "ABT 1869",
+   "place": null
+  },
   "death": null,
   "occupation": "",
   "notes": [
